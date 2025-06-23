@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000255</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000255</idno>
+                <idno type="EDCS">EDCS 09700880</idno>
+                <idno type="EDR">EDR078904</idno>
+                <idno type="EDH">HD000890</idno>
+                <idno type="LSA">LSA-1923</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Puteoli</settlement>
+                        <repository>Lapidarium of the Amphitheatre at Puteoli</repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
+                                    <dimensions>
+                                        <height unit="cm">130</height>
+                                        <width unit="cm">125</width>
+                                        <depth unit="cm">200</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line7">Lines 1–7</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">50-60</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/432815">Puteoli</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/6541681/pozzuoli.html">Pozzuoli</placeName>
+                                <geo>40.825838, 14.1217415</geo>
+                            </origPlace>
+                            <origDate atLeast="0325" atMost="0326">Based on the dedication to Flavius Iulius Crispus, son of Constantine who suffered damnatio.</origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered" when="1955">Discovered in Puteoli, on the via Rosini, in the imperial era forum, in the excavations of Educandato Maria Immacolata August 1955.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-13" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/>domino nostro clemen
+                    <lb n="2" break="no"/>tissimo principi <del rend="erasure"><persName type="ruler" key="flaviusIuliusCrispus"><name><expan><abbr><unclear>Fl</unclear></abbr><ex>avio</ex></expan></name> <name><unclear>Iu</unclear>lio</name>
+                    <lb n="3"/><name>Cr<unclear>i</unclear>spo</name> <unclear>nobilis</unclear>simo <unclear>ac</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4" break="no"/><unclear>ti</unclear>ssim<unclear>o</unclear> <name>C<unclear>aes</unclear>ari</name></persName></del>
+                    <lb n="5"/><persName type="attested"><name>Iulius</name> <name>Aurelianus</name></persName> <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> <expan><abbr>cons</abbr><ex>ularis</ex></expan>
+                    <lb n="6"/><expan><abbr>Camp</abbr><ex>aniae</ex></expan> devotus numini <expan><abbr>maiestati<supplied reason="lost">q</supplied></abbr><ex>ue</ex></expan>
+                    <lb n="7"/>eius
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>To our master, the most merciful first of men, Flavius Iulius Crispus, the most noble and [---] to most [---?] Caesar. Iulius Aurelianus, most renowned man, consul of Campania, devoted to his divine force and majesty.</p>
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/>AE<citedRange>1969/70.108</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

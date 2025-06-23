@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000283</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000283</idno>
+                <idno type="EDCS">EDCS 21200061</idno>
+                <idno type="EDR">EDR 135584</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Ulubrae</settlement>
+                        <repository></repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.uncertain" ref="https://www.eagle-network.eu/voc/material/lod/5.html">Uncertain</material>
+                                    <objectType ana="#object.decree" ref="https://www.eagle-network.eu/voc/typeins/lod/384.html">Municipal decree</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/703492106">Ulubrae</placeName>
+                            </origPlace>
+                            <origDate when="0132" evidence="consulship">Dated to 132 CE on the basis of the consular year.</origDate>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.decree" ref="https://www.eagle-network.eu/voc/typeins/lod/384.html">Municipal Decree</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-13" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/>aedem <persName type="divine" key="roma"><name>Ro<supplied reason="lost">mae</supplied></name></persName> <supplied reason="lost">et</supplied>
+                    <lb n="2"/><persName type="divine" key="augustus"><name>Augu<supplied reason="lost">sti</supplied></name></persName>
+                    <lb n="3"/>ordo <expan><abbr>Ulu<supplied reason="lost">b</supplied>ra<supplied reason="lost">n</supplied></abbr><ex>orum</ex></expan> <supplied reason="lost"><expan><abbr>decr</abbr><ex>eto</ex></expan></supplied>
+                    <lb n="4"/>suo ex pecun<supplied reason="lost">ia <expan><abbr>publ</abbr><ex>ica</ex></expan></supplied>
+                    <lb n="5"/>vetustte d<supplied reason="lost">ilapsam</supplied>
+                    <lb n="6"/>a fundamenti<supplied reason="lost">s restituit</supplied>
+                    <lb n="7"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Serio</name> <name>Augurin<supplied reason="lost">o</supplied></name></persName>
+                    <lb n="8"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Trebio</name> <name>Sergian<supplied reason="lost">o</supplied></name></persName> <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>The town council of Ulubrae decreed that the temple to Roma and Augustus, as a result of long having been in decay, be restored from its foundations out of its own public funds. Gaius Serius Augurinus and Gaius Trebius Sergianus being consuls.</p>
+            </div>
+            <div type="commentary">
+                <p>This is the only evidence we have for an aedes of Roma and Augustus in Ulubrae, and its restoration in 132 CE might suggest that it was originally built in the Julio-Claudian period, although we should be hesitant about securely dating buildings based on assertions as to the extent of a building's decay. This text is remarkable for the fact that Ulubrae, a modest municipium, chose to spend public funds restoring the temple.</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/>CIL<citedRange>10.6485</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/>ILS<citedRange>6274</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

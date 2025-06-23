@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000279</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000279</idno>
+                <idno type="EDCS">EDCS 05800575</idno>
+                <idno type="EDR">EDR 161242</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Tusculum</settlement>
+                        <repository></repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
+                                    <dimensions>
+                                        <height unit="cm">100</height>
+                                        <width unit="cm">53</width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/423108">Tusculum</placeName>
+                                <geo>41.798284, 12.710316</geo>
+                            </origPlace>
+                            <origDate when="0216" evidence="ruler">Dedicated on Aug 15 216 CE.</origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered" notAfter="1711">Found on Monte Tuscolo, in the area of villa Mondragone, before 1711. Previously seen in the secret garden of villa Mondragone, but now presumed lost.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-13" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <div type="textpart" subtype="face" n="front">
+                    <ab>
+                        <lb n="1"/><persName type="ruler" key="caracalla"><name><expan><abbr><supplied reason="undefined" evidence="previouseditor">Imp</supplied></abbr><ex>eratori</ex></expan></name> <name><expan><abbr>Caes</abbr><ex>ari</ex></expan></name> <expan><abbr>M</abbr><ex>arco</ex></expan> <name>Aurelio</name> <name>An
+                        <lb n="2" break="no"/><supplied reason="undefined" evidence="previouseditor">t</supplied>onino</name> Pio Felici <expan><abbr>Aug</abbr><ex>usto</ex></expan></persName>
+                        <lb n="3"/>principi iuventutis <persName type="divine" key="numen"><name>nu
+                        <lb n="4" break="no"/>mini</name> <name>praesenti</name></persName> restitu
+                        <lb n="5" break="no"/>tori et conservatori
+                        <lb n="6"/>semper vitae adque
+                        <lb n="7"/>dignitatis suae de
+                        <lb n="8" break="no"/>votissimus <persName type="divine" key="numen"><name>numi
+                        <lb n="9" break="no"/>ni</name></persName> eius
+                        <lb n="10"/><persName type="attested"><name><expan><abbr><unclear>M</unclear></abbr><ex>arcus</ex></expan></name> <name>Aemilius</name> <name>Macer</name> <name>Faustini<unclear>a</unclear><supplied reason="lost">nus</supplied></name></persName>
+                        <lb n="11"/><expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="right">
+                    <ab>
+                        <lb n="1"/><expan><abbr>ded</abbr><ex>i</ex><abbr>c</abbr><ex>ata</ex></expan> <num value="18">XVIII</num> <expan><abbr>kal</abbr><ex>endas</ex></expan>
+                        <lb n="2"/><expan><abbr>Septem</abbr><ex>bres</ex></expan>
+                        <lb n="3"/><persName type="attested"><name>Catio</name> <name>Sabino</name> <num value="2">II</num></persName> et <persName type="attested"><name>Corne
+                        <lb n="4" break="no"/>lio</name> <name>Anullino</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>   
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>[Front] To Imperator Caesar Marcus Aurelius Antoninus Pius Felix Augustus, foremost of the young, to the present divinity, conservator of the dedicator's life, and restorer of his dignity, always most devoted to his divine force. Marcus Aemilius Macer Faustinianus, a most illustrious man. [Right side] Dedicated on the 18th day before the Kalends of September, when Catius Sabinus II and Cornelius Anullinus were consuls.</p>
+            </div>
+            <div type="commentary">
+                <p>The dedicator, M. Aemilius Macer Faustinianus, is an otherwise unknown senator. The dedicator chose to give Caracalla the title of princeps iuventutis, despite having not held the position for six years. As Klingenberg (2012) suggests, Faustinianus was likely convicted of a crime under Septimius Severus, but nonetheless restored to his consular dignity by Caracalla.</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/>CIL<citedRange>14.2596</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/>ILS<citedRange>453</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Klingenberg2012"/>Klingenberg 2012.
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

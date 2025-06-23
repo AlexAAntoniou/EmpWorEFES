@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000247</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000247</idno>
+                <idno type="EDCS">EDCS 11500496</idno>
+                <idno type="EDR">EDR116016</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Puteoli</settlement>
+                        <repository>Naples, Piazzetta Mondragone 9 (Palazzo Eldorado), walled up near the entrance door to the garden.</repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Large rectangular statue base, with slight abrasion to upper plinth.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
+                                    <dimensions>
+                                        <height unit="cm">131</height>
+                                        <width unit="cm">147</width>
+                                        <depth unit="cm">78</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Text is relatively regular and neat. Long "I" present in line 2: Imp(eratoris) and the second I of Aelii; line 3: second I of Pii; line 7: Ostis. Tall "Y" in line 6 in Chrysanthus. </p>
+                                <locus from="line1" to="line8">Lines 1–8</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">40-51</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/432815">Puteoli</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/6541681/pozzuoli.html">Pozzuoli</placeName>
+                                <geo>40.825838, 14.1217415</geo>
+                            </origPlace>
+                            <origDate atLeast="0139" atMost="0161" evidence="ruler">139–161 based on the titles of Antoninus Pius and Marcus Aurelius</origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered" when="1672">Discovered in Putoeli whilst digging a grave for burial in the church of S. Giacomo (now del Carmine) in 1672.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-12" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/>pro salute
+                    <lb n="2"/><persName type="ruler" key="antoninus-pius"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name> <name>Caesaris</name> <name>Titi</name> <name>Aelii</name>
+                    <lb n="3"/><name>Hadriani</name> <name>Antonini</name> <expan><abbr>Aug</abbr><ex>usti</ex></expan> Pii </persName> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et
+                    <lb n="4" break="no"/><persName type="ruler" key="marcus-aurelius"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="#interpunct">·</g> <name>Alli</name> <g ref="#interpunct">·</g> <name>Aureli</name> <g ref="#interpunct">·</g> <name>Caesaris</name></persName> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ostri</ex></expan>
+                    <lb n="5"/><persName type="divine" key="geniuscoloniae"><name>genio</name> <name>coloniae</name></persName> Puteolanorum
+                    <lb n="6"/><persName type="attested"><name>Chrysanthus</name></persName> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>disp</abbr><ex>ensator</ex></expan> a fruminto
+                    <lb n="7"/>Puteolis et Ostis
+                    <lb n="8"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> decurionum permissu
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR with comparison with photograph</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>For the safety of Imperator Caesar Titus Aelius Hadrianus Antoninus Augustus Pius, father of the fatherland and Marcus Allus [Aelius?] Aurelius, our Caesar, to the Genius of the colony of Puteoli. Chrysanthus, dispensator of Augustus for the grain in Puteoli and Ostia. This place was given with the permission of the decurions.</p>
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/>CIL<citedRange>10.1562</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/>ILS<citedRange>344</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

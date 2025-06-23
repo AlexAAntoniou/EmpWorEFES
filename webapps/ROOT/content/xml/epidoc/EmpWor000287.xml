@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000287</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000287</idno>
+                <idno type="EDCS">EDCS 20400661</idno>
+                <idno type="EDR">EDR 123109</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Venafrum</settlement>
+                        <repository></repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.uncertain" ref="https://www.eagle-network.eu/voc/material/lod/5.html">Uncertain</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/433185">Venafrum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/6539351/venafro.html">Venafro</placeName>
+                                <geo>41.484488, 14.046066</geo>
+                            </origPlace>
+                            <origDate/> <!-- 121-170 CE-->
+                        </origin>
+                        <provenance type="found" subtype="discovered" when="1634">Discovered behind the Capuchin church in 1634, and already in pieces when seen by De Utris.</provenance> 
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-13" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>Sex</abbr><ex>to</ex></expan></name> <name>Pulfennio</name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName>
+                    <lb n="2"/><expan><abbr>Ter</abbr><ex>etina</ex></expan> <name>Salutari</name> <name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Luccio</name>
+                    <lb n="3"/><name>Valerio</name> <name>Severo</name></persName>
+                    <lb n="4"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="4"><hi rend="supraline">IIII</hi></num> <expan><abbr>Gall</abbr><ex>orum</ex></expan> <expan><abbr>equitat</abbr><ex>ae</ex></expan>
+                    <lb n="5"/><expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="1"><hi rend="supraline">I</hi></num> <expan><abbr>mill</abbr><ex>iariae</ex></expan> <expan><abbr>Vindelic</abbr><ex>orum</ex></expan>
+                    <lb n="6"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> alae <num value="1"><hi rend="supraline">I</hi></num> <expan><abbr>Pannonior</abbr><ex>um</ex></expan>
+                    <lb n="7"/><expan><abbr>cur</abbr><ex>atori</ex></expan> calendari <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Suess</abbr><ex>anorum</ex></expan>
+                    <lb n="8"/><expan><abbr>cur</abbr><ex>atori</ex></expan> templi et arcae
+                    <lb n="9"/>Vitrasianae <expan><abbr>Calenor</abbr><ex>um</ex></expan>
+                    <lb n="10"/>flamini <persName type="divine" key="divusTraianus"><name>divi</name> <name>Traiani</name></persName>
+                    <lb n="11"/><hi rend="supraline">II</hi>viro <expan><abbr><hi rend="supraline">q</hi></abbr><ex>uaestori</ex></expan> <num value="3"><hi rend="supraline">III</hi></num>
+                    <lb n="12"/>patrono <expan><abbr>col</abbr><ex>oniae</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>To Sextus Pulfennius Salutaris Marcus Luccius Valerius Severus, son of Gaius, prefect of the 4th cavalry cohort of Gauls, military tribune of the 1st milliary cohort of Vindelicus, prefect of the 1st cavalary unit of Pannonia, curator of the account books of the colony of Suessa, curator of the temple and chest of the gens Vitrasia from Cales, flamen of the divine Trajan, duovir, quaestor for the third time, patron of the colony.</p>
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/>CIL<citedRange>10.4873</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Venafrum"/>Venafrum<citedRange>36</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

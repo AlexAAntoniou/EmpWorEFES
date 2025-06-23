@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000286</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000286</idno>
+                <idno type="EDCS">EDCS 20400656</idno>
+                <idno type="EDR">EDR 115428</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Venafrum</settlement>
+                        <repository></repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Capini (1999) suggests that the dedication perhaps once belonged to a cylindrical drum monument</p>
+                                    <material ana="#material.uncertain" ref="https://www.eagle-network.eu/voc/material/lod/5.html">Uncertain</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Capini (1999) records that the I was elongated in line 1 (in pil(o) and mil(itum), and in line 8 (in the second I of Iuli), and in line 11 (in lib(erti).</p>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/433185">Venafrum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/6539351/venafro.html">Venafro</placeName>
+                                <geo>41.484488, 14.046066</geo>
+                            </origPlace>
+                            <origDate atLeast="0032" atMost="0037" cert="medium">32–37 CE. The inscription attests to its Tiberian date, but Capini (1999) suggests that a firm terminus ante quem of 32 CE can be advanced given the probable connection between this inscription and CIL 10.4847.  CIL 10.4847 can firmly be dated to 32 CE, and Nedymus in that inscription is still an enslaved person: Nedymus has been freed by the time of this inscription's creation.</origDate>
+                        </origin>
+                        <provenance type="found" subtype="dicovered">First discovered in the Cathedral of Venafro, walled into the main apse. The inscription was subsequently (after 1647) used in the building of the Bishop's Palace, and remained visible for a time before it was plastered over.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-13" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>Sex</abbr><ex>to</ex></expan></name> <name>Aulieno</name> <persName type="patronym"><name><expan><abbr>Sex</abbr><ex>ti</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName>
+                    <lb n="2"/><name><expan><abbr>Ani</abbr><ex>ensi</ex></expan></name></persName>
+                    <lb n="3"/>primo <expan><abbr>pil</abbr><ex>o</ex></expan> <num value="2"><hi rend="supraline">II</hi></num> <expan><abbr>tr</abbr><ex>ibuno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan>
+                    <lb n="4"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> levis <expan><abbr>armat</abbr><ex>urae</ex></expan>
+                    <lb n="5"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>castr</abbr><ex>orum</ex></expan> <persName type="ruler"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name> <name><expan><abbr>Caesar</abbr><ex>is</ex></expan></name>
+                    <lb n="6"/><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> et <persName type="attested"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <name>Caesaris</name> <name>Augusti</name></persName>
+                    <lb n="7"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> classis <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan> <expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan>
+                    <lb n="8"/>Venafri et Foro Iuli flamini
+                    <lb n="9"/><persName type="divine"><name>Augustali</name></persName>
+                    <lb n="10"/><persName type="attested"><name>Nedymus</name></persName> et <persName type="attested"><name>Gamus</name></persName>
+                    <lb n="11"/><expan><abbr>lib</abbr><ex>erti</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>To Sextus Aulienus Aniensus, son of Sextus, twice first-spear, military tribune, prefect of the lightly armed, prefect of the camps of Imperator Caesar Augustus, and Tiberius Caesar Augustus, prefect of the fleet, prefect of engineers, duovir of Venafrum and Forum Iulii, flamen of Augustus. Nedymus and Gemus, his freedpersons, (set this up).</p>
+            </div>
+            <div type="commentary">
+                <p>If we assume that the inscription is roughly chronological, the priesthood attested here is likely to have been devoted to the living Tiberius. The same Nedymus, here a freedperson, is probably also found in CIL 10.4847, dedicated in 32 CE, at which time he was still an enslaved person.</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/>CIL<citedRange>10.4868</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/>ILS<citedRange>2688</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Venafrum"/>Venafrum<citedRange>31</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

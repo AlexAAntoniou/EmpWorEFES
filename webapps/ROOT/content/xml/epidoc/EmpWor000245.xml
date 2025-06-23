@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000245</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000245</idno>
+                <idno type="EDCS">EDCS 11500564</idno>
+                <idno type="EDR">EDR176866</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Puteoli</settlement>
+                        <repository>Naples, Museo Archeologico Nazionale</repository> <!-- depositi -->
+                        <idno>3270</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
+                                    <dimensions>
+                                        <height unit="cm">40</height>
+                                        <width unit="cm">29.5</width>
+                                        <depth unit="cm">5</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line8">Lines 1–8</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">23-38</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/432815">Puteoli</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/6541681/pozzuoli.html">Pozzuoli</placeName>
+                                <geo>40.825838, 14.1217415</geo>
+                            </origPlace>
+                            <origDate when="0085" evidence="consuls">85 CE based on the consular year</origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered">First seen in the collection of Spinelli, prince of San Giorgio, in the mid-19th century.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-12" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><supplied reason="lost"><persName type="ruler"><name><expan><abbr>Imp</abbr><ex>eratore</ex></expan></name> <name><expan><abbr>Caes</abbr><ex>are</ex></expan></name> <name>Domitiano</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name> <num value="11">XI</num></persName></supplied>
+                    <lb n="2"/><persName type="attested"><name><expan><abbr><supplied reason="lost">T</supplied></abbr><ex>ito</ex></expan></name> <name>Aureli<supplied reason="lost">o</supplied></name> <name>Fulvo</name> <num value="2">I<supplied reason="lost">I</supplied></num></persName> <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="3"/><supplied reason="lost" cert="low">August</supplied>les qui pr<supplied reason="lost">o salute</supplied>
+                    <lb n="4"/><supplied reason="lost" cert="low">et reditu</supplied> <persName type="ruler"><name><expan><abbr><supplied reason="lost">I</supplied><unclear>m</unclear>p</abbr><ex>eratoris</ex></expan></name> <persName type="patronym"><name>Domitian<supplied reason="lost">i</supplied></name> <supplied reason="lost">divi <expan><abbr>f</abbr><ex>ili</ex></expan></supplied></persName>
+                    <lb n="5"/><supplied reason="lost"><name><expan><abbr>Caes</abbr><ex>aris</ex></expan></name> Augusti</supplied> <expan><abbr>Germ</abbr><ex>anici</ex></expan></persName> et <persName type="ruler"><name><supplied reason="lost">Domitiae</supplied></name> <name><expan><abbr><supplied reason="lost">Aug</supplied></abbr><ex>ustae</ex></expan></name></persName>
+                    <lb n="6"/><persName type="ruler"><name><supplied reason="lost">Domitiani</supplied></name> <name><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>usti</ex></expan></name></persName> et <persName type="ruler">Iulia<supplied reason="lost">e</supplied> <name><supplied reason="lost">Augustae</supplied></name></persName>
+                    <lb n="7"/><supplied reason="lost">totiusque</supplied> <persName type="divine" key="domusdivinae"><name><supplied reason="lost">domus</supplied></name> <name>divinae</name></persName> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="8"/><gap reason="lost" extent="unknown" unit="char"/><gap reason="illegible" quantity="1" unit="char"/>i et <gap reason="lost" extent="unknown" unit="char"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>When Imperator Caesar Domitianus Augustus for the 11th time, and Titus Aurelius Flavius for the 2nd time, were consuls. The Augustales(?), who for the safety and return of Imperator Domitian Caesar Augustus Germanicus, son of a god, and Domitia Augusta, Domitian Augustus and Iulia Augusta, and the whole divine house  [---] and [---]? </p>
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/>CIL<citedRange>10.1632</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

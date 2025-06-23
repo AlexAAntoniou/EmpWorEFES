@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000042</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000042</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Liternum</settlement>
+                        <repository></repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>White marble plaque with a frame made of a double strip and a hollow, rough-hewn back.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm">73</height>
+                                        <width unit="cm">117</width>
+                                        <depth unit="cm">3–4</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><p>Text lies within a field of 57x99cm. Under a heading, and above the dedication, are inscribed four columns of names.</p>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus subtype="heading" from="line1" to="line2">Heading</locus>
+                                <dimensions type="letterHeight"></dimensions>
+                                    <height unit="mm">42–55</height>
+                                <locus subtype="column" n="A" from="line1" to="line14">Column A, lines 1–14</locus>
+                                <dimensions type="letterHeight"></dimensions>
+                                    <height unit="mm">17–30</height>
+                                <locus subtype="column" n="B" from="line1" to="line13">Column B, lines 1–13</locus>
+                                <dimensions type="letterHeight"></dimensions>
+                                    <height unit="mm">17–30</height>
+                                <locus subtype="column" n="C" from="line1" to="line15">Column A, lines 1–15</locus>
+                                <dimensions type="letterHeight"></dimensions>
+                                    <height unit="mm">17–30</height>
+                                <locus subtype="column" n="D" from="line1" to="line10">Column A, lines 1–10</locus>
+                                <dimensions type="letterHeight"></dimensions>
+                                    <height unit="mm">17–30</height>
+                                <locus subtype="ending" from="line1" to="line1">Ending</locus>
+                                <dimensions type="letterHeight"></dimensions>
+                                    <height unit="mm">45</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/432911">Liternum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/9881928/lago-patria.html">Lago Patria</placeName>
+                                <geo>40.92106, 14.03007</geo>
+                            </origPlace>
+                            <origDate/> <p>Camodeca 2010 dates this to roughly the time of Marcus Aurelius, given that a C. Pomponius Xystus (likely the namesake of the Pomponius Xystus of column d, line 8), makes dedications to M. Aurelius and L. Verus at the temple of Apollo in Cumae (CIL 10.3695 and 10.3695a). Camodeca 2010 also posits that  this man's son, C. Pomponius Agon, who appears with him in another inscription at Cumae (AE 2001.849), appears in another register of the Augustales at Liternum, see <ref target="EmpWor000043.xml">EmpWor43</ref>.</p>
+                        </origin>
+                        <provenance type="found" subtype="discovered">Although the year of discovery and provenance are not explicitly attested, Camodeca 2010 believes that it was discovered in 1934, reused in the flooring of the theatre orchestra, as he believes it can be identified with an inscription mentioned in Chianese 1936.</provenance>
+                        <provenance type="transferred" when="2008">Transferred from the Museo Archaeologico Nazionale in Naples to the Museo Nazionale Archaeologico Campri Flegrei in the Castle of Baia in 2008.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-04-17" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA"><!-- CIL -->
+                <div type="textpart" subtype="heading">
+                    <ab> 
+                        <lb n="1"/>Augustales <g ref="#interpunct">·</g> creati <g ref="#interpunct">·</g> ii qui <g ref="#interpunct">·</g> in cultu <g ref="#interpunct">·</g> <persName type="divinity"><name>domus <g ref="#interpunct">·</g>
+                        <lb n="2"/>divinae</name></persName> <g ref="#interpunct">·</g> contulerunt <g ref="#interpunct">·</g>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="A">
+                    <ab> 
+                        <lb n="1"/>patroni allecti <g ref="#interpunct">·</g>
+                        <lb n="2"/><persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name>Vettulenus</name> <name>Nepos</name></persName>
+                        <lb n="3"/><persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name>Vettulenus</name> <name><expan><abbr>Nemesinian</abbr><ex>us</ex></expan></name></persName>
+                        <lb n="4"/><persName type="attested"><supplied reason="lost" cert="low"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name></supplied> <name>Marcius</name> <name>Secundus</name></persName>
+                        <lb n="5"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Marcius</name> <name>Polybius</name></persName>
+                        <lb n="6"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>Caecilius</name> <name>Quadratus</name></persName>
+                        <lb n="7"/><persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name>Vetulenus</name> <name>Nemesinianus</name></persName>
+                        <lb n="8"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>Caecilius</name> <name>Quadratus</name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName>
+                        <lb n="9"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Lollius</name> <name>Hedylalus</name></persName>
+                        <lb n="10"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Lollius</name> <name>Hedylalus</name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName>
+                        <lb n="11"/>dupliciari
+                        <lb n="12"/><persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name>Vettulenus</name> <name>Pothus</name></persName>
+                        <lb n="13"/>curator perpetuus
+                        <lb n="14"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Lollius</name> <name>Hedylalus</name></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="B">
+                    <ab>
+                        <lb n="1"/>plebs
+                        <lb n="2"/><persName type="attested"><name>Vettulenus</name> <name>Rufus</name></persName>
+                        <lb n="3"/><persName type="attested"><name>Fufius</name> <name>A<choice><corr>p</corr></choice>o<choice><corr>l</corr></choice>lonius</name></persName>
+                        <lb n="4"/><persName type="attested"><name>Maetius</name> <name>Eucratus</name></persName>
+                        <lb n="5"/><persName type="attested"><name>Voltricius</name> <name>Restitut<g ref="#interpunct">·</g>s</name></persName>
+                        <lb n="6"/><persName type="attested"><name>Licinius</name> <name>Restitutus</name></persName>
+                        <lb n="7"/><persName type="attested"><name>Vettulenus</name> <name>Hyginus</name></persName>
+                        <lb n="8"/><persName type="attested"><name>Varius</name> <name>Epa<hi rend="ligature">ph</hi>roditus</name></persName>
+                        <lb n="9"/><persName type="attested"><name>Ulpius</name> <name>Felix</name></persName>
+                        <lb n="10"/><persName type="attested"><name>Marcius</name> <name><expan><abbr>Apollinar</abbr><ex>is</ex></expan></name></persName>
+                        <lb n="11"/><persName type="attested"><name>Mallonius</name> <name>Epictetus</name></persName>
+                        <lb n="12"/><persName type="attested"><name>Pagnius</name> <name>Hesper</name></persName>
+                        <lb n="13"/><persName type="attested"><name>Aemilius</name> <name>Esychus</name></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="C">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name>Ofellenius</name> <name>Posidonius</name></persName>
+                        <lb n="2"/><persName type="attested"><name>Ulpius</name> <name>Hodiernus</name></persName>
+                        <lb n="3"/><persName type="attested"><name>Curtius</name> <name>Epaproditus</name></persName>
+                        <lb n="4"/><persName type="attested"><name>Lollius</name> <name>Victorinus</name></persName>
+                        <lb n="5"/><persName type="attested"><name>Accius</name> <name>Statutus</name></persName>
+                        <lb n="6"/><persName type="attested"><name>Carsidius</name> <name>Florianus</name></persName>
+                        <lb n="7"/><persName type="attested"><name>Carisius</name> <name>Faor</name></persName>
+                        <lb n="8"/><persName type="attested"><name>Fufius</name> <name>Eutyches</name></persName>
+                        <lb n="9"/><persName type="attested"><name>Lollius</name> <name>Strenio</name></persName>
+                        <lb n="10"/><persName type="attested"><name>Cassius</name> <name>Eubulus</name></persName>
+                        <lb n="11"/><persName type="attested"><name>Caecilius</name> <name>Eutychas</name></persName>
+                        <lb n="12"/><persName type="attested"><name>Herennius</name> <name><choice><corr>G</corr><orig>C</orig></choice>alaticus</name></persName>
+                        <lb n="13"/><persName type="attested"><name>Aemilius</name> <name>Primitivos</name></persName>
+                        <lb n="14"/><persName type="attested"><name>Marcius</name> <name>Onesimus</name></persName>
+                        <lb n="15"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Aemilius</name> <name>Alcibiades</name></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="D">
+                    <ab>
+                      <lb n="1"/><persName type="attested"><name>Hermes</name></persName> <expan><abbr>col</abbr><ex>onorum</ex></expan> <supplied reason="subaudible">servus</supplied> <expan><abbr>ark</abbr><ex>arius</ex></expan> 
+                      <lb n="2"/><persName type="attested"><name>Vitalis</name></persName>  <expan><abbr>col</abbr><ex>onorum</ex></expan> <supplied reason="subaudible">servus</supplied> <expan><abbr>ark</abbr><ex>arius</ex></expan>
+                      <lb n="3"/><persName type="attested"><name>Felix</name></persName>  <expan><abbr>col</abbr><ex>onorum</ex></expan> <supplied reason="subaudible">servus</supplied>
+                      <lb n="4"/><persName type="attested"><name>Lollius</name> <name>Augustianus</name></persName> 
+                      <lb n="5"/><persName type="attested"><name>Osculenus</name> <name>Sosthenes</name></persName>
+                      <lb n="6"/><persName type="attested"><name>Lollius</name> <name>Martialis</name></persName> 
+                      <lb n="7"/><persName type="attested"><name>Lollius</name> <name>Calocaerus</name></persName>
+                      <lb n="8"/><persName type="attested"><name>Pomponius</name> <name>Xystus</name></persName>
+                      <lb n="9"/><persName type="attested"><name>Lollius</name> <name>Hyginus</name></persName>    
+                      <lb n="10"/><persName type="attested"><name>Lollius</name> <name><expan><abbr>Eutyche</abbr><ex>s</ex></expan></name></persName>    
+                    </ab>
+                </div>
+                <div type="textpart" subtype="ending">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <g ref="#interpunct">·</g> <name>Varius</name> <g ref="#interpunct">·</g> <name>Epaphroditus</name></persName> <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>onum</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>edit</ex></expan> <g ref="#interpunct">·</g>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text of Camodeca 2010, compared with photographs.</note></app>
+                    <app subtype="column" n="b" loc="3"><note>In Apollonius the stonecutter has omitted the loop of the P and the horizontal line of the first L</note></app>
+                    <app subtype="column" n="b" loc="5"><note>In Restituts the stonecutter has placed an interpunct instead of the second U (for Restitutus)</note></app>
+                    <app subtype="column" n="c" loc="10"><note>The stone read CALATICUS. Camodeca regularises this to Galaticus</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p></p> <!-- translation needed -->
+            </div>
+            <div type="commentary">
+                <p></p> <!-- Mouritsen 2006, 241; Vandevoorde 2013, 141 -->
+            </div>
+            <div type="bibliography">
+                 <p>
+                    <bibl>
+                        <ptr target="AE"/><citedRange>2001.853</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Camodeca2010"/><citedRange>nr.16</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

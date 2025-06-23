@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000234</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000234</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Praeneste</settlement>
+                        <repository></repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/423013">Praeneste</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3171606/palestrina.html">Palestrina</placeName>
+                                <geo>41.8394835, 12.8923075</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-12" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeo</ex></expan></name> <g ref="#interpunct">·</g> <name>Voesio</name> <g ref="#interpunct">·</g>
+                    <lb n="2"/><persName type="patronym"><name><expan><abbr>Cn</abbr><ex>aei</ex></expan></name> <g ref="#interpunct">·</g> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <g ref="#interpunct">·</g> <name>Apro</name></persName> <g ref="#interpunct">·</g>
+                    <lb n="3"/>quaestori <g ref="#interpunct">·</g> aedili <g ref="#interpunct">·</g> <hi rend="supraline">II<g ref="#interpunct">·</g></hi>viro <g ref="#interpunct">·</g>
+                    <lb n="4"/>flamini <g ref="#interpunct">·</g> <persName type="divine" key="divusAugustus"><name>divi</name> <g ref="#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <g ref="#interpunct">·</g> <hi rend="supraline">VI</hi><g ref="#interpunct">·</g>viro <g ref="#interpunct">·</g>
+                    <lb n="5"/>Augustali curatori <expan><abbr>annon</abbr><ex>ae</ex></expan>
+                    <lb n="6"/>triennio continuo <expan><abbr>curat</abbr><ex>ori</ex></expan> <g ref="#interpunct">·</g>
+                    <lb n="7"/>muneris publici gladiatori <num value="3">III</num>
+                    <lb n="8"/>quot is tempore honorum cu
+                    <lb n="9" break="no"/>rarumque suarum plenissimo
+                    <lb n="10"/>munificentiae studio <expan><abbr>voluptatib</abbr><ex>us</ex></expan>
+                    <lb n="11"/>et <g ref="#interpunct">·</g> utilitatibus <g ref="#interpunct">·</g> populi plurima
+                    <lb n="12"/>contulerit <g ref="#interpunct">·</g> ludum <g ref="#interpunct">·</g> etiam <g ref="#interpunct">·</g> gladi
+                    <lb n="13" break="no"/>atorium <g ref="#interpunct">·</g> et <g ref="#interpunct">·</g> <expan><abbr>spoliar</abbr><ex>ium</ex></expan> <g ref="#interpunct">·</g> solo <unclear>emp</unclear>to
+                    <lb n="14"/>sua <g ref="#interpunct">·</g> pecunia <g ref="#interpunct">·</g> exstructum publice op
+                    <lb n="15" break="no"/>tulerit cuius meritis postulante populo
+                    <lb n="16"/>statuam <g ref="#interpunct">·</g> publice <g ref="#interpunct">·</g> poni <g ref="#interpunct">·</g> placuit <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="#interpunct">·</g>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR, comparison to photo</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/>CIL<citedRange>14.3014</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

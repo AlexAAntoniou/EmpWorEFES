@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000244</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000244</idno>
+                <idno type="EDCS">EDCS 13600429</idno>
+                <idno type="EDR">EDR079711</idno>
+                <idno type="EDH">HD006552</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Puteoli</settlement>
+                        <repository>Archaeological Museum of the Phlegrean Fields</repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
+                                    <dimensions>
+                                        <height unit="cm">32</height>
+                                        <width unit="cm">90</width>
+                                        <depth unit="cm">4</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line4">Lines 1–4</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">32-50</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/432815">Puteoli</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/6541681/pozzuoli.html">Pozzuoli</placeName>
+                                <geo>40.825838, 14.1217415</geo>
+                            </origPlace>
+                            <origDate atLeast="0211" atMost="0217" evidence="ruler">Dated to the reign of Caracalla (211–217 CE)</origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered" when="1952">Discovered in Puetoli, on via Girone, in the property of S. Limongelli (April 27 and May 16 1952). Transferred to the Museo Archeologico dei Campi Flegrei at Baia in 2008.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-12" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="divine"><name><supplied reason="lost">Augustae</supplied></name></persName> <supplied reason="lost">sac</supplied>rum <persName type="divine" key="numen"><name>numin<unclear>i</unclear></name> <name><supplied reason="lost">praese</supplied>nti</name></persName> <persName type="divine" key="venusCaelestis"><name>Veneri</name> <name>C<supplied reason="lost">aelesti</supplied></name></persName>
+                    <lb n="2"/><supplied reason="lost">pro <expan><abbr>sal</abbr><ex>ute</ex></expan></supplied> <persName type="ruler" key="caracalla"><name><expan><abbr><supplied reason="lost">Imp</supplied></abbr><ex>eratoris</ex></expan></name> <name><expan><abbr><supplied reason="lost">Caes</supplied></abbr><ex>aris</ex></expan></name> <name><expan><abbr><supplied reason="lost">M</supplied></abbr><ex>arci</ex></expan></name> <name><supplied reason="lost">Aureli</supplied></name> <name><supplied reason="lost">An</supplied>tonini</name> <unclear>P</unclear><supplied reason="lost">ii F</supplied>elicis <expan><abbr>Aug</abbr><ex>usti</ex></expan></persName> e<unclear>t</unclear> <persName type="ruler" key="iulia-augusta"><name><supplied reason="lost">Iu</supplied>liae</name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name> <expan><abbr>matri</abbr><ex>s</ex></expan> <expan><abbr>A<unclear>u</unclear><supplied reason="lost">g</supplied></abbr><ex>usti</ex></expan></persName> <supplied reason="lost">et castrorum et</supplied>
+                    <lb n="3"/><supplied reason="lost">senatus et patriae <expan><abbr>totiusq</abbr><ex>ue</ex></expan></supplied> <persName type="divine" key="domusdivinae"><name><supplied reason="lost">do</supplied>mus</name> <name>divi<unclear>n</unclear><supplied reason="lost">ae</supplied></name></persName> <supplied reason="lost">nov</supplied><unclear>u</unclear>m templum extruxit <persName type="attested"><name>Asellin<supplied reason="lost">us</supplied></name> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                    <lb n="4"/><supplied reason="lost" cert="low">sua pecunia cum filiis</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">e</supplied>t <persName type="attested"><name>Demetri<supplied reason="lost">ano</supplied></name></persName> <supplied reason="lost">in</supplied> <expan><abbr>l<supplied reason="lost">o</supplied>c</abbr><ex>um</ex></expan> sibi datum ab <persName type="attested"><name>Appio</name> <name>Cla<supplied reason="lost">udio</supplied></name> <name><supplied reason="lost">Iuliano</supplied></name></persName> <supplied reason="lost" cert="low"><expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>cur</abbr><ex>atore</ex></expan> <expan><abbr>r</abbr><ex>ei</ex></expan> <expan><abbr>p</abbr><ex>ublicae</ex></expan></supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>Sacred to [Augusta], to the present divine force of Venus Caelestis. [For the safety of Imperator Caesar Marcus Aurelius Ant]oninus Pius Felix Augustus, and Iulia Augusta, mother of the Augustus, [and of the camps, and the senate, and the fatherland, and the whole divine] house. Asellinus [---] built a new temple [---] [with his own money and with his sons(?)] [---] and Demetrianus, in the place given to him by Appius Claudius [Iulianus, the most illustrious man, and curator of the res publica(?)].</p>
+            </div>
+            <div type="commentary">
+                <p>The same Appius Claudius Iulianus can be found in another inscription from Puteoli: CIL 10.1688</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/>AE<citedRange>1956.144</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/>AE<citedRange>1985.278</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

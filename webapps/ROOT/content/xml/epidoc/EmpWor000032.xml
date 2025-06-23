@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Aedes/Templum to the Memory of the Domus of Domitia Augusta</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000032</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Gabii</settlement>
+                        <repository></repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/422932">Gabii</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3176443/gabii.html">Gabii</placeName>
+                                <geo>41.88737, 12.71972</geo>
+                            </origPlace>
+                            <origDate when="0140-04-23">23 April 140 CE</origDate>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-04-11" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab> <!-- CIL -->
+                   <lb n="1"/>in honorem memoriae domus <persName type="attested"><name>Domitiae</name> <name>Augustae</name> <persName type="attested"><name type="patronym"><expan><abbr>Cn</abbr><ex>aei</ex></expan></name> <name type="patronym">Domitii</name> <name type="patronym">Corbulonis</name></persName>
+                   <lb n="2"/><expan><abbr>fil</abbr><ex>iae</ex></expan></persName> <name>Domitii</name> <name>Polycarpus</name> et <name>Europe</name> <expan><abbr>loc</abbr><ex>o</ex></expan> <expan><abbr>dat</abbr><ex>o</ex></expan> decreto ordinis <expan><abbr>decur</abbr><ex>ionum</ex></expan> aedem
+                   <lb n="3"/>fecerunt et ex ornaverunt statuis et reliquis pecunia sua eiusdem
+                   <lb n="4" break="no"/>que tutelam in perpetuum reipublicae dederunt sub inscriptione infra scripta
+                   <lb n="5"/><persName type="attested"><name><expan><abbr>Imp</abbr><ex>eratore</ex></expan></name> <name><expan><abbr>Caes</abbr><ex>are</ex></expan></name> <name><expan><abbr>T</abbr><ex>ito</ex></expan></name> <name>Aelio</name> <name>Hadriano</name> <name>Antonino</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name> <name>Pio</name> <num value="3">III</num></persName> <persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Aelio</name> <name>Aelio</name> <name>Aurelio</name> <name><expan><abbr>Caes</abbr><ex>are</ex></expan></name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <num value="9">VIIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> Maias <expan><abbr>Gabi</abbr><ex>i</ex><abbr>s</abbr></expan> in municipio in curia Aelia Augusta scribendo atfuit universus ordo
+                   <lb n="6"/>decurionum referentibus <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Vipstano</name> <persName type="attested"><name type="patronym"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Cl</abbr><ex>audia</ex></expan> <name>Publicola</name> <name>Messalla</name></persName> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Setrio</name> <persName type="attested"><name type="patronym"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Pal</abbr><ex>atina</ex></expan> <name>Prisco</name></persName> <expan><abbr>IIIIvir</abbr><ex>is</ex></expan> <expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennalibus</ex></expan> <persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeum</ex></expan></name> <name>Domitium</name> <name>Polycarpum</name></persName> nomine suo et <persName type="attested"><name>Domitiae</name> <name>Europes</name></persName> coniugis suae
+                   <lb n="7"/>offerre ordini decurionum et sevirum Augustalium HS X <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>n</abbr><ex>ummum</ex></expan> <expan><abbr>qu</abbr><ex>i</ex></expan> iam pridem extruxisset templum in honorem ac memoriam <persName type="attested"><name>Domitiae</name> <name>Corbulonis</name> <expan><abbr>fil</abbr><ex>iae</ex></expan></persName> et hoc pietatis suae adfectu
+                   <lb n="8"/>exornet et meliorem faciat ordinem <expan><abbr>n</abbr><ex>ostrum</ex></expan> singulis etiam universisque prodesse festinet at quos ex reditu eius pecuniae fructum semper desideret pervenire confugiendo at
+                   <lb n="9"/>aeternam rem <expan><abbr>publ</abbr><ex>icam</ex></expan> <expan><abbr>n</abbr><ex>ostram</ex></expan> petendo ut secundum exemplum codicillorum <persName type="attested"><name><expan><abbr>Cl</abbr><ex>audi</ex></expan></name> <name>Vitalis</name></persName> stipulatione interposita desiderio suo talis condicio decerneretur ut ex reditu eius pecuniae
+                   <lb n="10"/><num value="3">III</num> Idus <expan><abbr>Febr</abbr><ex>u</ex><abbr>ar</abbr><ex>ias</ex></expan> natale <persName type="attested"><name>Domitiae</name></persName> presentibus <expan><abbr>decurionib</abbr><ex>us</ex></expan> et <expan><abbr>sevir</abbr><ex>is</ex></expan> discumbentibus in publico aequis portionibus fieret divisio item hoc amplius in tutela et ornationibus
+                   <lb n="11"/>templi HS v <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>n</abbr><ex>ummum</ex></expan> sub aedem condicione inferret <expan><abbr>q</abbr><ex>uid</ex></expan> <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>e</abbr><ex>a</ex></expan> <expan><abbr>r</abbr><ex>e</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>p</abbr><ex>laceret</ex></expan> <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>e</abbr><ex>a</ex></expan> <expan><abbr>r</abbr><ex>e</ex></expan> <expan><abbr>it</abbr><ex>a</ex></expan> <expan><abbr>c</abbr><ex>ensuerunt</ex></expan>
+                   <lb n="12"/>placere universis secundum relationem <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptam</ex></expan> pecuniam accipi praestarique in <expan><abbr>per</abbr><ex>pe</ex><abbr>tuum</abbr></expan> ut celebraretur natalis dies ac memoria <persName type="attested"><name>Domitiae</name> <persName type="attested"><name type="patronym">Corbulonis</name> <expan><abbr>fil</abbr><ex>iae</ex></expan></persName></persName> et ex reditu HS X <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>n</abbr><ex>ummum</ex></expan>
+                   <lb n="13"/>divisionibus factis discumberetur in <expan><abbr>publ</abbr><ex>ico</ex></expan> et si ullo tempore intermissum esset quominus praestaretur it quot ordo decrevisset aut si ordo rescidisset decretum
+                   <lb n="14"/>suum mutassetve condicionem tum omnis summa quae in hanc rem accepta esset eadem condicione municipibus Tusculanis confestim renumararetur
+                   <lb n="15"/>hoc decretum post tres relationes placuit in tabula aerea scribi et proponi in publico unde de plano recte legi possit.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp><app><note></note></app></listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p> <!-- Dedicated by two of Domitia's ex-slaves. Likely a municipal building. Multiple imperial statues of Julio-Claudians and Severans found in vicinity. Laird 2015, 85; Hamilton and Smith 1901, 318-19; Jones 2002, 37-38; Levick 2002, 187, 203, 205-6, McDermott and Orentzel 1979, 83-85; Varner 1995, 205-6 -->
+            </div>
+            <div type="bibliography">
+                 <p>
+                    <bibl>
+                        <ptr target="CIL"/><citedRange>14.2795</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

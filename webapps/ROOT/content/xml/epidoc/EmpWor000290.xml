@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000290</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000290</idno>
+                <idno type="EDR">EDR 143277</idno>
+                <idno type="EDCS">EDCS 05800001</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Vicus Augustanus Laurentium</settlement>
+                        <repository></repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/423121">Vicus Augustanus Laurentium</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3165493/tor-paterno.html">Tor Paterno</placeName>
+                                <geo>41.6793411235, 12.3932255227</geo>
+                            </origPlace>
+                            <origDate/> <!-- EDR: 51–200 CE -->
+                        </origin>
+                        <provenance type="found" subtype="discovered" notBefore="1865" notAfter="1874">Found presumably from excavations conducted in 1865 or 1874 in Grotte d Piastra</provenance> <!-- EDR -->
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-13" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="divine"><name><supplied reason="lost">Fo</supplied><unclear>r</unclear>tunae</name> <g ref="#ivy-leaf">❦</g> <supplied reason="lost"><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></supplied></persName>
+                    <lb n="2"/><expan><abbr>sacr</abbr><ex>um</ex></expan>
+                    <lb n="3"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="char"/><seg part="F">cia</seg></name> <name>Primi<unclear>g</unclear><supplied reason="lost">enia</supplied></name></persName>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="char"/><orig><unclear>M</unclear>AMON</orig><gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="5"/><supplied reason="lost">vic</supplied>o Augu<unclear>s</unclear><supplied reason="lost">tano</supplied>
+                    <lb n="6"/><gap reason="lost" extent="unknown" unit="char"/> a so<supplied reason="lost">lo</supplied> <gap reason="lost" extent="unknown" unit="char"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>Sacred to Fortuna Augusta. [---]cia Primigenia [...] in the vicus Augustanus [...]?</p>
+            </div>
+            <div type="commentary">
+                <p>The dedicator, Primigenia, is perhaps the same Primigenia (or perhaps her mother) as the dedicator of <ref target="EmpWor000289.xml">EmpWor000289</ref>.</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/>CIL<citedRange>14.2040</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

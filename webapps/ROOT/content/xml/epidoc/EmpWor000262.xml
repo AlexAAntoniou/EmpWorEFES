@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000262</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000262</idno>
+                <idno type="EDCS">EDCS 11400771</idno>
+                <idno type="EDR">EDR102196; EDR102192</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Surrentum</settlement>
+                        <repository>Museo Correale</repository> <!-- In the entrance corridor -->
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>A large marble plaque with two empty roundels (presumably holes for busts of the honoured man and woman?) roughly half-way down the inscription, although the roundel on the right appears slightly larger. Two columns of texts under the roundels for the (presumably) husband and wife: column A for an unnamed priestess of Venus (and Ceres?) and column b for a flamen of Roma and Tiberius. The leftmost roundel is crowned with leaves, corn-ears, fruit and flowers, and wrapped in a wreath, the rightmost a border of ovular eggs. </p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
+                                    <dimensions>
+                                        <height unit="cm">172</height>
+                                        <width unit="cm">128</width>
+                                        <depth unit="cm">8</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line11">All lines in both columns.</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">30-50</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/433139">Surrentum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3166350/sorrento.html">Sorrento</placeName>
+                                <geo>40.625464, 14.370775</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" subtype="discovered">Discovered in the medieval portico of S. Antonio, in Piazza S. Antonio.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">funerary</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-13" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <div type="textpart" subtype="column" n="a">
+                    <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="char"/> <expan><abbr><supplied reason="lost">s</supplied><unclear>a</unclear>cerd</abbr><ex>oti</ex></expan> <expan><abbr>public</abbr><ex>ae</ex></expan> <persName type="divine" key="venus"><name><expan><abbr>Vener</abbr><ex>is</ex></expan></name></persName>
+                        <lb n="2"/><supplied reason="lost">et</supplied> <persName type="divine" key="ceres"><name><supplied reason="lost">Cereris</supplied></name></persName> <supplied reason="lost">h</supplied>uic <g ref="#interpunct">·</g> matronae <g ref="#interpunct">·</g> statuam
+                        <lb n="3"/><supplied reason="lost">ex aere conl</supplied>ato in <g ref="#interpunct">·</g> aedem <g ref="#interpunct">·</g> <persName type="divine" key="venus"><name>Veneris</name></persName> <g ref="#interpunct">·</g>
+                        <lb n="4"/><supplied reason="lost">ponendam cu</supplied><unclear>r</unclear>averunt huic
+                        <lb n="5"/><supplied reason="lost">decuriones p</supplied><unclear>u</unclear>blice <g ref="#interpunct">·</g> locum <g ref="#interpunct">·</g> sepulturae <g ref="#interpunct">·</g> et
+                        <lb n="6"/><supplied reason="lost">in funere <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertia</ex></expan> <num value="5000">|))</num> </supplied> et statuam decreveru<hi rend="ligature">nt</hi>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="b">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <g ref="#interpunct">·</g> <name>Cornelio</name> <g ref="#interpunct">·</g> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <g ref="#interpunct">·</g> <expan><abbr>Men</abbr><ex>enia</ex></expan> <g ref="#interpunct">·</g> <name><seg part="I">M</seg><gap reason="lost" extent="unknown" unit="char"/></name></persName>
+                        <lb n="2"/>flamini <g ref="#interpunct">·</g> <persName type="divine" key="roma"><name>Romae</name></persName> <g ref="#interpunct">·</g> <persName type="divine" key="tiberius"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <g ref="#interpunct">·</g> <name><expan><abbr>C<unclear>a</unclear><supplied reason="lost">es</supplied></abbr><ex>aris</ex></expan></name> <name><expan><abbr><supplied reason="lost">Aug</supplied></abbr><ex>usti</ex></expan></name></persName>
+                        <lb n="3"/>auguri <g ref="#interpunct">·</g> <expan><abbr>aed</abbr><ex>ili</ex></expan> <g ref="#interpunct">·</g> <expan><abbr><hi rend="supraline">II</hi>vir<g ref="#interpunct">·</g></abbr><ex>o</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>qu<supplied reason="lost">inquenn</supplied></abbr><ex>ali</ex></expan>
+                        <lb n="4"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>fabr</abbr><ex>um</ex></expan> <g ref="#interpunct">·</g> bis <g ref="#interpunct">·</g> hic <g ref="#interpunct">·</g> togae <g ref="#interpunct">·</g> vir<supplied reason="lost">ilis die</supplied>
+                        <lb n="5"/>crustulum <g ref="#interpunct">·</g> et <g ref="#interpunct">·</g> mulsum <g ref="#interpunct">·</g> populo <g ref="#interpunct">·</g> <supplied reason="lost">dedit</supplied>
+                        <lb n="6"/>aedilitate <g ref="#interpunct">·</g> spectaculum <g ref="#interpunct">·</g> gladia<supplied reason="lost">torum</supplied>
+                        <lb n="7"/>circensium <g ref="#interpunct">·</g> edidit <g ref="#interpunct">·</g> ob <g ref="#interpunct">·</g> honor<supplied reason="lost">em</supplied> <expan><abbr><supplied reason="lost" cert="low">duovirat</supplied></abbr><ex>us</ex></expan>
+                        <lb n="8"/><expan><abbr>decurionib</abbr><ex>us</ex></expan> <g ref="#interpunct">·</g> magnam <g ref="#interpunct">·</g> cenam <g ref="#interpunct">·</g> d<supplied reason="lost">edit quin</supplied>
+                        <lb n="9" break="no"/>quennalitate <g ref="#interpunct">·</g> sua <g ref="#interpunct">·</g> ludos <g ref="#interpunct">·</g> <expan><abbr>sp<unclear>l</unclear>endid</abbr><ex>os</ex></expan> edidit
+                        <lb n="10"/>huic <g ref="#interpunct">·</g> <expan><abbr>decurion</abbr><ex>es</ex></expan> <g ref="#interpunct">·</g> publice <g ref="#interpunct">·</g> locum <expan><abbr><supplied reason="lost">sepultur</supplied></abbr><ex>ae</ex></expan> <supplied reason="lost">et in</supplied>
+                        <lb n="11"/><expan><abbr>funer</abbr><ex>e</ex></expan> <g ref="#interpunct">·</g> <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertia</ex></expan> <num value="5000">|))</num> et <g ref="#interpunct">·</g> statuam <supplied reason="lost">decreverunt</supplied>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR comparison with photo</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>[Column A] To [---] public priest of Venus [and Ceres]. To this woman the matrons took care to place from the common distribution a statue in the temple of Venus. To this woman, the decurions decreed a public place for the tomb and 5,000 sesterces for the funeral, and a statue.
+                   [Column B] To Lucius Cornelius M[---], son of Lucius, of tribe Menenia, flamen of Roma and Tiberius Caesar Augustus, augur, aedile, quinquennial duovir, prefect of engineers twice. This man gave on the day he assumed the toga virilis pastries and honey-wine, on the occasion of his aedileship produced gladiatorial spectacles in the circus, on the occasion of the honour of his [duovirate?] gave a great dinner to the decurions, on the occasion of his quinquennial office he produced splendid games. To this man the decuriones decreed a public place for his tomb, 5000 sesterces for the funeral, and a statue  </p>
+            </div>
+            <div type="commentary">
+                <p>The woman and man honoured in this inscription are presumably husband and wife.</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/>CIL<citedRange>10.688</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="hemelrijk2015"/>Hemelrijk 2015<citedRange>287, 346, 552</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

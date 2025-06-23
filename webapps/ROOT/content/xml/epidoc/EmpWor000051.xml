@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000051</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000051</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Misenum</settlement>
+                        <repository></repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/432942">Misenum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/8959239/faro.html">Faro</placeName>
+                                <geo>40.77771, 14.08941</geo>
+                            </origPlace>
+                            <origDate when="0105">105 CE</origDate> <!-- D'Arms 2000, 142. Different in EAGLE-->
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-04-17" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <div type="textpart" subtype="side" n="front">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name>Caesari</name> <persName type="divinity"><name>divi</name> <name>Nervae</name></persName>
+                        <lb n="2"/>filio <name>Nervae</name> <name>Traiano</name>
+                        <lb n="3"/><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name> <expan><abbr>Germ</abbr><ex>anico</ex></expan> <expan><abbr>Dac</abbr><ex>ico</ex></expan> <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan>
+                        <lb n="4"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="16"><hi rend="supraline">XVI</hi></num> <expan><abbr>imp</abbr><ex>eratori</ex></expan> <num value="6"><hi rend="supraline">VI</hi></num> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <num value="6"><hi rend="supraline">VI</hi></num> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></persName>
+                        <lb n="5"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Kaninius</name> <name>Hermes</name></persName>
+                        <lb n="6"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Kaninius</name> <persName type="attested"><name type="patronym"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>Claud</abbr><ex>ia</ex></expan> <persName type="attested"><name type="patronym">Philippus</name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>adlect</abbr><ex>us</ex></expan> in <expan><abbr>ord</abbr><ex>inem</ex></expan> <expan><abbr>dec</abbr><ex>urionum</ex></expan>
+                        <lb n="7"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Kaninius</name> <name>Hermes</name> iunior</persName>
+                        <lb n="8"/>Augustalibus <expan><abbr>peq</abbr><ex>unia</ex></expan> sua
+                    </ab>
+                </div>
+                <div type="textpart" subtype="side" n="right">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Publilio</name> <name>Celso</name> <num value="2"><hi rend="supraline">II</hi></num></persName> <persName type="attested"><expan><abbr>C</abbr><ex>aio</ex></expan> <name>Clodio</name> <name>Crispino</name></persName>
+                        <lb n="2"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <num value="5">V</num> <expan><abbr>Id</abbr><ex>us</ex></expan> <expan><abbr>Novembr</abbr><ex>es</ex></expan>
+                        <lb n="3"/>Miseni in templo <persName type="divinity"><expan><abbr>Aug</abbr><ex>usti</ex></expan></persName> quod est
+                        <lb n="4"/>Augustalium referente <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Tullio</name>
+                        <lb n="5"/><name>Eutycho</name></persName> curatore <expan><abbr>perpet</abbr><ex>uo</ex></expan> cum
+                        <lb n="6"/>universi Augustales convenissent
+                        <lb n="7"/>et <persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Kaninius</name> <name>Hermes</name> senior</persName> largis
+                        <lb n="8" break="no"/>sima voluntate sua pietati publicae
+                        <lb n="9"/>satisfecerit ponendo statuam
+                        <lb n="10"/>Optimo <expan><abbr>Maximoq</abbr><ex>ue</ex></expan> principi <persName type="attested"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name>Nervae</name>
+                        <lb n="11"/><name><expan><abbr>Traian</abbr><ex>o</ex></expan></name> <name>Caesari</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name> <expan><abbr>Germ</abbr><ex>anico</ex></expan> Dacico</persName>
+                        <lb n="12"/>parenti publico inscriptio nomine suo
+                        <lb n="13"/>et <persName type="attested"><name>Kanini</name> <name>Philippi</name></persName> fili sui et <persName type="attested"><name>Kanini</name> <name>Her
+                        <lb n="14" break="no"/>metis</name> <expan><abbr>iun</abbr><ex>inoris</ex></expan></persName> <expan><abbr>adieceritq</abbr><ex>ue</ex></expan> cumulum benefi
+                        <lb n="15" break="no"/>ciorum <expan><abbr>suor</abbr><ex>um</ex></expan> dando nomine <persName type="attested"><name>Kanini</name>
+                        <lb n="16"/><name>Hermetis</name> <expan><abbr>iun</abbr><ex>ioris</ex></expan></persName> ob honorem immuni
+                        <lb n="17" break="no"/>tatis eius arcae <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ostrae</ex></expan> <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertia</ex></expan> <num value="6"><hi rend="supraline">VI</hi></num> <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>n</abbr><ex>ummum</ex></expan> et ob <expan><abbr>dedi
+                        <lb n="18" break="no"/>catione</abbr><ex>m</ex></expan> statuae e<unclear>pul</unclear>um et <expan><abbr>sing</abbr><ex>ulis</ex></expan> <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertios</ex></expan> <num value="12">XII</num>
+                        <lb n="19"/><expan><abbr>sitq</abbr><ex>ue</ex></expan> sol<unclear>le</unclear>mn<unclear>e</unclear> nobis bonorum civium
+                        <lb n="20"/>m<supplied reason="lost">meritis</supplied> <unclear>respo</unclear>ndere placuit
+                        <lb n="21"/><expan><abbr>consentientib</abbr><ex>us</ex></expan> universis <expan><abbr>Augustalib</abbr><ex>us</ex></expan>
+                        <lb n="22"/><persName type="attested"><name>Kanininum</name> <name>Hermen</name> seniorem</persName> et <persName type="attested"><name><unclear>K</unclear>ani
+                        <lb n="23"/>nium</name> <name>Hermen</name> <expan><abbr>iun</abbr><ex>iorem</ex></expan></persName> inter immu<unclear>nes</unclear>
+                        <lb n="24"/>immunium numero refer<unclear>ri ad</unclear>que
+                        <lb n="25"/>decretum in basi statuae inscri<unclear>bi</unclear> <expan><abbr>in
+                        <lb n="26" break="no"/>sculpiq</abbr><ex>ue</ex></expan> <expan><abbr><unclear>e</unclear>isq</abbr><ex>ue</ex></expan> <persName type="attested"><name>Kaniniis</name></persName> clipeum <unclear>in</unclear> templo
+                        <lb n="27"/><unclear>nostro</unclear> publice poni
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp><app><note></note></app></listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p></p> <!--  -->
+            </div>
+            <div type="commentary">
+                <p></p> <!-- Laird 2015 -->
+            </div>
+            <div type="bibliography">
+                 <p>
+                    <bibl>
+                        <ptr target="AE"/><citedRange>1993.473</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000257</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000257</idno>
+                <idno type="EDCS">EDCS 11500516</idno>
+                <idno type="EDR">EDR170328</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Puteoli</settlement>
+                        <repository>Naples, Museo Archeologico Nazionale</repository> 
+                        <idno>3625</idno> <!-- depositi -->
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm">33</height>
+                                        <width unit="cm">53.5</width>
+                                        <depth unit="cm">6</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line7">Lines 1–7</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">27–35</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/432815">Puteoli</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/6541681/pozzuoli.html">Pozzuoli</placeName>
+                                <geo>40.825838, 14.1217415</geo>
+                            </origPlace>
+                            <origDate when="0001" evidence="consuls">1 CE based on the consular year.</origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered">First seen in the mid-16th century in a private collection in Naples, then in the mid-18th century at Velletri in the Borgia collection. Subsequently transferred to the Museo Archeologico Nazionale at Naples.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-13" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="ruler"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <g ref="#interpunct">·</g> <name>Caesare</name> <g ref="#interpunct">·</g> <persName type="patronym"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> <g ref="#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName></persName> <g ref="#interpunct">·</g> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <g ref="#interpunct">·</g> <name>Paullo</name></persName> <g ref="#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+                    <lb n="2"/><persName type="divine" key="laresAugusti"><name>Lares</name> <g ref="#interpunct">·</g> <name>Augustos</name></persName>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <g ref="#interpunct">·</g> <name>Numisius</name> <g ref="#interpunct">·</g> <persName type="attested"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <g ref="#interpunct">·</g> <expan><abbr>l</abbr><ex>ibertus</ex></expan></persName> <g ref="#interpunct">·</g> <name>Legio</name></persName>
+                    <lb n="4"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="#interpunct">·</g> <name>Safinius</name> <g ref="#interpunct">·</g> <persName type="attested"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="#interpunct">·</g> <expan><abbr>l</abbr><ex>ibertus</ex></expan></persName> <g ref="#interpunct">·</g> <name>Hilarus</name></persName>
+                    <lb n="5"/><persName type="attested"><name>Sodalis</name> <g ref="#interpunct">·</g> <persName type="attested"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <g ref="#interpunct">·</g> <name>Modi</name> <g ref="#interpunct">·</g> <name>Cimbri</name></persName> <g ref="#interpunct">·</g> <expan><abbr>ser</abbr><ex>vus</ex></expan></persName>
+                    <lb n="6"/><persName type="attested"><name>Aeschinus</name> <g ref="#interpunct">·</g> <persName type="attested"><name>Octavi</name> <g ref="#interpunct">·</g> <name><expan><abbr>M</abbr><ex>arci</ex></expan></name></persName> <g ref="#interpunct">·</g> <expan><abbr>ser</abbr><ex>vus</ex></expan></persName>
+                    <lb n="7"/><expan><abbr>magistr</abbr><ex>i</ex></expan> <g ref="#interpunct">·</g> de suo <g ref="#interpunct">·</g> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>When Gaius Caesar, son of Augustus, and Lucius Paullus were consuls. To the Augustan Lares. The masters Quintus Numisius Legio, freedman of Quintus, Lucius Safinius Hilarus, freedman of Lucius, the sodalis Caius Modius, slave of Cimbri, Aeschinus Octavius, slave of Marcus, themselves took care of the construction (of this).</p>
+            </div>
+            <div type="commentary">
+                <p>Despite the complicated provenance history of the stone, it is on onomastic grounds that Puteoli is the most likely origin for the original inscription.</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/>CIL<citedRange>10.1582</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/>ILS<citedRange>3611</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

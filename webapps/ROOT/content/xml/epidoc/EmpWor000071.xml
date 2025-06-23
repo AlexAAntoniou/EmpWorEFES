@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000071</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000071</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Greece</country>
+                        <settlement>Olympia</settlement>
+                        <repository></repository> <!-- Site of worship, Naples -->
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/570531">Olympia</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/264637/archaia-olympia.html">Archaia Olympia</placeName>
+                                <geo>37.63868, 21.63084</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-05-15" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc" resp="#AA"> <!-- ONLY BASIC ENCODING DONE -->
+                <ab>
+                    <lb n="1"/><gap reason="lost" quantity="35" unit="character"/><supplied reason="lost">τοῖς</supplied> ἐπιτελοῦσι τῶν Ἰτα
+                    <lb n="2" break="no"/><supplied reason="lost">λικῶν καὶ Ῥωμαίων Σεβαστῶν ἰσολυμπίων τὸν ἀγῶνα καὶ τὴν πανήγυριν χαίρειν οἱ πρε</supplied><unclear>σ</unclear>βεύσαντες Αὖλος
+                    <lb n="3"/><gap reason="lost" quantity="9" unit="character"/> <supplied reason="lost">καὶ</supplied> <gap reason="lost" quantity="14" unit="character"/> <supplied reason="lost">καὶ</supplied> <gap reason="lost" quantity="10" unit="character"/> <supplied reason="lost">Μο</supplied>ντανός ἐφρόντισαν
+                    <lb n="4"/><gap reason="lost" quantity="36" unit="character"/> <supplied reason="lost">ἀγα</supplied>θῇ τύχηι ἡ σύνκλη
+                    <lb n="5" break="no"/><supplied reason="lost">τος</supplied> <gap reason="lost" quantity="36" unit="character"/> <supplied reason="lost">κ</supplied>αὶ Ἄκτια τρὶς ἀν
+                    <lb n="6" break="no"/><gap reason="lost" quantity="36" unit="character"/> <supplied reason="lost">τοῖ</supplied>ς μετέχουσι τῶν
+                    <lb n="7"/><supplied reason="lost">ἀθλητῶν</supplied> <gap reason="lost" quantity="12" unit="character"/><supplied reason="lost">τοῦ ἀγῶνος καὶ τῆς πανηγύρεως τῶν Ἰταλικῶν κα</supplied>ὶ Ῥωμαίων Σεβασ
+                    <lb n="8" break="no"/><supplied reason="lost">τῶν</supplied> <gap reason="lost" quantity="32" unit="character"/> <supplied reason="lost">ἐπηγγέ</supplied>λθαι τὸν ἀγῶνα καὶ
+                    <lb n="9"/><supplied reason="lost">τὴν πανήγυριν</supplied> <gap reason="lost" quantity="31" unit="character"/>α Νεαπολίταις καὶ
+                    <lb n="10"/><gap reason="lost" quantity="2" unit="character"/> <gap reason="lost" quantity="7" unit="character"/> <supplied reason="lost">μὴ ἐξέστω δὲ νεώτερον μετέχειν τοῦ ἀγῶνος τῶν Ἰταλικῶν ἰσο</supplied>λυμπίων ἢ ἑπτακαι <!-- check this line in particular! -->
+                    <lb n="11" break="no"/><supplied reason="lost">δ</supplied>εκέτη <unclear>κ̣</unclear><supplied reason="lost">αὶ μετεχέτω</supplied>σα<supplied reason="lost">ν ἀπὸ μὲν ἑπτακαίδεκα μέχρι τῆς εἴκοσιν ἐτῶν ἡλικίας παίδων ἀθλήσεως</supplied> μετὰ δὲ ταύτην ἀν
+                    <lb n="12" break="no"/><supplied reason="lost">δ</supplied>ρῶν περὶ ἐπά<supplied reason="lost">θλ</supplied>ων ἆθλα διδόσθω το<supplied reason="lost">ῖς νικῶσι</supplied> <gap reason="lost" quantity="16" unit="character"/> <supplied reason="lost">ὀ</supplied>ψώνιον δὲ χορηγ<supplied reason="omitted">ε</supplied>ίσθω
+                    <lb n="13"/><supplied reason="lost">τ</supplied>οῖς ἀθληταῖς <supplied reason="lost">πρ</supplied>ὸ ἡμερῶν <supplied reason="lost">τ</supplied>ῆς πανη<unclear>γ̣</unclear><supplied reason="lost">ύρεως λʹ, ὥστε πᾶσι μὲν τοῖς ἀγωνιουμένοις δοθῆ</supplied> ναι πρὸ ἡμερῶν ∙ λʹ ∙ τῆς
+                    <lb n="14"/><supplied reason="lost">πανη</supplied>γύρεως <supplied reason="lost">δραχ</supplied>μ<unclear>ὴ</unclear>ν ἑκάστης ἡμέ<supplied reason="lost">ρας ἀπὸ δὲ πεντεκαιδεκάτης ἡμέρας τοῖς μὲν παισὶ</supplied><unclear>ν</unclear> <expan><abbr>δρ</abbr><ex>αχμὰς</ex></expan> ∙ <hi rend="supraline">β</hi> <!-- symbol here --> τοῖς δὲ ἀνδρά
+                    <lb n="15" break="no"/><supplied reason="lost">σι</supplied>ν ∙ <hi rend="supraline">γ</hi> ∙ τιμαὶ <supplied reason="lost">δὲ κ</supplied>ατὰ <supplied reason="lost">τ</supplied>ὴν Καίσαρος ἐπ<supplied reason="lost">ιταγὴν τοῖς μὲν παισὶν</supplied> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ινος στέφανος τοῖς δὲ ἀνδρ</supplied>άσι σταχύινος ἡ δὲ
+                    <lb n="16"/><supplied reason="lost">ἀν</supplied>αγόρευσις <supplied reason="lost">ἔ</supplied>σ<unclear>τ</unclear><supplied reason="lost">α</supplied>ι τοῦ στεφάνου <gap reason="lost" quantity="20" unit="character"/> <supplied reason="lost">ὅσα δ’ ἂν τῶν ἀ</supplied>θλημάτων ἔρημα <supplied reason="lost">ἢ</supplied>
+                    <lb n="17"/><supplied reason="lost">ἱε</supplied>ρὰ γένηται τ<supplied reason="lost">ούτων</supplied> <gap reason="lost" quantity="1" unit="character"/><orig><unclear>ΛΛ</unclear>ΟΙ</orig> ἀνατιθέτωσ<supplied reason="lost">αν οἱ ἀγωνοθέται τοὺς στεφάνους ἐν Νέᾳ πόλει ἐν τῷ γυ</supplied>μνασίῳ, καὶ ἐπιγραφ<supplied reason="lost">έ</supplied>
+                    <lb n="18" break="no"/><supplied reason="lost">τ</supplied>ωσαν ἀφ’ ἧς <supplied reason="lost">κρίσεως</supplied> ἕκαστος ἀνετ<supplied reason="lost">έθη ὅσοι δ’ ἂν ἀθληταὶ εἰς τὰ Ἰταλικὰ ἀπογράψαι βούλωνται</supplied> ἑαυτοὺς ἀγωνιου
+                    <lb n="19" break="no"/><supplied reason="lost">μ</supplied>ένους παραγ<supplied reason="lost">εινέσθ</supplied>ωσαν εἰς Νέαν <supplied reason="lost">πόλιν πρὸ ἡμερῶν οὐκ ἔλαττον ἢ τριάκοντα τῆς πανηγύρ</supplied>εως καὶ ἀπογραφέσ
+                    <lb n="20" break="no"/><supplied reason="lost">θω</supplied>σαν πρὸς το<supplied reason="lost">ὺς ἀγων</supplied><unclear>ο</unclear>θ<unclear>έ</unclear>τας πατρόθ<supplied reason="lost">εν καὶ τὰς πατρίδας καὶ ὃ προαιροῦνται κατὰ τὴν κ</supplied>ρίσιν ἀγώνισμα οἱ
+                    <lb n="21"/><supplied reason="lost">δ</supplied>ὲ ἀ<unclear>θ</unclear>ληταὶ καὶ ἐ<supplied reason="lost">λθέτωσα</supplied>ν καὶ πρὸς γυμ<unclear>ν</unclear><supplied reason="lost">ασίαν</supplied> <gap reason="lost" quantity="6" unit="character"/> <supplied reason="lost">ἐπάναγκες δὲ ἔστω ἑκάστ</supplied>ωι τῶν ἀθλητῶν ἀπ<supplied reason="lost">ο</supplied>
+                    <lb n="22" break="no"/><supplied reason="lost">γρ</supplied>άφεσθαι ὀνο<supplied reason="lost">μαστὶ ὡς ἂν χρη</supplied>ματίζηι ἢ πα<supplied reason="lost">τρόθεν ἢ ἄλλῳ ᾡτινιοῦν τρόπῳ καθεστη</supplied>κότι κατὰ τὸν νόμον
+                    <lb n="23"/><supplied reason="lost">εἰ</supplied> δὲ μὴ ζημιού <supplied reason="lost">σθω ὑπὸ τῶν</supplied> <unclear>ἀ</unclear>γωνοθετῶ <supplied reason="lost">ν δραχμαῖς</supplied> <gap reason="lost" quantity="3" unit="character"/> <supplied reason="lost">ἐὰν δὲ μὴ ἀποτίνῃ τὴν ζημίαν μ</supplied> αστειγούσθω εἰ<supplied reason="lost">ὰ</supplied>
+                    <lb n="24" break="no"/><unclear>ν</unclear> δέ τις ὑστερ<supplied reason="lost">ίζῃ τῆς προθε</supplied>σμίας ἐπα<supplied reason="lost">γγελλέτω τὴν αἰτίαν τῆς ὑστερήσεως πρὸς τοὺς ἀγωνοθέτ</supplied>ας ἔστωσαν δ<unclear>ὲ</unclear>
+                    <lb n="25"/><supplied reason="lost">νό</supplied>σος ἢ λῃστα<supplied reason="lost">ὶ ἢ ναυαγία κα</supplied>τηγορ<supplied reason="omitted">ε</supplied>ίτω δὲ <supplied reason="lost">ὁ βουλόμενος</supplied> <gap reason="lost" quantity="14" unit="character"/><orig><unclear>Ι</unclear></orig> καὶ ἐὰν ἁλῶ<supplied reason="lost">ι εἰρ</supplied>
+                    <lb n="26" break="no"/><supplied reason="lost">γέ</supplied>σθω τοῦ ἀγῶ<supplied reason="lost">νος ὑπὸ τῶ</supplied><unclear>ν</unclear> ἀγωνοθε<unclear>τ</unclear><supplied reason="lost">ῶν</supplied> <gap reason="lost" quantity="23" unit="character"/><orig><unclear>Ι</unclear></orig>ε <!-- symbol here? --> <gap reason="lost" quantity="4" unit="character"/> <supplied reason="lost">ἐ</supplied>
+                    <lb n="27" break="no"/><supplied reason="lost">π</supplied>ικληροῦσθ<supplied reason="lost">αι</supplied> <gap reason="lost" quantity="7" unit="character"/><orig><unclear>Ι</unclear></orig> <unclear>τ</unclear>οῦ βο<supplied reason="lost">υλομένου</supplied> <gap reason="lost" quantity="26" unit="character"/>
+                    <lb n="28"/><supplied reason="lost">τῆ</supplied>ς κατηγορίας <gap reason="lost" quantity="7" unit="character"/>ίῳ κα<unclear>ὶ</unclear> <gap reason="lost" quantity="29" unit="character"/> <supplied reason="lost">οὕ</supplied>
+                    <lb n="29" break="no"/><supplied reason="lost">τ</supplied>ω ὄμ<unclear>ν</unclear>υμι τ<supplied reason="lost">ὸν Δία καὶ τὸν Ἀπό</supplied>λλωνα <unclear>κ</unclear><supplied reason="lost">αὶ</supplied> <gap reason="lost" quantity="27" unit="character"/> <supplied reason="lost">καὶ</supplied>
+                    <lb n="30"/><supplied reason="lost">τ</supplied><unclear>ο</unclear>ὺς ἄλλους <supplied reason="lost">θεούς ἢ μὴν</supplied> <gap reason="lost" quantity="4" unit="character"/>κέ<supplied reason="lost">ναι</supplied> <gap reason="lost" quantity="28" unit="character"/> <supplied reason="lost">καὶ</supplied>
+                    <lb n="31"/><supplied reason="lost">δ</supplied>εδωκέναι μ<gap reason="lost" quantity="42" unit="character"/>
+                    <lb n="32"/><gap reason="lost" quantity="2" unit="character"/>ήσια ὑπὲ<supplied reason="lost"></supplied>ρ <gap reason="lost" quantity="41" unit="character"/>
+                    <lb n="33"/><gap reason="lost" quantity="17" unit="character"/>ος ἢ Νεαπο<unclear>λ</unclear><supplied reason="lost">ίτης</supplied> <gap reason="lost" quantity="22" unit="character"/>
+                    <lb n="34"/><gap reason="lost" quantity="14" unit="character"/><supplied reason="lost">οἱ ἀγ</supplied>ωνοθέται καὶ ν<gap reason="lost" quantity="24" unit="character"/>
+                    <lb n="35"/><gap reason="lost" quantity="16" unit="character"/><supplied reason="lost">ζ</supplied>ημιούσθω ὅσο<supplied reason="lost">ν</supplied> <gap reason="lost" quantity="24" unit="character"/>
+                    <lb n="36"/><gap reason="lost" quantity="16" unit="character"/><supplied reason="lost">λ</supplied><unclear>α</unclear>μβανέτω <surplus>Ι</surplus> εἰς ὀ<supplied reason="lost">ψώνια</supplied> <gap reason="lost" quantity="20" unit="character"/>
+                    <lb n="37"/><gap reason="lost" quantity="17" unit="character"/>μα<!-- SYMBOL HERE --><gap reason="lost" quantity="28" unit="character"/>
+                    <lb n="38"/><gap reason="lost" quantity="17" unit="character"/><unclear>τ</unclear>ας <unclear>τ</unclear><gap reason="lost" quantity="28" unit="character"/>
+                    <lb n="39"/><gap reason="lost" quantity="17" unit="character"/>ισαν τῶν πο<supplied reason="lost">λιτῶν</supplied> <gap reason="lost" quantity="23" unit="character"/>
+                    <lb n="40"/><gap reason="lost" quantity="14" unit="character"/><supplied reason="lost">τῶν ξ</supplied>ένων ἀγωνίζο<supplied reason="lost">νται</supplied> <gap reason="lost" quantity="22" unit="character"/>
+                    <lb n="41"/><gap reason="lost" quantity="14" unit="character"/>ωι καὶ ἐπὶ τὸν ἀγῶνα α<gap reason="lost" quantity="23" unit="character"/>
+                    <lb n="42"/><supplied reason="lost">τῆς μὲν τοῦ γυμνικοῦ ἀγῶνος</supplied> κρίσεως  στάδιον ἀνδρ<supplied reason="lost">ῶν</supplied> <gap reason="lost" quantity="24" unit="character"/>
+                    <lb n="43"/><gap reason="lost" quantity="12" unit="character"/> <supplied reason="lost">π</supplied>ένταθλος ἀνδρῶν πάλ<unclear>η</unclear> <gap reason="lost" quantity="25" unit="character"/>
+                    <lb n="44"/><gap reason="lost" quantity="13" unit="character"/> <supplied reason="lost">π</supplied>υγμὴ ἀνδρῶν πανκράτιο<supplied reason="lost">ν παίδων πανκράτιον ἀνδρῶν</supplied> <gap reason="lost" quantity="10" unit="character"/>
+                    <lb n="45"/><gap reason="lost" quantity="7" unit="character"/> <supplied reason="lost">ὁπ</supplied>λίτης ἱπ<unclear>π</unclear><supplied reason="lost">ικ</supplied>οῦ δὲ κέλης συνωρίς τέθρι<supplied reason="lost">ππον</supplied> <gap reason="lost" quantity="20" unit="character"/>
+                    <lb n="46"/><gap reason="lost" quantity="8" unit="character"/><supplied reason="lost">ο</supplied>υ καὶ ζημιῶν <supplied reason="lost">κα</supplied><unclear>ὶ</unclear> ἐποχὴ τῶν πρὸς ἀλλήλους <supplied reason="lost">ἀγωνισμάτων</supplied> <gap reason="lost" quantity="14" unit="character"/>
+                    <lb n="47"/><gap reason="lost" quantity="7" unit="character"/> <supplied reason="lost">τ</supplied>ῆς πανηγύρ<unclear>ε</unclear><supplied reason="lost">ω</supplied><unclear>ς</unclear> γεινέσθωσαν ἐν Νέᾳ πόλ<supplied reason="lost">ει</supplied> <gap reason="lost" quantity="21" unit="character"/>
+                    <lb n="48"/><gap reason="lost" quantity="8" unit="character"/>ίων ἡμέρᾳ πο<supplied reason="lost">μπ</supplied>ὴν ἀγέτωσαν εἰς τὸ Καισαρ<supplied reason="lost">εῖον</supplied> <gap reason="lost" quantity="19" unit="character"/>
+                    <lb n="49"/><gap reason="lost" quantity="8" unit="character"/> <unclear>κ</unclear>αὶ οἱ ἄλλοι θεο<supplied reason="lost">ὶ</supplied> <unclear>τ</unclear>ῆς πόλεως κατὰ τὸ σύνηθ<supplied reason="lost">ες</supplied> <gap reason="lost" quantity="20" unit="character"/>
+                    <lb n="50"/><gap reason="lost" quantity="1" unit="character"/> <supplied reason="lost">οἱ τὸν ἀγῶνα τὸν</supplied> σκηνικὸν ἀγω<supplied reason="lost">νι</supplied>ούμενοι μετὰ τῆς ἰδίας ἑκατ<supplied reason="lost">όμβης</supplied> <gap reason="lost" quantity="18" unit="character"/>
+                    <lb n="51"/><gap reason="lost" quantity="4" unit="character"/> <supplied reason="lost">καὶ οἱ μα</supplied>στειγοφόρ<supplied reason="lost">οι</supplied> καὶ ὁ ξυσ<unclear>τ</unclear>άρχη<supplied reason="lost">ς</supplied> ἔ<supplied reason="omitted">τι</supplied> θ’ οἱ ἀγων<supplied reason="lost">οθέται</supplied> <gap reason="lost" quantity="17" unit="character"/>
+                    <lb n="52"/><supplied reason="lost">τὰ δὲ ἱερεῖα διδότ</supplied>ω ἡ πόλις θύ<supplied reason="lost">σ</supplied>αντες δὲ Σεβαστῷ Καίσαρ<supplied reason="lost">ι</supplied> <gap reason="lost" quantity="23" unit="character"/>
+                    <lb n="53"/><gap reason="lost" quantity="8" unit="character"/> <unclear>τ</unclear>ιθέντες τῷ μὲν σαλπικτῇ ἐπάθλῳ ὑ<gap reason="lost" quantity="24" unit="character"/>
+                    <lb n="54"/><gap reason="lost" quantity="8" unit="character"/> <supplied reason="lost">τ</supplied>ῇ δ’ ἐχομένῃ ἀγωνιζέσθωσαν κιθαρισ<supplied reason="lost">ταὶ πλὴν τῶν κυκλίων, ἔπαθλον <expan><abbr>δρ</abbr><ex></ex>αχμαὶ</expan></supplied> <gap reason="lost" quantity="2" unit="character"/> <!-- clearly a number missing here --> <supplied reason="lost">ἐχομένῃ</supplied>
+                    <lb n="55"/><supplied reason="lost">αὐληταὶ πλὴν τῶν κ</supplied>υκλίων ἐχομένῃ κιθαρισταὶ κύκλιοι ἔπαθλον <supplied reason="lost"><expan><abbr>δρ</abbr><ex></ex>αχμαὶ</expan></supplied> <gap reason="lost" quantity="2" unit="character"/> <!-- clearly a number missing here --> <supplied reason="lost">ἐχομένῃ αὐληταὶ κύκλιοι</supplied> <gap reason="lost" quantity="3" unit="character"/>
+                    <lb n="56"/><supplied reason="lost">ἔπαθλον</supplied> <expan><abbr>δρ</abbr><ex>αχμαὶ</ex></expan> ͵αχξζʹ ἐχομένῃ οἱ αὐτοὶ καὶ κλῆρος κω<supplied reason="lost">μῳδῶν</supplied> <gap reason="lost" quantity="20" unit="character"/>
+                    <lb n="57"/><gap reason="lost" quantity="9" unit="character"/>ν κλῆρος κωμ<supplied reason="lost">ῳ</supplied>δῶν ἐν πλάσματι ἐχομέ<supplied reason="lost">νῃ</supplied> <gap reason="lost" quantity="21" unit="character"/>
+                    <lb n="58"/><gap reason="lost" quantity="7" unit="character"/><supplied reason="lost">ἐχομέ</supplied>νῃ τραγῳδο<supplied reason="lost">ί</supplied> ἔπαθλον <expan><abbr>δρ</abbr><ex>αχμαὶ</ex></expan> ͵γ ἐχομ<supplied reason="lost">ένῃ</supplied> <gap reason="lost" quantity="19" unit="character"/>
+                    <lb n="59"/><gap reason="lost" quantity="6" unit="character"/><supplied reason="lost">κιθαρι</supplied>σταί ἔπαθλο<supplied reason="lost">ν</supplied> <expan><abbr>δρ</abbr><ex>αχμαὶ</ex></expan> ͵δ ἐχομέν<unclear>ῃ</unclear> <gap reason="lost" quantity="26" unit="character"/>
+                    <lb n="60"/><gap reason="lost" quantity="6" unit="character"/><supplied reason="lost">κιθαρι</supplied>στοῦ διὰ π<supplied reason="lost">άντ</supplied>ων ἐχο<supplied reason="lost">μένῃ</supplied> <gap reason="lost" quantity="27" unit="character"/>
+                    <lb n="61"/><gap reason="lost" quantity="9" unit="character"/>α κέλητι πω<supplied reason="lost">λικῷ</supplied> <gap reason="lost" quantity="32" unit="character"/>
+                    <lb n="62"/><gap reason="lost" quantity="8" unit="character"/><supplied reason="lost">ἅρ</supplied>ματι τελε<supplied reason="lost">ίῳ</supplied> <gap reason="lost" quantity="34" unit="character"/>
+                    <lb n="63"/><gap reason="lost" quantity="13" unit="character"/>ν  ἐχο<supplied reason="lost">μένῃ</supplied> <gap reason="lost" quantity="30" unit="character"/>
+                    <lb n="64"/><gap reason="lost" quantity="11" unit="character"/> <supplied reason="lost">ἔπα</supplied>θλον <gap reason="lost" quantity="33" unit="character"/>
+                    <lb n="65"/><gap reason="lost" quantity="13" unit="character"/> <supplied reason="lost">π</supplied> <unclear>ω</unclear>λικ<supplied reason="lost">ῷ</supplied> <gap reason="lost" quantity="32" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp><app><note>Text of IvO</note></app></listApp>
+                <listApp><app><note>Crowther ZPE 1989, 100–102, in SEG 37: 356[4] proposes a different reading for lines 10–15</note></app></listApp>
+                <listApp><app><note>Piejko AJPh 108 (1987) 724–725 n.36 in SEG 37:356[2] proposes a different reading for line 46</note></app></listApp>
+                <listApp><app><note>Frisch ZPE 75 (1988) 181 in SEG 37:356[3] proposes a different reading for lines 10–12</note></app></listApp>
+                <listApp><app><note>Merkelbach ZPE 15 (1974) 192-193 in SEG 37:356[1] proposes a different reading for lines 1–3</note></app></listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p></p> <!--  -->
+            </div>
+            <div type="commentary">
+                <p>The Kaisareion identified in this inscription is likely the one that has been identified in Piazza Nicola Amore, Naples. Italika Rhomaia Sebasta Isolumpia, the quinquennial or quadrennial sacred games, established in Naples in 2 BCE and first celebrated in 2 CE, were originally devoted to the worship of Augustus whilst he was alive. The games were celebrated at least until the third or fourth centuries CE.</p> 
+            </div>
+            <div type="bibliography">
+                 <p>
+                    <bibl>
+                        <ptr target="IvO"/>IvO<citedRange>55</citedRange>
+                    </bibl>
+                </p>
+                 <p>
+                    <bibl>
+                        <ptr target="PHI"/>PHI<citedRange><ref target="https://epigraphy.packhum.org/text/213858">213858</ref></citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000127</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000127</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Ostia/Portuus</settlement>
+                        <repository></repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/422995">Ostia</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/8378691/ostia.html">Ostia</placeName>
+                                <geo>41.75357, 12.28935</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-03" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab><!-- Only basic encoding -->
+                    <lb n="1"/><persName type="divinity"><name><expan><abbr><supplied reason="lost">D</supplied></abbr><ex>is</ex></expan></name> <name><expan><abbr><supplied reason="lost">M</supplied></abbr><ex>anibus</ex></expan></name></persName>
+                    <lb n="2"/><gap reason="lost" quantity="1" unit="character"/> <persName type="attested"><name><supplied reason="lost">Cassi</supplied></name> <name><supplied reason="lost">Va</supplied><supplied reason="undefined" evidence="previouseditor">leri<unclear>a</unclear></supplied>
+                    <lb n="3" break="no"/><supplied reason="lost">n</supplied><unclear>i</unclear></name></persName> <expan><abbr><unclear>fla</unclear><supplied reason="lost">m</supplied></abbr><ex>inis</ex></expan> <persName type="divinity"><name><supplied reason="undefined" evidence="previouseditor">divi</supplied></name> <name><expan><abbr><supplied reason="undefined" evidence="previouseditor"></supplied></abbr><ex>iti</ex></expan></name></persName>
+                    <lb n="4"/><gap reason="lost" quantity="1" unit="character"/> <persName type="attested"><name><unclear>C</unclear>assius</name> <persName type="patronym"><name><expan><abbr><supplied reason="undefined" evidence="previouseditor">C</supplied></abbr><ex>ai</ex></expan></name></persName> <expan><abbr><supplied reason="undefined" evidence="previouseditor">f</supplied></abbr><ex>ilius</ex></expan></persName> <expan><abbr><unclear>P</unclear>al</abbr><ex>atina</ex></expan>
+                    <lb n="5"/><supplied reason="lost">A</supplied><unclear>u</unclear>gustali<unclear>s</unclear> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurio</ex></expan> <expan><abbr>al</abbr><ex>lectus</ex></expan>
+                    <lb n="6"/><supplied reason="lost">pate</supplied><unclear>r</unclear> filio incon
+                    <lb n="7" break="no"/><supplied reason="lost">parabi</supplied>ili fecit <expan><abbr>lib</abbr><ex>ertis</ex></expan>
+                    <lb n="8"/><supplied reason="lost">libertab</supplied><unclear>us</unclear> <expan><abbr>poster</abbr><ex>isque</ex></expan> eorum
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text of EAGLE</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p></p> <!--  -->
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/><citedRange>1988.184</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

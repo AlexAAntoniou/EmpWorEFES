@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000264</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000264</idno>
+                <idno type="EDCS">EDCS 20900400</idno>
+                <idno type="EDR">EDR156635</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Tarracina</settlement>
+                        <repository>Florence, Museo Archeologico Nazionale</repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.buildingdedication" ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Building Inscription</objectType>
+                                    <dimensions>
+                                        <height unit="cm">89</height>
+                                        <width unit="cm">460</width>
+                                        <depth unit="cm">15.05</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line5">Lines 1–5</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">70-90</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/433143">Tarracina</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3165762/terracina.html">Terracina</placeName>
+                                <geo>41.291169, 13.24885</geo>
+                            </origPlace>
+                            <origDate atLeast="0014" atMost="0069">See commentary for the range of dates when this could have been dedicated, both originally and after the re-dedication of the space.</origDate>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-13" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del>
+                    <lb n="2"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del>
+                    <lb n="3"/><persName type="divine" key="tiberius"><name><expan><abbr><supplied reason="lost">Ti</supplied></abbr><ex>berio</ex></expan></name> <name><supplied reason="lost">C</supplied>aesari</name> <persName type="patronym"><name>divi</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <name>Augusto</name></persName> <persName type="divine" key="divaLivia"><name>divae</name> <name>Augus<supplied reason="lost">tae</supplied></name></persName>
+                    <lb n="4"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name><supplied reason="lost">I</supplied>unius</name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>Gal</abbr><ex>eria</ex></expan> <name>Proculus</name></persName> <expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>equit</abbr><ex>um</ex></expan> <persName type="ruler"><name>divi</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>fab</abbr><ex>rum</ex></expan> sua <expan><abbr>pec</abbr><ex>unia</ex></expan> fec<supplied reason="lost">it</supplied>
+                    <lb n="5"/><persName type="attested"><name>Pompeia</name> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName> <name>Trebulla</name></persName> testamento suo ex <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertii</ex></expan> <num value="100000"><hi rend="supraline">C</hi></num> refici iussit <del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR, comparison with photograph</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>[---], [---]. To Tiberius Caesar Augustus, son of the divine Augustus, [and to] the Divine Augusta. Marcus Iunius Proculus, son of Gaius, of tribe Galeria, cavalry commander under the divine Augustus, and [prefect] of engineers, he made this with his own money. Pompeia Trebulla, daughter of Quintus, ordered this to be restored in her will, leaving 100,000 sesterces.</p>
+            </div>
+            <div type="commentary">
+                <p>M. Iunius Proculus originally inscribed on the stone the dedication of the temple, originally to Tiberius and Livia, presumably while they were still living (between 14 and 29 CE). Baldassare Peruzzi, visiting Tarracina between 1519–1520 saw the temple's still standing remains, and sketched it as a peripteral temple. At some point after its construction, Pompeia Trebulla left the hefty sum of 100,000 sesterces in her will for the restoration of the temple, and at this time, the original dedication was changed through the erasure and re-inscription of part of the stone. The dedication changed from Livia Augusta to diva Augusta. The option favoured by most scholars (De Brino 2019, 716–719; Hemelrijk 2015, 454; Cogitore 2000, 248; Lanzi 1782, 83) is that this must have occured after Livia's official deification in 42 CE. However, this interpretation requires us to accept that the dedication needed to change in response to the official deification of Livia in 42 CE, yet that they kept the space dedicated to Tiberius, as a living god, although he had at that point been dead for five years. Either the Tarracinians had no qualms is continuing to worship the living Tiberius, or the Tarracinians worshipped diva Augusta (Livia) before she had officially been made a diva by the Roman senate. In his record in the CIL (10.6309) Mommsen was willing to consider that the peoples of Tarracina had anticipated Livia's official deification.</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/>CIL<citedRange>10.6309</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Hemelrijk2015"/>Hemelrijk 2015<citedRange>119, 454</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="deBrino2019"/>Di Brino 2019
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Cogitore2000"/>Cogitore 2000<citedRange>248</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Lanzi1782"/>Lanzi 1782<citedRange>83</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

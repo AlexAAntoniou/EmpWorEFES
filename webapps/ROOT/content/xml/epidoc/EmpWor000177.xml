@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000177</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000177</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Ostia/Portuus</settlement>
+                        <repository></repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/422995">Ostia</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/8378691/ostia.html">Ostia</placeName>
+                                <geo>41.75357, 12.28935</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-06" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <div type="textpart" subtype="heading">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Bellicio</name> <name>Flacco</name> <name>Torquato</name></persName> <persName type="attested"><name><expan><abbr>Ti</abbr><ex>berio</ex></expan></name> <name>Claudio</name> <name><supplied reason="lost">Attico</supplied></name> <name><supplied reason="lost">Herode</supplied></name> <expan><abbr><supplied reason="lost">co</supplied></abbr><ex>n</ex><abbr><supplied reason="lost">s</supplied></abbr><ex>ulibus</ex></expan></persName>
+                        <lb n="2"/><persName type="attested"><name>Statio</name></persName> dedicata <num value="5">V</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/>curante <persName type="attested"><name>Antonio</name> <name>Ingenuo</name></persName> et <persName type="attested"><name>Herenuleio</name> <supplied reason="lost">Fausto</supplied> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                        <lb n="4"/>qui munera in statione posuerunt
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="a">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>Antonius</name> <name><expan><abbr>Ingenu</abbr><ex>u</ex><abbr>s</abbr></expan></name></persName>
+                        <lb n="2"/>statuam verissimi Caesaris
+                        <lb n="3"/>cum Victoriam acrolitham
+                        <lb n="4"/>imaginem argentiam
+                        <lb n="5"/><persName type="attested"><name>Antonini</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>p</abbr><ex>ondon</ex></expan> <num value="1">I</num>
+                        <lb n="6"/>et ob <expan><abbr>dedic</abbr><ex>ationem</ex></expan> <expan><abbr>univers</abbr><ex>is</ex></expan> <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertios</ex></expan> <num value="4">IIII</num> <expan><abbr>n</abbr><ex>ummum</ex></expan>
+                        <lb n="7"/><persName type="attested"><name><expan><abbr>A</abbr><ex>ulus</ex></expan></name> <name><expan><abbr>Heren</abbr><ex>n</ex><abbr>uleius</abbr></expan></name> <name>Faustus</name></persName>
+                        <lb n="8"/>imaginem <persName type="attested"><name>Antonini</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>p</abbr><ex>ondo</ex></expan> <num value="2">II</num>
+                        <lb n="9"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Voltidius</name> <name>Martianus</name></persName>
+                        <lb n="10"/>imaginem <persName type="attested"><name>Aeli</name> <name>Caesaris</name></persName> <expan><abbr>p</abbr><ex>ondo</ex></expan> <num value="1">I</num>
+                        <lb n="11"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Antistius</name> <name>Hermes</name></persName>
+                        <lb n="12"/>imaginem <persName type="divinity"><name>Concordiae</name></persName> <expan><abbr>arg</abbr><ex>enteam</ex></expan> <expan><abbr>p</abbr><ex>ondo</ex></expan> <num value="1">I</num> <expan><abbr>s</abbr><ex>emisse</ex></expan>
+                        <lb n="13"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Antistius</name> <name>Onesimus</name></persName>
+                        <lb n="14"/>imaginem verissimi <expan><abbr>Caesar</abbr><ex>is</ex></expan>
+                        <lb n="15"/>argentiam <expan><abbr>p</abbr><ex>ondo</ex></expan> <num value="1">I</num> <expan><abbr>s</abbr><ex>emisse</ex></expan>
+                        <lb n="16"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Nasennius</name> <name>Felix</name></persName>
+                        <lb n="17"/><expan><abbr>imag</abbr><ex>inem</ex></expan> <expan><abbr>arg</abbr><ex>enteam</ex></expan> <persName type="attested"><name>Antonini</name> <name>Augusti</name></persName> <expan><abbr>p</abbr><ex>ondo</ex></expan> <num value="1">I</num>
+                        <lb n="18"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Nasennius</name> <name>Felix</name> <name><expan><abbr>Iun</abbr><ex>ior</ex></expan></name></persName>
+                        <lb n="19"/><expan><abbr>imag</abbr><ex>inem</ex></expan> <expan><abbr>arg</abbr><ex>enteam</ex></expan> <persName type="attested"><name>verissimi</name> <name><expan><abbr>Caes</abbr><ex>aris</ex></expan></name></persName> <expan><abbr>p</abbr><ex>ondo</ex></expan> <num value="1">I</num>
+                        <lb n="20"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublius</ex></expan></name> <name>Aelius</name> <name>Eutychus</name></persName>
+                        <lb n="21"/>scamna <expan><abbr>n</abbr><ex>umero</ex></expan> <num value="6">VI</num>
+                        <lb n="22"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>Cornelius</name> <name>Maximus</name></persName>
+                        <lb n="23"/><expan><abbr>me</abbr><ex>n</ex><abbr>sas</abbr></expan> <expan><abbr>n</abbr><ex>umero</ex></expan> <num value="4">IIII</num> et scabilla <num value="2">II</num>
+                        <lb n="24"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>Aeficius</name> <name>Hermes</name></persName>
+                        <lb n="25"/>et <persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeus</ex></expan></name> <name>Sergius</name> <name>Felix</name></persName>
+                        <lb n="26"/>statuam acrolitham <persName type="attested"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name>Aeli</name>
+                        <lb n="27"/><name>Commodi</name></persName> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>osuerunt</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="b">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>Ti</abbr><ex>berius</ex></expan></name> <name>Claudius</name> <name>Threptus</name></persName>
+                        <lb n="2"/>miliarium cum caldario
+                        <lb n="3"/><expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
+                        <lb n="4"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name>Cornelius</name> <name>Hermes</name></persName>
+                        <lb n="5"/>et <persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Aurelius</name> <name>Fortunatu<supplied reason="lost">s</supplied></name></persName>
+                        <lb n="6"/><expan><abbr>statua</abbr><ex>m</ex></expan> <expan><abbr>aerea</abbr><ex>m</ex></expan> <persName type="divinity"><name>Antonini</name>
+                        <lb n="7"/><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> cum basi marmorea
+                        <lb n="8"/><expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>osuerunt</ex></expan> et ob dedicationem eius viritim <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertios</ex></expan> <num value="4">IIII</num> <expan><abbr>n</abbr><ex>ummum</ex></expan>
+                        <lb n="9"/>dederunt
+                        <lb n="10"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Cornelius</name> <name>Euhodu<supplied reason="lost"></supplied></name></persName>
+                        <lb n="11"/><expan><abbr>imag</abbr><ex>inem</ex></expan> <expan><abbr>arg</abbr><ex>enteam</ex></expan> <persName type="divinity"><name>Antonini</name> <name><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied></name>
+                        <lb n="12"/><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Aurelius</name></persName> cui
+                        <lb n="13"/>par candelabra <expan><abbr>d</abbr><ex>ono</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>edit</ex></expan></supplied>
+                        <lb n="14"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Cornelius</name> <name>Euhodu<supplied reason="lost">s</supplied></name></persName>
+                        <lb n="15"/><expan><ex>h</ex><abbr>emitylia</abbr></expan> <num value="6">VI</num> <expan><ex>h</ex><abbr>illas</abbr></expan> <num value="4">IIII</num>
+                        <lb n="16"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Aelio</name> <name>Aurelio</name> <name>Comm<supplied reason="lost">odo</supplied></name></persName>
+                        <lb n="17"/><persName type="attested"><name><expan><abbr>T</abbr><ex>ito</ex></expan></name> <name>Sextio</name> <name>Lateran<supplied reason="lost">o</supplied></name></persName> <expan><abbr><supplied reason="lost">co</supplied></abbr><ex>n</ex><abbr><supplied reason="lost">s</supplied></abbr><ex>ulibus</ex></expan> <num value="14">XIIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>April</abbr><ex>es</ex></expan>
+                        <lb n="18"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublius</ex></expan></name> <name>Sextilius</name> <name>Agripp<supplied reason="lost">a</supplied></name></persName>
+                        <lb n="19"/>obtulit in conventu <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="20"/>ea condicione uti ex us<supplied reason="lost">uris</supplied>
+                        <lb n="21"/>summae <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptae</ex></expan> omnibus an<supplied reason="lost">nis</supplied>
+                        <lb n="22"/><num value="9">VIIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Sept</abbr><ex>embres</ex></expan> die natalis su<supplied reason="lost">i</supplied>
+                        <lb n="23"/><expan><abbr>i</abbr><ex>i</ex></expan> qui in collegio es<supplied reason="lost">sent</supplied>
+                        <lb n="24"/>epularentur
+                        <lb n="25"/>quod si <num value="9">VIIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Sept</abbr><ex>embres</ex></expan> qua<supplied reason="lost" cert="low">ndo</supplied>
+                        <lb n="26"/>omnibus annis ii qu<supplied reason="lost">i in</supplied>
+                        <lb n="27"/>collegio sunt eru<supplied reason="lost">ntque</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text of EAGLE</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p></p> <!--  -->
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/><citedRange>1940.62</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000050</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000050</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Misenum</settlement>
+                        <repository></repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/432942">Misenum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/8959239/faro.html">Faro</placeName>
+                                <geo>40.77771, 14.08941</geo>
+                            </origPlace>
+                            <origDate when="0102">102 CE</origDate>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-04-17" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <div type="textpart" subtype="side" n="left">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Iulio</name> <name>Urso</name> <name>Serviano</name> <num value="2"><hi rend="supraline">II</hi></num></persName>
+                        <lb n="2"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Licinio</name> <name>Sura</name> <num value="2"><hi rend="supraline">II</hi></num></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+                        <lb n="3"/><num value="3">III</num> Nonas <expan><abbr>Ianuar</abbr><ex>ias</ex></expan>
+                        <lb n="4"/>Miseni in templo <persName type="divinity"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> quod est Augustalium petente
+                        <lb n="5"/><persName type="attested"><name>Tullio</name> <name>Eutycho</name></persName> curatore perpetuo de <expan><abbr>confirmand</abbr><ex>a</ex></expan>
+                        <lb n="6"/>voluntate pollicitationis suae <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertia</ex></expan> triginta <expan><abbr>mill</abbr><ex>ia</ex></expan>
+                        <lb n="7"/>nummorum cuius summae incrementum omnibus
+                        <lb n="8"/>annis <expan><abbr>Augustalib</abbr><ex>us</ex></expan> corporatis dividatur idque perpetua
+                        <lb n="9"/>securitate confirmaretur placuit
+                        <lb n="10"/>cum <persName type="attested"><name>Tullius</name> <name>Eutychus</name></persName> largissima voluntate sua rem
+                        <lb n="11"/>communem <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ostram</ex></expan> locupletaverit offerendo arcae <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ostrae</ex></expan>
+                        <lb n="12"/><expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertia</ex></expan> <num value="30"><hi rend="supraline">XXX</hi></num> <expan><abbr><hi rend="supraline">m</hi></abbr><ex>ilia</ex></expan> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ummum</ex></expan> cuius summae reditum quod annis <expan><abbr>pr</abbr><ex>idie</ex></expan> idus
+                        <lb n="13"/>Iunias natale municipi corpori nostro viritim divisio
+                        <lb n="14"/>fiat sitque nobis sollemne hanc benefici eius
+                        <lb n="15"/>largitionem perpetuo conservare
+                        <lb n="16"/>placere <expan><abbr>itaq</abbr><ex>ue</ex></expan> Augustalibus <expan><abbr>omnib</abbr><ex>us</ex></expan> annis <expan><abbr>pr</abbr><ex>idie</ex></expan> idus Iunias
+                        <lb n="17"/>ex incremento <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertia</ex></expan> <num value="30"><hi rend="supraline">XXX</hi></num> <expan><abbr><hi rend="supraline">m</hi></abbr><ex>ilia</ex></expan> <expan><abbr>nummor</abbr><ex>um</ex></expan> <expan><abbr>Augustalib</abbr><ex>us</ex></expan> corporatis
+                        <lb n="18"/>divisionem fieri idque curatores sui cuiusque anni
+                        <lb n="19"/>opservare neve quid aliter curator quisve alius fecisse
+                        <lb n="20"/>referreve neve adversus hoc decretum aliud inter
+                        <lb n="21" break="no"/>posuisse <expan><abbr>sancisseq</abbr><ex>ue</ex></expan> velit qui adversus ea curator
+                        <lb n="22"/>Augustalisve quid fecerit fierive passus erit is rei
+                        <lb n="23"/>communi Augustalium <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertia</ex></expan> quinquaginta millia <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ummum</ex></expan>
+                        <lb n="24"/>damnas esto dare sive per Augustales Misenenses
+                        <lb n="25"/>steterit quominus ea quae supra scripta sunt fiant
+                        <lb n="26"/>tum ea <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertia</ex></expan> <num value="30"><hi rend="supraline">XXX</hi></num> millia nummorum ad rem publicam
+                        <lb n="27"/>municipum Misenensium pervenire deque ea
+                        <lb n="28"/>re opservanda tabulam aeream inscriptam
+                        <lb n="29"/>incisamve huius decreti in templo nostro
+                        <lb n="30"/>poni ut hanc largitionem eius etiam posteri
+                        <lb n="31"/>perpetuo adgnoscere et frui possint
+                    </ab>
+                </div>
+                <div type="textpart" subtype="side" n="right">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Iulio</name> <name>Urso</name> <name>Serviano</name> <num value="2"><hi rend="supraline">II</hi></num></persName>
+                        <lb n="2"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Licinio</name> <name>Sura</name> <num value="2"><hi rend="supraline">II</hi></num></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+                        <lb n="3"/><num value="3">III</num> Nonas <expan><abbr>Ianuar</abbr><ex>ias</ex></expan>
+                        <lb n="4"/>Miseni in templo <persName type="divinity"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> quod est Augustalium
+                        <lb n="5"/>petente <persName type="attested"><name>Tullio</name> <name>Eutycho</name></persName> curatore perpetuo de
+                        <lb n="6"/>confirmanda voluntate pollicitationis suae <!-- sestertia --> <num value="30"><hi rend="supraline">XXXX</hi></num> <expan><abbr>m</abbr><ex>ilia</ex></expan>
+                        <lb n="7"/>cuius summae incrementum <expan><abbr>omnib</abbr><ex>us</ex></expan> annis <expan><abbr>Augustalib</abbr><ex>us</ex></expan>
+                        <lb n="8"/>corporatis dividatur idque perpetua securitate <expan><abbr>confirm</abbr><ex>aretur</ex></expan>
+                        <lb n="9"/> placuit
+                        <lb n="10"/>cum <persName type="attested"><name>Tullius</name> <name>Eutychus</name></persName> lar<supplied reason="lost">gissima voluntate sua rem</supplied>
+                        <lb n="11"/>communem nostram loc<supplied reason="lost">upletaverit offerendo arcae</supplied>
+                        <lb n="12"/>nostrae <!-- sesteria --> <num value="30"><hi rend="supraline">XXX</hi></num> <expan><abbr><hi rend="supraline">m</hi></abbr><ex>ilia</ex></expan> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ummum</ex></expan> <supplied reason="lost">c</supplied>uius s<supplied reason="lost">ummae reditum quod annis</supplied>
+                        <lb n="13"/><expan><abbr>pr</abbr><ex>idie</ex></expan> idu<unclear>s</unclear> Iunias natale <supplied reason="lost">municipi corpori nostro viritim</supplied> 
+                        <lb n="14"/>divisio <unclear>fiat si</unclear>tque <unclear>s</unclear>o<supplied reason="lost">lle</supplied>mn<supplied reason="lost">e hanc benefici eius largitionem</supplied>
+                        <lb n="15"/>per<supplied reason="lost">petuo cons</supplied>ervare
+                        <lb n="16"/>pla<unclear>cere</unclear> <expan><abbr><unclear>itaq</unclear></abbr><ex>ue</ex></expan> <supplied reason="lost">Augustalibus <expan><abbr>omnib</abbr><ex>us</ex></expan> annis <expan><abbr>pr</abbr><ex>idie</ex></expan> idus Iunias</supplied>
+                        <lb n="17"/>ex incremento <!-- sestertia --> <supplied reason="lost"><num value="30"><hi rend="supraline">XXX</hi></num> <expan><abbr><hi rend="supraline">m</hi></abbr><ex>ilia</ex></expan> <expan><abbr>nummor</abbr><ex>um</ex></expan> <expan><abbr>Augustalib</abbr><ex>us</ex></expan> corporatis</supplied>
+                        <lb n="18"/>divisionem fieri idq<supplied reason="lost">ue curatores sui cuiusque anni</supplied>
+                        <lb n="19"/>opservare neve <unclear>quid</unclear> <supplied reason="lost">aliter curator quisve alius fecisse</supplied>
+                        <lb n="20"/>referreve neve advers<supplied reason="lost">us hoc decretum aliud interposuisse</supplied>
+                        <lb n="21"/><expan><abbr>sancisseq</abbr><ex>ue</ex></expan> velit q<supplied reason="lost">ui adversus ea curator Augustalisve</supplied>
+                        <lb n="22"/>quid fecerit <supplied reason="lost">fierive passus erit is rei communi Augustalium</supplied>
+                        <lb n="23"/><!-- sestertia --> <!-- symbol --> <expan><abbr>m</abbr><ex>illia</ex></expan> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ummum</ex></expan> <supplied reason="lost">da</supplied><unclear>mna</unclear><supplied reason="lost">s esto dare sive per Augustales</supplied>
+                        <lb n="24"/>Misenenses <unclear>st</unclear>ete<unclear>r</unclear>it q<supplied reason="lost">uominus ea quae supra scripta sunt</supplied>
+                        <lb n="25"/>fian<unclear>t</unclear> tum ea <!-- sestertia --> <supplied reason="lost"><num value="30">XXX</num></supplied> <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ummorum</ex></expan> ad <supplied reason="lost">rem publicam <expan><abbr>Misen</abbr><ex>ensium</ex></expan></supplied>
+                        <lb n="26"/>pervenire deque ea <supplied reason="lost">re</supplied> opservand<supplied reason="lost">a tabulam</supplied>
+                        <lb n="27"/>aeream inscriptam incisa<unclear>m</unclear> hui<supplied reason="lost">us decreti in</supplied>
+                        <lb n="28"/>templo nostro poni ut hanc lar<unclear>g</unclear><supplied reason="lost">itionem</supplied>  
+                        <lb n="29"/>eius etiam posteri perpetuo adgno<unclear>sc</unclear><supplied reason="lost">ere et</supplied>
+                        <lb n="30"/>frui possint
+                        <lb n="31"/><!-- palma -->
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp><app><note></note></app></listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p></p> <!--  -->
+            </div>
+            <div type="commentary">
+                <p></p> <!-- Laird 2015 -->
+            </div>
+            <div type="bibliography">
+                 <p>
+                    <bibl>
+                        <ptr target="AE"/><citedRange>1993.468</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

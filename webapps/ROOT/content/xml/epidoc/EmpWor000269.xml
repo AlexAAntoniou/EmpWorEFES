@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000269</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000269</idno>
+                <idno type="EDCS">EDCS05801566</idno>
+                <idno type="EDR">EDR131525</idno>
+                <idno type="EDH">HD018091</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Tibur</settlement>
+                        <repository>Musei Capitolini</repository> 
+                        <idno>NCE 2506</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Marble plaque broken into multiple contiguous fragments, missing left side.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType>
+                                    <dimensions>
+                                        <height unit="cm">60</height>
+                                        <width unit="cm">90</width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.fragments"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/423081">Tibur</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3165624/tivoli.html">Tivoli</placeName>
+                                <geo>41.963602, 12.79818</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" subtype="discovered">From the collection of Cardinal Albani</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-13" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="divine"><name><supplied reason="lost">Di</supplied>vae</name> <g ref="#interpunct">·</g> <name>Drusillae</name></persName>
+                    <lb n="2"/>sacrum
+                    <lb n="3"/><persName type="attested"><name><expan><abbr><supplied reason="lost">C</supplied></abbr><ex>aius</ex></expan></name> <name><supplied reason="lost">R</supplied>ubellius</name> <g ref="#interpunct">·</g> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <g ref="#interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <name>Blandus</name></persName>
+                    <lb n="4"/><expan><abbr><supplied reason="lost">q</supplied></abbr><ex>uaestor</ex></expan> <persName type="ruler"><name>divi</name> <g ref="#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <g ref="#interpunct">·</g> <expan><abbr>tr</abbr><ex>ibunus</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>pl</abbr><ex>ebis</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>pr</abbr><ex>aetor</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan>
+                    <lb n="5"/><expan><abbr><supplied reason="lost">pr</supplied>o<g ref="#interpunct">·</g>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <expan><abbr>pontif</abbr><ex>ex</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR, comparison with photograph</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>Sacred to the divine Drusilla. Caius Rubellius Blandus, son of Caius, quaestor of the divine Augustus, tribune of the plebs, praetor, consul, proconsul and pontifex.</p>
+            </div>
+            <div type="commentary">
+                <p>This dedication to the divine Drusilla was made by a senator, Caius Rubellius Blandus, who was also responsible for dedications in Lepcis Magna (RIT 269, 330, 331). As Várhelyi (2010, 113) has noted, dedications by senators to divinized members of the domus Augusta are relatively rare.</p> <!-- Add hyperlinks to these inscriptions? -->
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/>CIL<citedRange>14.3576</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/>ILS<citedRange>196</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="FS"/>FS<citedRange>2922</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Várhelyi2010"/>Várhelyi 2010<citedRange>113</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

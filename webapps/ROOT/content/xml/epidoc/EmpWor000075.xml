@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000075</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000075</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <settlement>Neapolis</settlement>
+                        <repository></repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="grc">Greek</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/433014">Neapolis</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3172394/naples.html">Naples</placeName>
+                                <geo>40.83999, 14.25287</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-05-15" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc" resp="#AA">
+                 <ab> <!-- Only basic encoding done -->
+                     <lb n="1"/>ἀγαθῆι τύχηι
+                     <lb n="2"/>ἡ φιλοσέβαστος καὶ φιλορώμα<supplied reason="lost">ιος Ἀλε</supplied>
+                     <lb n="3" break="no"/>ξανδρέων περιπολιστικὴ εὐσεβὴ<supplied reason="lost">ς σύνοδος</supplied>
+                     <lb n="4"/>ἐτίμησεν <expan><abbr>Τ</abbr><ex>ίτον</ex></expan>Φλάουιον <expan><abbr>Κυρ</abbr><ex>είνα</ex></expan>Ἀρχίβιον τὸν <gap reason="lost" quantity="7" unit="character" precision="low"/>
+                     <lb n="5"/>Ἀλεξανδρέα ἀρχιερέα διὰ βίου τοῦ σύμπ<supplied reason="lost">αντος ξυστοῦ</supplied>
+                     <lb n="6"/>παραδοξονίκην νικήσαντα τὴν <hi rend="supraline">σκ</hi> ὀλυ<supplied reason="lost">μπιάδα καὶ</supplied>
+                     <lb n="7"/>τὴν <hi rend="supraline">σκα</hi> ὀλυμπιάδα ἀνδρῶν παγκράτ<supplied reason="lost">ιον καὶ ἐν</supplied>
+                     <lb n="8"/>Ῥώμηι τὰ μεγάλα Καπετώλεια τὴν τρίτη<supplied reason="lost">ν πενταετηρίδα</supplied>
+                     <lb n="9"/>ἀγενείων παγκράτιον στεφανωθέντα κα<supplied reason="lost">ὶ τὴν τετάρτην</supplied>
+                     <lb n="10"/>ἀνδρῶν παγκράτιον νικήσαντα καὶ τὴν πέμπ<supplied reason="lost">την ἀνδρῶν</supplied>
+                     <lb n="11"/>παγκράτιον στεφανωθέντα καὶ τὴν ἕκτην ὁ<supplied reason="lost">μοίως ἀνδρῶν</supplied>
+                     <lb n="12"/>παγκράτιον στεφανωθέντα πρῶτον ἀνθρώπω<supplied reason="lost">ν· τὰ ἐν</supplied> <gap reason="lost" quantity="5" unit="character" precision="low"/>
+                     <lb n="13"/>Ἡράκλεια ἐπινίκια Αὐτοκράτορος Νέρουα Τραιανοῦ Κ<supplied reason="lost">αίσαρος Σεβαστοῦ</supplied>
+                     <lb n="14"/>Γερμανικοῦ Δακικοῦ στεφανωθέντα ἀνδρῶν παγκρά<supplied reason="lost">τιον Πύθια ἀγενείων</supplied>
+                     <lb n="15"/>παγκράτιον καὶ τῆι ἑξῆς πυθιάδι ἀνδρῶν πάλην καὶ π<supplied reason="lost">αγκράτιον καὶ τῆι</supplied>
+                     <lb n="16"/>ἑξῆς ἀνδρῶν παγκράτιον πρῶτον ἀνθρώπων Νέμεια π<supplied reason="lost">αίδων παγκράτιον</supplied>
+                     <lb n="17"/>καὶ τρὶς κατὰ τὸ ἑξῆς ἀνδρῶν παγκράτιον πρῶτον ἀν<supplied reason="lost">θρώπων</supplied> <gap reason="lost" quantity="9" unit="character" precision="low"/>
+                     <lb n="18"/>ἀνδρῶν παγκράτιον Ἄκτια ἀγενείων πάλη<supplied reason="omitted">ν</supplied> παγκράτ<supplied reason="lost">ιον καὶ <!-- NUMBER WOULD HAVE BEEN HERE --> κατὰ</supplied>
+                     <lb n="19"/>τὸ ἑξῆς ἀνδρῶν παγκράτιον πρῶτον ἀνθρώπων Νέαν π<supplied reason="lost">όλιν ἀγενείων</supplied>
+                     <lb n="20"/>παγκράτιον καὶ δὶς κατὰ τὸ ἑξῆς ἀνδρῶν παγκράτιον <gap reason="lost" quantity="8" unit="character" precision="low"/> <supplied reason="lost">ἀγενεί</supplied>
+                     <lb n="21" break="no"/>ων πάλην παγκράτιον καὶ δὶς κατὰ τὸ ἑξῆς ἀνδρῶν πάλην παγκρ<supplied reason="lost">άτιον καὶ τῇ ἑξῆς</supplied>
+                     <lb n="22"/>ἀνδρῶν παγκράτιον πρῶτον ἀνθρώπων· τὰ ἐν Ἐφέσωι Βαλβίλλεια <supplied reason="lost">ἀνδρῶν πάλην πυγ</supplied>
+                     <lb n="23" break="no"/>μὴν παγκράτιον πρῶτον ἀνθρώπων καὶ τὸν ἐν Ἀντιοχείαι ἱερὸν πεν<supplied reason="lost">ταετηρικὸν ἀγῶνα</supplied>
+                     <lb n="24"/>Ἀκτιακῶν παίδων παγκράτιον καὶ τῆι ἑξῆς πενταετηρίδι ἀγεν<supplied reason="lost">είων πάλην καὶ πυγ</supplied>
+                     <lb n="25" break="no"/>μὴν καὶ τῆι ἑξῆς ἀνδρῶν παγκράτιον καὶ τῆι ἑξῆς ὁμοίως ἀνδ<supplied reason="lost">ρῶν παγκράτιον</supplied>
+                     <lb n="26"/>πρῶτον ἀνθρώπων Σμύρναν κοινὸν Ἀσίας ἀγενείων πά<supplied reason="lost">λην παγκράτιον</supplied>
+                     <lb n="27"/>καὶ τὸν ἐν Ἀλεξανδρείᾳ ἱερὸν πενταετηρικὸν ἀγῶνα Ἀκ<supplied reason="lost">τιακῶν παίδων</supplied>
+                     <lb n="28"/>παγκράτιον καὶ μετὰ μίαν πενταετηρίδα ἀνδρῶν πα<supplied reason="lost">γκράτιον</supplied>
+                     <lb n="29"/>καὶ τῆι ἑξῆς ὁμοίως ἀνδρῶν παγκράτιον καὶ τῆι ἑ<supplied reason="lost">ξῆς</supplied> <gap reason="lost" quantity="3" unit="character"/>
+                     <lb n="30"/>ἀνδρῶν πάλην παγκράτιον πρῶτον ἀνθρώπων ἔχε<supplied reason="lost">ι δὲ καὶ τὴν ἐξ</supplied>
+                     <lb n="31"/>Ἄργους ἀσπίδα καὶ ἄλλους πλείστους πενταετηρικ<supplied reason="lost">οὺς ἀγῶνας</supplied>
+                     <lb n="32"/>παίδων ἀγενείων ἀνδρῶν πάλας καὶ παγκράτια
+                 </ab> 
+            </div>
+            <div type="apparatus">
+                <listApp><app><note>Text of I.Napoli I 51</note></app></listApp>
+                <listApp><app><note>Wallner Nikephoros 14 (2001) 96–108 in SEG 51:1413 line 17 different reading</note></app></listApp> <!-- ADD? -->
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p></p> <!--  -->
+            </div>
+            <div type="commentary">
+                <p>Geer (1935, 209 n.2) reads Νέαν πόλιν as a reference to the Italika Rhomaia Sebasta Isolumpia, the quinquennial or quadrennial sacred games, established in Naples in 2 BCE and first celebrated in 2 CE, were originally devoted to the worship of Augustus whilst he was alive. The games were celebrated at least until the third or fourth centuries CE.</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="I-Napoli"/>I-Napolu<citedRange>I.51</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="PHI"/><citedRange>PHI<ref target="https://epigraphy.packhum.org/text/177663">177663</ref></citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

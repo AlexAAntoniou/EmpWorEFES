@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000028</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000028</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Fidenae</settlement>
+                        <repository></repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/422923">Fidenae</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/11396164/castel-giubileo.html">Castel Giubileo</placeName>
+                                <geo>41.98205, 12.51543</geo>
+                            </origPlace> <!-- should be possible to date via consuls -->
+                            <origDate/>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-04-11" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab> <!-- CIL -->
+                   <lb n="1"/><persName type="divinity"><name>Numini</name></persName> domus <persName type="attested"><name><expan><abbr>A<supplied reason="lost">ug</supplied></abbr><ex>ustae</ex></expan></name></persName>
+                   <lb n="2"/><persName type="attested"><name>Blastus</name> <name>Eutact<supplied reason="lost" cert="low">ianus</supplied></name></persName> <supplied reason="lost">et</supplied>
+                   <lb n="3"/><persName type="attested"><name>Secundus</name> <persName type="attested"><name type="libertus">Iuli</name> <name>Quadr<supplied reason="lost">ati</supplied></name></persName></persName>
+                   <lb n="4"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> <num value="2">II</num> <expan><abbr>lib</abbr><ex>ertus</ex></expan> ob honorem V<supplied reason="lost">Iviratus</supplied>
+                   <lb n="5"/>et Italia <expan><abbr>lib</abbr><ex>erta</ex></expan> eiusd<supplied reason="lost">em</supplied>
+                   <lb n="6"/>ob magis<supplied reason="lost">t</supplied>erium <persName type="divinity"><name><expan><abbr>B</abbr><ex>onae</ex></expan></name> <name><expan><abbr><supplied reason="lost">D</supplied></abbr><ex>eae</ex></expan></name></persName>
+                   <lb n="7"/>dedicaverunt <num value="14">XIIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Oct<supplied reason="lost">o</supplied>b</abbr><ex>res</ex></expan>
+                   <lb n="8"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Clodio</name> <name>Lunense</name>  <gap reason="lost" extent="unknown" unit="character"/></persName>
+                   <lb n="9"/>et <persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name>Licinio</name> <name>Crasso</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> 
+                   <lb n="10"/>quo die et epulum dederunt
+                   <lb n="11"/>incendio <expan><abbr>consum</abbr><ex>p</ex><abbr>tum</abbr></expan> senatus
+                   <lb n="12"/>Fidenatium restituit 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp><app><note></note></app></listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>To the numen of the domus Augusta. Blastus Eutactianus (?) and Secundus, freedman of Iulius Quadratus, consul for the second time, on account of the honour of the sevirate, and Italia, freedwoman of the same, on account of the magsterium of Bona Dea, dedicated this on the 18th day before the Kalends of October, in the consulship of Marcus Clodius Lunensis [...], and Publius Licinius Crassus, on which day they also gave a banquet. The Senate of Fidenae restored [this sanctuary?], destroyed by fire.</p>
+            </div>
+            <div type="commentary">
+                <p></p> <!-- Brouwer Bona dea, nos. 51, 59-60. See page 378-->
+            </div>
+            <div type="bibliography">
+                 <p>
+                    <bibl>
+                        <ptr target="CIL"/><citedRange>14.4057</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

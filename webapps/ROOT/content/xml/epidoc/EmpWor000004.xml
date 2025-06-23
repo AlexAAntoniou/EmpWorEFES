@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pro Salute(?) for Septimius Severus, Caracalla and Iulia Domna</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000004</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Ager Albanus</settlement>
+                        <repository></repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/371030888">Ager Albanus</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3183356/albano-laziale.html">Albano Laziale</placeName>
+                                <geo>41.72895, 12.66020</geo>
+                            </origPlace>
+                            <origDate when="0210" cert="medium" evidence="prosopography">210 CE</origDate>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-04-04" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab> <!-- CIL -->
+                   <lb n="1"/><supplied reason="lost" cert="low">pro salute</supplied>
+                   <lb n="2"/><persName type="ruler" key="septimius-severus"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name><expan><abbr>Sept</abbr><ex>imi</ex></expan></name> <name><expan><abbr>Sever</abbr><ex>i</ex></expan></name> Pii <name><expan><abbr>Pert</abbr><ex>inacis</ex></expan></name> <expan><abbr>Aug</abbr><ex>usti</ex></expan></persName> <supplied reason="undefined" evidence="previouseditor">et</supplied> <persName type="ruler" key="caracalla"><supplied reason="undefined" evidence="previouseditor"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></supplied> <supplied reason="undefined" evidence="previouseditor"><expan><abbr>Caes</abbr><ex>aris</ex></expan></supplied>
+                   <lb n="3"/><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name><expan><abbr>Aurel</abbr><ex>i</ex></expan></name> <name><expan><abbr>Ant</abbr><ex>onini</ex></expan></name> Pii <expan><abbr>Felic</abbr><ex>is</ex></expan> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> <expan><abbr>Parth</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <supplied reason="undefined" evidence="previouseditor"><expan><abbr>Britann</abbr><ex>ici</ex></expan></supplied>
+                   <lb n="4"/><expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></persName> et <persName type="ruler" key="iulia-domna"><name>Iuliae</name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <expan><abbr>matr</abbr><ex>is</ex></expan> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> <expan><abbr>n</abbr><ex>ostri</ex></expan> et <expan><abbr>senat</abbr><ex>us</ex></expan> et pa
+                   <lb n="5" break="no"/>triae et <expan><abbr>castr</abbr><ex>orum</ex></expan> <persName type="divine" ref="minervaAugusta"><expan><abbr>Minerv</abbr><ex>ae</ex></expan> <expan><abbr>Aug</abbr><ex>ustae</ex></expan></persName> <expan><abbr>sacr</abbr><ex>ae</ex></expan> <persName><name>Dasimius</name>
+                   <lb n="6"/><name><expan><abbr>Firmin</abbr><ex>us</ex></expan></name></persName> <expan><abbr>corn</abbr><ex>icularius</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> et <persName><name><expan><abbr>Aurel</abbr><ex>ius</ex></expan></name> <name><expan><abbr>Victorin</abbr><ex>us</ex></expan></name></persName> <expan><abbr>actar</abbr><ex>ius</ex></expan>
+                   <lb n="7"/>cum <expan><abbr>imm</abbr><ex>unibus</ex></expan> <expan><abbr>libr</abbr><ex>ariis</ex></expan> et exactis <expan><abbr>vot</abbr><ex>um</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp><app><note></note></app></listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>(For the safety of?) Imperator Caesar Lucius Septimius Severus Pius Pertinax Augustus and Imperator Caesar Marcus Aurelius Antoninus Pius Felix Augustus, Greatest Victor over Parthians, Greatest Victor over the Britains, father of the fatherland, and Julia Augusta, mother of our Augustus, and of our senate, and fatherland, and camp. Sacred to Minerva Augusta. Dasimius Firminus, coniculary of the legion, and Aurelius Victorinus, actarius with exempt office clerks and clerks, erected this vow willingly.</p>
+            </div>
+            <div type="commentary">
+                <p></p> <!-- Septimius Severus, Caracalla, Julia Augusta -->
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/>CIL<citedRange>14.2255</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

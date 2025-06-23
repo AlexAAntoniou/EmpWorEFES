@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000007 (Numen Inscription)</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000007</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Ager Albanus</settlement>
+                        <repository></repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Described by Mancini (1913) as two fragments of a marble slab, incomplete on top and left side.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm">27</height>
+                                        <width unit="cm">36</width>
+                                        <depth unit="cm">0.2</depth>
+                                    </dimensions>
+                                </support>
+                                <condition><p>Two incomplete fragments</p></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/371030888">Ager Albanus</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3183356/albano-laziale.html">Albano Laziale</placeName>
+                                <geo>41.72895, 12.66020</geo>
+                            </origPlace>
+                            <origDate when="0249">249 CE, between 6–12 February of that year</origDate> <!-- Dated by Mancini based on imperial titulature, and the recorded date of the inscription itself, between 6 and 12 February  -->
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-04-04" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                   <lb/><gap reason="lost" quantity="1" unit="line"/>
+                   <lb n="1"/><supplied reason="lost"><expan><abbr>leg</abbr><ex>io</ex></expan></supplied> <expan><abbr>Par<hi rend="ligature">thi</hi></abbr><ex>ca</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>P</abbr><ex>ia</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>F</abbr><ex>elix</ex></expan> <expan><abbr>F</abbr><ex>idelis</ex></expan> <g ref="#interpunct">·</g> <expan><abbr><hi rend="ligature">Ae</hi>t</abbr><ex>erna</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>devot</abbr><ex>a</ex></expan> <g ref="#interpunct">·</g>
+                   <lb n="2"/><supplied reason="lost">num</supplied>ini maiestatique <g ref="#interpunct">·</g>
+                   <lb n="3"/><supplied reason="lost">eor</supplied>um <g ref="#ivy-leaf">❦</g> dedicante <g ref="#interpunct">·</g> <persName><name><expan><abbr>Cl</abbr><ex>audio</ex></expan>
+                   <lb n="4"/><supplied reason="lost">Sil</supplied>vano</name></persName> <expan><abbr>prae</abbr><ex>fecto</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptae</ex></expan>
+                   <lb n="5"/><gap reason="lost" quantity="3" unit="char"/><supplied reason="lost">I</supplied>dus <g ref="#interpunct">·</g> <expan><abbr>Feb</abbr><ex>uarias</ex></expan> <g ref="#interpunct">·</g> <persName><name>Fulvio</name> <name>Ae
+                   <lb n="6"/><supplied reason="lost">mil</supplied>iano</name> <num value="2">II</num></persName> <hi rend="ligature">et</hi> <persName><name><hi rend="ligature">Ae</hi>lio</name> <name>Aquilino</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text based on NSA (1913.52, Mancini), including interpuncts and hedera</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p></p> <!-- Translation needed! -->
+            </div>
+            <div type="commentary">
+                <p></p> <!-- -->
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/><citedRange>1913.219</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="NSA"/><citedRange>1913.52 (Mancini)</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cultores of Diana and Antinous</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000040</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Lanuvium</settlement>
+                        <repository></repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/422956">Lanuvium</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3175156/lanuvio.html">Lanuvio</placeName>
+                                <geo>41.67470, 12.69759</geo>
+                            </origPlace>
+                            <origDate atLeast="0133" atMost="0136">133–136 CE</origDate>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-04-17" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA"><!-- Eagle -->
+                <div type="textpart" subtype="heading">
+                    <ab> 
+                        <lb n="1"/><persName type="attested"><supplied reason="lost"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name></supplied> <supplied reason="lost"><name>Ceionio</name></supplied> <name>Commodo</name></persName> <persName type="attested"><name><expan><abbr>Sex</abbr><ex>to</ex></expan></name> <name>Ve<unclear>tt</unclear>u<unclear>le</unclear>no</name> <name>Civ<unclear>ica</unclear></name> <name><unclear>P</unclear>om<unclear>pei</unclear>a<unclear>no</unclear></name></persName> <expan><abbr><unclear>co</unclear></abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> <num value="5"><hi rend="supraline">V</hi></num> <expan><abbr>Iun</abbr><ex>ias</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="A">
+                    <ab>
+                        <lb n="1"/><supplied reason="lost">Lanuvi in</supplied> <unclear>t</unclear>emplo <persName type="divinity">Antioni</persName> in quo <persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Caesennius</name> <name>Rufus</name></persName>
+                        <lb n="2"/><supplied reason="lost">patronu</supplied>s municipi conventum haberi iusserat per <persName type="attested"><name><expan><abbr>L</abbr><ex>ucium</ex></expan></name> <name>Pompeium</name></persName>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>u</unclear>m <hi rend="supraline"><expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennalem</ex></expan></hi> cultorum <persName type="divinity"><name>Dianae</name></persName> et <persName type="divinity"><name>Antonoi</name></persName> pollicitus est se
+                        <lb n="4"/><supplied reason="lost">conl</supplied><unclear>a</unclear>turum eis ex liberalitate sua <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan><num value="15000"><hi rend="supraline">15</hi></num> <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>n</abbr><ex>ummum</ex></expan> usum die
+                        <lb n="5"/><supplied reason="lost">natal</supplied><unclear>i</unclear>s <persName type="divinity">Dianae</persName> <expan><abbr>idib</abbr><ex>us</ex></expan> <expan><abbr>Aug</abbr><ex>ustis</ex></expan> <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan> <num value="400">CCCC</num> <expan><abbr>n</abbr><ex>ummum</ex></expan> et die natalis <persName type="divinity"><name>Antinoi</name></persName> <num value="5">V</num> <expan><abbr>k</abbr><ex>alendas</ex></expan>
+                        <lb n="6"/><supplied reason="lost"><expan><abbr>Decem</abbr><ex>bres</ex></expan></supplied> <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan> <num value="400">CCCC</num> <expan><abbr>n</abbr><ex>ummum</ex></expan> et praecepit legem ab ipsis constitutam sub tetra
+                        <lb n="7" break="no"/><supplied reason="lost">stylo</supplied> <persName type="divinity"><name><supplied reason="lost">A</supplied>ntinoi</name></persName> parte interiori perscribi in verba infra scrip<unclear>ta</unclear>
+                        <lb n="8"/><persName type="attested"><supplied reason="lost"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name></supplied> <supplied reason="lost"><name>Antonio</name></supplied> <name><supplied reason="lost">Hiber</supplied>o</name></persName> <persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name>Mummio</name> <name>Sisenna</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <expan><abbr>Kal</abbr><ex>endis</ex></expan> <expan><abbr>Ian</abbr><ex>uariis</ex></expan> collegium salutare <persName type="divinity"><name>Dianae</name></persName>
+                        <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><persName type="divinity"><name>Antioni</name></persName> constitutum <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Caesennio</name> <persName type="attested"><name type="patronym"><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Qui</abbr><ex>rina</ex></expan> <name>Rufo</name></persName> <expan><abbr>dic</abbr><ex>tatore</ex></expan> <num value="3"><hi rend="supraline">III</hi></num> <expan><abbr>idemq</abbr><ex>ue</ex></expan> <expan><abbr>patr</abbr><ex>ono</ex></expan>
+                        <lb n="10"/>kaput ex <expan><abbr>s</abbr><ex>enatus</ex></expan> <expan><abbr>c</abbr><ex>onsulto</ex></expan> <expan><abbr>p</abbr><ex>opuli</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan>
+                        <lb n="11"/><supplied reason="undefined" evidence="previouseditor">quib</supplied><supplied reason="lost">us permissum est co</supplied>nvenire <expan><abbr>collegiumq</abbr><ex>ue</ex></expan> habere liceat qui stipem menstruam conferre vo
+                        <lb n="12" break="no"/><supplied reason="undefined" evidence="previouseditor">len</supplied><supplied reason="lost">t ad facienda sacr</supplied><unclear>r</unclear>a in it collegium coeant <expan><abbr>neq</abbr><ex>ue</ex></expan> sub specie eius collegi nisi semel in men
+                        <lb n="13" break="no"/><supplied reason="undefined" evidence="previouseditor">se c</supplied><supplied reason="lost">oeant stipem con</supplied>ferendi causa unda defuncti sepe<unclear>l</unclear>iantur
+                        <lb n="14"/><supplied reason="lost">quod bonum fa</supplied><supplied reason="undefined" evidence="previouseditor">ust</supplied><supplied reason="lost">um fe</supplied><unclear>l</unclear>ix <expan><abbr>salutareq</abbr><ex>ue</ex></expan> sit <expan><abbr>imp</abbr><ex>eratori</ex></expan> <persName type="attested"><name>Caesari</name> <name>Traiano</name> <name>Hadriano</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> totiusque
+                        <lb n="15"/><supplied reason="lost">do</supplied><unclear>m</unclear>us <supplied reason="lost"><persName type="attested"><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName></supplied> <supplied reason="undefined" evidence="previouseditor">nobis</supplied> <supplied reason="lost">n</supplied>ostris <expan><abbr>collegioq</abbr><ex>ue</ex></expan> nostro et bene adque industrie contraxerimus ut
+                        <lb n="16"/><supplied reason="lost">e</supplied>xitus <unclear>d</unclear><supplied reason="lost">efu</supplied><supplied reason="undefined" evidence="previouseditor">nctoru</supplied>m honeste prosequamur <expan><abbr>i<unclear>t</unclear>aq</abbr><ex>ue</ex></expan> bene conferendo universi consentire
+                        <lb n="17"/>debemus u<supplied reason="lost">t long</supplied>o tempore inveterescere possimus tu qui novos in hoc collegio
+                        <lb n="18"/><unclear>i</unclear>ntrare vole<supplied reason="lost">s p</supplied>rius legem perlege et sic intra ni postmodum queraris aut heredi tuo
+                        <lb n="19"/>controver<supplied reason="lost">si</supplied>am relinquas lexs collegi
+                        <lb n="20"/><supplied reason="lost">plac</supplied><supplied reason="undefined" evidence="previouseditor">u</supplied>it universis <unclear>u</unclear>t quisquis in hoc collegium intrare voluerit dabit kapitulari nomine
+                        <lb n="21"/><expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan> <num value="100">C</num> <expan><abbr>n</abbr><ex>ummum</ex></expan> et <unclear>vi</unclear><supplied reason="lost">ini</supplied> boni amphoram item in menses <expan><abbr>sing</abbr><ex>ulos</ex></expan> <expan><abbr>a</abbr><ex>sses</ex></expan> <num value="5">V</num> item placuit ut quisquis <expan><abbr>mensib</abbr><ex>us</ex></expan>
+                        <lb n="22"/>contin<supplied reason="lost">uis se</supplied><unclear>x</unclear> non pariaverit et ei humanitus acciderit eius ratio funeris non habebitur
+                        <lb n="23"/>etiamsi <supplied reason="lost">tes</supplied><unclear>t</unclear>amentum factum habuerit item placuit quisque ex hoc corpo
+                        <lb n="24" break="no"/>re <expan><abbr>n</abbr><ex>ostro</ex></expan> pariat<unclear>u</unclear><supplied reason="lost">s</supplied> decesserit eum sequentur ex ar<unclear>c</unclear>a <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan> <num value="300">CCC</num> <expan><abbr>n</abbr><ex>ummum</ex></expan> ex qua summa decedent exe
+                        <lb n="25" break="no"/>quiari nom<unclear>i</unclear>ne <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan> <num value="50">L</num> <expan><abbr>n</abbr><ex>ummum</ex></expan> qui ad rogus dividentur exequiae autem pedibus fungentur
+                        <lb n="26"/><unclear>i</unclear>tem placuit quisquis a municipio ultra <expan><abbr>milliar</abbr><ex>ium</ex></expan> <num value="20">XX</num> decesserit et nuntiatum fuerit eo exire debebun<unclear>t</unclear>
+                        <lb n="27"/>electi ex corpore <expan><abbr>n</abbr><ex>ostro</ex></expan> homines tres qui funeris eius curam agant et rationem populo reddere debebunt
+                        <lb n="28"/>s<unclear>i</unclear>n<unclear>e</unclear> d<unclear>ol</unclear>o <unclear>m</unclear><supplied reason="lost">al</supplied>o e<unclear>t</unclear> si qui<unclear>t</unclear> in eis <unclear>f</unclear>raudis causa inventum fuerit eis multa esto quadruplum quibus
+                        <lb n="29"/><supplied reason="lost">funeraticium</supplied> eius dabitur hoc amplius viatici nomine ultro citro <expan><abbr>sing</abbr><ex>ulis</ex></expan> <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan> <num value="20">XX</num> <expan><abbr>n</abbr><ex>ummum</ex></expan> quod si longius
+                        <lb n="30"/><supplied reason="lost">a municipio su</supplied><unclear>p</unclear>ra <expan><abbr>mill</abbr><ex>iarium</ex></expan> <num value="20">XX</num> decesserit et nuntiari non potuerit tum is qui eum funeraverit testa
+                        <lb n="31" break="no"/><supplied reason="lost">tor rem tabu</supplied><unclear>l</unclear>is singatis sigillis civium <expan><abbr>Romanor</abbr><ex>um</ex></expan> <num value="7">VII</num> e<unclear>t</unclear> probata causa funeraticium eius sa
+                        <lb n="32" break="no"/><supplied reason="lost">tis dato ampli</supplied><unclear>u</unclear>s neminem petiturum deductis commodis et exequiario e lege colle<supplied reason="lost">g</supplied>i d<unclear>a</unclear>ri <supplied reason="lost">sibi petito a col</supplied><unclear>l</unclear>legio
+                        <lb n="33"/>do<unclear>l</unclear>us malus abesto neque patrono <unclear>n</unclear>eque patronae neque d<supplied reason="lost">omino</supplied>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="B">
+                    <ab>
+                        <lb n="1"/>neque d<supplied reason="lost">o</supplied><unclear>m</unclear>inae neque creditori ex hoc collegio ulla petitio esto nisi si quis testamento here<supplied reason="lost">s</supplied>
+                        <lb n="2"/>nomina<unclear>t</unclear><supplied reason="lost">u</supplied><unclear>s</unclear> <unclear>e</unclear>rit si quis intestatus decesserit is arbiterio <expan><abbr>quinq</abbr><ex>uennalis</ex></expan> et populi funerabitur
+                        <lb n="3"/>item placuit q<supplied reason="lost">ui</supplied>squis ex hoc collegio servus defunctus fuerit et corpus eius a domino dominav<supplied reason="lost">e</supplied>
+                        <lb n="4"/>iniquitate sepulturae datum non fuerit neque tabellas fecerit ei fun<unclear>u</unclear>s imag<supplied reason="lost">ina</supplied>
+                        <lb n="5" break="no"/>rium fiet item placuit quisquis ex quacumque causa mortem sibi ads<unclear>c</unclear>iveri<supplied reason="lost">t</supplied>
+                        <lb n="6"/>eius ratio funeris non habebitur
+                        <lb n="7"/>item placuit ut quisquis servus ex hoc collegio liber factus fuerit is dare debebit vin<unclear>i</unclear> <supplied reason="lost">bo</supplied>
+                        <lb n="8" break="no"/>ni am<unclear>ph</unclear>oram item placuit quisquis magister suo anno erit ex ordine a<unclear>l</unclear><supplied reason="lost">bi</supplied>
+                        <lb n="9"/>ad cenam faciendam et non observaveri<unclear>t</unclear> neque fecerit is arcae inferet <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan> <num value="30">XXX</num> <expan><abbr>n</abbr><ex>ummum</ex></expan>
+                        <lb n="10"/>insequens eius dare debebit et is eius loco res<unclear>t</unclear>ituere debebit
+                        <lb n="11"/>ordo cenarum <num value="8">VIII</num> <expan><abbr>id</abbr><ex>us</ex></expan> <expan><abbr>Mar</abbr><ex>tias</ex></expan> natali <persName type="attested"><name>Caesenni</name></persName> <gap reason="lost" extent="unknown" unit="character"/><unclear>i</unclear> patris <num value="5">V</num> <expan><abbr>Kal</abbr><ex>endas</ex></expan> <expan><abbr>Dec</abbr><ex>embres</ex></expan> <expan><abbr>nat</abbr><ex>ali</ex></expan> <persName type="divinity"><name>Ant<supplied reason="lost">inoi</supplied></name></persName>
+                        <lb n="12"/><expan><abbr>idib</abbr><ex>us</ex></expan> <expan><abbr>Aug</abbr><ex>ustis</ex></expan> natali <persName type="divinity"><name>Dianae</name></persName> et collegi <num value="13">XIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Se<unclear>p</unclear>t</abbr><ex>embres</ex></expan> na<supplied reason="lost">tali</supplied> <persName type="attested"><name>Caes<supplied reason="lost">Caes</supplied><unclear>e</unclear>nni</name> <name>Silvani</name></persName> fratris <expan><abbr>pr</abbr><ex>idie</ex></expan> N<supplied reason="lost">onas</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="13"/>natali <persName type="attested"><name>Corneliae</name> <name>Procula<unclear>e</unclear></name></persName> matris <num value="19">XIX</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Ia<unclear>n</unclear></abbr><ex>uarias</ex></expan> n<unclear>a</unclear><supplied reason="lost">tali</supplied> <persName type="attested"><name><supplied reason="lost">Cae</supplied><unclear>se</unclear>nni</name> <name>Rufi</name></persName> <expan><abbr>patr</abbr><ex>oni</ex></expan> munic<supplied reason="lost">ipi</supplied>
+                        <lb n="14"/>magistri cenarum ex ordine a<unclear>l</unclear>bi fa<unclear>c</unclear>ti q<unclear>u</unclear><supplied reason="lost" cert="low">oqu</supplied>o ordine homines quaterni ponere debe<unclear>b</unclear>unt
+                        <lb n="15"/>vini boni amphoras singulas et panes <expan><abbr>a</abbr><ex>ssium</ex></expan> <num value="2">II</num> qui numerus collegi fuerit et sardas <unclear>n</unclear><supplied reason="lost">u</supplied>
+                        <lb n="16"/>mero <num value="4">quattuor</num> strationem caldam cum ministerio
+                        <lb n="17"/>item placuit ut quisquis quinquennalis in hoc collegio factus fuerit is a sigillis eius temporis
+                        <lb n="18"/>quo quinquennalis erit immunis esse debebit et ei ex omnibus divisionibus partes dup<unclear>l</unclear><supplied reason="lost">as</supplied>
+                        <lb n="19"/>dari item s<unclear>c</unclear>ribae et viatori a sigillis vacantibus partes ex omni divisione sesquip<supplied reason="lost">las</supplied>
+                        <lb n="20"/>dari placuit
+                        <lb n="21"/>item placuit ut quisquis quinquennalitatem gesserit integre ei ob honorem partes se<unclear>s</unclear><supplied reason="lost">qui</supplied>
+                        <lb n="22" break="no"/>plas ex omni re dari ut et reliqui recte faciendo idem sperent
+                        <lb n="23"/>item placuit si quis quid queri aut referre volet in conventu referat ut quieti e<supplied reason="lost">t</supplied>
+                        <lb n="24"/>hilares diebus sollemnibus epu<unclear>le</unclear>mur
+                        <lb n="25"/>item placuit ut quisquis sid<unclear>i</unclear>tionis causa de loco in alium locum transierit ei multa <supplied reason="lost">es</supplied>
+                        <lb n="26" break="no"/>to <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan> <num value="4">IIII</num> <expan><abbr>n</abbr><ex>ummum</ex></expan> si quis autem in obprobium alter alterius dixerit aut tu<supplied reason="lost">mul</supplied>
+                        <lb n="27" break="no"/>tuatus fuerit ei multa esto <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan> <num value="12">XII</num> <expan><abbr>n</abbr><ex>ummum</ex></expan> si quis quinquennali inter epu<unclear>l</unclear><supplied reason="lost">as</supplied>
+                        <lb n="28"/>obprobrium aut quid contumeliose dixerit ei multa esto <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan> <num value="20">XX</num> <expan><abbr>n</abbr><ex>ummum</ex></expan>
+                        <lb n="29"/>item placuit ut quinquennalis sui cuiusque temporis diebus sollem<unclear>n</unclear><supplied reason="lost">ibus ture</supplied>
+                        <lb n="30"/>et vino supplicet et ceteris officiis albatus fungatur et di<unclear>e</unclear><supplied reason="lost">bus natalibus</supplied>
+                        <lb n="31"/><persName type="divinity"><name>Dianae</name></persName> et <persName type="divinity"><name>Antioni</name></persName> oleum collegio in balinio publico po<unclear>n</unclear><supplied reason="lost">at antequam</supplied>
+                        <lb n="32"/>epulentur
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp><app><note></note></app></listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p></p> <!-- translation needed -->
+            </div>
+            <div type="commentary">
+                <p></p> <!--Templum and tetrastylum constructed between 133 (the foundation of the collegium) and 136 CE. Hemelrijk 2015, 183; Fishwick 1991f, 510; Ausbuttel 1982, 27-28; Bendlin 2011, 535; Mommsen 1843, 98-106; Friggeri 2001, 175-176 -->
+            </div>
+            <div type="bibliography">
+                 <p>
+                    <bibl>
+                        <ptr target="CIL"/><citedRange>14.2112</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

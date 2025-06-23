@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000005 (Pro Salute Inscription)</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000005</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Ager Albanus</settlement>
+                        <repository></repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/371030888">Ager Albanus</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3183356/albano-laziale.html">Albano Laziale</placeName>
+                                <geo>41.72895, 12.66020</geo>
+                            </origPlace>
+                            <origDate notBefore="0221" notAfter="0222">221–222 CE</origDate><!-- Dating preferred by Bruun 1995, based on his reconstruction of inscription -->
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-04-04" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab> <!-- CIL -->
+                   <lb n="1"/><persName type="divine" key="jupiter"><name><supplied reason="lost" cert="low">Iovi</supplied></name> <name>O<supplied reason="lost" cert="low">ptimo</supplied></name> <name><supplied reason="lost" cert="low">Maximo</supplied></name></persName>
+                   <lb n="2"/>p<unclear>r</unclear>o s<supplied reason="lost">alute et reditu</supplied>
+                   <lb n="3"/><persName type="ruler" key="elagabalus" cert="low"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <name><expan><abbr>Caes</abbr><ex>aris</ex></expan></name> <del rend="erasure"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name>Aureli</name> <name>Anto
+                   <lb n="4" break="no"/>nini</name> Pii Felicis <expan><abbr>Aug</abbr><ex>usti</ex></expan></del></persName>
+                   <lb n="5"/><del rend="erasure">et <persName type="ruler" key="severus-alexander" cert="low"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name>Aureli</name> <name>Alexandri</name></persName></del> 
+                   <lb n="6"/>nobilis<supplied reason="lost">si</supplied>mi <supplied reason="lost"><expan><abbr>Caesar</abbr><ex>is</ex></expan></supplied>
+                   <lb n="7"/><persName><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Cass<unclear>i</unclear>u<unclear>s</unclear></name> <name><expan><abbr><unclear>S</unclear>ever<supplied reason="lost" cert="low">ian</supplied></abbr><ex>us</ex></expan></name></persName>
+                   <lb n="8"/><expan><abbr>praep</abbr><ex>ositus</ex></expan> militum <gap reason ="lost" extent="unknown" unit="character"/>
+                   <lb n="9"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="2">II</num> <expan><abbr>Parth</abbr><ex>icae</ex></expan> <del rend="erasure"><expan><abbr>Antonin</abbr><ex>ianae</ex></expan></del>
+                   <lb n="10"/><expan><abbr>P</abbr><ex>iae</ex></expan> <expan><abbr>F</abbr><ex>elicis</ex></expan> <expan><abbr>F</abbr><ex>idelis</ex></expan> <expan><abbr>Aet</abbr><ex>ernae</ex></expan> eiusdemqu<supplied reason="lost">e</supplied> <expan cert="low"><abbr><unclear>l</unclear>eg</abbr><ex>ionis</ex></expan>
+                   <lb n="11"/>princeps et primus<expan><abbr>pil</abbr><ex>us</ex></expan>
+                   <lb n="12"/>et quod Alexandriae
+                   <lb n="13"/>cum <g type="century"/> ageret in pericul
+                   <lb n="14" break="no"/>is constitutus <persName type="divine" ref="numen"><name>numi
+                   <lb n="15" break="no"/>ne</name></persName> eius adiuvante libera
+                   <lb n="16" break="no"/>tus sit ex voto posuit
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text as restored by Bruun 1995</note></app>
+                    <app loc="7"><note>As Bruun 1995 notes, [S]ever[---] could be restored [S]ever[ianus] or [S]ever[us] or similar.</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>To Jupiter the Best and Greatest(?), for the safety and return of Imperator Caesar Marcus Aurelius Antoninus Pius Felix Augustus, and Marcus Aurelius Alexander the most noble Caesar. Caius Cassius Sever(ianus?), commander of the military [?] of the 2nd Legion Parthica Antoniniana Pius Felix Fidelis Aeterna, and of the same legion he was princeps and first-spear. Because he was saved by the divine name of him (Jupiter?) at Alexandria, where he met with dangers while acting as centurion, he erected (this) in fulfilment of a vow.</p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/>AE<citedRange>1993.422</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/>AE<citedRange>1995.255</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Bruun1995"/>Bruun 1995
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

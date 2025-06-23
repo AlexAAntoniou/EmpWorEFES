@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000252</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000252</idno>
+                <idno type="EDCS">EDCS 11500532</idno>
+                <idno type="EDR">EDR169098</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Puteoli</settlement>
+                        <repository></repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/432815">Puteoli</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/6541681/pozzuoli.html">Pozzuoli</placeName>
+                                <geo>40.825838, 14.1217415</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" subtype="discovered">Discovered in an unknown context in Puteoli, in the early 19th century</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-13" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <div type="textpart" subtype="fragment" n="a">
+                    <ab>
+                        <lb n="1"/><persName type="divine"><name><expan><abbr>Aug</abbr><ex cert="low">ustae</ex></expan></name></persName> <expan><abbr>sacr</abbr><ex>um</ex></expan>
+                        <lb n="2"/>munera qua <gap reason="lost" extent="unknown" unit="char"/>
+                        <lb n="3"/>aurum in ipsa dea uncia <gap reason="lost" extent="unknown" unit="char"/>
+                        <lb n="4"/>lunas cum gemmis unci<supplied reason="lost">is</supplied> <gap reason="lost" extent="unknown" unit="char"/>
+                        <lb n="5"/>sole aureum
+                        <lb n="6"/>palma aurea <expan><abbr>scrip</abbr><ex>u</ex><abbr>la</abbr></expan> <gap reason="lost" extent="unknown" unit="char"/>
+                        <lb n="7"/>capita leonina argent<gap reason="lost" extent="unknown" unit="char"/>
+                        <lb n="8"/><supplied reason="lost">gr</supplied>aphis argenti
+                    </ab>
+                </div>
+                <div type="textpart" subtype="fragment" n="b">
+                    <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="char"/> <persName type="divine" key="venusCaelestis"><name><supplied reason="lost">Veneri</supplied></name> <name><supplied reason="lost">C</supplied>aeles<choice><sic>i</sic><corr>t</corr></choice>ae</name></persName>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost">n</supplied> <persName type="attested"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name>Aeli</name></persName>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost">gem</supplied>ma auro clusa
+                        <lb n="4"/><gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost">p</supplied>ost obitum eius
+                        <lb n="5"/><supplied reason="lost">fil</supplied>i posuerunt
+                        <lb n="6"/><supplied reason="lost">fig</supplied>uram dominae <expan><abbr>aur</abbr><ex>atam</ex></expan> <num value="1">I</num> e<supplied reason="lost" cert="low">t</supplied>
+                        <lb n="7"/><supplied reason="lost">b</supplied>aclos <expan><abbr>inargentat</abbr><ex>os</ex></expan> <num value="2"/>II
+                        <lb n="8"/><supplied reason="lost">pr</supplied>omu<supplied reason="lost">l</supplied>sidaria <expan><abbr>argentat</abbr><ex>a</ex></expan> <num value="2">II</num>
+                        <lb n="9"/><supplied reason="lost">man</supplied>telum <expan><abbr>arg</abbr><ex>entatum</ex></expan> <expan><abbr>unc</abbr><ex>iis</ex></expan> <num value="3">III</num>
+                        <lb n="10"/><persName type="attested"><gap reason="lost" extent="unknown" unit="char"/><name><seg part="F">us</seg></name> <name>Helidorus</name></persName>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>[Frag. A] Sacred to the Augusta [---?] Gifts which [---], gold to the goddess herself, one unica [---], crescents with gems (weighing?) unciae [---], a golden sun, a golden palm (weighing?) scripula [---], lion heads of silver [---], silver styluses.
+                   [Frag. B] To [Venus] Caelestis [---] in the name of Marcus Aelius, [---] gem set in gold, [---] after his death, his sons placed this: one a gold figure of the mistress, [and?] two silver-plated staves, two silver serving-dishes, a silver-plated cloak (weighing) 3 unciae. [---]us Heliodorus.</p>
+            </div>
+            <div type="commentary">
+                <p>The restoration of Venus Caelestis seems relatively certain as she can be seen in at least one other inscription, from the 2nd century CE, from Puteoli (CIL 10.1596). EDR refers to another unpublished inscription from Puteoli to Venus Caelestis, mentioning a M. Aelius [---] just as in this inscription.  </p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/>CIL<citedRange>10.1598</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

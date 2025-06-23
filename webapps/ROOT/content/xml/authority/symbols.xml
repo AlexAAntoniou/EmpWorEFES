@@ -14,31 +14,33 @@
         <body>
             <list>
                 <item xml:id="dipunct">
-                    <term xml:lang="ru">двоеточие</term>
                     <term xml:lang="en">dipunct</term>
                 </item>
+                <item xml:id="interpunct">
+                    <term xml:lang="en">interpunct</term>
+                </item>
                 <item xml:id="leaf">
-                    <term xml:lang="ru">плющевый лист</term>
                     <term xml:lang="en">leaf</term>
                 </item>
+                <item xml:id="ivy-leaf">
+                    <term xml:lang="en">ivy-leaf</term>
+                </item>
+                <item xml:id="mulieris">
+                    <term xml:lang="en">mulieris</term>
+                </item>
                 <item xml:id="staurogram">
-                    <term xml:lang="ru">ставрограмма</term>
                     <term xml:lang="en">staurogram</term>
                 </item>
                 <item xml:id="stauros">
-                    <term xml:lang="ru">крест</term>
                     <term xml:lang="en">stauros</term>
                 </item>
                 <item xml:id="stop">
-                    <term xml:lang="ru"></term>
                     <term xml:lang="en">stop</term>
                 </item>
                 <item xml:id="denarius">
-                    <term xml:lang="ru">денарий</term>
                     <term xml:lang="en">denarius</term>
                 </item>
                 <item xml:id="chi-rho">
-                    <term xml:lang="ru">хрисма</term>
                     <term xml:lang="en">chi-rho</term>
                 </item>
                 <item xml:id="year">

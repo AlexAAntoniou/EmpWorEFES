@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000094</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000094</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <settlement>Rome</settlement>
+                        <repository></repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="grc">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3169070/rome.html">Rome</placeName>
+                                <geo>41.890069, 12.49239</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-05-27" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <div type="textpart" subtype="side" n="a">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name>Sufenati</name> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Pal</abbr><ex>atina</ex></expan> <name>Myroni</name></persName>
+                        <lb n="2"/>equiti Romano decu
+                        <lb n="3" break="no"/>riali scribarum aedili
+                        <lb n="4" break="no"/>um curulium luperco Laurenti
+                        <lb n="5"/>Lavinati fretriaco Neapoli Anti
+                        <lb n="6" break="no"/>noiton et Eunostidon de
+                        <lb n="7" break="no"/>curioni <hi rend="supraline"><num value="4">IIII</num></hi>viro Alba
+                        <lb n="8" break="no"/>ni Longani Bouillen
+                        <lb n="9" break="no"/>ses decuriones ob me
+                        <lb n="10" break="no"/>rita eius <expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="side" n="b">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name>Sufenati</name> <persName type="patronym"><expan><abbr>P</abbr><ex>ublio</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName>
+                        <lb n="2"/><expan><abbr>Pal</abbr><ex>atina</ex></expan> <name>Severo</name> <name>Sempro
+                        <lb n="3" break="no"/>niano</name></persName> decuriali
+                        <lb n="4"/>scribarum aedilium curu
+                        <lb n="5" break="no"/>lium fretriaco Neapoli Eu
+                        <lb n="6" break="no"/>nostidon decurioni et
+                        <lb n="7"/>sacerdoti Apolli
+                        <lb n="8" break="no"/>nis Albani Longa
+                        <lb n="9" break="no"/>ni Bouillenses de
+                        <lb n="10" break="no"/>curiones ob meri
+                        <lb n="11" break="no"/>ta <persName type="attested"><name>Sufenatis</name> <name>Her
+                        <lb n="12" break="no"/>metis</name></persName> patris eius
+                        <lb n="13"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="side" n="c">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name>Sufenati</name> <persName type="attested"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <supplied reason="lost"><expan><abbr>Pal</abbr><ex>atina</ex></expan></supplied>
+                        <lb n="2"/><name>Myroni</name></persName>
+                        <lb n="3"/>equiti Romano de<supplied reason="lost">curi</supplied>
+                        <lb n="4" break="no"/>ali scribarum aed<supplied reason="lost">ilium</supplied>
+                        <lb n="5"/>curulium luperco <supplied reason="lost">Lauren</supplied>
+                        <lb n="6" break="no"/>ti Lavinati fretria<supplied reason="lost">co Ne</supplied>
+                        <lb n="7" break="no"/>apoli Antinoiton <supplied reason="lost">et Eu</supplied>
+                        <lb n="8" break="no"/>nosstidon decur<supplied reason="lost">ioni</supplied>
+                        <lb n="9"/><hi rend="supraline"><num value="4">IIII</num></hi>viro Albani <supplied reason="lost">Lon</supplied>
+                        <lb n="10" break="no"/>gani Bouillen<supplied reason="lost">ses</supplied>
+                        <lb n="11"/>municipes ob <supplied reason="lost">meri</supplied>
+                        <lb n="12" break="no"/>ta eius <expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan></supplied>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp><app><note>EAGLE text</note></app></listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p></p> <!--  -->
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/>CIL<citedRange>6.1851</citedRange><!-- check! -->
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

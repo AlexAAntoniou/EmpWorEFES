@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Municipal Festivals at Cumae</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000024</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Cumae</settlement>
+                        <repository></repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/432808">Cumae</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/8960492/scalandrone.html">Scalandrone</placeName>
+                                <geo>40.847949, 14.05638</geo>
+                            </origPlace>
+                            <origDate atLeast="0004" atMost="0014">4–14 CE</origDate>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-04-09" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab> <!-- CIL -->
+                   <lb n="1"/><supplied reason="lost"><num value="14">XIIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Septembr</abbr><ex>es</ex></expan> eo die <persName type="attested"><name>Caesar</name></persName> pri</supplied>mum consulatum in<supplied reason="lost">iit supplicatio</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                   <lb n="2"/><supplied reason="lost"><num value="3">III</num> <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Septembr</abbr><ex>es</ex></expan> eo die exer</supplied>citus <persName type="attested"><name>Lepidi</name></persName> tradidit se <persName type="attested">Caesari</persName> suppli<supplied reason="lost">c</supplied>a<supplied reason="lost">tio</supplied>
+                   <lb n="3"/><supplied reason="lost"><num value="9">VIIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Octobr</abbr><ex>es</ex></expan> n</supplied>atalis <persName type="attested"><name>Caesaris</name></persName> immolatio <persName type="attested"><name>Caesari</name></persName> hostia <expan><abbr>supp</abbr><ex>l</ex><abbr>icatio</abbr></expan>
+                   <lb n="4"/>Nonis <expan><abbr>Octobr</abbr><ex>ibus</ex></expan> <persName type="attested"><name>Drusi</name> <name>Caesaris</name></persName> natalis supplicatio <persName type="divinity">Vestae</persName>
+                   <lb n="5"/><num value="15">XV</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Novimbr</abbr><ex>es</ex></expan> eo die <persName type="attested"><name>Caesar</name></persName> togam virilem sumpsit supplicatio <persName type="divinity">Spei</persName> et <persName type="divinity">Iuve<supplied reason="lost">ntuti</supplied></persName>
+                   <lb n="6"/><num value="16">XVI</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Dicimbr</abbr><ex>es</ex></expan> natalis <persName type="attested"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <name>Caesaris</name></persName> supplicatio <persName type="divinity">Vestae</persName>
+                   <lb n="7"/><num value="18">XVIII </num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Ianuar</abbr><ex>ias</ex></expan> eo die a<supplied reason="lost">r</supplied>a <persName type="divinity">Fortunae Reducis</persName> dedicatast quae <persName type="attested"><name>Caesarlm</name></persName> <supplied reason="lost">ex transmari</supplied>
+                   <lb n="8" break="no"/>nis provincis red<supplied reason="lost">uxit</supplied> supplicatio <persName type="divinity">Fortunae Reduci</persName>
+                   <lb n="9"/><num value="7">VII</num> Idus <expan><abbr>Ianuar</abbr><ex>ias</ex></expan> e<supplied reason="lost">o die <persName type="attested">Caesar</persName></supplied> primum fasces sumpsit <expan><abbr>supp</abbr><ex>l</ex><abbr>icatio</abbr></expan> <persName type="divinity">Iovi Sempi<supplied reason="lost">terno</supplied></persName>
+                   <lb n="10"/><num value="18"><supplied reason="lost">XV</supplied>III</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Febr</abbr><ex>uarias</ex></expan> eo di<supplied reason="lost">e</supplied> <persName type="attested"><name><supplied reason="lost">Caesar</supplied></name> <name><supplied reason="lost">Augustu</supplied>s</name></persName> appellatus est supplicatio <persName type="attested"><name>Augusto</name></persName>
+                   <lb n="11"/><supplied reason="lost"><num value="3">III</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Febr</abbr><ex>uarias</ex></expan> eo die ara <persName type="divinity">Pacis</persName> dedicata</supplied> est supplicatio imperio <persName type="attested"><name>Caesaris</name> <name>Augusti</name></persName> custo<supplied reason="lost">dis</supplied>
+                   <lb n="12"/><supplied reason="lost">civium Romanorum orbisque terrar</supplied>um
+                   <lb n="13"/><supplied reason="lost"><expan><abbr>pr</abbr><ex>idie</ex></expan> <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Mart</abbr><ex>ias</ex></expan> eo die <persName type="attested">Caesar</persName> <expan><abbr>pont</abbr><ex>ifex</ex></expan> ma</supplied>ximus creatus est <expan><abbr>supplicat</abbr><ex>i</ex><abbr>o</abbr></expan> <persName type="divinity">Vestae</persName> dis <expan><abbr>pub</abbr><ex>licis</ex></expan> <persName type="divinity"><expan><abbr>P</abbr><ex>enatibus</ex></expan></persName> <expan><abbr>p</abbr><ex>opuli</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> <expan><abbr>Q</abbr><ex>uiritium</ex></expan>
+                   <lb n="14"/><supplied reason="lost"><num value="18">XVIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Mai</abbr><ex>as</ex></expan> eo die <persName type="attested"><name>Caesar</name></persName> primum vicit suppli</supplied>catio <persName type="divinity"><name>Victoriae</name> <name>Augustae</name></persName>
+                   <lb n="15"/><supplied reason="lost"><num value="17">XVII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Mai</abbr><ex>as</ex></expan> eo die <persName type="attested">Caesar</persName> primum imperator app</supplied>ellatus est supplicatio <persName type="divinity">Felicitati</persName> imperi
+                   <lb n="16"/><supplied reason="lost"><num value="4">IIII</num> <expan><abbr>Id</abbr><ex>us</ex></expan> <expan><abbr>Mai</abbr><ex>as</ex></expan> eo die aedes <persName type="divinity">Martis</persName> dedicatast supplica</supplied>tio <persName type="divinity"><name>Molibus</name> <name>Martis</name></persName>
+                   <lb n="17"/><supplied reason="lost"><num value="9">VIIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Iun</abbr><ex>ias</ex></expan> <persName type="attested"><name>Germanici</name> <name>Caesaris</name></persName> natalis supp</supplied>licatio <persName type="divinity">Vestae</persName>
+                   <lb n="18"/><supplied reason="lost"><num value="4">IIII <expan><abbr>Id</abbr><ex>us</ex></expan></num> <expan><abbr>Iul</abbr><ex>ias</ex></expan> natalis <persName type="divinity"><name>divi</name> <name>Iuli</name></persName> supplicatio</supplied> <persName type="divinity">Iov<supplied reason="lost">i</supplied></persName> <persName type="divinity"><name>Marti</name> <name>Ultori</name></persName> <persName type="divinity"><name>Veneri</name> <name><supplied reason="lost">Genetrici</supplied></name></persName>
+                   <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">suppli</supplied>catio <persName type="divinity">Iovi</persName><gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp><app><note></note></app></listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p></p> <!-- Translation needed -->
+            </div>
+            <div type="commentary">
+                <p></p> <!-- Lomas 1996, 191-92, Taylor 1920, 199; Gradel 2002, 96; Fishwick 1991f, 490, 509-510; Hemelrijk 2007, 327; BNP 2 no. 3.4 -->
+            </div>
+            <div type="bibliography">
+                   <p>
+                    <bibl>
+                        <ptr target="CIL"/><citedRange>10.3682</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

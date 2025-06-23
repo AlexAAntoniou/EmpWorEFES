@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Temple of the Divine Vespasian</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000023</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Cumae</settlement>
+                        <repository role="museum">National Museum of Naples</repository>
+                        <idno>3016</idno> <!-- According to CCCA -->
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Long rectangular marble plaque.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/384.html">Decree</objectType>
+                                    <dimensions>
+                                        <height unit="cm">0.59</height>
+                                        <width unit="cm">0.33</width>
+                                        <depth unit="cm">0.04</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/432808">Cumae</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/8960492/scalandrone.html">Scalandrone</placeName>
+                                <geo>40.847949, 14.05638</geo>
+                            </origPlace>
+                            <origDate when="0289">289 CE (17 August)</origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered" when="1785-08-11">Found near the castle of Baia, on 11 August 1785, together with a small marble head</provenance> <!-- CCCA, who gets it from older source. CIL? -->
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-04-09" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab> <!-- CIL with EDCS photo for interpuncts-->
+                   <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="#interpunct">·</g> <name>Magrio</name> <g ref="#interpunct">·</g> <name>Basso</name></persName> <g ref="#interpunct">·</g> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Ragonio</name>
+                   <lb n="2"/><name>Quintiano</name></persName> <g ref="#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><g ref="#interpunct">·</g><abbr>s</abbr><ex>ulibus</ex></expan> <expan><abbr>k</abbr><ex>alendis</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>Iuni</abbr><ex>i</ex><abbr>s</abbr></expan>
+                   <lb n="3"/>Cumis in templo <persName type="divinity">divi Vespa
+                   <lb n="4" break="no"/>siani</persName> <g ref="#interpunct">·</g> in ordine decurionum
+                   <lb n="5"/>quem <persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="#interpunct">·</g> <name>Mallonius</name> <name>Undanus</name></persName>
+                   <lb n="6"/>et <persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name>Claudius</name> <g ref="#interpunct">·</g> <name>Acilianus</name></persName> <expan><abbr>praet</abbr><ex>ores</ex></expan>
+                   <lb n="7"/>coegerant scribundo sorte
+                   <lb n="8"/>ducti adfuerunt <persName type="attested"><name>Caelius</name> <name>Pan
+                   <lb n="9" break="no"/>nychus</name></persName> <persName type="attested"><name>Curtius</name> <name>Votivos</name></persName> <g ref="#interpunct">·</g> <persName type="attested"><name>Considi
+                   <lb n="10" break="no"/>us</name> <g ref="#interpunct">·</g> <name>Felicianus</name></persName> <g ref="#interpunct">·</g> referentibus <expan><abbr>pr</abbr><ex>aetoribus</ex></expan>
+                   <lb n="11"/>de sacerdote faciendo <g ref="#interpunct">·</g> <persName type="divinity"><name>Matris</name>
+                   <lb n="12"/><name>deae</name></persName> Baianae in locum <g ref="#interpunct">·</g> <persName type="attested"><name>Restituti</name></persName>
+                   <lb n="13"/>sacerdotis defuncti <g ref="#interpunct">·</g> placuit uni
+                   <lb n="14" break="no"/>versis <g ref="#interpunct">·</g> <persName type="attested"><name>Licinium</name> <name>Secundum</name></persName>
+                   <lb n="15"/>sacerdotem fieri
+                   <lb n="16"/><expan><abbr>XV</abbr><ex>viris</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>sacr</abbr><ex>is</ex></expan> <expan><abbr>fac</abbr><ex>iundis</ex></expan> <expan><abbr>pr</abbr><ex>aetoribus</ex></expan>
+                   <lb n="17"/>et magistratibus <expan><abbr>Cuman</abbr><ex>is</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>sal</abbr><ex>utem</ex></expan>
+                   <lb n="18"/>cum <g ref="#interpunct">·</g> ex epistula vestra cognove
+                   <lb n="19" break="no"/>rimus creasse vos sacerdotem
+                   <lb n="20"/><persName type="divinity"><name>Matris</name> <name>deum</name></persName> <g ref="#interpunct">·</g> <persName type="attested"><name>Licinium</name> <g ref="#interpunct">·</g> <name>Secundum</name></persName>
+                   <lb n="21"/>in locum <g ref="#interpunct">·</g> <persName type="attested"><name>Claudi</name> <g ref="#interpunct">·</g> <name>Restituti</name></persName> <g ref="#interpunct">·</g> defunc
+                   <lb n="22" break="no"/>cui <g ref="#interpunct">·</g> secundum <g ref="#interpunct">·</g> voluntatem <expan><abbr>vestra</abbr><ex>m</ex></expan>
+                   <lb n="23"/>permisimus <g ref="#interpunct">·</g> ei <g ref="#interpunct">·</g> occavo <g ref="#interpunct">·</g> et
+                   <lb n="24"/>corona dum <g ref="#interpunct">·</g> taxat intra <g ref="#interpunct">·</g>
+                   <lb n="25"/>fines coloniae vestrae uti
+                   <lb n="26"/>optamus vos bene valere
+                   <lb n="27"/><persName type="attested"><name>Pontius</name> <name>Gavius</name> <name>Maximus</name></persName>
+                   <lb n="28"/>pro magistro suscripsi <num value="16">XVI</num> <expan><abbr>Kal</abbr><ex>endas</ex></expan>
+                   <lb n="29"/>Septembres <persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Umbrio</name> <name>Primo</name></persName>
+                   <lb n="30"/><persName type="attested"><name><expan><abbr>T</abbr><ex>ito</ex></expan></name> <name><expan><abbr>Fl</abbr><ex>avio</ex></expan></name> <name>Coeliano</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus" resp="#AA">
+                <listApp>
+                    <app><note>Text of CIL, with edits based on photograph</note></app>
+                    <app loc="21-22"><note>CIL restores defunc-|ti rather than defunc-|cui as on stone</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>In the consulship of Marcus Magrius Bassus and Lucius Ragonius Quintianus, on the Ides of June, at Cumae in the temple of the Divine Vespasian, in the order of decurions, which the praetors Marcus Mallonius Undanus and Quintus Claudius Acilianus had summoned, the drafting committee selected by lot were Caelius Pannychus, Curtius Votivos and Cosidius Felicianus. The motion was out forward by the praetors about appointing a priest of the Mother Goddess of Baiae, in place of Restitus the sacerdos, who had died. It was unanimously decreed that Licinius Secundus should be the sacerdos. The quindecemviri sacris faciundis greet the praetors and other magistrates of Cumae. We have learned from your letter that you have created as priest of the Mother of the Gods Licinius Secundus in the place of the deceased Claudius Restitutus. By your will, we have permitted him the right to wear the armlet and crown, but only within the boundaries of your colony. We send good wishes to you. Pontius Gavius Maximus signed on behalf of the master of the college, on the 16th day before the Kalends of September, when Marcus Umbrius Primus and Titus Flavius Coelianus were consuls.</p>
+            </div>
+            <div type="commentary">
+                <p>As attested by this inscription, the temple of the divine Vespasian was still being used by the decurions in 289 CE, but was likely (originally) of a late first century CE date (c.95 CE).</p> <!-- Temple probably identified on long side of forum. Fears 1975, 6-7. -->
+            </div>
+            <div type="bibliography">
+                   <p>
+                    <bibl>
+                        <ptr target="CIL"/><citedRange>10.3698</citedRange>
+                    </bibl>
+                </p>
+                   <p>
+                    <bibl>
+                        <ptr target="CCCA"/><citedRange>4.7</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

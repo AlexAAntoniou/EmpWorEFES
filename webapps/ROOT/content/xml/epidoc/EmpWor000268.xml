@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000268</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000268</idno>
+                <idno type="EDCS">EDCS 04800012</idno>
+                <idno type="EDR">EDR073009</idno>
+                <idno type="EDH">HD024028</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Tibur</settlement>
+                        <repository>Augusteum of Tivoli</repository> <!-- In wall -->
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Long marble plaque in nine reassmbled fragments, likely originally fixed on the front of the small apsidal Augusteum.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.buildingdedication" ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Building Inscription</objectType>
+                                    <dimensions>
+                                        <height unit="cm">252</height>
+                                        <width unit="cm">22</width>
+                                        <depth unit="cm">4</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Letters are straight, well-defined, and consistent. Serifs are present on most letters.</p>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/423081">Tibur</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3165624/tivoli.html">Tivoli</placeName>
+                                <geo>41.963602, 12.79818</geo>
+                            </origPlace>
+                            <origDate notBefore="-0019" notAfter="-0013">Likely refers either to the return of Augustus to Rome from the East in 19 BCE, or 13 BCE from Gaul. Koortbojian (2013, 163) favours the latter, but Caporossi (2012, 90) the former.</origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered" when="1920">Discovered in the apsidal hall of the Augusteum of Tivoli</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-13" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/>pro salute et reditu <persName type="ruler"><name>Caesaris</name> <name>A<supplied reason="lost">ugusti</supplied></name></persName>
+                    <lb n="2"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>Varenus</name> <expan><abbr><am><g ref="#mulieris">Ↄ</g></am></abbr><ex>mulieris</ex></expan> </persName> et <persName type="attested"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name>Lartidi</name> <expan><abbr>l</abbr><ex>ibertus</ex></expan> <name>Diphilus</name></persName> <expan><abbr>mag</abbr><ex>ister</ex></expan> <expan><abbr>He<unclear>r</unclear><supplied reason="lost">c</supplied></abbr><ex>ulaneus</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>f</abbr><ex>aciundum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan></supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>For the safety and return of Caesar Augustus. Marcus Varenus, freedman of the wife, and Marcus Lartidius Diphilus, freedman, magister Herculeus, had this made with his own money.</p>
+            </div>
+            <div type="commentary">
+                <p>This was likely one of the inscriptions which accompanied the small apsidal 'Augusteum' at Tivoli, which contained a partially naked statue of Augustus as a god, perhaps in the guise of Jupiter. As Caporossi (2012) has made clear, archaeological features make it clear that this Augusteum was built at the same time as the neighbouring ponderarium, and inscriptional evidence makes it clear that both spaces were built by M. Varenus Diphilus. For the ponderarium, see esp. CIL 14.3687; CIL 14.3688 and Caporossi 2012. Whilst M. Varenus Diphilus was a magister Herculeus, and the magistri Herculanei later became magistri Herculanei Augustales, this should not simply be dismissed as part-and-parcel of the supposed function of the Augustales, but rather an exceptionally early attestation of a freedperson constructing a space for the veneration of the living Augustus as a god and not (cf. Caporossi 2012) the Genius of Augustus or the Lares. Likely refers either to the return of Augustus to Rome from the East in 19 BCE, or 13 BCE from Gaul. Koortbojian (2013, 163) favours the latter, but Caporossi (2012, 90) the former.</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/>AE<citedRange>1922.78</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Koortbojian2013"/>Koortbojian 2013<citedRange>163–164</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Caporossi2012"/>Caporossi 2012<citedRange>88–91</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

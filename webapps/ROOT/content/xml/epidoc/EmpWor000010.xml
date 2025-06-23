@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000010</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000010</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Aquinum</settlement>
+                        <repository></repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/432695">Aquinum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3182937/aquino.html">Aquino</placeName>
+                                <geo>41.49220, 13.70562</geo>
+                            </origPlace>
+                            <origDate notBefore="0023" notAfter="0030">Between 20-30 CE on prosopography</origDate>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-04-04" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab> <!-- CIL -->
+                   <lb n="1"/><persName><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name>Decio</name> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>n</abbr><ex>epoti</ex></expan></persName>
+                   <lb n="2"/><name>Saturnino</name></persName>
+                   <lb n="3"/><expan><abbr>pontif</abbr><ex>ici</ex></expan> minori Romae tubicini
+                   <lb n="4"/><expan><abbr>sacror</abbr><ex>um</ex></expan> <expan><abbr>publ</abbr><ex>icorum</ex></expan> <expan><abbr>p</abbr><ex>opuli</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> <expan><abbr>Quirit</abbr><ex>ium</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan>
+                   <lb n="5"/>ter curator viarum <expan><abbr>Labic</abbr><ex>anae</ex></expan>
+                   <lb n="6"/>et Latinae
+                   <lb n="7"/><expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> et <expan><abbr>sortiend</abbr><ex>is</ex></expan>
+                   <lb n="8"/>iudicibus in Asia
+                   <lb n="9"/><expan><abbr>IIIIvir</abbr><ex>o</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> Veronae
+                   <lb n="10"/><expan><abbr>q</abbr><ex>uaestori</ex></expan> bis <expan><abbr>IIvir</abbr><ex>o</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <expan><abbr>IIvir</abbr><ex>o</ex></expan> <expan><abbr>iter</abbr><ex>um</ex></expan> <expan><abbr>quinq</abbr><ex>uennali</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan>
+                   <lb n="11"/><expan><abbr>quinq</abbr><ex>uenalli</ex></expan> <persName><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <name>Caesaris</name> <name>Augusti</name></persName> <expan><abbr>iter</abbr><ex>um</ex></expan>
+                   <lb n="12"/><persName><name>Drusi</name> <name>Caesaris</name> <persName type="patronym"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <expan><abbr>f</abbr><ex>ili</ex></expan></persName></persName> tertio <persName><name>Neronis</name> 
+                   <lb n="13"/><name>Caesaris</name> <persName type="patronym"><name>Germanici</name> <expan><abbr>f</abbr><ex>ili</ex></expan></persName></persName> <expan><abbr>pontif</abbr><ex>ici</ex></expan> flamini
+                   <lb n="14"/><persName type="divinity">Romae</persName> et <persName type="divinity">divi <expan><abbr>August</abbr><ex>i</ex></expan></persName> perpetuo ex <expan><abbr>auctor</abbr><ex>itate</ex></expan>
+                   <lb n="15"/><persName><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <name>Caesaris</name> <name>Augusti</name></persName> et permissu eius
+                   <lb n="16"/>cooptato coloniae patrono
+                   <lb n="17"/>publice <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp><app><note></note></app></listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>To Quintus Decius Saturninus, son of Quintus, grandson of Marcus, minor pontiff of Rome, flute-player of the public rites of the Roman people and the Quirites, prefect of engineers to a consul three times, curator of the Labican and Latin roads, military tribune, prefect of engineers for the admission of justice and the selection of jurors by lot in Asia, quattuorvir for the administration of justice at Verona, quaestor twice, duumvir for the administration of justice, and again duumvir quinquennalis, prefect quinquennalis of Tiberius Caesar Augustus, and again of Drusus Caesar, son of Tiberius, and for a third time of Nero Caesar, son of Germanicus, pontiff, flamen of Rome and Augustus in perpetuity from the authority of Tiberius Caesar Augustus and by his permission co-opted as patron of the colony; [this was erected] at public expense, by decree of the decurions. </p>
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/><citedRange>10.5393</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="FS"/><citedRange>1440</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Nichols1978"/><citedRange>430</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

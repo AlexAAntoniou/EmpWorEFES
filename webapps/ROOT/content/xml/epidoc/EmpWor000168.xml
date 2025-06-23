@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000168</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000168</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Ostia/Portuus</settlement>
+                        <repository></repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/422995">Ostia</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/8378691/ostia.html">Ostia</placeName>
+                                <geo>41.75357, 12.28935</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-06" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/>locus adsignatus a <persName type="attested"><name>Callis<del rend="erasure">to</del></name></persName>
+                    <lb n="2"/><persName type="attested"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>lib</abbr><ex>erto</ex></expan> <expan><abbr>proc</abbr><ex>uratore</ex></expan>
+                    <lb n="3"/><expan><abbr>cultorib</abbr><ex>us</ex></expan> <persName type="divinity"><name>Larum</name></persName> et imaginum
+                    <lb n="4"/>dominorum nostrorum
+                    <lb n="5"/>invictissimorum <expan><abbr>Augustor</abbr><ex>um</ex></expan>
+                    <lb n="6"/>praediorum Rusticelianorum
+                    <lb n="7"/>ad sollemnes dies confre
+                    <lb n="8" break="no"/>quentandos curante <persName type="attested"><name>Maxi
+                    <lb n="9" break="no"/>miano</name></persName> <expan><abbr>A<hi rend="supraline">u</hi>g</abbr><ex>usti</ex></expan> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ostri</ex></expan> verna vilico
+                    <lb n="10"/>eorundem praediorum sicut
+                    <lb n="11"/>litteris ab eodem <persName type="attested"><name>Callisto</name></persName>
+                    <lb n="12"/>emissis contine<surplus>n</surplus>tur <expan><abbr>dedic</abbr><ex>atus</ex></expan>
+                    <lb n="13"/><expan><abbr>kal</abbr><ex>endis</ex></expan> Iunis <persName type="attested"><name><expan><abbr>Imp</abbr><ex>eratore</ex></expan></name> <name>Antonino</name> <name>Pio</name>
+                    <lb n="14"/><expan><abbr>Felic</abbr><ex>e</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan></persName> <num value="2">II</num> <expan><abbr>co</abbr><ex>n</ex><abbr><hi rend="supraline">s</hi></abbr><ex>ule</ex></expan>
+                    <lb n="15"/>exemplum libelli
+                    <lb n="16"/><persName type="attested"><name>Callistus</name> <name>Maximiano</name></persName>
+                    <lb n="17"/><supplied reason="lost">l</supplied>ibellum datum mihi a cu<supplied reason="lost">l</supplied>
+                    <lb n="18" break="no"/><supplied reason="lost">t</supplied>oribus <persName type="divinity"><name>Larum</name> <name><expan><abbr>Aug</abbr><ex>ustorum</ex></expan></name></persName> ad te misi
+                    <lb n="19"/><supplied reason="lost">o</supplied>portuerat te in tam religi
+                    <lb n="20"/><supplied reason="lost">os</supplied>am rem ipse etiam <expan><abbr>omne</abbr><ex>m</ex></expan> <expan><abbr>solli
+                    <lb n="21" break="no"/><supplied reason="lost">ci</supplied>tudine</abbr><ex>m</ex></expan> adhibuisse ut locus
+                    <lb n="22"/><supplied reason="lost">o</supplied>lim consacratus confre
+                    <lb n="23" break="no"/><supplied reason="lost">q</supplied>uentetur pro salute domi
+                    <lb n="24" break="no"/><supplied reason="lost">n</supplied>orum <expan><abbr>nn</abbr><ex>ostrorum</ex></expan> <expan><abbr>Augg</abbr><ex>ustorum</ex></expan> quod vel nu<supplied reason="lost">nc</supplied>
+                    <lb n="25"/><supplied reason="lost">e</supplied>tiam volentibus cultoribus
+                    <lb n="26"/><supplied reason="lost">f</supplied>acere intervenire cura ut s<supplied reason="lost">i</supplied>
+                    <lb n="27" break="no"/><supplied reason="lost">n</supplied>e recrasti <supplied reason="omitted">nati</supplied>one mundetur
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text of EAGLE</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p></p> <!--  -->
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/><citedRange>14.4570</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

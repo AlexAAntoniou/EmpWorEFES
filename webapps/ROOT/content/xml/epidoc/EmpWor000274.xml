@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000274</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000274</idno>
+                <idno type="EDCS">EDCS 05801682</idno>
+                <idno type="EDR">EDR 074675</idno>
+                <idno type="EDH">EDH 014125</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Tibur</settlement>
+                        <repository></repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Plaque</objectType>
+                                    <dimensions>
+                                        <height unit="cm">14</height>
+                                        <width unit="cm">41</width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.fragment"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">42-45</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/423081">Tibur</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3165624/tivoli.html">Tivoli</placeName>
+                                <geo>41.963602, 12.79818</geo>
+                            </origPlace>
+                            <origDate when="0134" evidence="consuls">134 CE on the basis of the consular year.</origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered">Discovered in S. Pietro della Carità, today S. Maria del Carmine, inserted into the floor.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-13" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="divine" key="iunoRegina"><name><supplied reason="undefined" evidence="previouseditor">Iu</supplied><supplied reason="lost">noni</supplied></name> <name><expan><abbr><supplied reason="lost">Reg</supplied></abbr><ex>inae</ex></expan></name></persName>
+                    <lb n="2"/><supplied reason="undefined" evidence="previouseditor">et</supplied> <persName type="divine" key="pietasAugusta"><name><supplied reason="undefined" evidence="previouseditor">Pi</supplied><supplied reason="lost">etati</supplied></name> <name><expan><abbr><supplied reason="lost">Aug</supplied></abbr><ex>ustae</ex></expan></name></persName>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr><supplied reason="lost">P</supplied></abbr><ex>ublius</ex></expan></name> <name><supplied reason="lost">A</supplied><supplied reason="undefined" evidence="previouseditor">el</supplied><supplied reason="lost">i</supplied><supplied reason="undefined" evidence="previouseditor">u</supplied><supplied reason="lost">s</supplied></name> <persName type="ruler"><name><expan><abbr><supplied reason="lost">Aug</supplied></abbr><ex>usti</ex></expan></name> <expan><abbr><supplied reason="lost">lib</supplied></abbr><ex>ertus</ex></expan></persName>
+                    <lb n="4"/><name><supplied reason="lost">Aqu</supplied><supplied reason="undefined" evidence="previouseditor">ilinu</supplied><supplied reason="lost">s</supplied></name></persName> <supplied reason="lost"><expan><abbr>tabular</abbr><ex>ius</ex></expan></supplied>
+                    <lb n="5"/><supplied reason="lost">don</supplied><supplied reason="undefined" evidence="previouseditor">o</supplied> <supplied reason="lost">dedit</supplied>
+                    <lb n="6"/><supplied reason="lost" cert="low">idemque</supplied>
+                    <lb n="7"/>dedic<supplied reason="lost">avit</supplied>
+                    <lb n="8"/><num value="10">X</num> <expan><abbr>k</abbr><ex>alendas</ex></expan> <expan><abbr>Oct<supplied reason="lost">obr</supplied></abbr><ex>es</ex></expan>
+                    <lb n="9"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name>Licinio</name> <name>P<supplied reason="lost">ansa</supplied></name></persName> <supplied reason="lost">et</supplied>
+                    <lb n="10"/><persName type="attested"><name><expan><abbr><supplied reason="lost">L</supplied></abbr><ex>ucio</ex></expan></name> <name>Attio</name> <name>M<supplied reason="lost">acrone</supplied></name></persName>
+                    <lb n="11"/><expan><abbr><supplied reason="undefined" evidence="previouseditor">co</supplied></abbr><ex>n</ex><abbr><supplied reason="lost">s</supplied><ex>ulibus</ex></abbr></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>To Juno Regina, and Pietas Augusta, Publius Aelius Aquilinus, freedman of Augustus, public registrar, gave this gift and dedicated [the same?], on the 10th day before the Kalends of October, when Publius Licinius Pansa and Lucius Attius Macro were consuls.</p>
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/>CIL<citedRange>14.3693</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

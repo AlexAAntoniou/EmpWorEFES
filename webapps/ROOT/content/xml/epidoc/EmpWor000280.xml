@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000280</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000280</idno>
+                <idno type="EDCS">EDCS 64500574</idno>
+                <idno type="EDR">EDR 071753 and EDR 189016</idno>
+                <idno type="EDH">EDH 028348</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Tusculum</settlement>
+                        <repository>Museo Civico Tuscolano, Scuderie Aldobrandini</repository> 
+                        <idno>511466</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Rectangular statue base, with heavily abraded sides near the top and moulded plinth at the top. First inscription on front face (front-a), was erased and later reused (front-b). The inscription on the right face is contemporary with the first inscription on the front face. There are four holes on the left side, as a result of later reuse.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
+                                    <dimensions>
+                                        <height unit="cm">140</height>
+                                        <width unit="cm">77</width>
+                                        <depth unit="cm">68</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.fragmented"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">40</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/423108">Tusculum</placeName>
+                                <geo>41.798284, 12.710316</geo>
+                            </origPlace>
+                            <origDate atLeast="0286" atMost="0308" evidence="rule">The reuse of the statue-base is devotion to Maximian, and thus dates to 286–308 CE. The original inscription (dated based on the consular year) is dated to 196 CE.</origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered" when="1900">Originally discovered between Frascati and Colonna, and rediscovered in 1900 in the Moretti vinegyard, near the modern road, about 500m from Casale Ciuffa</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-13" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <div type="textpart" subtype="face" n="front-a">
+                    <ab>
+                        <lb n="1"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del>
+                        <lb n="2"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost">in</supplied></del>
+                        <lb n="3" break="no"/>stituit <del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del> in
+                        <lb n="4" break="no"/>scripta <del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del> to
+                        <lb n="5"/>statuam <del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del> nt
+                        <lb n="6"/><expan><abbr>cur</abbr><ex>ante</ex></expan> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Titedio</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Fab</abbr><ex>ia</ex></expan> <name>Procu<supplied reason="lost">lin</supplied>o</name></persName>
+                        <lb n="7"/>patre et <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Titedio</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Fab</abbr><ex>ia</ex></expan> <name>Proculo</name></persName>
+                        <lb n="8"/>fratre <expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="right">
+                    <ab>
+                        <lb n="1"/><expan><abbr>K</abbr><ex>alendis</ex></expan> <expan><abbr>Iuni</abbr><ex>is</ex></expan>
+                        <lb n="2"/><persName type="attested"><name>Dextro</name> <num value="2">II</num></persName> c<supplied reason="lost">onsulibus</supplied>
+                        <lb n="3"/><persName type="attested"><name>T<supplied reason="omitted">h</supplied>rasea</name> <name><expan><abbr>Pr</abbr><ex>isco</ex></expan></name></persName>
+                        <lb n="4"/><persName type="attested"><name>Mnestherae</name></persName>
+                        <lb n="5"/><persName type="attested"><name>Synchaeront<supplied reason="lost">e</supplied></name></persName>
+                        <lb n="6"/><expan><abbr>IIIIvir</abbr><ex>is</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="front-b">
+                    <ab>
+                        <lb n="1"/><persName type="ruler" key="maximian"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name><expan><abbr>C</abbr><ex>aesari</ex></expan></name> <name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Valerio</name>
+                        <lb n="2"/><name>Maximiano</name> Pio
+                        <lb n="3"/>Felici
+                        <lb n="4"/>Inbicto <expan><abbr>Aug</abbr><ex>usto</ex></expan></persName>
+                        <lb n="5"/>ordo <expan><abbr>Labican</abbr><ex>orum</ex></expan> <expan><abbr>QQ</abbr><ex>uintanensium</ex></expan>
+                        <lb n="6"/><expan><abbr>d</abbr><ex>evotus</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>m</abbr><ex>aiestati</ex><abbr>q</abbr><ex>ue</ex></expan> eius
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>[Front face, a]: [---]? statue [---]?, overseen by Lucius Titedius Proculinus, son of Lucius, of tribe Fabia, the father, and Lucius Titedius Proculo, son of Lucius, of tribe Fabia, the brother. This place was assigned by decree of the decurions. [Right face]: On the Kalends of June, when Dexter II and T[h]rasea Priscus were consuls, Mnesthera and Synchaeronte quattuorvirs. [Front face, b]: To Imperator Caesar Marcus Valerius Maximianus Pius Felix In[v]ictus Augustus, the town council of Labicanus Quintanensium. Devoted to his divine word and majesty.</p>
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/>AE<citedRange>1900.133</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

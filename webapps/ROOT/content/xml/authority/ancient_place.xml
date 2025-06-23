@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Controlled vocabulary for all ancient places in the EmpWor project</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <listPlace type="places">
+                    <placeName xml:id="Abellinum">
+                        <placeName xml:lang="la">Abellinum</placeName>
+                        <placeName xml:lang="en">Abellino</placeName>
+                        <country>Italy</country>
+                        <region>Regio I</region>
+                        <location><geo>40.92209, 14.83126</geo></location>
+                        <idno type="pleiades" ref="https://pleiades.stoa.org/places/432618">Abellinum</idno>
+                    </placeName>
+                </listPlace>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

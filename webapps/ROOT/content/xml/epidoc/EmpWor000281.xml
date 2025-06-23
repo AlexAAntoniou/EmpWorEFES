@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000281</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000281</idno>
+                <idno type="EDCS">EDCS 16400624</idno>
+                <idno type="EDR">EDR 072113</idno>
+                <idno type="EDH">EDH 021821</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio 1</region>
+                        <settlement>Tusculum</settlement>
+                        <repository>Museo Nazionale Romano, Terme di Diocleziano, Sala V.</repository> 
+                        <idno>30238</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Roughly rectangular plaque</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/1483.html">Plaque</objectType>
+                                    <dimensions>
+                                        <height unit="cm">36</height>
+                                        <width unit="cm">63</width>
+                                        <depth unit="cm">3.5</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Letters are relatively regular with serifs. The letter "A", particularly in the first six lines, is consistently written with a long top outstroke. Two of the "I"s in line 7 are tall: the final "I" in Pauliniani, and the final "I" in Secundi. The hedera at the end of line 7 is quite angular.</p>
+                                <locus from="line1" to="line9">Lines 1–9</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">17–25</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/423108">Tusculum</placeName>
+                                <geo>41.798284, 12.710316</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" subtype="discovered" notAfter="1905">Found in the ager Tusculanus, on the 10th mile of the Via Latina, in the Gentilini vineyard, before 1905.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.decree" ref="https://www.eagle-network.eu/voc/typeins/lod/384.html">Municipal decree</term>                                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-13" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/>ex auctoritate <expan><abbr>s</abbr><ex>enatus</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>p</abbr><ex>opulisque</ex></expan> <g ref="#interpunct">·</g> Tusculani
+                    <lb n="2"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="#interpunct">·</g> <name>Lorentius</name> <g ref="#interpunct">·</g> <name>Atticus</name></persName> <g ref="#interpunct">·</g> <expan><abbr>aed</abbr><ex>ilis</ex></expan> <g ref="#interpunct">·</g>
+                    <lb n="3"/>aediculam <g ref="#interpunct">·</g> <persName type="divine" key="laresAugusti"><name>Larum</name> <g ref="#interpunct">·</g> <name>Augustorum</name></persName>
+                    <lb n="4"/>vici <g ref="#interpunct">·</g> <expan><abbr>Angusculan</abbr><ex>i</ex></expan> <g ref="#interpunct">·</g> vetustate <g ref="#interpunct">·</g>
+                    <lb n="5"/>dilapsam <g ref="#interpunct">·</g> pecunia <g ref="#interpunct">·</g> publica <g ref="#interpunct">·</g> a solo
+                    <lb n="6"/>restituit
+                    <lb n="7"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <g ref="#interpunct">·</g> <name>Clodi</name> <g ref="#interpunct">·</g> <name>Pauliniani</name></persName> <g ref="#interpunct">·</g> <persName type="attested"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="#interpunct">·</g> <name>Comini</name> <g ref="#interpunct">·</g> <name>Secundi</name></persName> <g ref="#ivy-leaf">❦</g>
+                    <lb n="8"/><expan><abbr>aed</abbr><ex cert="low">ilium</ex></expan> <expan><abbr>q<g ref="#interpunct">·</g></abbr><ex>uin</ex><abbr>q<g ref="#interpunct">·</g></abbr><ex cert="low">uennalium</ex></expan>
+                    <lb n="9"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Plotius</name> <g ref="#interpunct">·</g> <name>Bassus</name> <name>Sabinianus</name></persName> <g ref="#interpunct">·</g> <expan><abbr>praef</abbr><ex>ectus</ex></expan> <g ref="#interpunct">·</g>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR, comparison with photograph</note></app>
+                    <app loc="7"><note>It might be possible to restore line 7 as aed(ilitate) q(uin)q(uennali)</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>From the authority of the senate and people of Tusculum, Marcus Lorentius Atticus, aedile, restored from the ground up with public funds the shrine of the Augustan Lares of the vicus Angusculanus, which was dilapidated by old age. By Publius Clodius Paulinianus, Lucius Cominus Secundus, quinquennlial aediles. Caius Plotius Bassus Sabinianus, the prefect.</p>
+            </div>
+            <div type="commentary">
+                <p> As EDR notes, it is possible that the L. Cominius Secundus of the inscription could be the senator of that name who was a legatus Augustus pro praetore of Pannonia from 145–150 CE. EDR associates this shrine of the Augustan Lares with that attested in Rome of AE 1907.79</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/>AE<citedRange>1906.79</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
