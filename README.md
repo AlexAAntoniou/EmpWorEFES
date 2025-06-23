@@ -1,3 +1,9 @@
+# Emp(eror) Wor(ship): The Digital Corpus of Emperor Worship from the Roman Mediterranean
+
+The Emp(eror) Wor(ship) project intends to use EFES (EpiDoc Front End Services) for the collation of the evidence of the unique phenomenon of emperor worship from across the Mediterranean. The first stage of the project, supported by a Royal Society of Edinburgh Small Research Grant, will see the encoding of Roman Italy (excluding Rome).
+
+----
+
 ## EFES: EpiDoc Front-End Services
 
 * EFES release version `2024-06 aligned with EpiDoc 9.6`
