@@ -108,7 +108,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="divine" key="augustus"><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> <expan><abbr>sacr</abbr><ex>um</ex></expan> <g ref="#ivy-leaf">❦</g>
+                    <lb n="1"/><persName type="divine" key="augustus"><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> <expan><abbr>sacr</abbr><ex>um</ex></expan> <g ref="symbols.xml#ivy-leaf">❦</g>
                 </ab>
             </div>
             <div type="apparatus">
@@ -125,7 +125,7 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/>CIL<citedRange>10.1615</citedRange>
+                        <ptr target="CIL"/> <citedRange>10.1615</citedRange>
                     </bibl>
                 </p>
             </div>

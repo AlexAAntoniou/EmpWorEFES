@@ -125,13 +125,13 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA"><!-- CIL -->
                 <div type="textpart" subtype="heading">
                     <ab> 
-                        <lb n="1"/>Augustales <g ref="#interpunct">·</g> creati <g ref="#interpunct">·</g> ii qui <g ref="#interpunct">·</g> in cultu <g ref="#interpunct">·</g> <persName type="divinity"><name>domus <g ref="#interpunct">·</g>
-                        <lb n="2"/>divinae</name></persName> <g ref="#interpunct">·</g> contulerunt <g ref="#interpunct">·</g>
+                        <lb n="1"/>Augustales <g ref="symbols.xml#interpunct">·</g> creati <g ref="symbols.xml#interpunct">·</g> ii qui <g ref="symbols.xml#interpunct">·</g> in cultu <g ref="symbols.xml#interpunct">·</g> <persName type="divinity"><name>domus <g ref="symbols.xml#interpunct">·</g>
+                        <lb n="2"/>divinae</name></persName> <g ref="symbols.xml#interpunct">·</g> contulerunt <g ref="symbols.xml#interpunct">·</g>
                     </ab>
                 </div>
                 <div type="textpart" subtype="column" n="A">
                     <ab> 
-                        <lb n="1"/>patroni allecti <g ref="#interpunct">·</g>
+                        <lb n="1"/>patroni allecti <g ref="symbols.xml#interpunct">·</g>
                         <lb n="2"/><persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name>Vettulenus</name> <name>Nepos</name></persName>
                         <lb n="3"/><persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name>Vettulenus</name> <name><expan><abbr>Nemesinian</abbr><ex>us</ex></expan></name></persName>
                         <lb n="4"/><persName type="attested"><supplied reason="lost" cert="low"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name></supplied> <name>Marcius</name> <name>Secundus</name></persName>
@@ -153,7 +153,7 @@
                         <lb n="2"/><persName type="attested"><name>Vettulenus</name> <name>Rufus</name></persName>
                         <lb n="3"/><persName type="attested"><name>Fufius</name> <name>A<choice><corr>p</corr></choice>o<choice><corr>l</corr></choice>lonius</name></persName>
                         <lb n="4"/><persName type="attested"><name>Maetius</name> <name>Eucratus</name></persName>
-                        <lb n="5"/><persName type="attested"><name>Voltricius</name> <name>Restitut<g ref="#interpunct">·</g>s</name></persName>
+                        <lb n="5"/><persName type="attested"><name>Voltricius</name> <name>Restitut<g ref="symbols.xml#interpunct">·</g>s</name></persName>
                         <lb n="6"/><persName type="attested"><name>Licinius</name> <name>Restitutus</name></persName>
                         <lb n="7"/><persName type="attested"><name>Vettulenus</name> <name>Hyginus</name></persName>
                         <lb n="8"/><persName type="attested"><name>Varius</name> <name>Epa<hi rend="ligature">ph</hi>roditus</name></persName>
@@ -199,7 +199,7 @@
                 </div>
                 <div type="textpart" subtype="ending">
                     <ab>
-                        <lb n="1"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <g ref="#interpunct">·</g> <name>Varius</name> <g ref="#interpunct">·</g> <name>Epaphroditus</name></persName> <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>onum</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>edit</ex></expan> <g ref="#interpunct">·</g>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Varius</name> <g ref="symbols.xml#interpunct">·</g> <name>Epaphroditus</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>onum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>edit</ex></expan> <g ref="symbols.xml#interpunct">·</g>
                     </ab>
                 </div>
             </div>

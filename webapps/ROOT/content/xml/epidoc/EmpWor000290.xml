@@ -109,7 +109,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="divine"><name><supplied reason="lost">Fo</supplied><unclear>r</unclear>tunae</name> <g ref="#ivy-leaf">❦</g> <supplied reason="lost"><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></supplied></persName>
+                    <lb n="1"/><persName type="divine"><name><supplied reason="lost">Fo</supplied><unclear>r</unclear>tunae</name> <g ref="symbols.xml#ivy-leaf">❦</g> <supplied reason="lost"><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></supplied></persName>
                     <lb n="2"/><expan><abbr>sacr</abbr><ex>um</ex></expan>
                     <lb n="3"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="char"/><seg part="F">cia</seg></name> <name>Primi<unclear>g</unclear><supplied reason="lost">enia</supplied></name></persName>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="char"/><orig><unclear>M</unclear>AMON</orig><gap reason="lost" extent="unknown" unit="char"/>
@@ -131,7 +131,7 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/>CIL<citedRange>14.2040</citedRange>
+                        <ptr target="CIL"/><citedRange>14.2040</citedRange>
                     </bibl>
                 </p>
             </div>

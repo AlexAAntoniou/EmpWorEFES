@@ -107,11 +107,11 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                  <ab><!-- Only basic encoding -->
-                     <lb n="1"/><persName type="attested"><name><expan><abbr><unclear>L</unclear></abbr><ex>ucio</ex></expan></name> <g ref="#interpunct">·</g> <name>Curiatio</name> <g ref="#interpunct">·</g> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName></persName> 
-                     <lb n="2"/>flamini <g ref="#interpunct">·</g> <persName type="divinity"><name>divi</name> <g ref="#interpunct">·</g> <name>Augusti</name></persName>
-                     <lb n="3"/><expan><abbr>prim</abbr><ex>o</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>pil</abbr><ex>o</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>trib</abbr><ex>uno</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>milit</abbr><ex>um</ex></expan> <g ref="#interpunct">·</g> <num value="2"><hi rend="supraline">II</hi></num>
-                     <lb n="4"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>castr</abbr><ex>orum</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan>
-                     <lb n="5"/>arbitratu <g ref="#interpunct">·</g> <persName type="attested"><name>Hyacinthi</name></persName> <g ref="#interpunct">·</g> <expan><abbr>lib</abbr><ex>erti</ex></expan>
+                     <lb n="1"/><persName type="attested"><name><expan><abbr><unclear>L</unclear></abbr><ex>ucio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Curiatio</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName></persName> 
+                     <lb n="2"/>flamini <g ref="symbols.xml#interpunct">·</g> <persName type="divinity"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Augusti</name></persName>
+                     <lb n="3"/><expan><abbr>prim</abbr><ex>o</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pil</abbr><ex>o</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>trib</abbr><ex>uno</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>milit</abbr><ex>um</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="2"><hi rend="supraline">II</hi></num>
+                     <lb n="4"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>castr</abbr><ex>orum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan>
+                     <lb n="5"/>arbitratu <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>Hyacinthi</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>lib</abbr><ex>erti</ex></expan>
                  </ab>
             </div>
             <div type="apparatus">

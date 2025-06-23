@@ -111,13 +111,13 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="ruler"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <g ref="#interpunct">·</g> <name>Caesare</name> <g ref="#interpunct">·</g> <persName type="patronym"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> <g ref="#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName></persName> <g ref="#interpunct">·</g> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <g ref="#interpunct">·</g> <name>Paullo</name></persName> <g ref="#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
-                    <lb n="2"/><persName type="divine" key="laresAugusti"><name>Lares</name> <g ref="#interpunct">·</g> <name>Augustos</name></persName>
-                    <lb n="3"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <g ref="#interpunct">·</g> <name>Numisius</name> <g ref="#interpunct">·</g> <persName type="attested"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <g ref="#interpunct">·</g> <expan><abbr>l</abbr><ex>ibertus</ex></expan></persName> <g ref="#interpunct">·</g> <name>Legio</name></persName>
-                    <lb n="4"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="#interpunct">·</g> <name>Safinius</name> <g ref="#interpunct">·</g> <persName type="attested"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="#interpunct">·</g> <expan><abbr>l</abbr><ex>ibertus</ex></expan></persName> <g ref="#interpunct">·</g> <name>Hilarus</name></persName>
-                    <lb n="5"/><persName type="attested"><name>Sodalis</name> <g ref="#interpunct">·</g> <persName type="attested"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <g ref="#interpunct">·</g> <name>Modi</name> <g ref="#interpunct">·</g> <name>Cimbri</name></persName> <g ref="#interpunct">·</g> <expan><abbr>ser</abbr><ex>vus</ex></expan></persName>
-                    <lb n="6"/><persName type="attested"><name>Aeschinus</name> <g ref="#interpunct">·</g> <persName type="attested"><name>Octavi</name> <g ref="#interpunct">·</g> <name><expan><abbr>M</abbr><ex>arci</ex></expan></name></persName> <g ref="#interpunct">·</g> <expan><abbr>ser</abbr><ex>vus</ex></expan></persName>
-                    <lb n="7"/><expan><abbr>magistr</abbr><ex>i</ex></expan> <g ref="#interpunct">·</g> de suo <g ref="#interpunct">·</g> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+                    <lb n="1"/><persName type="ruler"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Caesare</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Paullo</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+                    <lb n="2"/><persName type="divine" key="laresAugusti"><name>Lares</name> <g ref="symbols.xml#interpunct">·</g> <name>Augustos</name></persName>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Numisius</name> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>l</abbr><ex>ibertus</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <name>Legio</name></persName>
+                    <lb n="4"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Safinius</name> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>l</abbr><ex>ibertus</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <name>Hilarus</name></persName>
+                    <lb n="5"/><persName type="attested"><name>Sodalis</name> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Modi</name> <g ref="symbols.xml#interpunct">·</g> <name>Cimbri</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>ser</abbr><ex>vus</ex></expan></persName>
+                    <lb n="6"/><persName type="attested"><name>Aeschinus</name> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>Octavi</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>M</abbr><ex>arci</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>ser</abbr><ex>vus</ex></expan></persName>
+                    <lb n="7"/><expan><abbr>magistr</abbr><ex>i</ex></expan> <g ref="symbols.xml#interpunct">·</g> de suo <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
@@ -134,12 +134,12 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/>CIL<citedRange>10.1582</citedRange>
+                        <ptr target="CIL"/> <citedRange>10.1582</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="ILS"/>ILS<citedRange>3611</citedRange>
+                        <ptr target="ILS"/> <citedRange>3611</citedRange>
                     </bibl>
                 </p>
             </div>

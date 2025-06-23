@@ -107,22 +107,22 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeo</ex></expan></name> <g ref="#interpunct">·</g> <name>Voesio</name> <g ref="#interpunct">·</g>
-                    <lb n="2"/><persName type="patronym"><name><expan><abbr>Cn</abbr><ex>aei</ex></expan></name> <g ref="#interpunct">·</g> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <g ref="#interpunct">·</g> <name>Apro</name></persName> <g ref="#interpunct">·</g>
-                    <lb n="3"/>quaestori <g ref="#interpunct">·</g> aedili <g ref="#interpunct">·</g> <hi rend="supraline">II<g ref="#interpunct">·</g></hi>viro <g ref="#interpunct">·</g>
-                    <lb n="4"/>flamini <g ref="#interpunct">·</g> <persName type="divine" key="divusAugustus"><name>divi</name> <g ref="#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <g ref="#interpunct">·</g> <hi rend="supraline">VI</hi><g ref="#interpunct">·</g>viro <g ref="#interpunct">·</g>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeo</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Voesio</name> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="2"/><persName type="patronym"><name><expan><abbr>Cn</abbr><ex>aei</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <name>Apro</name></persName> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="3"/>quaestori <g ref="symbols.xml#interpunct">·</g> aedili <g ref="symbols.xml#interpunct">·</g> <hi rend="supraline">II<g ref="symbols.xml#interpunct">·</g></hi>viro <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="4"/>flamini <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="divusAugustus"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> <hi rend="supraline">VI</hi><g ref="symbols.xml#interpunct">·</g>viro <g ref="symbols.xml#interpunct">·</g>
                     <lb n="5"/>Augustali curatori <expan><abbr>annon</abbr><ex>ae</ex></expan>
-                    <lb n="6"/>triennio continuo <expan><abbr>curat</abbr><ex>ori</ex></expan> <g ref="#interpunct">·</g>
+                    <lb n="6"/>triennio continuo <expan><abbr>curat</abbr><ex>ori</ex></expan> <g ref="symbols.xml#interpunct">·</g>
                     <lb n="7"/>muneris publici gladiatori <num value="3">III</num>
                     <lb n="8"/>quot is tempore honorum cu
                     <lb n="9" break="no"/>rarumque suarum plenissimo
                     <lb n="10"/>munificentiae studio <expan><abbr>voluptatib</abbr><ex>us</ex></expan>
-                    <lb n="11"/>et <g ref="#interpunct">·</g> utilitatibus <g ref="#interpunct">·</g> populi plurima
-                    <lb n="12"/>contulerit <g ref="#interpunct">·</g> ludum <g ref="#interpunct">·</g> etiam <g ref="#interpunct">·</g> gladi
-                    <lb n="13" break="no"/>atorium <g ref="#interpunct">·</g> et <g ref="#interpunct">·</g> <expan><abbr>spoliar</abbr><ex>ium</ex></expan> <g ref="#interpunct">·</g> solo <unclear>emp</unclear>to
-                    <lb n="14"/>sua <g ref="#interpunct">·</g> pecunia <g ref="#interpunct">·</g> exstructum publice op
+                    <lb n="11"/>et <g ref="symbols.xml#interpunct">·</g> utilitatibus <g ref="symbols.xml#interpunct">·</g> populi plurima
+                    <lb n="12"/>contulerit <g ref="symbols.xml#interpunct">·</g> ludum <g ref="symbols.xml#interpunct">·</g> etiam <g ref="symbols.xml#interpunct">·</g> gladi
+                    <lb n="13" break="no"/>atorium <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g> <expan><abbr>spoliar</abbr><ex>ium</ex></expan> <g ref="symbols.xml#interpunct">·</g> solo <unclear>emp</unclear>to
+                    <lb n="14"/>sua <g ref="symbols.xml#interpunct">·</g> pecunia <g ref="symbols.xml#interpunct">·</g> exstructum publice op
                     <lb n="15" break="no"/>tulerit cuius meritis postulante populo
-                    <lb n="16"/>statuam <g ref="#interpunct">·</g> publice <g ref="#interpunct">·</g> poni <g ref="#interpunct">·</g> placuit <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="#interpunct">·</g>
+                    <lb n="16"/>statuam <g ref="symbols.xml#interpunct">·</g> publice <g ref="symbols.xml#interpunct">·</g> poni <g ref="symbols.xml#interpunct">·</g> placuit <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="symbols.xml#interpunct">·</g>
                 </ab>
             </div>
             <div type="apparatus">
@@ -139,7 +139,7 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/>CIL<citedRange>14.3014</citedRange>
+                        <ptr target="CIL"/> <citedRange>14.3014</citedRange>
                     </bibl>
                 </p>
             </div>

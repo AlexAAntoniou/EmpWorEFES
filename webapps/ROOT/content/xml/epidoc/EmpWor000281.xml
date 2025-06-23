@@ -111,15 +111,15 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>ex auctoritate <expan><abbr>s</abbr><ex>enatus</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>p</abbr><ex>opulisque</ex></expan> <g ref="#interpunct">·</g> Tusculani
-                    <lb n="2"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="#interpunct">·</g> <name>Lorentius</name> <g ref="#interpunct">·</g> <name>Atticus</name></persName> <g ref="#interpunct">·</g> <expan><abbr>aed</abbr><ex>ilis</ex></expan> <g ref="#interpunct">·</g>
-                    <lb n="3"/>aediculam <g ref="#interpunct">·</g> <persName type="divine" key="laresAugusti"><name>Larum</name> <g ref="#interpunct">·</g> <name>Augustorum</name></persName>
-                    <lb n="4"/>vici <g ref="#interpunct">·</g> <expan><abbr>Angusculan</abbr><ex>i</ex></expan> <g ref="#interpunct">·</g> vetustate <g ref="#interpunct">·</g>
-                    <lb n="5"/>dilapsam <g ref="#interpunct">·</g> pecunia <g ref="#interpunct">·</g> publica <g ref="#interpunct">·</g> a solo
+                    <lb n="1"/>ex auctoritate <expan><abbr>s</abbr><ex>enatus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>opulisque</ex></expan> <g ref="symbols.xml#interpunct">·</g> Tusculani
+                    <lb n="2"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Lorentius</name> <g ref="symbols.xml#interpunct">·</g> <name>Atticus</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>aed</abbr><ex>ilis</ex></expan> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="3"/>aediculam <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="laresAugusti"><name>Larum</name> <g ref="symbols.xml#interpunct">·</g> <name>Augustorum</name></persName>
+                    <lb n="4"/>vici <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Angusculan</abbr><ex>i</ex></expan> <g ref="symbols.xml#interpunct">·</g> vetustate <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="5"/>dilapsam <g ref="symbols.xml#interpunct">·</g> pecunia <g ref="symbols.xml#interpunct">·</g> publica <g ref="symbols.xml#interpunct">·</g> a solo
                     <lb n="6"/>restituit
-                    <lb n="7"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <g ref="#interpunct">·</g> <name>Clodi</name> <g ref="#interpunct">·</g> <name>Pauliniani</name></persName> <g ref="#interpunct">·</g> <persName type="attested"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="#interpunct">·</g> <name>Comini</name> <g ref="#interpunct">·</g> <name>Secundi</name></persName> <g ref="#ivy-leaf">❦</g>
-                    <lb n="8"/><expan><abbr>aed</abbr><ex cert="low">ilium</ex></expan> <expan><abbr>q<g ref="#interpunct">·</g></abbr><ex>uin</ex><abbr>q<g ref="#interpunct">·</g></abbr><ex cert="low">uennalium</ex></expan>
-                    <lb n="9"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Plotius</name> <g ref="#interpunct">·</g> <name>Bassus</name> <name>Sabinianus</name></persName> <g ref="#interpunct">·</g> <expan><abbr>praef</abbr><ex>ectus</ex></expan> <g ref="#interpunct">·</g>
+                    <lb n="7"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Clodi</name> <g ref="symbols.xml#interpunct">·</g> <name>Pauliniani</name></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Comini</name> <g ref="symbols.xml#interpunct">·</g> <name>Secundi</name></persName> <g ref="symbols.xml#ivy-leaf">❦</g>
+                    <lb n="8"/><expan><abbr>aed</abbr><ex cert="low">ilium</ex></expan> <expan><abbr>q<g ref="symbols.xml#interpunct">·</g></abbr><ex>uin</ex><abbr>q<g ref="symbols.xml#interpunct">·</g></abbr><ex cert="low">uennalium</ex></expan>
+                    <lb n="9"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Plotius</name> <g ref="symbols.xml#interpunct">·</g> <name>Bassus</name> <name>Sabinianus</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>praef</abbr><ex>ectus</ex></expan> <g ref="symbols.xml#interpunct">·</g>
                 </ab>
             </div>
             <div type="apparatus">
@@ -137,7 +137,7 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/>AE<citedRange>1906.79</citedRange>
+                        <ptr target="AE"/> <citedRange>1906.79</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -109,10 +109,10 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="divine" key="laresAugusti"><name>Laribus</name> <g ref="#interpunct">·</g> <name>Augus<unclear>t</unclear><supplied reason="lost">is</supplied></name></persName>
-                    <lb n="2"/>ex <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="#interpunct">·</g> <persName type="attested"><name><expan><abbr>Sex</abbr><ex>tus</ex></expan></name> <g ref="#interpunct">·</g> <name>Pompeiu<supplied reason="lost">s</supplied></name>
-                    <lb n="3"/><name>Archidemus</name></persName> <g ref="#interpunct">·</g> et <g ref="#interpunct">·</g> <persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="#interpunct">·</g>
-                    <lb n="4"/><name>Papirius</name> <g ref="#interpunct">·</g> <name>Orestes</name></persName> <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>e</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>s</abbr><ex>ua</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>p</abbr><ex>ecunia</ex></expan>
+                    <lb n="1"/><persName type="divine" key="laresAugusti"><name>Laribus</name> <g ref="symbols.xml#interpunct">·</g> <name>Augus<unclear>t</unclear><supplied reason="lost">is</supplied></name></persName>
+                    <lb n="2"/>ex <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>Sex</abbr><ex>tus</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Pompeiu<supplied reason="lost">s</supplied></name>
+                    <lb n="3"/><name>Archidemus</name></persName> <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="4"/><name>Papirius</name> <g ref="symbols.xml#interpunct">·</g> <name>Orestes</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>e</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>s</abbr><ex>ua</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>ecunia</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
@@ -129,7 +129,7 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/>AE<citedRange>1990.272</citedRange>
+                        <ptr target="AE"/> <citedRange>1990.272</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -113,26 +113,26 @@
                 <div type="textpart" subtype="column" n="a">
                     <ab>
                         <lb n="1"/><gap reason="lost" extent="unknown" unit="char"/> <expan><abbr><supplied reason="lost">s</supplied><unclear>a</unclear>cerd</abbr><ex>oti</ex></expan> <expan><abbr>public</abbr><ex>ae</ex></expan> <persName type="divine" key="venus"><name><expan><abbr>Vener</abbr><ex>is</ex></expan></name></persName>
-                        <lb n="2"/><supplied reason="lost">et</supplied> <persName type="divine" key="ceres"><name><supplied reason="lost">Cereris</supplied></name></persName> <supplied reason="lost">h</supplied>uic <g ref="#interpunct">·</g> matronae <g ref="#interpunct">·</g> statuam
-                        <lb n="3"/><supplied reason="lost">ex aere conl</supplied>ato in <g ref="#interpunct">·</g> aedem <g ref="#interpunct">·</g> <persName type="divine" key="venus"><name>Veneris</name></persName> <g ref="#interpunct">·</g>
+                        <lb n="2"/><supplied reason="lost">et</supplied> <persName type="divine" key="ceres"><name><supplied reason="lost">Cereris</supplied></name></persName> <supplied reason="lost">h</supplied>uic <g ref="symbols.xml#interpunct">·</g> matronae <g ref="symbols.xml#interpunct">·</g> statuam
+                        <lb n="3"/><supplied reason="lost">ex aere conl</supplied>ato in <g ref="symbols.xml#interpunct">·</g> aedem <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="venus"><name>Veneris</name></persName> <g ref="symbols.xml#interpunct"></g>
                         <lb n="4"/><supplied reason="lost">ponendam cu</supplied><unclear>r</unclear>averunt huic
-                        <lb n="5"/><supplied reason="lost">decuriones p</supplied><unclear>u</unclear>blice <g ref="#interpunct">·</g> locum <g ref="#interpunct">·</g> sepulturae <g ref="#interpunct">·</g> et
+                        <lb n="5"/><supplied reason="lost">decuriones p</supplied><unclear>u</unclear>blice <g ref="symbols.xml#interpunct">·</g> locum <g ref="symbols.xml#interpunct">·</g> sepulturae <g ref="symbols.xml#interpunct">·</g> et
                         <lb n="6"/><supplied reason="lost">in funere <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertia</ex></expan> <num value="5000">|))</num> </supplied> et statuam decreveru<hi rend="ligature">nt</hi>
                     </ab>
                 </div>
                 <div type="textpart" subtype="column" n="b">
                     <ab>
-                        <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <g ref="#interpunct">·</g> <name>Cornelio</name> <g ref="#interpunct">·</g> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <g ref="#interpunct">·</g> <expan><abbr>Men</abbr><ex>enia</ex></expan> <g ref="#interpunct">·</g> <name><seg part="I">M</seg><gap reason="lost" extent="unknown" unit="char"/></name></persName>
-                        <lb n="2"/>flamini <g ref="#interpunct">·</g> <persName type="divine" key="roma"><name>Romae</name></persName> <g ref="#interpunct">·</g> <persName type="divine" key="tiberius"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <g ref="#interpunct">·</g> <name><expan><abbr>C<unclear>a</unclear><supplied reason="lost">es</supplied></abbr><ex>aris</ex></expan></name> <name><expan><abbr><supplied reason="lost">Aug</supplied></abbr><ex>usti</ex></expan></name></persName>
-                        <lb n="3"/>auguri <g ref="#interpunct">·</g> <expan><abbr>aed</abbr><ex>ili</ex></expan> <g ref="#interpunct">·</g> <expan><abbr><hi rend="supraline">II</hi>vir<g ref="#interpunct">·</g></abbr><ex>o</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>qu<supplied reason="lost">inquenn</supplied></abbr><ex>ali</ex></expan>
-                        <lb n="4"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>fabr</abbr><ex>um</ex></expan> <g ref="#interpunct">·</g> bis <g ref="#interpunct">·</g> hic <g ref="#interpunct">·</g> togae <g ref="#interpunct">·</g> vir<supplied reason="lost">ilis die</supplied>
-                        <lb n="5"/>crustulum <g ref="#interpunct">·</g> et <g ref="#interpunct">·</g> mulsum <g ref="#interpunct">·</g> populo <g ref="#interpunct">·</g> <supplied reason="lost">dedit</supplied>
-                        <lb n="6"/>aedilitate <g ref="#interpunct">·</g> spectaculum <g ref="#interpunct">·</g> gladia<supplied reason="lost">torum</supplied>
-                        <lb n="7"/>circensium <g ref="#interpunct">·</g> edidit <g ref="#interpunct">·</g> ob <g ref="#interpunct">·</g> honor<supplied reason="lost">em</supplied> <expan><abbr><supplied reason="lost" cert="low">duovirat</supplied></abbr><ex>us</ex></expan>
-                        <lb n="8"/><expan><abbr>decurionib</abbr><ex>us</ex></expan> <g ref="#interpunct">·</g> magnam <g ref="#interpunct">·</g> cenam <g ref="#interpunct">·</g> d<supplied reason="lost">edit quin</supplied>
-                        <lb n="9" break="no"/>quennalitate <g ref="#interpunct">·</g> sua <g ref="#interpunct">·</g> ludos <g ref="#interpunct">·</g> <expan><abbr>sp<unclear>l</unclear>endid</abbr><ex>os</ex></expan> edidit
-                        <lb n="10"/>huic <g ref="#interpunct">·</g> <expan><abbr>decurion</abbr><ex>es</ex></expan> <g ref="#interpunct">·</g> publice <g ref="#interpunct">·</g> locum <expan><abbr><supplied reason="lost">sepultur</supplied></abbr><ex>ae</ex></expan> <supplied reason="lost">et in</supplied>
-                        <lb n="11"/><expan><abbr>funer</abbr><ex>e</ex></expan> <g ref="#interpunct">·</g> <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertia</ex></expan> <num value="5000">|))</num> et <g ref="#interpunct">·</g> statuam <supplied reason="lost">decreverunt</supplied>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Cornelio</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Men</abbr><ex>enia</ex></expan> <g ref="symbols.xml#interpunct">·</g> <name><seg part="I">M</seg><gap reason="lost" extent="unknown" unit="char"/></name></persName>
+                        <lb n="2"/>flamini <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="roma"><name>Romae</name></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="tiberius"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>C<unclear>a</unclear><supplied reason="lost">es</supplied></abbr><ex>aris</ex></expan></name> <name><expan><abbr><supplied reason="lost">Aug</supplied></abbr><ex>usti</ex></expan></name></persName>
+                        <lb n="3"/>auguri <g ref="symbols.xml#interpunct">·</g> <expan><abbr>aed</abbr><ex>ili</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr><hi rend="supraline">II</hi>vir<g ref="symbols.xml#interpunct">·</g></abbr><ex>o</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>qu<supplied reason="lost">inquenn</supplied></abbr><ex>ali</ex></expan>
+                        <lb n="4"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>fabr</abbr><ex>um</ex></expan> <g ref="symbols.xml#interpunct">·</g> bis <g ref="symbols.xml#interpunct">·</g> hic <g ref="symbols.xml#interpunct">·</g> togae <g ref="symbols.xml#interpunct">·</g> vir<supplied reason="lost">ilis die</supplied>
+                        <lb n="5"/>crustulum <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g> mulsum <g ref="symbols.xml#interpunct">·</g> populo <g ref="symbols.xml#interpunct">·</g> <supplied reason="lost">dedit</supplied>
+                        <lb n="6"/>aedilitate <g ref="symbols.xml#interpunct">·</g> spectaculum <g ref="symbols.xml#interpunct">·</g> gladia<supplied reason="lost">torum</supplied>
+                        <lb n="7"/>circensium <g ref="symbols.xml#interpunct">·</g> edidit <g ref="symbols.xml#interpunct">·</g> ob <g ref="symbols.xml#interpunct">·</g> honor<supplied reason="lost">em</supplied> <expan><abbr><supplied reason="lost" cert="low">duovirat</supplied></abbr><ex>us</ex></expan>
+                        <lb n="8"/><expan><abbr>decurionib</abbr><ex>us</ex></expan> <g ref="symbols.xml#interpunct">·</g> magnam <g ref="symbols.xml#interpunct">·</g> cenam <g ref="symbols.xml#interpunct">·</g> d<supplied reason="lost">edit quin</supplied>
+                        <lb n="9" break="no"/>quennalitate <g ref="symbols.xml#interpunct">·</g> sua <g ref="symbols.xml#interpunct">·</g> ludos <g ref="symbols.xml#interpunct">·</g> <expan><abbr>sp<unclear>l</unclear>endid</abbr><ex>os</ex></expan> edidit
+                        <lb n="10"/>huic <g ref="symbols.xml#interpunct">·</g> <expan><abbr>decurion</abbr><ex>es</ex></expan> <g ref="symbols.xml#interpunct">·</g> publice <g ref="symbols.xml#interpunct">·</g> locum <expan><abbr><supplied reason="lost">sepultur</supplied></abbr><ex>ae</ex></expan> <supplied reason="lost">et in</supplied>
+                        <lb n="11"/><expan><abbr>funer</abbr><ex>e</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertia</ex></expan> <num value="5000">|))</num> et <g ref="symbols.xml#interpunct">·</g> statuam <supplied reason="lost">decreverunt</supplied>
                     </ab>
                 </div>
             </div>
@@ -151,12 +151,12 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/>CIL<citedRange>10.688</citedRange>
+                        <ptr target="CIL"/> <citedRange>10.688</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="hemelrijk2015"/>Hemelrijk 2015<citedRange>287, 346, 552</citedRange>
+                        <ptr target="hemelrijk2015"/>Hemelrijk 2015<citedRange>: 287, 346, 552</citedRange>
                     </bibl>
                 </p>
             </div>

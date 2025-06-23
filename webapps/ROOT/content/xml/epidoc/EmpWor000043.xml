@@ -172,10 +172,10 @@
                 </div>
                 <div type="textpart" subtype="ending">
                     <ab>
-                        <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="#interpunct">·</g> <name>Caecilius</name> <g ref="#interpunct">·</g> <name>Calventius</name> <g ref="#interpunct">·</g> <name>Quadratus</name></persName>
-                        <lb n="2"/>qui <g ref="#interpunct">·</g> ob <g ref="#interpunct">·</g> honore <g ref="#interpunct">·</g> suo <g ref="#interpunct">·</g> et <g ref="#interpunct">·</g> filiorum suor<supplied reason="undefined" evidence="previouseditor">um</supplied>
-                        <lb n="3"/>nomine <g ref="#interpunct">·</g> paimenta <g ref="#interpunct">·</g> domus <g ref="#interpunct">·</g> et <g ref="#interpunct">·</g> c<unclear>e</unclear><supplied reason="undefined" evidence="previouseditor">natio</supplied>
-                        <lb n="4" break="no"/>nis <g ref="#interpunct">·</g> pequnia <g ref="#interpunct">·</g> sua <g ref="#interpunct">·</g> fecit <supplied reason="undefined" evidence="previouseditor">et</supplied> <expan><abbr><supplied reason="undefined" evidence="previouseditor">d</supplied></abbr><ex>onum</ex></expan> <expan><abbr><supplied reason="undefined" evidence="previouseditor">d</supplied></abbr><ex>edit</ex></expan> 
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Caecilius</name> <g ref="symbols.xml#interpunct">·</g> <name>Calventius</name> <g ref="symbols.xml#interpunct">·</g> <name>Quadratus</name></persName>
+                        <lb n="2"/>qui <g ref="symbols.xml#interpunct">·</g> ob <g ref="symbols.xml#interpunct">·</g> honore <g ref="symbols.xml#interpunct">·</g> suo <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g> filiorum suor<supplied reason="undefined" evidence="previouseditor">um</supplied>
+                        <lb n="3"/>nomine <g ref="symbols.xml#interpunct">·</g> paimenta <g ref="symbols.xml#interpunct">·</g> domus <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g> c<unclear>e</unclear><supplied reason="undefined" evidence="previouseditor">natio</supplied>
+                        <lb n="4" break="no"/>nis <g ref="symbols.xml#interpunct">·</g> pequnia <g ref="symbols.xml#interpunct">·</g> sua <g ref="symbols.xml#interpunct">·</g> fecit <supplied reason="undefined" evidence="previouseditor">et</supplied> <expan><abbr><supplied reason="undefined" evidence="previouseditor">d</supplied></abbr><ex>onum</ex></expan> <expan><abbr><supplied reason="undefined" evidence="previouseditor">d</supplied></abbr><ex>edit</ex></expan> 
                     </ab>
                 </div>
             </div>

@@ -129,12 +129,12 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/>CIL<citedRange>10.6483</citedRange>
+                        <ptr target="CIL"/> <citedRange>10.6483</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="ILS"/>ILS<citedRange>3081</citedRange>
+                        <ptr target="ILS"/> <citedRange>3081</citedRange>
                     </bibl>
                 </p>
             </div>

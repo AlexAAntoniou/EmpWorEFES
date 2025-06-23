@@ -107,30 +107,30 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab> <!-- CIL with EDCS photo for interpuncts-->
-                   <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="#interpunct">·</g> <name>Magrio</name> <g ref="#interpunct">·</g> <name>Basso</name></persName> <g ref="#interpunct">·</g> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Ragonio</name>
-                   <lb n="2"/><name>Quintiano</name></persName> <g ref="#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><g ref="#interpunct">·</g><abbr>s</abbr><ex>ulibus</ex></expan> <expan><abbr>k</abbr><ex>alendis</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>Iuni</abbr><ex>i</ex><abbr>s</abbr></expan>
+                   <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Magrio</name> <g ref="symbols.xml#interpunct">·</g> <name>Basso</name></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Ragonio</name>
+                   <lb n="2"/><name>Quintiano</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><g ref="symbols.xml#interpunct">·</g><abbr>s</abbr><ex>ulibus</ex></expan> <expan><abbr>k</abbr><ex>alendis</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Iuni</abbr><ex>i</ex><abbr>s</abbr></expan>
                    <lb n="3"/>Cumis in templo <persName type="divinity">divi Vespa
-                   <lb n="4" break="no"/>siani</persName> <g ref="#interpunct">·</g> in ordine decurionum
-                   <lb n="5"/>quem <persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="#interpunct">·</g> <name>Mallonius</name> <name>Undanus</name></persName>
-                   <lb n="6"/>et <persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name>Claudius</name> <g ref="#interpunct">·</g> <name>Acilianus</name></persName> <expan><abbr>praet</abbr><ex>ores</ex></expan>
+                   <lb n="4" break="no"/>siani</persName> <g ref="symbols.xml#interpunct">·</g> in ordine decurionum
+                   <lb n="5"/>quem <persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Mallonius</name> <name>Undanus</name></persName>
+                   <lb n="6"/>et <persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name>Claudius</name> <g ref="symbols.xml#interpunct">·</g> <name>Acilianus</name></persName> <expan><abbr>praet</abbr><ex>ores</ex></expan>
                    <lb n="7"/>coegerant scribundo sorte
                    <lb n="8"/>ducti adfuerunt <persName type="attested"><name>Caelius</name> <name>Pan
-                   <lb n="9" break="no"/>nychus</name></persName> <persName type="attested"><name>Curtius</name> <name>Votivos</name></persName> <g ref="#interpunct">·</g> <persName type="attested"><name>Considi
-                   <lb n="10" break="no"/>us</name> <g ref="#interpunct">·</g> <name>Felicianus</name></persName> <g ref="#interpunct">·</g> referentibus <expan><abbr>pr</abbr><ex>aetoribus</ex></expan>
-                   <lb n="11"/>de sacerdote faciendo <g ref="#interpunct">·</g> <persName type="divinity"><name>Matris</name>
-                   <lb n="12"/><name>deae</name></persName> Baianae in locum <g ref="#interpunct">·</g> <persName type="attested"><name>Restituti</name></persName>
-                   <lb n="13"/>sacerdotis defuncti <g ref="#interpunct">·</g> placuit uni
-                   <lb n="14" break="no"/>versis <g ref="#interpunct">·</g> <persName type="attested"><name>Licinium</name> <name>Secundum</name></persName>
+                   <lb n="9" break="no"/>nychus</name></persName> <persName type="attested"><name>Curtius</name> <name>Votivos</name></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>Considi
+                   <lb n="10" break="no"/>us</name> <g ref="symbols.xml#interpunct">·</g> <name>Felicianus</name></persName> <g ref="symbols.xml#interpunct">·</g> referentibus <expan><abbr>pr</abbr><ex>aetoribus</ex></expan>
+                   <lb n="11"/>de sacerdote faciendo <g ref="symbols.xml#interpunct">·</g> <persName type="divinity"><name>Matris</name>
+                   <lb n="12"/><name>deae</name></persName> Baianae in locum <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>Restituti</name></persName>
+                   <lb n="13"/>sacerdotis defuncti <g ref="symbols.xml#interpunct">·</g> placuit uni
+                   <lb n="14" break="no"/>versis <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>Licinium</name> <name>Secundum</name></persName>
                    <lb n="15"/>sacerdotem fieri
-                   <lb n="16"/><expan><abbr>XV</abbr><ex>viris</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>sacr</abbr><ex>is</ex></expan> <expan><abbr>fac</abbr><ex>iundis</ex></expan> <expan><abbr>pr</abbr><ex>aetoribus</ex></expan>
-                   <lb n="17"/>et magistratibus <expan><abbr>Cuman</abbr><ex>is</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>sal</abbr><ex>utem</ex></expan>
-                   <lb n="18"/>cum <g ref="#interpunct">·</g> ex epistula vestra cognove
+                   <lb n="16"/><expan><abbr>XV</abbr><ex>viris</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>sacr</abbr><ex>is</ex></expan> <expan><abbr>fac</abbr><ex>iundis</ex></expan> <expan><abbr>pr</abbr><ex>aetoribus</ex></expan>
+                   <lb n="17"/>et magistratibus <expan><abbr>Cuman</abbr><ex>is</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>sal</abbr><ex>utem</ex></expan>
+                   <lb n="18"/>cum <g ref="symbols.xml#interpunct">·</g> ex epistula vestra cognove
                    <lb n="19" break="no"/>rimus creasse vos sacerdotem
-                   <lb n="20"/><persName type="divinity"><name>Matris</name> <name>deum</name></persName> <g ref="#interpunct">·</g> <persName type="attested"><name>Licinium</name> <g ref="#interpunct">·</g> <name>Secundum</name></persName>
-                   <lb n="21"/>in locum <g ref="#interpunct">·</g> <persName type="attested"><name>Claudi</name> <g ref="#interpunct">·</g> <name>Restituti</name></persName> <g ref="#interpunct">·</g> defunc
-                   <lb n="22" break="no"/>cui <g ref="#interpunct">·</g> secundum <g ref="#interpunct">·</g> voluntatem <expan><abbr>vestra</abbr><ex>m</ex></expan>
-                   <lb n="23"/>permisimus <g ref="#interpunct">·</g> ei <g ref="#interpunct">·</g> occavo <g ref="#interpunct">·</g> et
-                   <lb n="24"/>corona dum <g ref="#interpunct">·</g> taxat intra <g ref="#interpunct">·</g>
+                   <lb n="20"/><persName type="divinity"><name>Matris</name> <name>deum</name></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>Licinium</name> <g ref="symbols.xml#interpunct">·</g> <name>Secundum</name></persName>
+                   <lb n="21"/>in locum <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>Claudi</name> <g ref="symbols.xml#interpunct">·</g> <name>Restituti</name></persName> <g ref="symbols.xml#interpunct">·</g> defunc
+                   <lb n="22" break="no"/>cui <g ref="symbols.xml#interpunct">·</g> secundum <g ref="symbols.xml#interpunct">·</g> voluntatem <expan><abbr>vestra</abbr><ex>m</ex></expan>
+                   <lb n="23"/>permisimus <g ref="symbols.xml#interpunct">·</g> ei <g ref="symbols.xml#interpunct">·</g> occavo <g ref="symbols.xml#interpunct">·</g> et
+                   <lb n="24"/>corona dum <g ref="symbols.xml#interpunct">·</g> taxat intra <g ref="symbols.xml#interpunct">·</g>
                    <lb n="25"/>fines coloniae vestrae uti
                    <lb n="26"/>optamus vos bene valere
                    <lb n="27"/><persName type="attested"><name>Pontius</name> <name>Gavius</name> <name>Maximus</name></persName>

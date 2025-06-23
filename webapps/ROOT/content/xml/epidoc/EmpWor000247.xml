@@ -114,7 +114,7 @@
                     <lb n="1"/>pro salute
                     <lb n="2"/><persName type="ruler" key="antoninus-pius"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name> <name>Caesaris</name> <name>Titi</name> <name>Aelii</name>
                     <lb n="3"/><name>Hadriani</name> <name>Antonini</name> <expan><abbr>Aug</abbr><ex>usti</ex></expan> Pii </persName> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et
-                    <lb n="4" break="no"/><persName type="ruler" key="marcus-aurelius"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="#interpunct">·</g> <name>Alli</name> <g ref="#interpunct">·</g> <name>Aureli</name> <g ref="#interpunct">·</g> <name>Caesaris</name></persName> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ostri</ex></expan>
+                    <lb n="4" break="no"/><persName type="ruler" key="marcus-aurelius"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Alli</name> <g ref="symbols.xml#interpunct">·</g> <name>Aureli</name> <g ref="symbols.xml#interpunct">·</g> <name>Caesaris</name></persName> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ostri</ex></expan>
                     <lb n="5"/><persName type="divine" key="geniuscoloniae"><name>genio</name> <name>coloniae</name></persName> Puteolanorum
                     <lb n="6"/><persName type="attested"><name>Chrysanthus</name></persName> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>disp</abbr><ex>ensator</ex></expan> a fruminto
                     <lb n="7"/>Puteolis et Ostis
@@ -135,12 +135,12 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/>CIL<citedRange>10.1562</citedRange>
+                        <ptr target="CIL"/> <citedRange>10.1562</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="ILS"/>ILS<citedRange>344</citedRange>
+                        <ptr target="ILS"/> <citedRange>344</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -111,7 +111,7 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
                     <lb n="1"/>pro salute et reditu <persName type="ruler"><name>Caesaris</name> <name>A<supplied reason="lost">ugusti</supplied></name></persName>
-                    <lb n="2"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>Varenus</name> <expan><abbr><am><g ref="#mulieris">Ↄ</g></am></abbr><ex>mulieris</ex></expan> </persName> et <persName type="attested"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name>Lartidi</name> <expan><abbr>l</abbr><ex>ibertus</ex></expan> <name>Diphilus</name></persName> <expan><abbr>mag</abbr><ex>ister</ex></expan> <expan><abbr>He<unclear>r</unclear><supplied reason="lost">c</supplied></abbr><ex>ulaneus</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>f</abbr><ex>aciundum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan></supplied>
+                    <lb n="2"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>Varenus</name> <expan><abbr><am><g ref="symbols.xml#mulieris">Ↄ</g></am></abbr><ex>mulieris</ex></expan> </persName> et <persName type="attested"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name>Lartidi</name> <expan><abbr>l</abbr><ex>ibertus</ex></expan> <name>Diphilus</name></persName> <expan><abbr>mag</abbr><ex>ister</ex></expan> <expan><abbr>He<unclear>r</unclear><supplied reason="lost">c</supplied></abbr><ex>ulaneus</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>f</abbr><ex>aciundum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan></supplied>
                 </ab>
             </div>
             <div type="apparatus">
@@ -128,17 +128,17 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/>AE<citedRange>1922.78</citedRange>
+                        <ptr target="AE"/><citedRange>, 1922.78</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="Koortbojian2013"/>Koortbojian 2013<citedRange>163–164</citedRange>
+                        <ptr target="Koortbojian2013"/><citedRange>, 163–164</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="Caporossi2012"/>Caporossi 2012<citedRange>88–91</citedRange>
+                        <ptr target="Caporossi2012"/><citedRange>, 88–91</citedRange>
                     </bibl>
                 </p>
             </div>

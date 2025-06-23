@@ -111,12 +111,12 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>voto <g ref="#interpunct">·</g> suscepto <g ref="#interpunct">·</g> pr<supplied reason="undefined" evidence="previouseditor">o</supplied>
-                    <lb n="2"/>salute <g ref="#interpunct">·</g> perpetua <g ref="#interpunct">·</g> domus
-                    <lb n="3"/><expan><abbr>August</abbr><ex>ae</ex></expan> <g ref="#interpunct">·</g> cum <g ref="#interpunct">·</g> edidisset
-                    <lb n="4"/>munus <g ref="#interpunct">·</g> gladiatorium
-                    <lb n="5"/>populus in statuam <g ref="#interpunct">·</g> <expan><abbr>cont</abbr><ex>ulit</ex></expan>
-                    <lb n="6"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <g ref="#interpunct">·</g> <name>Vibio</name> <g ref="#interpunct">·</g> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <g ref="#interpunct">·</g> <name>Caesi</name> <g ref="#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <g ref="#interpunct">·</g> <expan><abbr>Ter</abbr><ex>etina</ex></expan>
+                    <lb n="1"/>voto <g ref="symbols.xml#interpunct">·</g> suscepto <g ref="symbols.xml#interpunct">·</g> pr<supplied reason="undefined" evidence="previouseditor">o</supplied>
+                    <lb n="2"/>salute <g ref="symbols.xml#interpunct">·</g> perpetua <g ref="symbols.xml#interpunct">·</g> domus
+                    <lb n="3"/><expan><abbr>August</abbr><ex>ae</ex></expan> <g ref="symbols.xml#interpunct">·</g> cum <g ref="symbols.xml#interpunct">·</g> edidisset
+                    <lb n="4"/>munus <g ref="symbols.xml#interpunct">·</g> gladiatorium
+                    <lb n="5"/>populus in statuam <g ref="symbols.xml#interpunct">·</g> <expan><abbr>cont</abbr><ex>ulit</ex></expan>
+                    <lb n="6"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Vibio</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Caesi</name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Ter</abbr><ex>etina</ex></expan>
                     <lb n="7"/><name>Rustico</name></persName>
                     <lb n="8"/><expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan> <expan><abbr>q</abbr><ex>uaestori</ex></expan>
                 </ab>
@@ -135,12 +135,12 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/>CIL<citedRange>10.4893</citedRange>
+                        <ptr target="CIL"/><citedRange>10.4893</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="Venafrum"/>Venafrum<citedRange>61</citedRange>
+                        <ptr target="Venafrum"/><citedRange>61</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -110,7 +110,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="divine" key="augustus"><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> <g ref="#interpunct">·</g> <expan><abbr>sacr</abbr><ex>um</ex></expan>
+                    <lb n="1"/><persName type="divine" key="augustus"><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>sacr</abbr><ex>um</ex></expan>
                     <lb n="2"/><persName type="attested"><name>Centuria</name>
                     <lb n="3"/><name>Petronia</name></persName>
                 </ab>
@@ -129,12 +129,12 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/>CIL<citedRange>10.8178</citedRange>
+                        <ptr target="CIL"/> <citedRange>10.8178</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="ILS"/>ILS<citedRange>6321</citedRange>
+                        <ptr target="ILS"/> <citedRange>6321</citedRange>
                     </bibl>
                 </p>
             </div>

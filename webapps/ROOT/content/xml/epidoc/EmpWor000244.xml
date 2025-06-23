@@ -132,12 +132,12 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/>AE<citedRange>1956.144</citedRange>
+                        <ptr target="AE"/> <citedRange>1956.144</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="AE"/>AE<citedRange>1985.278</citedRange>
+                        <ptr target="AE"/> <citedRange>1985.278</citedRange>
                     </bibl>
                 </p>
             </div>

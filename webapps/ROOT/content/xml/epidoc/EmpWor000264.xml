@@ -132,12 +132,12 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/>CIL<citedRange>10.6309</citedRange>
+                        <ptr target="CIL"/> <citedRange>10.6309</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="Hemelrijk2015"/>Hemelrijk 2015<citedRange>119, 454</citedRange>
+                        <ptr target="Hemelrijk2015"/>Hemelrijk 2015<citedRange>: 119, 454</citedRange>
                     </bibl>
                 </p>
                 <p>
@@ -147,12 +147,12 @@
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="Cogitore2000"/>Cogitore 2000<citedRange>248</citedRange>
+                        <ptr target="Cogitore2000"/>Cogitore 2000<citedRange>: 248</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="Lanzi1782"/>Lanzi 1782<citedRange>83</citedRange>
+                        <ptr target="Lanzi1782"/>Lanzi 1782<citedRange>: 83</citedRange>
                     </bibl>
                 </p>
             </div>

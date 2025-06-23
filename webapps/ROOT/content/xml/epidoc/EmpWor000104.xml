@@ -108,7 +108,7 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                  <ab><!-- Only basic encoding -->
                      <lb n="1"/>Imperio
-                     <lb n="2"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <g ref="#interpunct">·</g> <name>Ostiensis</name>
+                     <lb n="2"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Ostiensis</name>
                      <lb n="3"/><name>Felix</name></persName>
                      <lb n="4"/>aedituus
                      <lb n="5"/>aedis <persName type="divinity"><name>Romae</name></persName> et <persName type="divinity"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>

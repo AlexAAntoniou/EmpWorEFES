@@ -107,8 +107,8 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab> 
-                    <lb n="1"/><persName type="divine"><name>Augusto</name></persName> <g ref="#interpunct">·</g> <unclear>s</unclear><supplied reason="lost">acrum</supplied>
-                    <lb n="2"/><persName type="attested"><name>Irenio</name> <g ref="#interpunct">·</g> <name>Cornelia<supplied reason="undefined" evidence="previouseditor">e</supplied></name></persName> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="1"/><persName type="divine"><name>Augusto</name></persName> <g ref="symbols.xml#interpunct">·</g> <unclear>s</unclear><supplied reason="lost">acrum</supplied>
+                    <lb n="2"/><persName type="attested"><name>Irenio</name> <g ref="symbols.xml#interpunct">·</g> <name>Cornelia<supplied reason="undefined" evidence="previouseditor">e</supplied></name></persName> <gap reason="lost" extent="unknown" unit="char"/>
                 </ab>
             </div>
             <div type="apparatus">
@@ -125,7 +125,7 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/>CIL<citedRange>10.862</citedRange>
+                        <ptr target="CIL"/><citedRange>10.862</citedRange>
                     </bibl>
                 </p>
             </div>

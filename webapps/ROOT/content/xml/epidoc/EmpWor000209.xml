@@ -109,8 +109,8 @@
                 <ab> 
                     <lb n="1"/><persName type="attested"><supplied reason="lost"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Holconio</name> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied>
                     <lb n="2"/><name><unclear>C</unclear>eler<supplied reason="lost">i</supplied></name></persName>
-                    <lb n="3"/>sacerdoti <g ref="#interpunct">·</g> <persName type="divine" key="divusAugustus"><name>div<supplied reason="lost">i</supplied></name> <name><supplied reason="lost">Augusti</supplied></name></persName>
-                    <lb n="4"/><expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>i</abbr><ex>ure</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>icundo</ex></expan> <g ref="#interpunct">·</g> quinq<supplied reason="lost">uennali</supplied>
+                    <lb n="3"/>sacerdoti <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="divusAugustus"><name>div<supplied reason="lost">i</supplied></name> <name><supplied reason="lost">Augusti</supplied></name></persName>
+                    <lb n="4"/><expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>i</abbr><ex>ure</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>icundo</ex></expan> <g ref="symbols.xml#interpunct">·</g> quinq<supplied reason="lost">uennali</supplied>
                 </ab>
             </div>
             <div type="apparatus">

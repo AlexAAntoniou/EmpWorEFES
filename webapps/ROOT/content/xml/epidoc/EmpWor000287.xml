@@ -129,7 +129,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>To Sextus Pulfennius Salutaris Marcus Luccius Valerius Severus, son of Gaius, prefect of the 4th cavalry cohort of Gauls, military tribune of the 1st milliary cohort of Vindelicus, prefect of the 1st cavalary unit of Pannonia, curator of the account books of the colony of Suessa, curator of the temple and chest of the gens Vitrasia from Cales, flamen of the divine Trajan, duovir, quaestor for the third time, patron of the colony.</p>
+                <p>To Sextus Pulfennius Salutaris Marcus Luccius Valerius Severus, son of Gaius, prefect of the 4th cavalry cohort of Gauls, military tribune of the 1st milliary cohort of Vindelicus, prefect of the 1st cavalry unit of Pannonia, curator of the account books of the colony of Suessa, curator of the temple and chest of the gens Vitrasia from Cales, flamen of the divine Trajan, duovir, quaestor for the third time, patron of the colony.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -137,12 +137,12 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/>CIL<citedRange>10.4873</citedRange>
+                        <ptr target="CIL"/><citedRange>10.4873</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="Venafrum"/>Venafrum<citedRange>36</citedRange>
+                        <ptr target="Venafrum"/><citedRange>36</citedRange>
                     </bibl>
                 </p>
             </div>

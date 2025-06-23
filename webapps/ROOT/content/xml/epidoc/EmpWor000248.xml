@@ -112,13 +112,13 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
                     <lb n="1"/>pro felicitate dominorum
-                    <lb n="2"/>Augustorumque <g ref="#ivy-leaf">❦</g>
-                    <lb n="3"/><g ref="#ivy-leaf">❦</g> nostrorum <!-- palma -->
+                    <lb n="2"/>Augustorumque <g ref="symbols.xml#ivy-leaf">❦</g>
+                    <lb n="3"/><g ref="symbols.xml#ivy-leaf">❦</g> nostrorum <!-- palma -->
                     <lb n="4"/>ripam a parte sinisstra macelli
                     <lb n="5"/>iactis molibus propter incursione
                     <lb n="6"/>ingruentium procellarum
                     <lb n="7"/><persName type="attested"><name>Valerius</name> <name>Hermonius</name> <name>Maximus</name></persName> <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan>
-                    <lb n="8"/><expan><abbr>cons</abbr><ex>ularis</ex></expan> <expan><abbr>Camp</abbr><ex>aniae</ex></expan> incoavit adque perfecit <g ref="#ivy-leaf">❦</g>
+                    <lb n="8"/><expan><abbr>cons</abbr><ex>ularis</ex></expan> <expan><abbr>Camp</abbr><ex>aniae</ex></expan> incoavit adque perfecit <g ref="symbols.xml#ivy-leaf">❦</g>
                 </ab>
             </div>
             <div type="apparatus">
@@ -135,12 +135,12 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/>CIL<citedRange>10.1690</citedRange>
+                        <ptr target="CIL"/> <citedRange>10.1690</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="ILS"/>ILS<citedRange>5895</citedRange>
+                        <ptr target="ILS"/> <citedRange>5895</citedRange>
                     </bibl>
                 </p>
             </div>

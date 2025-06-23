@@ -107,13 +107,13 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab> 
-                    <lb n="1"/><persName type="attested"><name>Tauro</name> <g ref="#interpunct">·</g> <name>Statilio</name></persName>
-                    <lb n="2"/><persName type="attested"><name><expan><abbr>Ti</abbr><ex>berio</ex></expan></name> <g ref="#interpunct">·</g> <name>Platilio</name> <g ref="#interpunct">·</g> <name><expan><abbr>Aelian</abbr><ex>o</ex></expan></name></persName> <g ref="#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
-                    <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="#interpunct">·</g> <name>Statius</name> <g ref="#interpunct">·</g> <name>Faustus</name></persName> <g ref="#interpunct">·</g> pro
-                    <lb n="4"/>signo <g ref="#interpunct">·</g> quod <g ref="#interpunct">·</g> e lege <g ref="#interpunct">·</g> <persName type="divine" key="fortunaAugusta"><name>Fortunae</name>
-                    <lb n="5"/><name>Augustae</name></persName> ministorum <g ref="#interpunct">·</g> ponere
-                    <lb n="6"/>debebat <g ref="#interpunct">·</g> referente <g ref="#interpunct">·</g> <persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name>Pompeio</name> <g ref="#interpunct">·</g> <name>Amethysto</name></persName>
-                    <lb n="7"/>quaestore <g ref="#interpunct">·</g> basis <g ref="#interpunct">·</g> duas <g ref="#interpunct">·</g> marmorias <g ref="#interpunct">·</g> decrever<supplied reason="lost">u</supplied><unclear>n</unclear>t
+                    <lb n="1"/><persName type="attested"><name>Tauro</name> <g ref="symbols.xml#interpunct">·</g> <name>Statilio</name></persName>
+                    <lb n="2"/><persName type="attested"><name><expan><abbr>Ti</abbr><ex>berio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Platilio</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aelian</abbr><ex>o</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Statius</name> <g ref="symbols.xml#interpunct">·</g> <name>Faustus</name></persName> <g ref="symbols.xml#interpunct">·</g> pro
+                    <lb n="4"/>signo <g ref="symbols.xml#interpunct">·</g> quod <g ref="symbols.xml#interpunct">·</g> e lege <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="fortunaAugusta"><name>Fortunae</name>
+                    <lb n="5"/><name>Augustae</name></persName> ministorum <g ref="symbols.xml#interpunct">·</g> ponere
+                    <lb n="6"/>debebat <g ref="symbols.xml#interpunct">·</g> referente <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name>Pompeio</name> <g ref="symbols.xml#interpunct">·</g> <name>Amethysto</name></persName>
+                    <lb n="7"/>quaestore <g ref="symbols.xml#interpunct">·</g> basis <g ref="symbols.xml#interpunct">·</g> duas <g ref="symbols.xml#interpunct">·</g> marmorias <g ref="symbols.xml#interpunct">·</g> decrever<supplied reason="lost">u</supplied><unclear>n</unclear>t
                     <lb n="8"/>pro signo poniret
                 </ab>
             </div>
