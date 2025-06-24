@@ -128,7 +128,7 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="SIRIS"/>SIRIS<citedRange>486</citedRange>
+                        <ptr target="SIRIS"/> <citedRange>486</citedRange>
                     </bibl>
                 </p>
             </div>

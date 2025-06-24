@@ -17,8 +17,6 @@
             <publicationStmt>
                 <authority>EmpWor</authority>
                 <idno type="filename">EmpWor000243</idno>
-                <idno type="EDCS">EDCS 11500508</idno>
-                <idno type="EDR">EDR158574</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
@@ -143,6 +141,16 @@
                 <p>
                     <bibl>
                         <ptr target="ILS"/> <citedRange>ILS 226</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11500508</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>158574</citedRange>
                     </bibl>
                 </p>
             </div>

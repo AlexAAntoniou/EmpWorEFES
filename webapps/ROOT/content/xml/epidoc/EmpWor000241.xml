@@ -25,8 +25,8 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Puteoli</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Naples, Museo Archaeologico Nazionale</repository> 
+                        <idno>4144</idno> <!--depositi -->
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,16 +34,16 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Large marble plaque with significant sections missing at top left and right. Inscribed area is given chiselled border.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">42</height>
+                                        <width unit="cm">67</width>
+                                        <depth unit="cm">6</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragment"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -53,9 +53,11 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Letters are relatively straight and uniform, and all letters display serifs. Long ornate curls to the "Q"s throughout. Slightly longer first "I" in divi in line 4.</p>
+                                <locus from="line1" to="line7">Lines 1–7</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">45–65</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">First recorded in the Museo Archeologico of Naples, at the beginning of the 19th century.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -109,28 +111,38 @@
                 <ab>
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="char"/><gap reason="illegible" quantity="1" unit="char"/><gap reason="lost" extent="unknown" unit="char"/>
                     <lb n="2"/><gap reason="lost" extent="unknown" unit="char"/> <persName type="attested"><name><supplied reason="lost" cert="low">Pet</supplied><unclear>r</unclear>onio</name> <persName type="patronym"><name><expan><abbr>S<supplied reason="lost">ex</supplied></abbr><ex>ti</ex></expan></name> <expan><abbr><supplied reason="lost">f</supplied></abbr><ex>ilio</ex></expan></persName>
-                    <lb n="3"/><expan><abbr>Fal</abbr><ex>erna</ex></expan> <name>Musculo</name></persName> ponti<supplied reason="lost">fici</supplied>
-                    <lb n="4"/><expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divine" key="divusAugustus"><name>divi</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>praef</abbr><ex>ecto</ex></expan>
-                    <lb n="5"/><expan><abbr>fabr</abbr><ex>um</ex></expan> <expan><abbr>quaest</abbr><ex>ori</ex></expan> <expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan> bis <expan><abbr>tert</abbr><ex>ium</ex></expan>
-                    <lb n="6"/><expan><abbr>quinq</abbr><ex>uennali</ex></expan> <expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> Bruttia viro
-                    <lb n="7"/>suo et patri eius de suo
+                    <lb n="3"/><expan><abbr>Fal</abbr><ex>erna</ex></expan> <g ref="symbols.xml#interpunct">·</g> <name>Musculo</name></persName> <g ref="symbols.xml#interpunct">·</g> ponti<supplied reason="lost">fici</supplied>
+                    <lb n="4"/><expan><abbr>flam</abbr><ex>ini</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="divusAugustus"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>praef</abbr><ex>ecto</ex></expan>
+                    <lb n="5"/><expan><abbr>fabr</abbr><ex>um</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>quaest</abbr><ex>ori</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan> <g ref="symbols.xml#interpunct">·</g> bis <g ref="symbols.xml#interpunct">·</g> <expan><abbr>tert</abbr><ex>ium</ex></expan>
+                    <lb n="6"/><expan><abbr>quinq</abbr><ex>uennali</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>l</abbr><ex>ocus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>atus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>Bruttia</name></persName> <g ref="symbols.xml#interpunct">·</g> viro
+                    <lb n="7"/>suo <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g> patri <g ref="symbols.xml#interpunct">·</g> eius <g ref="symbols.xml#interpunct">·</g> de <g ref="symbols.xml#interpunct">·</g> suo
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app>
+                    <app><note>Text from EDR with comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p> To [---]? [Pet]ronius Musculus, son of Sextus, of the Falernian tribe, flamen of the divine Augustus, prefect of engineers, quaestor, duovir twice and on the third occasion quinquennial duovir. This place was decreed by the decree of the decurions. Bruttia gave [this] to her husband and to her father from her own resources.</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>As the editors of EDR remark; while the tribe and name support identification with Puteoli, it cannot be excluded that this inscription was dedicated in Capua or Nola.</p> 
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.1806</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11500741</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>169648</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -154,12 +154,12 @@
             <div type="bibliography">
                    <p>
                     <bibl>
-                        <ptr target="CIL"/><citedRange>10.3698</citedRange>
+                        <ptr target="CIL"/> <citedRange>10.3698</citedRange>
                     </bibl>
                 </p>
                    <p>
                     <bibl>
-                        <ptr target="CCCA"/><citedRange>4.7</citedRange>
+                        <ptr target="CCCA"/> <citedRange>4.7</citedRange>
                     </bibl>
                 </p>
             </div>

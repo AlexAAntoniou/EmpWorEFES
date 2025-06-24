@@ -153,7 +153,10 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    [Column A]: [---]lius, [---] Accius [---]us, [Ge]rmanicus Caesar, Cassius VA[---], Punicus Lig(ustius?) duovir, Manilei Post(umius?) aediles, Aulius Min(uci?)us quinquennial, Marius aedile, [---] Truttidius [---], Caius Caecilius [---], Petronius Rufus duovir, [---] Instacilius aedile, [---]orius duovir, [---]ius aedile, [---] Cincius [---]
+                    [Columm B]: Marcus Atellius quaestor, Caeius Raecius duovir, Caius Velius aedile, Marcus Valerius quaestor, Drusus Crusus quinquennial, Marcus Cominius Bassus quinquennial, by order of the senate, Marcus Petronius Rufus prefect, Caius Dindius and Cnaeus Egnatius aediles, Caius Iuc[---] Rufus and Caius Thorenas quaestors, Cnaeus Pom[---]us flamen of [the divine] Augustus, duovir, cur[---] [cen?]sura?. Marcus Raecius Cordus quaestor, Lucius Petisius Potens, Caius Salvius,  Caius Dindius, Titus R[---], Lucius Aiacius, Arrius C(---?) C(---?) F(---). 
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -162,6 +165,16 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.2964</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05800947</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>166635</citedRange>
                     </bibl>
                 </p>
             </div>

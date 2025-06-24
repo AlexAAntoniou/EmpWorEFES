@@ -157,12 +157,12 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="IG"/>IG<citedRange>II(2).3169/70</citedRange>
+                        <ptr target="IG"/> <citedRange>II(2).3169/70</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="PHI"/>PHI<citedRange><ref target="https://epigraphy.packhum.org/text/5433">5433</ref></citedRange>
+                        <ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/5433">5433</ref></citedRange>
                     </bibl>
                 </p>
             </div>

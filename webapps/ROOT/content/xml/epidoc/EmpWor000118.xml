@@ -139,7 +139,7 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/><citedRange>11.1447a</citedRange>
+                        <ptr target="CIL"/> <citedRange>11.1447a</citedRange>
                     </bibl>
                 </p>
             </div>

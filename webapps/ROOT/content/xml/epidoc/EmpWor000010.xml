@@ -138,17 +138,17 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/><citedRange>10.5393</citedRange>
+                        <ptr target="CIL"/> <citedRange>10.5393</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="FS"/><citedRange>1440</citedRange>
+                        <ptr target="FS"/> <citedRange>1440</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="Nichols1978"/><citedRange>430</citedRange>
+                        <ptr target="Nichols1978"/> <citedRange>430</citedRange>
                     </bibl>
                 </p>
             </div>

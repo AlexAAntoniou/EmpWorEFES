@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Praeneste</settlement>
-                        <repository></repository> 
+                        <repository>Palestrina, Museo Archeologico Nazionale</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -35,12 +35,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/66.html">Limestone</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">109</height>
+                                        <width unit="cm">60</width>
+                                        <depth unit="cm">64</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -66,9 +66,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3171606/palestrina.html">Palestrina</placeName>
                                 <geo>41.8394835, 12.8923075</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0243" evidence="consuls">Dedicated in 243 CE, on the basis of the consular date.</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered along the road that passes north of the so-called 'Macellum', in re-use</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -135,7 +135,10 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    [Front face]: To Lucius Arellius Petronius Karus, son of Lucius, of the Fabian tribe, the most splendid Roman equestrian, flamen of the divine Augustus, duovir, aedile, quaestor of the colony, most dignified patron of the worshippers of Jupiter Arkanus, in the region of the market. This place was given by decree of the decurions.
+                    [Right face]: Dedicated on the 5th day before the Ides of April, when Arrianus and Papus were consuls, by the care of Tiberius Claudius Victor, sexvir Augustalis.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -143,7 +146,17 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/>AE<citedRange>1998.286</citedRange>
+                        <ptr target="AE"/> <citedRange>1998.286</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>10400062</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>160909</citedRange>
                     </bibl>
                 </p>
             </div>

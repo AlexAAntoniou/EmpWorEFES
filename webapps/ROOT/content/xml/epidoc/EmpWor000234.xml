@@ -25,8 +25,8 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Praeneste</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Palestrina, Museo Archeologico Nazionale</repository> 
+                        <idno>23535</idno> <!-- sala III -->
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,13 +34,13 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Tall rectangular statue base.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">139</height>
+                                        <width unit="cm">85</width>
+                                        <depth unit="cm">74</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -53,9 +53,11 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Text is clear and relatively regular, although text is crowded into small space of stone with little room on either side within border.</p>
+                                <locus from="line1" to="line16">Lines 1–16</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">20–70</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -131,15 +133,30 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Gnaeus Voesius Aper, son of Gnaeus, quaestor, aedile, duovir, flamen of the divine Augustus, sevir Augustalis, curator of the grain-supply for a continuous three-year period, curator of public gladiatorial games three times; because at the time of his offices and his responsibilities he devoted himself to very many things for the delight and use of the people as a result of his most abundant zeal for munificence, and because he also provided a gladiatorial show and spoliarum publicly constructed at his own expense once he had purchased the ground; in recognition of his mertis, at the people's demand, by decree of the decurions it was decided that a statue [of him] be set up publicly.</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>Presumably the same Gnaeus Voesius Aper is mentioned in CIL 6.31917.</p> 
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.3014</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>6252</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05800998</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>119741</citedRange>
                     </bibl>
                 </p>
             </div>

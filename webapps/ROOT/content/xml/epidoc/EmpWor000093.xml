@@ -127,12 +127,12 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="I-Napoli"/>I-Napoli<citedRange>II.115</citedRange>
+                        <ptr target="I-Napoli"/> <citedRange>II.115</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="PHI"/>PHI<citedRange>PHI<ref target="https://epigraphy.packhum.org/text/177730">177730</ref></citedRange>
+                        <ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/177730">177730</ref></citedRange>
                     </bibl>
                 </p>
             </div>

@@ -130,12 +130,12 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/><citedRange>1913.219</citedRange>
+                        <ptr target="AE"/> <citedRange>1913.219</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="NSA"/><citedRange>1913.52 (Mancini)</citedRange>
+                        <ptr target="NSA"/> <citedRange>1913.52 (Mancini)</citedRange>
                     </bibl>
                 </p>
             </div>

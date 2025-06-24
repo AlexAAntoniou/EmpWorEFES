@@ -123,7 +123,7 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/><citedRange>10.6766</citedRange>
+                        <ptr target="CIL"/> <citedRange>10.6766</citedRange>
                     </bibl>
                 </p>
             </div>

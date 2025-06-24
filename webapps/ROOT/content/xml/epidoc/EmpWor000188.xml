@@ -126,7 +126,7 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="NSA"/>NSA<citedRange>1953.243</citedRange>
+                        <ptr target="NSA"/> <citedRange>1953.243</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -25,8 +25,8 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Praeneste</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Palestrina, Museo Archeologico Nazionale</repository> 
+                        <idno>23554</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,13 +34,13 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Ornate marble altar, with carved relied of bucrania and garlands across all four faces. The altar has taken damage, but is relatively complete on all four sides. This is an opisthograph altar, with the same inscription repeated (with minor variations) on the front and back.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">102</height>
+                                        <width unit="cm">76</width>
+                                        <depth unit="cm">68</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line4">Lines 1–4</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">25–45</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered between the Petruccini vineyards, then Galeassi (between via degli Arcioni and stradone S. Rocco) and Terzoli, then Scavalli (contrada Madonna dell'Aquila). Discovered with <ptr target="EmpWor000239.xml"/>EmpWor000239</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -116,7 +118,7 @@
                 </div>
                 <div type="textpart" subtype="face" n="back">
                     <ab>
-                        <lb n="1"/><persName type="divine" key="securitasAugusta"><name><expan><abbr>Securit</abbr><ex>ati</ex></expan></name> <name><expan><abbr>August</abbr><ex>ae</ex></expan></name></persName>
+                       <lb n="1"/><persName type="divine" key="securitasAugusta"><name><expan><abbr>Securit</abbr><ex>ati</ex></expan></name> <name><expan><abbr>August</abbr><ex>ae</ex></expan></name></persName>
                        <lb n="2"/>sacrum
                        <lb n="3"/><expan><abbr>decurion</abbr><ex>es</ex></expan> populusque 
                        <lb n="4"/>coloniae <expan><abbr>Praenestin</abbr><ex>ae</ex></expan>
@@ -129,7 +131,10 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    [Face A]: Sacred to Securitas Augusta. The decuriones and people of the colony of Praeneste [dedicated this].
+                    [Face B]: Sacred to Securitas Augusta. The decuriones and people of the colony of Praeneste [dedicated this].
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -138,6 +143,16 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.2899</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05800881</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>119111</citedRange>
                     </bibl>
                 </p>
             </div>

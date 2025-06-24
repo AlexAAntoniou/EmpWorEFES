@@ -25,8 +25,8 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Praeneste</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Palestrina, Museo Archeologico Nazionale</repository> 
+                        <idno>23555</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,13 +34,13 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Large rectangular altar, carved with relief of garland and cornucopiae on front and side faces. In the centre of the garland on the front face is the bust of a man (Augustus?). The altar is significantly damanged on the top, and top right.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">121</height>
+                                        <width unit="cm">91</width>
+                                        <depth unit="cm">79</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -66,9 +66,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3171606/palestrina.html">Palestrina</placeName>
                                 <geo>41.8394835, 12.8923075</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate/> <!-- Dated on the basis of the bust of Augustus to 21-22 CE? -->
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered inside the macellum of Praeneste.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -116,7 +116,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to the divine Augustus.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -125,6 +125,16 @@
                 <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>2019.334</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>62201606</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>160986</citedRange>
                     </bibl>
                 </p>
             </div>

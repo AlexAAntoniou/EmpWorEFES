@@ -174,11 +174,11 @@
                 </ab>
             </div>
             <div type="apparatus">
-                <listApp><app><note>Text of IvO</note></app></listApp>
-                <listApp><app><note>Crowther ZPE 1989, 100–102, in SEG 37: 356[4] proposes a different reading for lines 10–15</note></app></listApp>
-                <listApp><app><note>Piejko AJPh 108 (1987) 724–725 n.36 in SEG 37:356[2] proposes a different reading for line 46</note></app></listApp>
-                <listApp><app><note>Frisch ZPE 75 (1988) 181 in SEG 37:356[3] proposes a different reading for lines 10–12</note></app></listApp>
-                <listApp><app><note>Merkelbach ZPE 15 (1974) 192-193 in SEG 37:356[1] proposes a different reading for lines 1–3</note></app></listApp>
+                <listApp><app><note>Text of IvO.</note></app></listApp>
+                <listApp><app><note>Crowther ZPE 1989, 100–102, in SEG 37: 356[4] proposes a different reading for lines 10–15.</note></app></listApp>
+                <listApp><app><note>Piejko AJPh 108 (1987) 724–725 n.36 in SEG 37:356[2] proposes a different reading for line 46.</note></app></listApp>
+                <listApp><app><note>Frisch ZPE 75 (1988) 181 in SEG 37:356[3] proposes a different reading for lines 10–12.</note></app></listApp>
+                <listApp><app><note>Merkelbach ZPE 15 (1974) 192-193 in SEG 37:356[1] proposes a different reading for lines 1–3.</note></app></listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p></p> <!--  -->
@@ -189,12 +189,12 @@
             <div type="bibliography">
                  <p>
                     <bibl>
-                        <ptr target="IvO"/>IvO<citedRange>55</citedRange>
+                        <ptr target="IvO"/> <citedRange>55</citedRange>
                     </bibl>
                 </p>
                  <p>
                     <bibl>
-                        <ptr target="PHI"/>PHI<citedRange><ref target="https://epigraphy.packhum.org/text/213858">213858</ref></citedRange>
+                        <ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/213858">213858</ref></citedRange>
                     </bibl>
                 </p>
             </div>

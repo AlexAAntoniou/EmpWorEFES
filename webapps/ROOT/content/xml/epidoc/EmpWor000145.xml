@@ -127,7 +127,7 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIMRM"/><citedRange>1.273</citedRange>
+                        <ptr target="CIMRM"/> <citedRange>1.273</citedRange>
                     </bibl>
                 </p>
             </div>

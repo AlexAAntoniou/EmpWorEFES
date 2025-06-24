@@ -34,8 +34,8 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                <support><p>Inscription engraved on two adjacent sides of a small base (with an upper recess), with (quoting G. Marini) 'caratteri malfatti e quasi con chiodo, e furono rubricati'.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html" cert="low">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
@@ -66,9 +66,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3171606/palestrina.html">Palestrina</placeName>
                                 <geo>41.8394835, 12.8923075</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate atLeast="0037" atMost="0041" evidence="ruler">Between 31–41 CE on the basis that it is dedicated to Caligula</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" notAfter="1780">Discovered in front of S. Rocco, in the Pignatelli vineyard (shortly before 1780). Was last seen at Fermo in the De Minicis collection, but was untraceable on Mommsen visit.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -109,7 +109,7 @@
                 <div type="textpart" subtype="face" n="front">
                     <ab>
                         <lb n="1"/><supplied reason="lost">p</supplied>ro <expan><abbr>salut</abbr><ex>e</ex></expan>
-                        <lb n="2"/><persName type="ruler"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <name>Caesaris</name>
+                        <lb n="2"/><persName type="ruler" key="caligula"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <name>Caesaris</name>
                         <lb n="3"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>Germ</abbr><ex>anici</ex></expan></persName>
                         <lb n="4"/>et reditu
                     </ab>
@@ -132,12 +132,25 @@
                 <p></p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>
+                    [Front face]: For the safety and return of Gaius Caesar Augustus Germanicus.
+                    [Right face]: To Fortuna Primigenia of Praeneste. THESIS(?) Quintus Cosidius Tertius gave this gift.
+                </p> 
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.2854</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05800835</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>164064</citedRange>
                     </bibl>
                 </p>
             </div>

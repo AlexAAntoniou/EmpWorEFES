@@ -124,7 +124,7 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="ILS"/>ILS<citedRange>8744a</citedRange>
+                        <ptr target="ILS"/> <citedRange>8744a</citedRange>
                     </bibl>
                 </p>
             </div>

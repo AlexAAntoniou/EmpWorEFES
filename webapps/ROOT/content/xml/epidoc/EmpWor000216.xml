@@ -128,7 +128,7 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="PortaNola"/>PortaNola<citedRange>p.73</citedRange>
+                        <ptr target="PortaNola"/> <citedRange>p.73</citedRange>
                     </bibl>
                 </p>
             </div>

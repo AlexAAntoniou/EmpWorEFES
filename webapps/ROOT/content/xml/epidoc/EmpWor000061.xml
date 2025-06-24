@@ -125,7 +125,7 @@
             <div type="bibliography">
                  <p>
                     <bibl>
-                        <ptr target="AE"/>AE<citedRange>2000.345c</citedRange>
+                        <ptr target="AE"/> <citedRange>2000.345c</citedRange>
                     </bibl>
                 </p>
             </div>

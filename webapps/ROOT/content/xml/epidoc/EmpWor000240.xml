@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Privernum</settlement>
-                        <repository></repository> 
+                        <repository>Church of S. Cristoforo</repository> <!-- A cast of the inscription is exhibited in the Archaeological Museum of Priverno -->
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -36,11 +36,11 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">70</height>
+                                        <width unit="cm">33.5</width>
+                                        <depth unit="cm">32.5</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered, rather broadly, 'in a chapel'.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -125,15 +125,25 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Liber Augustus. Alfius Protus the sacerdos and Lucilius Martensis the father, placed an image of the god Liber. Mollius Neoesius and Aurelius Sabinus dedicated the base as a gift.</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>A C. Mollius C.f. Noetus can be found in CIL 6.32526.</p> 
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.6435</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>21100719</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>174535</citedRange>
                     </bibl>
                 </p>
             </div>

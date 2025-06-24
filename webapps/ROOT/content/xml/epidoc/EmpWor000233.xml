@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Last seen in Palestrina in the house of Sbardella, previously owned by Cecconi</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -121,7 +121,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Sextus Maesius Celsus, of tribe Romilia, son of Sextus, prefect of enginners three times, centurion of the Fourth Macedonian Legion, quaestor, aedile, duovir, flamen of the divine Augustus, sortilegus of Fortuna Primigenia. Sextus Maesius Echio, freedman, made this for himself and for Sextus Maesius Celer, his son, and for Maesia Pinoa, his wife, and for Sextus Maesius Potho, his fellow freedman, and for their descendants.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -130,6 +130,21 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.2989</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>6254</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05800972</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>164227</citedRange>
                     </bibl>
                 </p>
             </div>

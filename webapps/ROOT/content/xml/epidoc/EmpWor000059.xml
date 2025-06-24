@@ -124,7 +124,7 @@
             <div type="bibliography">
                  <p>
                     <bibl>
-                        <ptr target="AE"/>AE<citedRange>1993.476</citedRange>
+                        <ptr target="AE"/> <citedRange>1993.476</citedRange>
                     </bibl>
                 </p>
             </div>

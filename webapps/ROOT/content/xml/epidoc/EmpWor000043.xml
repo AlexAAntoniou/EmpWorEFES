@@ -195,12 +195,12 @@
             <div type="bibliography">
                  <p>
                     <bibl>
-                        <ptr target="AE"/><citedRange>2001.854</citedRange>
+                        <ptr target="AE"/> <citedRange>2001.854</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="Camodeca2010"/><citedRange>nr.17</citedRange>
+                        <ptr target="Camodeca2010"/> <citedRange>nr.17</citedRange>
                     </bibl>
                 </p>
             </div>

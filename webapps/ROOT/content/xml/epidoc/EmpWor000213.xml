@@ -124,7 +124,7 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/>CIL<citedRange>4.9964</citedRange>
+                        <ptr target="CIL"/> <citedRange>4.9964</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -127,6 +127,16 @@
                         <ptr target="CIL"/> <citedRange>14.2995</citedRange>
                     </bibl>
                 </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05800978</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>166676; 166100</citedRange>
+                    </bibl>
+                </p>
             </div>
         </body>
     </text>
