@@ -25,8 +25,8 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Pompeii</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Naples, Museo Archeologico Nazionale</repository> 
+                        <idno>3868 + 3871</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Two non-contiguous fragments of a marble plaque which is an opisthograph.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragments"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -53,7 +53,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Text is near and well-defined, with serifs. Tall "I" in the first "I" of Vibiae, and tall "T" in sacerdoti.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight"/>
                             </handNote>
@@ -106,23 +106,29 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab> 
-                    <lb n="1"/><persName type="attested"><name>Vi<unclear>b</unclear><supplied reason="lost">iae</supplied></name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>Sabin<supplied reason="lost">ae</supplied></name></persName>
-                    <lb n="2"/><supplied reason="lost">sacerdoti <persName type="divine"><name>Iulia</name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName></supplied>
-                    <lb n="3"/><persName type="attested"><name>Vibiae</name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>S<supplied reason="lost">ab</supplied><unclear>i</unclear>nae</name></persName>
-                    <lb n="4"/><supplied reason="lost">sace</supplied><unclear>r</unclear>doti <persName type="divine"><name>Iu<supplied reason="lost">liae</supplied></name> <name><expan><abbr><supplied reason="lost">Au</supplied><unclear>g</unclear></abbr><ex>ustae</ex></expan></name></persName>
-                </ab>
+                <div subtype="textpart" type="face" n="front">
+                    <ab> 
+                        <lb n="1"/><persName type="attested"><name>Vibiae</name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>S<supplied reason="lost">ab</supplied><unclear>i</unclear>nae</name></persName>
+                        <lb n="2"/><supplied reason="lost">sace</supplied><unclear>r</unclear>doti <persName type="divine"><name>Iu<supplied reason="lost">liae</supplied></name> <name><expan><abbr><supplied reason="lost">Au</supplied><unclear>g</unclear></abbr><ex>ustae</ex></expan></name></persName>
+                    </ab>
+                </div>
+                <div subtype="textpart" type="face" n="back">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name>Vi<unclear>b</unclear><supplied reason="lost">iae</supplied></name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>Sabin<supplied reason="lost">ae</supplied></name></persName>
+                        <lb n="2"/><supplied reason="lost">sacerdoti <persName type="divine"><name>Iulia</name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName></supplied>
+                    </ab>
+                </div>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EAGLE</note></app>
+                    <app><note>Text from EAGLE, comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p></p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>Granino Cecere (2014, 80–81) suggests that the reason a very similar text has been engraved on both the front and back of the plaque is that the stonecutter made an error, and flipped the plaque to inscribe the text correctly. The identification that this was a priesthood to Agrippina the Younger rests on the identification of Vibia's family (see Castrén 1975: 72, followed by Fishwick 1995: 37, Small 1996: 130). Others suggest that this is a priesthood to Livia Drusilla (Zimmermann and Frei Stolba 1998: 107–108 and n.86; Bassignano 2013: 151 no. 35; Granino Cecere 2014: 80–81 n.13; Grether 1946: 248). Hemelrijk (2015: 435) tends towards Agrippina, but is cautious. Cf. Gregori and Rosso 2010: 203 n.56.</p> 
             </div>
             <div type="bibliography">
                 <p>
@@ -133,6 +139,56 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.962</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11401052</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="GraninoCecere2014"/> <citedRange>80–81 no. 13</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Castrén1975"/> <citedRange>72</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Fishwick1995"/> <citedRange>37</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Small1996"/> <citedRange>130</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Zimmermann-FreiStolba1998"/> <citedRange>107–108 and n.86</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Bassignano2013"/> <citedRange>151 no.35</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Grether1946"/> <citedRange>248</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Hemelrijk2015"/> <citedRange>435</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Gregori-Rosso2010"/> <citedRange>203 n.56</citedRange>
                     </bibl>
                 </p>
             </div>

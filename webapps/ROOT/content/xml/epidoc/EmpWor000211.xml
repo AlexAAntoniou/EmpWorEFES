@@ -107,9 +107,9 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab> 
-                    <lb n="1"/>pro salute
-                    <lb n="2"/><persName type="ruler"><name>Neronis</name> <name>Claudi</name> <name>Caesaris</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> <name>Germanici</name></persName> Pompeis <persName type="attested"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <name>Claudi</name><name>Veri</name></persName> venatio
-                    <lb n="3"/>athletae et sparsiones erint <num value="5">V</num> <num value="4">IIII</num> <expan><abbr>f</abbr><ex>erias</ex></expan> <expan><abbr>Mart</abbr><ex>ias</ex></expan> <num value="273">CCLXXIII</num>
+                    <lb n="1"/>pro <g ref="symbols.xml#interpunct">·</g> salute
+                    <lb n="2"/><persName type="ruler"><name>Neronis</name> <g ref="symbols.xml#interpunct">·</g> <name>Claudi</name> <g ref="symbols.xml#interpunct">·</g> <name>Caesaris</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Germanici</name></persName> Pompeis <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Claudi</name> <g ref="symbols.xml#interpunct">·</g><name>Veri</name></persName> <g ref="symbols.xml#interpunct">·</g> venatio
+                    <lb n="3"/>athletae <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g> sparsiones <g ref="symbols.xml#interpunct">·</g> erint <num value="5">V</num> <g ref="symbols.xml#interpunct">·</g> <num value="4">IIII</num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>erias</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Mart</abbr><ex>ias</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="273">CCLXXIII</num>
                     <lb n="4"/><persName type="attested"><name>Claudio</name> <name>Vero</name></persName> <expan><abbr>felic</abbr><ex>iter</ex></expan>
                 </ab>
             </div>
@@ -119,7 +119,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>For the well-being of Nero Claudius Caesar Augustus Germanicus, at Pompeii, there will be a hunt, athletics, and sprinklings by Tiberius Claudius Verus both 5 and 4 days before the Kalends of March. Good fortune to Claudius Verus.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -128,6 +128,11 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>4.7989a</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>16300513</citedRange>
                     </bibl>
                 </p>
             </div>

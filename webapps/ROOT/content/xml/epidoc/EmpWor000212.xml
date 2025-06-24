@@ -118,7 +118,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>[For the safety of] Nero [---] in Pompeii on the day before the Nones and on the Nones of June. [Good fortune?] to Claudius [Verus].</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -127,6 +127,11 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>4.7988b-c</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>16300512</citedRange>
                     </bibl>
                 </p>
             </div>

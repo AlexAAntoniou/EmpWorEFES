@@ -25,8 +25,8 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Pompeii</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Naples, Museo Archeologico Nazionale</repository> <!-- Ground Floor, Roman Campania section -->
+                        <idno>3768</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -36,7 +36,7 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
@@ -66,9 +66,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3170335/pompei.html">Pompei</placeName>
                                 <geo>40.74941, 14.485429</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0003" evidence="consuls">3 CE on the basis of the consular year.</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1824">Discovered in Pompeii, Regio VII, ins. IV, 1, in the Temple of Fortuna Augusta, in the cella, on 23 Feb 1824.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -107,10 +107,10 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab> 
-                    <lb n="1"/><persName type="attested"><name>Agathemerus</name> <name>V<unclear>e</unclear><supplied reason="undefined" evidence="previouseditor">tti</supplied></name> <supplied reason="omitted">servus</supplied></persName>
-                    <lb n="2"/><persName type="attested"><name>Suavis</name> <name>Caesiae</name> <name>Pri<hi rend="ligature">ma</hi><unclear>e</unclear></name> <supplied reason="omitted">servus</supplied></persName>
-                    <lb n="3"/><persName type="attested"><name>Pothus</name> <name>Numitori</name> <supplied reason="omitted">servus</supplied></persName>
-                    <lb n="4"/><persName type="attested"><name>Anteros</name> <name>Lacutula<hi rend="ligature">ni</hi></name> <supplied reason="omitted">servus</supplied></persName>
+                    <lb n="1"/><persName type="attested"><name>Agathemerus</name> <persName type="attested"><name>V<unclear>e</unclear><supplied reason="undefined" evidence="previouseditor">tti</supplied></name> <supplied reason="omitted">servus</supplied></persName></persName>
+                    <lb n="2"/><persName type="attested"><name>Suavis</name> <persName><name>Caesiae</name> <name>Pri<hi rend="ligature">ma</hi><unclear>e</unclear></name> <supplied reason="omitted">servus</supplied></persName></persName>
+                    <lb n="3"/><persName type="attested"><name>Pothus</name> <persName><name>Numitori</name> <supplied reason="omitted">servus</supplied></persName></persName>
+                    <lb n="4"/><persName type="attested"><name>Anteros</name> <persName><name>Lacutula<hi rend="ligature">ni</hi></name> <supplied reason="omitted">servus</supplied></persName></persName>
                     <lb n="5"/><expan><abbr>minist</abbr><ex>ri</ex></expan> <expan><abbr>prim</abbr><ex>i</ex></expan> <persName type="divine" key="fortunaAugusta"><name><expan><abbr>Fortun</abbr><ex>ae</ex></expan></name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <expan><abbr>iuss</abbr><ex>u</ex></expan>
                     <lb n="6"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name>Stai</name> <name>Rufi</name></persName> <persName type="attested"><name><expan><abbr>Cn</abbr><ex>aei</ex></expan></name> <name>Melissaei</name></persName> <expan><abbr>d</abbr><ex>uum</ex><abbr>v</abbr><ex>irorum</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan>
                     <lb n="7"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name>Silio</name></persName> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Volusio</name> <name><expan><abbr>Saturn</abbr><ex>ino</ex></expan></name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
@@ -122,15 +122,30 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Agathemerus, slave of Vettius, Suavis, slave of Caesia Prima, Pothus, slave of Numitor, Anteros, slave of Lacutulanus, the first ministers of Fortuna Augusta, by command of Marcus Staius Rufus and Cnaeus Melissaeus, duumvirs in charge of speaking the law, when Publius Silius and Lucius Volusius were consuls.</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>The same M. Staius M.f. Rufus and Cn. Melissaeus Cn.f.Aper can be found in CIL 10.817 and CIL 10.893.</p> 
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.824</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>6382</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11400908</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>143049</citedRange>
                     </bibl>
                 </p>
             </div>

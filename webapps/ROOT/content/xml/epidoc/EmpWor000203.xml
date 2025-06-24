@@ -118,7 +118,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>[---] [pairs of gladiators] belonging to [Decimus Lucretius Satrius] Valens perpetual flamen of Nero son of Augustus and his son Decimus Lucretius Valens, [fights will take place in Pompeii] five [days before] the Kalends of April, a wild beast hunt and awnings (will be provided). To the first man of the colony.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -127,6 +127,11 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>4.1185</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>16300478</citedRange>
                     </bibl>
                 </p>
             </div>

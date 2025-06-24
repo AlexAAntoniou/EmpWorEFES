@@ -38,8 +38,8 @@
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">18.3</height>
+                                        <width unit="cm">9</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered at an unknown time and place in Pompeii, then in the collections of Waldburg and Dohna-Schlobitten (the latter in the early 20th century).</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -120,7 +120,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Isis Augusta, Manilia Chrysa [fulfilled] this vow.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -129,6 +129,16 @@
                 <p>
                     <bibl>
                         <ptr target="SIRIS"/> <citedRange>486</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>24300013</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>187436</citedRange>
                     </bibl>
                 </p>
             </div>

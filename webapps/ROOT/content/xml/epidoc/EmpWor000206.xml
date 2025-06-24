@@ -119,7 +119,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Twenty pairs of gladiators belonging to Decimus Lucretius Satrius Valens, flamen of [Nero] Caesar Augustus, perpetual flamen, and ten pairs of [gladiators] belonging to his son, Decimus Lucretius Valens. From the 5th day before the Kalends of April, a wild beast hunt and awnings (will be provided).</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -128,6 +128,26 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>4.7995</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1937.126</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>16300520</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>073339</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>023319</citedRange>
                     </bibl>
                 </p>
             </div>

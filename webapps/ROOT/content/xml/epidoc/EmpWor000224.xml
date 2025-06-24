@@ -25,8 +25,8 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Pompeii</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Naples, Museo Archeologico Nazionale</repository> <!-- sala epigrafica -->
+                        <idno>3771</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,28 +34,30 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Complete rectangular marble plaque.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">70</height>
+                                        <width unit="cm">47</width>
+                                        <depth unit="cm">3</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text fills the top three quarters of the plaque. First three lines, and lines 7, 9 and 10 are left aligned.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Relatively neat and regular text. Long "I" in line 1 (primus) and line 9 (aedil), long "T" in line 2 (second T in Optatus), in lin 7 (pastoris)</p>
+                                <locus from="line1" to="line10">Lines 1–10</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">30-50</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -66,9 +68,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3170335/pompei.html">Pompei</placeName>
                                 <geo>40.74941, 14.485429</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0050" evidence="consuls">Dated to 50 CE on the basis of the consular year.</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1814">Discovered in Pompeii, in the Basilica on the 11th of August 1814.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -107,33 +109,48 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab> 
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Numisius</name> <name>Primus</name></persName>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Numisius</name> <g ref="symbols.xml#interpunct">·</g> <name>Primus</name></persName>
                     <lb n="2"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Numisius</name> <name>Optatus</name></persName>
-                    <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Melissaeus</name>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Melissaeus</name>
                     <lb n="4"/><name>Plocamus</name></persName>
-                    <lb n="5"/><expan><abbr>ministr</abbr><ex>i</ex></expan> <persName type="divine" key="fortunaAugusta"><name><expan><abbr>Fortun</abbr><ex>ae</ex></expan></name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName>
-                    <lb n="6"/>ex <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> iussu
-                    <lb n="7"/><persName type="attested"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name>Iuli</name> <name>Pontici</name></persName> <persName type="attested"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <name>Gavi</name> <name>Pastoris</name></persName>
-                    <lb n="8"/><expan><abbr>d</abbr><ex>uum</ex><abbr>v</abbr><ex>irorum</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan>
-                    <lb n="9"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <name>Poppaei</name></persName> <persName type="attested"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <name>Vibi</name></persName> <expan><abbr>aedil</abbr><ex>ium</ex></expan>
-                    <lb n="10"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name>Futio</name></persName> <persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name>Calvisio</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+                    <lb n="5"/><expan><abbr>ministr</abbr><ex>i</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="fortunaAugusta"><name><expan><abbr>Fortun</abbr><ex>ae</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName>
+                    <lb n="6"/>ex <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <g ref="symbols.xml#interpunct">·</g> iussu
+                    <lb n="7"/><persName type="attested"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Iuli</name> <g ref="symbols.xml#interpunct">·</g> <name>Pontici</name></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Gavi</name> <g ref="symbols.xml#interpunct">·</g> <name>Pastoris</name></persName>
+                    <lb n="8"/><expan><abbr>d</abbr><ex>uum</ex><g ref="symbols.xml#interpunct">·</g><abbr>v</abbr><ex>irorum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>i</abbr><ex>ure</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>icundo</ex></expan>
+                    <lb n="9"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Poppaei</name></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Vibi</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>aedil</abbr><ex>ium</ex></expan>
+                    <lb n="10"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Futio</name></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Calvisio</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app>
+                    <app><note>Text from EDR comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Lucius Numisius Primus, Lucius Numisius Optatus, Lucius Melissaeus Plocamus, ministers of Fortuna Augusta, by decree of the decurions, issued by Lucius Iulius Ponticus and Publius Gavius Pastor the duumvirs in charge of speaking the law, Quintus Poppaeus and Caius Vibius aediles, when Quintus Futius and Publius Calvisius were consuls. </p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>The same Lucius Melissaeus Plocamus can be found in EDCS-70900323/EDR146024. The same C. Vibius, here an aedile, is perhaps to be found in <ref target="EmpWor000223.xml">EmpWor000223</ref>.</p> 
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.827</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>6384</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11400911</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>143894</citedRange>
                     </bibl>
                 </p>
             </div>

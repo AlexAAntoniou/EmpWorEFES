@@ -25,8 +25,8 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Pompeii</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Naples, Museo Archeologico Nazionale</repository> <!-- Ground Floor, Roman Campania section -->
+                        <idno>3772</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,28 +34,30 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Two broken fragments of a marble plaque, with significant losses and obscured text. As top left corner is original, we have the beginning of the inscription with significant losses to the right..</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">31</height>
+                                        <width unit="cm">37</width>
+                                        <depth unit="cm">3</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragmented"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Evidence of guidance lines on top and bottom of each line.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Text is extremely neat and regular, with serfis on all letters. Tall "T"s in line 3. Triangular interpuncts.</p>
+                                <locus from="line1" to="line4">Lines 1–4</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">27–44</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1818">Discovered in Pompeii, Reg. VII, 7, 32 in the Temple of Apollo, on the 19th of December 1818.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -107,19 +109,19 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab> 
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>Naevi<unclear>u</unclear><supplied reason="lost">s</supplied></name> <gap reason="lost" extent="unknown" unit="char"/></persName>
-                    <lb n="2"/><persName type="attested"><name><gap reason="lost" atLeast="1" atMost="3" unit="char"/></name> <name>Naevius</name> <name>Phi<gap reason="lost" extent="unknown" unit="char"/></name></persName> 
-                    <lb n="3"/><expan><abbr><supplied reason="lost">mi</supplied>nistr</abbr><ex>i</ex></expan> <persName type="divine" key="fortunaAugusta"><name>Fortuna<unclear>e</unclear></name> <name><supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></supplied></name></persName>
-                    <lb n="4"/><supplied reason="lost">e</supplied><unclear>x</unclear> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> iu<unclear>s</unclear><supplied reason="lost">su</supplied>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Naevi<unclear>u</unclear><supplied reason="lost">s</supplied></name> <gap reason="lost" extent="unknown" unit="char"/></persName>
+                    <lb n="2"/><persName type="attested"><name><gap reason="lost" atLeast="1" atMost="3" unit="char"/></name> <name>Naevius</name> <g ref="symbols.xml#interpunct">·</g> <name>Phi<gap reason="lost" extent="unknown" unit="char"/></name></persName> 
+                    <lb n="3"/><expan><abbr><supplied reason="lost">mi</supplied>nistr</abbr><ex>i</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="fortunaAugusta"><name>Fortuna<unclear>e</unclear></name> <name><supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></supplied></name></persName>
+                    <lb n="4"/><supplied reason="lost">e</supplied><unclear>x</unclear> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <g ref="symbols.xml#interpunct">·</g> iu<unclear>s</unclear><supplied reason="lost">su</supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app>
+                    <app><note>Text from EDR with comparison to photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Marcus Naevius [---], [---] Naevius Phi[---], ministers of Fortuna Augusta, by decree of the decurions, ordered by [---]?</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -128,6 +130,21 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.828</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11400912</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>143937</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>001898</citedRange>
                     </bibl>
                 </p>
             </div>

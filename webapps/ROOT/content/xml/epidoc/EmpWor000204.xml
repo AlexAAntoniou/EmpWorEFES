@@ -117,7 +117,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Twenty pairs of gladiators belonging to Decimus Lucretius Satrius Valens, perpetual flamen of [Nero] son of Caesar Augustus, and ten pairs of gladiators belonging to his son, Decimus Lucretius Valens, will fight in Pompeii from the 5th day before the Nones of April, a wild beast hunt and awnings (will be provided). Polybius(?)</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -126,6 +126,11 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>4.7992</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>16300517</citedRange>
                     </bibl>
                 </p>
             </div>

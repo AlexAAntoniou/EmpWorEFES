@@ -25,8 +25,8 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Pompeii</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Naples, Museo Archeologico Nazionale</repository> <!-- depositi --> 
+                        <idno>3814</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,13 +34,13 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Small fragmentary stone, with abrasions along all edges.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">7.9</height>
+                                        <width unit="cm">16.5</width>
+                                        <depth unit="cm">2</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -53,9 +53,11 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Letters are thin and uncertainly inscribed. Peculiar are the formation of the "R"s in line 2, the loop of which is very high.</p>
+                                <locus from="line1" to="line2">Lines 1–2</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">19–21</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1861">Pompeii, Reg. VIII, 4, 12, on 7 May 1861.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -108,7 +110,7 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab> 
                     <lb n="1"/><persName type="divine"><name>Augusto</name></persName> <g ref="symbols.xml#interpunct">·</g> <unclear>s</unclear><supplied reason="lost">acrum</supplied>
-                    <lb n="2"/><persName type="attested"><name>Irenio</name> <g ref="symbols.xml#interpunct">·</g> <name>Cornelia<supplied reason="undefined" evidence="previouseditor">e</supplied></name></persName> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="2"/><persName type="attested"><name>Irenio</name></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>Cornelia<supplied reason="undefined" evidence="previouseditor">e</supplied></name></persName> <gap reason="lost" extent="unknown" unit="char"/>
                 </ab>
             </div>
             <div type="apparatus">
@@ -117,7 +119,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Augustus, [by/to?] Irenius [and?] Cornelia</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -126,6 +128,16 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.862</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11400949</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>151248</citedRange>
                     </bibl>
                 </p>
             </div>

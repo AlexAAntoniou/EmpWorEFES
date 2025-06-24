@@ -107,9 +107,9 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab> 
-                    <lb n="1"/>Puteo<supplied reason="lost">lani</supplied> <gap reason="lost" extent="unknown" unit="char"/><orig>V</orig><gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost">Id</supplied>us <expan><abbr>Dec</abbr><ex>embres</ex></expan>
+                    <lb n="1"/>Puteo<supplied reason="lost">lani</supplied> <gap reason="lost" extent="unknown" unit="char"/><num atLeast="4" atMost="8">V</num><gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost">Id</supplied>us <expan><abbr>Dec</abbr><ex>embres</ex></expan>
                     <lb n="2"/><expan><abbr>pugn</abbr><ex>abunt</ex></expan> Herculanei pro sal<supplied reason="lost">ute</supplied> <persName type="ruler"><name><supplied reason="lost">Cae</supplied>sarum</name></persName> et <persName type="ruler" key="livia"><name>Liviae</name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> vela erunt
-                    <lb n="3"/>Iole <expan><abbr>sal</abbr><ex>ve</ex></expan>
+                    <lb n="3"/><persName type="attested"><name>Iole</name></persName> <expan><abbr>sal</abbr><ex>ve</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
@@ -118,7 +118,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>[---] At Puteoli [---] five(?) days before the Ides of December, [gladiators] will fight in Herculaneum for the safety of the Caesars and Livia Augusta. There will be awnings. Iole greets you.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -127,6 +127,11 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>4.9969</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>16300528</citedRange>
                     </bibl>
                 </p>
             </div>

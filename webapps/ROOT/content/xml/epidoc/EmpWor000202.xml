@@ -120,7 +120,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>For the safety of [Imperator Vespasian] Caesar Augustus and of his children, [on the occasion of the] dedication of the altar [to him?] [---] [pairs of gladiators]. Cnaeus Alleius Nigidius Maius, flamen of Caesar Augustus. Fights will take place in Pompeii without any delay on the 4th day before the Nones of July. There will be a beast hunt, sprinklings, and awnings.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -129,6 +129,16 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>4.1180</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1949.9</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>16300473</citedRange>
                     </bibl>
                 </p>
             </div>

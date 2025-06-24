@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Pompeii</settlement>
-                        <repository></repository> 
+                        <repository>Pompeii, Temple of Fortuna Augusta</repository> <!-- in situ, in the top of the aedicula -->
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,13 +34,13 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Long dedicatory inscription, largely intact but for a chip in bottom row.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.buildingdedication" ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Building Inscription</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">31</height>
+                                        <width unit="cm">260.5</width>
+                                        <depth unit="cm">30.5</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line2">Lines 1–2</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">60–85</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1824">Discovered in situ, in Pompeii, Reg. VII, 4, 1, in the Temple of Fortuna Augusta, on the top of the aedicula, on Feb 25, 1824.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -107,17 +109,17 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab> 
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>Tullius</name> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName></persName> <expan><abbr>d</abbr><ex>uum</ex><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> ter <expan><abbr>quinq</abbr><ex>uennalis</ex></expan> augur <expan><abbr>tr</abbr><ex>ibunus</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan>
-                    <lb n="2"/>a <expan><abbr>pop</abbr><ex>ulo</ex></expan> aedem <persName type="divine" key="fortunaAugusta"><name>F<unclear>or</unclear>tunae</name> <name><expan><abbr>August</abbr><ex>ae</ex></expan></name></persName> solo et <expan><abbr>peq</abbr><ex>unia</ex></expan> sua
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Tullius</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>uum</ex><g ref="symbols.xml#interpunct">·</g><abbr>v</abbr><ex>ir</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>i</abbr><ex>ure</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>icundo</ex></expan> <g ref="symbols.xml#interpunct">·</g> ter <g ref="symbols.xml#interpunct">·</g> <expan><abbr>quinq</abbr><ex>uennalis</ex></expan> <g ref="symbols.xml#interpunct">·</g> augur <g ref="symbols.xml#interpunct">·</g> <expan><abbr>tr</abbr><ex>ibunus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>mil</abbr><ex>itum</ex></expan>
+                    <lb n="2"/>a <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pop</abbr><ex>ulo</ex></expan> <g ref="symbols.xml#interpunct">·</g> aedem <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="fortunaAugusta"><name>F<unclear>or</unclear>tunae</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>August</abbr><ex>ae</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> solo <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g> <expan><abbr>peq</abbr><ex>unia</ex></expan> <g ref="symbols.xml#interpunct">·</g> sua
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app>
+                    <app><note>Text from EDR compared with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Marcus Tullius, son of Marcus, duumvir in charge of speaking the law three times, quinquennalis, augur, military tribune for the people, [built] the temple of Fortuna Augusta on his own land and at his own expense.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -126,6 +128,21 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.820</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>5398</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11400904</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>143598</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -25,8 +25,8 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Pompeii</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Naples, Museo Archeologico Nazionale</repository> <!-- Ground Floor, Roman Campania section -->
+                        <idno>3760</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,13 +34,13 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>A rectangular marble plaque in two fragments that are not entirely reattached. The lower left corner is missing.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <depth unit="cm">2.5</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -53,9 +53,11 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Regular and deep incision of letters.</p>
+                                <locus from="line1" to="line5">Lines 1–5</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">25–42</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -66,9 +68,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3170335/pompei.html">Pompei</placeName>
                                 <geo>40.74941, 14.485429</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0037" evidence="ruler">Dated to 37 CE on the basis of imperial titulature.</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1817">Discovered on 18 June 1817 in the cella of the temple of Jupiter (Regio VII, 8, 1).</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -108,7 +110,7 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab> 
                     <lb n="1"/><persName type="divine" key="jupiter"><name><expan><abbr>I</abbr><ex>ovi</ex></expan></name> <name><supplied reason="lost"><expan><abbr>O</abbr><ex>ptimo</ex></expan></supplied></name> <name><expan><abbr>M</abbr><ex>aximo</ex></expan></name></persName>
-                    <lb n="2"/>pro salute <persName type="ruler"><name><expan><abbr><supplied reason="lost">C</supplied></abbr><ex>ai</ex></expan></name> <name><supplied reason="lost">Ca</supplied>esaris</name> <g ref="symbols.xml#interpunct">·</g> <name>Augusti</name>
+                    <lb n="2"/>pro salute <persName type="ruler" key="caligula"><name><expan><abbr><supplied reason="lost">C</supplied></abbr><ex>ai</ex></expan></name> <name><supplied reason="lost">Ca</supplied>esaris</name> <g ref="symbols.xml#interpunct">·</g> <name>Augusti</name>
                     <lb n="3"/>German<unclear>i</unclear><supplied reason="lost">ci</supplied></persName> <expan><abbr><supplied reason="lost">i</supplied>mp</abbr><ex>eratoris</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pontif</abbr><ex>icis</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>max</abbr><ex>imi</ex></expan> <g ref="symbols.xml#interpunct">·</g>
                     <lb n="4"/><expan><abbr>tribunic</abbr><ex>ia</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr><unclear>p</unclear><supplied reason="lost">ote</supplied><unclear>s</unclear>tat</abbr><ex>e</ex></expan> <g ref="symbols.xml#interpunct">·</g> consulis
                     <lb n="5"/><persName type="attested"><gap reason="lost" extent="unknown" unit="character"/> <name><supplied reason="lost">D</supplied>octus</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>s</abbr><ex>ua</ex></expan>
@@ -120,15 +122,30 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Jupiter the Best and Greatest. For the safety of Caius Caesar Augustus Germanicus, imperator, pontifex maximus, with tribunician power, consul. [---] Doctus [made this] with his own money.</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>The editors of the EpRom project propose to restore the name in line 5 as C. Fundilius Doctus, attested at Aricia (CIL 14.4199–4200) and Nemi (CIL 14.4273), and also suggest that the inscription could be linked to the illness that affected Caligula in the autumn of 37 CE (Suet. Cal. 14.2, 27.2).</p> 
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.796</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11400880</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>149349</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EpRom"/> <citedRange><ref target="http://www.epigraphica-romana.fr/notice/view?notice=25800">25800</ref></citedRange>
                     </bibl>
                 </p>
             </div>

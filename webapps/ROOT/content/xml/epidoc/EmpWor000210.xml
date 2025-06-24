@@ -107,7 +107,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab> 
-                    <lb n="1"/>pro salute domus <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>gl</abbr><ex>adiatorum</ex></expan> <expan><abbr>par</abbr><ex>ia</ex></expan> <gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost"><expan><abbr>pugn</abbr><ex>abunt</ex></expan></supplied>
+                    <lb n="1"/>pro salute domus <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>gl</abbr><ex>adiatorum</ex></expan> <expan><abbr>par</abbr><ex>ia</ex></expan> <gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost"><expan><abbr>pugn</abbr><ex>abunt</ex></expan></supplied> <gap reason="lost" extent="unknown" unit="char"/>
                 </ab>
             </div>
             <div type="apparatus">
@@ -116,7 +116,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>For the safety of the house of Augustus, a pair of gladiators [---] will fight [---]</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -125,6 +125,11 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>4.1196</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>16300490</citedRange>
                     </bibl>
                 </p>
             </div>

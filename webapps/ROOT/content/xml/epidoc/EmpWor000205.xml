@@ -117,7 +117,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Goodwill to the flamen of Nero Caesar</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -126,6 +126,11 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>4.7996</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>24300867</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -116,7 +116,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Augustan Lares [---]</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -125,6 +125,11 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>4.8282</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>24501746</citedRange>
                     </bibl>
                 </p>
             </div>

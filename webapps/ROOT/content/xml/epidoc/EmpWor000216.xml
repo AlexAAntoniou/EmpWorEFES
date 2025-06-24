@@ -120,7 +120,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>For the safety of Caesar Augustus, in Pompeii, on the day he will undergo(?) [---] December [---] the sodales [---]? </p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -129,6 +129,11 @@
                 <p>
                     <bibl>
                         <ptr target="PortaNola"/> <citedRange>p.73</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>61900075</citedRange>
                     </bibl>
                 </p>
             </div>

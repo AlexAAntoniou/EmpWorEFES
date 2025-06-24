@@ -25,8 +25,8 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Pompeii</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Naples, Museo Archeologico Nazionale</repository> <!-- sala epigrafica -->
+                        <idno>3858</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,13 +34,13 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Long fragmentary marble plaque, with carved entabulature at top.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">44.3</height>
+                                        <width unit="cm">79</width>
+                                        <depth unit="cm">3.2</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -53,9 +53,11 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Text is neat and well-defined, with serifs. Tall "I"s in line 2, especially pronounced in Divi.</p>
+                                <locus from="line1" to="line2">Lines 1–2</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">42–58</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -107,25 +109,40 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab> 
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Holconio</name> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <name>Celeri</name></persName>
-                    <lb n="2"/>sacerdoti <persName type="divine" key="divusAugustus"><name>divi</name> <name>Au<unclear>g</unclear>usti</name></persName>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Holconio</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <name>Celeri</name></persName>
+                    <lb n="2"/>sacerdoti <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="divusAugustus"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Au<unclear>g</unclear>usti</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EAGLE</note></app>
+                    <app><note>Text from EAGLE, comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Marcus Holconius Celer, son of Marcus, sacerdos of the divine Augustus.</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>For Marcus Holconius Celer see <ref target="EmpWor000209.xml">EmpWor000209</ref>, <ref target="EmpWor000197.xml">EmpWor000197</ref> and <ref target="EmpWor000198.xml">EmpWor000198</ref>.</p> 
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.945</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11401037</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>6362a</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>149538</citedRange>
                     </bibl>
                 </p>
             </div>

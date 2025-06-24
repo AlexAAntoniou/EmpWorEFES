@@ -25,8 +25,8 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Pompeii</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Naples, Museo Archeologico Nazionale</repository> <!-- Ground Floor, Roman Campania section -->
+                        <idno>3769</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,9 +34,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Rectangular plaque with carved entabulature. Two contiguous fragments, with two large broken sections at top and bottom right.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
@@ -53,7 +53,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Appears to have been inscribed by two different hands. The letters of the first three lines are large and relatively straight. The "O" of COS in line 2 is smaller. The letters of lines 4–8 are small, slanted towards the left, and a little blocky. Serifs across the whole inscription.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight"/>
                             </handNote>
@@ -66,9 +66,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3170335/pompei.html">Pompei</placeName>
                                 <geo>40.74941, 14.485429</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0045" evidence="consuls">Dated to 45 CE on the basis of the consular year.</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1824">Discovered in Pompeii, Regio VII, ins. IV, 1, in the Temple of Fortuna Augusta, in the cella, on 23 Feb 1824.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -123,7 +123,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>When Taurus Statilius and Tiberius Platilius Aelianus were consuls. Lucius Statius Faustus before the image which he was required to set up by a law of the ministers of Fortuna Augusta, brought by the quaestor Quintus Pompeius Amethystus, they decreed that he should place two marble bases instead of a statue.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -132,6 +132,21 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.825</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>6385</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11400909</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>143869</citedRange>
                     </bibl>
                 </p>
             </div>

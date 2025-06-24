@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Pompeii</settlement>
-                        <repository></repository> 
+                        <repository></repository> <!-- in situ in Pompeii's forum -->
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,16 +34,16 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Large entablature for building dedication, with preserved moulding and entablature at base..</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.buildingdedication" ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Building Inscription</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -53,7 +53,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Large monumental letters, clean and neatly incised in stone, simple clear serifs.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight"/>
                             </handNote>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found">Currently placed in the forum of Pompeii.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -122,7 +122,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Eumachia, public priest, daughter of Lucius, in her name and in that of her son, Marcus Numistrius Fronto, made with her own money and dedicated the chalcidicum, crypt and portico to Concordia Augusta.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -130,7 +130,12 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/> <citedRange>10.811</citedRange>
+                        <ptr target="CIL"/>CIL <citedRange>10.811</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/>EDCS <citedRange>11400895</citedRange>
                     </bibl>
                 </p>
             </div>
