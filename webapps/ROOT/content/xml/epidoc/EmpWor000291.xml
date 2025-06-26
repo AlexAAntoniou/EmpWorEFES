@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000291</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000291</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio II</region>
+                        <settlement>Aeclanum</settlement> <!-- relevant priesthood in Rome -->
+                        <repository></repository> 
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Fragments that are not contiguous.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm">67</height>
+                                        <width unit="cm">61.5</width>
+                                        <depth unit="cm">7</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <locus from="line1" to="line7">Lines 1–7</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">35–105</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/442451">Aeclanum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3173383/mirabella-eclano.html">Mirabella Eclano</placeName>
+                                <geo>41.054199832, 15.0104517447</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-25" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr><supplied reason="lost">C</supplied></abbr><ex>aio</ex></expan></name> <name><supplied reason="lost">Eggio</supplied></name> <persName type="patronym"><name><gap reason="lost" atLeast="1" atMost="3" unit="char"/></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Cor</abbr><ex>nelia</ex></expan> <name>Ambibulo</name>
+                    <lb n="2"/><name>Pom<supplied reason="lost">ponio</supplied></name> <name><supplied reason="lost">Lon</supplied>gino</name> <name>Cassiano</name> <name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Mae
+                    <lb n="3" break="no"/>cio</name> <name>Pos<supplied reason="lost">tumo</supplied></name></persName> <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied> <expan><abbr>flam</abbr><ex>ini</ex></expan> <expan><abbr>Claud</abbr><ex>iali</ex></expan> salio Collino <expan><abbr>pr</abbr><ex>aetori</ex></expan>
+                    <lb n="4"/>candida<unclear>to</unclear> <expan><abbr><supplied reason="lost">leg</supplied></abbr><ex>ato</ex></expan> <expan><abbr><supplied reason="lost">pro</supplied>v</abbr><ex>inciae</ex></expan> Macedoniae <expan><abbr><hi rend="supraline">q</hi></abbr><ex>uaestori</ex></expan> candidato
+                    <lb n="5"/><persName type="ruler"><name>divi</name> <name>Traian<supplied reason="lost">i</supplied></name></persName> <supplied reason="lost">Part</supplied><unclear>h</unclear>ici ab eodem adlecto inte<unclear>r</unclear> patri
+                    <lb n="6" break="no"/>cios seviro <expan><abbr>e<unclear>q</unclear></abbr><ex>uitum</ex></expan> <expan><abbr><supplied reason="lost">Rom</supplied></abbr><ex>anorum</ex></expan> <expan><abbr><supplied reason="lost">tr</supplied></abbr><ex>ibuno</ex></expan> <expan><abbr><supplied reason="lost">mi</supplied><unclear>l</unclear></abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="11"><hi rend="supraline">XI</hi></num> <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>P</abbr><ex>iae</ex></expan> <expan><abbr>F</abbr><ex>idelis</ex></expan> <hi rend="supraline">X</hi>viro stlitibus iudicandis
+                    <lb n="7"/><expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan> <expan><abbr><unclear>q</unclear></abbr><ex>uin</ex><abbr><supplied reason="lost">q</supplied></abbr><ex>uennali</ex></expan> <supplied reason="lost">item</supplied> <expan><abbr><supplied reason="lost">pa</supplied>t</abbr><ex>rono</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>p</abbr><ex>ublice</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>To Caius Eggius Ambibulus Pomponius Longinus Cassianus Lucius Maecius Postumus, son of [---], of the Cornelian tribe, consul, flamen Claudialis, salius Collinus, praetorian candidate, legate of the province of Macedonia, quaestorian candidate of the divine Trajan Parthicus, and adlected among the patricians by the same man, sevir of the Roman equites, military tribune of the 11th Legion Claudia Pia Fidelis, member of the board of ten for judging lawsuits, quinquennial duovir likewise patron of the colony, this place was decreed by the decurions.</p>
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/> <citedRange>9.1123</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>1054</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>12400627</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>132130</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="FS"/> <citedRange>1512</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

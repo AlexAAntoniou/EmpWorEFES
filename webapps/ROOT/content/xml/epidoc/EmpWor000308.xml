@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000201</title>
+                <title>EmpWor000308</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,16 +16,16 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000201</idno>
+                <idno type="filename">EmpWor000308</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio I</region>
-                        <settlement>Pompeii</settlement>
-                        <repository></repository> 
+                        <region>Regio II</region>
+                        <settlement>Larinum</settlement>
+                        <repository>Larino, Antiquarium</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,16 +34,16 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Five fragments of a marble plaque inscribed in a moulded frame, with an original left edge, and missing right hand side (but seen by previous editors).</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">130</height>
+                                        <width unit="cm">155</width>
+                                        <depth unit="cm">30</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragments"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -55,20 +55,22 @@
                         <handDesc>
                             <handNote>
                                 <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm"></height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii</placeName>
-                                <placeName type="modern" ref="https://www.geonames.org/3170335/pompei.html">Pompei</placeName>
-                                <geo>40.74941, 14.485429</geo>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/442629">Larinum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3175105/larino.html">Larino</placeName>
+                                <geo>41.8064879, 14.9175768</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in the western entrance of the amphitheatre.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,13 +92,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-09" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-26" who="#AA">Original data collection and editing</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -106,27 +108,22 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab> <!-- needs work!! -->
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>D</abbr><ex>ecimi</ex></expan></name> <name>Lucreti</name>
-                    <lb n="2"/><name>Satri</name> <name>Valentis</name></persName> flaminis <persName type="divine"><name>Neronis</name> <name>Caesaris</name> <persName type="patronym"><name>Augusti</name> <expan><abbr>fili</abbr><ex>i</ex></expan></persName></persName>
-                    <lb n="3"/>perpetui gladiatorum paria <num value="20">XX</num> et <persName type="attested"><name><expan><abbr>D</abbr><ex>ecimi</ex></expan></name> <name>Lucreti<surplus>o</surplus></name> <name>Valentis</name> <expan><abbr>fili</abbr><ex>i</ex></expan></persName>
-                    <lb n="4"/><expan><abbr>glad</abbr><ex>iatorum</ex></expan> paria <num value="10">X</num> <expan><abbr>pug</abbr><ex>nabunt</ex></expan> Pompeis <num value="4">IV</num> <num value="5">V</num> <num value="6">VI</num> <num value="3">III</num> <expan><abbr>pr</abbr><ex>idie</ex></expan> Idus <expan><abbr>Apr</abbr><ex>iles</ex></expan> venatio legitima
-                    <lb n="5"/>et vela erunt
-                    <lb n="6"/><expan><abbr>scr</abbr><ex>ipsit</ex></expan>
-                    <lb n="7"/><persName type="attested"><name>Celer</name></persName>
-                    <lb n="8"/><expan><abbr>scr</abbr><ex>ipsit</ex></expan>
-                    <lb n="9"/><persName type="attested"><name>Celer</name>
-                    <lb n="10"/><name>Celer</name></persName> <expan><abbr>sing</abbr><ex>ulus</ex></expan>
-                    <lb n="11"/>ad <expan><abbr>luna</abbr><ex>m</ex></expan>
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="char"/><seg part="F">s</seg></name> <g ref="symbols.xml#ivy-leaf">❦</g> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <g ref="symbols.xml#ivy-leaf">❦</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <g ref="symbols.xml#ivy-leaf">❦</g> <expan><abbr>Clu</abbr><ex>stumina</ex></expan> <g ref="symbols.xml#ivy-leaf">❦</g> <name><supplied reason="undefined" evidence="previouseditor">Capito</supplied></name></persName>
+                    <lb n="2"/><expan><abbr><unclear>f</unclear><supplied reason="lost">lam</supplied></abbr><ex>en</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="divusTitus"><name><supplied reason="lost">divi</supplied></name> <g ref="symbols.xml#interpunct">·</g> <name>Titi</name></persName> <g ref="symbols.xml#ivy-leaf">❦</g> <expan><abbr>patro<supplied reason="undefined" evidence="previouseditor">n</supplied></abbr><ex>us</ex></expan> <g ref="symbols.xml#ivy-leaf">❦</g> <supplied reason="undefined" evidence="previouseditor">munici<hi rend="ligature">pi</hi></supplied> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="3"/><hi rend="supraline">IIII</hi><supplied reason="lost">vir</supplied> <supplied reason="lost">viaru</supplied>m cura<supplied reason="undefined" evidence="previouseditor">ndarum</supplied> <expan><abbr><supplied reason="undefined" evidence="previouseditor">trib</supplied></abbr><ex>unus</ex></expan>
+                    <lb n="4"/><expan><abbr>mi<unclear>l</unclear></abbr><ex>itum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr><supplied reason="lost">le</supplied>g</abbr><ex>ionis</ex></expan> <num value="4"><hi rend="supraline">IIII</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Fl</abbr><ex>aviae</ex></expan> <g ref="symbols.xml#interpunct">·</g> Felicis <g ref="symbols.xml#interpunct">·</g> <supplied reason="undefined" evidence="previouseditor">quaestori</supplied> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="5"/>amp<supplied reason="lost">hi</supplied>theatrum <g ref="symbols.xml#interpunct">·</g> testa<supplied reason="undefined" evidence="previouseditor">mento <g ref="symbols.xml#interpunct">·</g> fieri</supplied> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="6"/>iussit
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDCS</note></app>
+                    <app><note>Text from AE, and compared to drawing.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>Twenty pairs of gladiators belonging to Decimus Lucretius Satrius Valens perpetual flamen of Nero, son of Caesar Augustus, and ten pairs of gladiators belonging to his son, Decimus Lucretius Valens. They will fight at Pompeii on the fourth, fifth, sixth and seventh days before the Ides of April. There will be a regulation beast hunt, and awnings. Aemilius Celer himself wrote (this) under the moon.</p>
+                <p>[---]s Capito, son of Quintus, of Clustumina tribe, flamen of the divine Titus, patron of the municipium, quattuorvir for the administration of roads, military tribune of the 4th legion Flavia Felicis, quaestor, ordered the construction of the amphitheatre in his will.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -134,17 +131,17 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/> <citedRange>4.3884</citedRange>
+                        <ptr target="CIL"/> <citedRange>9.731</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="ILS"/> <citedRange>5145</citedRange>
+                        <ptr target="AE"/> <citedRange>1991.513</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange>16300506</citedRange>
+                        <ptr target="EDCS"/> <citedRange>08201429</citedRange>
                     </bibl>
                 </p>
             </div>

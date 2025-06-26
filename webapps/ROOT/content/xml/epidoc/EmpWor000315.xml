@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000315</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000315</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio III</region>
+                        <settlement>Forum Popilii</settlement>
+                        <repository>Tempio, in situ in sepulchral monument</repository>  <!-- PRIESTHOOD IN MULTIPLE LOCATIONS! -->
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Inscription covers multiple blocks of a large funerary monument rejoined (but with a few gaps between the individual stones). Inscription is within an ornate border, which is itself within an ornate frame of inhabited acanthus leaves, and other scenes.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.mausoleum" ref="https://www.eagle-network.eu/voc/objtyp/lod/1890.html">Mausoleum</objectType>
+                                    <dimensions>
+                                        <height unit="cm">206</height>
+                                        <width unit="cm">248</width>
+                                        <depth unit="cm">47</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Text is extremely neat and regular. "T" in Utiano in line 1 is long.</p>
+                                <locus from="line1" to="line12">Lines 1–12</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">50–115</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/442586">Forum Popili</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/6540700/polla.html">Polla</placeName>
+                                <geo>40.518218, 15.498879</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" subtype="discovered" when="1907">Discovered in the excavations of the sepulchral monument in 1907.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-26" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Utiano</name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Pom</abbr><ex>ptina</ex></expan> <name>Rufo</name>
+                    <lb n="2"/><name>Latiniano</name></persName> <expan><abbr>IIIIvir</abbr><ex>o</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <expan><abbr>iter</abbr><ex>um</ex></expan>
+                    <lb n="3"/><persName type="attested"><name>Insteia</name> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName> <name>Polla</name></persName> <expan><abbr>sacerd</abbr><ex>os</ex></expan> <persName type="divine" key="livia"><name>Iuliae</name>
+                    <lb n="4"/><name>Augustae</name></persName> Volceis et Atinae
+                    <lb n="5"/>optimo et indulgentissimo viro qui
+                    <lb n="6"/>eam pupillam annorum <num value="7">VII</num> in domum
+                    <lb n="7"/>receptam per annos <num value="55">LV</num> cum summo
+                    <lb n="8"/>honore uxorem habuit
+                    <lb n="9"/>hunc decuriones Volceiani inpensa
+                    <lb n="10"/>honorand<supplied reason="lost">um</supplied> censuerunt
+                    <lb n="11"/><persName type="attested"><name>Latiniae</name> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>Posillae</name></persName> <supplied reason="lost">sor</supplied>ori Latiniani
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR, comparison with photograph.</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>To Caius Utianus Rufus Latinianus, son of Caius, of the Pomptina tribe, again quattuorvir for administering justice. Insteia Polla, daughter of Marcus, sacerdos of Iulia Augusta in Volcei and Atina, to her greatest and most tender husband, who having taken her into his home as a ward at the age of 7, for 55 years, with the greatest honour, had her as his wife. The decurions of Volcei decreed that this man be buried at public expense and honoured with an equestrian statue. To Latinia Posilla, the daughter of Marcus, the sister of Latinianus.</p>
+            </div>
+            <div type="commentary">
+                <p>Insteia Polla performed priesthoods to Livia (Iulia Augusta), at both Atina and Volcei.</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1910.191</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>06600029</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>072390</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>029979</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="GraninoCecere2014"/> <citedRange>no. 23</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Grether1946"/> <citedRange>238–239</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

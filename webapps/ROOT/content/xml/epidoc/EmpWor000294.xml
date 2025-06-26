@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000201</title>
+                <title>EmpWor000292</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,15 +16,15 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000201</idno>
+                <idno type="filename">EmpWor000292</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio I</region>
-                        <settlement>Pompeii</settlement>
+                        <region>Regio II</region>
+                        <settlement>Aeclanum</settlement>
                         <repository></repository> 
                         <idno></idno>
                     </msIdentifier>
@@ -55,16 +55,18 @@
                         <handDesc>
                             <handNote>
                                 <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm"></height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii</placeName>
-                                <placeName type="modern" ref="https://www.geonames.org/3170335/pompei.html">Pompei</placeName>
-                                <geo>40.74941, 14.485429</geo>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/442451">Aeclanum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3173383/mirabella-eclano.html">Mirabella Eclano</placeName>
+                                <geo>41.054199832, 15.0104517447</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
@@ -90,13 +92,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-09" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-25" who="#AA">Original data collection and editing</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -106,45 +108,47 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab> <!-- needs work!! -->
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>D</abbr><ex>ecimi</ex></expan></name> <name>Lucreti</name>
-                    <lb n="2"/><name>Satri</name> <name>Valentis</name></persName> flaminis <persName type="divine"><name>Neronis</name> <name>Caesaris</name> <persName type="patronym"><name>Augusti</name> <expan><abbr>fili</abbr><ex>i</ex></expan></persName></persName>
-                    <lb n="3"/>perpetui gladiatorum paria <num value="20">XX</num> et <persName type="attested"><name><expan><abbr>D</abbr><ex>ecimi</ex></expan></name> <name>Lucreti<surplus>o</surplus></name> <name>Valentis</name> <expan><abbr>fili</abbr><ex>i</ex></expan></persName>
-                    <lb n="4"/><expan><abbr>glad</abbr><ex>iatorum</ex></expan> paria <num value="10">X</num> <expan><abbr>pug</abbr><ex>nabunt</ex></expan> Pompeis <num value="4">IV</num> <num value="5">V</num> <num value="6">VI</num> <num value="3">III</num> <expan><abbr>pr</abbr><ex>idie</ex></expan> Idus <expan><abbr>Apr</abbr><ex>iles</ex></expan> venatio legitima
-                    <lb n="5"/>et vela erunt
-                    <lb n="6"/><expan><abbr>scr</abbr><ex>ipsit</ex></expan>
-                    <lb n="7"/><persName type="attested"><name>Celer</name></persName>
-                    <lb n="8"/><expan><abbr>scr</abbr><ex>ipsit</ex></expan>
-                    <lb n="9"/><persName type="attested"><name>Celer</name>
-                    <lb n="10"/><name>Celer</name></persName> <expan><abbr>sing</abbr><ex>ulus</ex></expan>
-                    <lb n="11"/>ad <expan><abbr>luna</abbr><ex>m</ex></expan>
+                <ab>
+                    <lb n="1"/><persName type="attested"><name>Nera<unclear>t</unclear><supplied reason="lost">iae</supplied></name>
+                    <lb n="2"/><name>Betitiae</name>
+                    <lb n="3"/><name>Procillae</name></persName> <expan><abbr>flam</abbr><ex>inicae</ex></expan>
+                    <lb n="4"/><persName type="divine" key="faustina-younger"><name>Faustinae</name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name>
+                    <lb n="5"/><persName type="ruler"><expan><abbr><supplied reason="lost">Imp</supplied></abbr><ex>eratori</ex></expan> <name><supplied reason="lost">A</supplied>ntonini</name> <expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>usti</ex></expan>
+                    <lb n="6"/><supplied reason="lost">Pii</supplied></persName> <expan><abbr>fil</abbr><ex>iae</ex></expan></persName>
+                    <lb n="7"/><persName type="attested"><name><supplied reason="lost" cert="low">Herm</supplied><unclear>a</unclear></name> <expan><abbr>lib</abbr><ex>ertus</ex></expan></persName>
+                    <lb n="8"/><supplied reason="lost"><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan></supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDCS</note></app>
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>Twenty pairs of gladiators belonging to Decimus Lucretius Satrius Valens perpetual flamen of Nero, son of Caesar Augustus, and ten pairs of gladiators belonging to his son, Decimus Lucretius Valens. They will fight at Pompeii on the fourth, fifth, sixth and seventh days before the Ides of April. There will be a regulation beast hunt, and awnings. Aemilius Celer himself wrote (this) under the moon.</p>
+                <p>To Neratia Betitia Procilla, flaminica of Faustina Augusta the daughter of Imperator Antoninus Augustus Pius, [Herm?]a her freedperson (dedicated this), [the place was given by decree of the decurions].</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>As Granino Cecere (2014) suggests, Neratia Betitia Procilla was likely the daughter of C. Betitius Pietas, a prominent equestrian of Aeclanum and of a Neratia Procilla, who might have been the sister of the suffect consul of 145 CE, L. Neratius Proculus, who belonged to an important gens in Saepinum. Our Procula is likely the sister of C. Neratius Proculus Betitius Pius Maximillianus, who was himself flamen of divus Hadrianus, see <ref target="EmpWor000297.xml">EmpWor000297.</ref></p> 
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/> <citedRange>4.3884</citedRange>
+                        <ptr target="CIL"/> <citedRange>9.1163</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="ILS"/> <citedRange>5145</citedRange>
+                        <ptr target="EDCS"/> <citedRange>12400667</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange>16300506</citedRange>
+                        <ptr target="EDR"/> <citedRange>133929</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="GraninoCecere2014"/> <citedRange>no. 17</citedRange>
                     </bibl>
                 </p>
             </div>

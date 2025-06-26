@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000312</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000312</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio II</region>
+                        <settlement>Venusia</settlement>
+                        <repository>Museo Archeologico (lower fragment), Warehouse of Castle (upper fragment)</repository> 
+                        <idno>391.13</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Small fragment of marble plaque, broken and abraded on all sides, perhaps from a statue base</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/1890.html" cert="low">Statue Base</objectType>
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Text is relatively neat, except for the final line which is slightly uncertain. Interpuncts are the shape of a flat 'M'.</p>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm"></height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/442847">Venusia</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3164592/venosa.html">Venosa</placeName>
+                                <geo>40.9688992239, 15.8272682392</geo>
+                            </origPlace>
+                            <origDate></origDate> <!-- 317–320 CE according to EDR? -->
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1988">Found in 1988 in the church of SS. Trinita, in a re-used 6th century context, in the left laternal nave.</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-26" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><supplied reason="lost"><persName type="ruler" key="constantine1"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <name><expan><abbr>Caes</abbr><ex>ar</ex></expan></name> <name><expan><abbr>Val</abbr><ex>erius</ex></expan></name> <name>Costantinus</name>
+                    <lb n="2"/><expan><abbr>Max</abbr><ex>imus</ex></expan> <expan><abbr>P</abbr><ex>ius</ex></expan> <expan><abbr>F</abbr><ex>elix</ex></expan> <expan><abbr>Inv</abbr><ex>ictus</ex></expan> <expan><abbr>Aug</abbr><ex>ustus</ex></expan></persName>
+                    <lb n="3"/><expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>Sarm</abbr><ex>aticus</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan></supplied>
+                    <lb n="4"/><expan><abbr><supplied reason="lost">Ge</supplied><unclear>r</unclear>m</abbr><ex>anicus</ex></expan> <expan><abbr>ma<unclear>x</unclear></abbr><ex>imus</ex></expan> <supplied reason="lost"><expan><abbr>Goth</abbr><ex>icus</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="14">XIIII</num></supplied>
+                    <lb n="5"/><expan><abbr>imp</abbr><ex>erator</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num atLeast="13" atMost="14">XIII<supplied reason="lost" cert="low">I</supplied></num> <supplied reason="lost"><expan><abbr>con</abbr><ex>sul</ex></expan> <num value="4">IIII</num> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied>
+                    <lb n="6"/><gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost">nom</supplied><unclear>i</unclear>nis <g ref="symbols.xml#interpunct">·</g> sui <g ref="symbols.xml#interpunct">·</g> b<gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="7"/><gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost">Ven</supplied>usinis <g ref="symbols.xml#interpunct">·</g> s<gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="8"/><gap reason="lost" extent="unknown" unit="char"/>t cur<unclear>a</unclear><supplied reason="lost">nte <persName type="attested"><name>Nonio</name> <name>Vero</name></persName> <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan></supplied>
+                    <lb n="9"/><gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost">numin</supplied>i <expan><abbr>maiesta<supplied reason="lost">tiq</supplied></abbr><ex>ue</ex></expan> <supplied reason="lost">eius devotus</supplied>
+                    <lb n="10"/><supplied reason="lost">ordo <expan><abbr>populusq</abbr><ex>ue</ex></expan> Venu</supplied>sinorum <gap reason="lost" extent="unknown" unit="char"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR, comparison with photograph.</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>[Imperator Caesar Valerius Costantinus Maximus Pius Felix Invictus Augustus, pontifex maximus, Sarmaticus maximus], Germanicus maximus, [Gothicus maximus, holder of tribunician power for the 14th time], imperator for the 14th(?) time, [consul for the 4th time, father of the fatherland], proconsul [---], [---] in his name [---], [---] in Venusia [---], curated by [Nonius Verus, the most distinguished man] [---], [devoted to his] divine force and majesty, [the town council and people] of Venusia.</p>
+            </div>
+            <div type="commentary"> <!-- Silvestrini, M., 'Venosa. Una nuova epigrafe di Costantino e il recente recupero di un "corrector Apuliae et Calabriae". ', Scienze dell’antichità. Storia. archeologia, antropologia 6, Rome 1992-1993, pp. 120-130  -->
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1995.348</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>2003.364</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>28500319</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>026007</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="LSA"/> <citedRange>1702</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

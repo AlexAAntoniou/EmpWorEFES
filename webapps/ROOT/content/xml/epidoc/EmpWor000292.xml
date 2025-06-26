@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000292</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000292</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio II</region>
+                        <settlement>Aeclanum</settlement>
+                        <repository>Avellino, Irpino Museum</repository> 
+                        <idno>17</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Curvilinear limestone block, broken at bottom.</p>
+                                    <material ana="#material.stone.limestone" ref="https://www.eagle-network.eu/voc/material/lod/66.html">Limestone</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <dimensions>
+                                        <height unit="cm">72</height>
+                                        <width unit="cm">102</width>
+                                        <depth unit="cm">31</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Text is thin but nonetheless neat and well-formed, and characters are evenly spaced. The second "I" in primopilaris is long in line 2, and the first "I" in divi is long in line 4.</p>
+                                <locus from="line1" to="line7">Lines 1–7</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">40–50</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/442451">Aeclanum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3173383/mirabella-eclano.html">Mirabella Eclano</placeName>
+                                <geo>41.054199832, 15.0104517447</geo>
+                            </origPlace>
+                            <origDate atLeast="0050" atMost="0059">50–59 CE</origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered">Found between Grottaminarda and Elumeri, in the territory of Aeclanum at the beginning of the 20th century in a private property.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-25" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublius</ex></expan></name> <name>Crittius</name> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>Cor</abbr><ex>nelia</ex></expan> <name>Firmus</name></persName>
+                    <lb n="2"/>primopilaris <expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="22"><hi rend="supraline">XXII</hi></num> <expan><abbr>trib</abbr><ex>unus</ex></expan> <expan><abbr>cohor</abbr><ex>tis</ex></expan>
+                    <lb n="3"/><num value="6"><hi rend="supraline">VI</hi></num> vigilum <expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>castror</abbr><ex>um</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="12"><hi rend="supraline">XII</hi></num> <expan><abbr>Fulm</abbr><ex>inatae</ex></expan>
+                    <lb n="4"/><hi rend="supraline">IIII</hi>vir <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> flamen <persName type="divine" key="divusAugustus"><name>divi</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+                    <lb n="5"/><persName type="attested"><name>Crittia</name> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName> <name>Priscilla</name></persName>
+                    <lb n="6"/>flaminica <persName type="divine" key="agrippina-younger"><name>Agrippinae</name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName>
+                    <lb n="7"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Crittius</name> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>Cor</abbr><ex>nelia</ex></expan> <name>Firmus</name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR with comparison with photo.</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>Publius Crittius Firmus, son of Publius, of tribe Cornelia, first-spear of the 22nd Legion, tribune of the 6th cohort of the watchmen, prefect of the camps of the 12th Legion Fulminata, quattuorvir with judicial authority, flamen of the divine Augustus; Crittia Priscilla, son of Publius, flaminica of Agrippina Augusta; Caius Crittius Firmus, the son, son of Publius, of tribe Cornelia.</p>
+            </div>
+            <div type="commentary">
+                <p>The characters in the funerary monument are likely father, daughter and son, and the family is elsewhere attested in Aeclanum (CIL 9.1064, 1173).</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1997.397</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>02900106</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>135967</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="GraninoCecere2014"/> <citedRange>no. 14</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Chelotti2000"/> <citedRange>123</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Hemelrijk2005"/> <citedRange>150, 166</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Hemelrijk2015"/> <citedRange>422</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

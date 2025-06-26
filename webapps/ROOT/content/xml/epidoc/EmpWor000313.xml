@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000201</title>
+                <title>EmpWor000313</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,15 +16,15 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000201</idno>
+                <idno type="filename">EmpWor000313</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio I</region>
-                        <settlement>Pompeii</settlement>
+                        <region>Regio II</region>
+                        <settlement>Venusia</settlement>
                         <repository></repository> 
                         <idno></idno>
                     </msIdentifier>
@@ -55,16 +55,18 @@
                         <handDesc>
                             <handNote>
                                 <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm"></height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii</placeName>
-                                <placeName type="modern" ref="https://www.geonames.org/3170335/pompei.html">Pompei</placeName>
-                                <geo>40.74941, 14.485429</geo>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/442847">Venusia</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3164592/venosa.html">Venosa</placeName>
+                                <geo>40.9688992239, 15.8272682392</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
@@ -96,7 +98,7 @@
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-09" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-26" who="#AA">Original data collection and editing</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -106,27 +108,20 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab> <!-- needs work!! -->
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>D</abbr><ex>ecimi</ex></expan></name> <name>Lucreti</name>
-                    <lb n="2"/><name>Satri</name> <name>Valentis</name></persName> flaminis <persName type="divine"><name>Neronis</name> <name>Caesaris</name> <persName type="patronym"><name>Augusti</name> <expan><abbr>fili</abbr><ex>i</ex></expan></persName></persName>
-                    <lb n="3"/>perpetui gladiatorum paria <num value="20">XX</num> et <persName type="attested"><name><expan><abbr>D</abbr><ex>ecimi</ex></expan></name> <name>Lucreti<surplus>o</surplus></name> <name>Valentis</name> <expan><abbr>fili</abbr><ex>i</ex></expan></persName>
-                    <lb n="4"/><expan><abbr>glad</abbr><ex>iatorum</ex></expan> paria <num value="10">X</num> <expan><abbr>pug</abbr><ex>nabunt</ex></expan> Pompeis <num value="4">IV</num> <num value="5">V</num> <num value="6">VI</num> <num value="3">III</num> <expan><abbr>pr</abbr><ex>idie</ex></expan> Idus <expan><abbr>Apr</abbr><ex>iles</ex></expan> venatio legitima
-                    <lb n="5"/>et vela erunt
-                    <lb n="6"/><expan><abbr>scr</abbr><ex>ipsit</ex></expan>
-                    <lb n="7"/><persName type="attested"><name>Celer</name></persName>
-                    <lb n="8"/><expan><abbr>scr</abbr><ex>ipsit</ex></expan>
-                    <lb n="9"/><persName type="attested"><name>Celer</name>
-                    <lb n="10"/><name>Celer</name></persName> <expan><abbr>sing</abbr><ex>ulus</ex></expan>
-                    <lb n="11"/>ad <expan><abbr>luna</abbr><ex>m</ex></expan>
+                <ab>
+                    <lb n="1"/><persName type="divine" key="laresAugusti"><name><expan><abbr><supplied reason="lost">L</supplied>arib</abbr><ex>us</ex></expan></name> <name><expan><abbr>Aug</abbr><ex>ustis</ex></expan></name></persName>
+                    <lb n="2"/><persName type="attested"><name><expan><abbr>G</abbr><ex>aius</ex></expan></name> <name>Avittius</name>
+                    <lb n="3"/><name>Epap<hi rend="ligature">hr</hi>oditu<supplied reason="lost">s</supplied></name></persName>
+                    <lb n="4"/><expan><abbr>mag</abbr><ex>ister</ex></expan> <expan><abbr>Aug</abbr><ex>ustalis</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDCS</note></app>
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>Twenty pairs of gladiators belonging to Decimus Lucretius Satrius Valens perpetual flamen of Nero, son of Caesar Augustus, and ten pairs of gladiators belonging to his son, Decimus Lucretius Valens. They will fight at Pompeii on the fourth, fifth, sixth and seventh days before the Ides of April. There will be a regulation beast hunt, and awnings. Aemilius Celer himself wrote (this) under the moon.</p>
+                <p>To the Augustan Lares. Gaius Avittius Epaphroditus, magister Augustalis, (built this).</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -134,17 +129,17 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/> <citedRange>4.3884</citedRange>
+                        <ptr target="CIL"/> <citedRange>9.423</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="ILS"/> <citedRange>5145</citedRange>
+                        <ptr target="EDCS"/> <citedRange>08201122</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange>16300506</citedRange>
+                        <ptr target="EDR"/> <citedRange>164544</citedRange>
                     </bibl>
                 </p>
             </div>

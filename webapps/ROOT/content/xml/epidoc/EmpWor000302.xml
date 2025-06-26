@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000302</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000302</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio II</region>
+                        <settlement>Herdoniae</settlement>
+                        <repository>Forum of Herdoniae</repository> <!-- SE corner of the forum -->
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Long thin rectangular limestone statue base, bottom left corner of plinth is missing.</p>
+                                    <material ana="#material.stone.limestone" ref="https://www.eagle-network.eu/voc/material/lod/66.html">Limestone</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
+                                    <dimensions>
+                                        <height unit="cm">117</height>
+                                        <width unit="cm">55</width>
+                                        <depth unit="cm">47</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Uneven and slightly blocky text.</p>
+                                <locus from="line1" to="line10">Lines 1–10</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">35–50</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/442613">Herdoniae</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3171973/ordona.html">Ordona</placeName>
+                                <geo>41.3104411958, 15.6223949934</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" subtype="discovered">Discovered re-used in the forum of Herdoniae</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-25" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <div type="textpart" subtype="face" n="front">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name>Arreniae</name>
+                        <lb n="2"/><name>Felicissimae</name></persName>
+                        <lb n="3"/>sacerdoti
+                        <lb n="4"/><persName type="divinity" key="juliaMamaea" cert="low"><del rend="erasure"><name>Mameae</name></del></persName>
+                        <lb n="5"/><del rend="erasure" cert="low">matris</del> <expan><abbr>Aug</abbr><ex>usti</ex></expan>
+                        <lb n="6"/><persName type="attested"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name>Arreni</name> <name>Men
+                        <lb n="7" break="no"/>andri</name></persName> <expan><abbr>fil</abbr><ex>iae</ex></expan> <expan><abbr>coll</abbr><ex>egium</ex></expan>
+                        <lb n="8"/>iuvenum ob me
+                        <lb n="9" break="no"/>rita eius
+                        <lb n="10"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="left">
+                    <ab>
+                        <lb n="1"/><expan><abbr>ded</abbr><ex>icata</ex></expan> <expan><abbr>kal</abbr><ex>endis</ex></expan> <expan><abbr>Iun</abbr><ex>iis</ex></expan>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>To Arrenia Felicissima, sacerdos of [Mamaea?], [mother?] of the Augusti, daughter of Lucius Arrenius Menander. The college of youths (set this up) on account of her merits. This place was given by decree of the decurions.</p>
+            </div>
+            <div type="commentary">
+                <p>Arrenia's father (Lucius Arrenius Menander) and mother (Bruttia L.f. Nereis) are elsewhere attested in Herdoniae. There are two options for the restoration of the dedicatee of Arrenia's priesthood: [[[Mamaeae | matris]]] Aug(usti) or [[[Iuliae | Mamaeae]]] Aug(ustae).</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1967.94</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>09800066</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>074693</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>014179</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="GraninoCecere2014"/> <citedRange>no. 18</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -29,8 +29,20 @@
                     <person xml:id="divaLivia">
                         <persName xml:lang="en">Diva Augusta (Livia)</persName>
                     </person>
+                    <person xml:id="divaIulia">
+                        <persName xml:lang="en">Diva Iulia (daughter of Titus)</persName>
+                    </person>
+                    <person xml:id="divusTitus">
+                        <persName xml:lang="la">Divus Titus</persName>
+                    </person>
+                    <person xml:id="divusHadrianus">
+                        <persName xml:lang="la">Divus Hadrianus</persName>
+                    </person>
                     <person xml:id="divusTraianus">
                         <persName xml:lang="la">Divus Traianus</persName>
+                    </person>
+                    <person xml:id="faustina-younger">
+                        <persName xml:lang="en">Faustina the Younger</persName>
                     </person>
                     <person xml:id="divaFaustina">
                         <persName xml:lang="en">Divine Faustina</persName>
@@ -39,6 +51,12 @@
                     <person xml:id="divusPertinax">
                         <persName xml:lang="en">Divine Pertinax</persName>
                         <persName xml:lang="la">Divus Pertinax</persName>
+                    </person>
+                    <person xml:id="divusSeverus">
+                        <persName xml:lang="en">Divine Severus</persName>
+                    </person>
+                    <person xml:id="juliaMamaea">
+                        <persName xml:lang="en">Julia Mamaea</persName>
                     </person>
                     <person xml:id="ceresAugusta">
                         <persName xml:lang="en">Ceres Augusta</persName>
@@ -54,6 +72,9 @@
                     </person>
                     <person xml:id="isisAugusta">
                         <persName xml:lang="en">Isis Augusta</persName>
+                    </person>
+                    <person xml:id="iunoAugusta">
+                        <persName xml:lang="en">Iuno Augusta</persName>
                     </person>
                     <person xml:id="liberAugustus">
                         <persName xml:lang="la">Liber Augustus</persName>
@@ -140,6 +161,9 @@
                         <persName xml:lang="grc">Εἰλείθυια</persName>
                         <persName xml:lang="en">Eileithyia</persName>
                     </person>
+                    <person xml:id="felicitas">
+                        <persName xml:lang="la">Felicitas</persName>
+                    </person>
                     <person xml:id="fortuna">
                         <persName xml:lang="la">Fortuna</persName>
                         <persName xml:lang="en">Fortune</persName>
@@ -177,6 +201,9 @@
                         <persName xml:lang="grc">Ἴσις</persName>
                         <persName xml:lang="en">Isis</persName>
                     </person>
+                    <person xml:id="isisRegina">
+                        <persName xml:lang="la">Isis Regina</persName>
+                    </person>
                     <person xml:id="iunoRegina">
                         <persName xml:lang="la">Iuno Regina</persName>
                     </person>
@@ -197,6 +224,9 @@
                     <person xml:id="laresAugusti">
                         <persName xml:lang="la">Lares Augusti</persName>
                         <persName xml:lang="en">Augustan Lares</persName>
+                    </person>
+                    <person xml:id="materMagna">
+                        <persName xmllang="la">Mater Magna</persName>
                     </person>
                     <person xml:id="nemesis">
                         <persName xml:lang="grc">Νέμεσις</persName>

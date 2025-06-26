@@ -154,6 +154,14 @@
                         <persName xml:lang="la">Flavia Iulia Helena Augusta</persName>
                         <floruit>293-306</floruit>
                     </person>
+                    <person xml:id="galerius">
+                        <persName xml:lang="en">Galerius</persName>
+                        <floruit>305–311 CE</floruit>
+                    </person>
+                    <person xml:id="maximinus-daia">
+                        <persName xml:lang="en">Maximinus Daia</persName>
+                        <floruit>310–313 CE</floruit>
+                    </person>
                     <person xml:id="constantinus1">
                         <persName xml:lang="en">Constantine I</persName>
                         <persName xml:lang="la">Caesar Gaius Flavius Valerius Constantinus Augustus</persName>
@@ -182,6 +190,10 @@
                         <persName xml:lang="en">Theodosius I</persName>
                         <persName xml:lang="la">Flavius Theodosius Augustus</persName>
                         <floruit>347-395</floruit>
+                    </person>
+                    <person xml:id="valentinian1">
+                        <persName xml:lang="en">Valentinian I</persName>
+                        <floruit>364–375 CE</floruit>
                     </person>
                     <person xml:id="arcadius">
                         <persName xml:lang="en">Arcadius</persName>

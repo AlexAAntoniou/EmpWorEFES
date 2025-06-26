@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000305</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000305</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio II</region>
+                        <settlement>Herdoniae</settlement>
+                        <repository>Cacciaguerra Granary</repository> <!-- Discovered walled into the left corner of the Cacciaguerra granary -->
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Rough statue base.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
+                                    <dimensions>
+                                        <height unit="cm">120</height>
+                                        <width unit="cm">53.5</width>
+                                        <depth unit="cm">51</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Text is rough and uneven.</p>
+                                <locus from="line1" to="line6">Lines 1–6</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">45–55</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/442613">Herdoniae</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3171973/ordona.html">Ordona</placeName>
+                                <geo>41.3104411958, 15.6223949934</geo>
+                            </origPlace>
+                            <origDate atLeast="0305" atMost="0307" evidence="ruler">305–307 CE</origDate> <!-- previous inscription on left side?? 249 CE on basis of consular year -->
+                        </origin>
+                        <provenance type="found" subtype="discovered">Discovered walled into the left corner of the Cacciaguerra granary</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-25" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <div type="textpart" subtype="face" n="front">
+                    <ab>
+                        <lb n="1"/><persName type="ruler" key="maximinus-daia"><expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> <name>Galerio</name> <name><expan><abbr>Val</abbr><ex>erio</ex></expan></name>
+                        <lb n="2"/><name>Maximino</name></persName> <expan><abbr>nob</abbr><ex>ilissimo</ex></expan>
+                        <lb n="3"/><expan><abbr>Caes</abbr><ex>ari</ex></expan> <persName type="attested"><name>Ulpius</name>
+                        <lb n="4"/><name>Alenus</name></persName> <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>p</abbr><ex>erfectissimus</ex></expan> <expan><abbr>corr</abbr><ex>ector</ex></expan>
+                        <lb n="5"/><expan><abbr>Apul</abbr><ex>iae</ex></expan> et <expan><abbr>Cal</abbr><ex>abriae</ex></expan>
+                        <lb n="6"/><expan><abbr>d</abbr><ex>evotus</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>m</abbr><ex>aiestati</ex><abbr>que</abbr></expan> eius
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="left">
+                    <ab>
+                        <lb n="1"/><expan><abbr>ded</abbr><ex>icata</ex></expan> <num value="5">V</num> <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Mart</abbr><ex>ias</ex></expan>
+                        <lb n="2"/><persName type="attested"><name>Aemiliano</name> <num value="2">II</num></persName> et <persName type="attested"><name>Aquilino</name></persName>
+                        <lb n="3"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>
+                    [Front face]: To our master Galerius Valerius Maximinus, the most noble Caesar. Ulpius Alenus, the most perfect man, correct of Apulia and Calabria, devoted to his divine force and majesty.
+                    [Left face]: Dedicated on the 5th day before the Nones of March, when Aemilianus (for the second time) and Aquilinus were consuls.
+                </p>
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/> <citedRange>9.692</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1967.91</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>08201391</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>074690; 103730</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>014170</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

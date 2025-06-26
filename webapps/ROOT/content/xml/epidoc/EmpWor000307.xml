@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000201</title>
+                <title>EmpWor000307</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,16 +16,16 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000201</idno>
+                <idno type="filename">EmpWor000307</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio I</region>
-                        <settlement>Pompeii</settlement>
-                        <repository></repository> 
+                        <region>Regio II</region>
+                        <settlement>Larinum</settlement>
+                        <repository>Amphitheatre</repository> <!-- In the depositi of the amphitheatre -->
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,41 +34,43 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                <support><p>Rectangular limestone statue base.</p>
+                                    <material ana="#material.stone.limestone" ref="https://www.eagle-network.eu/voc/material/lod/66.html">Limestone</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">89.3</height>
+                                        <width unit="cm">59</width>
+                                        <depth unit="cm">53</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text is written in top half of the stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Text is relatively fine and well-formed. "U" in datum in line 8 is not symmetrical. Use of ligatures in lines 1–2 to fit text into the line.</p>
+                                <locus from="line1" to="line8">Lines 1–8</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">33–50</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/433032">Pompeii</placeName>
-                                <placeName type="modern" ref="https://www.geonames.org/3170335/pompei.html">Pompei</placeName>
-                                <geo>40.74941, 14.485429</geo>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/442629">Larinum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3175105/larino.html">Larino</placeName>
+                                <geo>41.8064879, 14.9175768</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1990">Found in Torre S. Anna (or De Gennaro) in an area for public use (in excavations undertaken by the Soprintendenza Archeologia, in June 1990.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,13 +92,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-09" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-25" who="#AA">Original data collection and editing</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -106,45 +108,47 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab> <!-- needs work!! -->
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>D</abbr><ex>ecimi</ex></expan></name> <name>Lucreti</name>
-                    <lb n="2"/><name>Satri</name> <name>Valentis</name></persName> flaminis <persName type="divine"><name>Neronis</name> <name>Caesaris</name> <persName type="patronym"><name>Augusti</name> <expan><abbr>fili</abbr><ex>i</ex></expan></persName></persName>
-                    <lb n="3"/>perpetui gladiatorum paria <num value="20">XX</num> et <persName type="attested"><name><expan><abbr>D</abbr><ex>ecimi</ex></expan></name> <name>Lucreti<surplus>o</surplus></name> <name>Valentis</name> <expan><abbr>fili</abbr><ex>i</ex></expan></persName>
-                    <lb n="4"/><expan><abbr>glad</abbr><ex>iatorum</ex></expan> paria <num value="10">X</num> <expan><abbr>pug</abbr><ex>nabunt</ex></expan> Pompeis <num value="4">IV</num> <num value="5">V</num> <num value="6">VI</num> <num value="3">III</num> <expan><abbr>pr</abbr><ex>idie</ex></expan> Idus <expan><abbr>Apr</abbr><ex>iles</ex></expan> venatio legitima
-                    <lb n="5"/>et vela erunt
-                    <lb n="6"/><expan><abbr>scr</abbr><ex>ipsit</ex></expan>
-                    <lb n="7"/><persName type="attested"><name>Celer</name></persName>
-                    <lb n="8"/><expan><abbr>scr</abbr><ex>ipsit</ex></expan>
-                    <lb n="9"/><persName type="attested"><name>Celer</name>
-                    <lb n="10"/><name>Celer</name></persName> <expan><abbr>sing</abbr><ex>ulus</ex></expan>
-                    <lb n="11"/>ad <expan><abbr>luna</abbr><ex>m</ex></expan>
+                <ab>
+                    <lb n="1"/><persName type="attested"><name>Coeliae</name> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>Tertull<hi rend="ligature">ae</hi></name></persName>
+                    <lb n="2"/>sacerdoti <persName type="divine" key="divaLivia"><name>di<hi rend="ligature">va</hi>e</name> <name><hi rend="ligature">Au</hi>gustae</name></persName>
+                    <lb n="3"/><persName type="attested"><name>Gabbia</name> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>Tertulla</name></persName>
+                    <lb n="4"/>avia posit
+                    <lb n="5"/>huic primae omnium
+                    <lb n="6"/>in municipio annorum <num value="7">VII</num>
+                    <lb n="7"/>decurionum decreto sacer
+                    <lb n="8" break="no"/>dotium datum est
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDCS</note></app>
+                    <app><note>Text from EDR, comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>Twenty pairs of gladiators belonging to Decimus Lucretius Satrius Valens perpetual flamen of Nero, son of Caesar Augustus, and ten pairs of gladiators belonging to his son, Decimus Lucretius Valens. They will fight at Pompeii on the fourth, fifth, sixth and seventh days before the Ides of April. There will be a regulation beast hunt, and awnings. Aemilius Celer himself wrote (this) under the moon.</p>
+                <p>To Coelia Tertulla, daughter of Marcus, sacerdos of diva Augusta, Gabbia Tertulla, daughter of Marcus, her grandmother, set (this up). To her, before all others in the municipality, at the age of seven, by decree of the decurions, the priesthood was granted.</p>
             </div>
             <div type="commentary">
-                <p></p> 
+               <p>As Granino Cecere (2014) argues, it is probable that it is this Gabbia is named in <ref target="EmpWor000306.xml">EmpWor000306.</ref>. This Coelia Tertulla is mentioned in two other inscriptions (CIL 9.735, AE 1997.357) in which she is now a woman (rather than a child).</p>  
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/> <citedRange>4.3884</citedRange>
+                        <ptr target="AE"/> <citedRange>1991.514a</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="ILS"/> <citedRange>5145</citedRange>
+                        <ptr target="EDCS"/> <citedRange>05000129</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange>16300506</citedRange>
+                        <ptr target="EDR"/> <citedRange>033118</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="GraninoCecere2014"/> <citedRange>no. 20</citedRange>
                     </bibl>
                 </p>
             </div>
