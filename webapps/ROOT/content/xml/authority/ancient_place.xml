@@ -26,6 +26,14 @@
                         <location><geo>40.92209, 14.83126</geo></location>
                         <idno type="pleiades" ref="https://pleiades.stoa.org/places/432618">Abellinum</idno>
                     </placeName>
+                    <placeName xml:id="AgerAlbanus">
+                        <placeName xml:lang="la">Ager Albanus</placeName>
+                        <country>Italy</country>
+                        <region>Regio I</region>
+                        <location><geo>41.72895, 12.66020</geo></location>
+                        <idno type="pleiades" ref="https://pleiades.stoa.org/places/371030888">Ager Albanus</idno>
+                        <idno type="geonames" ref="https://www.geonames.org/3183356/albano-laziale.html">Albano Laziale</idno>
+                    </placeName>
                 </listPlace>
             </listPlace>
         </body>

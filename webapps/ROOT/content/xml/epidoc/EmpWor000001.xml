@@ -59,7 +59,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace>Worship presumed to have taken place at <placeName key="Abellinum">Abellinum</placeName></origPlace>
+                            <origPlace>Worship presumed to have taken place at <placeName ref="locations.xml#Abellinum">Abellinum</placeName></origPlace>
                             <origDate notBefore="0040" notAfter="0100" precision="low" evidence="content">Mid-first century CE (stylistically)</origDate>
                         </origin>
                         <provenance type="found"></provenance>
