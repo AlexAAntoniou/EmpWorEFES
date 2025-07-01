@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000834</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000834</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio XI</region>
+                        <settlement>Comum</settlement>
+                        <repository></repository>  
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Upper section of a large plaque, with bottom section broken and missing. Text within carved frame, and floral entabulature.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <dimensions>
+                                        <height unit="cm"></height>
+                                        <width unit="cm"></width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.fragment"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p></p>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm"></height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/383627">Comum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3178229/como.html">Como</placeName>
+                                <geo>45.81192, 9.085784</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-07-01" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>T</abbr><ex>ito</ex></expan></name> <name>Annio</name> <persName type="patronym"><name><expan><abbr>T</abbr><ex>iti</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName>
+                    <lb n="2"/><expan><abbr>Quir</abbr><ex>ina</ex></expan> <name>Maximo</name> <name>Pomponiano</name></persName>
+                    <lb n="3"/><expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divine" key="divusAugustus"><name>divi</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> auguri <expan><abbr>praef</abbr><ex>ecto</ex></expan>
+                    <lb n="4"/>alae <expan><abbr>mil</abbr><ex>iariae</ex></expan> <expan><abbr>pr</abbr><ex>imae</ex></expan> <expan><abbr>U<supplied reason="lost">lp</supplied></abbr><ex>iae</ex></expan> <expan><abbr>cont</abbr><ex>ariorum</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan> alae
+                    <lb n="5"/><expan><abbr>pr</abbr><ex>imae</ex></expan> <expan><abbr>praetor</abbr><ex>iae</ex></expan> <expan><abbr><supplied reason="lost">trib</supplied></abbr><ex>uno</ex></expan> <expan><abbr><supplied reason="lost">m</supplied>il</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <expan><abbr>pr</abbr><ex>imae</ex></expan> <expan><abbr>Miner</abbr><ex>viae</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDCS, with comparison to photograph.</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>To Titus Annius Maximus Pomponianus, son of Titus, of the Quirina tribe, flamen of the divine Augustus, augur, prefect of the first Ulpian miliary ala of lancers, prefect of the first praetorian ala, military tribune of the first legion of Minerva [---]</p>
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/> <citedRange>5.5266</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>2725</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05100420</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

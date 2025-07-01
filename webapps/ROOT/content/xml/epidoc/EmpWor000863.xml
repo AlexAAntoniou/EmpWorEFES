@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000863</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000863</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio XI</region>
+                        <settlement>Vercellae</settlement> <!-- check! -->
+                        <repository></repository>  
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Multiple contiguous fragments, with all sides original except for broken right side, which based on the centering of line 4, can only be obscuring one or two letters at most.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/1890.html">Statue Base</objectType>
+                                    <dimensions>
+                                        <height unit="cm">88</height>
+                                        <width unit="cm">53</width>
+                                        <depth unit="cm">5</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.fragmented"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><p>Text is contained within upper half of stone.</p>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Text is neat and well defined, with serifs. Small triangular interpuncts. "I"s are tall in lines 2 and 3.</p>
+                                <locus from="line1" to="line4">Lines 1–4</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">48–72</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/383815">Vercellae</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3164565/vercelli.html">Vercelli</placeName>
+                                <geo>45.321094, 8.426374</geo>
+                            </origPlace>
+                            <origDate atLeast="0100" atMost="0150" cert="low">First half of the 2nd century CE(?)</origDate>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-07-01" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name>Septiciae</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <supplied reason="lost"><expan><abbr>f</abbr><ex>iliae</ex></expan></supplied></persName>
+                    <lb n="2"/><name>Marcellina<supplied reason="lost">e</supplied></name></persName>
+                    <lb n="3"/>sacerdoti <g ref="symbols.xml#interpunct">·</g> <persName type="divine"><name><expan><abbr>diva<supplied reason="lost">r</supplied></abbr><ex>um</ex></expan></name></persName>
+                    <lb n="4"/><expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Own evaluation of text, by comparison with photograph and published editions.</note></app>
+                    <app loc="3"><note>AE 1986.264 (on the basis of Roda) restores the priesthood as sacerdoti diva[e Augustae]. I follow Granino Cecere 2014, in restoring sacerdoti diva[r(um)], because – as Granino Cecere rightly notes – there is not sufficient space in that line (assuming that line four was centred on the stone) for anything more than one or two characters.</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>To Septicia Marcellina, daughter of Marcus, sacerdos of the divine women, by decree of the decurions.</p>
+            </div>
+            <div type="commentary">
+                <p>If we are right to restore diva[r(um)], following Granino Cecere 2014, Septicia Marcellina potentially held her priesthood in the first half of the second century CE. Bassignano (1994-1995) would prefer to see the priesthood as dedicated to the divine Livia (diva Augusta).</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1986.264</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>08100117</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>080143</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>004580</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="GraninoCecere2014"/> <citedRange>no. 71</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Bassignano1994-1995"/> <citedRange>no. 10</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000324</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000324</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio III</region>
+                        <settlement>Paestum</settlement>
+                        <repository>Paestum, Museo Archeologico Nazionale, Roman Room.</repository>  
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Multiple reconstructed fragments of a long rectangular plaque, significant portions of the stone are missing.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
+                                    <dimensions>
+                                        <height unit="cm">86</height>
+                                        <width unit="cm">254</width>
+                                        <depth unit="cm">4.4</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Text is extremely neat and well-defined.</p>
+                                <locus from="line1" to="line8">Lines 1–8</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">44–153</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/442733">Paestum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3171709/paestum.html">Paestum</placeName>
+                                <geo>40.4208483394, 15.0050786006</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublius</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Babull<unclear>i</unclear><supplied reason="lost">u</supplied><unclear>s</unclear></name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>H<supplied reason="lost">or</supplied></abbr><ex>atia</ex></expan> <name>Sallu<supplied reason="lost">vius</supplied></name> <gap reason="lost" extent="unknown" unit="char"/></persName>
+                    <lb n="2"/><expan><abbr>trib</abbr><ex>unus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>milit</abbr><ex>um</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="22"><unclear>XXII</unclear></num> <expan><abbr>Deio<unclear>tera</unclear>n</abbr><ex>ae</ex></expan> <g ref="symbols.xml#interpunct">·</g> pro<supplied reason="lost" cert="low">motus ab <persName type="ruler"><name><expan><abbr>Imp</abbr><ex>eratore</ex></expan></name> <name>Vespasiano</name></persName></supplied>
+                    <lb n="3"/><supplied reason="lost" cert="low">ad agros dando</supplied>s <g ref="symbols.xml#interpunct">·</g> dividendos <g ref="symbols.xml#interpunct">·</g> veteranis <g ref="symbols.xml#interpunct">·</g> qui <g ref="symbols.xml#interpunct">·</g> su<supplied reason="lost" cert="low">nt adsscripti liberalitate et</supplied>
+                    <lb n="4"/><supplied reason="lost" cert="low">indulgenti</supplied><unclear>a</unclear> <g ref="symbols.xml#interpunct">·</g> eius <g ref="symbols.xml#interpunct">·</g> in <g ref="symbols.xml#interpunct">·</g> colonia <g ref="symbols.xml#interpunct">·</g> Flavia <g ref="symbols.xml#interpunct">·</g> Prima <g ref="symbols.xml#interpunct">·</g> Paesti <g ref="symbols.xml#interpunct">·</g> cu<supplied reason="lost" cert="low">rante</supplied> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="5"/><supplied reason="lost" cert="low">ad <expan><abbr>num</abbr><ex>erum</ex></expan></supplied> <expan><abbr><supplied reason="lost" cert="low">discri</supplied>ptor</abbr><ex>um</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>compl</abbr><ex cert="low">endum</ex></expan> <g ref="symbols.xml#interpunct">·</g> missus <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g> accensus <g ref="symbols.xml#interpunct">·</g> provinci<unclear>ae</unclear> <supplied reason="lost">B</supplied>elgicae <g ref="symbols.xml#interpunct">·</g> acc<supplied reason="lost" cert="low">ipiendos</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="5" unit="char"/> <expan><abbr><unclear>pontifi</unclear><supplied reason="lost">c</supplied></abbr></expan> <supplied reason="lost">fla</supplied>men <g ref="symbols.xml#interpunct">·</g> <persName type="divinity" key="divusClaudius"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Claudi</name></persName> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">decu</supplied><unclear>r</unclear>ion<unclear>e</unclear>s <g ref="symbols.xml#interpunct">·</g> etia<supplied reason="lost">m</supplied> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">perfece</supplied>runt <g ref="symbols.xml#interpunct">·</g>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR, with comparison with photograph</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1975.251</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>09400211</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>076085</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>009336</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

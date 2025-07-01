@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000861</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000861</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio XI</region>
+                        <settlement>Ticinum</settlement>
+                        <repository>Museo Civico Archeologico del Castello; Church of S. Ambrogio in Gualdrasco</repository>  
+                        <idno>A 620</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Two fragments on a much larger inscription, almost contiguous but for one missing letter between. Moulding at bottom suggest that bottom edge is original, but all others are broken.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
+                                    <dimensions>
+                                        <height unit="cm">30</height>
+                                        <width unit="cm">49.5</width>
+                                        <depth unit="cm">18.5</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.fragments"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Letters are neat and well-defined, with serifs. Interpuncts are small and circular.</p>
+                                <locus from="line1" to="line2">Lines 1–2</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">45–60</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/383798">Ticinum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3171366/pavia.html">Pavia</placeName>
+                                <geo>45.185899, 9.156562</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" subtype="discovered">Gauldrasco, church of S. Ambrogio. Both fragments are currently in separate locations.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.buildinginscription" ref="https://www.eagle-network.eu/voc/typeins/lod/86.html" cert="low">Building Inscription(?)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-07-01" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><unclear>M</unclear>ania</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName> <name>B<supplied reason="lost">e</supplied>tutia</name> <name><seg part="I">Pro</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="2"/>flaminica <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="divaLivia"><name><unclear>d</unclear>ivae</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <g ref="symbols.xml#ivy-leaf">❦</g> <gap reason="lost" extent="unknown" unit="char"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR, comparison with photographs</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>Mania Betutia Pro[---], daughter of Lucius, flaminica of the divine Augusta [---].</p>
+            </div>
+            <div type="commentary">
+                <p>As Granino Cecere (2014) suggests, it is possible that this once belonged to a small architrave of a building, perhaps a sacred site. Granino Cecere (2014) and Bassignano (1994-1995) see this as a priesthood to the divine Livia (diva Augusta).</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/> <citedRange>5.6435</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1982.415</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1992.790</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05101596</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>078711</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>002020</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="GraninoCecere2014"/> <citedRange>no. 70</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Bassignano1994-1995"/> <citedRange>no. 13</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

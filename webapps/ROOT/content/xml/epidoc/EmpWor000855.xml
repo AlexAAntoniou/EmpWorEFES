@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000855</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000855</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio XI </region>
+                        <settlement>Novaria</settlement>
+                        <repository>Novara, Lapidary fo the Rectory of Santa Maria</repository>  
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Large plaque in multiple contiguous fragments, with lower left corner entirely missing.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
+                                    <dimensions>
+                                        <height unit="cm">65</height>
+                                        <width unit="cm">246</width>
+                                        <depth unit="cm">12</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.fragments.contiguous"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p></p>
+                                <locus from="line1" to="line7">Lines 1–7</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">30–70</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/383717">Novaria</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3172189/novara.html">Novara</placeName>
+                                <geo>45.445082, 8.618661</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" subtype="discovered">Discovered in the area of the ancient church of San Gaudenzio.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.buildinginscription" ref="http://www.eagle-network.eu/voc/typeins/lod/86.html">Building Inscription</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-07-01" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Valerius</name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr><unclear>f</unclear></abbr><ex>ilius</ex></expan></persName> <expan><abbr>Claud</abbr><ex>ia</ex></expan> <name>Pansa</name></persName> flamen
+                    <lb n="2"/>divorum <persName type="divine" key="divusVespasianus">Vespasiani</persName> <persName type="divine" key="divusTraianus">Traiani</persName> <persName type="divine" key="divusHadrianus"><expan><abbr>Hadrian</abbr><ex>i</ex></expan></persName> <expan><abbr>p</abbr><ex>rimus</ex><expan>p</expan><ex>ilus</ex></expan> bis
+                    <lb n="3"/><expan><abbr>trib</abbr><ex>unus</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="9">VIIII</num> <expan><abbr>pr</abbr><ex>aetoriae</ex></expan> <expan><abbr>proc</abbr><ex>urator</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>provinc</abbr><ex>iae</ex></expan> Britanniae
+                    <lb n="4"/><supplied reason="undefined" evidence="previouseditor">balineum quod vi</supplied> <unclear>c</unclear>onsumptum fuerat ampliatis solo
+                    <lb n="5"/><supplied reason="undefined" evidence="previouseditor">et operibus intra bie</supplied>nnium pecunia sua restituit et dedicavit
+                    <lb n="6"/><supplied reason="undefined" evidence="previouseditor">in quod opus legata</supplied> <unclear>q</unclear>uoque rei <expan><abbr>p</abbr><ex>ublicae</ex></expan> te<unclear>s</unclear>tamento <persName type="attested"><name>Albuciae</name> <name>Candidae</name></persName>
+                    <lb n="7"/><supplied reason="undefined" evidence="previouseditor">uxoris suae <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertios</ex></expan></supplied> <num value="200000"><supplied reason="undefined" evidence="previouseditor">C</supplied>C<!-- milia --></num> consens<unclear>u</unclear> ordinis amplius erogavit
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR, with comparison with Granino Cecere 2014</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>Caius Valerius Pansa, son of Caius, of Claudian tribe, flamen of the divine men Vespasian, Trajan (and) Hadrian, first-spear twice, tribune of the 9th praetorian cohort, procurator for the Augustus of the province of Britannia, restored and dedicated with his own money within two years the bathhouse which had collapsed from age, having expanded the site and the structures, for which work, he also expended the 200,000 sesterces left in the will of his wife, Albucia Candida, for the res publica, (and) with the council's approval, he spent even more than that. </p>
+            </div>
+            <div type="commentary">
+                <p>Caius Valerius Pansa and his wife Albucia Candida also appear in <ref target="EmpWor000856.xml">EmpWor00856.</ref>, in which the wife is still alive. The extent of her benefactions in her will to the res publica (200,000 sesterces) proves her significant power and social status.</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/> <citedRange>5.6513</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>108483</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05101678</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="GraninoCecere2014"/> <citedRange>no. 69</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000316</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000316</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio III</region>
+                        <settlement>Paestum</settlement>
+                        <repository>Paestum, Museo Archeologico Nazionale</repository>  
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Two non-contiguous fragments of a marble statue base.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
+                                    <dimensions>
+                                        <height unit="cm">77.5</height>
+                                        <width unit="cm">23</width>
+                                        <depth unit="cm">24.5</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.fragment"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Letters are neat and well defined, with serifs. Small "O" of patro- in line 3.</p>
+                                <locus from="line1" to="line7">Lines 1–7</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">40–73</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/442733">Paestum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3171709/paestum.html">Paestum</placeName>
+                                <geo>40.4208483394, 15.0050786006</geo>
+                            </origPlace>
+                            <origDate atLeast="0138" atMost="0192" evidence="ruler">Priesthood to one of the Antonines.</origDate>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <g ref="symbols.xml#ivy-leaf">❦</g> <name>Di<unclear>g</unclear><supplied reason="lost">itio</supplied></name> <persName type="patronym"><name><expan><abbr><supplied reason="lost" cert="low">L</supplied></abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName>
+                    <lb n="2"/><expan><abbr>Ma<supplied reason="lost">ec</supplied></abbr><ex>ia</ex></expan> <name><supplied reason="lost">Bas</supplied>so</name></persName>
+                    <lb n="3"/><expan><abbr><hi rend="supraline">II</hi><g ref="symbols.xml#ivy-leaf">❦</g>vir</abbr><ex>o</ex></expan> <expan><abbr><unclear>q</unclear><supplied reason="lost">quin</supplied><unclear>q</unclear></abbr><ex>uennali</ex></expan> patro
+                    <lb n="4" break="no"/>no <g ref="symbols.xml#ivy-leaf">❦</g> co<supplied reason="lost">loni</supplied><unclear>a</unclear>e <g ref="symbols.xml#ivy-leaf">❦</g> <expan><abbr>flam</abbr><ex>ini</ex></expan>
+                    <lb n="5"/><persName type="divine"><name><expan><abbr><unclear>I</unclear>m<unclear>p</unclear></abbr><ex>eratoris</ex></expan></name> <name><supplied reason="lost">Antoni</supplied>ni</name> <g ref="symbols.xml#ivy-leaf">❦</g> <name>Caesa
+                    <lb n="6" break="no"/><supplied reason="lost">ris</supplied></name> <name><expan><abbr><supplied reason="lost">Aug</supplied></abbr><ex>usti</ex></expan></name></persName> <supplied reason="lost">dec</supplied>uriones
+                    <lb n="7"/><supplied reason="lost">pecunia s</supplied>ua
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR, comparison with photograph</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>To Lucius Digitius Bassus, son of [Lucius?], of the tribe Maecia, duovir quinquennalis, patron of the colony, flamen of Imperator Antoninus Caesar Augustus, the decuriones (built this) with their own money.</p>
+            </div>
+            <div type="commentary">
+                <p>Priesthood to one of the Antonines, potentially Commodus?</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1975.257</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>09400217</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>076091</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>009354</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

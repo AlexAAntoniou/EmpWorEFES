@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000325</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000325</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio III</region>
+                        <settlement>Paestum</settlement>
+                        <repository>Paestum, Museo Archeologico Nazionale, Roman Room</repository>  
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>White marble plague, broken along top and right.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
+                                    <dimensions>
+                                        <height unit="cm">73.5</height>
+                                        <width unit="cm">71.1</width>
+                                        <depth unit="cm">27</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Letters are slightly irregular, especially in spacing and size of letters in final two lines. Letters with serifs. Prominent ligatures; line 4 ("T" within "O") and line 14 ("CI"). Interpuncts are very irregular.</p>
+                                <locus from="line1" to="line14">Lines 1–14</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">30–62</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/442733">Paestum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3171709/paestum.html">Paestum</placeName>
+                                <geo>40.4208483394, 15.0050786006</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" subtype="discovered" when="1964">Paestum, in the excavations of the "V" lot, in 1964.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr><supplied reason="lost">A</supplied></abbr><ex>ulo</ex></expan></name> <name><supplied reason="lost">Vinicio</supplied></name> <persName type="patronym"><name><expan><abbr>A</abbr><ex>uli</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr><supplied reason="lost">Maec</supplied></abbr><ex>ia</ex></expan> <name><supplied reason="lost">Lucano</supplied></name></persName> <supplied reason="lost">equi</supplied>
+                    <lb n="2" break="no"/><supplied reason="lost">ti Ro</supplied><unclear>m</unclear><supplied reason="lost">ano</supplied> <persName type="attested"><name><supplied reason="lost"><abbr>A</abbr><ex>uli</ex></supplied></name> <name><supplied reason="lost">Vinici</supplied></name></persName> <gap reason="lost" extent="unknown" unit="char"/> <expan><abbr><supplied reason="lost">equit</supplied></abbr><ex>is</ex></expan>
+                    <lb n="3"/> <supplied reason="lost">R</supplied>omani <g ref="symbols.xml#interpunct">·</g> <expan><abbr>fi<supplied reason="lost">l</supplied></abbr><ex>io</ex></expan> <persName type="attested"><name><gap reason="lost" atLeast="1" atMost="3" unit="char"/></name> <supplied reason="lost"><name>Vinici</name></supplied></persName> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="4"/> <expan><abbr>nep<hi rend="ligature">ot</hi></abbr><ex>i</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>A</abbr><ex>uli</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Vinici</name></persName> <gap reason="illegible" quantity="1" unit="char"/><gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="5"/><hi rend="supraline">II</hi>viri <g ref="symbols.xml#interpunct">·</g> <num value="2">II</num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennalis</ex></expan> <g ref="symbols.xml#interpunct">·</g> patro<supplied reason="lost">ni</supplied> <expan><abbr><supplied reason="lost">col</supplied></abbr><ex>oniae</ex></expan> <expan><abbr><supplied reason="lost">pron</supplied></abbr><ex>epoti</ex></expan> <supplied reason="lost">flamini per</supplied>
+                    <lb n="6" break="no"/>petuo <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="divusMarcus"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Anton<supplied reason="lost">ini</supplied></name></persName> <expan><abbr><supplied reason="lost">curat</supplied></abbr><ex>ori</ex></expan> <supplied reason="lost">rei publi</supplied>
+                    <lb n="7" break="no"/>cae <g ref="symbols.xml#interpunct">·</g> municipi <g ref="symbols.xml#interpunct">·</g> Eburinorum <g ref="symbols.xml#interpunct">·</g> sa<supplied reason="lost">cerdoti Laurentium <expan><abbr>Lavinat</abbr><ex>ium</ex></expan></supplied>
+                    <lb n="8"/>praefecto <g ref="symbols.xml#interpunct">·</g> fabrum <g ref="symbols.xml#interpunct">·</g> huic <g ref="symbols.xml#interpunct">·</g> or<supplied reason="lost">do decurionum statuam</supplied>
+                    <lb n="9"/>ponendam <g ref="symbols.xml#interpunct">·</g> censuit <g ref="symbols.xml#interpunct">·</g> propter <supplied reason="lost">eximiam erga se liberali</supplied>
+                    <lb n="10" break="no"/>tatem <g ref="symbols.xml#interpunct">·</g> eius <g ref="symbols.xml#interpunct">·</g> eo quot <g ref="symbols.xml#interpunct">·</g> viginti <g ref="symbols.xml#interpunct">·</g> par<supplied reason="lost">ia gladiatorum pecunia sua</supplied>
+                    <lb n="11"/>edidit <g ref="symbols.xml#interpunct">·</g> adiecta <g ref="symbols.xml#interpunct">·</g> venatione <g ref="symbols.xml#interpunct">·</g> qua<unclear>m</unclear> <supplied reason="lost" cert="low">ferarum Libycarum et</supplied>
+                    <lb n="12"/>noxeorum <g ref="symbols.xml#interpunct">·</g> comparatione <g ref="symbols.xml#interpunct">·</g> ado<supplied reason="lost">rnavit ob cuius dedicationem</supplied>
+                    <lb n="13"/>decurionibus <g ref="symbols.xml#interpunct">·</g> singulis <g ref="symbols.xml#interpunct">·</g> <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertios</ex></expan> <num value="20">XX</num> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ummum</ex></expan> <supplied reason="lost">et <expan><abbr>Augustal</abbr><ex>ibus</ex></expan></supplied> <supplied reason="lost" cert="low"><expan><abbr>sing</abbr><ex>ulis</ex></expan></supplied> <supplied reason="lost"><expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertios</ex></expan> <num><gap reason="lost" quantity="1" unit="char"/></num> <expan><abbr>n</abbr><ex>ummum</ex></expan> dedit</supplied>
+                    <lb n="14"/><persName type="attested"><name>Vini<hi rend="ligature">ci</hi>a</name> <g ref="symbols.xml#interpunct">·</g> <name>Lucana</name></persName> <g ref="symbols.xml#interpunct">·</g> fi<supplied reason="lost">lia remissa pecunia</supplied>
+                    <lb n="15"/>a <expan><abbr>rep</abbr><ex>ublica</ex></expan> <g ref="symbols.xml#interpunct">·</g> conlata <g ref="symbols.xml#interpunct">·</g> rest<supplied reason="lost">ituit</supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR, with comparison to photograph.</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>[To Aulus Vinicius Lucanus, son of Aulus, of tribe Maecia, Roman equestrian, son of Aulus Vinicius] [---] a Roman [equestrian], grandson of [?] Vinicius [---], great-grandson of Aulus Vinicius [---] who was twice quinquennial duovir, patron [of the colony], [perpetual flamen] of the divine Marcus Antoninus [curator of the res publica] in the municipium of Eburinorum, sacerdos [of Laurentium Lavinatium], prefect of enginners. To this man the order [of decurions] decreed that a [statue] be erected on account of his [extraordinary] liberality towards them, that he exhibited twenty pairs [of gladiators at his own expense], adding a beast hunt which [had Libyan(?) beasts and] adorned it with the procurement of criminals, [on the occasions of its dedication] he gave to the decurions each 20 sesterces, and to [each? of the Augustales he gave ? sesterces]. His daughter, Vinicia Lucana [with money remitted], collected from the public treasury, restored (this monument).</p>
+            </div>
+            <div type="commentary">
+                <p>The same Vinicius Lucanus can also be found in AE 1975.254 and AE 2006.358.</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1975.256</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>09400216</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>076090</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>009351</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

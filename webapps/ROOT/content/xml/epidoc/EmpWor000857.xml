@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000857</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000857</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio XI </region>
+                        <settlement>Novaria</settlement>
+                        <repository>Navara, bell tower of S. Gaudenzio, base of the North Side.</repository>  
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Large stone slab from a sarcophagus.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.sarcophagus" ref="https://www.eagle-network.eu/voc/objtyp/lod/214.html">Sarcophagus</objectType>
+                                    <dimensions>
+                                        <height unit="cm">62</height>
+                                        <width unit="cm">251</width>
+                                        <depth unit="cm"></depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><p>Text within a carved border, outside border are symbols (hard to discern from photograph)</p>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p></p>
+                                <locus from="line1" to="line5">Lines 1–5</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">55–90</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/383717">Novaria</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3172189/novara.html">Novara</placeName>
+                                <geo>45.445082, 8.618661</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" subtype="discovered">Discovered in Novara, in the area of the ancient basilica of S. Gaudenzio.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-07-01" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="attested"><gap reason="lost" extent="unknown" unit="char"/><name><seg part="F"><expan><abbr>t<unclear>i</unclear>lian</abbr><ex>o</ex></expan></seg></name></persName> <expan><abbr>eq</abbr><ex>uiti</ex></expan> <expan><abbr>R</abbr><ex>omano</ex></expan> <expan><abbr>eq</abbr><ex>uo</ex></expan> <expan><abbr><unclear>p</unclear></abbr><ex>ublico</ex></expan> <expan><abbr>I<hi rend="supraline">I</hi>I<hi rend="supraline">I</hi>vir</abbr><ex>o</ex></expan> <expan><abbr>a</abbr><ex>edilica</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> i<hi rend="ligature">te</hi>
+                    <lb n="2" break="no"/>m <expan><abbr>I<hi rend="supraline">I</hi>I<hi rend="supraline">I</hi>vir</abbr><ex>o</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <expan><abbr><unclear><hi rend="supraline">m</hi></unclear></abbr><ex>unicipii</ex></expan> <expan><abbr><unclear>N</unclear></abbr><ex>ovariae</ex></expan> <expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divine" key="divusTraianus"><name><expan><abbr>d</abbr><ex>ivi</ex></expan></name> <name><expan><abbr>Traian</abbr><ex>i</ex></expan></name></persName>
+                    <lb n="3"/><expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>ae<unclear>r</unclear></abbr><ex>arii</ex></expan> qui <expan><abbr><unclear>nun</unclear>q</abbr><ex>uam</ex></expan> rei <expan><abbr>p</abbr><ex>ublicae</ex></expan> nil debuit
+                    <lb n="4"/><persName type="attested"><name>B<unclear>a</unclear>ebia</name> <name>A<unclear>t</unclear>eronia</name></persName> <expan><abbr>c</abbr><ex>oniugi</ex></expan> <expan><abbr><unclear>k</unclear></abbr><ex>arissimo</ex></expan>
+                    <lb n="5"/><expan><abbr>v</abbr><ex>iva</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR, comparison with grainy photo.</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>[---]tilianus, Roman equestrian, with public horse, quattuorvir with aedilician power, again quattuorvir for administering justice in the municipium of Novaria, flamen of the divine Trajan, quaestor of the treasury, who never owed anything to the res publica. Baebia Ateronia, his most beloved wife, who lives, made (this). </p>
+            </div>
+            <div type="commentary">
+                <p></p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/> <citedRange>5.6520</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>6740</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05101685</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>109840</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

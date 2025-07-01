@@ -29,17 +29,33 @@
                     <person xml:id="divaLivia">
                         <persName xml:lang="en">Diva Augusta (Livia)</persName>
                     </person>
+                    <person xml:id="divusClaudius">
+                        <persName xml:lang="en">Divus Claudius</persName>
+                    </person>
+                    
+                    <person xml:id="divusVespasianus">
+                        <persName xml:lang="en">Divus Vespasianus</persName>
+                    </person>
                     <person xml:id="divaIulia">
                         <persName xml:lang="en">Diva Iulia (daughter of Titus)</persName>
                     </person>
                     <person xml:id="divusTitus">
                         <persName xml:lang="la">Divus Titus</persName>
                     </person>
-                    <person xml:id="divusHadrianus">
-                        <persName xml:lang="la">Divus Hadrianus</persName>
+                    <person xml:id="divaMatidia">
+                        <persName xml:lang="la">Diva Matidia</persName>
                     </person>
                     <person xml:id="divusTraianus">
                         <persName xml:lang="la">Divus Traianus</persName>
+                    </person>
+                    <person xml:id="divaPlotina">
+                        <persName xml:lang="la">Diva Plotina</persName>
+                    </person>
+                    <person xml:id="divusHadrianus">
+                        <persName xml:lang="la">Divus Hadrianus</persName>
+                    </person>
+                    <person xml:id="divaSabina"> 
+                        <persName xml:lang="la">Diva Sabina</persName>
                     </person>
                     <person xml:id="faustina-younger">
                         <persName xml:lang="en">Faustina the Younger</persName>
@@ -47,6 +63,12 @@
                     <person xml:id="divaFaustina">
                         <persName xml:lang="en">Divine Faustina</persName>
                         <persName xml:lang="la">Diva Faustina</persName>
+                    </person>
+                    <person xml:id="divaFaustina-minor">
+                        <persName xml:lang="la">Diva Faustina Minor</persName>
+                    </person>
+                    <person xml:id="divusMarcus">
+                        <persName xml:lang="en">Divine Marcus Aurelius</persName>
                     </person>
                     <person xml:id="divusPertinax">
                         <persName xml:lang="en">Divine Pertinax</persName>
@@ -181,6 +203,9 @@
                     </person>
                     <person xml:id="geniusCaesari">
                         <persName xml:lang="en">Genius of Caesar</persName>
+                    </person>
+                    <person xml:id="geniusAugusti">
+                        <persName xml:lang="en">Genius of Augustus</persName>
                     </person>
                     <person xml:id="geniuscoloniae">
                         <persName xml:lang="la">Genius Coloniae</persName>

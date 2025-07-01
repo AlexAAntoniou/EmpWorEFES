@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000856</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000856</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio XI </region>
+                        <settlement>Novaria</settlement>
+                        <repository>Novara, Lapidary fo the Rectory of Santa Maria</repository>  
+                        <idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
+                                    <dimensions>
+                                        <height unit="cm">73.5</height>
+                                        <width unit="cm">27.5</width>
+                                        <depth unit="cm">10</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.fragment"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p></p>
+                                <locus from="line1" to="line14">Lines 1–14</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">15–26</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/383717">Novaria</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3172189/novara.html">Novara</placeName>
+                                <geo>45.445082, 8.618661</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-07-01" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="char"/> <expan><abbr><supplied reason="lost">fl</supplied>am</abbr><ex>ini</ex></expan>
+                    <lb n="2"/><persName type="divine" key="divusHadrianus"><name><supplied reason="lost">divi</supplied></name> <name><unclear>Had</unclear><supplied reason="lost">riani</supplied></name></persName>
+                    <lb n="3"/><unclear>fla</unclear>mini
+                    <lb n="4"/><expan><abbr><unclear>div</unclear><supplied reason="lost">or</supplied></abbr><ex>um</ex></expan> <persName type="divine" key="divusVespasianus"><name><expan><abbr>Vespas</abbr><ex>iani</ex></expan></name></persName> e<supplied reason="lost">t</supplied>
+                    <lb n="5"/><persName type="divine" key="divusTraianus"><name><expan><abbr><supplied reason="lost">Traian</supplied></abbr><ex>i</ex></expan></name></persName> <expan><abbr><supplied reason="lost">p</supplied><unclear>a</unclear>t<unclear>r</unclear></abbr><ex>ono</ex></expan> <expan><abbr><supplied reason="lost">eq</supplied></abbr><ex>uiti</ex></expan> <expan><abbr><unclear>R</unclear></abbr><ex>omano</ex></expan>
+                    <lb n="6"/><supplied reason="lost">et</supplied> <persName type="attested"><name><unclear>A</unclear>lbuciae</name> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr><supplied reason="lost">f</supplied></abbr><ex>iliae</ex></expan></persName>
+                    <lb n="7"/><name><supplied reason="lost">C</supplied>andidae</name></persName>
+                    <lb n="8"/><supplied reason="lost">f</supplied>lamini<supplied reason="lost">cae</supplied>
+                    <lb n="9"/><persName type="divine" key="divaIulia"><name><supplied reason="lost">div</supplied>ae</name> <name>Iuliae</name></persName> <expan><abbr>No<supplied reason="lost">var</supplied></abbr><ex>iae</ex></expan>
+                    <lb n="10"/><expan><abbr>flamini<supplied reason="lost">c</supplied></abbr><ex>ae</ex></expan>
+                    <lb n="11"/><persName type="divine" key="divaSabina"><name><supplied reason="lost">d</supplied>ivae</name> <name>Sabin<unclear>a</unclear><supplied reason="lost">e</supplied></name></persName>
+                    <lb n="12"/>Ticini
+                    <lb n="13"/><gap reason="lost" extent="unknown" unit="char"/><gap reason="illegible" quantity="3" unit="char"/><gap reason="lost" extent="unknown" unit="char"/><gap reason="illegible" quantity="3" unit="char"/><gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="14"/><gap reason="lost" extent="unknown" unit="char"/><orig>ER</orig><gap reason="lost" extent="unknown" unit="char"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR, comparison with very grainy photograph.</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>[---] flamen of the [divine] Hadrian, flamen of the divine Vespasian and [Trajan], patron, Roman [equestrian], [and] Albucia Candida, [daughter of] Marcus, flaminica of the divine Julia at Novaria, flaminica of the divine Sabina at Ticinum [---] [---].</p>
+            </div>
+            <div type="commentary">
+                <p>Albucia Candida is flaminica of diva Iulia (the daughter of Titus) at Novaria, where this inscription was found, and at Ticinum. While his name is missing, it is very likely that the first named is Caius Valerius Pansa, who is explicitly mentioned with Albucia Candida, there explicitly attested as his wife, in <ref target="EmpWor000855.xml">EmpWor00855.</ref>, dedicated after the wife has died.</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/> <citedRange>5.6514</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05101679</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>108484</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="GraninoCecere2014"/> <citedRange>no. 69</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Bassignano1994-1995"/> <citedRange>no. 11</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Gregori-Rosso2012"/> <citedRange>202–203 with n.56</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

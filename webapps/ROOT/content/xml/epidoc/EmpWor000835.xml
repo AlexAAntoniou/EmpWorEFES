@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000835</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000835</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio XI</region>
+                        <settlement>Comum</settlement>
+                        <repository>Como, Paolo Giovio Civico Museo Archeologico</repository>  
+                        <idno>L276</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>Rough statue-base. Complete, but text rough and obscured.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
+                                    <dimensions>
+                                        <height unit="cm">96</height>
+                                        <width unit="cm">86</width>
+                                        <depth unit="cm">84</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.complete"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p></p>
+                                <locus from="line1" to="line1">Line 1</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm"></height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/383627">Comum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3178229/como.html">Como</placeName>
+                                <geo>45.81192, 9.085784</geo>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" subtype="discovered">Como, church of S. Abbondio.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="unrevised">
+            <listChange>
+                <change when="2025-07-01" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr><supplied reason="lost">L</supplied></abbr><ex>ucius</ex></expan></name> <name>Calpurnius</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>Ouf</abbr><ex>entina</ex></expan>
+                    <lb n="2"/><name>Fabatus</name></persName>
+                    <lb n="3"/>VIvir IIIIvir <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan>
+                    <lb n="4"/><expan><abbr>trib</abbr><ex>unus</ex></expan> iterum <expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="21">XXI</num> <expan><abbr>Rapac</abbr><ex>is</ex></expan>
+                    <lb n="5"/><expan><abbr><supplied reason="lost">pr</supplied>aef</abbr><ex>ectus</ex></expan> cohortis <num value="7">VII</num> <expan><abbr>Lusitan</abbr><ex>orum</ex></expan>
+                    <lb n="6"/><supplied reason="lost">et</supplied> <expan><abbr>nation</abbr><ex>um</ex></expan> <expan><abbr>Gaetulicar</abbr><ex>um</ex></expan> sex
+                    <lb n="7"/>quae sunt in Numidia
+                    <lb n="8"/><expan><abbr>flam</abbr><ex>en</ex></expan> <persName type="divine" key="divusAugustus"><name>divi</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>patr</abbr><ex>ono</ex></expan> <expan><abbr>munic</abbr><ex>ipi</ex></expan>
+                    <lb n="9"/><expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>i</abbr><ex>ussit</ex></expan>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text from EDR</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>Lucius Calpurnius Fabatus, son of Lucius, of Oufentina tribe, sexvir, quattuorvir with judicial authority, prefect of engineers, tribune twice of the 21st legion Rapax, prefect of the 7th cohort of Lusitanian auxiliaries, and of six Gaetulian tribal units which were in Numidia, flamen of the divine Augustus, patron of the municipium, he ordered (this monument) to be made in his will.</p>
+            </div>
+            <div type="commentary">
+                <p>This Lucius Calpurnius Fabatus, flamen of the divine Augustus, is mentioned in Tacitus (Ann. 16.8) and is grandfather of Pliny the Younger's third wife, Calpurnia, to whom Pliny the Younger addresses nine letters (4.1, 5.11, 6.12, 6.30, 7.11, 7.16, 7.23, 8.10).</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/> <citedRange>5.5267</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>2721</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05100421</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>164629</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

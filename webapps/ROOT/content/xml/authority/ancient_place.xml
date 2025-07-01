@@ -34,6 +34,17 @@
                         <idno type="pleiades" ref="https://pleiades.stoa.org/places/371030888">Ager Albanus</idno>
                         <idno type="geonames" ref="https://www.geonames.org/3183356/albano-laziale.html">Albano Laziale</idno>
                     </placeName>
+                    <placeName xml:id="Ostia">
+                        <placeName xml:lang="la">Ostia</placeName>
+                        <country>Italy</country>
+                        <region>Regio I</region>
+                        <location><geo>41.75357, 12.28935</geo></location>
+                        <idno type="pleiades" ref="https://pleiades.stoa.org/places/422995">Ostia</idno>
+                        <idno type="geonames" ref="https://www.geonames.org/8378691/ostia.html">Ostia</idno>
+                    <p>The extent of emperor worship is significant at Ostia Antica. Epigraphic texts <ref target="#EmpWor000104.xml">EmpWor000104</ref> and <ref target="#EmpWor000105.xml">EmpWor000105</ref>
+                        tell us that there was <ref target="monument-search#ostiaaedes">a temple (aedes) dedicated to Roma and Augustus in Ostia</ref>, which has subsequently been found archaeologically at the southern end of forum of Ostia.
+                    </p>
+                    </placeName>        
                 </listPlace>
             </listPlace>
         </body>
