@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000342</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,7 +16,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000342</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
@@ -25,8 +25,8 @@
                         <country>Italy</country>
                         <region>Regio </region> <!-- DEFAULT VALUE -->
                         <settlement></settlement> <!-- DEFAULT VALUE -->
-                        <repository></repository>  
-                        <idno></idno>
+                        <repository>Amiternum, Amphitheatre</repository>  
+                        <idno>14077</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,16 +34,16 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
+                                <support><p>Fragment with top and bottom edges original, but breaks to both left and right. The upper face, back and remnants of the lower face appear to have been carefully smoothed.</p>
+                                    <material ana="#material.stone.local" ref="https://www.eagle-network.eu/voc/material/lod/2.html">Local Stone</material>
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">30</height>
+                                        <width unit="cm">30</width>
+                                        <depth unit="cm">27</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragment"/> <!-- DEFAULT VALUE -->
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -53,10 +53,10 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
-                                <locus from="line1" to="line1">Line 1</locus>
+                            <handNote><p>Text is extremely fine and neat, with serifs.</p>
+                                <locus from="line1" to="line2">Lines 1–2</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"></height>
+                                    <height unit="mm">80–125</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -68,9 +68,9 @@
                                 <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
                                 <geo></geo> <!-- DEFAULT VALUE -->
                             </origPlace>
-                            <origDate/>
+                            <origDate atLeast="0001" atMost="0100">Segenni (1992) dates it to the first century CE.</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Circumstances of the discovery are unknown, but presumed to be from Amiternum where the stone is currently preserved.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -109,16 +109,19 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="laresAugusti" cert="low"><name><supplied reason="lost" cert="low">Laribu</supplied>s</name> <name><expan><abbr>Aug</abbr></expan><ex>ustis</ex></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><unclear>a</unclear>bius</seg></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from Segenni (1992), comparison with photographs</note></app>
+                    <app loc="1"><note>Segenni (1992) believes that line 1 could equally be restored [---] [Cae]s(ari) Aug(usto).</note></app>
+                    <app loc="2"><note>The fragmentary word in line 2 is likely the remnants of a name, perhaps Fabius.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To the Augustan [Lares?]. [---]abius [---](?).</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -132,6 +135,11 @@
                 <p>
                     <bibl>
                         <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Segenni1992"/> <citedRange>no. 6</citedRange>
                     </bibl>
                 </p>
             </div>

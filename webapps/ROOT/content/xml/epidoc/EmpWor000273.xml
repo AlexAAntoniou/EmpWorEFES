@@ -69,7 +69,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in the pavement of the church of St. Benedict (in Piazza dell'Olmo); Ligorio conjectured that it had been found at the Albulae Aquae and subsequently reused in the church.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -110,7 +110,7 @@
                 <ab>
                     <lb n="1"/><persName type="divine"><name>Attini</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
                     <lb n="2"/><expan><abbr>sac</abbr><ex>rum</ex></expan>
-                    <lb n="3"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Iulius</name> <persName type="patronym"><name><expan><abbr>Sp</abbr><ex>uri</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <name>Iulianus</name>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Iulius</name> <persName type="patronym"><name><expan><abbr>Sp</abbr><ex>urii</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <name>Iulianus</name>
                     <lb n="4"/><name>Proculus</name></persName> sacerdos
                     <lb n="5"/><persName type="divine"><name><expan><abbr>M</abbr><ex>atri</ex></expan></name> <name><expan><abbr>d</abbr><ex>eum</ex></expan></name> <name><expan><abbr>M</abbr><ex>agnae</ex></expan></name> <name><expan><abbr>I</abbr><ex>daeae</ex></expan></name></persName>
                     <lb n="6"/>ab aquas Albulas
@@ -132,6 +132,11 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.3534</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="CCCA"/> <citedRange>3.452</citedRange>
                     </bibl>
                 </p>
             </div>

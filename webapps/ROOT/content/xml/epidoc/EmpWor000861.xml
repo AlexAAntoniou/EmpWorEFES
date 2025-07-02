@@ -25,8 +25,8 @@
                         <country>Italy</country>
                         <region>Regio XI</region>
                         <settlement>Ticinum</settlement>
-                        <repository>Museo Civico Archeologico del Castello; Church of S. Ambrogio in Gualdrasco</repository>  
-                        <idno>A 620</idno>
+                        <repository>Frag. a: Museo Civico Archeologico del Castello; Frag. b: walled up in the right corner of the facade of the church of S. Ambrogio in Gualdrasco</repository>  
+                        <idno>Frag. a: A 620/Mus. Civ. A 799</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -35,12 +35,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p>Two fragments on a much larger inscription, almost contiguous but for one missing letter between. Moulding at bottom suggest that bottom edge is original, but all others are broken.</p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Carrara Marble</material>
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
-                                        <height unit="cm">30</height>
-                                        <width unit="cm">49.5</width>
-                                        <depth unit="cm">18.5</depth>
+                                        <height unit="cm">Frag. a: 30, frag. b: 24</height>
+                                        <width unit="cm">Frag. a: 49.5, frag. b: 50</width>
+                                        <depth unit="cm">Frag. a: 18.5, frag. b: impossible to tell, as walled up.</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.fragments"/>
@@ -70,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" subtype="discovered">Gauldrasco, church of S. Ambrogio. Both fragments are currently in separate locations.</provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Gualdrasco, in the church of S. Ambrogio (about 12km from Pavia, in the direction of Milan), in renovation work. Both fragments (a and b) are currently in separate locations.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -116,13 +116,15 @@
             <div type="apparatus">
                 <listApp>
                     <app><note>Text from EDR, comparison with photographs</note></app>
+                    <app loc="1"><note>As Boffo and Ambaglio (1992) note, the first character, although unclear, is undoubtedly an "A". There are a variety of ways to restore Pro[---] at the end of the line: Pro[cula], Pro[cilla], Pro[ba], Pro[cessa], Pro[pinqua], and Pro[futura] being just some of the options.</note></app>
+                    <app loc="2"><note>Boffo and Ambaglio (1992) restore [f(aciendum) c(uravit)] at the end of line two, but this – while possible – is stretching the evidence a little too far.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p>Mania Betutia Pro[---], daughter of Lucius, flaminica of the divine Augusta [---].</p>
             </div>
             <div type="commentary">
-                <p>As Granino Cecere (2014) suggests, it is possible that this once belonged to a small architrave of a building, perhaps a sacred site. Granino Cecere (2014) and Bassignano (1994-1995) see this as a priesthood to the divine Livia (diva Augusta).</p> 
+                <p>As Granino Cecere (2014) suggests, it is possible that this once belonged to a small architrave of a building, perhaps a sacred site. Granino Cecere (2014); Bassignano (1994-1995) and Boffo and Ambaglio (1992) see this as a priesthood to the divine Livia (diva Augusta). There is a Manius elsewhere in Ticium (CIL 5.6445), and members of the Betutia family attested elsewhere.</p> 
             </div>
             <div type="bibliography">
                 <p>
@@ -163,6 +165,11 @@
                 <p>
                     <bibl>
                         <ptr target="Bassignano1994-1995"/> <citedRange>no. 13</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Boffo-Ambaglio1992"/> <citedRange>no. 21</citedRange>
                     </bibl>
                 </p>
             </div>

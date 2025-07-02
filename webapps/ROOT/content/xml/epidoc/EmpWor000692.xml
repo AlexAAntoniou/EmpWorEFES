@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000692</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,7 +16,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000692</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
@@ -68,7 +68,7 @@
                                 <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
                                 <geo></geo> <!-- DEFAULT VALUE -->
                             </origPlace>
-                            <origDate/>
+                            <origDate atLeast="0117" atMost="0138">Hadrianic in date</origDate>
                         </origin>
                         <provenance type="found"></provenance>
                         <provenance type="observed"></provenance>
@@ -121,7 +121,7 @@
                 <p></p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>Garzetti (1991)  postulates that <ref target="EmpWor000691.xml">EmpWor691</ref> was likely in the same assemblage as this one, as both were dedicated by the same college, and the P. Clodius Sura of this inscription could be a relation to the Clodia Secunda of that inscription (either her father or brother).</p> 
             </div>
             <div type="bibliography">
                 <p>
@@ -132,6 +132,11 @@
                 <p>
                     <bibl>
                         <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Garzetti1991"/> <citedRange>206</citedRange>
                     </bibl>
                 </p>
             </div>

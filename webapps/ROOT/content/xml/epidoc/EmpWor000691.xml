@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000691</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,16 +16,16 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000691</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
-                        <repository></repository>  
+                        <region>Regio X</region>
+                        <settlement>Brixia</settlement>
+                        <repository>Bresica. Civic Museums of Art, History and Science. Monastery of S. Giulia</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,16 +34,16 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Framed statue-base, intact but with fractures.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">94</height>
+                                        <width unit="cm">75</width>
+                                        <depth unit="cm">66</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -53,10 +53,10 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
-                                <locus from="line1" to="line1">Line 1</locus>
+                            <handNote><p>Text is fine and exceptionally neat. Long "I" in divae in line 4.</p>
+                                <locus from="line1" to="line7">Lines 1–7</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"></height>
+                                    <height unit="mm">90–45</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -64,13 +64,13 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/383603">Brixia</placeName>
+                                <placeName type="modern">Brescia</placeName> <!-- DEFAULT VALUE -->
                                 <geo></geo> <!-- DEFAULT VALUE -->
                             </origPlace>
-                            <origDate/>
+                            <origDate atLeast="0117" atMost="0138">Hadrianic in date, given equivalences with <ref target="EmpWor000692.xml">EmpWor00692</ref>.</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1990">Found in May 1990 alongside AE 1991.821, in Brescia in via Carducci, on the western outskirts of the city, reused in 12th or 13th century walls, with numerous other architectural elements (Breda 1990a, 1990b in Garzetti (1991)). Transferred to the Soprintendenza Archeologica della Lombardia (1991), and then to the Monastery of S. Giulia</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,13 +92,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-07-02" who="#AA">Original data collection and editing</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,29 +109,55 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name>Clodiae</name>
+                    <lb n="2"/><persName type="patronym"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName>
+                    <lb n="3"/><name>Secundae</name></persName>
+                    <lb n="4"/><expan><abbr>sacerd</abbr><ex>oti</ex></expan> <persName type="divine" key="divaMatidia"><name>divae</name>
+                    <lb n="5"/><name>Matidiae</name></persName>
+                    <lb n="6"/>collegia
+                    <lb n="7"/><expan><abbr>fabror</abbr><ex>um</ex></expan> et <expan><abbr>cent</abbr><ex>onariorum</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from Garzetti (1991), with comparison to photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Clodia Secunda, daughter of Publius, sacerdos of the divine Matidia, the college of craftsmen and textile-dealers [set this up].</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>As Garzetti (1991) notes, given that the measurements and appearance of this statue base and that of AE 1991.821 are almost identical, and they were found in the same place, both were probably contemporary (although the other inscription suffered re-use and erasure in antiquity). Garzetti (1991) also postulates that <ref target="EmpWor000692.xml">EmpWor692</ref>, although now lost, was likely in the same assemblage originally as it was almost dedicated by the same college, and the P. Clodius Sura of that inscription could be a relation to our Clodia (father or brother).</p> 
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="AE"/> <citedRange>1991.822</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="EDCS"/> <citedRange>10800363</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>091285</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                   <bibl>
+                       <ptr target="Garzett1991"/> <citedRange>no. 3bis</citedRange>
+                   </bibl> 
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Bassignano1994-1995"/> <citedRange>no. 17</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="GraninoCecere2014"/> <citedRange>no. 50</citedRange>
                     </bibl>
                 </p>
             </div>
