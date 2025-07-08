@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Aquinum</settlement>
-                        <repository></repository>
+                        <repository>Aquino (privately owned)</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate notBefore="0023" notAfter="0030">Between 20-30 CE on prosopography</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Aquinum, in casa Spezi, near Santa Maria della Libera</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -143,12 +143,27 @@
                 </p>
                 <p>
                     <bibl>
+                        <ptr target="ILS"/> <citedRange>6286</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
                         <ptr target="FS"/> <citedRange>1440</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
                         <ptr target="Nichols1978"/> <citedRange>430</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>20401186</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>143854</citedRange>
                     </bibl>
                 </p>
             </div>

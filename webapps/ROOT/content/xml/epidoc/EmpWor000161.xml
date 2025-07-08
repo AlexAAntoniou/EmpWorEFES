@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
+                        <repository>Ostia Antica, Caserma dei Vigili (main statue base); warehouses of the Soprintendenza (for the small upper right fragment).</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,28 +34,30 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>White marble statue base, heavily abraded at top and top right, with smaller upper right as contiguous fragment.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">81</height>
+                                        <width unit="cm">48.5</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text fills entire stone (indeed final line squeezed in).</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Text florid and with significant serifs, but relatively regular. Tall "I" in "Imp" in line 4, and second "I" in Pii in line 10.</p>
+                                <locus from="line1" to="line17">Lines 1–17</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">15–50</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -66,9 +68,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/8378691/ostia.html">Ostia</placeName>
                                 <geo>41.75357, 12.28935</geo> <!-- Augusteum of the Castra Vigiles -->
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0211" evidence="consuls">Dedicated in 211 CE; dated on the basis of the consular year.</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Ostia Antica, Caserma dei Vigili; the small additional fragment at top right was discovered in Ostia Antica, on the via dei Vigili</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -107,40 +109,43 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <div type="textpart" subtype="face" n="left">
-                    <ab><!-- Only basic encoding -->
+                    <ab>
                         <lb n="1"/>dedicata <expan><abbr>pr</abbr><ex>idie</ex></expan> <expan><abbr>non</abbr><ex>as</ex></expan> <expan><abbr>Apr</abbr><ex>iles</ex></expan>
                         <lb n="2"/><persName type="attested"><name>Gentiano</name></persName> et <persName type="attested"><name>Basso</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
                     </ab>
                 </div>
                 <div type="textpart" subtype="face" n="front">
                     <ab>
-                        <lb n="1"/><persName type="attested"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name><expan><abbr>Caes</abbr><ex>ari</ex></expan></name> <name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>A<supplied reason="lost">ur</supplied>elio</name>
-                        <lb n="2"/><name>Antonino</name> <name>Pio</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name>
-                        <lb n="3"/><expan><abbr>Brit</abbr><ex>annico</ex></expan> <expan><abbr>Max</abbr><ex>imo</ex></expan></persName> <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan>
-                        <lb n="4"/><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="14">XIIII</num> <expan><abbr>imp</abbr><ex>eratori</ex></expan>
-                        <lb n="5"/><num value="2">II</num> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <num value="3">III</num> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> for
-                        <lb n="6" break="no"/>tissimo ac super om
-                        <lb n="7" break="no"/>nes felicissimo principi
-                        <lb n="8"/><persName type="attested"><name>divi</name> <name>Septimi</name> <name>Severi</name> <expan><abbr>Arab</abbr><ex>ici</ex></expan>
-                        <lb n="9"/><expan><abbr>Adiab</abbr><ex>enici</ex></expan> <expan><abbr>Part</abbr><ex>hici</ex></expan> <expan><abbr>Brit</abbr><ex>annici</ex></expan> <expan><abbr>Max</abbr><ex>imi</ex></expan> filio </persName>
-                        <lb n="10"/><persName type="attested"><name>divi</name> <name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name>Antonini</name> <name>Pii</name> <expan><abbr>Germ</abbr><ex>anici</ex></expan> <expan><abbr>Sarm</abbr><ex>atici</ex></expan> nepoti</persName>
-                        <lb n="11"/><persName type="attested"><name>divi</name> <name>Antonini</name> <name>Pii</name> <expan><abbr>pron</abbr><ex>epoti</ex></expan></persName> <persName type="attested"><name>divi</name> <name><expan><abbr>Hadrian</abbr><ex>i</ex></expan></name> <expan><abbr>abn</abbr><ex>epoti</ex></expan></persName>
-                        <lb n="12"/><persName type="attested"><name>divi</name> <name>Traiani</name> <name><expan><abbr>Parth</abbr><ex>ici</ex></expan></name></persName> et <persName type="attested"><name>divi</name> <name>Nervae</name> <expan><abbr>adn</abbr><ex>epoti</ex></expan></persName>
-                        <lb n="13"/>sub <persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Iulio</name> <name>Quintilliano</name></persName> <expan><abbr>pr</abbr><ex>aefecto</ex></expan> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <expan><abbr>em</abbr><ex>entissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan>
+                        <lb n="1"/><persName type="ruler" key="commodus"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Caes</abbr><ex>ari</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>A<supplied reason="lost">ur</supplied>elio</name>
+                        <lb n="2"/><name>Antonino</name> <g ref="symbols.xml#interpunct">·</g> <name>Pio</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name>
+                        <lb n="3"/><expan><abbr>Brit</abbr><ex>annico</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Max</abbr><ex>imo</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pont</abbr><ex>ifici</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>max</abbr><ex>imo</ex></expan>
+                        <lb n="4"/><expan><abbr>p</abbr><ex>atri</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>atriae</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pot</abbr><ex>estate</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="14">XIIII</num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>imp</abbr><ex>eratori</ex></expan>
+                        <lb n="5"/><num value="2">II</num>  <g ref="symbols.xml#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="3">III</num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="symbols.xml#interpunct">·</g> for
+                        <lb n="6" break="no"/>tissimo <g ref="symbols.xml#interpunct">·</g> ac <g ref="symbols.xml#interpunct">·</g> super om
+                        <lb n="7" break="no"/>nes <g ref="symbols.xml#interpunct">·</g> felicissimo principi
+                        <lb n="8"/><persName type="ruler" key="septimius-severus"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Septimi</name> <g ref="symbols.xml#interpunct">·</g> <name>Severi</name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Arab</abbr><ex>ici</ex></expan> <g ref="symbols.xml#interpunct">·</g>
+                        <lb n="9"/><expan><abbr>Adiab</abbr><ex>enici</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Part</abbr><ex>hici</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Brit</abbr><ex>annici</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Max</abbr><ex>imi</ex></expan> <g ref="symbols.xml#interpunct">·</g> filio </persName>
+                        <lb n="10"/><persName type="ruler" key="marcus-aurelius"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Antonini</name> <g ref="symbols.xml#interpunct">·</g> <name>Pii</name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Germ</abbr><ex>anici</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Sarm</abbr><ex>atici</ex></expan> <g ref="symbols.xml#interpunct">·</g> nepoti</persName>
+                        <lb n="11"/><persName type="ruler" key="antoninus-pius"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Antonini</name> <g ref="symbols.xml#interpunct">·</g> <name>Pii</name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pron</abbr><ex>epoti</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Hadrian</abbr><ex>i</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>abn</abbr><ex>epoti</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g>
+                        <lb n="12"/><persName type="ruler" key="trajan"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Traiani</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Parth</abbr><ex>ici</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> et <persName type="ruler" key="nerva"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Nervae</name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>adn</abbr><ex>epoti</ex></expan></persName>
+                        <lb n="13"/>sub <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Iulio</name> <g ref="symbols.xml#interpunct">·</g> <name>Quintilliano</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pr</abbr><ex>aefecto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>em</abbr><ex>entissimo</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>v</abbr><ex>iro</ex></expan>
                         <lb n="14"/>curantibus
-                        <lb n="15"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Firmio</name> <name>Amyntiano</name></persName> <expan><abbr>s</abbr><ex>ub</ex><abbr><hi rend="supraline">pr</hi></abbr><ex>aefecto</ex></expan>
-                        <lb n="16"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Antonio</name> <name>Proculo</name></persName> <expan><abbr>trib</abbr><ex>uno</ex></expan>
-                        <lb n="17"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="6">VI</num> <expan><abbr>vig</abbr><ex>ilum</ex></expan> praeposito vexillationis
+                        <lb n="15"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Firmio</name> <g ref="symbols.xml#interpunct">·</g> <name>Amyntiano</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>s</abbr><ex>ub</ex><abbr><g ref="symbols.xml#interpunct">·</g><hi rend="supraline">pr</hi></abbr><ex>aefecto</ex></expan> <g ref="symbols.xml#interpunct">·</g>
+                        <lb n="16"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Antonio</name> <g ref="symbols.xml#interpunct">·</g> <name>Proculo</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>trib</abbr><ex>uno</ex></expan> <g ref="symbols.xml#interpunct">·</g>
+                        <lb n="17"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="6">VI</num> <expan><abbr>vig</abbr><ex>ilum</ex></expan> praeposito vexillationis <g ref="symbols.xml#interpunct">·</g>
                     </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>
+                    [Left side]: Dedicated on the day before the Nones of April, when Gentianus and Bassus were consuls.
+                    [Front face]: To Imperator Caesar Marcus Aurelius Antoninus Pius Augustus, Britannicus Maximus, pontifex maximus, father of the fatherland, holder of tribunician power for the 14th time, imperator for the 2nd time, consul for the 3rd time, proconsul, bravest and, above all others, most fortunate princeps, son of the divine Septimius Severus, Arabicus, Adiabenicus, Parthicus, Britannicus Maximus, grandson of the divine Marcus Antoninus Pius, Germanicus, Sarmaticus, great-grandson of the divine Antoninus Pius, great-great-grandson of the divine Hadrian, great-great-great-grandson of the divine Trajan Parthicus and of the Divine Nerva, under the curation of Caius Iulius Quintillianus, prefect of the watchmen, most eminent man, Marcus Firmius Amyntianus, subprefect, (and) Marcus Antonius Proculus, tribune of the 6th cohort of watchmen, in command of the detachment.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -149,6 +154,21 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.4388</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1889.102</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11900107</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>106386</citedRange>
                     </bibl>
                 </p>
             </div>

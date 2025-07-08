@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
+                        <repository>Ostia Antica, Caserma dei Vigili (in a room on the north side)</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,12 +34,12 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Marble statue base</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">87.5</height>
+                                        <width unit="cm">42.5</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line13">Lines 1–13</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">30–55</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -66,9 +68,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/8378691/ostia.html">Ostia</placeName>
                                 <geo>41.75357, 12.28935</geo> <!-- Augusteum of the Castra Vigiles -->
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0217" evidence="ruler">Dedicated in 217 CE based on titulature</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Ostia Antica, Caserma dei Vigili</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -107,12 +109,12 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name><del rend="erasure">Opellio</del></name>
+                    <lb n="1"/><persName type="ruler" key="diadumenianus"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name><del rend="erasure">Opellio</del></name>
                     <lb n="2"/><name>Antonino</name>
                     <lb n="3"/><name><del rend="erasure">Diadumeniano</del></name></persName>  
                     <lb n="4"/>nobilissimo <expan><abbr>Caes</abbr><ex>ari</ex></expan>
                     <lb n="5"/>principi iuventutis
-                    <lb n="6"/><persName type="attested"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name> <name><expan><abbr>Caes</abbr><ex>aris</ex></expan></name> <name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name><del rend="erasure">Opelli</del></name> <name>Severi</name>
+                    <lb n="6"/><persName type="ruler" key="macrinus"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name> <name><expan><abbr>Caes</abbr><ex>aris</ex></expan></name> <name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name><del rend="erasure">Opelli</del></name> <name>Severi</name>
                     <lb n="7"/><name><del rend="erasure">Macrini</del></name> Pii Felicis <expan><abbr>Aug</abbr><ex>usti</ex></expan></persName>
                     <lb n="8"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> <expan><abbr>design</abbr><ex>ati</ex></expan>
                     <lb n="9"/><num value="2">II</num> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>sulis</ex></expan> filio
@@ -124,11 +126,11 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To Marcus [[Opellius]] Antoninus [[Diadumenianus]] most noble Caesar, first among the youth, son of Imperator Caesar Marcus [[Opellius]] Severus [[Macrinus]] Pius Felix Augustus, with tribunician power, consul designate for the 2nd time, father of the fatherland, proconsul. Curated by Valerius Titanianus, prefect of the watchmen, most eminent man, (and) Flavius Lupus, subprefect. </p> 
             </div>
             <div type="commentary">
                 <p></p> 
@@ -137,6 +139,31 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.4393</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>465</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1889.78</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11900112</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>106390</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Lupa"/> <citedRange>31678</citedRange>
                     </bibl>
                 </p>
             </div>

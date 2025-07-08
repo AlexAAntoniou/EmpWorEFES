@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
+                        <repository>Ostia Antica, Caserma dei Vigili</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,12 +34,12 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>White marble statue base.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">98</height>
+                                        <width unit="cm">53.5</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
@@ -53,9 +53,11 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Text is clean and well-defined. "I" in "Augusti" in line 3 is above the "T", presumably to fit into the line.</p>
+                                <locus from="line1" to="line9">Lines 1–9</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">20–83</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Ostia Antica, Caserma dei Vigili</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -109,22 +111,22 @@
                 <ab>
                     <lb n="1"/><persName type="attested"><name>Iuliae</name>
                     <lb n="2"/><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name>
-                    <lb n="3"/>matri Aug<add place="overstrike">usti</add>
-                    <lb n="4"/>et kastrorum</persName>
-                    <lb n="5"/>sub <persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeo</ex></expan></name> <name><expan><abbr>M</abbr><ex>arcio</ex></expan></name> <name>Rustio</name> <name>Rufino</name></persName> <expan><abbr>pr</abbr><ex>aefecto</ex></expan> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <expan><abbr>e</abbr><ex>minentissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan>
-                    <lb n="6"/>cura<add place="overstrike">ntibus</add>
-                    <lb n="7"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Laecanio</name> <name>Novatilliano</name></persName> <expan><abbr>subpr</abbr><ex>aefecto</ex></expan> et
-                    <lb n="8"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name><expan><abbr>Fl</abbr><ex>avio</ex></expan></name> <name>Raesiano</name></persName> <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="2">II</num> <expan><abbr>vig</abbr><ex>ilum</ex></expan>
-                    <lb n="9"/>praeposito vexillationis        
+                    <lb n="3"/>matri <g ref="symbols.xml#interpunct">·</g> August<add place="above">i</add>
+                    <lb n="4"/>et <g ref="symbols.xml#interpunct">·</g> kastrorum</persName>
+                    <lb n="5"/>sub <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeo</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>M</abbr><ex>arcio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Rustio</name> <g ref="symbols.xml#interpunct">·</g> <name>Rufino</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pr</abbr><ex>aefecto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>e</abbr><ex>minentissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan>
+                    <lb n="6"/>curantibus
+                    <lb n="7"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Laecanio</name> <g ref="symbols.xml#interpunct">·</g> <name>Novatilliano</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>subpr</abbr><ex>aefecto</ex></expan> <g ref="symbols.xml#interpunct">·</g> et
+                    <lb n="8"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Fl</abbr><ex>avio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Raesiano</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>trib</abbr><ex>uno</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="2">II</num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan>
+                    <lb n="9"/>praeposito <g ref="symbols.xml#interpunct">·</g> vexillationis <g ref="symbols.xml#interpunct">·</g>       
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To Iulia Augusta, mother of the Augustus and of the camps, under the curation of Cnaeus Marcius Rustinus Rufinus, prefect of the watchmen, most eminent man, Caius Laecanius Novatillianus, subprefect and Marcus Flavius Raesianus, tribune of the 2nd cohort of watchmen, in command of the detachment.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -133,6 +135,21 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.4386</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1889.122</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11900105</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>106383</citedRange>
                     </bibl>
                 </p>
             </div>

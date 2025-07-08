@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
+                        <repository>Ostia Antica, Caserma dei Vigili</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -36,10 +36,10 @@
                             <supportDesc>
                                 <support><p>Rectangular statue base.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">36</height>
+                                        <width unit="cm">70.5</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
@@ -53,9 +53,11 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Text is relatively neat and well defined, with serifs, although occasionally letters are a little lopsided.</p> <!-- Finish with tall "I", ligature in Traiani to fit into line, add interpuncts-->
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Text is relatively neat and well defined, with serifs, although occasionally letters are a little lopsided. Tall "I" in "Imp" in line 2, second "I" in "Pii" in line 3, and first "I" in "optimissimo" in line 6. Ligature of "ni" at the end of "Traiani" at the end of line 4 is possibly the result of running out of room in that line.</p>
+                                <locus from="line1" to="line6">Lines 1–6</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">25–60</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -66,9 +68,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/8378691/ostia.html">Ostia</placeName>
                                 <geo>41.75357, 12.28935</geo> <!-- Augusteum of the Castra Vigiles -->
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0140" evidence="ruler">Dedicated in 140 CE based on titulature</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered at Ostia Antica, in the Caserma dei Vigili</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,13 +108,13 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Aurelio</name> <name>Caesari</name></persName>
-                    <lb n="2"/><persName type="attested"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name> <name>Caesaris</name> <name><expan><abbr>T</abbr><ex>iti</ex></expan></name> <name>Aeli</name> <name>Hadriani</name>
-                    <lb n="3"/><name>Antonini</name> <name>Augusti</name> Pii filio</persName>
-                    <lb n="4"/><persName type="attested"><name>divi</name> <name>Hadriani</name> nepoti</persName> <persName type="attested"><name>divi</name> <name>Traiani</name>
-                    <lb n="5"/>pronepoti</persName> <persName type="attested"><name>divi</name> <name>Nervae</name> <expan><abbr>abnep</abbr><ex>oti</ex></expan></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>suli</ex></expan>
-                    <lb n="6"/>optimo ac piissimo
+                <ab>
+                    <lb n="1"/><persName type="ruler" key="marcus-aurelius"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Aurelio</name> <name>Caesari</name></persName>
+                    <lb n="2"/><persName type="ruler" key="antoninus-pius"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Caesaris</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>T</abbr><ex>iti</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Aeli</name> <g ref="symbols.xml#interpunct">·</g> <name>Hadriani</name>
+                    <lb n="3"/><name>Antonini</name> <g ref="symbols.xml#interpunct">·</g> <name>Augusti</name> <g ref="symbols.xml#interpunct">·</g> Pii <g ref="symbols.xml#interpunct">·</g> filio</persName>
+                    <lb n="4"/><persName type="ruler" key="hadrian"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Hadriani</name> <g ref="symbols.xml#interpunct">·</g> nepoti</persName> <g ref="symbols.xml#interpunct">·</g> <persName type="ruler" key="trajan"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Traia<hi rend="ligature">ni</hi></name>
+                    <lb n="5"/>pronepoti</persName> <g ref="symbols.xml#interpunct">·</g> <persName type="ruler" key="nerva"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Nervae</name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>abnep</abbr><ex>oti</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>suli</ex></expan>
+                    <lb n="6"/>optimo <g ref="symbols.xml#interpunct">·</g> ac <g ref="symbols.xml#interpunct">·</g> piissimo
                 </ab> 
             </div>
             <div type="apparatus">
@@ -121,7 +123,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To Marcus Aurelius Caesar, son of Imperator Caesar Titus Aelius Hadrianus Antoninus Augustus Pius, grandson of the divine Hadrian, great-grandson of the divine Trajan, great-grandson of the divine Nerva, consul, the best and most pious.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -140,6 +142,16 @@
                 <p>
                     <bibl>
                         <ptr target="EDCS"/> <citedRange>11900086</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>106280</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Lupa"/> <citedRange>31672</citedRange>
                     </bibl>
                 </p>
             </div>

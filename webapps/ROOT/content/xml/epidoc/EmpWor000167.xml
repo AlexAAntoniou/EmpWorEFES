@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
+                        <repository>Ostia Antica, along the decumanus, in front of the headquarters of the college of the fabri tignuarii</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,12 +34,12 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Contiguous fragments (placed together by Zevi 1971)</p> <!-- Add Zevi to bibliography -->
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.buildingdedication" ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Building Inscription</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">59</height>
+                                        <width unit="cm">300</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line4">Lines 1–4</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">30–115</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -66,9 +68,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/8378691/ostia.html">Ostia</placeName>
                                 <geo>41.75357, 12.28935</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate atLeast="0194" atMost="0195">194-195 CE</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Left fragment: discovered in front of the area of the four temples; Right fragment: discovered between the decumanus and the via della foce.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -107,7 +109,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="divinity"><name>Divo</name> <name>Pio</name> <name><supplied reason="lost">P</supplied>ertinaci</name> <name><expan><abbr><supplied reason="lost">Au</supplied>g</abbr><ex>usto</ex></expan></name></persName> <supplied reason="lost">patri</supplied>
+                    <lb n="1"/><persName type="divinity" key="divusPertinax"><name>Divo</name> <name>Pio</name> <name><supplied reason="lost">P</supplied>ertinaci</name> <name><expan><abbr><supplied reason="lost">Au</supplied>g</abbr><ex>usto</ex></expan></name></persName> <supplied reason="lost">patri</supplied>
                     <lb n="2"/><expan><abbr>colleg</abbr><ex>ium</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan> <del rend="erasure"><expan><abbr><supplied reason="lost">tignu</supplied>ar</abbr><ex>iorum</ex></expan> <expan><abbr>O<supplied reason="lost">st</supplied></abbr><ex>iensium</ex></expan></del>
                     <lb n="3"/>curam agentibus <persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Plotio</name> <name><seg part="I">Ca</seg><gap reason="lost" extent="unknown" unit="char"/></name> <name>Salinatore</name> <name>Ianuario</name></persName> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Faianio</name>
                     <lb n="4"/><name>Olympo</name></persName> <expan><abbr>mag</abbr><ex>istris</ex></expan> <expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennalibus</ex></expan> <expan><abbr>lust</abbr><ex>ri</ex></expan> <num value="8">X<supplied reason="lost">XVIII</supplied></num>   
@@ -115,11 +117,11 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To the divine Pius Pertinax Augustus, [father] of the college of carpenters [of Ostia], the responsibility [for the work] was under the care of Gaius Plotius Ca[---] Salinator Ianuarius, and Lucius Faianius Olympus, quinquennial magistrates for the 18th lustrum. </p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -133,6 +135,31 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.4382</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1914.146</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1971.64</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11900085</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>072670</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>010474</citedRange>
                     </bibl>
                 </p>
             </div>

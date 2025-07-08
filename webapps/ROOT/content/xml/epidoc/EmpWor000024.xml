@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Cumae</settlement>
-                        <repository></repository>
+                        <repository>Baia, Museo Archeologico dei Campi Flegrei, Cumae Room</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -38,9 +38,9 @@
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">34.5</height>
+                                        <width unit="cm">63.2</width>
+                                        <depth unit="cm">4</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate atLeast="0004" atMost="0014">4–14 CE</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Fragments a-b were discovered in 1835 in Cumae, fragment c in the excavations of Stevens in 1882. They were transferred to the Napoli, Museo Archeologico Nazionale (inv. 3015) and subsequently to Baiae.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -141,6 +141,26 @@
                    <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.3682</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/> <citedRange>10.8375</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>108</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>37801938</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>158412</citedRange>
                     </bibl>
                 </p>
             </div>

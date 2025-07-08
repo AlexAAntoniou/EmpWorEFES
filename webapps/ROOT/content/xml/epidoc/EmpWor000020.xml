@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Cales</settlement>
-                        <repository></repository>
+                        <repository>S. Maria Capua Vetere, Museo dell'Antica Capua, depositi</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -38,9 +38,9 @@
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">44</height>
+                                        <width unit="cm">64</width>
+                                        <depth unit="cm">8</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line6">Lines 1–6</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">19–50</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate when="0028">28 CE</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1958">Discovered in Calvi Risorta, in the hamlet of Calvi Vecchia, on the land of G. Caparco, in 1958.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -116,7 +118,7 @@
                 </ab>
             </div>
             <div type="apparatus">
-                <listApp><app><note></note></app></listApp>
+                <listApp><app><note></note></app></listApp> <!-- compare with photograph -->
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p>For the most sacred birthday of the divine Augustus, for good omens and favourable auspices, this has been dedicated with the wealth from the pontiffs and augurs, by Quintus Murrasi Glyconis and Lucius Dentri Communis, 9 days before the Kalends of October, when L. Iunius Silanus and C. Valleo Tutore as consuls.</p>
@@ -125,9 +127,24 @@
                 <p></p> <!-- Johannowsky (2009, 31) -->
             </div>
             <div type="bibliography">
-                   <p>
+                <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>1969/70.110</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>09700882</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>074976</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>012982</citedRange>
                     </bibl>
                 </p>
             </div>

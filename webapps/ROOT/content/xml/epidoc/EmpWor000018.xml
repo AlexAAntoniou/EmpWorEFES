@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Cales</settlement>
-                        <repository></repository>
-                        <idno></idno>
+                        <repository>Napoli, Museo Archeologico Nazionale, depositi</repository>
+                        <idno>3935</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -38,9 +38,9 @@
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">90.5</height>
+                                        <width unit="cm">67</width>
+                                        <depth unit="cm">3</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line6">Lines 1–6</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">40–60</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,7 +108,7 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab> <!-- CIL -->
+                <ab> 
                    <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Aufellio</name> <name>Rufo</name></persName>
                    <lb n="2"/><expan><abbr>p</abbr><ex>rimo</ex></expan> <expan><abbr>p</abbr><ex>ilo</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="7"><hi rend="supraline">VIIEmpWor000018.xml</hi></num> <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>P</abbr><ex>iae</ex></expan> <expan><abbr>F</abbr><ex>idelis</ex></expan>
                    <lb n="3"/><expan><abbr><hi rend="supraline">IIII</hi>vir</abbr><ex>o</ex></expan> <expan><abbr>quinq</abbr><ex>uennali</ex></expan>
@@ -116,7 +118,7 @@
                 </ab>
             </div>
             <div type="apparatus">
-                <listApp><app><note></note></app></listApp>
+                <listApp><app><note></note></app></listApp> <!-- compare with photograph -->
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p>To Lucius Aufellius Rufus, first spear of the Legion VII Claudia Pia Fidelis, quattuorvir quinquennalis, flamen of the divine Augustus, patron of the municipium of vicus Palatius</p>
@@ -125,9 +127,24 @@
                 <p></p> <!-- -->
             </div>
             <div type="bibliography">
-                   <p>
+                <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.4641</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>6301</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>19700832</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>150357</citedRange>
                     </bibl>
                 </p>
             </div>

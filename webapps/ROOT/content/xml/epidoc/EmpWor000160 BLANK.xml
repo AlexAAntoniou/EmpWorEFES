@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000159</title>
+                <title>EmpWor000160</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,15 +16,15 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000159</idno>
+                <idno type="filename">EmpWor000160</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
-                        <settlement>Ostia/Portuus</settlement>
+                        <region>Regio </region> <!-- Default value -->
+                        <settlement></settlement>
                         <repository></repository> 
                         <idno></idno>
                     </msIdentifier>
@@ -35,15 +35,15 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- Default value -->
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType> <!-- Default value -->
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.complete"/> <!-- Default value -->
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -62,9 +62,9 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/422995">Ostia</placeName>
-                                <placeName type="modern" ref="https://www.geonames.org/8378691/ostia.html">Ostia</placeName>
-                                <geo>41.75357, 12.28935</geo> <!-- Augusteum of the Castra Vigiles -->
+                                <placeName type="ancient"></placeName> <!-- Default value -->
+                                <placeName type="modern"></placeName> <!-- Default value -->
+                                <geo></geo>  <!-- Default value -->
                             </origPlace>
                             <origDate/>
                         </origin>
@@ -90,13 +90,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term> <!-- Default value -->
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-05" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-06" who="#AA">Original data collection and editing</change> <!-- Default value -->
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -106,30 +106,13 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name>Caesari</name>
-                    <lb n="2"/><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Septimio</name> <name>Severo</name>
-                    <lb n="3"/><name>Pio</name> <name>Pertinaci</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name>
-                    <lb n="4"/>Arabico Adiabenico Parthico Maximo
-                    <lb n="5"/>Felici</persName> pontifici <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="15">XV</num> <expan><abbr>imp</abbr><ex>eratori</ex></expan> <num value="12">XII</num>
-                    <lb n="6"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <num value="3">III</num> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <persName type="attested"><name>divi</name> <name>Marci</name> <name>Antonini</name> <name>Pii</name>
-                    <lb n="7"/>Germanici <expan><abbr>Sarmat</abbr><ex>ici</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan></persName><expan><abbr></abbr><ex></ex></expan> <persName type="attested"><name>divi</name> <name>Commodi</name>
-                    <lb n="8"/>fratri</persName> <persName type="attested"><name>divi</name> <name>Antonini</name> <name>Pii</name> nepoti</persName>
-                    <lb n="9"/><persName type="attested"><name>divi</name> <name>Hadriani</name> pronepoti</persName> <persName type="attested"><name>divi</name>
-                    <lb n="10"/><name>Traiani</name> <name>Parthici</name> abnepoti</persName>
-                    <lb n="11"/><persName type="attested"><name>divi</name> <name>Nervae</name> adnepoti</persName>
-                    <lb n="12"/>restitutori castrorum
-                    <lb n="13"/>Ostiensium
-                    <lb n="14"/>sub <persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeo</ex></expan></name> <name><expan><abbr>M</abbr><ex>arcio</ex></expan></name> <name>Rustio</name> <name>Rufino</name></persName> <expan><abbr>pr</abbr><ex>aefecto</ex></expan> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <expan><abbr>e</abbr><ex>minentissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan>
-                    <lb n="15"/>cura<add place="overstrike">ntibus</add>
-                    <lb n="16"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Laecanio</name> <name>Novatilliano</name></persName> <expan><abbr>subpr</abbr><ex>aefecto</ex></expan> et
-                    <lb n="17"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name><expan><abbr>Fl</abbr><ex>avio</ex></expan></name> <name>Raesiano</name></persName> <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="2">II</num> <expan><abbr>vig</abbr><ex>ilum</ex></expan>
-                    <lb n="18"/>praeposito vexillationis
+                <ab>
+                    <lb n="1"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR</note></app> <!-- Default value -->
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
@@ -141,7 +124,7 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/> <citedRange>14.4381</citedRange>
+                        <ptr target="CIL"/> <citedRange></citedRange> <!-- Default values -->
                     </bibl>
                 </p>
             </div>

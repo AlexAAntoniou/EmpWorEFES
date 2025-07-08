@@ -23,7 +23,7 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Aquinum</settlement>
                         <repository></repository>
                         <idno></idno>
@@ -36,7 +36,7 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
@@ -69,7 +69,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found"></provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="found" subtype="discovered">Aquinum, in casa Spezi, near Santa Maria della Libera</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,9 +106,9 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab> <!-- CIL -->
+                <ab> 
                    <lb n="1"/><persName><name>Dentriae</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>Pollae</name></persName>
-                   <lb n="2"/>sacerdoti <persName type="divintiy">divae
+                   <lb n="2"/>sacerdoti <persName type="divine">divae
                    <lb n="3"/>Augustae</persName>
                    <lb n="4"/>post mortem
                    <lb n="5"/><expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> 
@@ -127,6 +127,21 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.5413</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>6291a</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>20401206</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>168512</citedRange>
                     </bibl>
                 </p>
             </div>

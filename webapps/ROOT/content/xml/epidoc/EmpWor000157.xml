@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
+                        <repository>Ostia Antica, Caserma dei Vigili</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,28 +34,30 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Marble statue base, complete. Top plinth is carved with bucrania, a lituus (curved augural wand), jug, patera and aspergillum. On left face, urceus. On right face, patera.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">47</height>
+                                        <width unit="cm">68</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text fills the stone, with erasure in line 7.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Text is relatively neat, but the gaps between letters differ line-to-line. Letters have serifs. Long "I" in "Imp" in line 1, and "Imp" in line 5, and by virtue of the ligature of the "ni" in vexillationis in line "8".</p>
+                                <locus from="line1" to="line8">Lines 1–8</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">25–60</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -66,9 +68,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/8378691/ostia.html">Ostia</placeName>
                                 <geo>41.75357, 12.28935</geo> <!-- Augusteum of the Castra Vigiles -->
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0195" evidence="ruler">Dedicated in 195 CE based on titulature</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered at Ostia Antica, in the Caserma dei Vigili</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,24 +108,24 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Septimio</name> <name>Se
+                <ab>
+                    <lb n="1"/><persName type="ruler" key="septimius-severus"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Septimio</name> <name>Se
                     <lb n="2" break="no"/>vero</name> <name>Pertinaci</name>
-                    <lb n="3"/><name>Caesari</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
-                    <lb n="4"/><expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="3"><hi rend="supraline">III</hi></num>
-                    <lb n="5"/><expan><abbr>imp</abbr><ex>eratori</ex></expan> <num value="5"><hi rend="supraline">V</hi></num> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <num value="2"><hi rend="supraline">II</hi></num> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan>
-                    <lb n="6"/>cohortes <num value="7"><hi rend="supraline">VII</hi></num> <expan><abbr>vig</abbr><ex>ilum</ex></expan>
-                    <lb n="7"/><del rend="erasure"><supplied reason="lost"><persName type="attested"><name>Fulvio</name> <name>Plautiano</name></persName></supplied></del> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <persName type="attested"><name>Cassio</name>
-                    <lb n="8"/><name>Ligure</name></persName> tribuno praeposito vexillationis
+                    <lb n="3"/><name>Caesari</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
+                    <lb n="4"/><expan><abbr>pont</abbr><ex>ifici</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>max</abbr><ex>imo</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pot</abbr><ex>estate</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="3"><hi rend="supraline">III</hi></num> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="5"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="5"><hi rend="supraline">V</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="2"><hi rend="supraline">II</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pro<g ref="symbols.xml#interpunct">·</g>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>atri</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>atriae</ex></expan> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="6"/>cohortes <g ref="symbols.xml#interpunct">·</g> <num value="7"><hi rend="supraline">VII</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="7"/><del rend="erasure"><supplied reason="lost"><persName type="attested"><name>Fulvio</name> <name>Plautiano</name></persName></supplied></del> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>Cassio</name>
+                    <lb n="8"/><name>Ligure</name></persName> <g ref="symbols.xml#interpunct">·</g> tribuno <g ref="symbols.xml#interpunct">·</g> praeposito <g ref="symbols.xml#interpunct">·</g> vexillatio<hi rend="ligature">ni</hi>s
                 </ab> 
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To Imperator Lucius Septimius Severus Pertinax Caesar Augustus, pontifex maximus, holder of tribunician power for the 3rd time, imperator for the 5th time, consul for the 2nd time, proconsul, father of the fatherland. The 7th cohort of watchmen (dedicated this), (on behalf of?) [[Fulvius Plautianus]] prefect of the watchmen, (and) Cassius Ligur, tribune in command of the detachment.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -132,6 +134,36 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.4380</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1889.125</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1968.8a</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11900100</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>074723</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>013478</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Lupa"/> <citedRange>31674</citedRange>
                     </bibl>
                 </p>
             </div>

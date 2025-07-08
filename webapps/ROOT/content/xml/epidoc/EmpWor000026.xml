@@ -23,7 +23,7 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Fabrateria Vetus</settlement>
                         <repository></repository>
                         <idno></idno>
@@ -36,10 +36,10 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html" cert="low">Statue Base(?)</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">46</height>
+                                        <width unit="cm">56</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line6">Lines 1–6</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">40</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/> <!-- 3rd century CE (?). A third century date is attested by Forbis 1996, 113 and Hemelrijk 2015, 521, but elsewhere (433) Hemelrijk gives the tentative date range, 140-161 CE(?) -->
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Ceccano, near the bridge over the Sacco river.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -116,7 +118,7 @@
                 </ab>
             </div>
             <div type="apparatus">
-                <listApp><app><note></note></app></listApp>
+                <listApp><app><note></note></app></listApp> <!-- Compare with photograph -->
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p>To Saenia Balbilla, daughter of Gnaeus, sacerdos of the divine Faustina, the decurions [set this up] with collected funds</p> 
@@ -125,9 +127,19 @@
                 <p></p> <!-- Hemelrijk 2006, 117; Hemelrijk 2015, 433, 521; Forbis 1996, 113 no. 32; Granino Cecere 2014, no. 5, 66-67 -->
             </div>
             <div type="bibliography">
-                   <p>
+                <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.5656</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>20403132</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>129817</citedRange>
                     </bibl>
                 </p>
             </div>

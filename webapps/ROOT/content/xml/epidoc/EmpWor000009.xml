@@ -23,7 +23,7 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Antium</settlement>
                         <repository></repository>
                         <idno></idno>
@@ -127,6 +127,16 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.6645</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>21300931</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>179999</citedRange>
                     </bibl>
                 </p>
             </div>

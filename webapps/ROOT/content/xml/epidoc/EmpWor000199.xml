@@ -23,7 +23,7 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Pompeii</settlement>
                         <repository></repository> 
                         <idno></idno>
@@ -127,6 +127,11 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.943</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11401035</citedRange>
                     </bibl>
                 </p>
             </div>

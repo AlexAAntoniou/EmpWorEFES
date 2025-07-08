@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Bovillae</settlement>
-                        <repository></repository>
-                        <idno></idno>
+                        <repository>Musei Vaticani, Gregoriano Profano 16, 2</repository>
+                        <idno>9798</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -35,12 +35,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <material ana="#material.stone.lapis.albanus" ref="https://www.eagle-network.eu/voc/material/lod/82.html">Lapis Albanus</material>
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/typeins/lod/29.html">Altar</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">91</height>
+                                        <width unit="cm">77</width>
+                                        <depth unit="cm">67</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line5">Lines 1–5</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">20–55</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1853">Discovered in Tor Messer Paoli, around 1km after the intersection between via Cavona and via dei Laghi in 1853. Moved to Musei Vaticani in 1864.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -124,9 +126,24 @@
                 <p></p> <!-- -->
             </div>
             <div type="bibliography">
-                   <p>
+                <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.2426</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05800393</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>152005</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>157651</citedRange>
                     </bibl>
                 </p>
             </div>

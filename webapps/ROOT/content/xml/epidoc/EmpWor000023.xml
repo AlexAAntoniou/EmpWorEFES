@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Cumae</settlement>
-                        <repository role="museum">National Museum of Naples</repository>
-                        <idno>3016</idno> <!-- According to CCCA -->
+                        <repository>Napoli, Museo Archeologico Nazionale, depositi</repository> <!-- FAR 198 -->
+                        <idno>3016</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -38,9 +38,9 @@
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/384.html">Decree</objectType>
                                     <dimensions>
-                                        <height unit="cm">0.59</height>
-                                        <width unit="cm">0.33</width>
-                                        <depth unit="cm">0.04</depth>
+                                        <height unit="cm">60</height>
+                                        <width unit="cm">33</width>
+                                        <depth unit="cm">4.5</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line30">Lines 1–30</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">4–20</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate when="0289">289 CE (17 August)</origDate>
                         </origin>
-                        <provenance type="found" subtype="discovered" when="1785-08-11">Found near the castle of Baia, on 11 August 1785, together with a small marble head</provenance> <!-- CCCA, who gets it from older source. CIL? -->
+                        <provenance type="found" subtype="discovered" when="1785-08-11">Found near the castle of Baia, on 11 August 1785, together with a small marble head, in a well painted room.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.acta" ref="https://www.eagle-network.eu/voc/typeins/lod/1.html">Acta</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,7 +108,7 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab> <!-- CIL with EDCS photo for interpuncts-->
+                <ab> 
                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Magrio</name> <g ref="symbols.xml#interpunct">·</g> <name>Basso</name></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Ragonio</name>
                    <lb n="2"/><name>Quintiano</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><g ref="symbols.xml#interpunct">·</g><abbr>s</abbr><ex>ulibus</ex></expan> <expan><abbr>k</abbr><ex>alendis</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Iuni</abbr><ex>i</ex><abbr>s</abbr></expan>
                    <lb n="3"/>Cumis in templo <persName type="divinity">divi Vespa
@@ -152,7 +154,7 @@
                 <p>As attested by this inscription, the temple of the divine Vespasian was still being used by the decurions in 289 CE, but was likely (originally) of a late first century CE date (c.95 CE).</p> <!-- Temple probably identified on long side of forum. Fears 1975, 6-7. -->
             </div>
             <div type="bibliography">
-                   <p>
+                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.3698</citedRange>
                     </bibl>
@@ -160,6 +162,16 @@
                    <p>
                     <bibl>
                         <ptr target="CCCA"/> <citedRange>4.7</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>17500256</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>108229</citedRange>
                     </bibl>
                 </p>
             </div>

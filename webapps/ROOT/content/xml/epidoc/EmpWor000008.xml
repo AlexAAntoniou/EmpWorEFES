@@ -23,7 +23,7 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Allifae</settlement>
                         <repository></repository>
                         <idno></idno>
@@ -36,7 +36,7 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html" cert="low">Statue Base(?)</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate notBefore="0150" notAfter="0250">Late 2nd-early 3rd century CE</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Alife (Caserta), in front of the Malatesta house (in the mid-18th century), then in the Ciriola house (seen there in 1846).</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -128,10 +128,20 @@
             <div type="commentary">
                 <p>Claudia Fadilla was from a Roman senatorial family.</p> <!-- Claudia - PIR (2) C 1093; RE 3, Claudia n.417. Hemelrijk 2015, 420, 517, 528; Varhelyi 2010, 114; Granino Cecere 2014, no. 1a, 61–63. Cf. Forbis 1996, no. 231, 167. -->
             </div>
-            <div type="bibliography">
+            <div type="bibliography"> <!-- Add Granino Cecere 2014 -->
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>9.2347</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>12401858</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>136022</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -85,6 +85,9 @@
                         <floruit notBefore="0117" notAfter="0138">117–138 CE</floruit>
                         <idno type="wp">https://en.wikipedia.org/wiki/Hadrian</idno>
                     </person>
+                    <person xml:id="lucius-aelius-caesar">
+                        <persName xml:lang="en">Lucius Aelius Caesar</persName>
+                    </person>
                     <person xml:id="antoninus-pius">
                         <persName xml:lang="en">Antoninus Pius</persName>
                         <persName xml:lang="la">Caesar Titus Aelius Hadrianus Antoninus Augustus Pius</persName>
@@ -127,6 +130,12 @@
                         <persName xml:lang="en">Geta</persName>
                         <floruit notBefore="0211" notAfter="0211">211</floruit>
                     </person>
+                    <person xml:id="macrinus">
+                        <persName xml:lang="en">Macrinus</persName>
+                    </person>
+                    <person xml:id="diadumenianus">
+                        <persName xml:lang="en">Diadumenianus</persName>
+                    </person>
                     <person xml:id="elagablus">
                         <persName xml:lang="en">Elagabalus</persName>
                         <floruit notBefore="0218" notAfter="0222">218–222 CE</floruit>
@@ -134,6 +143,12 @@
                     <person xml:id="severus-alexander">
                         <persName xml:lang="en">Severus Alexander</persName>
                         <floruit notBefore="0222" notAfter="0235">222–235 CE</floruit>
+                    </person>
+                    <person xml:id="tranquillina">
+                        <persName xml:lang="en">Furia Sabinia Tranquillina</persName>
+                    </person>
+                    <person xml:id="gordianIII">
+                        <persName xml:lang="en">Gordian III</persName>
                     </person>
                     <person xml:id="diocletianus">
                         <persName xml:lang="en">Diocletian</persName>

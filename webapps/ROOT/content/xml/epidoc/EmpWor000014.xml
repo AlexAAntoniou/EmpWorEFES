@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Aricia</settlement>
-                        <repository></repository>
+                        <repository>Ariccia, Palazzo Chigi (right side)</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -38,9 +38,9 @@
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">64</height>
+                                        <width unit="cm">28</width>
+                                        <depth unit="cm">6</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line9">Lines 1–9</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">30–42</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -106,7 +108,7 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab> <!-- CIL -->
+                <ab>
                    <lb n="1"/><persName type="divinity">Dianae <expan><abbr><supplied reason="uncertain" evidence="previouseditor">Aug</supplied></abbr><ex>ustae</ex></expan></persName>
                    <lb n="2"/><expan><abbr>colle<unclear>g</unclear></abbr><ex>i</ex></expan> <expan><abbr><supplied reason="uncertain" evidence="previouseditor">lotor</supplied></abbr><ex>um</ex></expan>
                    <lb n="3"/><expan><abbr>sac</abbr><supplied reason="undefined" evidence="previouseditor">r</supplied><ex>um</ex></expan>
@@ -119,7 +121,7 @@
                 </ab>
             </div>
             <div type="apparatus">
-                <listApp><app><note></note></app></listApp>
+                <listApp><app><note></note></app></listApp> <!-- compare with photograph -->
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p></p> <!-- Translation needed -->
@@ -130,12 +132,22 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/> <citedRange>10.2156</citedRange>
+                        <ptr target="CIL"/> <citedRange>14.2156</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
                         <ptr target="ILS"/> <citedRange>3255</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05800118</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>143464</citedRange>
                     </bibl>
                 </p>
             </div>
