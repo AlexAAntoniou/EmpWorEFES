@@ -23,7 +23,7 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
                         <repository></repository> 
                         <idno></idno>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragment"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered on the decumanus of Ostia Antica.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,11 +106,11 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
+                <ab>
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name>Hermiae</name></persName> <expan><abbr>eq</abbr><ex>uiti</ex></expan> <expan><abbr>Rom</abbr><ex>ano</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan><abbr>praef</abbr><ex>ecto</ex></expan></supplied> <persName type="attested"><supplied reason="lost"><name>divi</name></supplied> <name><expan><abbr>Pert</abbr><ex>inaci</ex></expan></name></persName> <expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>aerar</abbr><ex>ii</ex></expan> <num atLeast="2">I<supplied reason="lost">I</supplied></num><gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>vae sodali <persName type="divinity"><name>Herc<supplied reason="lost">ulano</supplied></name></persName>
-                    <lb n="4"/><supplied reason="lost"><expan><abbr>flam</abbr><ex>ini</ex></expan></supplied> <supplied reason="lost"><persName type="divinity"><name>Romae</name></persName></supplied> <supplied reason="lost">et</supplied> <persName type="divinity"><name><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divinity"><name>divi</name> <supplied reason ="lost" cert="low">Marci</supplied></persName> <supplied reason="lost"><expan><abbr>dec</abbr><ex>urioni</ex></expan></supplied>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan><abbr>praef</abbr><ex>ecto</ex></expan></supplied> <persName type="ruler" key="pertinax"><supplied reason="lost"><name>divi</name></supplied> <name><expan><abbr>Pert</abbr><ex>inaci</ex></expan></name></persName> <expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>aerar</abbr><ex>ii</ex></expan> <num atLeast="2">I<supplied reason="lost">I</supplied></num><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>vae sodali <persName type="divinity" key="hercules"><name>Herc<supplied reason="lost">ulano</supplied></name></persName>
+                    <lb n="4"/><supplied reason="lost"><expan><abbr>flam</abbr><ex>ini</ex></expan></supplied> <supplied reason="lost"><persName type="divinity" key="roma"><name>Romae</name></persName></supplied> <supplied reason="lost">et</supplied> <persName type="divinity" key="augustus"><name><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divinity" key="divusMarcus" cert="low"><name>divi</name> <supplied reason ="lost" cert="low">Marci</supplied></persName> <supplied reason="lost"><expan><abbr>dec</abbr><ex>urioni</ex></expan></supplied>
                     <lb n="5"/><supplied reason="lost"><expan><abbr>Laur</abbr><ex>entium</ex></expan> vico Augusta</supplied>norum et IIII<supplied reason="lost">viro</supplied>
                     <lb n="6"/><supplied reason="lost">eiusdem loci</supplied> <expan><abbr><supplied reason="lost">pa</supplied>tr</abbr><ex>ono</ex></expan> et <expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennali</ex></expan> ur<gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="7"/><gap reason="lost" quantity="1" unit="line"/>
@@ -118,11 +118,11 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>[---] to [---] Hermias, Roman equestrian, [---], [prefect of the divine] Pertinax, quaestor of the treasury (twice?)] [---], sodalis of Hercules, [flamen of Rome and] Augustus, flamen of the divine [Marcus?, decurion] of Laurentum, in the district of the Augustani, and quattuor[vir], patron of the same place, and quinquennial [???]  </p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -131,6 +131,21 @@
                 <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>1982.132</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>08600068</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>078449</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>001579</citedRange>
                     </bibl>
                 </p>
             </div>

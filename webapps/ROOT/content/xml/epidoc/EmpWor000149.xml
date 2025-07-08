@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
+                        <repository>Ostia Antica, Galleria Lapidaria</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -38,12 +38,12 @@
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">14</height>
+                                        <width unit="cm">54</width>
+                                        <depth unit="cm">5</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragment"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Ostia Antica, in a drain south of the horrea.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -106,20 +106,20 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="divinity"><name>numini</name> <name>domus</name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName>
-                    <lb n="2"/><persName type="divinity"><name>Silvani</name></persName> iuvenis sacrum
+                <ab>
+                    <lb n="1"/><persName type="divinity" key="numenDomusAugusti"><name>numini</name> <name>domus</name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName>
+                    <lb n="2"/><persName type="divinity" key="silvanus"><name>Silvani</name></persName> iuvenis sacrum
                     <lb n="3"/>sub cura <persName type="attested">Achillis</persName> <persName type="attested"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>lib</abbr><ex>erti</ex></expan>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="char"/> atendente <persName type="attested"><name>Xantho</name></persName>
                 </ab> 
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>Sacred to the divine force of the Augustan house (and) to the young Silvanus, under the care of Achilles, the freedman of Augustus [---] attendant of Xanthus. </p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -128,6 +128,26 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.4320</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1919.61</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11900041</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>106235</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>026763</citedRange>
                     </bibl>
                 </p>
             </div>

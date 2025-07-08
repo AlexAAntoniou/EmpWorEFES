@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000825</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,7 +16,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000825</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
@@ -70,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Turin, in the remains of the Carolingian Walls. Subsequently taken to the Museo Civico of Turin, now lost.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -132,6 +132,11 @@
                 <p>
                     <bibl>
                         <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Bergemann1990"/> <citedRange>E48</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio III</region>
                         <settlement>Forum Popilii</settlement>
-                        <repository>Tempio, in situ in sepulchral monument</repository>  <!-- PRIESTHOOD IN MULTIPLE LOCATIONS! -->
+                        <repository>Polla, in the so-called "U Tempio", in situ in its original sepulchral monument</repository>  <!-- PRIESTHOOD IN MULTIPLE LOCATIONS! -->
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -68,7 +68,7 @@
                                 <placeName type="modern" ref="https://www.geonames.org/6540700/polla.html">Polla</placeName>
                                 <geo>40.518218, 15.498879</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate/> <!-- Bergemann suggests Tiberian or Claudian, with comparison to the carved tendrils framing the inscription. -->
                         </origin>
                         <provenance type="found" subtype="discovered" when="1907">Discovered in the excavations of the sepulchral monument in 1907.</provenance>
                         <provenance type="observed"></provenance>
@@ -141,6 +141,11 @@
                 </p>
                 <p>
                     <bibl>
+                        <ptr target="ILS"/> <citedRange>9390</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
                         <ptr target="EDCS"/> <citedRange>06600029</citedRange>
                     </bibl>
                 </p>
@@ -162,6 +167,11 @@
                 <p>
                     <bibl>
                         <ptr target="Grether1946"/> <citedRange>238–239</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Bergemann1990"/> <citedRange>E37</citedRange>
                     </bibl>
                 </p>
             </div>

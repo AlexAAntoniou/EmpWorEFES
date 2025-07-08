@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000738</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,15 +16,15 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000738</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
+                        <region>Regio X</region> 
+                        <settlement>Aquileia</settlement>
                         <repository></repository>  
                         <idno></idno>
                     </msIdentifier>
@@ -34,16 +34,16 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                <support><p>A tablet, broken on the left side and bottom right corner.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble (white)</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">43</height>
+                                        <width unit="cm">81</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragment"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -54,9 +54,9 @@
                         </objectDesc>
                         <handDesc>
                             <handNote><p></p>
-                                <locus from="line1" to="line1">Line 1</locus>
+                                <locus from="line1" to="line5">Lines 1–5</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"></height>
+                                    <height unit="mm">40–50</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -64,13 +64,13 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/187290">Aquileia</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/6539930/aquileia.html">Aquileia</placeName>
+                                <geo>45.769631, 13.370946</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1869">Originally found probably near San Giovanno al Timavo. Discovered in 1869 in the Duino castle (probably having been put there in the 14th century) near the square Roman tower, subsequently placed in the Sala dei Cavalieri, but perhaps lost during the First World War.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,13 +92,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-07-03" who="#AA">Original data collection and editing</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +109,20 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="ruler" key="diocletian"><supplied reason="lost">Magno et in</supplied>victo <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Caesari</name>
+                    <lb n="2"/><name><expan><abbr><supplied reason="lost">C</supplied></abbr><ex>aio</ex></expan></name> <name><expan><abbr><supplied reason="lost">Aur</supplied></abbr><ex>elio</ex></expan></name> <name><supplied reason="lost">Di</supplied>ocletiano</name></persName> <g ref="symbols.xml#interpunct">·</g> Pio <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Fel</abbr><ex>ici</ex></expan> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="3"/><supplied reason="lost">Augusto</supplied> <expan><abbr><supplied reason="lost">p</supplied>ont</abbr><ex>ifici</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>max</abbr><ex>imo</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pot</abbr><ex>estate</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="3">III</num> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="4"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <num value="2">II</num> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <expan><abbr><supplied reason="lost">p</supplied>ro<g ref="symbols.xml#interpunct">·</g>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>Acilius</name> <g ref="symbols.xml#interpunct">·</g> <name>Clarus</name></persName>
+                    <lb n="5"/><supplied reason="lost"><expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> corrector</supplied> <expan><abbr><supplied reason="lost">I</supplied><unclear>t</unclear>al</abbr><ex>iae</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>dev</abbr><ex>otus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>num</abbr><ex>ini</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>mai</abbr><ex>estatique</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>ei</abbr><ex>us</ex></expan>  
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from InscrIt</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>[To the Great and] Invicible Imperator (and) Caesar, [Gaius Aurelius Valerius] Diocletian, Pius, Felix, [Augustus], pontifex maximus, holder of tribunician power for the third time, [consul for the 2nd, father of the fatherland], and proconsul. Acilius Clarus, [most illustrious man, corrector] of Italy, devotes this to his divine force and majesty.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -126,12 +130,32 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="CIL"/> <citedRange>5.8205</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="EDCS"/> <citedRange>05401444</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>092730</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>033604</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="LSA"/> <citedRange>1214</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="InscrIt"/> <citedRange>10-04, 330</citedRange>
                     </bibl>
                 </p>
             </div>

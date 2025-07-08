@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Ostia Antica, Piazzale delle Corporazioni</repository> 
+                        <idno>19806</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -36,11 +36,11 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">150</height>
+                                        <width unit="cm">76</width>
+                                        <depth unit="cm">51</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -66,9 +66,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/8378691/ostia.html">Ostia</placeName>
                                 <geo>41.75357, 12.28935</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0173" evidence="consuls">Dated to 173 CE based on the consular year.</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Ostia Antica, in the theatre.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -107,19 +107,19 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <div type="textpart" subtype="side" n="front">
-                    <ab><!-- Only basic encoding -->
-                        <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Iunio</name> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Pal</abbr><ex>atina</ex></expan>
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Iunio</name> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Pal</abbr><ex>atina</ex></expan>
                         <lb n="2"/><name>Fausto</name></persName>
                         <lb n="3"/>decurioni adlecto
-                        <lb n="4"/>flamini <persName type="divinity"><name>divi</name> <name>Titi</name></persName> duumviro
-                        <lb n="5"/>mercatori frumentario
-                        <lb n="6"/><expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>aerari</abbr><ex>i</ex></expan> flamini <persName type="divinity"><name>Romae</name></persName>
-                        <lb n="7"/>et <persName type="divinity"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> patrono <expan><abbr>cor<supplied reason="lost">p</supplied></abbr><ex>oris</ex></expan>
+                        <lb n="4"/>flamini <g ref="symbols.xml#interpunct">·</g> <persName type="divinity" key="divusTitus"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Titi</name></persName> <g ref="symbols.xml#interpunct">·</g> duumviro
+                        <lb n="5"/>mercatori <g ref="symbols.xml#interpunct">·</g> frumentario
+                        <lb n="6"/><expan><abbr>q</abbr><ex>uaestori</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>aerari</abbr><ex>i</ex></expan> <g ref="symbols.xml#interpunct">·</g> flamini <g ref="symbols.xml#interpunct">·</g> <persName type="divinity" key="roma"><name>Romae</name></persName>
+                        <lb n="7"/>et <g ref="symbols.xml#interpunct">·</g> <persName type="divinity" key="augustus"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> patrono <g ref="symbols.xml#interpunct">·</g> <expan><abbr>cor<supplied reason="lost">p</supplied></abbr><ex>oris</ex></expan>
                         <lb n="8"/>curatorum navium marinar<supplied reason="lost">um</supplied>
                         <lb n="9"/>domini navium Afrarum
                         <lb n="10"/>universarum item
                         <lb n="11"/>Sardorum
-                        <lb n="12"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>p</abbr><ex>ublice</ex></expan>
+                        <lb n="12"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>atus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>ublice</ex></expan>
                     </ab>
                 </div>
                 <div type="textpart" subtype="side" n="side">
@@ -135,11 +135,13 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR, comparison with photograph (only of front face).</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>[Front face]: To Marcus Iunius Faustus, son of Marcus, of the Palatina tribe, adlected decurion, flamen of the divine Titus, duumvir, grain dealer, quaestor of the treasury, flamen of Rome and Augustus, patron of the corporation of overseers of the sea-going ships, master of all African ships, and likewise those of Sardinia. This place was publicly given by decree of the decurions.
+                   [Side face]: [Dedicated] on the 12th day before the Kalends of October, in the consulship of Severus for the second time and Pompeianus for the second time, care of the works was by Publius Aufidius [---]us, Marcus Clodius Fortuna[tianus] Pudens, (and) Lucius Tadius Fel(ix?), [----] 15. 
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -148,6 +150,21 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.4142</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>6140</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05802111</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>165040</citedRange>
                     </bibl>
                 </p>
             </div>

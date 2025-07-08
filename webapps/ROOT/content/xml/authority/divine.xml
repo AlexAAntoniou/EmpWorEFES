@@ -15,6 +15,9 @@
             <div type="commentary">
                 <listPerson type="divinities">
                     <head xml:lang="en">Divine and mythological figures</head>
+                    <person xml:id="divusIulius">
+                        <persName xml:lang="la">Divus Iulius</persName>
+                    </person>
                     <person xml:id="augustus">
                         <persName xml:lang="en">Augustus</persName>
                         <persName xml:lang="la">Augustus</persName>
@@ -29,10 +32,12 @@
                     <person xml:id="divaLivia">
                         <persName xml:lang="en">Diva Augusta (Livia)</persName>
                     </person>
+                    <person xml:id="divaDrusilla">
+                        <persName xml:lang="en">Diva Drusilla</persName>
+                    </person>
                     <person xml:id="divusClaudius">
                         <persName xml:lang="en">Divus Claudius</persName>
                     </person>
-                    
                     <person xml:id="divusVespasianus">
                         <persName xml:lang="en">Divus Vespasianus</persName>
                     </person>
@@ -53,6 +58,9 @@
                     </person>
                     <person xml:id="divusHadrianus">
                         <persName xml:lang="la">Divus Hadrianus</persName>
+                    </person>
+                    <person xml:id="divusAntoninus">
+                        <persName xml:lang="la">Divus Antoninus</persName>
                     </person>
                     <person xml:id="divaSabina"> 
                         <persName xml:lang="la">Diva Sabina</persName>
@@ -262,7 +270,10 @@
                         <persName xml:lang="la">Numen</persName>
                     </person>
                     <person xml:id="numenAugusti">
-                        <persName xml:lang="en">Divine Augustan Name</persName>
+                        <persName xml:lang="en">Divine Augustan Force</persName>
+                    </person>
+                    <person xml:id="numenDomusAugusti">
+                        <persName xml:lang="en">Divine Force of the House of Augustus</persName>
                     </person>
                     <person xml:id="olympians">
                         <persName xml:lang="grc">θεοί Ὀλύμπιοι</persName>

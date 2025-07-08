@@ -65,8 +65,8 @@
                         <origin>
                             <origPlace>
                                 <placeName type="ancient" ref="https://pleiades.stoa.org/places/383603">Brixia</placeName>
-                                <placeName type="modern">Brescia</placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="modern" ref="https://www.geonames.org/3181554/brescia.html">Brescia</placeName>
+                                <geo>45.539773, 10.223135</geo>
                             </origPlace>
                             <origDate atLeast="0117" atMost="0138">Hadrianic in date, given equivalences with <ref target="EmpWor000692.xml">EmpWor00692</ref>.</origDate>
                         </origin>

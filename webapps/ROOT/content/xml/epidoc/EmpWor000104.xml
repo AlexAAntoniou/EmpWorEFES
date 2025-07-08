@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Musei Vaticani, Cortile Ottagono</repository> 
+                        <idno>960</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -36,11 +36,11 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">60.5</height>
+                                        <width unit="cm">49.5</width>
+                                        <depth unit="cm">43</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line6">Lines 1–6</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">25–34</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -106,12 +108,12 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                 <ab><!-- Only basic encoding -->
-                     <lb n="1"/>Imperio
+                 <ab>
+                     <lb n="1"/>imperio
                      <lb n="2"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Ostiensis</name>
                      <lb n="3"/><name>Felix</name></persName>
                      <lb n="4"/>aedituus
-                     <lb n="5"/>aedis <persName type="divinity"><name>Romae</name></persName> et <persName type="divinity"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+                     <lb n="5"/>aedis <persName type="divinity" key="roma"><name>Romae</name></persName> et <persName type="divinity" key="augustus"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
                      <lb n="6"/>fecit
                  </ab>
             </div>
@@ -121,7 +123,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>By command, Quintus Ostiensis Felix, custodian of the temple of Roma and Augustus, made (this).</p>
             </div>
             <div type="commentary">
                 <p>This inscription is one of two which attests to the dedicatory formula of the <ref target="monument-search.xml#ostiaaedes">Aedes of Roma and Augustus</ref> at <ref target="ancient_place.xml#Ostia">Ostia</ref>.</p> 
@@ -130,6 +132,16 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.73</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05700073</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>143571</citedRange>
                     </bibl>
                 </p>
             </div>

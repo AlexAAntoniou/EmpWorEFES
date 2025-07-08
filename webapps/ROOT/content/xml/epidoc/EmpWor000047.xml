@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Minturnae</settlement>
-                        <repository></repository>
+                        <repository>Minturno, Museo Archeologico Nazionale</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,13 +34,13 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                <support><p>Large statue base; base itself consists of three large blocks. Statue base is large enough for an equestrian statue (now missing) of Elagabalus.</p>
+                                    <material ana="#material.stone.limestone" ref="https://www.eagle-network.eu/voc/material/lod/66.html">Limestone (grey)</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">166</height>
+                                        <width unit="cm">98.5</width>
+                                        <depth unit="cm">193.3</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -53,9 +53,11 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Text is a little uneven and does not always follow the line; spacing is a little uneven too.</p>
+                                <locus from="line1" to="line7">Lines 1–7</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">61</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate atLeast="0218" atMost="0222">218–222 CE</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Minturno, in the excavations of the eastern part of the archaeological area, between the entrance to the city and the Appian Way. Potentially, according to Johnson in Bergemann (1990) originally set up in the portico, although Bergemann thinks this is unlikely, and thinks the forum is more likely. </provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -105,29 +107,50 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA"><!-- CIL -->
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab> 
                   <lb n="1"/>Magno et Invicto
-                  <lb n="2"/><persName type="attested"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name><expan><abbr>Caes</abbr><ex>ari</ex></expan></name>
+                  <lb n="2"/><persName type="ruler" key="elagablus"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name><expan><abbr>Caes</abbr><ex>ari</ex></expan></name>
                   <lb n="3"/><del rend="erasure"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Aurelio</name> <name>Antonino</name></del>
                   <lb n="4"/><name>Pio</name> <name>Felici</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
-                  <lb n="5"/>devota numini
-                  <lb n="6"/>maiestatique eius  
+                  <lb n="5"/>coloniam Minturnae  
+                  <lb n="6"/>devota numini
+                  <lb n="7"/>maiestatique eius  
                 </ab>
             </div>
             <div type="apparatus">
-                <listApp><app><note></note></app></listApp>
+                <listApp><app><note>Text of AE, comparison with photograph.</note></app></listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>To the great and invincible imperator Caesar Aurelius Antoninus Pius Felix Augustus, the colony of Minturnae devotes this to his numen and maiestas</p>
+                <p>To the great and invincible imperator Caesar Aurelius Antoninus Pius Felix Augustus, the colony of Minturnae devotes this to his divine power and majesty.</p>
             </div>
             <div type="commentary">
-                <p></p> <!-- -->
+                <p>This statue base to Elagabalus suffered erasure of his name, after his damnatio.</p> <!-- -->
             </div>
             <div type="bibliography">
                  <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>1935.22</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>16000302</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>073267</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>023077</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Bergemann1990"/> <citedRange>E26</citedRange>
                     </bibl>
                 </p>
             </div>

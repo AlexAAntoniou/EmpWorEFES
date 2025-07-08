@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
+                        <repository>Ostia Antica, Caserma dei Vigili</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,28 +34,30 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Tall marble statue base</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">82</height>
+                                        <width unit="cm">58</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text fills majority of space on stone, with small gap at bottom.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Text is relatively neat, but characters are extremely close together.</p>
+                                <locus from="line1" to="line16">Lines 1–16</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">20–65</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -66,9 +68,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/8378691/ostia.html">Ostia</placeName>
                                 <geo>41.75357, 12.28935</geo> <!-- Augusteum of the Castra Vigiles -->
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0217" evidence="ruler">Dedicated in 217 CE based on titulature.</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered at Ostia Antica, in the Caserma dei Vigili</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,18 +108,18 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name>Caesari</name>
+                <ab>
+                    <lb n="1"/><persName type="ruler" key="septimius-severus"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name>Caesari</name>
                     <lb n="2"/><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Septimio</name> <name>Severo</name>
                     <lb n="3"/><name>Pio</name> <name>Pertinaci</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name>
                     <lb n="4"/>Arabico Adiabenico Parthico Maximo
                     <lb n="5"/>Felici</persName> pontifici <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="15">XV</num> <expan><abbr>imp</abbr><ex>eratori</ex></expan> <num value="12">XII</num>
-                    <lb n="6"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>suli</ex></expan> <num value="3">III</num> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <persName type="patronym"><name>divi</name> <name>Marci</name> <name>Antonini</name> <name>Pii</name>
-                    <lb n="7"/>Germanici <expan><abbr>Sarmat</abbr><ex>ici</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <persName type="attested"><name>divi</name> <name>Commodi</name>
-                    <lb n="8"/>fratri</persName> <persName type="attested"><name>divi</name> <name>Antonini</name> <name>Pii</name> nepoti</persName>
-                    <lb n="9"/><persName type="attested"><name>divi</name> <name>Hadriani</name> pronepoti</persName> <persName type="attested"><name>divi</name>
+                    <lb n="6"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>suli</ex></expan> <num value="3">III</num> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <persName type="patronym" key="marcus-aurelius"><name>divi</name> <name>Marci</name> <name>Antonini</name> <name>Pii</name>
+                    <lb n="7"/>Germanici <expan><abbr>Sarmat</abbr><ex>ici</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <persName type="ruler" key="commodus"><name>divi</name> <name>Commodi</name>
+                    <lb n="8"/>fratri</persName> <persName type="ruler" key="antoninus-pius"><name>divi</name> <name>Antonini</name> <name>Pii</name> nepoti</persName>
+                    <lb n="9"/><persName type="ruler" key="hadrian"><name>divi</name> <name>Hadriani</name> pronepoti</persName> <persName type="ruler" key="trajan"><name>divi</name>
                     <lb n="10"/><name>Traiani</name> <name>Parthici</name> abnepoti </persName>
-                    <lb n="11"/><persName type="attested"><name>divi</name> <name>Nervae</name> adnepoti</persName>
+                    <lb n="11"/><persName type="ruler" key="nerva"><name>divi</name> <name>Nervae</name> adnepoti</persName>
                     <lb n="12"/>restitutori castrorum
                     <lb n="13"/>Ostiensium
                     <lb n="14"/>sub <persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Laecanio</name> <name>Novatilliano</name></persName> <expan><abbr>subpr</abbr><ex>aefecto</ex></expan> et
@@ -127,11 +129,11 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To Imperator Caesar Lucius Septimius Severus Pius Pertinacis Augustus, (Conqueror of) Arabia, Adiabene, Great Parthia, Felix, pontifex maximus, holder of tribunician power for the 15th time, imperator for the 12th time, consul for the 3rd time, father of the fatherland, son of the divine Marcus Antoninus Pius (Conqueror of) Germany, Sarmaticus, brother of the divine Commodus, grandson of the divine Antoninus Pius, great-grandson of the divine Hadrian, great-great grandson of the divine Trajan (Conqueror of Parthia), great-great-great grandson of the divine Nerva, restorer of the camps of Ostia, under the direction of Cnaeus Marcius Rustius Rufinus, prefect of the watchmen (and) most eminent man, (and) Caius Laecanius Novatillianus, subprefect, and Marcus Flavius Raesianus, tribune of the 2nd cohort of watchmen, commander of the detachment.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -140,6 +142,31 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.4381</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>2155</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1889.104</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11900101</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>106372</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Lupa"/> <citedRange>31676</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -23,7 +23,7 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
                         <repository></repository> 
                         <idno></idno>
@@ -34,26 +34,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Long thin cippus</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.cippus" ref="https://www.eagle-network.eu/voc/objtyp/lod/85.html">Cippus</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">119</height>
+                                        <width unit="cm">35</width>
+                                        <depth unit="cm">34</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text is centred on stone, within carved entabulature.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Text is relatively neat and well-spaced.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight"/>
                             </handNote>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Ostia Antica, in the vicinity of the theatre.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -106,12 +106,12 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="divinity"><name>numini</name>
+                <ab>
+                    <lb n="1"/><persName type="divinity" key="numenDomusAugusti"><name>numini</name>
                     <lb n="2"/><name>domus</name>
                     <lb n="3"/><name>Augusti</name></persName>
-                    <lb n="4"/><persName type="divinity"><name>Victor</name></persName> et
-                    <lb n="5"/><persName type="divinity"><name>Hedistus</name></persName>
+                    <lb n="4"/><persName type="attested"><name>Victor</name></persName> et
+                    <lb n="5"/><persName type="attested"><name>Hedistus</name></persName>
                     <lb n="6"/><expan><abbr>vern</abbr><ex>ae</ex></expan> <expan><abbr>disp</abbr><ex>ensatores</ex></expan>
                     <lb n="7"/>cum
                     <lb n="8"/><persName type="attested"><name>Traiano</name>
@@ -121,11 +121,11 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To the divine force of the house of Augustus. Victor and Hedistus, the homeborn slave stewards with Traianus, freedman of the emperor, being their master for ten years.</p> 
             </div>
             <div type="commentary">
                 <p></p> 
@@ -134,6 +134,26 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.4319</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1908.117</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11900040</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>072239</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>020567</citedRange>
                     </bibl>
                 </p>
             </div>

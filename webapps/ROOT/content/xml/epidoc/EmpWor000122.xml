@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Ostia Antica, Museum Warehouse</repository> 
+                        <idno>391</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -35,12 +35,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble (Italico)</material>
+                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/objtyp/lod/84.html">Cinerary Urn</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
+                                        <height unit="cm">34</height>
                                         <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <depth unit="cm">35</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line10">Lines 1–10</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">15–20</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,12 +108,12 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="divinity"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <name><expan><abbr>M</abbr><ex>anibus</ex></expan></name></persName>
+                <ab>
+                    <lb n="1"/><persName type="divinity" key="di-manes"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <name><expan><abbr>M</abbr><ex>anibus</ex></expan></name></persName>
                     <lb n="2"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Can
                     <lb n="3" break="no"/>neio</name> <name>Zosi
                     <lb n="4" break="no"/>miano</name></persName> <expan><abbr>dec</abbr><ex>urioni</ex></expan> <expan><abbr>ad
-                    <lb n="5" break="no"/>lec</abbr><ex>to</ex></expan> <expan><abbr>flam</abbr><ex>ini</ex></expan> <expan><abbr><hi rend="supraline">d</hi></abbr><ex>esignato</ex></expan> <persName type="divinity"><name>divi</name>
+                    <lb n="5" break="no"/>lec</abbr><ex>to</ex></expan> <expan><abbr>flam</abbr><ex>ini</ex></expan> <expan><abbr><hi rend="supraline">d</hi></abbr><ex>esignato</ex></expan> <persName type="divinity" key="divusVespasianus"><name>divi</name>
                     <lb n="6"/><name><expan><abbr>Vesp</abbr><ex>asiani</ex></expan></name></persName> qui <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nis</ex></expan>
                     <lb n="7"/><num value="21">XXI</num> <expan><abbr>m</abbr><ex>ensibus</ex></expan> <num value="5">V</num> <expan><abbr>d</abbr><ex>iebus</ex></expan> <num value="14">XIIII</num> <expan><abbr>fil</abbr><ex>io</ex></expan>
                     <lb n="8"/><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> fecit
@@ -121,11 +123,11 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To the shades of the underworld, for Marcus Caneius Zosimianus, adlected decurion, flamen designate of the divine Vespasian, who lived for 21 years, 5 months, 14 days. His son, Marcus Canneius Zosimus built (this) for his very deserving son.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -134,6 +136,21 @@
                 <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>1988.182</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>07000156</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>080725</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>007808</citedRange>
                     </bibl>
                 </p>
             </div>

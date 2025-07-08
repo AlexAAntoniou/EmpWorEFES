@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
+                        <repository>Ostia Antica, Lapidary Gallery</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Several large fragments, contiguous, and one fragment non-contiguous.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragments"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -53,7 +53,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Text is neat and well-spaced, with serifs on all letters. Long "I" in diva in line 4.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight"/>
                             </handNote>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Ostia Antica, in the baths of the Forum.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,8 +106,8 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="attested"><name>Plariae</name> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName>
+                <ab>
+                    <lb n="1"/><persName type="attested"><name>Plariae</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName>
                     <lb n="2"/><name>Ver<supplied reason="lost">a</supplied><unclear>e</unclear></name></persName>
                     <lb n="3"/>flam<supplied reason="lost">inica</supplied><unclear>e</unclear>
                     <lb n="4"/><persName type="divinity"><name>Diva<unclear>e</unclear></name> <name><supplied reason="lost">Augusta</supplied>e</name></persName>
@@ -118,19 +118,29 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR, comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To Plaria Verae, daughter of Quintus, flaminica of the divine Augusta, mother of [Marcus Acilius Priscus Egrilius Plarianus [---] patron of the colony] [---].</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>The same Plaria Vera, flaminica of the divine Augusta, is also attested in <ref target="EmpWor000116.xml">EmpWor000116.</ref></p> 
             </div>
-            <div type="bibliography">
+            <div type="bibliography"> <!-- ADD GRANINO CECERE 2014 -->
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.5346</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>12000339</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>110164</citedRange>
                     </bibl>
                 </p>
             </div>

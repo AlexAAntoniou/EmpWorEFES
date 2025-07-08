@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Ostia Antica, Galleria Lapidaria, Wall 9</repository> 
+                        <idno>11010</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,26 +34,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Long, thin plaque in two pieces, with left bottom corner missing.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">23.5</height>
+                                        <width unit="cm">80</width>
+                                        <depth unit="cm">5</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text is set within deeply chised border.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Text is relatively neat, although some of the letters slant into each other, and others are unevenly spaced. Serifs on all letters. Long "I"s used in line 2, in "matri" and first "I" in Egrili.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight"/>
                             </handNote>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1856">Discovered in Ostia Antica, on the Porta Romana, along the via dei Sepolcri, in 1856.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,27 +106,37 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="attested"><name>Plariae</name> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>Verae</name></persName> flaminicae
-                    <lb n="2"/><persName type="divinity"><name>D<supplied reason="lost">i</supplied>vae</name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> matri <persName type="attested"><name><expan><abbr>A</abbr><ex>uli</ex></expan></name> <name>Egrili</name> <name>Plariani</name></persName>
-                    <lb n="3"/>patris <expan><abbr>p</abbr><ex>atroni</ex></expan> <expan><abbr>c</abbr><ex>oloniae</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan>
+                <ab>
+                    <lb n="1"/><persName type="attested"><name>Plariae</name> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g>  <name>Verae</name></persName> <g ref="symbols.xml#interpunct">·</g>  flaminicae
+                    <lb n="2"/><persName type="divinity"><name>D<supplied reason="lost">i</supplied>vae</name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> matri <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>A</abbr><ex>uli</ex></expan></name> <g ref="symbols.xml#interpunct">·</g>  <name>Egrili</name> <g ref="symbols.xml#interpunct">·</g>  <name>Plariani</name></persName>
+                    <lb n="3"/>patris <g ref="symbols.xml#interpunct">·</g>  <expan><abbr>p</abbr><ex>atroni</ex></expan> <g ref="symbols.xml#interpunct">·</g>  <expan><abbr>c</abbr><ex>oloniae</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR, comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To Plaria Vera, daughter of Quintus, flaminica of the divine Augusta, mother of Aulus Egrilius Plarianus, father, patron of the colony and consul.</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>The same Plaria Vera, flaminica of the divine Augusta, is also attested in <ref target="EmpWor000117.xml">EmpWor000117.</ref></p> 
             </div>
-            <div type="bibliography">
+            <div type="bibliography">       <!-- ADD GRANINO CECERE 2014 -->
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.399</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05700399</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>148164</citedRange>
                     </bibl>
                 </p>
             </div>

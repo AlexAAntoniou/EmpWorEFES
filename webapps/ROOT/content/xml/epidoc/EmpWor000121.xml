@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
+                        <repository>Ostia Antica, piazzale delle Corporazioni (in situ)</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,28 +34,30 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Severely damaged marble statue base, missing top and bottom right corner. Original sides extant.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">105</height>
+                                        <width unit="cm">67</width>
+                                        <depth unit="cm">70</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragment"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text is set within carved border.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Text is relatively fine, although letters are a little bit uneven in places and spacing is a little irregular. Second "I" in Piissimo is tall in line 7.</p>
+                                <locus from="line1" to="line8">Lines 1–8</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">24–40</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Ostia Antica, in piazzale delle Corporazioni, where it remains today.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,24 +108,24 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
+                <ab>
                     <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
                     <lb n="2"/><supplied reason="lost">decurioni adl</supplied>ecto
-                    <lb n="3"/><supplied reason="lost">aed</supplied>ili designato
-                    <lb n="4"/><expan><abbr>q</abbr><ex>uaestori</ex></expan> alimentorum
-                    <lb n="5"/>flamini <persName type="divinity"><name>divi</name> <name><expan><abbr>Vesp</abbr><ex>asiani</ex></expan></name></persName>
-                    <lb n="6"/><persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name>Rubrius</name> <name>Eupator</name></persName>
-                    <lb n="7"/>filio piissimo
-                    <lb n="8"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>p</abbr><ex>ublice</ex></expan>
+                    <lb n="3"/><supplied reason="lost">aed</supplied>ili <g ref="symbols.xml#interpunct">·</g> designato
+                    <lb n="4"/><expan><abbr>q</abbr><ex>uaestori</ex></expan> <g ref="symbols.xml#interpunct">·</g> alimentorum
+                    <lb n="5"/>flamini <g ref="symbols.xml#interpunct">·</g> <persName type="divinity" key="divusVespasianus"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Vesp</abbr><ex>asiani</ex></expan></name></persName>
+                    <lb n="6"/><persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Rubrius</name> <g ref="symbols.xml#interpunct">·</g> <name>Eupator</name></persName>
+                    <lb n="7"/>filio <g ref="symbols.xml#interpunct">·</g> piissimo
+                    <lb n="8"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>atus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>ublice</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR, comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>[---], adlected as decurion, designated as aedile, quaestor of the alimenta, flamen of the divine Vespasian. Titus Rubrius Eupator (built this) for his most pious son. This place was publicly given by decree of the decurions.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -132,6 +134,26 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.4664</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1913.190</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11900443</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>072619</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>027318</citedRange>
                     </bibl>
                 </p>
             </div>

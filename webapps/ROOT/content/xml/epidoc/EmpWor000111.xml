@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
+                        <repository>Ostia Antica, New Warehouses of the Soprintendenza</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,16 +34,16 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Left top corner fragment of a marble funerary plaque, broken in particular on right and bottom.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.sarcophagus" ref="https://www.eagle-network.eu/voc/objtyp/lod/214.html">Sarcophagus</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">14</height>
+                                        <width unit="cm">25.5</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragment"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -53,9 +53,11 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Text is neat and with serifs, but perhaps a little curvy/bouncy in formation. Long "T" in line 2 (Ost) and line 3 (Anton)</p>
+                                <locus from="line1" to="line5">Lines 1–5</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">20</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Ostia Antica, in the necropolis of the via Laurentina.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,21 +108,21 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Aemilius</name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>P</abbr><ex cert="low">alatina</ex></expan> <name><seg part="I">A</seg><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="2" break="no"/><seg part="F">us</seg></name></persName> <expan><abbr>dec</abbr><ex>urio</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Ost</abbr><ex>iensis</ex></expan> IIvi<supplied reason="lost">r sacerdos</supplied> <persName type="divinity"><supplied reason="lost"><name>Geni</name></supplied> 
-                    <lb n="3"/><name><expan><abbr>col</abbr><ex>oniae</ex></expan></name></persName> <expan><abbr>fl</abbr><ex>amen</ex></expan> <persName type="divinity"><name><expan><abbr>d</abbr><ex>ivi</ex></expan></name> <name><expan><abbr>Anton</abbr><ex>ini</ex></expan></name></persName> q<gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="4"/><expan><abbr>sod</abbr><ex>alis</ex></expan> <persName type="divinity"><name><expan><abbr>Herc</abbr><ex>ulanus</ex></expan></name></persName> <expan><abbr>fl</abbr><ex>amen</ex></expan> <persName type="divinity"><name>Ro<supplied reason="lost">mae</supplied></name></persName> <supplied reason="lost">et</supplied> <persName type="divinity"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Aemilius</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>P</abbr><ex cert="low">alatina</ex></expan> <g ref="symbols.xml#interpunct">·</g> <name><seg part="I">A</seg><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2" break="no"/><seg part="F">us</seg></name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>dec</abbr><ex>urio</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>col</abbr><ex>oniae</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Ost</abbr><ex>iensis</ex></expan> <g ref="symbols.xml#interpunct">·</g> II<g ref="symbols.xml#interpunct">·</g>vi<supplied reason="lost">r sacerdos</supplied> <persName type="divinity" key="geniuscoloniae"><supplied reason="lost"><name>Geni</name></supplied> 
+                    <lb n="3"/><name><expan><abbr>col</abbr><ex>oniae</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>fl</abbr><ex>amen</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="divinity" key="divusAntoninus"><name><expan><abbr>d</abbr><ex>ivi</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Anton</abbr><ex>ini</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> q<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4"/><expan><abbr>sod</abbr><ex>alis</ex></expan> <persName type="divinity"><name><expan><abbr>Herc</abbr><ex>ulanus</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>fl</abbr><ex>amen</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="divinity" key="roma"><name>Ro<supplied reason="lost">mae</supplied></name></persName> <supplied reason="lost">et</supplied> <persName type="divinity" key="augustus"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
                     <lb n="5"/><gap reason="lost" quantity="1" unit="line"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR, comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>Caius Aemilius A[---]us, son of Caius, of tribe Palatina(?), decurion of the colony of Ostia, duovir, [sacerdos of the Genius] of the colony, flamen of the divine Antoninus, q[---], sodalis of Hercules, flamen of Rome [and Augustus], [---]</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -129,6 +131,21 @@
                 <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>1988.201</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>07000175</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>080744</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>007844</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
+                        <repository>Ostia Antica, Galleria Lapidaria</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -36,10 +36,10 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">20</height>
+                                        <width unit="cm">21</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line5">Lines 1–5</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">20</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -106,7 +108,7 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
+                <ab>
                     <lb n="1"/><persName type="attested"><name>Hispanus</name></persName>
                     <lb n="2"/><persName type="attested"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>lib</abbr><ex>ertus</ex></expan> <expan><abbr>tabul</abbr><ex>arius</ex></expan>
                     <lb n="3"/><persName type="divinity">numini</persName>
@@ -120,7 +122,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>Hispanus, freedmen of Augustus, registrar, to the Divine Power [of Augustus?], in thanks for a safe return, he fulfilled his vow.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -129,6 +131,16 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.4316</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11900037</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>106233</citedRange>
                     </bibl>
                 </p>
             </div>

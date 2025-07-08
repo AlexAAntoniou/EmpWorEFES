@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000573</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,17 +16,17 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000573</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
-                        <repository></repository>  
-                        <idno></idno>
+                        <region>Regio X</region> 
+                        <settlement>Tergeste</settlement> 
+                        <repository>Trieste, Museo d'Antichità, Lapidario Tergestino</repository>  
+                        <idno>13553</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,26 +34,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                <support><p>Large stone statue base, with left side missing at least one character at the top. A lituus has been carved on the right face.</p>
+                                    <material ana="#material.stone.limestone" ref="https://www.eagle-network.eu/voc/material/lod/66.html">Limestone</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">70</height>
+                                        <width unit="cm">69</width>
+                                        <depth unit="cm">41</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text completely fills stone across the horizontal axis.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is relatively neat, although letter heights differ slightly. Favours tall "I" and "T", used for both "I"s in divi (line 2), the "T" in Augusto (line 2), as a ligatured "TI" in pontif (line 3), and both "T"s in potest (line 4).</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -64,13 +64,13 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/187578">Tergeste</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3165185/trieste.html">Trieste</placeName>
+                                <geo>45.649148, 13.7717</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0014" evidence="ruler">14 CE on the basis of Augustus' titulature.</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in the south wall of the choir of the church of San Canziano del Carso,subsequently transferred to the Lapidarium in the garden. Mommsen wrongly attributed it to San Canziano near Monfalcone.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,13 +92,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-07-03" who="#AA">Original data collection and editing</change> 
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +109,21 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="augustus"><name><expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>eratori</ex></expan></name> <name>Caesari</name>
+                    <lb n="2"/><persName type="divine" key="divusIulius"><name>divi</name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <name>Augusto</name></persName>
+                    <lb n="3"/><expan><abbr>pont<hi rend="ligature">if</hi></abbr><ex>ici</ex></expan> <expan><abbr>maxim</abbr><ex>o</ex></expan>
+                    <lb n="4"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> <num value="37"><hi rend="supraline">XXXVII</hi></num>
+                    <lb n="5"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <num value="13"><hi rend="supraline">XIII</hi></num> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> sacr<hi rend="ligature">um</hi>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text reconstructed from photograph.</note></app>
+                    <app loc="3"><note>Previous editors have seemingly missing ligature of "TI" in pontif in line 3, and supralines over both numbers.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Imperator Caesar Augustus, son of a god, pontifex maximus, holder of tribunician power for the 37th time, consul for the 13th time, father of the fatherland.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -126,12 +131,32 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="CIL"/> <citedRange>5.852</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="EDCS"/> <citedRange>01600130</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>093943</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>033050</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="InscrIt"/> <citedRange>10-04, 337</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Lupa"/> <citedRange>16159</citedRange>
                     </bibl>
                 </p>
             </div>

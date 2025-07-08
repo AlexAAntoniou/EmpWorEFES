@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Ostia Antica, area opposite the offices</repository> 
+                        <idno>16669</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,28 +34,30 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Long white marble sarcophagus, reconstructed out of multiple fragments, but majority of text survives. Text is within a tabula ansata, which is within a pattern of carved repeated "S" shapes or waves.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.sarcophagus" ref="https://www.eagle-network.eu/voc/objtyp/lod/214.html">Sarcophagus</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">56</height>
+                                        <width unit="cm">223</width>
+                                        <depth unit="cm">64</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text within tabula ansata</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Text is neat and well-defined, with relatively even spaces between letters.</p>
+                                <locus from="line1" to="line9">Lines 1–9</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">24–30</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1967">Discovered in Ostia Antica in 1967, in the "zona di Procoio".</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,33 +108,48 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="divine" key="dismanibus"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <name><expan><abbr>M</abbr><ex>anibus</ex></expan></name></persName>
-                    <lb n="2"/><persName type="attested"><name>Egnatia</name> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName> <name>Aesc
-                    <lb n="3" break="no"/>ennia</name> <name>Procula</name></persName> flami
-                    <lb n="4" break="no"/>nica <persName type="divine" key="divaFaustina"><name>divae</name> <name>Faustinae</name></persName>
-                    <lb n="5"/>hic sita est <persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>Modius</name>
-                    <lb n="6"/><persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <name>Successianus</name></persName> honori
-                    <lb n="7" break="no"/>bus functus coniugi
+                <ab>
+                    <lb n="1"/><persName type="divine" key="di-manes"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <!-- palma --> <name><expan><abbr>M</abbr><ex>anibus</ex></expan></name></persName>
+                    <lb n="2"/><persName type="attested"><name>Egnatia</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <name>Aesc
+                    <lb n="3" break="no"/>ennia</name> <g ref="symbols.xml#interpunct">·</g> <name>Procula</name></persName> <g ref="symbols.xml#interpunct">·</g> flami
+                    <lb n="4" break="no"/>nica <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="divaFaustina"><name>divae</name> <g ref="symbols.xml#interpunct">·</g> <name>Faustinae</name></persName>
+                    <lb n="5"/>hic <g ref="symbols.xml#interpunct">·</g> sita <g ref="symbols.xml#interpunct">·</g> est <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Modius</name> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="6"/><persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <name>Successianus</name></persName> <g ref="symbols.xml#interpunct">·</g> honori
+                    <lb n="7" break="no"/>bus <g ref="symbols.xml#interpunct">·</g> functus <g ref="symbols.xml#interpunct">·</g> coniugi <g ref="symbols.xml#interpunct">·</g>
                     <lb n="8"/>pudicissimae
                     <lb n="9"/>fecit
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To the shades of the underworld. Egnatia Aescennia Procula, daughter of Publius, flaminica of the divine Faustina, is laid to rest here. Marcus Modius Successianus, son of Marcus, holder of public honours, made (this) for his most modest wife.</p>
             </div>
             <div type="commentary">
                 <p></p> 
             </div>
-            <div type="bibliography">
+            <div type="bibliography"> <!-- Add Granino Cecere 2014 -->
                 <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>1988.188</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>07000162</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>080731</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>007820</citedRange>
                     </bibl>
                 </p>
             </div>

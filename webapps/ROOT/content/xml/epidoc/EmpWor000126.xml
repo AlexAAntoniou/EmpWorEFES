@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Ostia Antica, Piazzale delle Corporazioni</repository> 
+                        <idno>19810</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,26 +34,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Large statue base, almost entirely intact but for abrasions on right side (so slight that they do not obscure text).</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">154</height>
+                                        <width unit="cm">62</width>
+                                        <depth unit="cm">62</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text is evenly spaced throughout the stone</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Text is extremely neat and clear, with regular spacing between letters, and well-defined serifs on all letters. Interpuncts are regular, except on occasion are placed slightly above the middle of a line, often in crowded lines, presumably to allow more text to fit onto the stone in each line (especially between "equo" and "publico" and "exornato" and "ab" in line 4, and between "Aurelio" and "Antonino" and "Aug" in line 5. Long "I" in "Imp" in line 5, and also in the second "I" in "divi" in line 7, in the final "I" of "Hadriani" of the same line. "M" in line 8 at the end of Lavinatium is smaller and under the line, presumably to squeeze it onto the stone. Tall "K" in "Volk" in line 9</p> <!-- double check "K" -->
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight"/>
                             </handNote>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1880">Discovered in Ostia Antica, at the Theatre, in 1880.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,38 +106,48 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name>Nonio</name> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>fil</abbr><ex>io</ex></expan></persName>
-                    <lb n="2"/><expan><abbr>Pal</abbr><ex>atina</ex></expan> <name>Livio</name>
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Nonio</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>fil</abbr><ex>io</ex></expan></persName>
+                    <lb n="2"/><expan><abbr>Pal</abbr><ex>atina</ex></expan> <g ref="symbols.xml#interpunct">·</g> <name>Livio</name>
                     <lb n="3"/><name>Anterotiano</name></persName>
-                    <lb n="4"/>equo <expan><abbr>publ</abbr><ex>ico</ex></expan> exornato ab
-                    <lb n="5"/><persName type="attested"><name><expan><abbr>Imp</abbr><ex>eratore</ex></expan></name> <name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Aurelio</name> <name>Antonino</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
-                    <lb n="6"/><expan><abbr>dec</abbr><ex>reto</ex></expan> <expan><abbr>dec</abbr><ex>urionum</ex></expan> <expan><abbr>decur</abbr><ex>ioni</ex></expan> adlecto
-                    <lb n="7"/>flamini <persName type="divinity"><name>divi</name> <name>Hadriani</name></persName>
-                    <lb n="8"/>salio <expan><abbr>Laurent</abbr><ex>ium</ex></expan> Lavinatium
-                    <lb n="9"/>aedili <expan><abbr>pr</abbr><ex>aetori</ex></expan> <expan><abbr>sacr</abbr><ex>is</ex></expan> <persName type="divinity"><name><expan><abbr>Volk</abbr><ex>ani</ex></expan></name></persName> <expan><abbr>faciu</abbr><ex>ndis</ex></expan>
-                    <lb n="10"/><persName type="attested"><name><expan><abbr>T</abbr><ex>ius</ex></expan></name> <name>Tinucius</name>
+                    <lb n="4"/>equo <g ref="symbols.xml#interpunct">·</g> <expan><abbr>publ</abbr><ex>ico</ex></expan> <g ref="symbols.xml#interpunct">·</g> exornato <g ref="symbols.xml#interpunct">·</g> ab
+                    <lb n="5"/><persName type="attested"><name><expan><abbr>Imp</abbr><ex>eratore</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Aurelio</name> <g ref="symbols.xml#interpunct">·</g> <name>Antonino</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
+                    <lb n="6"/><expan><abbr>dec</abbr><ex>reto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>dec</abbr><ex>urionum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>decur</abbr><ex>ioni</ex></expan> <g ref="symbols.xml#interpunct">·</g> adlecto
+                    <lb n="7"/>flamini <g ref="symbols.xml#interpunct">·</g> <persName type="divinity" key="divusHadrianus"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Hadriani</name></persName>
+                    <lb n="8"/>salio <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Laurent</abbr><ex>ium</ex></expan> <g ref="symbols.xml#interpunct">·</g> Lavinatium
+                    <lb n="9"/>aedili <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pr</abbr><ex>aetori</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>sacr</abbr><ex>is</ex></expan> <persName type="divinity"><name><expan><abbr>Volk</abbr><ex>ani</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>faciu</abbr><ex>ndis</ex></expan>
+                    <lb n="10"/><persName type="attested"><name><expan><abbr>T</abbr><ex>ius</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Tinucius</name>
                     <lb n="11"/><name>Sosiphanes</name></persName>
                     <lb n="12"/>carissimo
                     <lb n="13"/>pientissimo
-                    <lb n="14"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>p</abbr><ex>ublice</ex></expan>
+                    <lb n="14"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>atus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>ublice</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>Publius Nonius Livius Anterotianus, our flamen of the divine Hadrian, is also honoured in <ref target="EmpWor000125.xml">EmpWor00125</ref>.</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>To Publius Nonius Livius, son of Publius, of the tribe Palatine, honoured with the public horse by the Imperator Marcus Aurelius Antoninus Augustus, adlected into the decurions by decree of the decurions, flamen of the divine Hadrian, salius of Laurentes and Lavinates, aedile, praetor of the sacred rites of Vulcan. Titus Tinucius Sosiphanes (built this) for his most beloved (and) most pious one. This location was publicly given by decree of the decurions.</p> 
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.391</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05700391</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>164913</citedRange>
                     </bibl>
                 </p>
             </div>

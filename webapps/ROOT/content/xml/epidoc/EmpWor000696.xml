@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000696</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,16 +16,16 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000696</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
-                        <repository></repository>  
+                        <region>Regio X</region>
+                        <settlement>Brixia</settlement>
+                        <repository>Bresica. Civic Museums of Art, History and Science. Monastery of S. Giulia</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,16 +34,16 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                <support><p>Multiple incomplete fragments, all contiguous but with significant gaps throughout.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble (Proconnesian)</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">26</height>
+                                        <width unit="cm">41.5</width>
+                                        <depth unit="cm">1.5–1.8</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete.fragments"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -53,10 +53,10 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
-                                <locus from="line1" to="line1">Line 1</locus>
+                            <handNote><p>Text is relatively neat and well-defined. Long "T"s in line 1, in 'salute' and 'victor(ia)'</p>
+                                <locus from="line1" to="line5">Lines 1–5</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"></height>
+                                    <height unit="mm">18–25</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -64,13 +64,13 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/383603">Brixia</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3181554/brescia.html">Brescia</placeName>
+                                <geo>45.539773, 10.223135</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0041">Inscribed between 7 Jan 41 CE (the date of Caligula's consulship) and 24 Jan 41 CE (the date of Caligula's assassination).</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="2011">Whilst originally dedicated in the Capitolium of Brixia, the fragments of the inscription were found in excavations in 2011 sealed in the foundations of the portico surrounding the Capitolium there, during the Flavian period.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,13 +92,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-07-03" who="#AA">Original data collection and editing</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,32 +109,46 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><supplied reason="lost">pro s</supplied>alute et redi<unclear>t</unclear>u et <expan><abbr>victor</abbr><ex>ia</ex></expan>
+                    <lb n="2"/><persName type="ruler" key="caligula"><name><expan><abbr><supplied reason="lost">C</supplied></abbr><ex>ai</ex></expan></name> <name><supplied reason="lost">Caesa</supplied>ris</name> <name><expan><abbr>A<unclear>u</unclear>g</abbr><ex>usti</ex></expan></name></persName> principis optimi
+                    <lb n="3"/><expan><abbr><supplied reason="lost">pontif</supplied></abbr><ex>icis</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>pron</abbr><ex>epotis</ex></expan> <persName type="ruler" key="augustus"><name>d<unclear>ivi</unclear></name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>trib</abbr><ex>unicia</ex></expan>
+                    <lb n="4"/><expan><abbr><supplied reason="Lost">potest</supplied></abbr><ex>ate</ex></expan> <num value="4"><supplied reason="lost">IV</supplied></num> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> <expan><abbr>desig</abbr><ex>nati</ex></expan> <num value="5">V</num> <expan><abbr>imp</abbr><ex>eratoris</ex></expan> <num value="6"><supplied reason="lost">V</supplied><unclear>I</unclear></num> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>exercit</abbr>uum</expan>
+                    <lb n="5"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/><seg part="F">a</seg></name> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName> <name>Prima</name></persName> <expan><abbr>sacer<supplied reason="lost">d</supplied></abbr><ex>os</ex></expan> <persName type="divine" key="divaDrusilla" cert="low"><name><supplied reason="lost" cert="low">divae</supplied></name> <name><supplied reason="lost">Dr</supplied>usillae</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR, comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>[For] the safety and return and victory of [Gaius] Caesar Augustus, the best princeps, [pontifex] maximus, grandson of the divine Augustus, he held tribunician [power for the fourth time], was consul designate for the 5th time, imperator for the 6th time, father of the fatherland, father of the army. [---]a Prima, daughter of Publius, sacerdos of the [divine?] Drusilla (set this up).</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>If we follow the restoration, that [---] Prima held a priesthood to diva Drusilla, this priesthood is most likely to have been awarded between 38 CE (the death of Drusilla) and Jan 41 CE (the inscription of the stone). Drusilla's divinisation, attested by the Arval Acta to havebeen on 23 Sep 38 CE is a possible terminus ante quem (although they may not have waiting for her to be officially deified). However, fitting diva in the lacuna on line 5 (at least without abbreviation) would be difficult, and thus may have been a priesthood to her as a living divinity.</p> 
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="AE"/> <citedRange>2014.510</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="EDCS"/> <citedRange>71000723</citedRange>
                     </bibl>
                 </p>
-            </div>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>161786</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="GraninoCecere2014"/> <citedRange>no. 49</citedRange>
+                    </bibl>
+                </p>
+            </div> <!-- Gregori? -->
         </body>
     </text>
 </TEI>

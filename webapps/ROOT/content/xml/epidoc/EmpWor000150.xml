@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Ostia Antica, before entrance to Temple of Bellona in schola of the Hastiferi</repository> 
+                        <idno>19867</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,28 +34,30 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                <support><p>White marble altar, with a few cracks but otherwise complete. On the right side is carved a jug, on the left a patera.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>    
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">69</height>
+                                        <width unit="cm">40</width>
+                                        <depth unit="cm">31</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text fills space, surrounded by carved entabulature, but is not perfectly centred (especially in lines 6–9).</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Text is relatively neat and well spaced, with defined serifs. "L" of "Laelius" in line 3 is small, and above the line, presumably added later as a correction.</p>
+                                <locus from="line1" to="line9">Lines 1–9</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">20–27</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -106,12 +108,12 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="divinity"><name>numini</name> <name><expan><abbr>dom</abbr><ex>us</ex></expan></name>
-                    <lb n="2"/><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <expan><abbr>sacr</abbr><ex>um</ex></expan>
-                    <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Laelius</name> <persName type="patronym"><name><expan><abbr>Sp</abbr><ex>uri</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName>
+                <ab>
+                    <lb n="1"/><persName type="divinity" key="numenDomusAugusti"><name>numini</name> <name><expan><abbr>dom</abbr><ex>us</ex></expan></name>
+                    <lb n="2"/><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>sacr</abbr><ex>um</ex></expan>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Laelius</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>Sp</abbr><ex>uri</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName>
                     <lb n="4"/><name>Herennianus</name></persName>
-                    <lb n="5"/>scriba cerarius
+                    <lb n="5"/>scriba <g ref="symbols.xml#interpunct">·</g> cerarius
                     <lb n="6"/>collegio
                     <lb n="7"/><expan><abbr>hastifor</abbr><ex>um</ex></expan>
                     <lb n="8"/>Ostiensium
@@ -120,11 +122,11 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>Sacred to the divine force of the house of Augustus. Lucius Laelius Herennianus, son of Spurius, wax-tablet scribe of the college of lance-bearers of Ostia, gave this gift with his own money.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -133,6 +135,31 @@
                 <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>1948.28</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1987.202</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="CCCA"/> <citedRange>3.387</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>15200085</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>073669</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>021519</citedRange>
                     </bibl>
                 </p>
             </div>

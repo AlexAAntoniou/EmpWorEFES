@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000824</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,7 +16,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000824</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
@@ -35,8 +35,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <material ana="#material.bronze" ref="https://www.eagle-network.eu/voc/material/lod/644.html">Bronze</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
@@ -70,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Formerly in Turin, now lost.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -132,6 +132,11 @@
                 <p>
                     <bibl>
                         <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Bergemann1990"/> <citedRange>E47</citedRange>
                     </bibl>
                 </p>
             </div>

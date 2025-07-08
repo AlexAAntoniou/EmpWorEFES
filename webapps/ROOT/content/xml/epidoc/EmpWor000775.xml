@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000775</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,16 +16,16 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000775</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
-                        <repository></repository>  
+                        <region>Regio X</region>
+                        <settlement>Tergeste</settlement> 
+                        <repository>Tergeste, Roman Theatre</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,16 +34,16 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                <support><p>The left part of a rectangular plaque, of which the right part in missing.</p>
+                                    <material ana="#material.stone.limestone" ref="https://www.eagle-network.eu/voc/material/lod/66.html">Limestone</material>
+                                    <objectType ana="#object.buildinginscription" ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Building/Dedicatory Inscription</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">131</height>
+                                        <width unit="cm">59.5</width>
+                                        <depth unit="cm">0.5</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragment"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -53,10 +53,10 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
-                                <locus from="line1" to="line1">Line 1</locus>
+                            <handNote><p>Relatively neat and evenly spaced text. Small circular interpuncts. Long second "I" in Traiani in line 4, and both "I"s in Divi in line 5.</p>
+                                <locus from="line1" to="line5">Lines 1–5</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"></height>
+                                    <height unit="mm">40–80</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -64,13 +64,13 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/187578">Tergeste</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3165185/trieste.html">Trieste</placeName>
+                                <geo>45.649148, 13.7717</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" notAfter="1509">Discovered in the Roman theatre before 1509, later in the collection of Francis Cappello in Venice. Formerly in the collection of Antiquities in the KHM Vienna, but returned to Italy after the Treaty of St. Germain in 1921. Transferred to the lapidary garden (2 Nov 1921), and then (Sep 1938) to the newly renovated Roman theatre.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,13 +92,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-07-03" who="#AA">Original data collection and editing</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,12 +109,16 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Petronius</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Pu<supplied reason="lost">p</supplied></abbr><ex>inia</ex></expan> <name><supplied reason="lost">Modestus</supplied></name></persName> <supplied reason="lost"><expan><abbr>p</abbr><ex>rimus</ex></expan> <expan><abbr>p</abbr><ex>ilus</ex></expan> bis</supplied>
+                    <lb n="2"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="12"><hi rend="supraline">XII</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Fulm</abbr><ex>inatae</ex></expan> <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="1"><hi rend="supraline">I</hi></num> <g ref="symbols.xml#interpunct">·</g> Adiu<supplied reason="lost">tricis</supplied> <supplied reason="lost"> <expan><abbr>trib</abbr><ex>unus</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="5">V</num> <expan><abbr>vigil</abbr><ex>um</ex></expan></supplied>
+                    <lb n="3"/><expan><abbr>tr</abbr><ex>ibunus</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="12"><hi rend="supraline">XII</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>urb</abbr><ex>anae</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>tr</abbr><ex>ibunus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="5"><hi rend="supraline">V</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pr</abbr><ex>aetoriae</ex></expan> <g ref="symbols.xml#interpunct">·</g> pr<supplied reason="lost">ocurator <persName type="ruler" key="nerva"><name>divi</name> <name>Nervae</name></persName> et</supplied> <persName type="ruler" key="trajan"><name><expan><abbr><supplied reason="lost">Imp</supplied></abbr><ex>eratoris</ex></expan></name> <name><expan><abbr><supplied reason="lost">Caes</supplied></abbr><ex>aris</ex></expan></name>
+                    <lb n="4"/><name>Nervae</name> <g ref="symbols.xml#interpunct">·</g> <name>Traiani</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Germ</abbr><ex>anici</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>provin<supplied reason="lost">c</supplied></abbr><ex>iae</ex></expan> <supplied reason="lost">Hispaniae <expan><abbr>Citer</abbr><ex>ioris</ex></expan> Asturiae et</supplied>
+                    <lb n="5"/>Calleciarum <g ref="symbols.xml#interpunct">·</g> flamen <g ref="symbols.xml#interpunct">·</g> <persName type="divinity" key="divusClaudius"><name>Divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Claud<supplied reason="lost">i</supplied></name></persName> <supplied reason="lost">dedit idemque dedicavit</supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR, with comparison to photo.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
@@ -126,12 +130,32 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="CIL"/> <citedRange>5.534</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="ILS"/> <citedRange>1379</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>04200623</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>007341</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Lupa"/> <citedRange>30956</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="InscrIt"/> <citedRange>10-04, 33</citedRange>
                     </bibl>
                 </p>
             </div>

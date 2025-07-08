@@ -17,10 +17,6 @@
             <publicationStmt>
                 <authority>EmpWor</authority>
                 <idno type="filename">EmpWor000255</idno>
-                <idno type="EDCS">EDCS 09700880</idno>
-                <idno type="EDR">EDR078904</idno>
-                <idno type="EDH">HD000890</idno>
-                <idno type="LSA">LSA-1923</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
@@ -30,7 +26,7 @@
                         <region>Regio 1</region>
                         <settlement>Puteoli</settlement>
                         <repository>Lapidarium of the Amphitheatre at Puteoli</repository> 
-                        <idno></idno>
+                        <idno>475</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -74,7 +70,7 @@
                             </origPlace>
                             <origDate atLeast="0325" atMost="0326">Based on the dedication to Flavius Iulius Crispus, son of Constantine who suffered damnatio.</origDate>
                         </origin>
-                        <provenance type="found" subtype="discovered" when="1955">Discovered in Puteoli, on the via Rosini, in the imperial era forum, in the excavations of Educandato Maria Immacolata August 1955.</provenance>
+                        <provenance type="found" subtype="discovered" when="1955">Discovered in Puteoli, on the via Rosini, in the imperial era forum, in the excavations of Educandato Maria Immacolata on the 19th of August 1955. This inscription (according to Bergemann 1990) was found alongside <ref target="EmpWor000254.xml">EmpWor000254</ref> in situ on the sides of a nymphaeum with a semicircular exedra and a high columned structure, within the city's forum.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -137,6 +133,31 @@
                 <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>1969/70.108</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>09700880</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>078904</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>000890</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="LSA"/> <citedRange>1923</citedRange>
+                    </bibl>
+                </p>
+                 <p>
+                    <bibl>
+                        <ptr target="Bergemann1990"/> <citedRange>E41</citedRange>
                     </bibl>
                 </p>
             </div>

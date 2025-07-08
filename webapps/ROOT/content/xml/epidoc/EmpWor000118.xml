@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
-                        <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
+                        <region>Regio VII</region>
+                        <settlement>Pisa</settlement> <!-- Found in Pisa, relates to Ostia -->
+                        <repository>Cathedral Cemetary</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,9 +34,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Large long sarcophagus, with text in two columns (left and right). On the front face are chiselled an apex (olive-wood spiked hat) of the flamines, with what looks like bucrania on it (on left), and fasces (on right).</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.sarcophagus" ref="https://www.eagle-network.eu/voc/objtyp/lod/214.html">Sarcophagus</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
@@ -53,7 +53,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Text is relatively text and even, but text in left column continues into the chiselled hollow in which the apex has been depicted (as if added after the decoration was carved, but in a space on the stone which was not wide enough for the inscription.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight"/>
                             </handNote>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Ostia Antica, subsquently moved to Pisa, built into the external wall of the Cathedral, and then subsequently placed in the Cathedral Cemetary.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -107,8 +107,8 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <div type="textpart" subtype="side" n="left">
-                    <ab><!-- Only basic encoding -->
-                        <lb n="1"/><persName type="divinity"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <name><expan><abbr>M</abbr><ex>anibus</ex></expan></name></persName>
+                    <ab>
+                        <lb n="1"/><persName type="divinity" key="di-manes"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <name><expan><abbr>M</abbr><ex>anibus</ex></expan></name></persName>
                         <lb n="2"/><persName type="attested"><name>Anniae</name> <name>Iucun
                         <lb n="3"/>ae</name></persName> <persName type="attested"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name>Anni</name>
                         <lb n="4"/><name>Proculi</name></persName> matris    
@@ -116,9 +116,9 @@
                 </div>
                 <div type="textpart" subtype="side" n="right">
                     <ab>
-                        <lb n="1"/><persName type="divinity"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <name><expan><abbr>M</abbr><ex>anibus</ex></expan></name></persName>
+                        <lb n="1"/><persName type="divinity" key="di-manes"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <name><expan><abbr>M</abbr><ex>anibus</ex></expan></name></persName>
                         <lb n="2"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Annio</name> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Pal</abbr><ex>atina</ex></expan> <name>Proculo</name></persName>
-                        <lb n="3"/>decurioni <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Ost</abbr><ex>iensis</ex></expan> <expan><abbr>fla</abbr><ex>mini</ex></expan> <persName type="divinity"><name>divi</name>
+                        <lb n="3"/>decurioni <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Ost</abbr><ex>iensis</ex></expan> <expan><abbr>fla</abbr><ex>mini</ex></expan> <persName type="divinity" key="divusVespasianus"><name>divi</name>
                         <lb n="4"/><name>Vespasiani</name></persName> patrono fabrum
                         <lb n="5"/>navalium <expan><abbr>Ost</abbr><ex>iensium</ex></expan> vixit <expan><abbr>ann</abbr><ex>is</ex></expan> <num value="25">XXV</num>
                         <lb n="6"/><expan><abbr>mens</abbr><ex>ibus</ex></expan> <num value="6">VI</num> <expan><abbr>die</abbr><ex>bus</ex></expan> <num value="28">XXVIII</num> <expan><abbr>h</abbr><ex>oris</ex></expan> <num value="4">IIII</num>
@@ -127,11 +127,13 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR, comparison with photographs</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>[Left side]: To the shades of the underworld, to Annia Iucunda, mother of Marcus Annius Proculus.
+                   [Right side]: To the shades of the underworld, to Marcus Annius Proculus, son of Marcus, of the Palatine tribe, decurion of the colony of Ostia, flamen of divus Vespasian, patron of the (college) of naval builders of Ostia, he lived for 25 years, 6 months, 28 days, 3 hours.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -140,6 +142,26 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>11.1447a</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/> <citedRange>14.292</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>6137</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>20402920</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>153446</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Ostia Antica, Piazzale delle Corporazioni</repository> 
+                        <idno>19809</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,13 +34,13 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Multiple fragments of the face of a statue base, with significant gaps throughout.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">160</height>
+                                        <width unit="cm">59</width>
+                                        <depth unit="cm">58</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1880">Discovered in 1880, in the Theatre of Ostia Antica.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,15 +106,15 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
+                <ab>
                     <lb n="1"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name>Nonio</name> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName>
                     <lb n="2"/><expan><abbr>Pal</abbr><ex>atina</ex></expan> <name>Livio</name>
                     <lb n="3"/><name>Anterotiano</name></persName>
                     <lb n="4"/>equo <expan><abbr>publ</abbr><ex>ico</ex></expan> exornato ab
-                    <lb n="5"/><persName type="attested"><name>Imperatore</name> <name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Aurelio</name> <name>Antonino</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
-                    <lb n="6"/>flamini <persName type="divinity"><name>divi</name> <name>Hadriani</name></persName>
+                    <lb n="5"/><persName type="ruler" key="marcus-aurelius"><name>Imperatore</name> <name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Aurelio</name> <name>Antonino</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
+                    <lb n="6"/>flamini <persName type="divinity" key="divusHadrianus"><name>divi</name> <name>Hadriani</name></persName>
                     <lb n="7"/>salio <expan><abbr>Laurent</abbr><ex>ium</ex></expan> <expan><abbr>Lavinatiu</abbr><ex>m</ex></expan>
-                    <lb n="8"/>aedili <expan><abbr>pr</abbr><ex>aetori</ex></expan> <expan><abbr>sacr</abbr><ex>is</ex></expan> <persName type="divinity"><name><expan><abbr>Volk</abbr><ex>ani</ex></expan></name></persName> <expan><abbr>faci<supplied reason="lost">u</supplied></abbr><ex>ndis</ex></expan>
+                    <lb n="8"/>aedili <expan><abbr>pr</abbr><ex>aetori</ex></expan> <expan><abbr>sacr</abbr><ex>is</ex></expan> <persName type="divinity" key="vulcan"><name><expan><abbr>Volk</abbr><ex>ani</ex></expan></name></persName> <expan><abbr>faci<supplied reason="lost">u</supplied></abbr><ex>ndis</ex></expan>
                     <lb n="9"/><persName type="attested"><name>Livia</name>
                     <lb n="10"/><name>Marcellina</name></persName>
                     <lb n="11"/>nepoti dulcissimo
@@ -123,19 +123,34 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To Publius Nonius Livius Anterotianus, son of Publius, of the Palatine tribe, honoured with the public horse by Imperator Marcus Aurelius Antoninus Augustus, adlected to the decurions by decree of the decurions, flamen of the divine Hadrian, salius of Laurentes and Lavinates, aedile, praetor of the sacred rites of Vulcan. Livia Marcellina (built this for) her sweetest grandson. This place was publicly given by decree of the decurions.</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>Publius Nonius Livius Anterotianus, our flamen of the divine Hadrian, is also honoured in <ref target="EmpWor000126.xml">EmpWor00126</ref>.</p>
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.390</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>6139</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05700390</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>164912</citedRange>
                     </bibl>
                 </p>
             </div>

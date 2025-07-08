@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000338</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,7 +16,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000338</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio </region> <!-- DEFAULT VALUE -->
                         <settlement></settlement> <!-- DEFAULT VALUE -->
-                        <repository></repository>  
+                        <repository>Isernia, S. Maria delle Monache</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,13 +34,13 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                <support><p>A metope triglyph frieze runs around the top.</p>
+                                    <material ana="#material.stone.limestone" ref="https://www.eagle-network.eu/voc/material/lod/66.html">Limestone</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">123</height>
+                                        <width unit="cm">93</width>
+                                        <depth unit="cm">175</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
@@ -56,7 +56,7 @@
                             <handNote><p></p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"></height>
+                                    <height unit="mm">46–51</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -68,9 +68,9 @@
                                 <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
                                 <geo></geo> <!-- DEFAULT VALUE -->
                             </origPlace>
-                            <origDate/>
+                            <origDate atLeast="0100" atMost="0300">While traditionally dated to the second half of the second century CE, Bergemann (1990) dates the decorative and stylistic features to the late republic/early empire, with a 2nd or 3rd century reuse of the stone with its current inscription.</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1972">Discovered during the restoration of the church of S. Maria delle Monache, in 1972.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -126,12 +126,17 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="AE"/> <citedRange>1975.349</citedRange> <!-- DEFAULT VALUE -->
                     </bibl>
                 </p>
                 <p>
                     <bibl>
                         <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Bergemann1990"/> <citedRange>E22</citedRange>
                     </bibl>
                 </p>
             </div>

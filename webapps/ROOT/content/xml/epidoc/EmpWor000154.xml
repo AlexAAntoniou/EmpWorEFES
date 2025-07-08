@@ -23,7 +23,7 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
                         <repository></repository> 
                         <idno></idno>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Rectangular statue base.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text is roughly centred on stone and fills most of the available space.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Text is relatively neat and well defined, with serifs, although occasionally letters are a little lopsided.</p> <!-- Finish with tall "I", ligature in Traiani to fit into line, add interpuncts-->
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight"/>
                             </handNote>
@@ -117,7 +117,7 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
@@ -130,6 +130,16 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.4366</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1889.123</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11900086</citedRange>
                     </bibl>
                 </p>
             </div>

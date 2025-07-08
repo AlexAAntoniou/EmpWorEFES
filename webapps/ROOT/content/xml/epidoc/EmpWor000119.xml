@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Ostia Antica, New Warehouses of the Soprintendenza</repository> 
+                        <idno>11222 + 8475 + 6225</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Multiple fragments</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Ostia Antica, in the area of the Theatre</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,12 +106,12 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
+                <ab>
                     <lb n="1"/><persName type="attested"><name><supplied reason="lost">Egrili</supplied>a</name> <name>Daphne</name></persName>
                     <lb n="2"/><supplied reason="lost">feci</supplied>t sibi et
                     <lb n="3"/><persName type="attested"><name><expan><abbr><supplied reason="lost" cert="low">A</supplied></abbr><ex>ulo</ex></expan></name> <name><supplied reason="lost">Egri</supplied>lio</name> <name>Paterno</name></persName>
                     <lb n="4"/><expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>eq</abbr><ex>uiti</ex></expan> <expan><abbr>R</abbr><ex>omano</ex></expan> <supplied reason="lost">aed</supplied>ili <expan><abbr>lictor</abbr><ex>i</ex></expan> <expan><abbr>curi</abbr><ex>atio</ex></expan>
-                    <lb n="5"/>flamini <persName type="divinity"><name>D<supplied reason="lost">iv</supplied>i</name> <name><expan><abbr>Vesp</abbr><ex>asiani</ex></expan></name></persName> <expan><abbr>sacr</abbr><ex>is</ex></expan> <persName type="divinity"><expan><abbr>Volk</abbr><ex>ani</ex></expan></persName> <expan><abbr>f</abbr><ex>aciundis</ex></expan> et
+                    <lb n="5"/>flamini <persName type="divinity" key="divusVespasianus"><name>D<supplied reason="lost">iv</supplied>i</name> <name><expan><abbr>Vesp</abbr><ex>asiani</ex></expan></name></persName> <expan><abbr>sacr</abbr><ex>is</ex></expan> <persName type="divinity" key="vulcan"><expan><abbr>Volk</abbr><ex>ani</ex></expan></persName> <expan><abbr>f</abbr><ex>aciundis</ex></expan> et
                     <lb n="6"/><persName type="attested"><name><expan><abbr>A</abbr><ex>ulo</ex></expan></name> <name>Egri<supplied reason="lost">li</supplied>o</name> <name>Onesimo</name></persName> <expan><abbr>coniu</abbr><ex>gi</ex></expan>
                     <lb n="7"/><expan><abbr>coac<supplied reason="lost">tor</supplied></abbr><ex>i</ex></expan> <supplied reason="lost">se</supplied>viro Augustgali idem <expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennali</ex></expan>
                     <lb n="8"/>cur<supplied reason="lost">ato</supplied><supplied reason="undefined" evidence="previouseditor">ri</supplied> eorum annis continuis <num value="5">V</num>
@@ -122,11 +122,11 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>Egrilia Daphne built this for herself and for [Aulus?] Egrilius Paternus her son, a Roman equestrian, aedile, curial lictor, flamen of the divine Vespasian, [curator] for performing the sacred rites of Vulcan, and for her husband, Aulus Egrilius Onesimus, the collector of the seviri Augustales and quinquennial of the same, also their curator for five consecutive years, and for Aulus Egrilius Maron, most dignified man, and for their children and freedpersons and their descendants. In front: forty feet and in depth: 35 feet. </p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -135,6 +135,36 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.4641</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="CIL"/> <citedRange>14.4644</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1910.197</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1986.113</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>07600095</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>080023</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>006418</citedRange>
                     </bibl>
                 </p>
             </div>

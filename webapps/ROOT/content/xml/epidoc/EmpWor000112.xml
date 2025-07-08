@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio 1</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
+                        <repository>Roma, Villa Albani</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -36,7 +36,7 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1776">Discovered in Ostia Antica in 1776.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,29 +106,29 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
+                <ab>
                     <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Licinio</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <expan><abbr>Pal</abbr><ex>atina</ex></expan>
                     <lb n="2"/><name>Herodi</name></persName>
                     <lb n="3"/><expan><abbr>equit</abbr><ex>i</ex></expan> <expan><abbr>Rom</abbr><ex>ano</ex></expan> decuriali
                     <lb n="4"/>decuriae viatoriae
-                    <lb n="5"/>equestris cos decurioni
+                    <lb n="5"/>equestris <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uularis</ex></expan> decurioni
                     <lb n="6"/>quinquennali duumviro
-                    <lb n="7"/>sacerdoti <persName type="divinity"><name>Geni</name> <name><expan><abbr>col</abbr><ex>olniae</ex></expan></name></persName> <expan><abbr>flam</abbr><ex>ini</ex></expan>
-                    <lb n="8"/><persName type="divinity"><name><expan><abbr>Rom</abbr><ex>ae</ex></expan></name></persName> et <persName type="divinity"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>curat</abbr><ex>ori</ex></expan> <expan><abbr>oper</abbr><ex>um</ex></expan> <expan><abbr>pub<supplied reason="undefined" evidence="previouseditor">l</supplied></abbr><ex>icorum</ex></expan>
+                    <lb n="7"/>sacerdoti <persName type="divinity" key="geniuscoloniae"><name>Geni</name> <name><expan><abbr>col</abbr><ex>olniae</ex></expan></name></persName> <expan><abbr>flam</abbr><ex>ini</ex></expan>
+                    <lb n="8"/><persName type="divinity" key="roma"><name><expan><abbr>Rom</abbr><ex>ae</ex></expan></name></persName> et <persName type="divinity" key="augustus"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>curat</abbr><ex>ori</ex></expan> <expan><abbr>oper</abbr><ex>um</ex></expan> <expan><abbr>pub<supplied reason="undefined" evidence="previouseditor">l</supplied></abbr><ex>icorum</ex></expan>
                     <lb n="9"/>quaestori <expan><abbr>aer</abbr><ex>ari</ex></expan> aedili <expan><abbr>flam</abbr><ex>ini</ex></expan>
-                    <lb n="10"/><persName type="divinity"><name>Divi</name> <name>Severi</name></persName> sodali Arulensi
-                    <lb n="11"/><expan><abbr>praet</abbr><ex>ori</ex></expan> <expan><abbr>prim</abbr><ex>o</ex></expan> <expan><abbr>sac</abbr><ex>ris</ex></expan> <persName type="divinity"><name><expan><abbr>Volk</abbr><ex>ani</ex></expan></name></persName> <expan><abbr>faciu</abbr><ex>ndis</ex></expan>
+                    <lb n="10"/><persName type="divinity" key="divusSeverus"><name>Divi</name> <name>Severi</name></persName> sodali Arulensi
+                    <lb n="11"/><expan><abbr>praet</abbr><ex>ori</ex></expan> <expan><abbr>prim</abbr><ex>o</ex></expan> <expan><abbr>sac</abbr><ex>ris</ex></expan> <persName type="divinity" key="vulcan"><name><expan><abbr>Volk</abbr><ex>ani</ex></expan></name></persName> <expan><abbr>faciu</abbr><ex>ndis</ex></expan>
                     <lb n="12"/>ordo <expan><abbr>Augustal</abbr><ex>ium</ex></expan>
                     <lb n="13"/>optimo civi ob merita
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To Lucius Licinius Herodus, son of Lucius, of the tribe Palatine, Roman equestrian, to the decurial man of the Viatorian decuria, of equestrian rank, of consular status, of decurial status, quinquennial duumvir, sacerdos of the Genius of the Colony, flamen of Rome and Augustus, curator of public works, quaestor of the treasury, aedile, flamen of the divine Severus, sodalis of Arulensis, first praetor for conducting the sacred rites of Vulcan, the order of the Augustales (built this) to the best citizen, in recognition of his merits.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -137,6 +137,21 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.373</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>6141</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05700373</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>158365</citedRange>
                     </bibl>
                 </p>
             </div>

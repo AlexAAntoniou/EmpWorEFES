@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000695</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,16 +16,16 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000695</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
-                        <repository></repository>  
+                        <region>Regio X</region>
+                        <settlement>Brixia</settlement>
+                        <repository>Brescia, Parish Church of S. Maria</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,16 +34,16 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                <support><p>Rectangular block of Botticino stone, broken at bottom. Originally intended as a funerary altar, but was hollowed out to make a baptismal font. The side faces are decorated in bas-relief with images of two Erotes, they are holding torches, and one is also holding a garland. The three worked faces of the stone are framed by ornamental motifs, including palmettes and laurel branches.</p>
+                                    <material ana="#material.stone.localstone" ref="https://www.eagle-network.eu/voc/material/lod/2.html">Stone (Botticino)</material>
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/typeins/lod/29.html">Altar</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">68.5</height>
+                                        <width unit="cm">117</width>
+                                        <depth unit="cm">91</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragment"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -54,9 +54,9 @@
                         </objectDesc>
                         <handDesc>
                             <handNote><p></p>
-                                <locus from="line1" to="line1">Line 1</locus>
+                                <locus from="line1" to="line6">Lines 1–6</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"></height>
+                                    <height unit="mm">60–70</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -64,13 +64,13 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/383603">Brixia</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3181554/brescia.html">Brescia</placeName>
+                                <geo>45.539773, 10.223135</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate atLeast="0014" atMost="0050">First half of the first century CE.</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="2001">Found between March and April 2001, in Pisogne, in the parish church of S. Maria in Silvis, reused as a baptismal font (perhaps between the 5th and 6th centuries). Discovered during restorations for the church.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,13 +92,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-07-03" who="#AA">Original data collection and editing</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,7 +109,12 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>Ti</abbr><ex>berio</ex></expan></name> <name>Claudio</name> <expan><abbr>Quir</abbr><ex>ina</ex></expan>
+                    <lb n="2"/><name>Numai</name></persName>
+                    <lb n="3"/><expan><abbr>sacerd</abbr><ex>oti</ex></expan> <persName type="divine" key="divusAugustus"><name>divi</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+                    <lb n="4"/>immunitate donato
+                    <lb n="5"/>ab eodem et
+                    <lb n="6"/><persName type="attested"><name>Claudiai</name> <name>Secundai</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
@@ -118,7 +123,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Tiberius Claudius Numa, of the tribe Quirina, sacerdos of the divine Augustus, granted immunity (from taxes) by the same man, and Claudia Secunda [---].</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -126,12 +131,22 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="AE"/> <citedRange>2001.1069</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="EDCS"/> <citedRange>23900898</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>110571</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Valvo2010"/> <citedRange>no. 118</citedRange>
                     </bibl>
                 </p>
             </div>

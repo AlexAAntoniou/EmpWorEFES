@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Several fragments in Ostia Antica, in the New Warehouses of the Soprintendenza, one fragment in the warehouse of the Museo Nazionale Romano, Rome.</repository> 
+                        <idno>Ostia Antica: 7849 + 7867 + 8493 + 7253; Rome: 59859</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Multiple fragments, only partially connected to each other.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Ostia Antica, in the baths of Neptune.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,14 +106,14 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="divinity"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <name><expan><abbr><supplied reason="lost">M</supplied></abbr><ex>anibus</ex></expan></name></persName>
+                <ab>
+                    <lb n="1"/><persName type="divinity" key="di-manes"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <name><expan><abbr><supplied reason="lost">M</supplied></abbr><ex>anibus</ex></expan></name></persName>
                     <lb n="2"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Valerius</name></persName> <gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3"/>sev<supplied reason="lost">ir</supplied> <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> <supplied reason="lost">i</supplied>d<supplied reason="lost">em</supplied> <supplied reason="lost" cert="low"><expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennalis</ex></expan></supplied> <gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="4" break="no"/>atui et<gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="5"/><persName type="attested"><name>Ireni</name></persName> con<supplied reason="lost">iu</supplied>gi <gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="6"/><persName type="attested"><name>Eutyche<supplied reason="lost">ti</supplied></name> <name><expan><abbr>Iun</abbr><ex>iori</ex></expan></name></persName> <expan><abbr>eq</abbr><ex>uiti</ex></expan> <expan><abbr>R</abbr><ex>omano</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="7"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Ost</abbr><ex>iensis</ex></expan> <expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divinity"><name>divi</name> <name>Ma<supplied reason="lost">rci</supplied></name></persName> <orig>AT</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="7"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Ost</abbr><ex>iensis</ex></expan> <expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divinity" key="divusMarcus"><name>divi</name> <name>Ma<supplied reason="lost">rci</supplied></name></persName> <orig>AT</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="8"/><expan><abbr>sodal</abbr><ex>i</ex></expan> <expan><abbr>A<supplied reason="lost">rul</supplied></abbr><ex>ensi</ex></expan> et Vale<supplied reason="lost">riae</supplied> <w part="I">Vital<supplied reason="lost">i</supplied></w>
                     <lb n="9"/>adquisitori pa<gap reason="lost" quantity="3" unit="character"/> et Iren<gap reason="lost" quantity="3" unit="character"/>
                     <lb n="10"/>filiis et libert<supplied reason="lost">is li</supplied>bertabu<supplied reason="lost">sque</supplied>
@@ -124,11 +124,11 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To the shades of the underworld. Lucius Valerius [---], sevir Augustalis, and quinquennalis of the same [---], and his wife Irena [---]. Eutyches Iunior, Roman knight [---], [---] of the colony of Ostia, flamen of the divine Marcus [---], Arulenian and Valerian sodalis, and Valeria Vitali[-], procurator(?) [---] and Irena [---] (built this) for their sons, and children, and freedpersons, and their descendants. [---] Aurelius H[---] [---]? </p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -137,6 +137,16 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.4671</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11900450</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>106897</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
+                        <repository>Ostia Antica, Galleria Lapidaria</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,13 +34,13 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Multiple contiguous fragments of a thin marble plaque.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">219</height>
+                                        <width unit="cm">132</width>
+                                        <depth unit="cm">5</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line8">Lines 1–8</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">55–85</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Ostia Antica, reused in the floor of a room in the block between the area of the Capitolium, the decumanus, the via della casa di Diana and the via dei Balconi.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,12 +108,12 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
+                <ab>
                     <lb n="1"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name>Aufidio</name> <persName type="patronym"><expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <expan><abbr>Quir</abbr><ex>ina</ex></expan>
                     <lb n="2"/><name>Forti</name></persName> <persName type="patronym"><name>Aufidi</name> <name>Fortis</name>
                     <lb n="3"/><expan><abbr>p</abbr><ex>atroni</ex></expan> <expan><abbr>c</abbr><ex>oloniae</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <expan><abbr>IIvir</abbr><ex>o</ex></expan> <expan><abbr><hi rend="supraline">q</hi></abbr><ex>uaestori</ex></expan> <expan><abbr>aedil</abbr><ex>i</ex></expan>
-                    <lb n="4"/><expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divinity"><name>Romae</name></persName> et <persName type="divinity"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
-                    <lb n="5"/><expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divinity"><name>divi</name> <name>Titi</name></persName>
+                    <lb n="4"/><expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divinity" key="roma"><name>Romae</name></persName> et <persName type="divinity" key="augustus"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+                    <lb n="5"/><expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divinity" key="divusTitus"><name>divi</name> <name>Titi</name></persName>
                     <lb n="6"/><persName type="attested"><name>Faustianus</name></persName> <persName type="attested"><name>Epictetus</name></persName>
                     <lb n="7"/><persName type="attested"><name>Euphrosynus</name></persName> <persName type="attested"><name>Ianuarius</name></persName>
                     <lb n="8"/>liberti
@@ -123,7 +125,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To Publius Aufidius Fortis, son of Publius, of tribe Quirina, son of Aufidius Fortis the patron of the colony, duovir, quaestor, aedile, flamen of Roma and Augustus, flamen of the divine Titus. Faustianus, Epictetus, Euphrosynus, Ianuarius, freedpersons, (erected this).</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -132,6 +134,26 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.4622</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1916.117</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11900400</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>072773</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>026211</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Ostia Antica, New Warehouses of the Soprintendenza</repository> 
+                        <idno>7007 a–c</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Multiple fragments of some of which are contiguous, with top edge and traces of bottom edge original.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">One of the larger, original pieces was discovered in Ostia Antica, in the Forum Baths.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,23 +106,23 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="attested"><name><expan><abbr><supplied reason="lost">A</supplied></abbr><ex>ulo</ex></expan></name> <name><supplied reason="lost">Egri</supplied>ilio</name> <persName type="patronym"><name><expan><abbr>A</abbr><ex>uli</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <persName type="patronym"><name><expan><abbr>A</abbr><ex>uli</ex></expan></name> <expan><abbr>n</abbr><ex>epoti</ex></expan></persName> <persName type="patronym"><name><expan><abbr>A</abbr><ex>uli</ex></expan></name> <expan><abbr>pronep</abbr><ex>oti</ex></expan></persName>
-                    <lb n="2"/><expan><abbr>Vot</abbr><ex>uria</ex></expan> <name>Rufo</name></persName>
-                    <lb n="3"/><expan><abbr><supplied reason="lost">dec</supplied></abbr><ex>urionum</ex></expan> <expan><abbr><supplied reason="lost">d</supplied>ecr</abbr><ex>eto</ex></expan> decurioni <expan><abbr>ad<unclear>lec</unclear><supplied reason="lost">t</supplied></abbr><ex>o</ex></expan>
-                    <lb n="4"/><supplied reason="lost">aedi</supplied>li quaestori <expan><abbr>IIvir</abbr><ex>o</ex></expan> <num value="2">II</num>
-                    <lb n="5"/><supplied reason="lost">flam</supplied>ini <persName type="divinity"><name>Romae</name></persName> et <persName type="divinity"><name>Augu<supplied reason="lost">sti</supplied></name></persName>
-                    <lb n="6"/>qu<unclear>inque</unclear><supplied reason="lost">n</supplied><unclear>n</unclear>ali tribu<supplied reason="lost">no</supplied>
-                    <lb n="7"/>militum <supplied reason="lost">legio</supplied>nis <num value="5">V</num> A<unclear>l</unclear><supplied reason="lost">a</supplied><unclear>u</unclear><supplied reason="lost">dae</supplied>
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr><supplied reason="lost">A</supplied></abbr><ex>ulo</ex></expan></name> <name><supplied reason="lost">Egri</supplied>lio</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>A</abbr><ex>uli</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>A</abbr><ex>uli</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>n</abbr><ex>epoti</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>A</abbr><ex>uli</ex></expan></name> <expan><abbr>pronep</abbr><ex>oti</ex></expan></persName>
+                    <lb n="2"/><expan><abbr>Vot</abbr><ex>uria</ex></expan> <g ref="symbols.xml#interpunct">·</g> <name>Rufo</name></persName>
+                    <lb n="3"/><expan><abbr><supplied reason="lost">dec</supplied></abbr><ex>urionum</ex></expan> <expan><abbr><supplied reason="lost">d</supplied>ecr</abbr><ex>eto</ex></expan> <g ref="symbols.xml#interpunct">·</g> decurioni <g ref="symbols.xml#interpunct">·</g> <expan><abbr>ad<unclear>lec</unclear><supplied reason="lost">t</supplied></abbr><ex>o</ex></expan>
+                    <lb n="4"/><supplied reason="lost">aedi</supplied>li <g ref="symbols.xml#interpunct">·</g> quaestori <g ref="symbols.xml#interpunct">·</g> <expan><abbr><hi rend="supraline">II</hi><g ref="symbols.xml#interpunct">·</g>vir</abbr><ex>o</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="2"><hi rend="supraline">II</hi></num>
+                    <lb n="5"/><supplied reason="lost">flam</supplied>ini <g ref="symbols.xml#interpunct">·</g> <persName type="divinity"><name>Romae</name></persName> <g ref="symbols.xml#interpunct">·</g> et <persName type="divinity"><name>Augu<supplied reason="lost">sti</supplied></name></persName>
+                    <lb n="6"/>qu<unclear>inque</unclear><supplied reason="lost">n</supplied><unclear>n</unclear>ali <g ref="symbols.xml#interpunct">·</g> tribu<supplied reason="lost">no</supplied>
+                    <lb n="7"/>militum <supplied reason="lost">legio</supplied>nis <g ref="symbols.xml#interpunct">·</g> <num value="5"><hi rend="supraline">V</hi></num> A<unclear>l</unclear><supplied reason="lost">a</supplied><unclear>u</unclear><supplied reason="lost">dae</supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EAGLE, comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To [Aulus] Egrilius Rufus, son of Aulus, grandson of Aulus, grandson of Aulus, of tribe Voturia, adlected by decree [of the decurions] into the decurial [order]</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -131,6 +131,21 @@
                 <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>1955.168</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>13700383</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>074039</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>074039</citedRange>
                     </bibl>
                 </p>
             </div>

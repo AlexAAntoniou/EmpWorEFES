@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Musei Vaticani, Lapidario Profano ex Lateranense</repository> 
+                        <idno>25464a–b</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,13 +34,13 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Broken into non contiguous fragments.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">Frag a) 58, frag b) 54</height>
+                                        <width unit="cm">Frag a) 68, frag b) 178</width>
+                                        <depth unit="cm">Frag a) 5, frag b) 4</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -66,9 +66,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/8378691/ostia.html">Ostia</placeName>
                                 <geo>41.75357, 12.28935</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate atLeast="0138" atMost="0200" cert="low">The priesthood to the divine Hadrian likely places the creation of the statue after 138/139 CE, but Meiggs dates the inscription on paleographical considerations to the end of the second century CE.</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1824">Discovered in 1824 in the Forum of Ostia, in the excavations of Cartoni</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -148,12 +148,32 @@
                 <p></p> <!--  -->
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>This is the same C. Domitius Fabius Hermogenus as in <ref target="EmpWor000124.xml">EmpWor000124</ref>.</p> 
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.353</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>6148</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05700353</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>146341</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Bergemann1990"/> <citedRange>E32</citedRange>
                     </bibl>
                 </p>
             </div>

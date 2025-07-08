@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
+                        <repository>Ostia Antica, Galleria Lapidaria</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,13 +34,13 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Left and right fragments of an inscription, which would be contiguous but for a large gap in middle between the two pieces.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
+                                        <height unit="cm">64</height>
                                         <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <depth unit="cm">35</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line14">Lines 1–14</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">15–27</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Ostia Antica, in the home of the Port Mosaic (I, XIV, 2), reused (the left hand fragment in the threshold, the right hand fragment in the floor).</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -129,7 +131,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>Marcus Acilius Priscus, [son of Marcus], by decree of the decurions was adlected into the decurial [order], was quaestor of the treasury [elected] by vote of the decurions, duovir, aedile twice, quinquennalis, prefect twice, [prefect] of the college of engineers of Ostia and continued for three years, prefect of the [??] cohort of Baracara of the Augustani, tribune of the 8th cohort of volunteers, military tribune of the 11th Legion Claudia Pia Fidelis, flamen of Rome and Augustus, pontifex of Vulcan, ordered this to be built in his will through Aulus Egrilius Primigenius. </p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -138,6 +140,21 @@
                 <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>1955.169</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>13700384</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>074040</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>019440</citedRange>
                     </bibl>
                 </p>
             </div>

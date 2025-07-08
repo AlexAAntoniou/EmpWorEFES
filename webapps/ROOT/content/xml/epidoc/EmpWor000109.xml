@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository></repository> 
-                        <idno></idno>
+                        <repository>Musei Vaticani, Museo Chiaramonti</repository> <!-- 45, 04 -->
+                        <idno>1933</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -36,11 +36,11 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">138</height>
+                                        <width unit="cm">78.5</width>
+                                        <depth unit="cm">73</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line11">Lines 1–11</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">25–60</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -66,9 +68,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/8378691/ostia.html">Ostia</placeName>
                                 <geo>41.75357, 12.28935</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0141" evidence="consuls">141 CE based on consular date.</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1803">Discovered in the excavations of Petrini in 1803.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -107,13 +109,13 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <div type="textpart" subtype="side" n="front">
-                    <ab><!-- Only basic encoding -->
+                    <ab>
                         <lb n="1"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name>Plotio</name> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name></persName> <expan><abbr>fil</abbr><ex>io</ex></expan>
                         <lb n="2"/><expan><abbr>Quir</abbr><ex>ina</ex></expan> <name>Romano</name></persName>
                         <lb n="3"/>equo publico <expan><abbr>exorn</abbr><ex>ato</ex></expan>
-                        <lb n="4"/>a <persName type="divinity"><name>divo</name> <name>Hadriano</name></persName>
-                        <lb n="5"/><expan><abbr>aed</abbr><ex>ili</ex></expan> <expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divinity"><name><expan><abbr>Rom</abbr><ex>ae</ex></expan></name></persName> et <persName type="divinity"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
-                        <lb n="6"/>flamini <persName type="divinity"><name>divi</name> <name>Titi</name></persName>
+                        <lb n="4"/>a <persName type="ruler" key="hadrian"><name>divo</name> <name>Hadriano</name></persName>
+                        <lb n="5"/><expan><abbr>aed</abbr><ex>ili</ex></expan> <expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divinity" key="roma"><name><expan><abbr>Rom</abbr><ex>ae</ex></expan></name></persName> et <persName type="divinity" key="augustus"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+                        <lb n="6"/>flamini <persName type="divinity" key="divusTitus"><name>divi</name> <name>Titi</name></persName>
                         <lb n="7"/>huic de<hi rend="ligature">cu</hi>riones
                         <lb n="8"/>statuam publice <expan><abbr>ponend</abbr><ex>am</ex></expan>
                         <lb n="9"/>decreverunt
@@ -135,7 +137,10 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>
+                    [Front face]: To Quintus Plotius Romanus, son of Quintus, of the Quirina tribe, honoured with a public horse by the divine Hadrian, aedile, flamen of Roma and Augustus, flamen of the divine Titus. To this man, the decurions decreed the public erection of a statue. Plotius Niger, his father, having enjoyed the honour, placed (this) at his own expense. This place was given by decree of the decurions.
+                    [Left face]: Dedicated on the 16th day before the Kalends of April, when Titus Hoenius Severus and Marcus Peducaeus Priscinus were consuls.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -144,6 +149,21 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.400</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>6138</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05700400</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>143566</citedRange>
                     </bibl>
                 </p>
             </div>
