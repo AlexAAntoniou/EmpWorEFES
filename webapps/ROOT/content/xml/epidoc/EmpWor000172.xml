@@ -23,7 +23,7 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
                         <repository>Ostia Antica, new warehouses of the Soprintendenza</repository> 
                         <idno></idno>
@@ -36,7 +36,7 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType> <!-- Default value -->
                                     <dimensions>
                                         <height unit="cm">26</height>
                                         <width unit="cm">29</width>

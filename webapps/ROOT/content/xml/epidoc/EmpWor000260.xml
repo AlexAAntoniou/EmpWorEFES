@@ -17,16 +17,13 @@
             <publicationStmt>
                 <authority>EmpWor</authority>
                 <idno type="filename">EmpWor000260</idno>
-                <idno type="EDCS">EDCS 08400133</idno>
-                <idno type="EDR">EDR079289</idno>
-                <idno type="EDH">HD001820</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Sinuessa</settlement>
                         <repository></repository> 
                         <idno></idno>
@@ -39,7 +36,7 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm">45</height>
                                         <width unit="cm">50</width>
@@ -131,6 +128,21 @@
                 <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>1984.186</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>08400133</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>079289</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>001820</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -36,7 +36,7 @@
                             <supportDesc>
                                 <support><p>A large smooth-faced stone which has been significantly worn down on the right hand side, obscuring much of the inscription. Large holes in the right hand side, presumably made during the reuse of the stone.</p>
                                     <material ana="#material.stone" ref="https://www.eagle-network.eu/voc/material/lod/2.html">Stone</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm">80</height>
                                         <width unit="cm">183.5</width>

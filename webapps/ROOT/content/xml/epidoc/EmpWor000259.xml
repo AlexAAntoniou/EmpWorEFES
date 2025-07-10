@@ -25,7 +25,7 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Setia</settlement>
                         <repository>Brown University, USA</repository> 
                         <idno>FF MU 1/67</idno>
@@ -38,7 +38,7 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.bronze" ref="https://www.eagle-network.eu/voc/material/lod/644.html">Bronze</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm">60</height>
                                         <width unit="cm">41.05</width>

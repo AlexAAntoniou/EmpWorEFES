@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Nola</settlement>
-                        <repository></repository> 
+                        <repository>Cimitile, basilica complex</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -36,11 +36,11 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">117</height>
+                                        <width unit="cm">139</width>
+                                        <depth unit="cm">11</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line5">Lines 1–5</locus>
+                                <dimensions type="letterHeight">
+                                   <height unit="mm">60–130</height> 
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Cimitile, reused in the 5th century into the basilica complex, with the rear face reworked as a pluteus in the Basilica of San Felice</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -115,7 +117,7 @@
                  </ab>
             </div>
             <div type="apparatus">
-                <listApp><app><note>Text of EAGLE compared with photograph</note></app></listApp>
+                <listApp><app><note>Text of EDR compared with photograph</note></app></listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p></p> <!--  -->
@@ -127,6 +129,16 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.1262</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11500191</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>101490</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -23,8 +23,8 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
+                        <region>Regio III</region>
+                        <settlement>Vibo Valentia</settlement>
                         <repository></repository>  
                         <idno></idno>
                     </msIdentifier>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragment"/> <!-- DEFAULT VALUE -->
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -64,13 +64,13 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/452337">Vibo Valentia</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/2522776/vibo-valentia.html">Vibo Valentia</placeName>
+                                <geo>38.675581, 16.097648</geo> 
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Dicovered in Vibo Valentia, near the Capuchin Convent.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,13 +92,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html" cert="low">Honorific(?)</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-07-10" who="#AA">Original data collection and editing</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,29 +109,45 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name>Latiae</name> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>Au
+                    <lb n="2" break="no"/>leiae</name> <name>A<hi rend="ligature">ur</hi>inae</name></persName>
+                    <lb n="3"/><expan><abbr>sacerd</abbr><ex>oti</ex></expan> <persName type="divine"><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <orig>SE
+                    <lb n="4" break="no"/>v</orig><gap reason="lost" extent="unknown" unit="char"/><orig>E</orig>
+                    <lb n="5"/><orig>G</orig><gap reason="lost" extent="unknown" unit="char"/> 
+                    <lb n="6"/><orig>D</orig><gap reason="lost" extent="unknown" unit="char"/> 
+                    <lb n="7"/><orig>X</orig><gap reason="lost" extent="unknown" unit="char"/> 
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Latia Auleia Aurina, daughter of Publius, sacerdos of the Augusta [---]?</p>
             </div>
             <div type="commentary">
                 <p></p> 
             </div>
-            <div type="bibliography">
+            <div type="bibliography"> <!-- Hemelrijk 2015, 427; Gradel 2002; app 3 -->
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="CIL"/> <citedRange>10.51</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="EDCS"/> <citedRange>11400138</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>178400</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="GraninoCecere2014"/> <citedRange>n.21</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -17,15 +17,13 @@
             <publicationStmt>
                 <authority>EmpWor</authority>
                 <idno type="filename">EmpWor000247</idno>
-                <idno type="EDCS">EDCS 11500496</idno>
-                <idno type="EDR">EDR116016</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Puteoli</settlement>
                         <repository>Naples, Piazzetta Mondragone 9 (Palazzo Eldorado), walled up near the entrance door to the garden.</repository> 
                         <idno></idno>
@@ -143,7 +141,17 @@
                         <ptr target="ILS"/> <citedRange>344</citedRange>
                     </bibl>
                 </p>
-            </div>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11500496</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>116016</citedRange>
+                    </bibl>
+                </p>
+            </div>               
         </body>
     </text>
 </TEI>

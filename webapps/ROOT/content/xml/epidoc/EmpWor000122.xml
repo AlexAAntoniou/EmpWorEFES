@@ -36,7 +36,7 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble (Italico)</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/objtyp/lod/84.html">Cinerary Urn</objectType>
+                                    <objectType ana="#object.cineraryurn" ref="https://www.eagle-network.eu/voc/objtyp/lod/84.html">Cinerary Urn</objectType>
                                     <dimensions>
                                         <height unit="cm">34</height>
                                         <width unit="cm"></width>

@@ -17,15 +17,13 @@
             <publicationStmt>
                 <authority>EmpWor</authority>
                 <idno type="filename">EmpWor000264</idno>
-                <idno type="EDCS">EDCS 20900400</idno>
-                <idno type="EDR">EDR156635</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Tarracina</settlement>
                         <repository>Florence, Museo Archeologico Nazionale</repository> 
                         <idno></idno>
@@ -133,6 +131,16 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.6309</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>20900400</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>156635</citedRange>
                     </bibl>
                 </p>
                 <p>

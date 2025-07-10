@@ -17,15 +17,13 @@
             <publicationStmt>
                 <authority>EmpWor</authority>
                 <idno type="filename">EmpWor000265</idno>
-                <idno type="EDCS">EDCS 20900395</idno>
-                <idno type="EDR">EDR156610</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Tarracina</settlement>
                         <repository></repository> 
                         <idno></idno>
@@ -37,8 +35,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html" cert="low">Marble</material>
-                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html" cert="low">Altar</objectType>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html" cert="low">Marble(?)</material>
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html" cert="low">Altar(?)</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
@@ -130,7 +128,7 @@
             <div type="commentary">
                 <p></p> 
             </div>
-            <div type="bibliography">
+            <div type="bibliography"> 
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.6304</citedRange>
@@ -139,6 +137,16 @@
                 <p>
                     <bibl>
                         <ptr target="ILS"/> <citedRange>4324</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>20900395</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>156610</citedRange>
                     </bibl>
                 </p>
             </div>

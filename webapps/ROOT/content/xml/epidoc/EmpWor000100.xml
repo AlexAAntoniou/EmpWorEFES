@@ -23,7 +23,7 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Nola</settlement>
                         <repository></repository> 
                         <idno></idno>
@@ -36,7 +36,7 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html" cert="low">Statue Base(?)</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate atLeast="0312" atMost="0337">312-337 CE</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Nola, in re-use in the belltower of the bishop's palace (seen in the late 16th century).</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -118,8 +118,8 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE with revisions</note></app>
-                    <app loc="3"><note>EAGLE restores INV(ICTO) rather than IMP(ERATORI), 'di regola presente in questo posto nelle titolature di Constantino precedenti al 324'.</note></app>
+                    <app><note>Text of EDR with revisions</note></app>
+                    <app loc="3"><note>EDR restores INV(ICTO) rather than IMP(ERATORI), 'di regola presente in questo posto nelle titolature di Constantino precedenti al 324'.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
@@ -132,6 +132,21 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.1245</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11500174</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>139047</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="LSA"/> <citedRange>1866</citedRange>
                     </bibl>
                 </p>
             </div>

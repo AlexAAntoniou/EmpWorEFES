@@ -259,7 +259,10 @@
                         <persName xml:lang="en">Augustan Lares</persName>
                     </person>
                     <person xml:id="materMagna">
-                        <persName xmllang="la">Mater Magna</persName>
+                        <persName xml:lang="la">Mater Magna</persName>
+                    </person>
+                    <person xml:id="mefitis-utiana">
+                        <persName xml:lang="la">Mefitis Utiana</persName>
                     </person>
                     <person xml:id="nemesis">
                         <persName xml:lang="grc">Νέμεσις</persName>

@@ -17,15 +17,13 @@
             <publicationStmt>
                 <authority>EmpWor</authority>
                 <idno type="filename">EmpWor000286</idno>
-                <idno type="EDCS">EDCS 20400656</idno>
-                <idno type="EDR">EDR 115428</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Venafrum</settlement>
                         <repository></repository> 
                         <idno></idno>
@@ -38,7 +36,7 @@
                             <supportDesc>
                                 <support><p>Capini (1999) suggests that the dedication perhaps once belonged to a cylindrical drum monument</p>
                                     <material ana="#material.uncertain" ref="https://www.eagle-network.eu/voc/material/lod/5.html">Uncertain</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
@@ -133,7 +131,7 @@
             <div type="commentary">
                 <p>If we assume that the inscription is roughly chronological, the priesthood attested here is likely to have been devoted to the living Tiberius. The same Nedymus, here a freedperson, is probably also found in CIL 10.4847, dedicated in 32 CE, at which time he was still an enslaved person.</p> 
             </div>
-            <div type="bibliography">
+            <div type="bibliography">      
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.4868</citedRange>
@@ -142,6 +140,16 @@
                 <p>
                     <bibl>
                         <ptr target="ILS"/> <citedRange>2688</citedRange>
+                    </bibl>
+                </p>
+                 <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>20400656</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>115428</citedRange>
                     </bibl>
                 </p>
                 <p>

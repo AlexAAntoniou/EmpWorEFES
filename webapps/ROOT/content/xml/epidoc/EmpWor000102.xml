@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Nola</settlement>
-                        <repository></repository> 
+                        <repository>Naples, Riviera di Chiaia, no. 88, courtyard</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -36,11 +36,11 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">100</height>
+                                        <width unit="cm">65</width>
+                                        <depth unit="cm">60</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line7">Lines 1–7</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">35–70</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Casamarciano, in front of the church of San Nicola dei Raymis (16th century); then Naples, in the Chiaia district (at least since the mid-17th century).</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -118,7 +120,7 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE with Gradel 2002</note></app>
+                    <app><note>Text of EDR with Gradel 2002</note></app>
                     <app loc="7"><note>The restoration of d.d. as d(omus) d(ivinae) was proposed by Gradel, rather than d(onum) d(ederunt) or d(ecreto) d(ecurionum)</note></app>
                 </listApp>
             </div>
@@ -132,6 +134,21 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.1238</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>6347</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11500167</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>106736</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -17,16 +17,13 @@
             <publicationStmt>
                 <authority>EmpWor</authority>
                 <idno type="filename">EmpWor000277</idno>
-                <idno type="EDCS">EDCS 10701187</idno>
-                <idno type="EDR">EDR 075277</idno>
-                <idno type="EDH">EDH 008953</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Trebula Suffenas</settlement>
                         <repository></repository> 
                         <idno></idno>
@@ -171,10 +168,25 @@
             <div type="commentary"> <!-- ADD DETAIL FROM ICS SPEECH! -->
                 <p>Dedication of imagines Caesarum (those of Augustus and Tiberius, not Gaius and Lucius Caesar, cf  Brizio <!-- ref needed! -->). There is no reason to believe that these freedmen were Augustales, as supposed by Fishwick (1991, 614), the editors of AE 1995, and Vincent (2016 <!-- REFS NEEDED, ADD TO BIBLIOGRAPHY OF INSCRIPTION -->). There are perhaps overlaps between the men attested in this inscription, and the seviri Augustales mentioned in CIL 6.29681, also of Trebula Suffenas, but we cannot be certain.</p> 
             </div>
-            <div type="bibliography">
+            <div type="bibliography">                
                 <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>1972.154</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>10701187</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>075277</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>008953</citedRange>
                     </bibl>
                 </p>
             </div>

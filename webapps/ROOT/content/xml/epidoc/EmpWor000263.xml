@@ -17,15 +17,13 @@
             <publicationStmt>
                 <authority>EmpWor</authority>
                 <idno type="filename">EmpWor000263</idno>
-                <idno type="EDCS">EDCS 20900396</idno>
-                <idno type="EDR">EDR156629</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Tarracina</settlement>
                         <repository></repository> 
                         <idno></idno>
@@ -124,10 +122,20 @@
             <div type="commentary">
                 <p>Given the dedicatory formula, this temple to Roma and Augustus was built during the Augustan period (while Augustus was still alive). Fishwick (1987–2005, 2.1: 437–438) dismisses the public importance of this space by considering it only be a 'private' space. For the extended family, including its freedpersons, in Terracina, see also CIL 10.6343, and CIL 10.6306.</p> 
             </div>
-            <div type="bibliography">
+            <div type="bibliography">                
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.6305</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>20900396</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr type="EDR"/> <citedRange>156629</citedRange>
                     </bibl>
                 </p>
                 <p>

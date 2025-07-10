@@ -17,15 +17,13 @@
             <publicationStmt>
                 <authority>EmpWor</authority>
                 <idno type="filename">EmpWor000283</idno>
-                <idno type="EDCS">EDCS 21200061</idno>
-                <idno type="EDR">EDR 135584</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Ulubrae</settlement>
                         <repository></repository> 
                         <idno></idno>
@@ -137,6 +135,16 @@
                 <p>
                     <bibl>
                         <ptr target="ILS"/> <citedRange>6274</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>21200061</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>135584</citedRange>
                     </bibl>
                 </p>
             </div>

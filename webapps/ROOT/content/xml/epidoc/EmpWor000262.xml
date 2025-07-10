@@ -17,15 +17,13 @@
             <publicationStmt>
                 <authority>EmpWor</authority>
                 <idno type="filename">EmpWor000262</idno>
-                <idno type="EDCS">EDCS 11400771</idno>
-                <idno type="EDR">EDR102196; EDR102192</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Surrentum</settlement>
                         <repository>Museo Correale</repository> <!-- In the entrance corridor -->
                         <idno></idno>
@@ -148,10 +146,25 @@
             <div type="commentary">
                 <p>The woman and man honoured in this inscription are presumably husband and wife.</p> 
             </div>
-            <div type="bibliography">
+            <div type="bibliography">                
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.688</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11400771</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>102196</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>102192</citedRange>
                     </bibl>
                 </p>
                 <p>

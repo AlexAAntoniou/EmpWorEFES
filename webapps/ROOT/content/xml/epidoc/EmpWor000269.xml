@@ -17,16 +17,13 @@
             <publicationStmt>
                 <authority>EmpWor</authority>
                 <idno type="filename">EmpWor000269</idno>
-                <idno type="EDCS">EDCS05801566</idno>
-                <idno type="EDR">EDR131525</idno>
-                <idno type="EDH">HD018091</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Tibur</settlement>
                         <repository>Musei Capitolini</repository> 
                         <idno>NCE 2506</idno>
@@ -137,6 +134,21 @@
                 <p>
                     <bibl>
                         <ptr target="ILS"/> <citedRange>196</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05801566</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>131525</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>018091</citedRange>
                     </bibl>
                 </p>
                 <p>

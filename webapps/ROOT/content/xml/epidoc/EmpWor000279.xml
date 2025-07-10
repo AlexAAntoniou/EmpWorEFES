@@ -17,15 +17,13 @@
             <publicationStmt>
                 <authority>EmpWor</authority>
                 <idno type="filename">EmpWor000279</idno>
-                <idno type="EDCS">EDCS 05800575</idno>
-                <idno type="EDR">EDR 161242</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Tusculum</settlement>
                         <repository></repository> 
                         <idno></idno>
@@ -142,7 +140,7 @@
             <div type="commentary">
                 <p>The dedicator, M. Aemilius Macer Faustinianus, is an otherwise unknown senator. The dedicator chose to give Caracalla the title of princeps iuventutis, despite having not held the position for six years. As Klingenberg (2012) suggests, Faustinianus was likely convicted of a crime under Septimius Severus, but nonetheless restored to his consular dignity by Caracalla.</p> 
             </div>
-            <div type="bibliography">
+            <div type="bibliography">  
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.2596</citedRange>
@@ -151,6 +149,16 @@
                 <p>
                     <bibl>
                         <ptr target="ILS"/> <citedRange>453</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05800575</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>161242</citedRange>
                     </bibl>
                 </p>
                 <p>

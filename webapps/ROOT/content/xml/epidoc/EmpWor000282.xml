@@ -17,14 +17,13 @@
             <publicationStmt>
                 <authority>EmpWor</authority>
                 <idno type="filename">EmpWor000282</idno>
-                <idno type="EDCS">EDCS 05800563</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Tusculum</settlement>
                         <repository></repository> 
                         <idno></idno>
@@ -125,10 +124,15 @@
             <div type="commentary">
                 <p>EDR believes the inscription to be of doubtful authenticity.</p> 
             </div>
-            <div type="bibliography">
+            <div type="bibliography">                
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.2585</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05800563</citedRange>
                     </bibl>
                 </p>
             </div>

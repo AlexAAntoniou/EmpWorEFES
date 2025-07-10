@@ -17,16 +17,13 @@
             <publicationStmt>
                 <authority>EmpWor</authority>
                 <idno type="filename">EmpWor000253</idno>
-                <idno type="EDCS">EDCS 23400281</idno>
-                <idno type="EDR">EDR128496</idno>
-                <idno type="USEpigraphy">MI.AA.UM.KM.L.816</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Puteoli</settlement>
                         <repository>Ann Arbor (USA), Kelsey Museum</repository> 
                         <idno></idno>
@@ -39,7 +36,7 @@
                             <supportDesc>
                                 <support><p>Four contiguous fragments of a marble plaque. Edges are smooth, with traces of mortar and lead, and drilled holes for pins. </p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm">89</height>
                                         <width unit="cm">119.5</width>
@@ -126,7 +123,7 @@
             <div type="commentary">
                 <p></p> 
             </div>
-            <div type="bibliography">
+            <div type="bibliography">             
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.8178</citedRange>
@@ -135,6 +132,21 @@
                 <p>
                     <bibl>
                         <ptr target="ILS"/> <citedRange>6321</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>23400281</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>128496</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="USEpigraphy"/> <citedRange>MI.AA.UM.KM.L.816</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -17,16 +17,13 @@
             <publicationStmt>
                 <authority>EmpWor</authority>
                 <idno type="filename">EmpWor000268</idno>
-                <idno type="EDCS">EDCS 04800012</idno>
-                <idno type="EDR">EDR073009</idno>
-                <idno type="EDH">HD024028</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Tibur</settlement>
                         <repository>Augusteum of Tivoli</repository> <!-- In wall -->
                         <idno></idno>
@@ -125,10 +122,25 @@
             <div type="commentary">
                 <p>This was likely one of the inscriptions which accompanied the small apsidal 'Augusteum' at Tivoli, which contained a partially naked statue of Augustus as a god, perhaps in the guise of Jupiter. As Caporossi (2012) has made clear, archaeological features make it clear that this Augusteum was built at the same time as the neighbouring ponderarium, and inscriptional evidence makes it clear that both spaces were built by M. Varenus Diphilus. For the ponderarium, see esp. CIL 14.3687; CIL 14.3688 and Caporossi 2012. Whilst M. Varenus Diphilus was a magister Herculeus, and the magistri Herculanei later became magistri Herculanei Augustales, this should not simply be dismissed as part-and-parcel of the supposed function of the Augustales, but rather an exceptionally early attestation of a freedperson constructing a space for the veneration of the living Augustus as a god and not (cf. Caporossi 2012) the Genius of Augustus or the Lares. Likely refers either to the return of Augustus to Rome from the East in 19 BCE, or 13 BCE from Gaul. Koortbojian (2013, 163) favours the latter, but Caporossi (2012, 90) the former.</p> 
             </div>
-            <div type="bibliography">
+            <div type="bibliography">               
                 <p>
                     <bibl>
                         <ptr target="AE"/><citedRange>, 1922.78</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>04800012</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>073009</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>024028</citedRange>
                     </bibl>
                 </p>
                 <p>
