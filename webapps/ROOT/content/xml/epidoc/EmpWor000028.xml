@@ -23,7 +23,7 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Fidenae</settlement>
                         <repository></repository>
                         <idno></idno>
@@ -134,6 +134,16 @@
                  <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.4057</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05802062</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>144614</citedRange>
                     </bibl>
                 </p>
             </div>

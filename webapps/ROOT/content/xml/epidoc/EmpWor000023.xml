@@ -36,7 +36,7 @@
                             <supportDesc>
                                 <support><p>Long rectangular marble plaque.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/384.html">Decree</objectType>
+                                    <objectType ana="#object.decree" ref="https://www.eagle-network.eu/voc/typeins/lod/384.html">Decree</objectType>
                                     <dimensions>
                                         <height unit="cm">60</height>
                                         <width unit="cm">33</width>

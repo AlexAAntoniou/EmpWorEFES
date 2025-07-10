@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Lanuvium</settlement>
-                        <repository></repository>
+                        <repository>Lanuvio, Museo Civico Lanuvino</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -38,12 +38,12 @@
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">35</height>
+                                        <width unit="cm">46</width>
+                                        <depth unit="cm">5</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragment"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line3">Lines 1–3</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">80</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -113,7 +115,7 @@
                 </ab>
             </div>
             <div type="apparatus">
-                <listApp><app><note></note></app></listApp>
+                <listApp><app><note></note></app></listApp> <!-- compare with photograph -->
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p></p> <!-- translation needed -->
@@ -125,6 +127,16 @@
                  <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.2095</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05800056</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>109667</citedRange>
                     </bibl>
                 </p>
             </div>

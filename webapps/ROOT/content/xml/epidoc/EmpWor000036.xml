@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Herculaneum</settlement>
-                        <repository></repository>
-                        <idno></idno>
+                        <repository>Napoli, Museo Archeologico Nazionale, depositi</repository>
+                        <idno>3714</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -38,8 +38,8 @@
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">64.5</height>
+                                        <width unit="cm">82.5</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line2">Lines 1–2</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">50–90</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -112,7 +114,7 @@
                 </ab>
             </div>
             <div type="apparatus">
-                <listApp><app><note></note></app></listApp>
+                <listApp><app><note></note></app></listApp> <!-- compare with photographs -->
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p>To the divine Augustus. The Augustales [set this up].</p>
@@ -124,6 +126,16 @@
                  <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.1412</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>11500346</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>107660</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -23,7 +23,7 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Herculaneum</settlement>
                         <repository></repository>
                         <idno></idno>
@@ -143,6 +143,21 @@
                  <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>1951.217</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>13900595</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>073856</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>021439</citedRange>
                     </bibl>
                 </p>
             </div>

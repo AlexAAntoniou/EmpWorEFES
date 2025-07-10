@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Lanuvium</settlement>
-                        <repository></repository>
-                        <idno></idno>
+                        <repository>Roma, Museo Nazionale Romano, Terme di Diocleziano, Cloister of the Certosa di Santa Maria degli Angeli</repository>
+                        <idno>1031</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -36,11 +36,11 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.decree" ref="https://www.eagle-network.eu/voc/typeins/lod/384.html">Decree</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">88</height>
+                                        <width unit="cm">167</width>
+                                        <depth unit="cm">1.5</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line33">Lines 1–33</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">36–115</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate atLeast="0133" atMost="0136">133–136 CE</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1816">Discovered in Lanuvio, in the locality Vagnere, on the property of cardinal Luigi Frezza</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -186,7 +188,7 @@
                 </div>
             </div>
             <div type="apparatus">
-                <listApp><app><note></note></app></listApp>
+                <listApp><app><note></note></app></listApp> <!--compare with photograph -->
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p></p> <!-- translation needed -->
@@ -194,10 +196,35 @@
             <div type="commentary">
                 <p></p> <!--Templum and tetrastylum constructed between 133 (the foundation of the collegium) and 136 CE. Hemelrijk 2015, 183; Fishwick 1991f, 510; Ausbuttel 1982, 27-28; Bendlin 2011, 535; Mommsen 1843, 98-106; Friggeri 2001, 175-176 -->
             </div>
-            <div type="bibliography">
+            <div type="bibliography"> <!-- Add Bendlin 2011 -->
                  <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.2112</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>7212</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="TermeDiocleziano-02"/> <citedRange>175</citedRange> <!-- ADD TERME DIOCLEZIANO -->
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>54601010</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>078891</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>000715</citedRange>
                     </bibl>
                 </p>
             </div>

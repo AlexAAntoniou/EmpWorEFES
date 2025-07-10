@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Herculaneum</settlement>
-                        <repository></repository>
+                        <repository>Herculaneum, Depositi della Soprintendenza Archeologica.</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -38,12 +38,12 @@
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">59.3</height>
+                                        <width unit="cm">287</width>
+                                        <depth unit="cm">5.5</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragment"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line4">Lines 1–4</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">50–80</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate atMost="0079">terminus ante quem 79 CE</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Herculaneum, in the ancient marina, under the walls</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -114,7 +116,7 @@
                 </ab>
             </div>
             <div type="apparatus">
-                <listApp><app><note></note></app></listApp>
+                <listApp><app><note></note></app></listApp> <!-- Compare with photograph -->
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p></p> <!-- translation -->
@@ -122,10 +124,20 @@
             <div type="commentary">
                 <p></p> <!--  -->
             </div>
-            <div type="bibliography">
+            <div type="bibliography"> <!-- Add Granino Cecere -->
                  <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>2008.357</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>51200081</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>103045</citedRange>
                     </bibl>
                 </p>
             </div>

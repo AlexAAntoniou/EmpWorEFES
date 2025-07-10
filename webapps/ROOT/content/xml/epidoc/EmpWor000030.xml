@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Formiae</settlement>
-                        <repository></repository>
+                        <repository>Formia, Piazzetta del Municipio</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -36,11 +36,11 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">115</height>
+                                        <width unit="cm">69</width>
+                                        <depth unit="cm">79</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line11">Lines 1–11</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">40–60</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate atLeast="0218" atMost="0235">218–235 CE</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Formia, on via XXIV Maggio, near the crossing with via Rubino.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -90,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -106,25 +108,34 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab> <!-- CIL -->
-                   <lb n="1"/><persName type="attested"><name>Cassiae</name>
-                   <lb n="2"/><name>Corneliae</name>
-                   <lb n="3"/><persName type="attested"><name type="patronym"><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>Priscae</name> <expan><abbr>c</abbr><ex>larissimae</ex></expan> <expan><abbr>f</abbr><ex>eminae</ex></expan></persName>
-                   <lb n="4"/><persName type="attested"><name>Aufidi</name> <name>Frontonis</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan>
-                   <lb n="5"/>pontificis <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan>
-                   <lb n="6"/>Asiae
-                   <lb n="7"/>patroni <expan><abbr>col</abbr><ex>oniae</ex></expan> uxori
-                   <lb n="8"/>sacerdoti <persName type="divinity">Augustae</persName>
-                   <lb n="9"/>et patriae Formiani
-                   <lb n="10"/>publice pro splendore
-                   <lb n="11"/>munificentiae eius 
-                </ab>
+                <div type="textpart" subtype="face" n="front">
+                    <ab>
+                       <lb n="1"/><persName type="attested"><name>Cassiae</name>
+                       <lb n="2"/><name>Corneliae</name>
+                       <lb n="3"/><persName type="attested"><name type="patronym"><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>Priscae</name> <expan><abbr>c</abbr><ex>larissimae</ex></expan> <expan><abbr>f</abbr><ex>eminae</ex></expan></persName>
+                       <lb n="4"/><persName type="attested"><name>Aufidi</name> <name>Frontonis</name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan>
+                       <lb n="5"/>pontificis <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan>
+                       <lb n="6"/>Asiae
+                       <lb n="7"/>patroni <expan><abbr>col</abbr><ex>oniae</ex></expan> uxori
+                       <lb n="8"/>sacerdoti <persName type="divinity">Augustae</persName>
+                       <lb n="9"/>et patriae Formiani
+                       <lb n="10"/>publice pro splendore
+                       <lb n="11"/>munificentiae eius 
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="back">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name>Aginatii</name></persName> <expan><abbr>iun</abbr><ex>ioris</ex></expan>
+                    </ab>
+                </div>
             </div>
             <div type="apparatus">
                 <listApp><app><note></note></app></listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>Cassia Cornelia Prisca, daughter of Gaius, the most illustrious woman, Aufidius Fronto, consul, pontifex and proconsul of Asia, patron of the colony, for his wife, the sacerdos of Augusta and of her hometown Formiae, by the people, for her brilliance and generosity.</p>
+                <p>[Front face]: Cassia Cornelia Prisca, daughter of Gaius, the most illustrious woman, Aufidius Fronto, consul, pontifex and proconsul of Asia, patron of the colony, for his wife, the sacerdos of Augusta and of her hometown Formiae, by the people, for her brilliance and generosity.
+                   [Rear face]: Of Aginatius the Younger.               
+                </p>
             </div>
             <div type="commentary">
                 <p></p> <!-- Priesthood to Julia Domna. Hemelrijk 2006, 116; Hemelrijk 2015, 419, 517; Varhelyi 2010, 114; Kettenhofen 1979, 104; Forbis 1996, 114 no. 37. Rupke (FS) 784.-->
@@ -133,6 +144,31 @@
                  <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>1971.79</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>09700534</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>075105</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>189017</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>010501</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="LSA"/> <citedRange>2042</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -23,10 +23,10 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Forum Popilii</settlement>
-                        <repository></repository>
-                        <idno></idno>
+                        <repository>Napoli, Museo Archeologico Nazionale, depositi</repository>
+                        <idno>3012</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -38,12 +38,12 @@
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">31.2</height>
+                                        <width unit="cm">47.8</width>
+                                        <depth unit="cm">4.5</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragment"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line4">Lines 1–4</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">30–58</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered"></provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -114,10 +116,10 @@
                 </ab>
             </div>
             <div type="apparatus">
-                <listApp><app><note></note></app></listApp>
+                <listApp><app><note></note></app></listApp> <!-- compare to photograph -->
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>Sacred to Isis Augusta, Caius Novius Priscus, son of Caius, [built and dedicated this temple(?)] alone and with his own money</p>
+                <p>Sacred to Isis Augusta, Caius Novius Priscus, son of Caius, [built and dedicated this temple(?)] alone and with his own money.</p>
             </div>
             <div type="commentary">
                 <p></p> <!-- -->
@@ -126,6 +128,16 @@
                  <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>10.4717</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>17700001</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>153253</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio 1</region>
+                        <region>Regio I</region>
                         <settlement>Herculaneum</settlement>
-                        <repository></repository>
+                        <repository>Herculaneum, sacello degli Augustali</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -38,8 +38,8 @@
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.dedication" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Dedication</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">69</height>
+                                        <width unit="cm">99</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
@@ -68,7 +68,7 @@
                             </origPlace>
                             <origDate atMost="0079">terminus ante quem 79 CE</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Herculaneum, in the sacellum degli Augustali</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -116,7 +116,7 @@
                 </ab>
             </div>
             <div type="apparatus">
-                <listApp><app><note></note></app></listApp>
+                <listApp><app><note></note></app></listApp> <!-- compare with photograph -->
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p>Sacred to Augustus. Aulus Lucius Proculus, son of Aulus, of tribe Menenia, and Aulus Lucius Iulianus, dedicated this with their own money, and gave dinner to the decurions and Augustales</p>
@@ -128,6 +128,21 @@
                  <p>
                     <bibl>
                         <ptr target="AE"/> <citedRange>1979.169</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>08900872</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>077334</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>004337</citedRange>
                     </bibl>
                 </p>
             </div>
