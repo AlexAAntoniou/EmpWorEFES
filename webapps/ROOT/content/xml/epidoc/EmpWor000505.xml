@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
-                        <repository>Pisa, Campo Santo</repository>  
+                        <region>Regio VII</region>
+                        <settlement>Pisae</settlement>
+                        <repository>Pisa, Camposanto Monumentale</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -35,7 +35,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.decree" ref="https://www.eagle-network.eu/voc/typeins/lod/384.html">Decree</objectType> 
                                     <dimensions>
                                         <height unit="cm">157</height>
@@ -54,7 +54,7 @@
                         </objectDesc>
                         <handDesc>
                             <handNote><p></p>
-                                <locus from="line1" to="line1">Line 1</locus>
+                                <locus from="line1" to="line60">Lines 1–60</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">15–20</height>
                                 </dimensions>
@@ -64,9 +64,9 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/403253">Pisae</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3170647/pisa.html">Pisa</placeName>
+                                <geo>43.719417, 10.400106</geo>
                             </origPlace>
                             <origDate when="0004">4 CE</origDate>
                         </origin>
@@ -109,7 +109,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/> <!-- FINISH -->
                 </ab>
             </div>
             <div type="apparatus">
@@ -126,12 +126,17 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="CIL"/> <citedRange>11.1421</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="EDCS"/> <citedRange>20402891</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>142467</citedRange>
                     </bibl>
                 </p>
                 <p>

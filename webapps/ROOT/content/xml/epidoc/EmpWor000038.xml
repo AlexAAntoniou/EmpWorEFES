@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Complete rectangular marble plaque, reconstructed of four major (and a handful of minor) fragments, all contiguous.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text is roughly centred on the stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Text is relatively neat and regular, although the "R" of "SACR" in line 1 is slightly above the line, perhaps to fit it into the line. Tall second "I" in "Lucii" in line 2, and "T" in "et" in line 3. The letter heights are irregular in "filii" in line 2. Regular comma-shaped interpuncts throughout.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight"/>
                             </handNote>
@@ -66,10 +66,10 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3177363/ercolano.html">Ercolano</placeName>
                                 <geo>40.80540, 14.34738</geo>
                             </origPlace>
-                            <origDate atMost="0079">terminus ante quem 79 CE</origDate>
+                            <origDate atMost="0079">Terminus ante quem of 79 CE (eruption of Vesuvius).</origDate>
                         </origin>
-                        <provenance type="found" subtype="discovered">Discovered in Herculaneum, in the sacellum degli Augustali</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Herculaneum, in the so-called sacellum degli Augustali</provenance>
+                        <provenance type="observed" subtype="seen">Antoniou viewed and photographed the inscription on 2015-01-18</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -97,6 +97,7 @@
         <revisionDesc status="unrevised">
             <listChange>
                 <change when="2025-04-17" who="#AA">Original data collection and editing</change>
+                <change when="2025-07-25" who="#AA">Updated based on photographs</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -106,17 +107,17 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab> <!-- CIL -->
-                   <lb n="1"/><persName type="divinity"><name>Augusto</name></persName> <expan><abbr>sacr</abbr><ex>um</ex></expan>
-                   <lb n="2"/><persName type="attested"><name><expan><abbr>AA</abbr><ex>uli</ex></expan></name> <name>Lucii</name> <persName type="attested"><name type="patronym"><expan><abbr>A</abbr><ex>uli</ex></expan></name> filii</persName> <expan><abbr>Men</abbr><ex>enia</ex></expan>
-                   <lb n="3"/><name>Proculus</name></persName> et <persName type="attested"><name>Iulianus</name></persName> 
-                   <lb n="4"/><expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan>
-                   <lb n="5"/>dedicatione decurionibus et
-                   <lb n="6"/>Augustalibus cenam dederunt
+                <ab>
+                   <lb n="1"/><persName type="divinity"><name>Augusto</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>sacr</abbr><ex>um</ex></expan> <g ref="symbols.xml#interpunct">·</g>
+                   <lb n="2"/><persName type="attested"><name><expan><abbr>A<g ref="symbols.xml#interpunct">·</g>A</abbr><ex>uli</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Lucii</name> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name type="patronym"><expan><abbr>A</abbr><ex>uli</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> filii</persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Men</abbr><ex>enia</ex></expan> <g ref="symbols.xml#interpunct">·</g>
+                   <lb n="3"/><name>Proculus</name></persName> <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>Iulianus</name></persName> <g ref="symbols.xml#interpunct">·</g>
+                   <lb n="4"/><expan><abbr>p</abbr><ex>ecunia</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>s</abbr><ex>ua</ex></expan> <g ref="symbols.xml#interpunct">·</g>
+                   <lb n="5"/>dedicatione <g ref="symbols.xml#interpunct">·</g> decurionibus <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g>
+                   <lb n="6"/>Augustalibus <g ref="symbols.xml#interpunct">·</g> cenam <g ref="symbols.xml#interpunct">·</g> dederunt <g ref="symbols.xml#interpunct">·</g>
                 </ab>
             </div>
             <div type="apparatus">
-                <listApp><app><note></note></app></listApp> <!-- compare with photograph -->
+                <listApp><app><note>Text based on photograph.</note></app></listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p>Sacred to Augustus. Aulus Lucius Proculus, son of Aulus, of tribe Menenia, and Aulus Lucius Iulianus, dedicated this with their own money, and gave dinner to the decurions and Augustales</p>

@@ -25,39 +25,17 @@
                         <country>Italy</country>
                         <region>Regio I</region>
                         <settlement>Pompeii</settlement>
-                        <repository></repository> 
+                        <repository>Augusteum, in Forum of Pompeii</repository> 
                         <idno></idno>
                     </msIdentifier>
-                    <msContents>
-                        <textLang mainLang="la">Latin</textLang>
-                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType> <!-- Default value -->
-                                    <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
-                                    </dimensions>
+                                <support>
+                                    <p></p>
                                 </support>
-                                <condition ana="#condition.complete"/>
                             </supportDesc>
-                            <layoutDesc>
-                                <layout>
-                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
-                                    <damage/>
-                                </layout>
-                            </layoutDesc>
                         </objectDesc>
-                        <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
-                            </handNote>
-                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
@@ -69,7 +47,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found"></provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="studied">Antoniou visited and photographed on 2025-07-16</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -88,15 +66,11 @@
                 <language ident="grc">Ancient Greek</language>
                 <language ident="la">Latin</language>
             </langUsage>
-            <textClass>
-                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
-                </keywords>
-            </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
                 <change when="2025-06-09" who="#AA">Original data collection and editing</change>
+                <change when="2025-07-25" who="#AA">Updated based on access to stone and photography</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,11 +81,8 @@
         <body><!-- BUILDING Augusteum of Pompeii -->
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note></note></app>
                 </listApp>
-            </div>
-            <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
             </div>
             <div type="commentary">
                 <p></p> 

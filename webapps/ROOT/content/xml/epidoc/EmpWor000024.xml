@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Municipal Festivals at Cumae</title>
+                <title>Feriae Cumanum</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio I</region>
                         <settlement>Cumae</settlement>
-                        <repository>Baia, Museo Archeologico dei Campi Flegrei, Cumae Room</repository>
+                        <repository>Baia, Museo Archeologico dei Campi Flegrei, in the Cumae Rooms</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -69,7 +69,7 @@
                             <origDate atLeast="0004" atMost="0014">4–14 CE</origDate>
                         </origin>
                         <provenance type="found" subtype="discovered">Fragments a-b were discovered in 1835 in Cumae, fragment c in the excavations of Stevens in 1882. They were transferred to the Napoli, Museo Archeologico Nazionale (inv. 3015) and subsequently to Baiae.</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="autopsied">Antoniou viewed and photographed the stones on 2025-07-17, in the Cumae rooms of Museo Archeologico dei Campi Flegrei</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>

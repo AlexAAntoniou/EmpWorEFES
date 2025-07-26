@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio I</region>
                         <settlement>Pompeii</settlement>
-                        <repository></repository> <!-- in situ in Pompeii's forum -->
+                        <repository>Pompeii, Forum (in situ)</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Large entablature for building dedication, with preserved moulding and entablature at base..</p>
+                                <support><p>Large entablature for building dedication, with preserved moulding and entablature at base. Inscription reconstructed from multiple blocks, with some blocks missing.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.buildingdedication" ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Building Inscription</objectType>
                                     <dimensions>
@@ -53,7 +53,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Large monumental letters, clean and neatly incised in stone, simple clear serifs.</p>
+                            <handNote><p>Large monumental letters, clean and neatly incised in stone, simple clear serifs. Clear triangular interpuncts.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight"/>
                             </handNote>
@@ -68,8 +68,8 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found">Currently placed in the forum of Pompeii.</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="found">Currently placed in the forum of Pompeii, with a few fragments restored upon columns as a porticus for the forum.</provenance>
+                        <provenance type="observed" subtype="autopsied">Antoniou viewed and photographed the stones on 2025-07-16</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -97,6 +97,7 @@
         <revisionDesc status="unrevised">
             <listChange>
                 <change when="2025-06-11" who="#AA">Original data collection and editing</change>
+                <change when="2025-07-25" who="#AA">Updated based on access to stone and photography</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,22 +108,16 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab> 
-                    <lb n="1"/><persName type="attested"><name><supplied reason="lost">Eumachia</supplied></name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName></persName> <expan><abbr>sacerd</abbr><ex>os</ex></expan> <expan><abbr>pub<supplied reason="lost">l</supplied></abbr><ex>ica</ex></expan>
-                    <lb n="2"/><supplied reason="lost">nomine su</supplied>o et <persName type="attested"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name>Numistri</name> <name>Front<supplied reason="lost">onis</supplied></name></persName>
-                    <lb n="3"/><supplied reason="lost"><expan><abbr>fili</abbr><ex>i</ex></expan> c</supplied>halcidicum cr<supplied reason="lost">yptam</supplied>
-                    <lb n="4"/>por<supplied reason="lost">ticus</supplied>
-                    <lb n="5"/><persName type="divine" key="concordiaAugusta"><name><supplied reason="lost">Con</supplied>cordiae</name> <name>Augusta<supplied reason="lost">e</supplied></name></persName> <persName type="divine" key="pietas"><name><supplied reason="lost">Pietati</supplied></name></persName>
-                    <lb n="6"/><supplied reason="lost">sua pec</supplied>unia fec<supplied reason="lost">it</supplied>
-                    <lb n="7"/><supplied reason="lost">ea</supplied>demque dedicavit
+                    <lb n="1"/><persName type="attested"><name><supplied reason="lost">Eumachia</supplied></name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>sacerd</abbr><ex>os</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pub<supplied reason="lost">l</supplied></abbr><ex>ica</ex></expan> <supplied reason="lost">nomine su</supplied>o <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Numistri</name> <g ref="symbols.xml#interpunct">·</g> <name>Front<supplied reason="lost">onis</supplied></name></persName> <supplied reason="lost"><expan><abbr>fili</abbr><ex>i</ex></expan> c</supplied>halcidicum <g ref="symbols.xml#interpunct">·</g> cr<supplied reason="lost">yptam</supplied> por<supplied reason="lost">ticus</supplied> <persName type="divine" key="concordiaAugusta"><name><supplied reason="lost">Con</supplied>cordiae</name> <g ref="symbols.xml#interpunct">·</g> <name>Augusta<supplied reason="lost">e</supplied></name></persName> <persName type="divine" key="pietas"><name><supplied reason="lost">Pietati</supplied></name></persName> <supplied reason="lost">sua pec</supplied>unia <g ref="symbols.xml#interpunct">·</g> fec<supplied reason="lost">it</supplied> <supplied reason="lost">ea</supplied>demque <g ref="symbols.xml#interpunct">·</g> dedicavit
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDCS</note></app>
+                    <app><note>Text reconstructed from photograph, and in comparison to <ref target="EmpWor000226.xml">EmpWor000226.</ref></note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>Eumachia, public priest, daughter of Lucius, in her name and in that of her son, Marcus Numistrius Fronto, made with her own money and dedicated the chalcidicum, crypt and portico to Concordia Augusta.</p>
+                <p>[Eumachia], public priest, daughter of Lucius, [in her name] and in that of [her son], Marcus Numistrius Fronto, made and likewise dedicated a chalcidicum, crypt and portico to Concordia Augusta [and] Pietas with her own money.</p>
             </div>
             <div type="commentary">
                 <p></p> 

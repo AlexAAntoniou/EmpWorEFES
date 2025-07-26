@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000503</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,15 +16,15 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000503</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
+                        <region>Regio VII</region>
+                        <settlement>Perusia</settlement>
                         <repository></repository>  
                         <idno></idno>
                     </msIdentifier>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -64,9 +64,9 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/413248">Perusia</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3171180/perugia.html">Perugia</placeName>
+                                <geo>43.111192, 12.3899085</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
@@ -92,13 +92,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-07-25" who="#AA">Original data collection and editing</change> 
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,12 +109,23 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="ruler"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name><expan><abbr>Caes</abbr><ex>ari</ex></expan></name> <name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Vibio</name>
+                    <lb n="2"/><name>Treboniano</name> <name>Gallo</name>
+                    <lb n="3"/>Pio F<supplied reason="lost">e</supplied>lici Invicto
+                    <lb n="4"/><expan><abbr>Aug</abbr><ex>usto</ex></expan></persName> <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan>
+                    <lb n="5"/><expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="2">II</num> <supplied reason="lost"><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan>
+                    <lb n="6"/>design<supplied reason="lost">nato <num value="2">II</num> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied> 
+                    <lb n="7"/><persName type="attested"><name><expan><abbr>TT</abbr><ex>iti</ex></expan></name> <name>Fla<supplied reason="lost">vi</supplied></name> <name><supplied reason="lost">Volu</supplied>
+                    <lb n="8" break="no"/>sianu<supplied reason="lost">s</supplied></name></persName> <supplied reason="lost">et</supplied> <persName type="attested"><name>Rufi
+                    <lb n="9" break="no"/>nus</name></persName> <supplied reason="lost"><expan><abbr>eeqq</abbr><ex>uites</ex></expan></supplied> <expan><abbr>RR</abbr><ex>omani</ex></expan>
+                    <lb n="10"/>devoti <persName type="divine" key="numen"><name><supplied reason="lost">num</supplied>in<supplied reason="lost">i</supplied></name></persName> ma
+                    <lb n="11" break="no"/><supplied reason="lost">i</supplied>es<supplied reason="lost">tatiq</supplied>u<supplied reason="lost">e</supplied> 
+                    <lb n="12"/><supplied reason="lost">eius</supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
@@ -126,12 +137,12 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="CIL"/> <citedRange>11.1928</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="EDCS"/> <citedRange>22000712</citedRange>
                     </bibl>
                 </p>
             </div>

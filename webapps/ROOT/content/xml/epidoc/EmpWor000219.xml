@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio I</region>
                         <settlement>Pompeii</settlement>
-                        <repository>Pompeii, Temple of Fortuna Augusta</repository> <!-- in situ, in the top of the aedicula -->
+                        <repository>Pompeii, Temple of Fortuna Augusta. Dedicatory inscription is in situ, in the top of the aedicula.</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -53,7 +53,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Text is extremely neat and regular, with triangular interpuncts.</p>
                                 <locus from="line1" to="line2">Lines 1–2</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">60–85</height>
@@ -71,7 +71,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found" subtype="discovered" when="1824">Discovered in situ, in Pompeii, Reg. VII, 4, 1, in the Temple of Fortuna Augusta, on the top of the aedicula, on Feb 25, 1824.</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="studied">Antoniou visited and photographed on 2025-07-16</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -99,6 +99,7 @@
         <revisionDesc status="unrevised">
             <listChange>
                 <change when="2025-06-11" who="#AA">Original data collection and editing</change>
+                <change when="2025-07-25" who="#AA">Updated based on access to stone and photography</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -115,7 +116,7 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR compared with photograph</note></app>
+                    <app><note>Edition made from autopsy of stone.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">

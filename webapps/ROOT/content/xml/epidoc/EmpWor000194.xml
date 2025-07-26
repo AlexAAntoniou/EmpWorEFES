@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio I</region>
                         <settlement>Pompeii</settlement>
-                        <repository>Pompeii, Regio VIII, 7, 20–21, Grand Theatre, Media Cavea</repository> 
+                        <repository>Pompeii, Regio VIII, 7, 20–21, Grand Theatre, Media Cavea</repository> <!-- Inaccessible to Antoniou 2025 -->
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -71,7 +71,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found" subtype="discovered" when="1792">Discovered in Pompeii, Regio VIII, 7, 20–21, Grand Theatre, Media Cavea, on 22 September 1792</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed"></provenance> <!-- Inaccessible to Antoniou 2025 -->
                     </history>
                 </msDesc>
             </sourceDesc>

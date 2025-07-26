@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000345</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,15 +16,15 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000345</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
+                        <region>Regio IV</region>
+                        <settlement>Aufinum</settlement>
                         <repository></repository>  
                         <idno></idno>
                     </msIdentifier>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -64,13 +64,13 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/413043">Aufinum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3180720/capestrano.html">Capestrano</placeName>
+                                <geo>42.2817298, 13.7718891</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Ofena, near the bell-tower of the Church of S. Nicola.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,13 +92,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-07-25" who="#AA">Original data collection and editing</change> 
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,12 +109,24 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="di-manes"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <name><expan><abbr>M</abbr><ex>anibus</ex></expan></name></persName> <expan><abbr>s</abbr><ex>acrum</ex></expan>
+                    <lb n="2"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name>Statio</name> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName>
+                    <lb n="3"/><expan><abbr>Quir</abbr><ex>ina</ex></expan> <name>Syro</name></persName>
+                    <lb n="4"/><expan><abbr>aed</abbr><ex>ili</ex></expan> <expan><abbr>quaest</abbr><ex>ori</ex></expan> <expan><abbr>alim</abbr><ex>entorum</ex></expan>
+                    <lb n="5"/><expan><abbr>quaest</abbr><ex>ori</ex></expan> <expan><abbr>mun</abbr><ex>icipii</ex></expan> <expan><abbr>Pelt</abbr><ex>uinatium</ex></expan>
+                    <lb n="6"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>iur</abbr><ex>e</ex></expan> <expan><abbr>dic</abbr><ex>undo</ex></expan> <expan><abbr>mu</abbr><ex>nicipii</ex></expan>
+                    <lb n="7"/><expan><abbr>Pelt</abbr><ex>uinatium</ex></expan> <expan><abbr>vioc</abbr><ex>uro</ex></expan> viae <expan><abbr>Cl
+                    <lb n="8" break="no"/>aud</abbr><ex>iae</ex></expan> <expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divine" key="divusAugustus"><name>divi</name>
+                    <lb n="9"/><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+                    <lb n="10"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublius</ex></expan></name> <name>Statius</name> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>Quir</abbr><ex>ina</ex></expan>
+                    <lb n="11"/><name>Severus</name></persName> patri
+                    <lb n="12"/>pientissimo
+                    <lb n="13"/><expan><abbr>p</abbr><ex>osuit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
@@ -126,12 +138,22 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="CIL"/> <citedRange>9.3384</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="ILS"/> <citedRange>6529</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>14804401</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>166223</citedRange>
                     </bibl>
                 </p>
             </div>

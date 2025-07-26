@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio I</region>
                         <settlement>Liternum</settlement>
-                        <repository>Baia, Museo Archeologico dei Campi Flegrei</repository>
+                        <repository>Baia, Museo Archeologico dei Campi Flegrei: Literno Room</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Plague of veined white marble with frame, recomposed from three fragments and missing the lower right corner. Obscured inscription in lower right corner can be restored based on report of Chianese 1936. Smooth back.</p>
+                                <support><p>Plaque of veined white marble with frame, recomposed from three fragments and missing the lower right corner. Obscured inscription in lower right corner can be restored based on report of Chianese 1936. Smooth back.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType>
                                     <dimensions>
@@ -75,7 +75,7 @@
                         <provenance type="transferred" when="1942">Taken to Pozzuoli in the autumn of 1942 to the amphitheatre</provenance>
                         <provenance type="transferred" from="1970" to="1979">Taken from Pozzuoli in the 1970s to the Museo Archaeologico Nazionale in Naples</provenance>
                         <provenance type="transferred" when="2008">Taken in 2008 to the Museo Nazionale Archaeologico Campri Flegrei</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="autopsied">Antoniou viewed and photographed the stones on 2025-07-17, in the Cumae rooms of Museo Archeologico dei Campi Flegrei</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>

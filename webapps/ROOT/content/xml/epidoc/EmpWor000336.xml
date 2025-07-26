@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000336</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,15 +16,15 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000336</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
+                        <region>Regio IV</region>
+                        <settlement>Aequiculi</settlement>
                         <repository></repository>  
                         <idno></idno>
                     </msIdentifier>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -64,9 +64,9 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/413001">Aequiculi</placeName> 
+                                <placeName type="modern" ref="https://www.geonames.org/3172296/nesce.html">Nesce</placeName>
+                                <geo>42.2088946, 13.1816409</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
@@ -98,7 +98,7 @@
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-07-25" who="#AA">Original data collection and editing</change> 
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,12 +109,17 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="char"/> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Volu<supplied reason="lost">sius</supplied></name></persName>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="char"/> <persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name>Mall<supplied reason="lost">ius</supplied></name></persName>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="char"/> <persName type="attested"><name>Caius</name> <name>Pom<supplied reason="lost">ponius</supplied></name></persName>
+                    <lb n="4"/><supplied reason="lost">orchest</supplied>ram straverunt podium et tribun<supplied reason="lost">al et</supplied>
+                    <lb n="5"/><supplied reason="lost">statuam</supplied> <persName type="divine" key="iustitiaAugusta"><name><supplied reason="lost">I</supplied>ustitiae</name> <name>Augustae</name></persName> decurionibu<supplied reason="lost">s</supplied> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="6"/><gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost">l</supplied>udos scaenicos quadriduo et <gap reason="lost" extent="unknown" unit="char"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDCS</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
@@ -126,12 +131,17 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="CIL"/> <citedRange>9.4133</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="ILS"/> <citedRange>5525a</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>14805164</citedRange>
                     </bibl>
                 </p>
             </div>

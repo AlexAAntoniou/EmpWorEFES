@@ -25,39 +25,17 @@
                         <country>Italy</country>
                         <region>Regio I</region>
                         <settlement>Herculaneum</settlement>
-                        <repository></repository>
+                        <repository>Herculaneum, sacello degli Augustali</repository>
                         <idno></idno>
                     </msIdentifier>
-                    <msContents>
-                        <textLang mainLang="la">Latin</textLang>
-                    </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material><!-- Building -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType>><!-- Building -->
-                                    <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
-                                    </dimensions>
+                                <support>
+                                    <p></p>
                                 </support>
-                                <condition ana="#condition.complete"/><!-- Building -->
                             </supportDesc>
-                            <layoutDesc>
-                                <layout>
-                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs><!-- Building -->
-                                    <damage/>
-                                </layout>
-                            </layoutDesc>
                         </objectDesc>
-                        <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus><!-- Building -->
-                                <dimensions type="letterHeight"/>
-                            </handNote>
-                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
@@ -66,10 +44,10 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3177363/ercolano.html">Ercolano</placeName>
                                 <geo>40.80540, 14.34738</geo>
                             </origPlace>
-                            <origDate atMost="0079">terminus ante quem 79 CE</origDate>
+                            <origDate atMost="0079">Terminus ante quem of 79 CE (eruption of Vesuvius).</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="found">Building is in-situ, with some inscriptions and wall-paintings remaining in building.</provenance>
+                        <provenance type="observed" subtype="seen">Antoniou viewed and photographed the building on 2015-01-18</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -88,32 +66,21 @@
                 <language ident="grc">Ancient Greek</language>
                 <language ident="la">Latin</language>
             </langUsage>
-            <textClass>
-                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term><!-- Building -->
-                </keywords>
-            </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
                 <change when="2025-04-17" who="#AA">Original data collection and editing</change>
+                <change when="2025-07-25" who="#AA">Updated based on photographs</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="path/to/photograph_of_text_or_monument"/>
+        <graphic url="path/to/photograph_of_text_or_monument"/> <!-- Photographs on OneDrive -->
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab> <!-- CIL --> <!-- Building -->
-                </ab>
-            </div>
             <div type="apparatus">
                 <listApp><app><note></note></app></listApp>
-            </div>
-            <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!-- Translation needed -->
             </div>
             <div type="commentary">
                 <p></p> <!-- Dedication of sculptures of divus Augustus (CIL 10.1412 = Corazza 2016, p214) and divus Iulius (CIL 10.1411 = ILS 74a = Corazza 2016, p213) by Augustales. The ‘dedicatory’ inscription from the brothers A. Lucius Proculus and A. Lucius Iulianus (AE 1979, 169 = Corazza 2016, 211) is not related to dedication of this building, but rather they dedicated a statue or altar. Contains an altar with frescoes of Hercules. Laird (2015); Étienne (1985, 348-49); Guadagno (1978, 133-34); Wallace-Hadrill (2011, 135-41). -->

@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio I</region>
                         <settlement>Pompeii</settlement>
-                        <repository>Pompeii, Regio VIII, ins.4-reg.VII,1, Quadrivio degli Holconi</repository> 
+                        <repository>Pompeii, at the crossroads of Regio VIII, ins.4 and reg.VII,1. The crossroads of the Holconi.</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Large rectangular white marble statue base; while inscription is whole, the statue-base has been recomposed from multiple pieces of marble.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text in upper half of the stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Text is thin but extremely well-formed. Letters have neat but simple serifs. Triangular and comma-shaped interpuncts. Tall "T" in "trib" in line 2, in "iter" in line 3, "Augusti" in line 4.</p>
                                 <locus from="line1" to="line5">Lines 1–5</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">47–65</height>
@@ -71,7 +71,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found" subtype="discovered" when="1853">Discovered in Ostia Antica, Pompeii, Regio VIII, ins.4-reg.VII,1, Quadrivio degli Holconi, on 30 June 1853.</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="autopsied">Antoniou viewed and photographed the statue base in situ on 2025-07-16</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -99,6 +99,7 @@
         <revisionDesc status="unrevised">
             <listChange>
                 <change when="2025-06-09" who="#AA">Original data collection and editing</change>
+                <change when="2025-07-25" who="#AA">Updated based on access to stone and photography</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,20 +110,20 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Holconio</name> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <name>Rufo</name></persName>
-                    <lb n="2"/><expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> a <expan><abbr>popul</abbr><ex>o</ex></expan> <expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <num value="5"><hi rend="supraline">V</hi></num>
-                    <lb n="3"/><expan><abbr>quinq</abbr><ex>uennali</ex></expan> <expan><abbr>iter</abbr><ex>um</ex></expan>
-                    <lb n="4"/><persName type="divine" key="Augustus"><name>Augusti</name> <name>Caesaris</name></persName> <expan><abbr>sacerd</abbr><ex>oti</ex></expan>
-                    <lb n="5"/>patrono coloniae
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Holconio</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <name>Rufo</name></persName>
+                    <lb n="2"/><expan><abbr>trib</abbr><ex>uno</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>mil</abbr><ex>itum</ex></expan> <g ref="symbols.xml#interpunct">·</g> a <g ref="symbols.xml#interpunct">·</g> <expan><abbr>popul</abbr><ex>o</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr><hi rend="supraline">II</hi><g ref="symbols.xml#interpunct">·</g>vir</abbr><ex>o</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>i</abbr><ex>ure</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>icundo</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="5"><hi rend="supraline">V</hi></num> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="3"/><expan><abbr>quinq</abbr><ex>uennali</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>iter</abbr><ex>um</ex></expan> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="4"/><persName type="divine" key="Augustus"><name>Augusti</name> <g ref="symbols.xml#interpunct">·</g> <name>Caesaris</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>sacerd</abbr><ex>oti</ex></expan>
+                    <lb n="5"/>patrono <g ref="symbols.xml#interpunct">·</g> coloniae
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Edition made from autopsy of stone.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To Marcus Holconius Rufus, son of Marcus, military tribune (elected) by the people, duovir for the purpose of administering justice, quinquennalis again, sacerdos of Augustus Caesar, patron of the colony.</p>
             </div>
             <div type="commentary">
                 <p></p> 

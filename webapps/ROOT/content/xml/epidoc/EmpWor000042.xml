@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio I</region>
                         <settlement>Liternum</settlement>
-                        <repository>Baia, Museo Archeologico dei Campi Flegrei</repository>
+                        <repository>Baia, Museo Archeologico dei Campi Flegrei, Literno Room</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -86,7 +86,7 @@
                         </origin>
                         <provenance type="found" subtype="discovered">Although the year of discovery and provenance are not explicitly attested, Camodeca 2010 believes that it was discovered in 1934, reused in the flooring of the theatre orchestra, as he believes it can be identified with an inscription mentioned in Chianese 1936.</provenance>
                         <provenance type="transferred" when="2008">Transferred from the Museo Archaeologico Nazionale in Naples to the Museo Nazionale Archaeologico Campri Flegrei in the Castle of Baia in 2008.</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="autopsied">Antoniou viewed and photographed the stones on 2025-07-17, in the Literno room of Museo Archeologico dei Campi Flegrei</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -122,7 +122,7 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA"><!-- CIL -->
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <div type="textpart" subtype="heading">
                     <ab> 
                         <lb n="1"/>Augustales <g ref="symbols.xml#interpunct">·</g> creati <g ref="symbols.xml#interpunct">·</g> ii qui <g ref="symbols.xml#interpunct">·</g> in cultu <g ref="symbols.xml#interpunct">·</g> <persName type="divinity"><name>domus <g ref="symbols.xml#interpunct">·</g>

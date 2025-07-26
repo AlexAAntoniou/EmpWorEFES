@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
-                        <repository>Isernia, S. Maria delle Monache</repository>  
+                        <region>Regio IV</region>
+                        <settlement>Aesernia</settlement>
+                        <repository>Isernia, Museo Archeologico</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>A metope triglyph frieze runs around the top.</p>
+                                <support><p>A metope triglyph frieze runs around the top of the rectangular stone inscription.</p>
                                     <material ana="#material.stone.limestone" ref="https://www.eagle-network.eu/voc/material/lod/66.html">Limestone</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -43,7 +43,7 @@
                                         <depth unit="cm">175</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -53,8 +53,8 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
-                                <locus from="line1" to="line1">Line 1</locus>
+                            <handNote><p>Text is clear and neat, with relatively equal spaces between the characters.</p>
+                                <locus from="line1" to="line10">Lines 1–10</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">46–51</height>
                                 </dimensions>
@@ -64,9 +64,9 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/432652">Aesernia</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3175445/isernia.html">Isernia</placeName>
+                                <geo>41.596276, 14.2324325</geo>
                             </origPlace>
                             <origDate atLeast="0100" atMost="0300">While traditionally dated to the second half of the second century CE, Bergemann (1990) dates the decorative and stylistic features to the late republic/early empire, with a 2nd or 3rd century reuse of the stone with its current inscription.</origDate>
                         </origin>
@@ -92,13 +92,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-07-25" who="#AA">Original data collection and editing</change> 
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,12 +109,21 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Flavio</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>fil</abbr><ex>io</ex></expan></persName>
+                    <lb n="2"/><expan><abbr>Tro</abbr><ex>mentina</ex></expan> <g ref="symbols.xml#interpunct">·</g> <name>Celeri</name></persName>
+                    <lb n="3"/><expan><abbr>eq</abbr><ex>uiti</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>R</abbr><ex>omano</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pat</abbr><ex>rono</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>col</abbr><ex>oniae</ex></expan> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="4"/><expan><abbr>Laur</abbr><ex>enti</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Lav</abbr><ex>inati</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>flam</abbr><ex>ini</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="divusAugustus"><name><expan><abbr>d</abbr><ex>ivi</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+                    <lb n="5"/><expan><abbr>cur</abbr><ex>atori</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>r</abbr><ex>ei</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>ublicae</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>col</abbr><ex>oniae</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Bovianens</abbr><ex>ium</ex></expan> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="6"/><expan><abbr>cur</abbr><ex>atori</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>r</abbr><ex>ei</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>ublicae</ex></expan> <g ref="symbols.xml#interpunct">·</g> Saepinatium
+                    <lb n="7"/><expan><abbr>itemq</abbr><ex>ue</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Cluviens</abbr><ex>ium</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Carric</abbr><ex>inorum</ex></expan>
+                    <lb n="8"/>postulatu <g ref="symbols.xml#interpunct">·</g> populi
+                    <lb n="9"/>ordo <g ref="symbols.xml#interpunct">·</g> splendidissimus
+                    <lb n="10"/>decrevit
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
@@ -126,12 +135,27 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange>1975.349</citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="AE"/> <citedRange>1975.349</citedRange> 
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="CIL"/> <citedRange>9.6760</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>09400301</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>076162</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>009624</citedRange>
                     </bibl>
                 </p>
                 <p>

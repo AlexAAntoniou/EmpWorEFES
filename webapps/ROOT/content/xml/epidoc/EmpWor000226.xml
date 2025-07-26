@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio I</region>
                         <settlement>Pompeii</settlement>
-                        <repository>Depositi Soprintendenza Archeologica</repository> <!-- Copy(?) currently in Pompeii's forum -->
+                        <repository>Depositi Soprintendenza Archeologica</repository> <!-- Copy currently in Pompeii's Building of Eumachia, at the foot of the ramp that goes up to the Chalcidicum in the street of the merchants (Via dell'Abbondanza) -->
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Long rectangular marble plaque, above doorway.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.buildingdedication" ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Building Inscription</objectType>
                                     <dimensions>
@@ -53,7 +53,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Consistently talls "Ts" throughoout inscription, excxept for final "T" of dedicavit in line 3.</p>
+                            <handNote><p>Text is neat and regular. Consistently talls "Ts" throughoout inscription, excxept for final "T" of dedicavit in line 3. Triangular interpuncts.</p>
                                 <locus from="line1" to="line3">Lines 1–3</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">45–98</height>
@@ -71,7 +71,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found" subtype="discovered" when="1817">Discovered at Pompeii, in Reg. VII.9.1, in the Building of Eumachia, at the foot of the ramp that goes up to the Chalcidicum in the street of the merchants (Via dell'Abbondanza) on Sep 13 1817.</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="autopsied">Antoniou viewed and photographed the replica of the stone in situ on 2025-07-16</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -99,6 +99,7 @@
         <revisionDesc status="unrevised">
             <listChange>
                 <change when="2025-06-11" who="#AA">Original data collection and editing</change>
+                <change when="2025-07-25" who="#AA">Updated based on access to stone and photography</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -110,13 +111,13 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab> 
                     <lb n="1"/><persName type="attested"><name>Eumachia</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>sacerd</abbr><ex>os</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>publ</abbr><ex>ica</ex></expan> <g ref="symbols.xml#interpunct">·</g> nomine <g ref="symbols.xml#interpunct">·</g> suo et
-                    <lb n="2"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name>Numistri</name> <name>Frontonis</name></persName> fili chalcidicum cryptam porticus <persName type="divine" key="concordiaAugusta"><name>Concordiae</name>
-                    <lb n="3"/><name>Augustae</name></persName> <persName type="divine" key="pietas">Pietati</persName> sua pequnia <g ref="symbols.xml#interpunct">·</g> fecit eademque dedicavit
+                    <lb n="2"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Numistri</name> <g ref="symbols.xml#interpunct">·</g> <name>Frontonis</name></persName> <g ref="symbols.xml#interpunct">·</g> fili <g ref="symbols.xml#interpunct">·</g> chalcidicum <g ref="symbols.xml#interpunct">·</g> cryptam <g ref="symbols.xml#interpunct">·</g> porticus <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="concordiaAugusta"><name>Concordiae</name>
+                    <lb n="3"/><name>Augustae</name></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="pietas">Pietati</persName> <g ref="symbols.xml#interpunct">·</g> sua <g ref="symbols.xml#interpunct">·</g> pequnia <g ref="symbols.xml#interpunct">·</g> fecit <g ref="symbols.xml#interpunct">·</g> eademque <g ref="symbols.xml#interpunct">·</g> dedicavit
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR, comparison with (grainy) photograph.</note></app>
+                    <app><note>Edition made on the basis of photography of the copy, currently in situ on Eumachia's macellum.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000332</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,15 +16,15 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000332</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
+                        <region>Regio III</region>
+                        <settlement>Grumentum</settlement>
                         <repository></repository>  
                         <idno></idno>
                     </msIdentifier>
@@ -64,9 +64,9 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/442603">Grumentum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/7289451/grumentum.html">Grumentum</placeName>
+                                <geo>40.2851925903, 15.9069143331</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
@@ -109,16 +109,20 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><gap reason="lost" extent="1" unit="line"/>
+                    <lb n="2" break="no"/><persName type="attested"><name><seg part="F">utius</seg></name> <persName type="libertinatio"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>l</abbr><ex>ibertus</ex></expan></persName> <name>Nicephor</name></persName> <expan><abbr>mag</abbr><ex>ister</ex></expan> <persName type="divine" key="mercuriusAugustus"><name><expan><abbr>Merc</abbr><ex>urii</ex></expan></name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> sibi et
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Picagilpo</name> <persName type="libertinatio"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>l</abbr><ex>iberto</ex></expan></persName> <name>Philargy<supplied reason="lost">rio</supplied></name></persName>
+                    <lb n="4"/><expan><abbr>mag</abbr><ex>istro</ex></expan> <persName type="divine" key="mercuriusAugustus"><name><expan><abbr>Merc</abbr><ex>urii</ex></expan></name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <supplied reason="lost">patri</supplied> et
+                    <lb n="5"/><persName type="attested"><name>Pitiae</name> <persName type="libertinatio"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>l</abbr><ex>ibertae</ex></expan></persName> <name>Philemationi</name></persName> matr<supplied reason="lost">i</supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p></p> <!-- Needs translation -->
             </div>
             <div type="commentary">
                 <p></p> 
@@ -126,12 +130,27 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="AE"/> <citedRange>1927.13</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="AE"/> <citedRange>1901.173</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>16800413</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>073015</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>024787</citedRange>
                     </bibl>
                 </p>
             </div>

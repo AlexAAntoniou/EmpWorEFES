@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio I</region>
                         <settlement>Pompeii</settlement>
-                        <repository></repository> 
+                        <repository>Augusteum, in Forum of Pompeii</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,10 +34,10 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Finely carved marble altar. Front face depicts sacrifice, with togate man (capite velato) placing offerings on tripod altar, and cultarius holding axe leading bull to slaughter. Various attendants around, with one playing pipes, one holding patera and jug. Sacrifice is occuring within colonnaded building, draped. Right side of altar depicts sacrificial/religious objects: garland at top, under which is scarf, lituus, and acerra box. Left side depicts sacrifical objects: garland at top, under which is patera, jug and ladle.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType> <!-- Default value -->
-                                    <dimensions>
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
+                                    <dimensions> <!-- Rear inaccessible to Antoniou -->
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
                                         <depth unit="cm"></depth>
@@ -52,12 +52,6 @@
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
-                            </handNote>
-                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
@@ -69,7 +63,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found"></provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="studied">Antoniou visited and photographed on 2025-07-16</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -97,6 +91,7 @@
         <revisionDesc status="unrevised">
             <listChange>
                 <change when="2025-06-09" who="#AA">Original data collection and editing</change>
+                <change when="2025-07-25" who="#AA">Updated based on access to stone and photography</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,11 +102,8 @@
         <body><!-- Municipal altar in forecourt of Augusteum -->
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note></note></app>
                 </listApp>
-            </div>
-            <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
             </div>
             <div type="commentary">
                 <p></p> 
