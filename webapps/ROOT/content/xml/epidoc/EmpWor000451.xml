@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000451</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,17 +16,17 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000451</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
-                        <repository></repository>  
-                        <idno></idno>
+                        <region>Regio VII</region>
+                        <settlement>Cosa</settlement>
+                        <repository>Cosa National Archaeological Museum, depositi</repository>  
+                        <idno>CD 1059; CD 320; CE 333</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -35,15 +35,15 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> 
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -64,13 +64,13 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/413107">Cosa</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3183046/ansedonia.html">Ansedonia</placeName>
+                                <geo>42.4113264471, 11.2885285512</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in the ruins of Cosa, in the basilica.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -98,7 +98,7 @@
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-07-27" who="#AA">Original data collection and editing</change> 
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,12 +109,15 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan></supplied></name> <name><supplied reason="lost">Ti</supplied>tin<supplied reason="lost">ius</supplied></name> <name><supplied reason="lost">Glaucus</supplied></name> <name><supplied reason="lost">Lucretianus</supplied></name></persName>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost"><expan><abbr>p</abbr><ex>atronus</ex></expan></supplied> <expan><abbr>c</abbr><ex cert="low">oloniae</ex></expan> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="char"/><orig>ac</orig><gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost"><expan><abbr>flam</abbr><ex>en</ex></expan></supplied> <persName type="divine" key="augustus"><name><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>usti</ex></expan></name></persName> <gap reason="lost" extent="unknown" unit="char"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
@@ -126,12 +129,17 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="AE"/> <citedRange>2003.635</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="EDCS"/> <citedRange>29900210</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>152011</citedRange>
                     </bibl>
                 </p>
             </div>

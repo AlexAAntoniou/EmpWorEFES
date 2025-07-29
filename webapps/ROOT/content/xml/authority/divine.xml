@@ -38,6 +38,9 @@
                     <person xml:id="divusClaudius">
                         <persName xml:lang="en">Divus Claudius</persName>
                     </person>
+                    <person xml:id="divaPoppaea">
+                        <persName xml:lang="en">Diva Poppaea</persName>
+                    </person>
                     <person xml:id="divusVespasianus">
                         <persName xml:lang="en">Divus Vespasianus</persName>
                     </person>
@@ -87,6 +90,9 @@
                     </person>
                     <person xml:id="juliaMamaea">
                         <persName xml:lang="en">Julia Mamaea</persName>
+                    </person>
+                    <person xml:id="bona-dea-Augusta">
+                        <persName xml:lang="en">Bona Dea Augusta</persName>
                     </person>
                     <person xml:id="ceresAugusta">
                         <persName xml:lang="en">Ceres Augusta</persName>
@@ -168,6 +174,9 @@
                     <person xml:id="bellona">
                         <persName xml:lang="la">Bellona</persName>
                     </person>
+                    <person xml:id="bona-dea">
+                        <persName xml:lang="en">Bona Dea</persName>
+                    </person>
                     <person xml:id="ceres">
                         <persName xml:lang="en">Ceres</persName>
                     </person>
@@ -214,6 +223,9 @@
                     </person>
                     <person xml:id="geniusAugusti">
                         <persName xml:lang="en">Genius of Augustus</persName>
+                    </person>
+                    <person xml:id="geniusCaesari">
+                        <persName xml:lang="en">Genius of Caesar</persName>
                     </person>
                     <person xml:id="geniuscoloniae">
                         <persName xml:lang="la">Genius Coloniae</persName>

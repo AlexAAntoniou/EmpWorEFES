@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000442</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,15 +16,15 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000442</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
+                        <region>Regio VII</region>
+                        <settlement>Forum Clodii</settlement>
                         <repository></repository>  
                         <idno></idno>
                     </msIdentifier>
@@ -35,15 +35,15 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -64,9 +64,9 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/413145">Forum Clodii</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3183061/anguillara-sabazia.html">Anguillara Sabazia</placeName>
+                                <geo>42.126751, 12.167955</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
@@ -92,13 +92,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-07-27" who="#AA">Original data collection and editing</change> 
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,12 +109,16 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="ruler"><supplied reason="lost"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name><expan><abbr>Caes</abbr><ex>ari</ex></expan></name> <name><expan><abbr>M</abbr><ex>arco</ex></expan></name></supplied> <name><supplied reason="lost">Aurel</supplied><unclear>i</unclear>o</name> <del rend="erasure"><supplied reason="lost"><name>Antonino</name></supplied></del> <unclear>Pi</unclear>o <unclear>F</unclear><supplied reason="lost">elici</supplied> <supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied></persName> <supplied reason="lost" cert="low"><expan><abbr>ampl</abbr><ex>issimo</ex></expan></supplied>
+                    <lb n="2"/><supplied reason="lost" cert="low"><expan><abbr>sacerd</abbr><ex>oti</ex></expan></supplied> <persName type="divine" key="sol"><name><supplied reason="lost">Solis</supplied></name> <name><supplied reason="lost">invic</supplied><unclear>ti</unclear></name> <name><hi rend="erasure"><unclear>E</unclear><supplied reason="lost">lagabali</supplied></hi></name></persName> <expan><abbr>pontif</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <supplied reason="undefined" evidence="previouseditor"><expan><abbr>potest</abbr><ex>ate</ex></expan> <num atLeast="3" atMost="4"><hi rend="supraline">III</hi></num></supplied> <gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="3"/><supplied reason="lost"><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et</supplied> <persName type="ruler"><name><supplied reason="lost">Iuliae</supplied></name> <name><supplied reason="lost">Ma</supplied>esae</name></persName> sanctissimae <expan><abbr>Aug</abbr><ex>ustae</ex></expan> aviae <expan><abbr>I<unclear>m</unclear><del rend="erasure"><supplied reason="lost">p</supplied></del></abbr><ex>eratoris</ex></expan>
+                    <lb n="4"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/><gap reason="illegible" quantity="1" unit="char"/><supplied reason="lost"><gap reason="illegible" quantity="8" unit="char"/></supplied><unclear>IV</unclear><gap reason="lost" extent="unknown" unit="char"/></del>
+                    <lb n="5"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="char"/><seg part="F">ius</seg></name> <name>Laetus</name></persName> dicatissim<unclear>u</unclear><supplied reason="lost">s</supplied> <supplied reason="lost"><persName type="divine" key="numen"><name><expan><abbr>n</abbr><ex>umini</ex></expan></name></persName> <expan><abbr>m</abbr><ex>aiestati</ex><abbr>q</abbr><ex>ue</ex></expan> <expan><abbr>e</abbr><ex>orum</ex></expan></supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
@@ -126,12 +130,17 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="CIL"/> <citedRange>11.3774</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="EDCS"/> <citedRange>22700241</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>159537</citedRange>
                     </bibl>
                 </p>
             </div>

@@ -106,21 +106,21 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab> <!-- CIL -->
+                <ab>
                    <lb n="1"/><persName><name><supplied reason="lost">Cl</supplied>aud<supplied reason="undefined" evidence="previouseditor">iae</supplied></name>
                    <lb n="2"/><persName type="patronym"></persName><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan>
                    <lb n="3"/><name><supplied reason="lost">Fa</supplied><supplied reason="lost" evidence="previouseditor">dillae</supplied></name></persName>
                    <lb n="4"/><expan><abbr><supplied reason="undefined" evidence="previouseditor">c</supplied></abbr><ex>larissimae</ex></expan> <expan><abbr><supplied reason="undefined" evidence="previouseditor">f</supplied></abbr><ex>eminae</ex></expan> 
-                   <lb n="5"/><supplied reason="lost">sa</supplied>cer<supplied reason="lost">doti</supplied> <persName type="divinity"><supplied reason="undefined" evidence="previouseditor">di</supplied>
-                   <lb n="6" break="no"/><supplied reason="lost">v</supplied>arum A<supplied reason="undefined" evidence="previouseditor">ug</supplied>
-                   <lb n="7" break="no"/><supplied reason="lost">ust</supplied><supplied reason="undefined" evidence="previouseditor">arum</supplied></persName> ob <expan><abbr>am<supplied reason="undefined" evidence="previouseditor">or</supplied></abbr><ex>em</ex></expan>
-                   <lb n="8"/><supplied reason="lost">e</supplied><supplied reason="undefined" evidence="previouseditor">r</supplied>ga patr<supplied reason="undefined" evidence="previouseditor">iam</supplied>
-                   <lb n="9"/><supplied reason="lost">exi</supplied>mium <supplied reason="undefined" evidence="previouseditor">eius</supplied>
+                   <lb n="5"/><supplied reason="lost">sa</supplied>cer<supplied reason="lost">doti</supplied> <persName type="divinity"><name><supplied reason="undefined" evidence="previouseditor">di</supplied>
+                   <lb n="6" break="no"/><supplied reason="lost">v</supplied>arum</name> <name><expan><abbr>Au<supplied reason="undefined" evidence="previouseditor">g</supplied>
+                   <lb n="7" break="no"/><supplied reason="lost">ust</supplied><supplied reason="undefined" evidence="previouseditor">ar</supplied></abbr><ex>um</ex></expan></name></persName> ob <expan><abbr>am<supplied reason="undefined" evidence="previouseditor">or</supplied></abbr><ex>em</ex></expan>
+                   <lb n="8"/><supplied reason="lost">e</supplied><supplied reason="undefined" evidence="previouseditor">r</supplied>ga patri<supplied reason="undefined" evidence="previouseditor">am</supplied>
+                   <lb n="9"/><supplied reason="lost">exi</supplied>mium e<supplied reason="undefined" evidence="previouseditor">ius</supplied>
                    <lb n="10"/><expan><abbr><supplied reason="lost">Au</supplied>gust</abbr><ex>ales</ex></expan> <expan><abbr><supplied reason="undefined" evidence="previouseditor">p</supplied></abbr><ex>ecunia</ex></expan> <expan><abbr><supplied reason="undefined" evidence="previouseditor">p</supplied></abbr><ex>ublica</ex></expan>  
                 </ab>
             </div>
             <div type="apparatus">
-                <listApp><app><note></note></app></listApp>
+                <listApp><app><note>Text based on edition of Corazza 2016</note></app></listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p>For Claudia Fadilla, daugther of Tiberius, the most glorious woman, sacerdos of the divine Augustae. On account of her extraordinary love for her fatherland, the Augustales [erected this] with public funds.</p>
@@ -142,6 +142,16 @@
                 <p>
                     <bibl>
                         <ptr target="EDR"/> <citedRange>136022</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Bassignano2013"/> <citedRange>no. 30</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Corazza2016"/> <citedRange>153 (Allifae, no. 14).</citedRange>
                     </bibl>
                 </p>
             </div>

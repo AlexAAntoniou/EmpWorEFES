@@ -155,12 +155,12 @@
                         <lb n="6"/><persName type="attested"><name>Arellius</name> <name>Felixs</name></persName>
                         <lb n="7"/><persName type="attested"><name>Clodius</name> <name>Urbicus</name></persName>
                         <lb n="8"/><persName type="attested"><name>Caecilius</name> <name>Castor</name></persName>
-                        <lb n="9"/><persName type="attested"><name>Flavius</name> <name>Abascantus</name></persName>
+                        <lb n="9"/><persName type="attested"><name>Flavius</name> <name>Abascantus</name></persName> <!-- check, Corazza has <<>> -->
                         <lb n="10"/><persName type="attested"><name>Lollius</name> <name>Archelaus</name></persName>
                         <lb n="11"/><persName type="attested"><name>Antonius</name> <name>Eutyches</name></persName>
                         <lb n="12"/><persName type="attested"><name>Aufidius</name> <name>Demetrius</name></persName>
                         <lb n="13"/><persName type="attested"><name>Gellius</name> <name>Felicio</name></persName>
-                        <lb n="14"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/>ius <gap reason="illegible" quantity="3" unit="character"/>us</del>
+                        <lb n="14"/><del rend="erasure"><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ius</seg></name> <name><gap reason="illegible" quantity="3" unit="character"/><seg part="F">us</seg></name></persName></del>
                         <lb n="15"/><persName type="attested"><name>Iulius</name> <name>Ianuarius</name></persName>
                         <lb n="16"/><persName type="attested"><name>Lollius</name> <name>Ianuarius</name></persName>
                         <lb n="17"/><persName type="attested"><name>Veratius</name> <name>Venustus</name></persName>

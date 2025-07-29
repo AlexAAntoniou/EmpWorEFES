@@ -108,7 +108,7 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab> <!-- CIL -->
+                <ab>
                    <lb n="1"/><persName type="divinity"><name>Divo</name> <name>Iulio</name></persName>
                    <lb n="2"/>Augustales 
                 </ab>

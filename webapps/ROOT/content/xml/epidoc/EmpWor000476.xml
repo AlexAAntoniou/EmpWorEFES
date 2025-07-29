@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000476</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,17 +16,17 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000476</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
-                        <repository></repository>  
-                        <idno></idno>
+                        <region>Regio VII</region>
+                        <settlement>Luna</settlement>
+                        <repository>Roma, Musei Capitolini, Palazzo Nuovo (in wall).</repository>  
+                        <idno>NCE 2515</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,29 +34,29 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                <support><p>Long rectangular marble plaque recomposed of multiple fragments, missing bottom right corner and a large chunk out of face near the bottom.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> 
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> 
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">24.3</height>
+                                        <width unit="cm">88.5</width>
+                                        <depth unit="cm">1.1</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.partially.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text set out into two columns, with headings larger than text that follows.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
-                                <locus from="line1" to="line1">Line 1</locus>
+                            <handNote><p>Text is relatively uneven and slanting, particularly in the sections beneath the headings, and individual letters become increasingly less well-defined. Serifs present, but uneven. Long "I" in "Imp" in line 2 of the heading of column a, "Imp" in line 1 of the heading of column b, and in "Imp" in line 3 in the heading of column b. Long top stroke on "T" in "August" in line 2 of heading of column a. Tall "F" in "Flam" in line 4 of column b. Text at the bottom of column 2 overlaps the carved entablature.</p>
+                                <locus from="line1" to="line9">Lines 1–9</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"></height>
+                                    <height unit="mm">5–35</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -64,14 +64,14 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/403235">Luna</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/6697611/luni-mare.html">Luni Mare</placeName>
+                                <geo>44.064253, 10.016856</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Fivizzano, in the Cecina district.</provenance>
+                        <provenance type="observed" subtype="autopsied">Antoniou viewed and photographed the stone on 2025-07-20</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -92,13 +92,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-07-28" who="#AA">Original data collection and editing</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -108,13 +108,36 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab>
-                    <lb n="1"/>
-                </ab>
+                <div type="textpart" subtype="column" n="a">
+                    <ab>
+                        <lb n="1"/><persName type="divine" key="divaPoppaea"><name>Divae</name> <g ref="symbols.xml#interpunct">·</g> <name>Poppaeae</name> <g ref="symbols.xml#interpunct">·</g> <name>Augustae</name></persName>
+                        <lb n="2"/><persName type="ruler"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Neronis</name> <g ref="symbols.xml#interpunct">·</g><name>Caesaris</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>August</abbr><ex>i</ex></expan></name></persName> <supplied reason="omitted">uxori</supplied>
+                        <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Titinius</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>Gal</abbr><ex>eria</ex></expan> <name>Glaucus</name> <g ref="symbols.xml#interpunct">·</g> <name>Lucretianus</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>flam</abbr><ex>en</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="roma"><name>Romae</name></persName>
+                        <lb n="4"/>et <persName type="divine" key="augustus"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <hi rend="supraline">II</hi>vir <num value="4"><hi rend="supraline">IV</hi></num> <expan><abbr><unclear>p</unclear></abbr><ex>atronus</ex></expan> <expan><abbr><unclear>c</unclear></abbr><ex>oloniae</ex></expan> sevir <expan><abbr>eq</abbr><ex>uitum</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> curio <expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> <expan><abbr>tr</abbr><ex>ibunus</ex></expan> <expan><abbr>milit</abbr><ex>um</ex></expan>
+                        <lb n="5"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="22"><hi rend="supraline">XXII</hi></num> <expan><abbr><unclear>P</unclear>rimig</abbr><ex>eniae</ex></expan> <expan><abbr><unclear>p</unclear>raef</abbr><ex>ectus</ex></expan> <supplied reason="omitted">pro leg</supplied>ato insularum Baliarum <expan><abbr>tr</abbr><ex>ibunus</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan>
+                        <lb n="6"/><expan><abbr><unclear>l</unclear>eg</abbr><ex>ionis</ex></expan> <num value="6"><hi rend="supraline">VI</hi></num> Victrici<supplied reason="lost">s</supplied> ex voto suscepto pro salute <persName type="ruler"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name> <name>Neronis</name></persName>
+                        <lb n="7"/><unclear>q</unclear>u<unclear>o</unclear>d Baliarib<supplied reason="lost">u</supplied>s voverat anno <persName type="attested"><name><expan><abbr>A</abbr><ex>ulo</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Licinio</name> <name>Nerva</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>c</abbr><choice><corr>o</corr><sic>q</sic></choice><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> <expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>is</ex></expan>
+                        <lb n="8"/><persName type="attested"><name><expan><abbr><supplied reason="undefined" evidence="previouseditor">L</supplied></abbr><ex>ucio</ex></expan></name> <name><unclear>S</unclear>auf<unclear>e</unclear>io</name> <name>Ve<unclear>g</unclear><supplied reason="lost">eto</supplied></name></persName> <unclear>e</unclear>t <persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <num>A<supplied reason="omitted">b</supplied>urio</num> <name>Nepote</name></persName> ubi vellet ponere voto compos <supplied reason="omitted">posuit</supplied>
+                        <lb n="9"/><persName type="divine" key="iuppiter"><name>I<unclear>ovi</unclear></name></persName> <persName type="divine" key="iuno"><name><supplied reason="lost">Ion</supplied>o<supplied reason="lost">ni</supplied></name></persName> <persName type="divine" key="minerva"><name>Minervae</name></persName> <persName type="divine" key="felicitas"><name>Felicitati</name></persName> <persName type="divine" key="roma"><name>Romae</name></persName> <persName type="divine" key="divusAugustus"><name>Divo</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="b">
+                    <ab>
+                        <lb n="1"/><persName type="ruler"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Neroni</name> <g ref="symbols.xml#interpunct">·</g> <name>Claudio</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name>Divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Claudi</name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="ruler"><name><expan><abbr>Germ</abbr><ex>anici</ex></expan></name>
+                        <lb n="2"/><name>Caesaris</name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>epoti</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="ruler"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Caesaris</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> pro <g ref="symbols.xml#interpunct">·</g> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>epoti</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="ruler"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> ab <g ref="symbols.xml#interpunct">·</g> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>epoti</ex></expan></persName>
+                        <lb n="3"/><name>Caesari</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Germ</abbr><ex>anico</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>ontifici</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>m</abbr><ex>aximo</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pot</abbr><ex>estate</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="13"><hi rend="supraline">XIII</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>imp</abbr><ex>eratori</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="11"><hi rend="supraline">XI</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <num value="4"><hi rend="supraline">IIII</hi></num>
+                        <lb n="4"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Titinius</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Gal</abbr><ex>eria</ex></expan> <g ref="symbols.xml#interpunct">·</g> <name>Glaucus</name> <g ref="symbols.xml#interpunct">·</g> <name>Lucretianus</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>flam</abbr><ex>en</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="roma"><name>Romae</name></persName> <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="augustus"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> <hi rend="supraline">II</hi>vir
+                        <lb n="5"/><num value="4"><hi rend="supraline">IIII</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>atronus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>c</abbr><ex>oloniae</ex></expan> <g ref="symbols.xml#interpunct">·</g> sevir <g ref="symbols.xml#interpunct">·</g> <expan><abbr>eq</abbr><ex>uitum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <g ref="symbols.xml#interpunct">·</g> curio <g ref="symbols.xml#interpunct">·</g> <expan><abbr>praef</abbr><ex>ectus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>fabr</abbr><ex>um</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr><unclear>co</unclear></abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> <expan><abbr>tr</abbr><ex>ibunus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>mil</abbr><ex>itum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="22"><hi rend="supraline">XXII</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Primig</abbr><ex>eniae</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>praef</abbr><ex>ectus</ex></expan> <g ref="symbols.xml#interpunct">·</g> pro <g ref="symbols.xml#interpunct">·</g> legato
+                        <lb n="6"/><expan><abbr>insular</abbr><ex>um</ex></expan> <g ref="symbols.xml#interpunct">·</g> Baliarum <g ref="symbols.xml#interpunct">·</g> <expan><abbr>tr</abbr><ex>ibunus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>mil</abbr><ex>itum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="6"><hi rend="supraline">VI</hi></num> <g ref="symbols.xml#interpunct">·</g> <supplied reason="undefined" evidence="previouseditor">Victr</supplied><unclear>i</unclear>cis ex voto suscepto pro salute <persName type="ruler"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name>
+                        <lb n="7"/><name>Neronis</name></persName> <g ref="symbols.xml#interpunct">·</g> quod <g ref="symbols.xml#interpunct">·</g> Baliaribus <g ref="symbols.xml#interpunct">·</g> vovera<supplied reason="undefined" evidence="previouseditor">t ann</supplied>o <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>A</abbr><ex>ulo</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Licinio</name> <g ref="symbols.xml#interpunct">·</g> <name>Nerva</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> <g ref="symbols.xml#interpunct">·</g> <hi rend="supraline">II</hi>viris <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Saufei<unclear>o</unclear></name>
+                        <lb n="8"/><name>Vegeto</name></persName> <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Aburio</name> <g ref="symbols.xml#interpunct">·</g> <name>Nepote</name></persName> ubi vell<unclear>e</unclear><supplied reason="undefined" evidence="previouseditor">t pon</supplied>eret <g ref="symbols.xml#interpunct">·</g> voto <g ref="symbols.xml#interpunct">·</g> compos <g ref="symbols.xml#interpunct">·</g> posit <persName type="divine" key="iuppiter"><name>Iovi</name></persName> <persName type="divine" key="iuno"><name><unclear>Iun</unclear><supplied reason="lost">oni</supplied></name></persName>
+                        <lb n="9"/><persName type="divine" key="minerva"><name>Minervae</name></persName> <persName type="divine" key="felicitas"><name>Felicitati</name></persName> <persName type="divine" key="roma"><name>Ro<unclear>m</unclear><supplied reason="undefined" evidence="previouseditor">ae</supplied></name></persName> <persName type="divine" key="divusAugustus"><name>divo</name> <name>Augusto</name></persName>
+                    </ab>
+                </div>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from autopsy of stone.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
@@ -126,12 +149,22 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="CIL"/> <citedRange>11.1331</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="ILS"/> <citedRange>233</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>20402781</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>129460</citedRange>
                     </bibl>
                 </p>
             </div>

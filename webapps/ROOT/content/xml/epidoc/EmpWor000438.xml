@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>EmpWor000438</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,16 +16,16 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000438</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
-                        <repository></repository>  
+                        <region>Regio VII</region>
+                        <settlement>Capena</settlement>
+                        <repository>Capena, frazione Scorano, Museo di Lucus Feroniae, outside</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -35,15 +35,15 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">91</height>
+                                        <width unit="cm">49</width>
+                                        <depth unit="cm">49</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -54,9 +54,9 @@
                         </objectDesc>
                         <handDesc>
                             <handNote><p></p>
-                                <locus from="line1" to="line1">Line 1</locus>
+                                <locus from="line1" to="line9">Lines 1–9</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"></height>
+                                    <height unit="mm">30–32</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -64,13 +64,13 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/413062">Capena</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3180725/capena.html">Capena</placeName>
+                                <geo>42.1735859, 12.5396275</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1755">Discovered in 1755 in Capena, in the Civitucola locality, among the ruins of un "edifizio antichissimo".</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,13 +92,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-07-26" who="#AA">Original data collection and editing</change> 
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,12 +109,21 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><supplied reason="lost">sa</supplied>nctissim<supplied reason="lost">o</supplied>
+                    <lb n="2"/><supplied reason="lost">et</supplied> super omn<supplied reason="lost">es</supplied>
+                    <lb n="3"/><supplied reason="lost">pr</supplied>incipes vic<supplied reason="lost">tor</supplied>
+                    <lb n="4" break="no"/><supplied reason="lost">iosis</supplied>simo <persName type="ruler"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <supplied reason="lost"><name><expan><abbr>Caes</abbr><ex>ari</ex></expan></name></supplied>
+                    <lb n="5"/><supplied reason="lost"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name></supplied> <name>Domitio</name> <name>A<unclear>u</unclear><supplied reason="lost">relia</supplied>
+                    <lb n="6" break="no"/><supplied reason="lost">n</supplied>o</name> Pio Felici I<supplied reason="lost">nvicto</supplied>
+                    <lb n="7"/><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>usto</ex></expan></persName> <expan><abbr>municip</abbr><ex>ium</ex></expan> <supplied reason="lost">Cape</supplied>
+                    <lb n="8" break="no"/><unclear>n</unclear>atium <persName type="divine" key="numen"><name>n<unclear>u</unclear><supplied reason="lost">mini</supplied></name></persName>
+                    <lb n="9"/>maiestati<supplied reason="lost">que</supplied>
+                    <lb n="10"/>eius
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app> 
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
@@ -126,12 +135,17 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="CIL"/> <citedRange>11.3878</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="EDCS"/> <citedRange>22700829</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>145517</citedRange>
                     </bibl>
                 </p>
             </div>

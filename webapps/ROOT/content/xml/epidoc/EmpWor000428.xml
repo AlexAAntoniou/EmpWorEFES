@@ -134,6 +134,11 @@
                         <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
                     </bibl>
                 </p>
+                <p>
+                    <bibl>
+                        <ptr target="Bassignano2013"/> <citedRange>no. 23</citedRange>
+                    </bibl>
+                </p>
             </div>
         </body>
     </text>
