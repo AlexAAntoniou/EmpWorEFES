@@ -63,14 +63,14 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <<origPlace>
+                            <origPlace>
                                 <placeName type="ancient" ref="https://pleiades.stoa.org/places/383706">Mediolanum</placeName>
                                 <placeName type="modern" ref="https://www.geonames.org/3173435/milan.html">Milan</placeName>
                                 <geo>45.463746, 9.18806</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Milano, via Rastelli</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -126,12 +126,17 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="CIL"/> <citedRange>5.5844</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="EDCS"/> <citedRange>05100999</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>124161</citedRange>
                     </bibl>
                 </p>
             </div>

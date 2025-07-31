@@ -15,8 +15,8 @@
                 </respStmt>
             </titleStmt>
             <publicationStmt>
-                <authority>EmpWor000865</authority>
-                <idno type="filename">EmpWor000</idno>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000865</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio XI</region>
                         <settlement>Vercellae</settlement> 
-                        <repository></repository>  
+                        <repository>Vercelli, Museo Leone</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -35,8 +35,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
@@ -70,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Vercelli, Bodo-Bellardi, via Borgogna 8</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -126,12 +126,22 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="CIL"/> <citedRange>5.6657</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="ILS"/> <citedRange>6741a</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05101825</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>115565</citedRange>
                     </bibl>
                 </p>
             </div>

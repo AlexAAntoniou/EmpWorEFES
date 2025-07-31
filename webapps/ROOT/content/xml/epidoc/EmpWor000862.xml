@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio XI</region>
                         <settlement>Ticinum</settlement>
-                        <repository></repository>  
+                        <repository>Pavia, Villa Maggi</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -35,12 +35,12 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> 
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">44.3</height>
+                                        <width unit="cm">34.5</width>
+                                        <depth unit="cm">12</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
@@ -54,9 +54,9 @@
                         </objectDesc>
                         <handDesc>
                             <handNote><p></p>
-                                <locus from="line1" to="line1">Line 1</locus>
+                                <locus from="line1" to="line10">Lines 1–10</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"></height>
+                                    <height unit="mm">16–25</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -70,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Pavia, Villa Maggi</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -126,12 +126,17 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="ILS"/> <citedRange>6742</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="EDCS"/> <citedRange>08000583</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>070699</citedRange>
                     </bibl>
                 </p>
             </div>

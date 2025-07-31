@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio XI </region>
                         <settlement>Novaria</settlement>
-                        <repository></repository>  
+                        <repository>Novara, Lapidario della canonica di Santa Maria</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -38,9 +38,9 @@
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">61</height>
+                                        <width unit="cm">194</width>
+                                        <depth unit="cm">20</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
@@ -54,9 +54,9 @@
                         </objectDesc>
                         <handDesc>
                             <handNote><p></p>
-                                <locus from="line1" to="line1">Line 1</locus>
+                                <locus from="line1" to="line6">Lines 1–6</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"></height>
+                                    <height unit="mm">55–120</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -92,7 +92,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -126,12 +126,22 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="CIL"/> <citedRange>5.6518</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="ILS"/> <citedRange>6740a</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05101683</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>108450</citedRange>
                     </bibl>
                 </p>
             </div>
