@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio X</region>
                         <settlement>Brixia</settlement>
-                        <repository>Bresica. Civic Museums of Art, History and Science. Monastery of S. Giulia</repository>  
+                        <repository>Brescia. Capitolium, Republican Temple (Room 2).</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -70,8 +70,8 @@
                             </origPlace>
                             <origDate when="0041">Inscribed between 7 Jan 41 CE (the date of Caligula's consulship) and 24 Jan 41 CE (the date of Caligula's assassination).</origDate>
                         </origin>
-                        <provenance type="found" subtype="discovered" when="2011">Whilst originally dedicated in the Capitolium of Brixia, the fragments of the inscription were found in excavations in 2011 sealed in the foundations of the portico surrounding the Capitolium there, during the Flavian period.</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="found" subtype="discovered" when="2011">Whilst originally dedicated in the Capitolium of Brixia, the fragments of the inscription were found in excavations in 2011 sealed in the foundations of the portico surrounding the Capitolium there, during the Flavian period.</provenance> <!-- check! -->
+                        <provenance type="observed" subtype="studied">Antoniou studied and photographed on 2025-08-02</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>

@@ -71,7 +71,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found" subtype="discovered">Brescia, Church of Santa Maria</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="studied">Antoniou studied and photographed on 2025-08-02</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
