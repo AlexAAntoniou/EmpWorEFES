@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000193</title>
+                <title>Honorific Plaque to M. Holconius Rufus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,26 +34,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType> <!-- Default value -->
+                                <support><p>Reconstructed plaque of multiple fragments, complete but for small sections in the middle. Subsequently set onto a backing plate.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- Default value -->
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm">27</height>
                                         <width unit="cm">142.5</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Three lines of Latin text centred on stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Large neat and well-defined letters, although some letters (particularly near middle) are sloped and slightly more chaotic in formation and letter height. Clear serifs on letters, with long tails on "Q"s. Tall "T"s in line 2 ("trib" and "sacerdoti"). Triangular interpuncts.</p>
                                 <locus from="line1" to="line3">Lines 1–3</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">35–70</height>
@@ -71,7 +71,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found" subtype="discovered" when="1792">Discovered in Pompeii, Regio VIII, 7, 20–21, in the Grand Theatre on 28 June 1792.</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="studied">Antoniou studied and photographed on 2025-07-18</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -96,31 +96,32 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="edited">
             <listChange>
                 <change when="2025-06-09" who="#AA">Original data collection and editing</change>
+                <change when="2025-08-15" who="#AA">Edited based on autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="path/to/photograph_of_text_or_monument"/>
+        <graphic url="EmpWor000193.jpg"/>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Holconio</name> <name>Rufo</name></persName> <expan><abbr>d</abbr><ex>uum</ex><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <num value="4">IIII</num> <expan><abbr>quinq</abbr><ex>uennali</ex></expan>
-                    <lb n="2"/><expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> a populo <persName type="divine" key="Augustus">Augusti</persName> sacerdoti
-                    <lb n="3"/>ex <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Holconio</name> <g ref="symbols.xml#interpunct">·</g> <name>Rufo</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>uum</ex><g ref="symbols.xml#interpunct">·</g><abbr>v</abbr><ex>iro</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>i</abbr><ex>ure</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>icundo</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="4">IIII</num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>quinq</abbr><ex>uennali</ex></expan>
+                    <lb n="2"/><expan><abbr>trib</abbr><ex>uno</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>mil</abbr><ex>itum</ex></expan> <g ref="symbols.xml#interpunct">·</g> a populo <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="Augustus">Augusti</persName> <g ref="symbols.xml#interpunct">·</g> sacerdoti
+                    <lb n="3"/>ex <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EDR</note></app>
+                    <app><note>Text based on autopsy</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To Marcus Holconius Rufus, duumvir for the administration of justice for the 4th time, quinquennial magistrate, elected military tribune by the people, sacerdos of Augustus. [This was given] by decree of the decurions.</p>
             </div>
             <div type="commentary">
                 <p></p> 

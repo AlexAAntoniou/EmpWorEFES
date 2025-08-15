@@ -98,7 +98,8 @@
         </profileDesc>
         <revisionDesc status="edited">
             <listChange>
-                <change when="2025-07-25" who="#AA">Original data collection and editing</change> 
+                <change when="2025-07-25" who="#AA">Original data collection and editing</change>
+                <change when="2025-08-15" who="#AA">Edited based on autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>

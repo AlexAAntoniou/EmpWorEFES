@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000500</title>
+                <title>Fragmentary plaque, potentially attesting aedicula to Augustan Lares</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio VII</region>
                         <settlement>Perusia</settlement>
-                        <repository>Perugia, National Archaeological Museum of Umbria, Lower Courtyard</repository> 
+                        <repository>Perugia, National Archaeological Museum of Umbria, Lower Courtyard; <geo>43.10699, 12.39184</geo></repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,8 +34,8 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                <support><p>Three largely contiguous fragments of a grey-veined marble plaque, subsequently set onto a wooden plaque and gaps between the fragments willed with reddish stone. Gaps in inscription suggest a rather significant amount of stone missing from left.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble (grey-veined)</material>
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm">29.3</height>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Three lines of text in bands; each of which are slightly less tall then the previous.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Well formed and neat text, letters well-spaced and regular in height, with simple serifs on letters. Comma-shaped interpuncts.</p>
                                 <locus from="line1" to="line3">Lines 1–3</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">38–70</height>
@@ -96,14 +96,15 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="edited">
             <listChange>
-                <change when="2025-07-25" who="#AA">Original data collection and editing</change> 
+                <change when="2025-07-25" who="#AA">Original data collection and editing</change>
+                <change when="2025-08-15" who="#AA">Edited based on autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="path/to/photograph_of_text_or_monument"/>
+        <graphic url="EmpWor000500.jpg"/>
     </facsimile>
     <text>
         <body>
@@ -111,19 +112,19 @@
                 <ab>
                     <lb n="1"/><persName type="divine" key="di-manes"><name><supplied reason="lost">Laribu</supplied>s</name> <name>Augus<supplied reason="lost">tis</supplied></name></persName>
                     <lb n="2"/>sacrum
-                    <lb n="3"/><supplied reason="lost">aediculam</supplied> <persName type="attested"><name><supplied reason="lost">I</supplied>ulia</name> <name>Ar<unclear>che</unclear></name></persName> <supplied reason="lost"><expan><abbr>p</abbr><ex>ecunia</ex></expan></supplied> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+                    <lb n="3"/><supplied reason="lost">aediculam</supplied> <persName type="attested"><name><supplied reason="lost">I</supplied>ulia</name> <g ref="symbols.xml#interpunct">·</g> <name>Ar<unclear>che</unclear></name></persName> <supplied reason="lost"><expan><abbr>p</abbr><ex>ecunia</ex></expan></supplied> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>s</abbr><ex>ua</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ecit</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>l</abbr><ex>ocus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>atus</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app>
+                    <app><note>Text from EDR; accepted by autopsy</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to the Augustan [Lares], Iulia Arche built this [aedicula] with her own money. This place was given by decree of the decurions.</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>The attribution of this as an attestion of emperor worship relies on restoration of [Laribu]s in line one.</p> 
             </div>
             <div type="bibliography">
                 <p>

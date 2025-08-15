@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000501</title>
+                <title>Dedication of Augustan Mars</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio VII</region>
                         <settlement>Perusia</settlement>
-                        <repository>Perugia, National Archaeological Museum of Umbria, Lower Courtyard</repository>  
+                        <repository>Perugia, National Archaeological Museum of Umbria, Lower Courtyard; <geo>43.10699, 12.39184</geo></repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Section of circular fluted marble column with inscription on front, hollowed out cylinder inside. Incised hole obscures front face of inscription. Surfaces all heavily abraded, particularly bottom left of inscription and bottom edge.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/1299.html">Columnar Monument</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Inscription filling gap in fluting at front.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is relatively straight and neat, although some of the letter heights are slightly irregular. Serifs on letters.</p>
                                 <locus from="line1" to="line8">Lines 1–8</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">28–85</height>
@@ -96,14 +96,15 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="edited">
             <listChange>
-                <change when="2025-07-25" who="#AA">Original data collection and editing</change> 
+                <change when="2025-07-25" who="#AA">Original data collection and editing</change>
+                <change when="2025-08-15" who="#AA">Edited based on autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="path/to/photograph_of_text_or_monument"/>
+        <graphic url="EmpWor000501.jpg"/>
     </facsimile>
     <text>
         <body>
@@ -111,7 +112,7 @@
                 <ab>
                     <lb n="1"/><persName type="divine" key="marsAugustus"><name>Ma<unclear>r</unclear>ti</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
                     <lb n="2"/>sacrum
-                    <lb n="3"/><persName type="attested"><name><expan><abbr>A</abbr><ex>ulus</ex></expan></name> <name>Do<unclear>m</unclear><supplied reason="lost">iti</supplied><supplied reason="undefined" evidence="previouseditor">u</supplied><supplied reason="lost">s</supplied></name> <persName type="patronym"><name><gap reason="lost" atLeast="1" atMost="3" unit="char"/></name> <expan><abbr><unclear>f</unclear></abbr><ex>ilius</ex></expan></persName>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>A</abbr><ex>ulus</ex></expan></name> <name>Do<unclear>mi</unclear><supplied reason="lost">ti</supplied><supplied reason="undefined" evidence="previouseditor">u</supplied><supplied reason="lost">s</supplied></name> <persName type="patronym"><name><gap reason="lost" atLeast="1" atMost="3" unit="char"/></name> <expan><abbr><unclear>f</unclear></abbr><ex>ilius</ex></expan></persName>
                     <lb n="4"/><expan><abbr>Tro</abbr><ex>mentina</ex></expan> <name>Nepos</name></persName> <expan><abbr><unclear>e</unclear>voc</abbr><ex>atus</ex></expan>
                     <lb n="5"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> testamento
                     <lb n="6"/><unclear>pon</unclear>i iussit cura
@@ -121,11 +122,11 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app>
+                    <app><note>Text from EDR; accepted by autopsy</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Mars Augustus. Aulus Domitius Nepos, son of [---?], of the Tromentina tribe, the evocatus of Augustus ordered [this] to be set up in accordance with his will, under the care of [---]nnus Pudente [---] Priscus.</p>
             </div>
             <div type="commentary">
                 <p></p> 
