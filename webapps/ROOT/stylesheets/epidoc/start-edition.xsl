@@ -8,5 +8,6 @@
        start-edition.xsl (which should not be changed). -->
 
   <xsl:import href="../../kiln/stylesheets/epidoc/start-edition.xsl" />
+  <xsl:import href="htm-tpl-struct-EmpWor.xsl"/>
 
 </xsl:stylesheet>
