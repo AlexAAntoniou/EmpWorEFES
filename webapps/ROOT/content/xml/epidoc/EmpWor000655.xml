@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio X</region>
                         <settlement>Aquileia</settlement>
-                        <repository>Aquileia, Museo Archeologico Nazionale, Magazzini</repository>  
+                        <repository>Aquileia, Museo Archeologico Nazionale, Depositi Visitabili, Room 2: exit wall, shelf 2 (from left), shelf 4 (from bottom).</repository>  
                         <idno>356</idno>
                     </msIdentifier>
                     <msContents>
@@ -71,7 +71,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found" subtype="discovered">Discovered in Aquileia, Rosin foundation</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="studied">Antoniou studied and photographed the stone on 2025-08-06</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>

@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio XI</region> 
                         <settlement>Mediolanum</settlement>
-                        <repository>Milano, Civ. Racc. Archeol. Civ Museo Archeol.</repository>  
+                        <repository>Milano, Civico Museo Archeologico. Ground Floor, first room on the right.</repository>  
                         <idno>A.0.9.17669</idno>
                     </msIdentifier>
                     <msContents>
@@ -71,7 +71,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found" subtype="discovered">Discovered in Milano, Teatro Filodrammatrici</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="studied">Antoniou studied and photographed the stone on 2025-08-03</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>

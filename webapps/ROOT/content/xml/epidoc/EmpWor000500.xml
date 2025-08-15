@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio VII</region>
                         <settlement>Perusia</settlement>
-                        <repository>Perugia, National Archaeological Museum of Umbria</repository> 
+                        <repository>Perugia, National Archaeological Museum of Umbria, Lower Courtyard</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -71,7 +71,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found" subtype="discovered" when="1893">Discovered in 1893 at S. Manno</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="studied">Antoniou studied and photographed on 2025-07-31</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>

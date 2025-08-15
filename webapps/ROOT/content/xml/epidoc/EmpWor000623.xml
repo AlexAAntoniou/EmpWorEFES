@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio X</region>
                         <settlement>Aquileia</settlement>
-                        <repository>Aquileia, Museo Archeologico Nazionale, Magazzini (MG2)</repository>  
+                        <repository>Aquileia, Museo Archeologico Nazionale, Depositi Visitabili, Room 2: exit wall (directly above exit), shelf 4 (from left), shelf 2 (from bottom).</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -71,7 +71,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found" subtype="discovered">Discovered in Aquileia, via Giulia Augusta</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="studied">Antoniou studied and photographed the stone on 2025-08-06</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>

@@ -71,7 +71,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found"></provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="studied">Antoniou studied and photographed on 2025-07-31</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
