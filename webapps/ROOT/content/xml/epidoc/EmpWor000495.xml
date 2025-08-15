@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Small stone altar-shaped stone. Surface is cracked and heavily abraded; top edge is broken and abraded, with step at back. Round drill-hole on right side of altar. Carved bottom entabulature remains.</p>
+                                <support><p>Small stone altar-shaped stone. Surface is cracked and heavily abraded; top edge is broken and abraded, with step at back. Round drill-hole on right side of altar. Carved bottom plinth remains.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
@@ -53,7 +53,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Letter heights are relatively uneven, and text appears uncertainty inscribed onto the stone.</p>
+                            <handNote><p>Letter heights are relatively uneven, and text appears uncertainly inscribed onto the stone.</p>
                                 <locus from="line1" to="line3">Lines 1–3</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">55–60</height>
@@ -96,7 +96,7 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="edited">
             <listChange>
                 <change when="2025-07-25" who="#AA">Original data collection and editing</change>
                 <change when="2025-08-14" who="#AA">Entry updated on basis of autopsy</change>

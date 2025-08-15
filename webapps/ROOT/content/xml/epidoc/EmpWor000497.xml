@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000497</title>
+                <title>Boundary-stone devoted to Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio VII</region>
                         <settlement>Perusia</settlement>
-                        <repository>Perugia, National Archaeological Museum of Umbria, Lower Courtyard</repository>  
+                        <repository>Perugia, National Archaeological Museum of Umbria, Lower Courtyard; <geo>43.10699, 12.39184</geo></repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Squared boundary-stone, significantly altered in reuse as a well, with round channel bored into centre of front face and through to back, large cavity hollowed out at top, and channel and hole on right side of stone. Traces of plinth at bottom.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.partially.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text is roughtly centred on stone although favouring the left side a little more. Main body of text is in the middle of the stone (with later graffito near bottom of front face).</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is relatively near and even, although letters bare some marks of uncertainty in carving. tall "P" in "Perusia" in line 3. Slight curled tails on some letters.</p>
                                 <locus from="line1" to="line3">Lines 1–3</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">40–60</height>
@@ -96,34 +96,35 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="edited">
             <listChange>
-                <change when="2025-07-25" who="#AA">Original data collection and editing</change> 
+                <change when="2025-07-25" who="#AA">Original data collection and editing</change>
+                <change when="2025-08-15" who="#AA">Entry updated on basis of autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="path/to/photograph_of_text_or_monument"/>
+        <graphic url="EmpWor000497.JPG"/>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="divine" key="augustus"><name><unclear>A</unclear>u<unclear>g</unclear><supplied reason="lost">us</supplied>to</name></persName>
-                    <lb n="2"/><expan><abbr>sa<unclear>cr</unclear></abbr><ex>um</ex></expan>
+                    <lb n="1"/><persName type="divine" key="augustus"><name>Aug<supplied reason="lost">us</supplied>to</name></persName>
+                    <lb n="2"/><expan><abbr>sacr</abbr><ex>um</ex></expan>
                     <lb n="3"/>Perusia restituta
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> 
+                    <app><note>Text from autopsy</note></app> 
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Augustus, Perusia having been restored.</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>One of four almost identical altar-shaped stones from Perusia, all with near identical inscriptions: Augusto | sacr(um) | Perusia | restituta (see also <ref target="EmpWor000495.xml">EmpWor000495</ref>, <ref target="EmpWor000496.xml">EmpWor000496</ref>, and <ref target="EmpWor000498.xml">EmpWor000498</ref>). It is possible (and this is the possibility that I prefer), that these four boundary-stones demarcated the boundaries of the lucus ('sacred grove') of <ref target="EmpWor000494.xml">EmpWor000494</ref>. The boundary stones make it obvious why the sacred grove was dedicated to Augustus: he had restored their community after its destruction after the so-called Perusine War of 41–40 BCE. Spadoni and Benedetti (2010, 221) suggest that the lucus may have been architectural (and surrounded by a grove), but also suggest (221–223) that the boundary stones may have had some other purpose, for instance in delimiting the borders of the ager Perusinus or the pomerium of Perusia.</p> 
             </div>
             <div type="bibliography">
                 <p>
@@ -154,6 +155,11 @@
                 <p>
                     <bibl>
                         <ptr target="Spadoni-Cenciaioli-Benedetti2018"/> <citedRange>1923 no. 4</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Spadoni-Benedetti2010"/> <citedRange>221–223</citedRange>
                     </bibl>
                 </p>
             </div>
