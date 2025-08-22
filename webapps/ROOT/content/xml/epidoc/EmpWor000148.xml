@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000148</title>
+                <title>Dedication to the numen of the domus Augusta.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -24,7 +24,7 @@
                     <msIdentifier>
                         <country>Italy</country>
                         <region>Regio I</region>
-                        <settlement>Ostia/Portuus</settlement>
+                        <settlement>Ostia/Portuus; beside the theatre, near the entrance to the Piazzale delle Corporazioni. </settlement>
                         <repository></repository> 
                         <idno></idno>
                     </msIdentifier>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Long thin cippus</p>
+                                <support><p>Long tall cippus, largely intact, although abrasions to upper surface. There is a patera carved onto the right side of the stone, and traces of something abraded away on the left side of the stone (perhaps a jug?).</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.cippus" ref="https://www.eagle-network.eu/voc/objtyp/lod/85.html">Cippus</objectType>
                                     <dimensions>
@@ -53,7 +53,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Text is relatively neat and well-spaced.</p>
+                            <handNote><p>Text is relatively neat and well-spaced, except for the final four lines where the text is a little less regular, and letter heights vary in places: the "E" of "et" in line 4 is above the line. The "O" of m(agistr)o in the final line appears above the "M". Triangular interpuncts.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight"/>
                             </handNote>
@@ -62,14 +62,14 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/422995">Ostia</placeName>
-                                <placeName type="modern" ref="https://www.geonames.org/8378691/ostia.html">Ostia</placeName>
+                                <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/422995">Ostia</placeName>
+                                <placeName type="modernFindspot" ref="https://www.geonames.org/8378691/ostia.html">Ostia</placeName>
                                 <geo>41.75357, 12.28935</geo>
-                            </origPlace>
-                            <origDate/>
+                            </origPlace> 
+                            <origDate/> <!-- Trajanic or later -->
                         </origin>
                         <provenance type="found" subtype="discovered">Discovered in Ostia Antica, in the vicinity of the theatre.</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="autopsied">Antoniou viewed and photographed the stone on 2025-07-22.</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -94,14 +94,15 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="edited">
             <listChange>
                 <change when="2025-06-05" who="#AA">Original data collection and editing</change>
+                <change when="2025-08-19" who="#AA">Edited based on autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="path/to/photograph_of_text_or_monument"/>
+        <graphic url="EmpWor000024.jpg"/>
     </facsimile>
     <text>
         <body>
@@ -110,18 +111,18 @@
                     <lb n="1"/><persName type="divinity" key="numenDomusAugusti"><name>numini</name>
                     <lb n="2"/><name>domus</name>
                     <lb n="3"/><name>Augusti</name></persName>
-                    <lb n="4"/><persName type="attested"><name>Victor</name></persName> et
+                    <lb n="4"/><persName type="attested"><name>Victor</name></persName> · et
                     <lb n="5"/><persName type="attested"><name>Hedistus</name></persName>
                     <lb n="6"/><expan><abbr>vern</abbr><ex>ae</ex></expan> <expan><abbr>disp</abbr><ex>ensatores</ex></expan>
                     <lb n="7"/>cum
                     <lb n="8"/><persName type="attested"><name>Traiano</name>
-                    <lb n="9"/><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>lib</abbr><ex>erto</ex></expan>
-                    <lb n="10"/><expan><abbr>a</abbr><ex>nni</ex></expan> <num value="10">X</num> <expan><abbr>m</abbr><ex>agistr</ex>o</expan>
+                    <lb n="9"/><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> · <expan><abbr>lib</abbr><ex>erto</ex></expan>
+                    <lb n="10"/><expan><abbr>a</abbr><ex>nni</ex></expan> · <num value="10">X</num> · <expan><abbr>m</abbr><ex>agistr</ex>o</expan>
                 </ab> 
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EDR; comparison with photograph.</note></app>
+                    <app><note>Text from autopsy.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">

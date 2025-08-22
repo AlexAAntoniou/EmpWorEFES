@@ -23,8 +23,8 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- Default value -->
-                        <settlement></settlement>
+                        <region>Regio X</region>
+                        <settlement>Pola</settlement>
                         <repository></repository> 
                         <idno></idno>
                     </msIdentifier>
@@ -62,9 +62,9 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- Default value -->
-                                <placeName type="modern"></placeName> <!-- Default value -->
-                                <geo></geo>  <!-- Default value -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/197448">Pola</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3192224/pula.html">Pula</placeName>
+                                <geo>44.869567, 13.841124</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term> <!-- Default value -->
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -125,6 +125,11 @@
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange></citedRange> <!-- Default values -->
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>10001208</citedRange>
                     </bibl>
                 </p>
             </div>

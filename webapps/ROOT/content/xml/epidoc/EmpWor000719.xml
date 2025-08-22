@@ -65,7 +65,7 @@
                         <origin>
                             <origPlace>
                                 <placeName type="ancient" ref="https://pleiades.stoa.org/places/393441">Iulia Concordia</placeName>
-                                <placeName type="modern" ref="https://www.geonames.org/6538314/concordia-sagittaria.html">Concorida Sagittaria</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/6538314/concordia-sagittaria.html">Concordia Sagittaria</placeName>
                                 <geo>45.7582850005, 12.8427680218</geo>
                             </origPlace>
                             <origDate/>

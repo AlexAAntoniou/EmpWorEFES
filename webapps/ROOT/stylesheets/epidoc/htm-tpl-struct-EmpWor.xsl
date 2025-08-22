@@ -50,15 +50,6 @@
             <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text></xsl:otherwise>
           </xsl:choose>
         </dd>
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-iospe-find-circumstances">Find circumstances</i18n:text></dt>
-        <dd>
-          <xsl:choose>
-            <xsl:when test="//t:provenance[@type='found']//t:rs[@type='circumstances']//text()">
-              <xsl:value-of select="//t:provenance[@type='found']//t:rs[@type='circumstances']"/>
-            </xsl:when>
-            <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text></xsl:otherwise>
-          </xsl:choose>
-        </dd>
         <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-iospe-find-context">Find context</i18n:text></dt>
         <dd>
           <xsl:choose>
@@ -68,7 +59,7 @@
             <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text></xsl:otherwise>
           </xsl:choose>
         </dd>
-        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-iospe-modern-location">Modern location</i18n:text></dt>
+        <dt width="150" align="left"><i18n:text i18n:key="epidoc-xslt-iospe-modern-location">Autopsy notes</i18n:text></dt>
         <dd>
           <xsl:choose>
             <xsl:when test="//t:provenance[@type='observed']//text()">
@@ -83,7 +74,7 @@
             <xsl:when test="//t:support/t:dimensions//text()[not(normalize-space(.)=' ')]">
               <xsl:if test="//t:support/t:dimensions/t:height/text()[not(normalize-space(.)=' ')]">H. <xsl:value-of select="//t:support/t:dimensions/t:height"/>,</xsl:if>
               <xsl:if test="//t:support/t:dimensions/t:width/text()[not(normalize-space(.)=' ')]">W. <xsl:value-of select="//t:support/t:dimensions/t:width"/>,</xsl:if>
-              <xsl:if test="//t:support/t:dimensions/t:depth/text()[not(normalize-space(.)=' ')]">Th. <xsl:value-of select="//t:support/t:dimensions/t:depth"/></xsl:if>
+              <xsl:if test="//t:support/t:dimensions/t:depth/text()[not(normalize-space(.)=' ')]">D. <xsl:value-of select="//t:support/t:dimensions/t:depth"/></xsl:if>
               <xsl:if test="//t:support/t:dimensions/t:dim[@type='diameter']/text()[not(normalize-space(.)=' ')]">, Diam. <xsl:value-of select="//t:support/t:dimensions/t:dim[@type='diameter']"/></xsl:if>
             </xsl:when>
             <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-iospe-unknown">Unknown</i18n:text></xsl:otherwise>
@@ -198,14 +189,55 @@
             <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-iospe-unpublished">Unpublished</i18n:text></xsl:otherwise>
         </xsl:choose></dd>
       </dl>
+      
+      <xsl:if test="//t:div[@type='bibliography'] and $inslib-corpus='IGCyr'">
+        <h3>Bibliography</h3>
+        <p><xsl:apply-templates select="//t:div[@type='bibliography']/t:p/node()"/></p>
+      </xsl:if>
 
-      <div id="edition" class="iospe">
-        <!-- Edited text output -->
-        <xsl:variable name="edtxt">
-          <xsl:apply-templates select="//t:div[@type='edition']"/>
-        </xsl:variable>
-        <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
-        <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
+      <div class="section-container tabs" data-section="tabs">
+        <section>
+          <p class="title" data-section-title="data-section-title"><a href="#">Interpretive</a></p>
+          <div class="content" id="edition" data-section-content="data-section-content">
+            <!-- Edited text output -->
+            <xsl:variable name="edtxt">
+              <xsl:apply-templates select="//t:div[@type='edition']">
+                <xsl:with-param name="parm-edition-type" select="'interpretive'" tunnel="yes"/>
+              </xsl:apply-templates>
+            </xsl:variable>
+            <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
+            <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
+          </div>
+        </section>
+        <xsl:if test="$inslib-corpus='IGCyr' and //t:l">
+          <section>
+            <p class="title" data-section-title="data-section-title"><a href="#">Metrical</a></p>
+            <div class="content" id="edition" data-section-content="data-section-content">
+              <!-- Edited text output -->
+              <xsl:variable name="edtxt">
+                <xsl:apply-templates select="//t:div[@type='edition']">
+                  <xsl:with-param name="parm-edition-type" select="'interpretive'" tunnel="yes"/>
+                  <xsl:with-param name="parm-verse-lines" select="'on'" tunnel="yes"/>
+                </xsl:apply-templates>
+              </xsl:variable>
+              <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
+              <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
+            </div>
+          </section>
+        </xsl:if>
+        <section>
+          <p class="title" data-section-title="data-section-title"><a href="#">Diplomatic</a></p>
+          <div class="content" id="diplomatic" data-section-content="data-section-content">
+            <!-- Edited text output -->
+            <xsl:variable name="edtxt">
+              <xsl:apply-templates select="//t:div[@type='edition']">
+                <xsl:with-param name="parm-edition-type" select="'diplomatic'" tunnel="yes"/>
+              </xsl:apply-templates>
+            </xsl:variable>
+            <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
+            <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
+          </div>
+        </section>
       </div>
       <div id="apparatus" class="iospe">
         <h4 class="iospe"><i18n:text i18n:key="epidoc-xslt-iospe-apparatus">Apparatus</i18n:text></h4>

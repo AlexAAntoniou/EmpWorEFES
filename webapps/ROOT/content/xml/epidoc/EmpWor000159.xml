@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- Default value -->
-                        <settlement></settlement>
-                        <repository></repository> 
+                        <region>Regio X</region>
+                        <settlement>Pola</settlement>
+                        <repository>Pola, Archeološki muzej Istre/Museo archeologico dell'Istria</repository> 
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -36,11 +36,11 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- Default value -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType> <!-- Default value -->
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">79</height>
+                                        <width unit="cm">48</width>
+                                        <depth unit="cm">38.5</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.complete"/> <!-- Default value -->
@@ -62,9 +62,9 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- Default value -->
-                                <placeName type="modern"></placeName> <!-- Default value -->
-                                <geo></geo>  <!-- Default value -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/197448">Pola</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3192224/pula.html">Pula</placeName>
+                                <geo>44.869567, 13.841124</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
@@ -90,7 +90,7 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term> <!-- Default value -->
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -124,7 +124,22 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/> <citedRange></citedRange> <!-- Default values -->
+                        <ptr target="CIL"/> <citedRange>5.8134</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>04300006</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>135136</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Lupa"/> <citedRange>32865</citedRange>
                     </bibl>
                 </p>
             </div>

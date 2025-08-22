@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Feriae Cumanum</title>
+                <title>Feriale Cumanum ("Ritual Calendar of Cumae")</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Three partially contiguous fragments. Partial carved entablature on right side.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm">4</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Long lines of text across entirety of stone, appears to be left aligned.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Letters are small and well-defined, and follow lines, although slightly uneven letter-heights including tall "I" in "Drusi" in line 4, second "I" in "Virilem" in line 5, "Iuve" in line 5, in "Ianuar" in line 7, "reduci" in line 8, "Idus", "Ianuar", "primum", and "Iovi" in line 9, "Augusti" in line 11; "Dis" in line 13; "Ultori" in line 18, and both in "Iovi" in line 19. Tall "A"s: in "...catio" and both in "Augustae" in line 14. Tight and almost "I" shaped "S"s.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight"/>
                             </handNote>
@@ -90,52 +90,78 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/1.html">Calendar</term>
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="edited">
             <listChange>
                 <change when="2025-04-09" who="#AA">Original data collection and editing</change>
+                <change when="2025-08-18" who="#AA">Edited based on autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="path/to/photograph_of_text_or_monument"/>
+        <graphic url="EmpWor000024.jpg"/>
     </facsimile>
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab> <!-- CIL -->
-                   <lb n="1"/><supplied reason="lost"><num value="14">XIIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Septembr</abbr><ex>es</ex></expan> eo die <persName type="attested"><name>Caesar</name></persName> pri</supplied>mum consulatum in<supplied reason="lost">iit supplicatio</supplied><gap reason="lost" extent="unknown" unit="character"/>
-                   <lb n="2"/><supplied reason="lost"><num value="3">III</num> <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Septembr</abbr><ex>es</ex></expan> eo die exer</supplied>citus <persName type="attested"><name>Lepidi</name></persName> tradidit se <persName type="attested">Caesari</persName> suppli<supplied reason="lost">c</supplied>a<supplied reason="lost">tio</supplied>
-                   <lb n="3"/><supplied reason="lost"><num value="9">VIIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Octobr</abbr><ex>es</ex></expan> n</supplied>atalis <persName type="attested"><name>Caesaris</name></persName> immolatio <persName type="attested"><name>Caesari</name></persName> hostia <expan><abbr>supp</abbr><ex>l</ex><abbr>icatio</abbr></expan>
-                   <lb n="4"/>Nonis <expan><abbr>Octobr</abbr><ex>ibus</ex></expan> <persName type="attested"><name>Drusi</name> <name>Caesaris</name></persName> natalis supplicatio <persName type="divinity">Vestae</persName>
-                   <lb n="5"/><num value="15">XV</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Novimbr</abbr><ex>es</ex></expan> eo die <persName type="attested"><name>Caesar</name></persName> togam virilem sumpsit supplicatio <persName type="divinity">Spei</persName> et <persName type="divinity">Iuve<supplied reason="lost">ntuti</supplied></persName>
-                   <lb n="6"/><num value="16">XVI</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Dicimbr</abbr><ex>es</ex></expan> natalis <persName type="attested"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <name>Caesaris</name></persName> supplicatio <persName type="divinity">Vestae</persName>
-                   <lb n="7"/><num value="18">XVIII </num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Ianuar</abbr><ex>ias</ex></expan> eo die a<supplied reason="lost">r</supplied>a <persName type="divinity">Fortunae Reducis</persName> dedicatast quae <persName type="attested"><name>Caesarlm</name></persName> <supplied reason="lost">ex transmari</supplied>
-                   <lb n="8" break="no"/>nis provincis red<supplied reason="lost">uxit</supplied> supplicatio <persName type="divinity">Fortunae Reduci</persName>
-                   <lb n="9"/><num value="7">VII</num> Idus <expan><abbr>Ianuar</abbr><ex>ias</ex></expan> e<supplied reason="lost">o die <persName type="attested">Caesar</persName></supplied> primum fasces sumpsit <expan><abbr>supp</abbr><ex>l</ex><abbr>icatio</abbr></expan> <persName type="divinity">Iovi Sempi<supplied reason="lost">terno</supplied></persName>
-                   <lb n="10"/><num value="18"><supplied reason="lost">XV</supplied>III</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Febr</abbr><ex>uarias</ex></expan> eo di<supplied reason="lost">e</supplied> <persName type="attested"><name><supplied reason="lost">Caesar</supplied></name> <name><supplied reason="lost">Augustu</supplied>s</name></persName> appellatus est supplicatio <persName type="attested"><name>Augusto</name></persName>
-                   <lb n="11"/><supplied reason="lost"><num value="3">III</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Febr</abbr><ex>uarias</ex></expan> eo die ara <persName type="divinity">Pacis</persName> dedicata</supplied> est supplicatio imperio <persName type="attested"><name>Caesaris</name> <name>Augusti</name></persName> custo<supplied reason="lost">dis</supplied>
-                   <lb n="12"/><supplied reason="lost">civium Romanorum orbisque terrar</supplied>um
-                   <lb n="13"/><supplied reason="lost"><expan><abbr>pr</abbr><ex>idie</ex></expan> <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Mart</abbr><ex>ias</ex></expan> eo die <persName type="attested">Caesar</persName> <expan><abbr>pont</abbr><ex>ifex</ex></expan> ma</supplied>ximus creatus est <expan><abbr>supplicat</abbr><ex>i</ex><abbr>o</abbr></expan> <persName type="divinity">Vestae</persName> dis <expan><abbr>pub</abbr><ex>licis</ex></expan> <persName type="divinity"><expan><abbr>P</abbr><ex>enatibus</ex></expan></persName> <expan><abbr>p</abbr><ex>opuli</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> <expan><abbr>Q</abbr><ex>uiritium</ex></expan>
-                   <lb n="14"/><supplied reason="lost"><num value="18">XVIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Mai</abbr><ex>as</ex></expan> eo die <persName type="attested"><name>Caesar</name></persName> primum vicit suppli</supplied>catio <persName type="divinity"><name>Victoriae</name> <name>Augustae</name></persName>
-                   <lb n="15"/><supplied reason="lost"><num value="17">XVII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Mai</abbr><ex>as</ex></expan> eo die <persName type="attested">Caesar</persName> primum imperator app</supplied>ellatus est supplicatio <persName type="divinity">Felicitati</persName> imperi
+                <ab>
+                   <lb n="1"/><supplied reason="lost"><num value="14">XIIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Septembr</abbr><ex>es</ex></expan> eo die <persName type="attested"><name>Caesar</name></persName> pri</supplied><unclear>m</unclear>um consulatum <supplied reason="undefined" evidence="previouseditor">in</supplied><supplied reason="lost">iit supplicatio</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                   <lb n="2"/><supplied reason="lost"><num value="3">III</num> <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Septembr</abbr><ex>es</ex></expan> eo die exer</supplied><unclear>c</unclear>itus <persName type="attested"><name>Lepidi</name></persName> <g ref="symbols.xml#interpunct">·</g> tradidit <g ref="symbols.xml#interpunct">·</g> se <persName type="attested">Caesari</persName> <g ref="symbols.xml#interpunct">·</g> supp<supplied reason="undefined" evidence="previouseditor">li</supplied><supplied reason="lost">c</supplied><unclear>a</unclear><supplied reason="lost">tio</supplied>
+                   <lb n="3"/><supplied reason="lost"><num value="9">VIIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Octobr</abbr><ex>es</ex></expan> n</supplied>atalis <persName type="attested"><name>Caesaris</name></persName> <g ref="symbols.xml#interpunct">·</g> immolatio <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>Caesari</name></persName> hostia <g ref="symbols.xml#interpunct">·</g> <expan><abbr>supp</abbr><ex>l</ex><abbr>icatio</abbr></expan>
+                   <lb n="4"/>Nonis <expan><abbr>Octobr</abbr><ex>ibus</ex></expan> <persName type="attested"><name>D<unclear>r</unclear>usi</name> <g ref="symbols.xml#interpunct">·</g> <name>Caesaris</name></persName> natalis <g ref="symbols.xml#interpunct">·</g> supplicatio <g ref="symbols.xml#interpunct">·</g> <persName type="divinity">Vestae</persName>
+                   <lb n="5"/><num value="15">XV</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Novembr</abbr><ex>es</ex></expan> <g ref="symbols.xml#interpunct">·</g> eo die <persName type="attested"><name>Caesar</name></persName> <g ref="symbols.xml#interpunct">·</g> togam virilem <g ref="symbols.xml#interpunct">·</g> sumpsit <g ref="symbols.xml#interpunct">·</g> supplicatio <persName type="divinity">Spei</persName> et <g ref="symbols.xml#interpunct">·</g> <persName type="divinity">Iuv<unclear>e</unclear><supplied reason="lost">ntuti</supplied></persName>
+                   <lb n="6"/><num value="16">XVI</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Dicembr</abbr><ex>es</ex></expan> <g ref="symbols.xml#interpunct">·</g> natalis <persName type="attested"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <name>Caesaris</name></persName> supplicatio <persName type="divinity">Vestae</persName>
+                   <lb n="7"/><num value="18">XVIII</num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>K</abbr><ex>alendas</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Ianuar</abbr><ex>ias</ex></expan> <g ref="symbols.xml#interpunct">·</g> eo die <g ref="symbols.xml#interpunct">·</g> <unclear>a</unclear><supplied reason="lost">r</supplied><unclear>a</unclear> <persName type="divinity">Fortunae Reducis</persName> dedicatast quae <persName type="attested"><name>Caesare<supplied reason="undefined" evidence="previouseditor">m</supplied></name></persName> <supplied reason="lost">ex transmari</supplied>
+                   <lb n="8" break="no"/>nis provincis <g ref="symbols.xml#interpunct">·</g> re<unclear>d</unclear><supplied reason="lost">uxit</supplied> supplicatio <persName type="divinity">Fortunae Reduci</persName>
+                   <lb n="9"/><num value="7">VII</num> <g ref="symbols.xml#interpunct">·</g> Idus <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Ianuar</abbr><ex>ias</ex></expan> <g ref="symbols.xml#interpunct">·</g> e<supplied reason="lost">o die <persName type="attested">Caesar</persName></supplied> primum fasces sumpsit <g ref="symbols.xml#interpunct">·</g> <expan><abbr>supp</abbr><ex>l</ex><abbr>icatio</abbr></expan> <persName type="divinity">Iovi <unclear>S</unclear><supplied reason="undefined" evidence="previouseditor">e</supplied><unclear>mpi</unclear><supplied reason="lost">terno</supplied></persName>
+                   <lb n="10"/><num value="18"><supplied reason="lost">XV</supplied>III</num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>K</abbr><ex>alendas</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Febr</abbr><ex>uarias</ex></expan> <g ref="symbols.xml#interpunct">·</g> eo d<unclear>i</unclear><supplied reason="lost">e</supplied> <persName type="attested"><name><supplied reason="lost">Caesar</supplied></name> <name><supplied reason="lost">Augustu</supplied>s</name></persName> appellatus est supplicatio <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>Augusto</name></persName> <g ref="symbols.xml#interpunct">·</g>
+                   <lb n="11"/><supplied reason="lost"><num value="3">III</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Febr</abbr><ex>uarias</ex></expan> eo die ara <persName type="divinity">Pacis</persName> dedicata</supplied> est <g ref="symbols.xml#interpunct">·</g> supplicatio imperio <persName type="attested"><name>Caesaris</name> <g ref="symbols.xml#interpunct">·</g> <name>Augusti</name></persName> <g ref="symbols.xml#interpunct">·</g> cu<unclear>st</unclear><supplied reason="undefined" evidence="previouseditor">o</supplied><supplied reason="lost">dis</supplied>
+                   <lb n="12"/><supplied reason="lost">civium Romanorum orbisque terrar</supplied><supplied reason="undefined" evidence="previouseditor">u</supplied>m
+                   <lb n="13"/><supplied reason="lost"><expan><abbr>pr</abbr><ex>idie</ex></expan> <expan><abbr>Non</abbr><ex>as</ex></expan> <expan><abbr>Mart</abbr><ex>ias</ex></expan> eo die <persName type="attested">Caesar</persName> <expan><abbr>pont</abbr><ex>ifex</ex></expan> ma</supplied>ximus creatus est <g ref="symbols.xml#interpunct">·</g> <expan><abbr>supplicat</abbr><ex>i</ex><abbr>o</abbr></expan> <persName type="divinity">Vestae</persName>  dis <expan><abbr>pub</abbr><ex>licis</ex></expan> <persName type="divinity"><expan><abbr>P</abbr><ex>enatibus</ex></expan></persName> <expan><abbr>p</abbr><ex>opuli</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> <expan><abbr>Q</abbr><ex>uiritium</ex></expan>
+                   <lb n="14"/><supplied reason="lost"><num value="18">XVIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Mai</abbr><ex>as</ex></expan> eo die <persName type="attested"><name>Caesar</name></persName> primum vicit suppli</supplied>catio <persName type="divinity"><name>Victoriae</name> <g ref="symbols.xml#interpunct">·</g> <name>Augustae</name></persName>
+                   <lb n="15"/><supplied reason="lost"><num value="17">XVII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Mai</abbr><ex>as</ex></expan> eo die <persName type="attested">Caesar</persName> primum imperator app</supplied><unclear>e</unclear>llatus est <g ref="symbols.xml#interpunct">·</g> supplicatio <persName type="divinity">Felicitati</persName> <g ref="symbols.xml#interpunct">·</g> imperi
                    <lb n="16"/><supplied reason="lost"><num value="4">IIII</num> <expan><abbr>Id</abbr><ex>us</ex></expan> <expan><abbr>Mai</abbr><ex>as</ex></expan> eo die aedes <persName type="divinity">Martis</persName> dedicatast supplica</supplied>tio <persName type="divinity"><name>Molibus</name> <name>Martis</name></persName>
-                   <lb n="17"/><supplied reason="lost"><num value="9">VIIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Iun</abbr><ex>ias</ex></expan> <persName type="attested"><name>Germanici</name> <name>Caesaris</name></persName> natalis supp</supplied>licatio <persName type="divinity">Vestae</persName>
-                   <lb n="18"/><supplied reason="lost"><num value="4">IIII <expan><abbr>Id</abbr><ex>us</ex></expan></num> <expan><abbr>Iul</abbr><ex>ias</ex></expan> natalis <persName type="divinity"><name>divi</name> <name>Iuli</name></persName> supplicatio</supplied> <persName type="divinity">Iov<supplied reason="lost">i</supplied></persName> <persName type="divinity"><name>Marti</name> <name>Ultori</name></persName> <persName type="divinity"><name>Veneri</name> <name><supplied reason="lost">Genetrici</supplied></name></persName>
-                   <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">suppli</supplied>catio <persName type="divinity">Iovi</persName><gap reason="lost" extent="unknown" unit="character"/>
+                   <lb n="17"/><supplied reason="lost"><num value="9">VIIII</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Iun</abbr><ex>ias</ex></expan> <persName type="attested"><name>Germanici</name> <name>Caesaris</name></persName> natalis supp</supplied><unclear>l</unclear>icatio <g ref="symbols.xml#interpunct">·</g> <persName type="divinity">Vestae</persName>
+                   <lb n="18"/><supplied reason="lost"><num value="4">IIII <expan><abbr>Id</abbr><ex>us</ex></expan></num> <expan><abbr>Iul</abbr><ex>ias</ex></expan> natalis <persName type="divinity"><name>divi</name> <name>Iuli</name></persName> supplicatio</supplied> <persName type="divinity"><supplied reason="lost">Iov</supplied><unclear>i</unclear></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="divinity"><name>Marti</name> <name>Ultori</name></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="divinity"><name>Veneri</name> <name><supplied reason="lost">Genetrici</supplied></name></persName>
+                   <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">suppli</supplied><unclear>c</unclear>at<unclear>i</unclear><supplied reason="undefined" evidence="previouseditor">o</supplied> <persName type="divinity">Iovi</persName><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">
-                <listApp><app><note></note></app></listApp>
+                <listApp>
+                    <app><note>Text and restorations of EDR; confirmed with autopsy.</note></app>
+                    <app loc="5"><note>EDR reads Novimbr, but stone likely shows "Novembr" with very faint horizontal strokes for "E".</note></app>
+                    <app loc="6"><note>EDR reads Dicembr, but stone shows "Dicembr" with very faint horizontal strokes for "E".</note></app>
+                </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!-- Translation needed -->
+                <p>
+                    [On the 14th day before the Kalends of September, the day that Caesar] undertook his first consulate, [a supplication to ????].
+                    [On the 3rd day before the Nones of September, the day] Lepidus surrendered his army to Caesar, a supplication [to ????].
+                    [On the 9th day before the Kalends of October], the birthday of Caesar, a sacrifice of an animal to Caesar and a supplication [to ????].
+                    On the Nones of October, the birthday of Drusus Caesar, a supplication to Vesta.
+                    On the 15th day before the Kalends of November, the day that Caesar assumpted the toga virilis, a supplication to Spes and Iuventas.
+                    On the 16th day before the Kalends of December, the birthday of Tiberius Caesar, a supplication to Vesta.
+                    On the 18th day before the Kalends of January, the day that the altar of Fortuna Redux was dedicated, who brought Caesar back from his provinces [across the seas], a supplication to Fortuna Redux.
+                    On the 7th day before the Ides of January, the [day that Caesar] first assumed the fasces, a supplication to Jupiter Sempiternus.
+                    On the 18th day before the Kalends of February, the day that [Caesar] was named [Augustus], a supplication to Augustus.
+                    [On the 3rd day before the Kalends of February, the day that the Ara Pacis was dedicated], a supplication to the imperium of Caesar Augustus, the guardian [of Roman citizens and the world]
+                    [On the day before the Nones of March, the day that Caesar] was made [pontifex] maximus, a supplication to Vesta, the public Penates of the Roman people, the Quirites.
+                    [On the 18th day before the Kalends of May, the day Caesar first conquered], a supplication to Victoria Augusta.
+                    [On the 17th day before the Kalends of May, the day Caesar was first] saluted [imperator], a supplication to Felicitas of empire.
+                    [On the 4th day before the Ides of May, the day the temple of Mars was dedicated], a supplication to Mars' Moles.
+                    [On the 9th day before the Kalends of June, the birthday of Germanicus Caesar], a supplication to Vesta.
+                    [On the 4th day before the Ides of July, the birthday of the divine Julius, a supplication of Jupiter], Mars the Avenger, and Venus [the Ancestress].
+                    [----] a supplication to Jupiter [----].   
+                </p>
             </div>
             <div type="commentary">
-                <p></p> <!-- Lomas 1996, 191-92, Taylor 1920, 199; Gradel 2002, 96; Fishwick 1991f, 490, 509-510; Hemelrijk 2007, 327; BNP 2 no. 3.4 -->
+                <p>This sacred calendar of Cumae exclusively celebrates supplications and sacrifices on important dates for the imperial household (Caesar Augustus, Tiberius Caesar, Drusus Caesar and the Julius Caesar). Of note here are the various deities 
+                    thought responsible for the successes of Augustus and his family, as well as direct supplications and animal sacrifice to Caesar/Augustus himself as a god. Lomas (1996, 192) suggests that the reason the calendar appears to start with August 
+                    was that it was 'common practice for Italian cities to take the date of Augustus' first visit to them as their New Year'.</p> 
+                <!-- Taylor 1920, 199; Gradel 2002, 96; Fishwick 1991f, 490, 509-510; Hemelrijk 2007, 327; BNP 2 no. 3.4 -->
             </div>
             <div type="bibliography">
                    <p>
@@ -161,6 +187,11 @@
                 <p>
                     <bibl>
                         <ptr target="EDR"/> <citedRange>158412</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Lomas1996"/> <citedRange>pp. 191–192</citedRange>
                     </bibl>
                 </p>
             </div>
