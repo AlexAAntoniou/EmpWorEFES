@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>Decurional decree for extending worship at altar of Numen Augusti.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -16,16 +16,16 @@
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000</idno>
+                <idno type="filename">EmpWor000469</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
-                        <repository></repository>  
+                        <region>Regio VII</region>
+                        <settlement>Forum Clodii</settlement>
+                        <repository>Castel Fiorentino (Florence), Villa Pucci di Granaiolo, built into the wall under a window sill</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -35,15 +35,15 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> 
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> 
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">53.5</height>
+                                        <width unit="cm">80</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -64,14 +64,18 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/413145">Forum Clodii</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3181628/bracciano.html">Bracciano</placeName>
+                                <geo>42.126751, 12.167955</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0018" evidence="consuls">Dated to 18 CE on the basis of the consular year.</origDate>
                         </origin>
-                        <provenance type="found"></provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Bracciano, Church of S. Liberato, near the high altar.</provenance>
+                        <provenance type="observed">Subsequently moved to (to the houses of the Mattei and Astalli)</provenance>
+                        <provenance type="observed">Subsequently moved to Florennce, in Palazzo Ridolfi on Via Maggio 13</provenance>
+                        <provenance type="observed">Subsequently moved to an unnamed Palace of Emilio Pucci in Florence</provenance>
+                        <provenance type="observed">Subsequently moved to Villa Pucci di Granaiolo, in the municipality of Castel Fiorentino</provenance>
+                        <provenance type="observed" subtype="seen" when="2008-09-22">Seen by L. Gasperini at Villa Pucci di Granaiolo on 22 Sep 2008</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -92,13 +96,13 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.decree" ref="https://www.eagle-network.eu/voc/typeins/lod/384.html">Decree</term> 
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-10-08" who="#AA">Original data collection and editing</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,29 +113,101 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="ruler" key="Tiberius"><name><expan><abbr>Ti</abbr><ex>berio</ex></expan></name> <name>Caesare</name></persName> <expan><abbr>tert</abbr><ex>ium</ex></expan> <persName type="ruler" key="Germanicus"><name>Germanico</name> <name>Caesare</name></persName> <expan><abbr>iter</abbr><ex>um</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+                    <lb n="2"/><persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeo</ex></expan></name> <name>Acceio</name> <persName type="patronym"><name><expan><abbr>Cn</abbr><ex>aei</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Arn</abbr><ex>ensi</ex></expan> <name>Rufo</name> <name>Lutatio</name></persName> <persName type="attested"><name><expan><abbr>T</abbr><ex>ito</ex></expan></name> <name>Petillio</name> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Qui</abbr><ex>rina</ex></expan></persName> <expan><abbr>IIvir</abbr><ex>is</ex></expan>
+                    <lb n="3"/>decreta
+                    <lb n="4"/>aediculam et statuas has hostiam dedicationi victimae natali <expan><abbr>Aug</abbr><ex>usti</ex></expan> <num value="8">VIII</num> <expan><abbr>k</abbr><ex>alendas</ex></expan> <expan><abbr>Octobr</abbr><ex>es</ex></expan> <num value="2">duae</num> quae <expan><abbr>p</abbr><ex>er</ex><abbr>p</abbr><ex>etuo</ex></expan>
+                    <lb n="5"/>immolari adsuetae sunt ad aram quae <persName type="divine" key="numenAugusti"><name>Numini</name> <name>Augusto</name></persName> <expan><abbr>dedic</abbr><ex>ata</ex></expan> est <num value="9">VIIII</num> et <num value="8">VIII</num> <expan><abbr>k</abbr><ex>alendas</ex></expan> <expan><abbr>Octobr</abbr><ex>es</ex></expan>
+                    <lb n="6"/>inmolerentur item natali <persName type="divine" key="tiberius"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <name>Caesaris</name></persName> perpetuae acturi decuriones
+                    <lb n="7"/>et populus cenarent quam inpensam <persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name>Caecellio</name> <name>Labeone</name></persName>
+                    <lb n="8"/>in perpetuo pollicenti ut gratiae agerentur munificentiae eius eoque
+                    <lb n="9"/>natali ut quotannis vitulus inmolaretur
+                    <lb n="10"/>ut ut natalibus <persName type="divine" key="augustus"><name>Augusti</name></persName> <persName type="divine" key="tiberius"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name></persName> <name>Caesarum</name> prius quam ad vescendum
+                    <lb n="11"/>decuriones irent thure et vino <persName type="divine" key="genius">Genii</persName> eorum ad epulandum ara
+                    <lb n="12"/><persName type="divine" key="numenAugusti"><name>Numinis</name> <name>Augusti</name></persName> invitarentur
+                    <lb n="13"/>ara <persName type="divine" key="numenAugusti"><name>Numini</name> <name>Augusto</name></persName> pecunia nostra faciendam curavimus ludos
+                    <lb n="14"/>ex idibus Augustis diebus sex <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>n</abbr><ex>ostra</ex></expan> faciendos curavimus
+                    <lb n="15"/>natali <persName type="divine" key="livia">Augustae</persName> mulsum et crustlum mulieribus vicanis ad
+                    <lb n="16"/><persName type="divine" key="bonaDea"><name>Bonam</name> <name>Deam</name></persName> pecunia nostra dedimus
+                    <lb n="17"/>item dedicatione statuarum <persName type="divine"><name>Caesarum</name></persName> et <persName type="divine" key="livia"><name>Augustae</name></persName> mulsum et crustla
+                    <lb n="18"/>pecunia nosstra <expan><abbr>decurionib</abbr><ex>us</ex></expan> et populo dedimus perpetuoque eius die
+                    <lb n="19"/>dedicationis daturonos testati sumus quem diem quo frequentior quod
+                    <lb n="20"/>annis sit servabimus <num value="6">VI</num> idus Martias qua die
+                    <lb n="21"/><persName type="ruler" key="Tiberius"><name><expan><abbr>Ti</abbr><ex>berius</ex></expan></name> <name>Caesar</name></persName> <expan><abbr>pontif</abbr><ex>ex</ex></expan> maximus felicissime est creatus
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app> <!-- Comparison with photograph? -->
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>In the consulship of Tiberius Caesar (for the third time), and Germanicus Caesar (for the second), when Gnaeus Acceius Rufus Lutatius of the Arnensus tribe, son of Gnaeus, and Titus Petillius, son of Publius, of the Quirina tribe, were duovirs, it was decreed that: a shrine, these statues, and a sacrifical animal for the dedication [were voted]. 
+                    For the birthday of Augustus, 8 days before the Kalends of October, two victims, which are customarily to be sacrificed in perpetuity at the altar which has been dedicated to the Augustan Numen, ought to be sacrificed on the 9th and 8th days before the Kalends of October. 
+                    Likewise, on the birthday of Tiberius Caesar, the decurions and people should dine in perpetuity, which expense Quintus Cascellius Labeo promises in perpetuity, in order that he be given thanks for his munificence; and on this same birthday, so that a calf may be sacrificed annually.
+                    And on the birthdays of Augustus and Tiberius, the Caesars, before the decurions proceed to dine, their Genii should be invited to dine at the altar of the Augustan Numen with wine and incense. We have had built at our own expense an altar to the Augustan Numen; we have had supervised games for six days from the Ides of August at our own expense;
+                    on the birthday of the Augusta we gave wine and cakes to the women from the places of the town for the Bona Dea at our own expense. Likewise, at the dedication of statues to the Caesars and the Augusta, we gave wine and cakes at our own expense to the decurions and the people, and we vowed to give them in perpetuity on the anniversary of the dedication;
+                    so that day may be better attended every year, we will observe this six days before the Ides of March, the day on which Tiberius Caesar was very happily made the chief priest.
+                </p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>This inscription purports to recount a decision of the decurions of Forum Clodii of 18 CE, but is undeniably also capturing earlier relevant decisions of the same decurions from earlier (Gradel 2002, 242–244; Scheid 2005, 239 n. 83; Koortbojian 2013: 172). Nonetheless, the decree tells us that that an aedicula ('shrine'), statues, and hostia ('animal sacrifice') had been voted, 
+                    sacrifices had been prescribed for the birthdays of Augustus, Tiberius and Livia Augustus, that they have had an ara ('altar') to the Numen Augustum built, that games have been held, and that wine and cakes would be distributed to the people. It is very likely that the statues of the Caesars mentioned in line 17, are attested through surviving statue bases, all discovered in the same location: 
+                    see <ref target="EmpWor000867.xml">EmpWor000867</ref>, <ref target="EmpWor000868.xml">EmpWor000868</ref>, <ref target="EmpWor000869.xml">EmpWor000869</ref> and <ref target="EmpWor000870.xml">EmpWor000870</ref>.
+                    The inscription attests to robust engagement with emperor worship in Forum Clodii, in ways that fit local circumstances and reflect the priorities of members of the local elite: the celebration of Livia's birthday was to be the day when Forum Clodii would publicly celebrate the Bona Dea, the local euergete Q. Cascellius Labeo used Tiberius' birthday to cement his legacy to the peoples of Forum Clodii by
+                    promising to cover the expense of banquets for the princeps' birthday in perpetuity, and the decuriones used the opportunity to remind everyone that they were heavily involved in all grand acts of civic munificence. Whereas Gradel (2002, 249–250) tries to situate this inscription in line with imperial innovation – Augustus should be called a divus in an inscription of 18 CE, 
+                    and divi should have been given steers as the 'proper' sacrifice. By contrast, I believe the inscription is an important marker of the tensions between innovation and tradition in early emperor worship. Why should Forum Clodii have changed their forms of worship to comply with imperial innovation? The decree itself stresses that the decurions of Forum Clodii were trying to strike a precarious 
+                    balance between innovation and continuity: that they were adapting older features to accommodate new scenarios (such as the emergence of the new princeps Tiberius), but without contradicting their earlier committments to undertaking forms of emperor worship in perpeuity. The decree stresses that the decurions of Forum Clodii had ensured that the nature of their worship had not changed, 
+                    that they were not abandoning their pre-existing religious vocabulary, but were merely updating their practices in ways that suited them. For the importance of the Cascelli in Forum Clodii, see CIL 11.7556. For attempts to reconstruct the development of worship at Forum Clodii, see Marengo (2005: 54–60); Gasperini (2008b); Koortbojian (2013: 172–178). Gradel (2002, 249) argues that this 
+                    altar was directly inspired by the altar to the numen Augusti at Narbo (in Narbonese Gaul): CIL 12.4333. He argues that Q. Cascellius Labeo, who we know from his epitaph (CIL 6.3510) was a praefectus fabrum and of the tribe Voltinia, and probably himself came from Gallia Narbonensis, judging by the other extant Cascellii in that region and his tribal affiliation. While Gradel is correct that there
+                    were Cascellii in the province of Gallia Narbonensis (see e.g. CIL 12.2689, 12.4194, 12.4334, 12.3210; ILGN 436) members of the family are equally spread across Italy, even by a very early date (see esp. CIL 11.1966, 11.3246; AE 1999.628).
+                    After not having been seen for more than 120 years, after Bormann and Henzen had recorded the stone, the decree was imagined lost until Gasperini (2008a) managed to trace its movements and finally to autopsy the stone itself.
+                </p> 
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="CIL"/> <citedRange>11.3303</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="EDCS"/> <citedRange>22500177</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>153071</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Gasperini2008a"/> <citedRange>Gasperini 2008a</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Gasperini2008b"/> <citedRange>Gasperini 2008b</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Gradel2002"/> <citedRange>Gradel 2002, 242–244, 249–250</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Koortbojian2013"/> <citedRange>Koortbojian 2013, 172–178</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Scheid2005"/> <citedRange>Scheid 2005, 239 n.83</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Marengo2005"/> <citedRange>Marengo 2005, 54–60</citedRange>
                     </bibl>
                 </p>
             </div>

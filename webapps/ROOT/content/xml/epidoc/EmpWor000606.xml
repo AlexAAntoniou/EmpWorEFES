@@ -5,13 +5,25 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000606</title>
+                <title>Dedication to Silvanus Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt> 
+                    <name xml:id="SPS" ref="https://orcid.org/0009-0003-1306-1347">Savinay Sood</name>
+                    <resp>Contributed to edition of text and description of object</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques </name>
+                    <resp>Contributed to edition of text and description of object</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="JSG" ref="https://orcid.org/0009-0007-5552-1849">Jonah Secmezsoy Gault</name>
+                    <resp>Contributed to edition of text and description of object</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,26 +46,27 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
+                                <support><p>Tall rectangular stone slab in almost perfect condition, with a carved entablature in centre for receiving text. Carved entabulature is smooth, but other surfaces slightly abraded. All sides are complete, the top edge has been slightly rounded. No autopsy of sides, top or back.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Stele</objectType>
                                     <dimensions>
                                         <height unit="cm">118</height>
                                         <width unit="cm">45</width>
                                         <depth unit="cm">16</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
+                                    <p>The text is roughly centred at the top of the entablature. The text takes up the top third of the carved entabulature, with nothing beneath.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The text is complete and fully legible. The letter "I" in Primus in line 4 is tall, all other letter heights are roughly equal. The letters are broad, well formed, and well spaced. All letters have neat serifs. The interpuncts are triangular.</p>
                                 <locus from="line1" to="line4">Lines 1–4</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">40–50</height>
@@ -70,8 +83,8 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
-                        <provenance type="observed" subtype="studied">Antoniou studied and photographed the stone on 2025-08-06</provenance>
+                        <provenance type="found" subtype="discovered" when="1788">Discovered in Aquileia, in the Monastero locality, in the excavations of 1788</provenance>
+                        <provenance type="observed" subtype="studied" when="2025-08-06">Antoniou studied and photographed the stone on 2025-08-06</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -96,9 +109,11 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-03" who="#SPS">Contributed to edition of text and description of object</change>
+                <change when="2025-10-03" who="#AV">Contributed to edition of text and description of object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +122,21 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#SPS #JSG #AV #AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="silvanusAugustus"><name>Silvano</name>
+                    <lb n="2"/><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> <g type="interpunct">·</g> <expan><abbr>sac</abbr><ex>rum</ex></expan>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g type="interpunct">·</g> <name>Aulius</name>
+                    <lb n="4"/><name>Primus</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Silvanus Augustus, Marcus Aulius Primus [set this up].</p>
             </div>
             <div type="commentary">
                 <p></p> 

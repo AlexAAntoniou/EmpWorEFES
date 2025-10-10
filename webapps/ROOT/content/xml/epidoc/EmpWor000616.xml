@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000616</title>
+                <title>Dedication to Silvanus Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="JSG" ref="https://orcid.org/0009-0007-5552-1849">Jonah Secmezsoy Gault</name>
+                    <resp>Edited text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Tall and narrow rectangular stone altar, with carved entabulature above text at top. Good condition overall, but top of altar heavily abraded.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">20</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text is roughly centred, and text fills almost the entire stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is complete, however some letters show signs of wear, especially the final letter in line 5, and the final letter in line 8. The text is relatively neat and well formed, with clear serifs on all letters, and neat spacing between letters, except for the "US" at the end of line 4 which is almost in ligature. Use of triangular interpuncts.</p>
                                 <locus from="line1" to="line12">Lines 1–12</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">25–40</height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-08" who="JSG">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,29 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#JSG #AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="silvanusAugustus"><name><expan><abbr>Silvan</abbr><ex>o</ex></expan></name>
+                    <lb n="2"/><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="interpunct">·</g> <name>Coelius</name>
+                    <lb n="4"/><name>Septumus</name></persName>
+                    <lb n="5"/><hi rend="supraline">VI</hi><g ref="interpunct">·</g>vir <g ref="interpunct">·</g> <expan><abbr>A<unclear>q</unclear></abbr><ex>uileiae</ex></expan>
+                    <lb n="6"/><hi rend="supraline">VI</hi><g ref="interpunct">·</g>vir <g ref="interpunct">·</g> <expan><abbr>Ates</abbr><ex>te</ex></expan>
+                    <lb n="7"/>nomine
+                    <lb n="8"/><persName type="attested"><name>Firmini</name></persName>
+                    <lb n="9"/>et <g ref="interpunct">·</g> <persName type="attested"><name><expan><abbr>Firmin</abbr><ex>ae</ex></expan></name></persName>
+                    <lb n="10"/>liberorum
+                    <lb n="11"/>suorum
+                    <lb n="12"/><expan><abbr>d</abbr><ex>onum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>edit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; compared with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Silvanus Augustus. Lucius Coelius Septumus, duovir at Aquielia [and] duovir at Ateste, in the name of his children, Firminus and Firmina, gave this gift.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -137,6 +153,11 @@
                 <p>
                     <bibl>
                         <ptr target="EDR"/> <citedRange>116893</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>001524</citedRange>
                     </bibl>
                 </p>
                 <p>

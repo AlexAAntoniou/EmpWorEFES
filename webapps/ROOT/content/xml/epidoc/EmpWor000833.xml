@@ -26,7 +26,7 @@
                         <region>Regio XI</region>
                         <settlement>Comum</settlement>
                         <repository>Como, Civico Museo Archeologico Paolo Giovio</repository>  
-                        <idno>L213 and L172</idno>
+                        <idno>L172</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,29 +34,29 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble (di Musso)</material> <!-- CHECK ALL -->
+                                <support><p>Four contiguous fragments of a marble plague, with surviving carved entabulature bordering text on top and bottom. Breaks at left and right, and top right is missing.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble (di Musso)</material>
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
-                                        <height unit="cm">52, 83</height>
-                                        <width unit="cm">22, 74</width>
+                                        <height unit="cm">83</height>
+                                        <width unit="cm">74</width>
                                         <depth unit="cm">16</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text covers whole of remaining fragments, with no additional room within entabulature at top and bottom. Whilst there is a break in "orname[n]-" in line 5, that it is finished in the surviving portion of line 6 (rather than being lost in the break to the left), suggests that the inscription was centred on the stone and that we have lost only 5–7 characters to the left.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
-                                <locus from="line1" to="line3">Lines 1–3</locus>
+                            <handNote><p>Text is straight, relatively neat, and consistently spaced. Tall "T"s in line 3 in "Pontif", line 5 in "et" and line 6 in "tis". Tall "I" in line 4, final "I" in "Aeternitati". Interpuncts are relatively regular throughout.</p>
+                                <locus from="line1" to="line3">Line 1</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm">55</height> <!-- only one! -->
+                                    <height unit="mm"></height> 
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -68,9 +68,9 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3178229/como.html">Como</placeName>
                                 <geo>45.81192, 9.085784</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate atLeast="69" atMost="79">69–79 CE on the basis of the date at which its dedicator, Caecilius Secundus (Pliny the Younger) was adopted  by his maternal uncle (79 CE), at which time therefore his named changed to reflect his adoptive family.</origDate>
                         </origin>
-                        <provenance type="found" subtype="discovered">Discovered in Como, cortile del Liceo Volta; Como garden of Liceo Volta in 1880.</provenance>
+                        <provenance type="found" subtype="discovered" when="1880">Discovered in Como, in the garden of Liceo Volta in 1880.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -96,9 +96,9 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-09-11" who="#AA">Original data collection and editing</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,54 +109,50 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><supplied reason="lost">Caeci</supplied>iliae</name></persName> <g key="interpunct">·</g> <expan><abbr>f</abbr><ex>iliae</ex></expan> <g key="interpunct">·</g> suae <g key="interpunct">·</g> nomine <persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Ca<supplied reason="lost">e</supplied>
+                    <lb n="2" break="no"/><supplied reason="lost">ciliu</supplied>s</name> <g key="interpunct">·</g> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <g key="interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <g key="interpunct">·</g> <expan><abbr>Ouf</abbr><ex>entina</ex></expan> <g key="interpunct">·</g> <name>Secundus</name></persName> <g key="interpunct">·</g> <expan><abbr>praef<supplied reason="lost">ect</supplied></abbr><ex>us</ex></expan>
+                    <lb n="3"/> <supplied reason="lost"><expan><abbr>fabr</abbr><ex>um</ex></expan></supplied> a <g key="interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> <g key="interpunct">·</g> I<hi rend="supraline">II</hi>I<g key="interpunct">·</g>vir <g key="interpunct">·</g> <expan><abbr>i</abbr><ex>ure</ex></expan> <g key="interpunct">·</g> <expan><abbr>d</abbr><ex>icundo</ex></expan> <g key="interpunct">·</g> <expan><abbr>pontif</abbr><ex>ex</ex></expan> <g key="interpunct">·</g> tem
+                    <lb n="4" break="no"/><supplied reason="lost">plum</supplied> <persName type="divine" key="Roma"><name>Aeternitati</name> <name>Romae</name></persName> <g key="interpunct">·</g> et <persName type="divine"><name><expan><abbr>Augu<supplied reason="lost">st</supplied></abbr><ex>orum</ex></expan></name></persName>
+                    <lb n="5"/><supplied reason="lost">c</supplied>um <g type="interpunct">·</g> porticibus <g key="interpunct">·</g> et <g key="interpunct">·</g> orname<supplied reason="lost">n</supplied>
+                    <lb n="6" break="no"/><supplied reason="lost">tis</supplied> <g type="interpunct">·</g> incohavit
+                    <lb n="7"/><persName type="attested"><name><gap reason="lost" atLeast="1" atMost="3" unit="char"/></name> <name><supplied reason="lost">Caeci</supplied>lius</name> <g key="interpunct">·</g> <name>Secundus</name> <g key="interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <g key="interpunct">·</g> <expan><abbr>dedic</abbr><ex>at</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR with comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>In the name of Caecilia, his daughter, Lucius Caecilius Secundus, son of Caius, of tribe Oufentina, prefect of engineers for the consul, quattuorvir for the purposes of administering justice, pontifex, lay the foundations of the temple to Eternal Roma and the Augusti, with porticos and ornaments. His son, [?] Caecilius Secundus dedicates it.</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>Alföldy (1983) was the first to associate this inscription with <ref target="EmpWor000866.xml">EmpWor000866</ref>, and thus reconstruct with certainty the lacunae around the dedicatory formula for the temple attested in both: the Temple of Aeternitas Roma and the Augusti. Financed by L. Caecilius Secundus in the name of his daughter, Caecilia. The "filius" ("son") mentioned in line 4 who undertook the dedication of the structure is likely Pliny the Younger, before he was adopted by his maternal uncle (Pliny the Elder) in 79 CE.</p> 
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange>1983.443a</citedRange>
+                        <ptr target="AE"/> <citedRange>AE 1983.443b</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="AE"/> <citedRange>1983.443b</citedRange>
+                        <ptr target="EDCS"/> <citedRange>EDCS 08000469</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange>08500313</citedRange>
+                        <ptr target="EDR"/> <citedRange>EDR 079126</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange>08000469</citedRange>
+                        <ptr target="EDH"/> <citedRange>EDH 000712</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDR"/> <citedRange>079125</citedRange>
-                    </bibl>
-                </p>
-                <p>
-                    <bibl>
-                        <ptr target="EDR"/> <citedRange>079126</citedRange>
-                    </bibl>
-                </p>
-                <p>
-                    <bibl>
-                        <ptr target="EDH"/> <citedRange>000802</citedRange>
+                        <ptr target="Alföldy1983"/> <citedRange>Alföldy 1983</citedRange>
                     </bibl>
                 </p>
             </div>

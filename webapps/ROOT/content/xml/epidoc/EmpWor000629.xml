@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000629</title>
+                <title>Dedication to Spes Augusta</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
+                    <resp>Edited text and description of object</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Small marble altar, with entabulature at top and bottom. Generally in good condition, although some abrasions and missing pieces along top at the altar.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">9</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text takes up most of the altar, although there enough space for an additional line of text at the bottom. Lines 2–4 are roughly centred, although take up most of the horizontal space of the altar. Line 1 is aligned right.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The text is complete and fully legible; the text (and particularly interpuncts) in line 4 are more lightly carved on the stone than the rest. Tall "I" in line 1. The ligature in line 3 is likely the result of running out of space in that line. The text in line 1 is larger than the other three lines, but is generally even otherwise. The letters are well-spaced, but for uneven distribution of "S" in line 4. Light serifs.</p>
                                 <locus from="line1" to="line4">Lines 1–4</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">25–40</height>
@@ -71,7 +75,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found" subtype="discovered">Discovered in Aquileia, Marignane locality</provenance>
-                        <provenance type="observed" subtype="studied">Antoniou studied and photographed the stone on 2025-08-06</provenance>
+                        <provenance type="observed" subtype="studied" when="2025-08-06">Antoniou studied and photographed the stone on 2025-08-06</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-03" who="#AV">Edited text and contributed to description of object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,28 +112,26 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="spesAugusta"><name>Spei</name>
+                    <lb n="2"/><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <g ref="interpunct">·</g> <expan><abbr>sac</abbr><ex>rum</ex></expan>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>Ae</abbr><ex>lius</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>Cu<hi rend="ligature">pi</hi></abbr><ex>tus</ex></expan></name></persName>
+                    <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>s</abbr><ex>olvit</ex></expan> <g ref="interpunct">·</g> <expan><abbr>l</abbr><ex>ibens</ex></expan> <g ref="interpunct">·</g> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; with comparison to photograph</note></app> 
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Spes Augusta, Caius Aelius Cupitus willingly and freely fulfilled his vow.</p>
             </div>
             <div type="commentary">
                 <p></p> 
             </div>
             <div type="bibliography">
-                <p>
-                    <bibl>
-                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
-                    </bibl>
-                </p>
                 <p>
                     <bibl>
                         <ptr target="EDCS"/> <citedRange>01300155</citedRange>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EmpWor000866</title>
+                <editor ref="#AA">Alex A. Antoniou</editor>
+                <principal ref="#AA"></principal>
+                <funder>Royal Society of Edinburgh Small Research Grant</funder>
+                <respStmt>
+                    <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
+                    <resp>Original data collection and editing</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EmpWor</authority>
+                <idno type="filename">EmpWor000866</idno>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <region>Regio XI</region>
+                        <settlement>Comum</settlement>
+                        <repository>Como, Civico Museo Archeologico Paolo Giovio</repository>  
+                        <idno>L213</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p>A fragmentary marble plaque, with breaks on all sides except the bottom, where the original carved entabulature around the inscription still survives.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
+                                    <dimensions>
+                                        <height unit="cm">52</height>
+                                        <width unit="cm">22</width>
+                                        <depth unit="cm">16</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#condition.fragment"/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><p>Top lines of text are obscured, but text fills remaining fragment. Small gap between final line and top of carved entabulature.</p>
+                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <damage/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>Text is neat and clear, although letter heights are slightly uneven. Tall "T" in line 3.</p>
+                                <locus from="line1" to="line3">Lines 1–3</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">55</height>
+                                </dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/383627">Comum</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3178229/como.html">Como</placeName>
+                                <geo>45.81192, 9.085784</geo>
+                            </origPlace>
+                            <origDate atLeast="69" atMost="79">69–79 CE on the basis of the date at which its dedicator, Caecilius Secundus (Pliny the Younger) was adopted  by his maternal uncle (79 CE), at which time therefore his named changed to reflect his adoptive family.</origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered">Discovered in Como, cortile del Liceo Volta; Como garden of Liceo Volta in 1880.</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 9</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2025-09-11" who="#AA">Original data collection and editing</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="path/to/photograph_of_text_or_monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <ab>
+                    <lb n="1"/><supplied reason="lost"><persName type="divine" key="roma"><name>Aeternitati</name> <name>Romae</name></persName> et</supplied> <persName type="divine"><name><supplied reason="lost">Au</supplied>gus<unclear>t</unclear>o<unclear>r</unclear><supplied reason="lost">um</supplied></name></persName>
+                    <lb n="2"/><supplied reason="lost">cum <expan><abbr>porticib</abbr><ex>us</ex></expan> et</supplied> <expan><abbr><supplied reason="lost">orname</supplied><unclear>n</unclear>t</abbr><ex>is</ex></expan> incoh<supplied reason="lost">avit</supplied>
+                    <lb n="3"/><persName type="attested"><name><gap reason="lost" atLeast="1" atMost="3" unit="char"/></name> <name><supplied reason="lost">Caecilius</supplied></name> <name><supplied reason="lost">Secundus</supplied></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> dedic<supplied reason="lost">avit</supplied>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app><note>Text of Alföldy (1983) compared with photograph</note></app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en" resp="#AA">
+                <p>[---] lay the foundations of [the temple to Eternal Roma and] the Augusti, [with porticos and ornaments]. His son, [?] Caecilius Secundus dedicated it.</p>
+            </div>
+            <div type="commentary">
+                <p>Alföldy (1983) was the first to associate this inscription with <ref target="EmpWor000833.xml">EmpWor000833</ref>, and thus reconstruct with certainty the lacunae around the dedicatory formula for the temple attested in both: the Temple of Aeternitas Roma and the Augusti. Financed by L. Caecilius Secundus in the name of his daughter, Caecilia. The "filius" ("son") who undertook the dedication of the structure is likely Pliny the Younger, before he was adopted by his maternal uncle (Pliny the Elder) in 79 CE.</p> 
+            </div>
+            <div type="bibliography">
+                <p>
+                    <bibl>
+                        <ptr target="AE"/> <citedRange>1983.443a</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>08500313</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>079125</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>000802</citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -70,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Aquileia, Monastero area, in an excavation near the house of Abbot Guerra</provenance>
                         <provenance type="observed" subtype="studied">Antoniou studied and photographed the stone on 2025-08-06</provenance>
                     </history>
                 </msDesc>

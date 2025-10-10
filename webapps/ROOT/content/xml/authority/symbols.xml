@@ -16,7 +16,7 @@
                     <mapping type="text-display">dipunct</mapping>
                 </glyph>
                 <glyph xml:id="interpunct">
-                    <mapping type="glyph-display">&#x00B7;</mapping>
+                    <mapping type="glyph-display">&#183;</mapping>
                     <mapping type="text-display">interpunct</mapping>
                 </glyph>
                 <glyph xml:id="wreath">

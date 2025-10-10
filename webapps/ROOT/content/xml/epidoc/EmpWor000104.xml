@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000104</title>
+                <title>Dedication by Q. Ostiensis Felix, custodian of temple of Roma and Augustus.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -119,14 +119,14 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EDR, comparison with photograph</note></app>
+                    <app><note>Text of EDR, comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p>By command, Quintus Ostiensis Felix, custodian of the temple of Roma and Augustus, made (this).</p>
             </div>
             <div type="commentary">
-                <p>This inscription is one of two which attests to the dedicatory formula of the <ref target="monument-search.xml#ostiaaedes">Aedes of Roma and Augustus</ref> at <ref target="ancient_place.xml#Ostia">Ostia</ref>.</p> 
+                <p>This inscription is one of two (see also <ref target="EmpWor000105.xml">EmpWor000105</ref> which attests to the dedicatory formula of the <ref target="monument-search.xml#ostiaaedes">Aedes of Roma and Augustus</ref> at <ref target="ancient_place.xml#Ostia">Ostia</ref>. This temple is archaeologically attested at the southern end of Ostia's forum.</p> 
             </div>
             <div type="bibliography">
                 <p>
