@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000163</title>
+                <title>Statue-base to Diadumenianus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository>Ostia Antica, Caserma dei Vigili (in a room on the north side)</repository>
+                        <repository>Ostia Antica, Caserma dei Vigili, courtyard</repository>
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Marble statue base</p>
+                                <support><p>Tall rectangular white marble statue base.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text is carved within border, in two sections with a blank line separating each section. Text is crammed into each line. Parts of the dedicatees' names were erased in antiquity, but such that many of the letters are still visible through the careful erasure.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Text is generally tall and relatively neat, except where text crowds a line to ensure it fits (esp. lines 6 and 7). Serifs on all letters. Use of "T" shaped interpuncts. Tall "T"s in line 5.</p>
                                 <locus from="line1" to="line13">Lines 1–13</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">30–55</height>
@@ -70,8 +70,8 @@
                             </origPlace>
                             <origDate when="0217" evidence="ruler">Dedicated in 217 CE based on titulature</origDate>
                         </origin>
-                        <provenance type="found" subtype="discovered">Ostia Antica, Caserma dei Vigili</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="found" subtype="discovered">Ostia Antica, Caserma dei Vigili. Discovered in a northern room.</provenance>
+                        <provenance type="observed" subtype="studied">Antoniou studied and photographed the stone on 2025-07-22</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-06-06" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-28" who="#AA">Edition draft on basis of autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,24 +110,24 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="ruler" key="diadumenianus"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name><del rend="erasure">Opellio</del></name>
+                    <lb n="1"/><persName type="ruler" key="diadumenianus"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="interpunct">·</g> <name><del rend="erasure">Opellio</del></name>
                     <lb n="2"/><name>Antonino</name>
                     <lb n="3"/><name><del rend="erasure">Diadumeniano</del></name></persName>  
                     <lb n="4"/>nobilissimo <expan><abbr>Caes</abbr><ex>ari</ex></expan>
-                    <lb n="5"/>principi iuventutis
-                    <lb n="6"/><persName type="ruler" key="macrinus"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name> <name><expan><abbr>Caes</abbr><ex>aris</ex></expan></name> <name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name><del rend="erasure">Opelli</del></name> <name>Severi</name>
-                    <lb n="7"/><name><del rend="erasure">Macrini</del></name> Pii Felicis <expan><abbr>Aug</abbr><ex>usti</ex></expan></persName>
-                    <lb n="8"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> <expan><abbr>design</abbr><ex>ati</ex></expan>
-                    <lb n="9"/><num value="2">II</num> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>sulis</ex></expan> filio
-                    <lb n="10"/><persName type="attested"><name>Valerio</name> <name>Titaniano</name></persName>
-                    <lb n="11"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <expan><abbr>em</abbr><ex>inentissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan>
+                    <lb n="5"/>principi <g ref="interpunct">·</g> iuventutis
+                    <lb n="6"/><persName type="ruler" key="macrinus"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>Caes</abbr><ex>aris</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="interpunct">·</g> <name><del rend="erasure">Opelli</del></name> <g ref="interpunct">·</g> <name>Severi</name>
+                    <lb n="7"/><name><del rend="erasure">Macrini</del></name> <g ref="interpunct">·</g> Pii <g ref="interpunct">·</g> Felicis <expan><abbr>Aug</abbr><ex>usti</ex></expan></persName>
+                    <lb n="8"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <g ref="interpunct">·</g> <expan><abbr>potest</abbr><ex>ate</ex></expan> <g ref="interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> <g ref="interpunct">·</g> <expan><abbr>design</abbr><ex>ati</ex></expan>
+                    <lb n="9"/><num value="2">II</num> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <g ref="interpunct">·</g> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>sulis</ex></expan> <g ref="interpunct">·</g> filio
+                    <lb n="10"/><persName type="attested"><name>Valerio</name> <g ref="interpunct">·</g> <name>Titaniano</name></persName>
+                    <lb n="11"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>e<g ref="interpunct">·</g>m</abbr><ex>inentissimo</ex></expan> <g ref="interpunct">·</g> <expan><abbr>v</abbr><ex>iro</ex></expan>
                     <lb n="12"/>curante
-                    <lb n="13"/><persName type="attested"><name>Flavio</name> <name>Lupo</name></persName> <expan><abbr>subpraef</abbr><ex>ecto</ex></expan>
+                    <lb n="13"/><persName type="attested"><name>Flavio</name> <g ref="interpunct">·</g> <name>Lupo</name></persName> <g ref="interpunct">·</g> <expan><abbr>sub<g ref="interpunct">·</g>praef</abbr><ex>ecto</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EDR</note></app>
+                    <app><note>Text of EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">

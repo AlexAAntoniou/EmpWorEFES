@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.complete"/> 
                             </supportDesc>
                             <layoutDesc>
                                 <layout>

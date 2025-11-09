@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000106</title>
+                <title>Statue-base for priest of Roma and Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Left and right fragments of an inscription, which would be contiguous but for a large gap in middle between the two pieces.</p>
+                                <support><p>Left and right fragments of a tall rectangular marble statue-base, which would be contiguous but for a large gap in the middle between the two pieces. Sides are rough, presumably from later re-use.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text within a carved border, and takes up the majority of the available space on the space.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Text is relatively uneven across the stone, both in size, and care and attention in the carving of the letters. Simple serifs used, but letters are inconsistently spaced.</p>
                                 <locus from="line1" to="line14">Lines 1–14</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">15–27</height>
@@ -71,7 +71,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found" subtype="discovered">Discovered in Ostia Antica, in the home of the Port Mosaic (I, XIV, 2), reused (the left hand fragment in the threshold, the right hand fragment in the floor).</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="studied">Antoniou photographed the stone on 2025-07-22</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-05-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-27" who="#AA">Completed draft of inscription</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -108,26 +109,26 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>Acilius</name> <supplied reason="lost"><persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName></supplied> <name><supplied reason="lost">P</supplied>riscus</name></persName>
-                    <lb n="2"/><expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurio</ex></expan> adle<supplied reason="lost">ectus</supplied> <expan><abbr>quaest</abbr><ex>or</ex></expan>
-                    <lb n="3"/><expan><abbr>aer</abbr><ex>arii</ex></expan> suffra<supplied reason="lost">gio</supplied> <expan><abbr><supplied reason="lost">de</supplied>curion</abbr><ex>um</ex></expan>
-                    <lb n="4"/><hi rend="supraline">II</hi>vir <expan><abbr>aedil</abbr><ex>is</ex></expan> <hi rend="supraline"><num value="2">II</num></hi> <expan><abbr><supplied reason="lost">quinq</supplied>uennal</abbr><ex>is</ex></expan>
-                    <lb n="5"/><expan><abbr>pr<supplied reason="lost">aef</supplied>ect</abbr><ex>us</ex></expan> <hi rend="supraline"><num value="2">II</num></hi> <expan><abbr><supplied reason="lost">praef</supplied></abbr><ex>ectus</ex></expan> <expan><abbr>colleg</abbr><ex>i</ex></expan> <expan><abbr>fa<hi rend="ligature">br</hi></abbr><ex>um</ex></expan>
-                    <lb n="6"/><expan><abbr>Ostiens</abbr><ex>ium</ex></expan> con<supplied reason="lost">tinuo t</supplied>riennio
-                    <lb n="7"/><expan><abbr>praef</abbr><ex>ectus</ex></expan> cohort<supplied reason="lost">is</supplied> <gap reason="lost" quantity="3" unit="character"/> Baracara
-                    <lb n="8"/>Augustanor<supplied reason="lost">um</supplied> <expan><abbr><supplied reason="lost">tr</supplied>ib</abbr><ex>unus</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <hi rend="supraline"><num value="8">IIX</num></hi>
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="interpunct">·</g> <name>Acilius</name> <supplied reason="lost"><persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName></supplied> <name><supplied reason="lost">P</supplied>riscus</name></persName>
+                    <lb n="2"/><expan><abbr>d</abbr><ex>ecurionum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecurio</ex></expan> <g ref="interpunct">·</g> adle<supplied reason="lost">ectus</supplied> <expan><abbr><supplied reason="lost">q</supplied>uaest</abbr><ex>or</ex></expan>
+                    <lb n="3"/><expan><abbr>aer</abbr><ex>arii</ex></expan> <g ref="interpunct">·</g> suffra<supplied reason="lost">gio</supplied> <expan><abbr><supplied reason="lost">de</supplied>curion</abbr><ex>um</ex></expan>
+                    <lb n="4"/><hi rend="supraline">II<g ref="interpunct">·</g></hi>vir <g ref="interpunct">·</g> <expan><abbr>aedil</abbr><ex>is</ex></expan> <g ref="interpunct">·</g> <hi rend="supraline"><num value="2">II</num></hi> <expan><abbr><supplied reason="lost">quinq</supplied>uennal</abbr><ex>is</ex></expan>
+                    <lb n="5"/><expan><abbr>pr<supplied reason="lost">aef</supplied>ect</abbr><ex>us</ex></expan> <g ref="interpunct">·</g> <hi rend="supraline"><num value="2">II</num></hi> <expan><abbr><supplied reason="lost">praef</supplied></abbr><ex>ectus</ex></expan> <expan><abbr>colleg</abbr><ex>i</ex></expan> <expan><abbr>fa<hi rend="ligature">br</hi></abbr><ex>um</ex></expan>
+                    <lb n="6"/><expan><abbr>Ostiens</abbr><ex>ium</ex></expan> <g ref="interpunct">·</g> cont<supplied reason="lost">inuo t</supplied>riennio
+                    <lb n="7"/><expan><abbr>praef</abbr><ex>ectus</ex></expan> <g ref="interpunct">·</g> cohort<supplied reason="lost">is</supplied> <gap reason="lost" quantity="3" unit="character"/> Baracara
+                    <lb n="8"/>Augustanor<supplied reason="lost">um</supplied> <expan><abbr><supplied reason="lost">tr</supplied>ib</abbr><ex>unus</ex></expan> <g ref="interpunct">·</g> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <hi rend="supraline"><num value="8">IIX</num></hi>
                     <lb n="9"/>voluntariorum <expan><abbr>t<supplied reason="lost">ribun</supplied></abbr><ex>us</ex></expan> militum
                     <lb n="10"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> <hi rend="supraline"><num value="11">XI</num></hi> Claudia<supplied reason="lost">e piae</supplied> fidelis
-                    <lb n="11"/>flamen <persName type="divinity"><name>Roma<supplied reason="lost">e</supplied></name></persName> <supplied reason="lost">et</supplied> <persName type="divinity"><name><supplied reason="lost">Aug</supplied>usti</name></persName>
-                    <lb n="12"/>pontifex <persName type="divinity"><name><supplied reason="lost">Vol</supplied>cani</name></persName>
-                    <lb n="13"/>testamento f<supplied reason="lost">ieri ius</supplied>sit per
-                    <lb n="14"/><persName type="attested"><name><expan><abbr>A</abbr><ex>ulum</ex></expan></name> <name>Egrilium</name> <name><supplied reason="lost">Primi</supplied>genium</name></persName>
+                    <lb n="11"/>flamen <g ref="interpunct">·</g> <persName type="divinity" key="roma"><name>Roma<supplied reason="lost">e</supplied></name></persName> <supplied reason="lost">et</supplied> <persName type="divinity" key="augustus"><name><supplied reason="lost">Aug</supplied>usti</name></persName>
+                    <lb n="12"/>pontifex <persName type="divinity" key="vulcanus"><name><supplied reason="lost">Vol</supplied>cani</name></persName>
+                    <lb n="13"/>testamento f<supplied reason="lost">ieri ius</supplied>sit <g ref="interpunct">·</g> per <g ref="interpunct">·</g>
+                    <lb n="14"/><persName type="attested"><name><expan><abbr>A</abbr><ex>ulum</ex></expan></name> <g ref="interpunct">·</g> <name>Egrilium</name> <name><supplied reason="lost">Primi</supplied>genium</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">

@@ -35,7 +35,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE --> <!-- bronze! -->
+                                    <material ana="#material.bronze" ref="https://www.eagle-network.eu/voc/material/lod/644.html">Bronze</material>
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm">4.5</height>

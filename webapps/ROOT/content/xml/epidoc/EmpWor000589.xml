@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000589</title>
+                <title>Dedication to Mercury Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
+                    <resp>Edited text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Stone altar divided into two parts, the upper extruded part has the inscription within a carved tabula ansata, and the lower part is a smooth rectangular block. The upper part is broken on the top right, obscuring the last third or so of the stone.  </p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/typeins/lod/29.html">Altar</objectType>
                                     <dimensions>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">17</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>The text in the heading with the dedication fills the tabula ansata. The text in the lower part of the stone is divided into two columns.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text in the heading is relatively clear, although letters decrease in size in line 3. Letters in the heading have clear serifs, although the text is on occassion a little uneven. Use of triangular interpuncts in the heading. The text in the lower part is not visible to the naked eye.</p>
                                 <locus from="line1" to="line12">Lines 1–12</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">20–80</height>
@@ -68,7 +72,7 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3182943/aquileia.html">Aquileia</placeName>
                                 <geo>45.769631, 13.370946</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0165" evidence="consuls">165 CE on the basis of the consular year.</origDate>
                         </origin>
                         <provenance type="found" subtype="discovered">Discovered in Aquileia, reused in the Basilica Patriarcale.</provenance>
                         <provenance type="observed" subtype="studied">Antoniou studied and photographed the stone on 2025-08-06</provenance>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-10" who="#AV">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,21 +112,62 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab>
-                    <lb n="1"/>
-                </ab>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
+                <div type="textpart" subtype="heading">
+                    <ab>
+                        <lb n="1"/><persName type="divine"><name><expan><abbr>Merc</abbr><ex>urio</ex></expan></name> <g ref="interpunct">·</g> <name>Augus<supplied reason="lost">to</supplied></name></persName> <supplied reason="lost"><expan><abbr>sacr</abbr><ex>um</ex></expan></supplied>
+                        <lb n="2"/><persName type="attested"><name>Orfito</name></persName> et <persName type="attested"><name>Pude<unclear>n</unclear><supplied reason="lost">te</supplied></name></persName> <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+                        <lb n="3"/>publicano <persName type="attested"><name>Alfio</name> <name>Plocamo</name></persName> et <persName type="attested"><name><seg part="I"><unclear>A</unclear></seg><gap reason="lost" extent="unknown" unit="char"/></name></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="a">
+                    <ab>
+                        <lb n="1"/><expan><abbr>m</abbr><ex>agister</ex></expan> <expan><abbr>c</abbr><ex cert="low">ollegi</ex></expan> <persName type="attested"><name><expan><abbr>Anton</abbr><ex>ius</ex></expan></name> <name>Severus</name></persName>  
+                        <lb n="2"/><persName type="attested"><name>Virius</name> <name>Eutyches</name></persName>
+                        <lb n="3"/><persName type="attested"><name>Appaeus</name> <name><expan><abbr>Primigen</abbr><ex>ius</ex></expan></name></persName>
+                        <lb n="4"/><persName type="attested"><name>Statius</name> <name>Valerius</name></persName>
+                        <lb n="5"/><persName type="attested"><name>Herbonius</name> <name><expan><abbr>Atquis</abbr><ex>itus</ex></expan></name></persName>
+                        <lb n="6"/><persName type="attested"><name>Ocusius</name> <name><hi rend="ligature">Th</hi>allus</name></persName>
+                        <lb n="7"/><persName type="attested"><name>Speratio</name> <name>Totici</name> <supplied reason="omitted">servus</supplied></persName>
+                        <lb n="8"/><persName type="attested"><name>Cosmio</name> <name>Syneti</name> <supplied reason="omitted">servus</supplied></persName>
+                        <lb n="9"/><persName type="attested"><name>Pompeius</name> <name><expan><abbr>Teles<hi rend="ligature">ph</hi><hi rend="ligature">or</hi>n</abbr><ex>us</ex></expan></name></persName>
+                        <lb n="10"/><persName type="attested"><name>Myrinus</name> <name>Agripinn<hi rend="ligature">ae</hi></name> <supplied reason="omitted">servus</supplied></persName>
+                        <lb n="11"/><persName type="attested"><name>Usonius</name> <name>Dionysius</name></persName>
+                        <lb n="12"/><persName type="attested"><name>Restius</name> <name>Aper</name></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="b">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name>Virius</name> <name>Synhetus</name></persName>
+                        <lb n="2"/><persName type="attested"><name>Messor</name> <name>Lolliaes</name> <supplied reason="omitted">servus</supplied></persName>
+                        <lb n="3"/><persName type="attested"><name>Minicius</name> <name>Vitalis</name></persName>
+                        <lb n="4"/><persName type="attested"><name>Euhelpistus</name> <name>Novi</name> <supplied reason="omitted">servus</supplied></persName>
+                        <lb n="5"/><persName type="attested"><name>Regontius</name> <name><expan><abbr>Anton<hi rend="ligature">in</hi></abbr><ex>us</ex></expan></name></persName>
+                        <lb n="6"/><persName type="attested"><name>Mamilius</name> <name>Semnus</name></persName>
+                        <lb n="7"/><persName type="attested"><name>Artiscius</name> <name>Hermes</name></persName>
+                        <lb n="8"/><persName type="attested"><name>Peticius</name> <name>Severus</name></persName>
+                        <lb n="9"/><persName type="attested"><name>Myrinus</name> <name><expan><abbr>Titior</abbr><ex>um</ex></expan></name> <supplied reason="omitted">servus</supplied></persName>
+                        <lb n="10"/><persName type="attested"><name>Cornelius</name> <name>Secu<hi rend="ligature">nd</hi>io</name></persName>
+                        <lb n="11"/><persName type="attested"><name>Vettidius</name> <name>Dionys<supplied reason="lost">ius</supplied></name></persName>
+                        <lb n="12"/><persName type="attested"><name>Valeriu<supplied reason="lost">s</supplied></name> <name><gap reason="lost" extent="unknown" unit="char"/></name></persName> 
+                    </ab>
+                </div>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph. Photograph only captured heading, relying wholly on EDR for lower segment.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Mercury Augustus, when Orfitus and Pudens were consuls, [and] Alfius Plocamus was tax-collector, and A[---]?. The master [of the college?] was Antonius Severus.
+                   [Column a] Virius Eutyches, Appaeus Primigenius, Statius Valerius, Herbonius Atquisitus, Ocusius Thallus, Speratio slave of Toticus, Cosmio slave of Synetus, Pompeius Telesphorinus, 
+                   Myrinus slave of Agrippina, Usonius Dionysius, [and] Restius Aper, [---].    
+                   [Column b] Virius Synhetus, Messor slave of Lollia, Minicius Vitalis, Euhelpistus slave of Novus, Regontius Antoninus, Mamilius Semnus, Artiscius Hermes, Peticius Severus,
+                   Myrinus slave of the Titii, Cornelius Secundius, Vettidius Dionysius, Valerius [---]?
+                </p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>In line 3, the "F" of "Alfio" appears to have been rendered as an "E".</p> 
             </div>
             <div type="bibliography">
                 <p>

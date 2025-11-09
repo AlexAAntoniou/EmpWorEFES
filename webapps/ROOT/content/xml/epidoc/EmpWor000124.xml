@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000124</title>
+                <title>Funerary inscription for C. Domitius Hermogenes, flamen of the divine Hadrian</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Extremely fragmentary inscription in multiple pieces, with significant sections of the left middle and right hand side missing.</p>
+                                <support><p>Extremely fragmentary inscription in multiple pieces, with significant sections of the left middle and right hand side missing. Plaque rests on monumental brick superstructure.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text sits within carved and curved border, and is broken into three bands of letters at differing heights. The first two lines are large and monumental, the following nine are smaller, finished with a slightly larger two line-footer.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Letters are clear and neatly inscribed into the stone. Triangular interpuncts. Simple, neat, serifs. Tall "I" in lines 4, 7, 8, 10 in "IN", in line 9 in "REI", in line 10 in "EIUS", in line 11 in "ITEM", in line 12 in "COLLEGI".</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight"/>
                             </handNote>
@@ -69,7 +69,7 @@
                             <origDate atLeast="0138" atMost="0200" cert="low">The priesthood to the divine Hadrian likely places the creation of the statue after 138/139 CE, but Meiggs dates the inscription on paleographical considerations to the end of the second century CE.</origDate>
                         </origin>
                         <provenance type="found" subtype="discovered" when="1910">Discovered in Ostia, in 1910, in front of the Porta Romana where it remains.</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="studied">Antoniou studied and photographed the stone on 2025-07-22</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -94,9 +94,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-06-03" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-28" who="#AA">Edition of inscription based on autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,31 +108,48 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Domitio</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <expan><abbr>Pal</abbr><ex>atina</ex></expan> <name>F<supplied reason="lost">abio</supplied></name>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <g ref="interpunct">·</g> <name>Domitio</name> <g ref="interpunct">·</g> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="interpunct">·</g> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <expan><abbr>Pal</abbr><ex>atina</ex></expan> <name>F<supplied reason="lost">abio</supplied></name>
                     <lb n="2"/><name>Hermogeni</name></persName>
-                    <lb n="3"/>e<supplied reason="lost">quiti</supplied> Romano scribae <expan><abbr>aedil</abbr><ex>ium</ex></expan> <expan><abbr>curul</abbr><ex>ium</ex></expan> <expan><abbr>dec</abbr><ex>urioni</ex></expan> <expan><abbr>adle<supplied reason="lost">ct</supplied></abbr><ex>o</ex></expan>
-                    <lb n="4"/><expan><abbr>fl<supplied reason="lost">am</supplied></abbr><ex>ini</ex></expan> <persName type="divinity" key="divusHadrianus"><name><supplied reason="lost">divi</supplied></name> <name><supplied reason="lost">H</supplied>ad<supplied reason="lost">ria</supplied>ni</name></persName> in cuius sacerdotio solus ac primus lud<supplied reason="lost">os></supplied>
-                    <lb n="5"/><supplied reason="lost">scaenic</supplied>os sua p<supplied reason="lost">e</supplied>cunia fecit aedili hunc splendissimus ordo <expan><abbr>decur<supplied reason="lost">ion</supplied></abbr><ex>um</ex></expan>
-                    <lb n="6"/><expan><abbr><supplied reason="lost">fun</supplied></abbr><ex>ere</ex></expan> <supplied reason="lost">publ</supplied>ico hon<supplied reason="lost">o</supplied>ravit eique statuam equestrem subscriptione ob amor<supplied reason="lost">em</supplied>
-                    <lb n="7"/><supplied reason="lost">et industr</supplied>iam o<supplied reason="lost">mne</supplied>m in foro ponendam pecunia publica decre<supplied reason="lost">v</supplied>i<supplied reason="lost">t</supplied>
-                    <lb n="8"/><supplied reason="lost">inque l</supplied>oc<supplied reason="lost">um e</supplied>ius <expan><abbr><supplied reason="lost">ae</supplied>dil</abbr><ex>em</ex></expan> substituendum non putavit in solacium <persName type="attested"><name>Fab<supplied reason="lost">i</supplied></name></persName> <supplied reason="lost">pat</supplied>ris
-                    <lb n="9"/><supplied reason="lost">qu</supplied>i ob honores <supplied reason="lost">ei h</supplied>a<supplied reason="lost">bi</supplied>t<supplied reason="lost">o</supplied>s <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan> <num value="50"><hi rend="supraline">L</hi></num> <expan><abbr><hi rend="supraline">m</hi></abbr><ex>ilia</ex></expan> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ummum</ex></expan> rei publicae dedit ex quorum usuris quincun<supplied reason="lost">ci</supplied>bus
-                    <lb n="10"/><supplied reason="lost">q</supplied>uod annis <num value="13">XIII</num> <expan><abbr>k<supplied reason="lost">al</supplied></abbr><ex>endas</ex></expan> <expan><abbr>Aug</abbr><ex>ustas</ex></expan> die natali eius <expan><abbr>decurionib</abbr><ex>us</ex></expan> <!-- denarii --> <num value="550">DL</num> <expan><abbr>praesentib</abbr><ex>us</ex></expan> in foro ant<supplied reason="lost">e</supplied> <supplied reason="lost">statuam</supplied> <expan><abbr><supplied reason="lost">s</supplied></abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptam</ex></expan>
-                    <lb n="11"/><supplied reason="lost">divi</supplied>dantur dec<supplied reason="lost">u</supplied>rialbus scribis ceraris <!-- denarii --> <num value="37">XXXVII</num> <expan><abbr>s</abbr><ex>emissem</ex></expan> libraris <!-- denarii --> <num value="12">XII</num> <expan><abbr>s</abbr><ex>emissem</ex></expan> item lictoribus <supplied reason="lost" cert="low"><!-- denarii --> <num value="25">XXV</num></supplied>
-                    <lb n="12"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Fabius</name> <persName type="patronym"><name><expan><abbr>Sp</abbr><ex>uri</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan> <name>Eutychus</name></persName> lictor curiatius scrib<supplied reason="lost">a</supplied> cer<supplied reason="lost">arius</supplied>
-                    <lb n="13"/>et librarius <expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennalis</ex></expan> collegi <expan><abbr>fabr</abbr><ex>um</ex></expan> <expan><abbr><supplied reason="lost">tig</supplied>nuar</abbr><ex>iorum</ex></expan> <expan><abbr>Ostiens</abbr><ex>ium</ex></expan> et Artoria eius par<supplied reason="lost">entes</supplied>
+                    <lb n="3"/>e<supplied reason="lost">quiti</supplied> Romano scribae <expan><abbr>aedil</abbr><ex>ium</ex></expan> <expan><abbr>curul</abbr><ex>ium</ex></expan> <expan><abbr>dec</abbr><ex>urioni</ex></expan> <expan><abbr><supplied reason="lost" evidence="previouseditor">adle</supplied><supplied reason="lost">ct</supplied></abbr><ex>o</ex></expan>
+                    <lb n="4"/><expan><abbr>fl<supplied reason="lost">am</supplied></abbr><ex>ini</ex></expan> <persName type="divinity" key="divusHadrianus"><name><supplied reason="lost">divi</supplied></name> <name><supplied reason="lost">H</supplied>ad<supplied reason="lost">ria</supplied>ni</name></persName> in cuius sacerdotio <g ref="interpunct">·</g> solus ac primus <supplied reason="previouseditor">lud</supplied><supplied reason="lost">os></supplied>
+                    <lb n="5"/><supplied reason="lost">scaenic</supplied>os sua p<supplied reason="lost">e</supplied>cunia fecit <g ref="interpunct">·</g> aedili hunc <g ref="interpunct">·</g> splendidissimus ordo <g ref="interpunct">·</g> <expan><abbr>de<supplied reason="lost">cur</supplied><supplied reason="lost">ion</supplied></abbr><ex>um</ex></expan>
+                    <lb n="6"/><expan><abbr><supplied reason="lost">fun</supplied></abbr><ex>ere</ex></expan> <supplied reason="lost">publ</supplied>ico hon<supplied reason="lost">o</supplied>ravit <g ref="interpunct">·</g> eique <g ref="interpunct">·</g> statuam equestrem <g ref="interpunct">·</g> subscriptione <g ref="interpunct">·</g> ob am<supplied reason="lost" evidence="previouseditor">or</supplied><supplied reason="lost">em</supplied>
+                    <lb n="7"/><supplied reason="lost">et industr</supplied>iam o<supplied reason="lost">mne</supplied>m <g ref="interpunct">·</g> in foro <g ref="interpunct">·</g> ponendam <g ref="interpunct">·</g> pecunia <g ref="interpunct">·</g> publica <g ref="interpunct">·</g> decre<supplied reason="lost">v</supplied>i<supplied reason="lost">t</supplied>
+                    <lb n="8"/><supplied reason="lost">inque l</supplied>oc<supplied reason="lost">um e</supplied>ius <expan><abbr><supplied reason="lost">ae</supplied>dil</abbr><ex>em</ex></expan> substituendum <g ref="interpunct">·</g> non <g ref="interpunct">·</g> putavit <g ref="interpunct">·</g> in <g ref="interpunct">·</g> solacium <g ref="interpunct">·</g> <persName type="attested"><name>Fab<supplied reason="lost">i</supplied></name></persName> <supplied reason="lost">pat</supplied>ris
+                    <lb n="9"/><supplied reason="lost">qu</supplied>i ob honores <supplied reason="lost">ei h</supplied>a<supplied reason="lost">bi</supplied>t<supplied reason="lost">o</supplied>s <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan> <num value="50000"><hi rend="supraline">L</hi></num> <g ref="interpunct">·</g> <expan><abbr><hi rend="supraline">m</hi></abbr><ex>ilia</ex></expan> <g ref="interpunct">·</g> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ummum</ex></expan><g ref="interpunct">·</g>  rei publicae <g ref="interpunct">·</g> dedit <g ref="interpunct">·</g> ex <g ref="interpunct">·</g> quorum <g ref="interpunct">·</g> usuris <g ref="interpunct">·</g> quincun<supplied reason="lost">ci</supplied>bus
+                    <lb n="10"/><supplied reason="lost">q</supplied>uod annis <num value="13">XIII</num> <expan><abbr>k<supplied reason="lost">al</supplied></abbr><ex>endas</ex></expan> <expan><abbr>Aug</abbr><ex>ustas</ex></expan> <supplied reason="lost">d</supplied>ie natali <g ref="interpunct">·</g> eius <expan><abbr>decurionib</abbr><ex>us</ex></expan> <g ref="interpunct">·</g> <g ref="denarius"/> <num value="550"><hi rend="strikethrough">D</hi>L</num> <g ref="interpunct">·</g> <expan><abbr>praesentib</abbr><ex>us</ex></expan> <g ref="interpunct">·</g> in foro ant<supplied reason="lost">e</supplied> <supplied reason="lost">statuam</supplied> <expan><abbr><supplied reason="lost">s</supplied></abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptam</ex></expan>
+                    <lb n="11"/><supplied reason="lost">divi</supplied>dantur dec<supplied reason="lost">u</supplied>rialbus scribis ceraris <g ref="denarius"/> <num value="37">XXXVII</num> <expan><abbr>s</abbr><ex>emissem</ex></expan> libraris <g ref="interpunct">·</g> <g ref="denarius"/> <num value="12">XII</num> <expan><abbr>s</abbr><ex>emissem</ex></expan> <g ref="interpunct">·</g> item <g ref="interpunct">·</g> lictoribus <supplied reason="lost" cert="low"> <g ref="denarius"/> <num value="25">XXV</num></supplied>
+                    <lb n="12"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Fabius</name> <persName type="patronym"><name><expan><abbr>Sp</abbr><ex>uri</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ilius</ex></expan> <name>Eutychus</name></persName> lictor <g ref="interpunct">·</g> curiatius <g ref="interpunct">·</g> scrib<supplied reason="lost">a</supplied> <supplied reason="lost" evidence="previouseditor">cer</supplied><supplied reason="lost">arius</supplied>
+                    <lb n="13"/>et librarius <expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennalis</ex></expan> collegi <g ref="interpunct">·</g> <expan><abbr>fabr</abbr><ex>um</ex></expan> <expan><abbr><supplied reason="lost">tig</supplied>nuar</abbr><ex>iorum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>Ostiens</abbr><ex>ium</ex></expan> <g ref="interpunct">·</g> et <g ref="interpunct">·</g> Artoria eius par<supplied reason="lost">entes</supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To Gaius Domitius Fabius Hermogenes, son of Lucius, of the tribe Palatina, Roman knight, scribe of the curule aediles, adlected decurion, flamen of the divine Hadrian
+                   in which priesthood he alone and first sponsored scenic games at his own expense, and aedile. The most splendid order of decurions honoured him with a public funeral
+                   and decreed for him an equestrian statue in the forum by subscription at public expense, on account of his devotion and diligence, and in his place it was decided not 
+                   to substitute anyone as aedile in consolation to his father Fabius, who on account of the honours having been given to his son, gave 50,000 sesterces to the republic,
+                   from the interest of which, every year, on the 13th day before the Kalends of August, his [son's] birthday, 500 denarii are to be distributed among the decurions present in 
+                   the forum before his aforementioned statue, and to the decurial cerarius scribes 37 1/2 denarii, to the copyists 12 1/2 denarii, and likewise [25? denarii] to the lictors.  
+                   Lucius Fabius Eutychus, son of Spurius, a curiate lictor, cerarius scribe, and copyist, quinquennalis of the guild of Ostian carpenters, and Artoria, his wife [set this up],
+                   his parents.
+                </p>
             </div>
             <div type="commentary">
-                <p>This is the same C. Domitius Fabius Hermogenus as in <ref target="EmpWor000105.xml">EmpWor000105</ref>.</p> 
+                <p>This is the same C. Domitius Fabius Hermogenes as in <ref target="EmpWor000105.xml">EmpWor000105</ref>, and some of the more ambitious restorations from this monument
+                are the result of comparison with the inscription for his statue base in the forum (mentioned here in this inscription). While Hermogenes was elevated to equestrian status, 
+                his father – L. Fabius Eutychus – was potentially a freedman (see e.g. Hartmann 2020, 138), and his mother, Artoria, potentially came from a family of craftspeople 
+                (see other Artorii: CIL 14.617a, 618, 251). Both father and son take pride in their apparitorial careers, especially in Rome, and which enriched the father to the extent 
+                that he could afford to pay 50,000 sesterces to the public treasury for benefactions to be paid out the interest for the sum. In terms of the development of emperor worship 
+                at Ostia, it is remarkable that Hermogenes was the first sponsor scenic games for Ostia during his priesthood of the divine Hadrian. Hermogenes' name likely points to his
+                adoption or some other close connection with C. Domitius Dexter, who was consul suffectus and later consul ordinarius in 196 CE (Hartmann 2020, 139; D'Arms 1976, 400-401), 
+                and who was potentially responsible for his elevation to equestrian status. Hermogenes' public career at Ostia as decurion, flamen of the divine Hadrian, and aedile, 
+                seems to have been cut short by his premature death.
+                </p> 
             </div>
             <div type="bibliography">
                 <p>
@@ -162,6 +180,16 @@
                 <p>
                     <bibl>
                         <ptr target="Bergemann1990"/> <citedRange>E33</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Hartmann2020"/> <citedRange>138–139</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="DArms1976"/> <citedRange>400-401</citedRange>
                     </bibl>
                 </p>
             </div>

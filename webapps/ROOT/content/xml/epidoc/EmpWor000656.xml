@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000656</title>
+                <title>Dedication to Belenus Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt> 
+                    <name xml:id="SPS" ref="https://orcid.org/0009-0003-1306-1347">Savinay Sood</name>
+                    <resp>Edited Text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -26,7 +30,7 @@
                         <region>Regio X</region>
                         <settlement>Aquileia</settlement>
                         <repository>Aquileia, Museo Archeologico Nazionale, Galleria Lapidaria (area under renovation).</repository>  
-                        <idno></idno>
+                        <idno>369</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,29 +38,29 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>This tall, rectangular stone altar has been reassembled from three broken pieces. The altar has a rounded top. Jug carved on left side.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
-                                        <height unit="cm">51</height>
-                                        <width unit="cm">26</width>
-                                        <depth unit="cm">25</depth>
+                                        <height unit="cm">87</height>
+                                        <width unit="cm">34</width>
+                                        <depth unit="cm">23</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.broken"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>The text takes up the top half of the stone, and is only roughly centred. Cracks partially obscure text.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The characters are relatively even, well-spaced, and serifed. The letters are carved widely, particularly in line 5. Tall "I"s in line 3, and "T" in line 4. The ligature in line 4 creates a very tall "I" in line 4.</p>
                                 <locus from="line1" to="line5">Lines 1–5</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm">20–25</height>
+                                    <height unit="mm">30–50</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -70,7 +74,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Aquileia, Rosin foundation</provenance>
                         <provenance type="observed" subtype="studied">Antoniou studied and photographed the stone on 2025-08-06</provenance>
                     </history>
                 </msDesc>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-17" who="SPS">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,22 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#SPS">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="belenusAugustus"><name>Belino</name>
+                    <lb n="2"/><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>Carmini</abbr><ex>us</ex></expan></name>
+                    <lb n="4"/><persName type="libertino"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="interpunct">·</g> <expan><abbr>l</abbr><ex>ibertus</ex></expan></persName> <g ref="interpunct">·</g> <name>Trop<hi rend="ligature">hi</hi>mus</name></persName>
+                    <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>s</abbr><ex>olvit</ex></expan> <g ref="interpunct">·</g> <expan><abbr>l</abbr><ex>ibens</ex></expan> <g ref="interpunct">·</g> <expan><abbr>m</abbr><ex>erito</ex></expan>   
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Belinus Augustus. Marcus Carminius Trophimus, freedman of Marcus, this vow was freely and willingly given.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -131,12 +140,12 @@
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange>01300152</citedRange>
+                        <ptr target="EDCS"/> <citedRange>01300070</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDR"/> <citedRange>117143</citedRange>
+                        <ptr target="EDR"/> <citedRange>117088</citedRange>
                     </bibl>
                 </p>
             </div>

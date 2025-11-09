@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000654</title>
+                <title>Dedication to Deus Silvanus Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt> 
+                    <name xml:id="SPS" ref="https://orcid.org/0009-0003-1306-1347">Savinay Sood</name>
+                    <resp>Edited Text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,26 +38,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>This altar has been broken in the middle and restored; line 4 has been disrupted by this break. The plinth at top and bottom are very crudely carved, and rather angular and blocky.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
                                         <height unit="cm">41</height>
                                         <width unit="cm">24</width>
                                         <depth unit="cm">19</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>The text takes up the majority of the space on the altar; whilst it is relatively uniform, the text is not perfely centred.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The letters have serifs and are large, and roughly the same size, however the spacing is far from even. In line 2 the letters are crowded. Triangular interpuncts are used.</p>
                                 <locus from="line1" to="line6">Lines 1–6</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">20–30</height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-17" who="#SPS">Edited text and description of monument</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,23 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#SPS">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine">Deo
+                    <lb n="2"/><name><expan><abbr>Belen</abbr><ex>o</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>Calpurn</abbr><ex>ius</ex></expan></name>
+                    <lb n="4"/><name>Par<unclear>t</unclear>h<unclear>en</unclear>opa<unclear>eu</unclear>s</name></persName>
+                    <lb n="5"/>I<hi rend="supraline">IIII</hi>Ivir <expan><abbr>Aq</abbr><ex>uileiae</ex></expan>
+                    <lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>s</abbr><ex>olvit</ex></expan> <g ref="interpunct">·</g> <expan><abbr>l</abbr><ex>ocus</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>atus</ex></expan> <g ref="interpunct">·</g><expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecuronium</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To the God Belenus Augustus. Lucius Calpurnius Parthenopaeus, sexvir of Aquileia, gave this vow. The location was given by decree of the decurions.</p>
             </div>
             <div type="commentary">
                 <p></p> 

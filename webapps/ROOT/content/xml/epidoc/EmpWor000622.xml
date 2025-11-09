@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000622</title>
+                <title>Dedication to Silvanus Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="JSG" ref="https://orcid.org/0009-0007-5552-1849">Jonah Secmezsoy Gault</name>
+                    <resp>Editing text and description of object</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,8 +38,8 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
+                                <support><p>Lower half of broken tall rectangular column, leaving a jagged, slightly diagonal top edge. Entabulature on bottom third of altar, which is wider than the main body. Other than its broken top, the rest of the altar is in relatively good condition, although worn on various edges.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
                                         <height unit="cm">39</height>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">25</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.broken"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text is generally well centred and lines 1 and 4 take up the whole of the available horizontal space. Line 3 has very evidently been added by another hand, probably at a later date.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is mostly complete, but for the top half of the first line. The letters in lines 1, 2 and 4 are tall, neat and seriffed, with triangular interpuncts. Line 3 is less assured: the text is freer, less regular, and the letters are less symmetrical than the rest.</p>
                                 <locus from="line1" to="line5">Lines 1–5</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">40</height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-10" who="JSG">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,21 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#JSG">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine"><name>Silvano</name>
+                    <lb n="2"/><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
+                    <lb n="3"/>et <g ref="interpunct">·</g> <persName type="divine"><name>Mercurio</name></persName>
+                    <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>s</abbr><ex>olvit</ex></expan> <g ref="interpunct">·</g> <expan><abbr>l</abbr><ex>ibens</ex></expan> <g ref="interpunct">·</g><expan> <abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Silvanus Augustus, and Mercury. This vow was willingly and deservedly fulfilled.</p>
             </div>
             <div type="commentary">
                 <p></p> 

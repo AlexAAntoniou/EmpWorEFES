@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000651</title>
+                <title>Dedication to Belenus Augustus.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt> 
+                    <name xml:id="SPS" ref="https://orcid.org/0009-0003-1306-1347">Savinay Sood</name>
+                    <resp>Edited Text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,8 +38,8 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
+                                <support><p>Two interconnected fragments of a tall altar, broken three-quarters of the way down, with wear on the top and bottom. Neat capital entabulature at top and bottom.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> 
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
                                         <height unit="cm">80</height>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">17</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.broken.restored"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>The text is neatly centered in the top half of the altar.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The letters are neat and well-spaced, although lines 3 and 4 slightly drift downwards. Small and neat serifs. The "N"s in line 3 are slightly wider than the other letters. The interpunct on line 5 is in the shape of a slanted X, at a c.30 degree anticlockwise angle.</p>
                                 <locus from="line1" to="line5">Lines 1–5</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">20–25</height>
@@ -70,7 +74,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Aquileia, on the Rosin estate.</provenance>
                         <provenance type="observed" subtype="studied">Antoniou studied and photographed the stone on 2025-08-06</provenance>
                     </history>
                 </msDesc>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-10" who="SPS">Edited Text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,22 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#SPS">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine"><name>Beleno</name>
+                    <lb n="2"/><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
+                    <lb n="3"/><persName type="attested"><name>Aesennia</name>
+                    <lb n="4"/><name>Eupistis</name></persName>
+                    <lb n="5"/><expan><abbr>d</abbr><ex>onum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>edit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph</note></app> 
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Belenus Augustus, Aesennia Eupistis gave this gift.</p>
             </div>
             <div type="commentary">
                 <p></p> 

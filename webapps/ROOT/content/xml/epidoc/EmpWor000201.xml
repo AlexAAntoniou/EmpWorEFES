@@ -34,9 +34,8 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType> <!-- Default value -->
+                                <support><p>Painted depinto on wall;</p>
+                                    <objectType ana="#object.grafito" ref="https://www.eagle-network.eu/voc/typeins/lod/127.html">Graffito</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
@@ -47,7 +46,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
-                                    <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
+                                    <rs ana="#execution.depinto" ref="https://www.eagle-network.eu/voc/writing/lod/10.html">Depinto</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>

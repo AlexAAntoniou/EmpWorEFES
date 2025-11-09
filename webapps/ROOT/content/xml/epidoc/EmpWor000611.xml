@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000611</title>
+                <title>Dedication to Silvanus Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="JSG" ref="https://orcid.org/0009-0007-5552-1849">Jonah Secmezsoy Gault</name>
+                    <resp>Editing text and description of object</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Tall rectangular altar, narrow in width, noticeable (but broken) entabulature on the top of the stone which slightly extends out over the front of the altar. Some noticeable and significant damage to the altar, including a diagonal crack in the front face between lines 5 and 6, and noticeable wearing on top and bottom. </p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">13</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>The text has been centred into the middle of the inscribed space: a large but shallow hollow which extends from the bottom of the altar to the entabulature at the top. The text takes up the majority of the altar besides from a gap at the bottom of several lines. The text is fully legible, though there is damage between lines 5 and 6.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The text is relatively uniform in shape and size throughout, although there are some letters that are noticeably less than uniform (the "V" in Silvano in line 1; the "C" in "sac" in line 2; the "M" in "memoriam" in line 6; and the "P" and "T" in line 10. Letters have simple serifs.</p>
                                 <locus from="line1" to="line11">Lines 1–11</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">10</height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-15" who="#JSG">Edited text and description of object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,28 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#JSG">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine"><name>Silvano</name>
+                    <lb n="2"/><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> <g ref="interpunct">·</g> <expan><abbr>sac</abbr><ex>rum</ex></expan>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="interpunct">·</g> <name>Spurius</name>
+                    <lb n="4"/><name>Celer</name></persName>
+                    <lb n="5"/>in
+                    <lb n="6"/>memori<hi rend="ligature">am</hi>
+                    <lb n="7"/><persName type="attested"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <g ref="interpunct">·</g> <name>Avili</name> <g ref="interpunct">·</g> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <g ref="interpunct">·</g> <expan><abbr>f</abbr><ex>ili</ex></expan></persName> 
+                    <lb n="8"/><name>Flori</name></persName>
+                    <lb n="9"/><expan><abbr>vet</abbr><ex>erani</ex></expan> <g ref="interpunct">·</g> <expan><abbr>coh</abbr><ex>ortis</ex></expan><g ref="interpunct">·</g> <hi rend="supraline"><num value="5">Ⅴ</num></hi>
+                    <lb n="10"/><expan><abbr>praet</abbr><ex>oriae</ex></expan>
+                    <lb n="11"/><expan><abbr>don</abbr><ex>um</ex></expan> <g ref="interpunct">·</g> <expan><abbr>ded</abbr><ex>it</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Silvanus Augustus. Lucius Spurius Celer, gave this gift in the memory of Caius Avilius Florus, son of Caius, veteran of the fifth cohort of praetorians.</p>
             </div>
             <div type="commentary">
                 <p></p> 

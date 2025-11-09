@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000105</title>
+                <title>Honorific inscription for C. Domitius Hermogenes, flamen of the divine Hadrian</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -25,8 +25,8 @@
                         <country>Italy</country>
                         <region>Regio I</region>
                         <settlement>Ostia/Portuus</settlement>
-                        <repository>Musei Vaticani, Lapidario Profano ex Lateranense</repository> 
-                        <idno>25464a–b</idno>
+                        <repository>Fragment a: Musei Vaticani, Lapidario Profano ex Lateranense; Fragment b: Forum of Ostia</repository>
+                        <idno>Fragment a: 25464a–b; fragment b: 1824</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -43,7 +43,7 @@
                                         <depth unit="cm">Frag a) 5, frag b) 4</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -94,9 +94,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-05-28" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-28" who="#AA">Edition of inscription based on autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,10 +108,10 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <div type="textpart" subtype="side" n="a">
-                     <ab><!-- Only basic encoding -->
+                     <ab>
                          <lb n="1"/><persName type="attested"><name><unclear>Fa</unclear>bio</name> <name>Hermog<supplied reason="lost">eni</supplied></name></persName>
                          <lb n="2"/>equo <expan><abbr>publ</abbr><ex>ico</ex></expan> scribae <expan><abbr>aedil</abbr><ex>ium</ex></expan> <supplied reason="lost"><expan><abbr>cur</abbr><ex>ulium</ex></expan></supplied>
-                         <lb n="3"/><expan><abbr>dec</abbr><ex>urioni</ex></expan> <expan><abbr>ad</abbr><ex>lecto</ex></expan> <expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divinity"><name>divi</name> <name>Hadri<supplied reason="lost">ani</supplied></name></persName>
+                         <lb n="3"/><expan><abbr>dec</abbr><ex>urioni</ex></expan> <expan><abbr>ad</abbr><ex>lecto</ex></expan> <expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divinity" key="divusHadrianus"><name>divi</name> <name>Hadri<supplied reason="lost">ani</supplied></name></persName>
                          <lb n="4"/>in cuius sacerdotio solus ac p<supplied reason="lost">rimus ludos</supplied>
                          <lb n="5"/>scaenicos sua pecunia fecit <supplied reason="lost">aedili</supplied>
                          <lb n="6"/>hunc splendidissimus ordo dec<supplied reason="lost">urionum <expan><abbr>fun</abbr><ex>ere</ex></expan> <expan><abbr>publ</abbr><ex>ico</ex></expan></supplied>
@@ -119,12 +120,12 @@
                          <lb n="9"/>in foro ponendam <expan><abbr>pecun</abbr><ex>iam</ex></expan> <expan><abbr>publ</abbr><ex>icam</ex></expan> decr<supplied reason="lost">evit</supplied>
                          <lb n="10"/>inque locum eius <expan><abbr>aedil</abbr><ex>em</ex></expan> substituendum <supplied reason="lost">non</supplied>
                          <lb n="11"/>putavit in solacium <persName type="attested"><name>Fabi</name></persName> pat<supplied reason="lost">ris</supplied>
-                         <lb n="12"/>qui ob honores ei habitos <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertios</ex></expan> <hi rend="supraline"><num value="50">L</num> <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>n</abbr><ex>ummum</ex></expan>/expan></hi> <supplied reason="lost">rei <expan><abbr>p</abbr><ex>ublicae</ex></expan></supplied>
+                         <lb n="12"/>qui ob honores ei habitos <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertios</ex></expan> <hi rend="supraline"><num value="50000">L</num> <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>n</abbr><ex>ummum</ex></expan></hi> <supplied reason="lost">rei <expan><abbr>p</abbr><ex>ublicae</ex></expan></supplied>
                          <lb n="13"/>dedit ex quorum usuris quincunc<unclear>i</unclear><supplied reason="lost">bus</supplied>
-                         <lb n="14"/><supplied reason="lost">quod</supplied> annis <num value="13">XII</num> <expan><abbr>kal</abbr><ex>endas</ex></expan> <expan><abbr>Aug</abbr><ex>ustas</ex></expan> die natali eius dec<supplied reason="lost">urionibus</supplied>
-                         <lb n="15"/><supplied reason="lost">si</supplied>ngulis <!-- denarii --> <num value="5">V</num> dentur et d<unclear>ec</unclear>uri<supplied reason="lost">alibus scribis</supplied>
-                         <lb n="16"/><supplied reason="lost">ce</supplied>raris <!-- denarii --> <num value="37">XXXVII</num> <!-- semis --> libraris <!-- denarii --> <supplied reason="lost"><num value="12">XII</num> <!-- semis --></supplied>
-                         <lb n="17"/>li<supplied reason="lost">ctor</supplied>ibus <!-- denarii --> <num value="25">XXV</num>
+                         <lb n="14"/><supplied reason="lost">quod</supplied> annis <num value="13">XIII</num> <expan><abbr>kal</abbr><ex>endas</ex></expan> <expan><abbr>Aug</abbr><ex>ustas</ex></expan> die natali eius dec<supplied reason="lost">urionibus</supplied>
+                         <lb n="15"/><supplied reason="lost">si</supplied>ngulis <g ref="denarius"/> <num value="5">V</num> dentur et d<unclear>ec</unclear>uri<supplied reason="lost">alibus scribis</supplied>
+                         <lb n="16"/><supplied reason="lost">ce</supplied>raris <g ref="denarius"/> <num value="37">XXXVII</num> <g ref="semis"/> libraris <g ref="denarius"/> <supplied reason="lost"><num value="12">XII</num> <g ref="semis"/></supplied>
+                         <lb n="17"/>li<supplied reason="lost">ctor</supplied>ibus <g ref="denarius"/> <num value="25">XXV</num>
                      </ab>
                 </div>
                 <div type="textpart" subtype="side" n="b">
@@ -141,14 +142,42 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>
+                   [Fragment A]
+                   To Fabius Hermogenes, Roman knight, scribe of the [curule] aediles, adlected decurion, flamen of the divine Hadrian
+                   in which priesthood he alone and first sponsored [scenic games] at his own expense, and [aedile]. The most splendid order 
+                   of decurions honoured him [with a public funeral] and decreed for him an equestrian statue in the forum by subscription 
+                   at public expense, on account of his devotion and diligence, and in his place it was decided not to substitute anyone as 
+                   aedile in consolation to his father Fabius, who on account of the honours having been given to his son, gave 50,000 sesterces 
+                   to the republic, from the interest of which, every year, on the 13th day before the Kalends of August, his [son's] birthday, 
+                   5 denarii are to be given to each decurion there, and to the decurial cerarius scribes 37 1/2 denarii, to the copyists 12 1/2 denarii,
+                   and to the lictores 25 denarii.
+                   
+                   [Fragment B]
+                   In the temple of Roma and Augustus, it pleased the order of the decurions, in the presence of his father Fabius, that on the 
+                   birthday of his son Hermogenes, gifts of money be distributed to those present in the forum before his statues, a formal
+                   stipulation having been made.
+                </p>
             </div>
             <div type="commentary">
-                <p>This inscription is one of two (see also <ref target="EmpWor000104.xml">EmpWor000104</ref> which attests to the dedicatory formula of the <ref target="monument-search.xml#ostiaaedes">Aedes of Roma and Augustus</ref> at <ref target="ancient_place.xml#Ostia">Ostia</ref>. This temple is archaeologically attested at the southern end of Ostia's forum. This is the same C. Domitius Fabius Hermogenus as in <ref target="EmpWor000124.xml">EmpWor000124</ref>.</p> 
+                <p>
+                    This inscription is one of two (see also <ref target="EmpWor000104.xml">EmpWor000104</ref>) which attests to the dedicatory formula of the 
+                    <ref target="monument-search.xml#ostiaaedes">Aedes of Roma and Augustus</ref> at <ref target="ancient_place.xml#Ostia">Ostia</ref>. 
+                    This temple is archaeologically attested at the southern end of Ostia's forum. This is the same C. Domitius Fabius Hermogenes as in 
+                    <ref target="EmpWor000124.xml">EmpWor000124</ref>, and some of the more ambitious restorations from this monument are the result of comparison 
+                    with the inscription on his tomb near the Porta Romana. While Hermogenes was elevated to equestrian status, his father – L. Fabius Eutychus – was potentially 
+                    a freedman (see e.g. Hartmann 2020, 138), and his mother, Artoria, potentially came from a family of craftspeople (see other Artorii: CIL 14.617a, 618, 251). 
+                    Both father and son take pride in their apparitorial careers, especially in Rome, and which enriched the father to the extent that he could afford to pay 50,000 
+                    sesterces to the public treasury for benefactions to be paid out the interest for the sum. In terms of the development of emperor worship at Ostia, it is remarkable 
+                    that Hermogenes was the first sponsor scenic games for Ostia during his priesthood of the divine Hadrian. Hermogenes' name likely points to his
+                adoption or some other close connection with C. Domitius Dexter, who was consul suffectus and later consul ordinarius in 196 CE (Hartmann 2020, 139; D'Arms 1976, 400-401), 
+                and who was potentially responsible for his elevation to equestrian status. Hermogenes' public career at Ostia as decurion, flamen of the divine Hadrian, and aedile, 
+                seems to have been cut short by his premature death.
+                </p> 
             </div>
             <div type="bibliography">
                 <p>
@@ -174,6 +203,16 @@
                 <p>
                     <bibl>
                         <ptr target="Bergemann1990"/> <citedRange>E32</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Hartmann2020"/> <citedRange>138–139</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="DArms1976"/> <citedRange>400-401</citedRange>
                     </bibl>
                 </p>
             </div>

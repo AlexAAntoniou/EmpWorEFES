@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000628</title>
+                <title>Dedication to Spes Augusta</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt> 
+                    <name xml:id="SPS" ref="https://orcid.org/0009-0003-1306-1347">Savinay Sood</name>
+                    <resp>Edited Text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,26 +38,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                <support><p>Long rectangular altar, with a simple layered capital that narrows at the top. The sides are complete, however there is visible weathering on all edges.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
                                         <height unit="cm">38</height>
-                                        <width unit="cm"></width>
+                                        <width unit="cm"></width> <!-- EDR clear error here -->
                                         <depth unit="cm">10</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>The text is inconsistently centred, with lines 1 and 2 justified more to the right, whereas line 4 is well-centred. Text covers the top third or so of the altar. The weathering obfuscates the text a little.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The text is complete. The handwriting is line and narrow, uncertainly handled in places, is poorly spaced throughout. Letters are different sizes. The first interpunct in line 3 is at the bottom of the line rather than in the middle. The interpuncts are roughly triangular.</p>
                                 <locus from="line1" to="line4">Lines 1–4</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">30–35</height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-03" who="SPS">Text Editing</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,22 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#SPS">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine"><name>Spei</name> <g ref="interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName>
+                    <lb n="2"/><expan><abbr>sacr</abbr><ex>um</ex></expan> <g ref="interpunct">·</g>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>Corn</abbr><ex>elius</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>Poit</abbr><ex cert="low">us</ex></expan></name></persName>
+                    <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>s</abbr><ex>olvit</ex></expan> <g ref="interpunct">·</g> <expan><abbr>l</abbr><ex>ibens</ex></expan> <g ref="interpunct">·</g> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from photograph</note></app>
+                    <app loc="1"><note>EDR reads on line 3: "POTI" but the stone clearly shows "POIT"</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Spes Augusta. L. Cornelius Poitus, willingly and deservedly fulfilled his vow.</p>
             </div>
             <div type="commentary">
                 <p></p> 

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000006 (Numen Inscription)</title>
+                <title>Dedication to the Numen (and Maiestas) of Philip and Marcia Otacilia Severa</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,28 +34,30 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Thin square inscribed plaque, within simple carved border.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">60</height>
+                                        <width unit="cm">58</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.broken"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text exactly fills all available space on the stone. Parts of the imperial titulature of the dedicatees has been erased in antiquity.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                            <handNote><p>Surviving text is relatively neat and clear, although letter heights and widths are a little inconsistent throughout. Ends of lines are occasionally squished in, or ligatures are used, to fit remaining text into a line.</p>
+                                <locus from="line1" to="line15">Lines 1–15</locus>
+                                <dimensions type="letterHeight">
+                                    <height unit="mm">30</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -66,7 +68,7 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3183356/albano-laziale.html">Albano Laziale</placeName>
                                 <geo>41.72895, 12.66020</geo>
                             </origPlace>
-                            <origDate when="0244">244 CE</origDate>
+                            <origDate when="0244" evidence="consuls">Dated to 244 CE on the basis of the consular year</origDate>
                         </origin>
                         <provenance type="found"></provenance>
                         <provenance type="observed"></provenance>
@@ -94,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-04-04" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-28" who="#AA">Creation of draft edition</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -106,37 +109,61 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab> <!-- CIL -->
-                   <lb n="1"/>Victori<hi rend="ligature">ae</hi> reducis <expan><abbr>dd</abbr><ex>dominorum</ex></expan> <expan><abbr>nn</abbr><ex>ostrorum</ex></expan>
-                   <lb n="2"/><persName><del rend="erasure"> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <name><expan><abbr>Caes</abbr><ex>aris</ex></expan></name> <name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name>Iulii</name> <name>Philippi</name></del>
-                   <lb n="3"/>Pii Felicis <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> et <persName><name><del rend="erasure">Otaci</del>
-                   <lb n="4" break="no"/><unclear>liae</unclear></name> <name>Se<del rend="erasure">verae</del></name> <name><expan><abbr><unclear>Aug</unclear></abbr><ex>ustae</ex></expan></name></persName> <del rend="erasue">con</del>
-                   <lb n="5" break="no"/><expan><abbr>iugi</abbr><ex></ex>s</expan> <expan><abbr>d</abbr><ex>omini</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> milites <expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="2">II</num>
-                   <lb n="6"/><expan><abbr>Parth</abbr><ex>icae</ex></expan> <del rend="erasure">Philippianae</del> <expan><abbr>P</abbr><ex>iae</ex></expan> <expan><abbr>F</abbr><ex>elicis</ex></expan> <expan><abbr>F</abbr><ex>idelis</ex></expan>
-                   <lb n="7"/><expan><abbr>Aet</abbr><ex>ernae</ex></expan> <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>m</abbr><ex>ilitare</ex></expan> <expan><abbr>c</abbr><ex>oeperunt</ex></expan> Oclatin<supplied reason="lost">i</supplied>o Ad
-                   <lb n="8" break="no"/>ve<hi rend="ligature">nt</hi>o <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> quorum nomi
-                   <lb n="9" break="no"/>na cum <expan><abbr>trib</abbr><ex>ub</ex><abbr>us</abbr></expan> et patri
-                   <lb n="10" break="no"/>is inserta su<hi rend="ligature">nt</hi> devo
-                   <lb n="11" break="no"/>ti numini maiestati
-                   <lb n="12" break="no"/>que eorum <expan><abbr>d</abbr><ex>edicaverunt</ex></expan> <num>X</num> <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>ugstas</ex></expan> <persName><name>Pere
-                   <lb n="13" break="no"/>grino</name></persName> et <persName><name>Aemiliano</name></persName> <supplied reason="subaudile">consulibus</supplied> i<hi rend="ligature">n h</hi>is
-                   <lb n="14"/><g type="century"/> et <expan><abbr>evok</abbr><ex cert="low">ati</ex></expan> <expan><abbr><hi rend="ligature">Au</hi>gg</abbr><ex>ustorum</ex></expan> <expan><abbr><hi rend="ligature">nn</hi></abbr><ex>ostrorum</ex></expan> <expan><abbr>cura</abbr><ex>m</ex></expan> age
-                   <lb n="15" break="no"/><supplied reason="lost">n</supplied>te <persName><name><expan><abbr>Pompon</abbr><ex>io</ex></expan></name> <name>Iuliano</name> <name><expan>R</expan></name></persName> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <expan><abbr>eius</abbr><ex>dem</ex></expan> 
+                <ab> 
+                   <lb n="1"/>Victori<hi rend="ligature">ae</hi> <g ref="interpunct">·</g> reducis <g ref="interpunct">·</g> <expan><abbr>dd</abbr><ex>dominorum</ex></expan> <expan><abbr><hi rend="ligature">nn</hi></abbr><ex>ostrorum</ex></expan>
+                   <lb n="2"/><persName type="ruler" key="PhilipArab"><del rend="erasure"> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <name><expan><abbr>Caes</abbr><ex>aris</ex></expan></name> <name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name>Iulii</name> <name>Philippi</name></del>
+                   <lb n="3"/>Pii <g ref="interpunct">·</g> Felicis <g ref="interpunct">·</g> <expan><abbr>Aug</abbr><ex>usti</ex></expan></persName> <g ref="interpunct">·</g> et <g ref="interpunct">·</g> <persName type="ruler" key="Otacilia"><name><del rend="erasure">Otaci</del>
+                   <lb n="4" break="no"/><unclear>liae</unclear></name> <name>Se<del rend="erasure">verae</del></name> <expan><abbr><unclear>Aug</unclear></abbr><ex>ustae</ex></expan></persName> <del rend="erasue">con</del>
+                   <lb n="5" break="no"/><expan><abbr>iugi</abbr><ex></ex>s</expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>omini</ex></expan> <g ref="interpunct">·</g> <expan><abbr>n</abbr><ex>ostri</ex></expan> <g ref="interpunct">·</g> milites <g ref="interpunct">·</g> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <g ref="interpunct">·</g> <num value="2">II</num>
+                   <lb n="6"/><expan><abbr>Parth</abbr><ex>icae</ex></expan> <del rend="erasure">Philippianae</del> <expan><abbr>P</abbr><ex>iae</ex></expan> <expan><abbr>F</abbr><ex>elicis</ex></expan> <g ref="interpunct">·</g> <expan><abbr>F</abbr><ex>idelis</ex></expan> <g ref="interpunct">·</g>
+                   <lb n="7"/><expan><abbr>Aet</abbr><ex>ernae</ex></expan> <g ref="interpunct">·</g> <expan><abbr>q</abbr><ex>ui</ex></expan> <g ref="interpunct">·</g> <expan><abbr>m</abbr><ex>ilitare</ex></expan> <g ref="interpunct">·</g> <expan><abbr>c</abbr><ex>oeperunt</ex></expan><g ref="interpunct">·</g> Oclatino Ad
+                   <lb n="8" break="no"/>ve<hi rend="ligature">nt</hi>o <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> <g ref="interpunct">·</g> quorum nomi
+                   <lb n="9" break="no"/>na <g ref="interpunct">·</g> cum <g ref="interpunct">·</g> <expan><abbr>trib</abbr><ex>ub</ex><abbr>us</abbr></expan> <g ref="interpunct">·</g> et <g ref="interpunct">·</g> patri
+                   <lb n="10" break="no"/>is <g ref="interpunct">·</g> inserta <g ref="interpunct">·</g> su<hi rend="ligature">nt</hi> devo
+                   <lb n="11" break="no"/>ti <g ref="interpunct">·</g> <persName type="divine" key="numen"><name>numini</name></persName> <g ref="interpunct">·</g> maiestati
+                   <lb n="12" break="no"/>que <g ref="interpunct">·</g> eorum <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>edicaverunt</ex></expan> <g ref="interpunct">·</g> <num value="10">X</num> <g ref="interpunct">·</g> <expan><abbr>k</abbr><ex>alendas</ex></expan> <g ref="interpunct">·</g> <expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>ugstas</ex></expan> <persName><name>Pere
+                   <lb n="13" break="no"/>grino</name></persName> <g ref="interpunct">·</g> et <g ref="interpunct">·</g> <persName><name>Aemiliano</name></persName> <g ref="interpunct">·</g> <supplied reason="subaudile">consulibus</supplied> i<hi rend="ligature">n h</hi>is
+                   <lb n="14"/><g type="century"/> et <g ref="interpunct">·</g> <expan><abbr>evok</abbr><ex cert="low">ati</ex></expan> <g ref="interpunct">·</g> <expan><abbr><hi rend="ligature">Au</hi>gg</abbr><ex>ustorum</ex></expan> <g ref="interpunct">·</g> <expan><abbr><hi rend="ligature">nn</hi></abbr><ex>ostrorum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>cura</abbr><ex>m</ex></expan> <g ref="interpunct">·</g> age
+                   <lb n="15" break="no"/><supplied reason="lost">n</supplied>te <persName><name><expan><abbr>Pompon</abbr><ex>io</ex></expan></name> <g ref="interpunct">·</g> <name>Iuliano</name><g ref="interpunct">·</g> <name><expan>R</expan></name></persName> <g ref="interpunct">·</g> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <g ref="interpunct">·</g> <expan><abbr>eius</abbr><ex>dem</ex></expan> 
                 </ab>
             </div>
             <div type="apparatus">
-                <listApp><app><note></note></app></listApp>
+                <listApp>
+                    <app><note>Text of EDR; comparison with photograph</note></app>
+                </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!-- Translation needed! -->
+                <p>
+                   For the victorious return of our masters. For [[Imperator Caesar Marcus Iulius Philippus]] Pius Felix Augustus and [[Octaci]]lia Se[[vera]] Augusta, 
+                   the wife of our master, the soldiers of the Second Parthian Legion, [entitled] Philippiana Pia Felix Fidelis Aeterna, who began their service in the 
+                   consulship of Oclatin[i]us Adventus, whose names, together with their tribes and birthplaces, are inscribed [below], dedicated this, a devotion to 
+                   the divine spirit and majesty [of our masters], on the 10th day before the Kalends of August, in the consulship of Peregrinus 
+                   and Aemilianus, including them the centurions, and the evocations(?) to our masters the Augusti, under the supervision of Pomponius Iulianus 
+                   [and] R(???) of the same legion.
+                </p>
             </div>
             <div type="commentary">
-                <p></p> <!-- -->
+                <p></p> 
             </div>
             <div type="bibliography">
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.2258</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="ILS"/> <citedRange>505</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>05800224</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>138686</citedRange>
                     </bibl>
                 </p>
             </div>

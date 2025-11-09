@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000113</title>
+                <title>Honorific attesting to priesthood of Roma and Augustus and potentially of the Divine Marcus(?)</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -38,9 +38,9 @@
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType> <!-- Default value -->
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">24</height>
+                                        <width unit="cm">23</width>
+                                        <depth unit="cm">5</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#condition.fragment"/>
@@ -54,8 +54,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <locus from="line1" to="line1">Line 1</locus>
-                                <dimensions type="letterHeight"/>
+                                <locus from="line1" to="line7">Lines 1–7</locus>
+                                    <dimensions type="letterHeight">
+                                        <height unit="mm">25–26</height>
+                                </dimensions>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -68,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" subtype="discovered">Discovered on the decumanus of Ostia Antica.</provenance>
+                        <provenance type="found" subtype="discovered" when="1938">Discovered on the decumanus of Ostia Antica in 1938.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -107,11 +109,11 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name>Hermiae</name></persName> <expan><abbr>eq</abbr><ex>uiti</ex></expan> <expan><abbr>Rom</abbr><ex>ano</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan><abbr>praef</abbr><ex>ecto</ex></expan></supplied> <persName type="ruler" key="pertinax"><supplied reason="lost"><name>divi</name></supplied> <name><expan><abbr>Pert</abbr><ex>inaci</ex></expan></name></persName> <expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>aerar</abbr><ex>ii</ex></expan> <num atLeast="2">I<supplied reason="lost">I</supplied></num><gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>vae sodali <persName type="divinity" key="hercules"><name>Herc<supplied reason="lost">ulano</supplied></name></persName>
-                    <lb n="4"/><supplied reason="lost"><expan><abbr>flam</abbr><ex>ini</ex></expan></supplied> <supplied reason="lost"><persName type="divinity" key="roma"><name>Romae</name></persName></supplied> <supplied reason="lost">et</supplied> <persName type="divinity" key="augustus"><name><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divinity" key="divusMarcus" cert="low"><name>divi</name> <supplied reason ="lost" cert="low">Marci</supplied></persName> <supplied reason="lost"><expan><abbr>dec</abbr><ex>urioni</ex></expan></supplied>
-                    <lb n="5"/><supplied reason="lost"><expan><abbr>Laur</abbr><ex>entium</ex></expan> vico Augusta</supplied>norum et IIII<supplied reason="lost">viro</supplied>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name>Hermiae</name></persName> <g ref="interpunct">·</g> <expan><abbr>eq</abbr><ex>uiti</ex></expan> <expan><abbr>Rom</abbr><ex>ano</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><expan><abbr>praef</abbr><ex>ecto</ex></expan></supplied> <persName type="ruler" key="pertinax"><supplied reason="lost"><name>divi</name></supplied> <name><expan><abbr>Pert</abbr><ex>inaci</ex></expan></name></persName> <g ref="interpunct">·</g> <expan><abbr>q</abbr><ex>uaestori</ex></expan> <g ref="interpunct">·</g> <expan><abbr>aerar</abbr><ex>ii</ex></expan> <g ref="interpunct">·</g> <num atLeast="2">I<supplied reason="lost">I</supplied></num><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>vae sodali <g ref="interpunct">·</g> <persName type="divinity" key="hercules"><name>Herc<supplied reason="lost">ulano</supplied></name></persName>
+                    <lb n="4"/><supplied reason="lost"><expan><abbr>flam</abbr><ex>ini</ex></expan></supplied> <supplied reason="lost"><persName type="divinity" key="roma"><name>Romae</name></persName></supplied> <supplied reason="lost">et</supplied> <persName type="divinity" key="augustus"><name><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>usti</ex></expan></name></persName> <g ref="interpunct">·</g> <expan><abbr>flam</abbr><ex>ini</ex></expan> <g ref="interpunct">·</g> <persName type="divinity" key="divusMarcus" cert="low"><name>divi</name> <supplied reason ="lost" cert="low">Marci</supplied></persName> <supplied reason="lost"><expan><abbr>dec</abbr><ex>urioni</ex></expan></supplied>
+                    <lb n="5"/><supplied reason="lost"><expan><abbr>Laur</abbr><ex>entium</ex></expan> vico Augusta</supplied>norum <g ref="interpunct">·</g> et <g ref="interpunct">·</g> IIII<supplied reason="lost">viro</supplied>
                     <lb n="6"/><supplied reason="lost">eiusdem loci</supplied> <expan><abbr><supplied reason="lost">pa</supplied>tr</abbr><ex>ono</ex></expan> et <expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennali</ex></expan> ur<gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="7"/><gap reason="lost" quantity="1" unit="line"/>
                 </ab>
@@ -122,7 +124,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>[---] to [---] Hermias, Roman equestrian, [---], [prefect of the divine] Pertinax, quaestor of the treasury (twice?)] [---], sodalis of Hercules, [flamen of Rome and] Augustus, flamen of the divine [Marcus?, decurion] of Laurentum, in the district of the Augustani, and quattuor[vir], patron of the same place, and quinquennial [???]  </p>
+                <p>[---] to [---] Hermias, Roman equestrian, [---], [prefect of the divine] Pertinax, quaestor of the treasury (twice?)] [---], sodalis of Hercules, [flamen of Rome and] Augustus, flamen of the divine [Marcus?, decurion] of Laurentum, in the district of the Augustani, and quattuor[vir], patron of the same place, and quinquennial [???].</p>
             </div>
             <div type="commentary">
                 <p></p> 
