@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dedication to Diana Augusta.</title>
+                <title>EmpWor000873</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -13,14 +13,10 @@
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
                 </respStmt>
-                <respStmt>
-                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
-                    <resp>Edited text</resp>
-                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000600</idno>
+                <idno type="filename">EmpWor000873</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
@@ -29,8 +25,8 @@
                         <country>Italy</country>
                         <region>Regio X</region>
                         <settlement>Aquileia</settlement>
-                        <repository>Aquileia, Museo Archeologico Nazionale, Galleria Lapidaria (area under renovation).</repository>  
-                        <idno>357</idno>
+                        <repository>Aquileia, Museo Archeologico Nazionale, Depositi Visitabili.</repository> <!-- CHECK SHELF! -->
+                        <idno>373</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -38,29 +34,29 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Tall rectangular stone slab, with stains and discoloration on the bottom half. Erasure of the second line (possibly as the result of reuse; the later carver may have kept the original first line, and inscribed lines 3–8.</p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
+                                <support><p></p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/typeins/lod/29.html">Altar</objectType>
                                     <dimensions>
-                                        <height unit="cm">93</height>
-                                        <width unit="cm">34</width>
-                                        <depth unit="cm">21</depth>
+                                        <height unit="cm">26</height>
+                                        <width unit="cm">15</width>
+                                        <depth unit="cm">13</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
                             </supportDesc>
                             <layoutDesc>
-                                <layout><p>The text takes up the first two-thirds of the stone.</p>
+                                <layout>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Other than the second line that has been erased, the text is complete and fully legible; the letters are well-formed. The text in the first line might have have been written in a different hand, as the letter width and depth appears wider and deeper.</p>
-                                <locus from="line1" to="line8">Lines 1–8</locus>
+                            <handNote><p></p>
+                                <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm">30–45</height>
+                                    <height unit="mm"></height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -100,10 +96,9 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="draft">
+        <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
-                <change when="2025-11-28" who="#AV">Edited text</change>
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -112,26 +107,18 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="divine" key="dianaAugusta"><name>Dianae</name>
-                    <lb n="2"/><del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del>
-                    <lb n="3"/><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <g ref="interpunct">·</g> <expan><abbr>sacr</abbr><ex>um</ex></expan>
-                    <lb n="4"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <g ref="interpunct">·</g> <name>Claudius</name>
-                    <lb n="5"/><name>Severinus</name></persName>
-                    <lb n="6"/><num value="6">IIIIII</num>vir <g ref="interpunct">·</g> <expan><abbr>Aquil</abbr><ex>eiae</ex></expan>
-                    <lb n="7"/>voto <expan><abbr>suscept</abbr><ex>o</ex></expan>
-                    <lb n="8"/>remonente
-                    <lb n="9"/>dea <g ref="interpunct">·</g> solvi
+                    <lb n="1"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR; comparison with photograph.</note></app>
+                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>Sacred to Diana Augusta. Q. Claudius Severinus, sexvir of Aquileia, the vow having been undertaken, the goddess reminding (me), I have paid it.</p>
+                <p></p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -139,27 +126,22 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/> <citedRange>5.8216</citedRange>
+                        <ptr target="CIL"/> <citedRange>5.8241</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange>01601044</citedRange>
+                        <ptr target="EDCS"/> <citedRange>01601067</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDR"/> <citedRange>093885</citedRange>
+                        <ptr target="EDR"/> <citedRange>117014</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDH"/> <citedRange>033083</citedRange>
-                    </bibl>
-                </p>
-                <p>
-                    <bibl>
-                        <ptr target="Lupa"/> <citedRange>13571</citedRange>
+                        <ptr target="Lupa"/> <citedRange>18696</citedRange>
                     </bibl>
                 </p>
             </div>

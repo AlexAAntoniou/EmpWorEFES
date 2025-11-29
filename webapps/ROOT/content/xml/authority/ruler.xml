@@ -150,6 +150,9 @@
                     <person xml:id="gordianIII">
                         <persName xml:lang="en">Gordian III</persName>
                     </person>
+                    <person xml:id="salonina">
+                        <persName xml:lang="en">Cornelia Salonina</persName>
+                    </person>
                     <person xml:id="diocletianus">
                         <persName xml:lang="en">Diocletian</persName>
                         <persName xml:lang="la">Caesar Gaius Aurelius Valerius Diocletianus Augustus</persName>

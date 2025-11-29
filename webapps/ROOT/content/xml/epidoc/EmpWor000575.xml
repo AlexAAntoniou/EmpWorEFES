@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000575</title>
+                <title>Statue base to Tiberius Claudius Secundinus Lucius Statius Macedonius, flamen of the divine Vespasian.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
+                    <resp>Encoded text and object</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Tall rectangular statue base. Only the right third is visible, the rest is currently submerged in the river.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">62</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text appears to take up all available space on the stone</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The letters in the first few lines are bigger than the rest; the letters seem well-spaced and well-formed. Two tall "I"s in line 5 (the first and last in the numeral 4).</p>
                                 <locus from="line1" to="line15">Lines 1–15</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">30–60</height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-24" who="#AV">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,37 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>Ti</abbr><ex>berio</ex></expan></name> <name>Claudio</name>
+                    <lb n="2"/><persName type="patronym"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name>  <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <expan><abbr>Pal</abbr><ex>atina</ex></expan>
+                    <lb n="3"/><name>Secundino</name>
+                    <lb n="4"/><expan><abbr>L</abbr><ex>ucio</ex></expan> <name>Statio</name> <name>Macedoni</name></persName>
+                    <lb n="5"/><expan><abbr>p</abbr><ex>rimo</ex></expan> <expan><abbr>p</abbr><ex>ilo</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="4">I<hi rend="supraline">II</hi>I</num> <expan><abbr>F</abbr><ex>laviae</ex></expan> <expan><abbr>f</abbr><ex>elicis</ex></expan> <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="1">I</num> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <!-- ligature with H and I of COH(ORTES) I -->
+                    <lb n="6"/><expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="11"><hi rend="supraline"></hi>XI</num> <expan><abbr>urb</abbr><ex>anae</ex></expan> <expan><abbr>tr<hi rend="ligature">ib</hi></abbr><ex>uno</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="9"><hi rend="supraline"></hi>IX</num> <!-- ligature with H and I of COH(ORTES) I -->
+                    <lb n="7"/><expan><abbr>pr</abbr><ex>aetoriae</ex></expan> <expan><abbr>p</abbr><ex>rimo</ex></expan> <expan><abbr>p</abbr><ex>ilo</ex></expan> iterum <expan><abbr>praef</abbr><ex>ionis</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="2"><hi rend="supraline"></hi>II</num> 
+                    <lb n="8"/><expan><abbr>Traian</abbr><ex>ae</ex></expan> <expan><abbr>F</abbr><ex>ortis</ex></expan> <expan><abbr>proc</abbr><ex>uratori</ex></expan> <persName type="ruler" key="augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></persName> <num value="20"><hi rend="supraline"></hi>XX</num> <expan><abbr>her</abbr><ex>editatium</ex></expan>
+                    <lb n="9"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>provinc</abbr><ex>iarum</ex></expan> <placeName><expan><abbr>Lugudun</abbr><ex>ensis</ex></expan></placeName> <hi rend="ligature">et</hi>               
+                    <lb n="10"/><placeName><expan><abbr>Aquitan</abbr><ex>iae</ex></expan></placeName> a <expan><abbr>rationib</abbr><ex>us</ex></expan> <persName type="ruler" key="augustus"><expan><abbr>Aug</abbr><ex>usti</ex></expan></persName>
+                    <lb n="11"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>annon</abbr><ex>ae</ex></expan>  
+                    <lb n="12"/>flamini <persName type="divine" key="divusVespasianus"><name>Divi</name> <name>Vespasiani</name></persName>  
+                    <lb n="13"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublius</ex></expan></name> <name>Cassidius</name> <name>Fortunatus</name></persName>
+                    <lb n="14"/><num value="6"><hi rend="supraline">IIIIII</hi></num> vir et <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> amico
+                    <lb n="15"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison to photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Tiberius Claudius Secundinus Lucius Statius Macedonius, son of Tiberius, of the Palatine tribe, first spear of the 4th legion Flavia Felix, 
+                    tribune of the first cohort of watchmen, tribune of the 11th urban cohort, tribune of the 9th cohort of the praetorian [guard], first spear again,
+                    prefect of the 2nd legion Traiana Fortis, procurator the inheritance tax of Augustus, procurator of the provinces of Lugdunensis and Aquitania
+                    for the interests of Augustus, prefect of the grain supply, flamen of the Divine Vespasian. Publius Cassidius Fortunatus, sexvir and Augustalis
+                    to his friend. This place was given by decree of the decurions.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

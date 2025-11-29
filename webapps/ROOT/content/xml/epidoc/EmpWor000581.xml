@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000581</title>
+                <title>Dedication to the Numen of Salonina Augusta.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
+                    <resp>Edited text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Rectangular stone statue-base with hollowed out entabulature, there are two cracks and some stains one in the middle of right side and on the bottom of the stone. The whole of the first line has been carefully erased.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">19</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text fills most of the available space on the stone and is accurately centred on the stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Except for the first erased line, the text is complete and fully legible. The size of each line varies significantly. Letters are well formed, and with simple serifs.</p>
                                 <locus from="line1" to="line10">Lines 1–10</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">35–65</height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-11-14" who="#AV">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,27 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="ruler" key="Salonina"> <del rend="erasure"><name>Saloninae</name></del>
+                    <lb n="2"/>sanctissimae
+                    <lb n="3"/><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName>
+                    <lb n="4"/>matri <expan><abbr>castror</abbr><ex>um</ex></expan>
+                    <lb n="5"/>senatus ac patriae
+                    <lb n="6"/><persName type="attested"><name>Licinius</name>
+                    <lb n="7"/><name>Diocletianus</name></persName>
+                    <lb n="8"/><expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>e</abbr><ex>gregius</ex></expan> 
+                    <lb n="9"/><persName type="divine" key="numenAugusta"><name>Numini</name></persName> <g ref="interpunct">·</g> eius
+                    <lb n="10"/>dicatissimus
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Salonina Augusta, most sanctified, mother of the camp, senate, and fatherland. Diocletianus, outstanding man, most devoted to her numen [set this up].</p>
             </div>
             <div type="commentary">
                 <p></p> 

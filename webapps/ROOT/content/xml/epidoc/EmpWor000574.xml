@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000574</title>
+                <title>Honorary inscription for C. Minucius Italus, flamen of the Divine Claudius</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="JSG" ref="https://orcid.org/0009-0007-5552-1849">Jonah Secmezsoy Gault</name>
+                    <resp>Editing text and description of object</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,8 +38,8 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
+                                <support><p>Limestone facings from statue base, likely from an equestrian statue given its size. Front side: rectangular slab, carved entabulature around all sides with some damage particularly on top and left side, in relatively good condition, two cracks, one horizontal crack and another vertical. Left side: only fragments are left of this, consisting of five rectangular fragments. There is a large vertical crack on the bottom right fragment around 2/3rds of the way towards the right hand side of the fragment.</p>
+                                    <material ana="#material.stone.limestone" ref="https://www.eagle-network.eu/voc/material/lod/66.html">Limestone</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
                                         <height unit="cm">119</height>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">18</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Front: text centred in the middle of the entabulature, and it takes up almost all of the available space. Left: from the remaining fragments it appears the text was centred within the hollow entablature and it can be presumed that it takes up most of the available space but cannot be certain.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Front side: text is complete and legible. Text is significantly larger at the top, shrinking incrementally further down the lines with the bottom line slightly larger again. The handwriting appears consistent throughout, broad, wide and well-formed with triangular interpuncts. Left: much of this text is missing. The handwriting appears consistent, and the letters and well-formed, broad and wide. Use of tall "I"s in line 15. Use of triangular interpuncts.</p>
                                 <locus from="line1" to="line19">Lines 1–19</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">27–120</height>
@@ -68,7 +72,7 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3182943/aquileia.html">Aquileia</placeName>
                                 <geo>45.769631, 13.370946</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0105" evidence="consuls">Dated to 105 CE on the basis of the consular year.</origDate>
                         </origin>
                         <provenance type="found" subtype="discovered">Discovered in Aquileia, Monastero locality, Cassis area.</provenance>
                         <provenance type="observed" subtype="studied">Antoniou studied and photographed the stone on 2025-08-06</provenance>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-11-28" who="JSG">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,77 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab>
-                    <lb n="1"/>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#JSG #AA">
+                <div type="textpart" subtype="side" n="front">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <g ref="interpunct">·</g> <name>Minicio</name> <g ref="interpunct">·</g> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <g ref="interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName>
+                        <lb n="2"/><expan><abbr>Vel</abbr><ex>ina</ex></expan> <g ref="interpunct">·</g> <name>Italo</name></persName> <g ref="interpunct">·</g> I<hi rend="supraline">II</hi>I<g ref="interpunct">·</g>viro<expan> <g ref="interpunct">·</g> <abbr>i</abbr><ex>ure</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>icundo</ex></expan>
+                        <lb n="3"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <hi rend="supraline"><num value="5">V</num></hi> <g ref="interpunct">·</g> <expan><abbr>Gallor</abbr><ex>um</ex></expan> <g ref="interpunct">·</g> <expan><abbr>equit</abbr><ex>atae</ex></expan>
+                        <lb n="4"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <expan><abbr>Breucor</abbr><ex>um</ex></expan> <expan><abbr>equi</abbr><ex>tatae</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan>
+                        <lb n="5"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <g ref="interpunct">·</g> <hi rend="supraline">II</hi> <g ref="interpunct">·</g> <expan><abbr>Varc</abbr><ex>ianorum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>eq</abbr><ex>uitatae</ex></expan> <expan><abbr>trib</abbr><ex>uno</ex></expan> <g ref="interpunct">·</g> <expan><abbr>milit</abbr><ex>um</ex></expan> <g ref="interpunct">·</g> <expan><abbr>leg</abbr><ex>ionis</ex> </expan><g ref="interpunct">·</g> <hi rend="supraline"><num value="6">VI</num></hi> <g ref="interpunct">·</g> <expan><abbr>Vict</abbr><ex>ricis</ex></expan>
+                        <lb n="6"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>eq</abbr><ex>uitum</ex></expan> <g ref="interpunct">·</g> alae <g ref="interpunct">·</g> <hi rend="supraline">I</hi> <g ref="interpunct">·</g> <expan><abbr>sing</abbr><ex>ularium</ex></expan> <g ref="interpunct">·</g> <expan><abbr>c</abbr><ex>ivium</ex></expan> <g ref="interpunct">·</g> <expan><abbr>R</abbr><ex>omanorum</ex></expan> donis <g ref="interpunct">·</g> <expan><abbr>donat</abbr><ex>o</ex></expan> <g ref="interpunct">·</g> a <g ref="interpunct">·</g> <persName type="divine"><name>divo</name>
+                        <lb n="7"/><name>Vespasiano</name></persName> <g ref="interpunct">·</g> corona <g ref="interpunct">·</g> aurea <g ref="interpunct">·</g> <expan><abbr><g ref="interpunct">·</g>hast</abbr><ex>a</ex></expan> <g ref="interpunct">·</g> <expan><abbr>pur</abbr><ex>a</ex></expan>
+                        <lb n="8"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> <g ref="interpunct">·</g> <expan><abbr>provinc</abbr><ex>iae</ex></expan> <g ref="interpunct">·</g> <name><placeName><expan><abbr>Hellespont</abbr><ex>i</ex></expan></placeName></name> <g ref="interpunct">·</g> <expan><abbr>proc</abbr><ex>uratori</ex></expan> <g ref="interpunct">·</g> provinciae <g ref="interpunct">·</g> <placeName>Asiae</placeName><g ref="interpunct">·</g> <g ref="interpunct">·</g> quam
+                        <lb n="9"/>mandatu <g ref="interpunct">·</g> principis <g ref="interpunct">·</g> vice <g ref="interpunct">·</g> defuncti <g ref="interpunct">·</g> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> <g ref="interpunct">·</g> rexit <g ref="interpunct">·</g> <expan><abbr>procurat</abbr><ex>ori</ex></expan>
+                        <lb n="10"/>provinciarum <g ref="interpunct">·</g> <name><placeName>Lugduniensis</placeName></name> <g ref="interpunct">·</g> et <g ref="interpunct">·</g> <name><placeName>Aquitanicae</placeName></name> <g ref="interpunct">·</g> item <name><placeName>Lactorae</placeName></name>
+                        <lb n="11"/>praefecto <g ref="interpunct">·</g> annonae <g ref="interpunct">·</g> praefecto <g ref="interpunct">·</g> <name><placeName>Aegypti</placeName></name> <g ref="interpunct">·</g> flamini <g ref="interpunct">·</g> <persName type="divine" key="divusClaudius"><name>Divi</name> <g ref="interpunct">·</g> <name>Claudi</name></persName>
+                        <lb n="12"/><expan><abbr>decr</abbr><ex>eto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>dec</abbr>urionum<ex></ex></expan>
                 </ab>
+            </div>
+            <div type="textpart" subtype="side" n="left">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><supplied reason="lost"><expan><abbr>P</abbr><ex>ublius</ex></expan></supplied></name> <name>Tullius</name> <g ref="interpunct">·</g> <name><seg part="I">Ma</seg><gap reason="lost" extent="unknown" unit="char"/></name> <name><supplied reason="lost">M</supplied><supplied reason="lost" evidence="previouseditor" cert="low">amula</supplied></name></persName> <supplied reason="lost" evidence="previouseditor">IIIIvir <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <num value="3">III</num> <expan><abbr>kal</abbr><ex>endas</ex></expan> <expan><abbr>Iun</abbr><ex>ias</ex></expan></supplied>
+                    <lb n="2"/><supplied reason="lost" evidence="previouseditor"><expan><abbr>s</abbr><ex>enatum</ex></expan></supplied> <expan><abbr>c</abbr><ex>onsuluere</ex></expan> <g ref="interpunct">·</g> <expan><abbr>scrib</abbr><ex>endo</ex></expan> <g ref="interpunct">·</g> adf<supplied reason="lost" evidence="previouseditor">uerunt</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" evidence="previouseditor"><persName type="attested"><name>Proculus</name></persName> <persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Appuleius</name> <name>Celer</name></persName></supplied>
+                    <lb n="3"/><persName type="attested"><name><supplied reason="lost" evidence="previouseditor"><expan><abbr>A</abbr><ex>ulus</ex></expan></supplied></name> <name>Iunius</name> <g ref="interpunct">·</g> <name><seg part="I">G</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName> <supplied reason="lost" evidence="previouseditor"><persName type="attested"><name><expan><abbr>Sex</abbr><ex>tus</ex></expan></name> <name>Cossutius</name> <name>Secundus</name></persName></supplied>
+                    <lb n="4"/><supplied reason="lost" evidence="previouseditor">qu</supplied>od <g ref="interpunct">·</g> <expan><abbr>v</abbr><ex>erba</ex></expan> <g ref="interpunct">·</g> <expan><abbr>f</abbr><ex>acta</ex></expan> <g ref="interpunct">·</g> <expan><abbr>s</abbr><ex>unt</ex></expan> <g ref="interpunct">·</g> in <g ref="interpunct">·</g> ho<supplied reason="lost">norem <persName type="attested"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <name>Minici</name> <name>Itali</name></persName> splendidi</supplied><supplied reason="lost" evidence="previouseditor">ssimum virum quidquid cons</supplied>e
+                    <lb n="5" break="no"/>qui <g ref="interpunct">·</g> gratiae <g ref="interpunct">·</g> au<supplied reason="lost">t potentiae per summos honor</supplied><supplied reason="lost" evidence="previouseditor">es equestris dignitatis potueri</supplied>t
+                    <lb n="6"/><supplied reason="lost" evidence="previouseditor">it </supplied>omne <g ref="interpunct">·</g> ad <g ref="interpunct"></g> au<supplied reason="lost">gendam et ornandam patria</supplied><supplied reason="lost" evidence="previouseditor">m suam convertissse nec ullo</supplied>
+                    <lb n="7"/><supplied reason="lost">se</supplied> feliciore<supplied reason="lost">m credere officio quam ut pro es la</supplied><supplied reason="lost" evidence="previouseditor">boret <expan><abbr>q</abbr><ex>uid</ex></expan> <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>e</abbr><ex>a</ex></expan> <expan><abbr>r</abbr><ex>e</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>p</abbr><ex>laceret</ex></expan> <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>e</abbr><ex>a</ex></expan> <expan><abbr>r</abbr><ex>e</ex></expan> <expan><abbr>i</abbr><ex>ta</ex></expan> <expan><abbr>c</abbr><ex>ensuerunt</ex></expan></supplied>
+                    <lb n="8"/>cum <persName type="attested"><supplied reason="lost" evidence="previouseditor"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name></supplied> <name><supplied reason="lost" evidence="previouseditor">Minic</supplied><supplied reason="lost">ius</supplied></name> <name><supplied reason="lost">Italus</supplied></name></persName> <gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost">h</supplied><supplied reason="lost" evidence="previouseditor">unc praecipuum virtutum</supplied>
+                    <lb n="9"/>suarum fi<supplied reason="lost" evidence="previouseditor">nem</supplied> <gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost">fo</supplied><supplied reason="lost" evidence="previouseditor">rtuna</supplied><unclear>m locis ampli</unclear>ficaverit
+                    <lb n="10"/>et <g ref="interpunct">·</g> super <g ref="interpunct">·</g> cet<supplied reason="lost">era omnibus sit notu</supplied><supplied reason="lost" evidence="previouseditor">m</supplied> sacratissmum <g ref="interpunt">·</g> principem
+                    <lb n="11"/><persName type="ruler" key="trajan"><name>Traianum</name> <name>A<supplied reason="lost">ugustum</supplied></name></persName> <supplied reason="lost">decrevisse rogatu ei</supplied>us <g ref="interpunct">·</g> ut <g ref="interpunct">·</g> incolae <g ref="interpunct">·</g> quibus <g ref="interpunct">·</g> fere <g ref="interpunct">·</g> cense
+                    <lb n="12" break="no"/>mur <g ref="interpunct">·</g> muneri<supplied reason="lost">bus nobiscum fungantur e</supplied>t <g ref="interpunct">·</g> ut <g ref="interpunct">·</g> pleniorem <g ref="interpunct">·</g> indulgentiam
+                    <lb n="13"/>maximi <g ref="interpunct">·</g> Imper<supplied reason="lost">atoris habeamus per eum cont</supplied>igisse <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>lacere</ex></expan> <g ref="interpunct">·</g> <expan><abbr>h</abbr><ex>uic</ex></expan> <g ref="interpunct">·</g> <expan><abbr>o</abbr><ex>rdini</ex></expan> <g ref="interpunct">·</g> <expan><abbr>adq</abbr><ex>ue</ex></expan> <g ref="interpunct">·</g> e <g ref="interpunct">·</g> <expan><abbr>r</abbr><ex>e</ex></expan> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>ublica</ex></expan> <g ref="interpunct">·</g> <expan><abbr>v</abbr><ex>ideri</ex></expan> <g ref="interpunct">·</g> statuam
+                    <lb n="14"/>aeream <g ref="interpunct">·</g> cum <supplied reason="lost">basi marmorea ei poni decretu</supplied>mque <g ref="interpunct">·</g> nostrum <g ref="interpunct">·</g> basi <g ref="interpunct">·</g> inscribi
+                    <lb n="15"/>quo <g ref="interpunct">·</g> testatiu<supplied reason="lost">s sit pro meritis beneficii</supplied>sque <g ref="interpunct">·</g> tanti <g ref="interpunct">·</g> viri <g ref="interpunct">·</g> solvendo <g ref="interpunct">·</g> nos
+                    <lb n="16"/>aliter <supplied reason="lost">non esse nisi ut de eo publi</supplied>ce <g ref="interpunct">·</g> gloriemur <g ref="interpunct">·</g> <expan><abbr>censuer</abbr><ex>e</ex></expan>
+                    <lb n="17"/><persName type="attested"><name><expan><abbr>Ti</abbr><ex>berio</ex></expan></name> <g ref="interpunct">·</g> <name>Iulio</name> <supplied reason="lost"><name>Candido</name> <num value="2">II</num></supplied></persName> <persName type="attested"><name><supplied reason="lost"><expan><abbr>C</abbr><ex>aio</ex></expan></supplied></name> <name><supplied reason="lost">Ant</supplied>io</name> <g ref="interpunct">·</g> <name>Quadrato</name></persName> <g ref="interpunct">·</g> <num value="2">II</num> <g ref="interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex></expan><expan><abbr>s</abbr><ex>ulibus</ex></expan>
+                </ab>
+            </div>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>EDR for front (with comparison to photograph). EDR appears to preserve text that is no longer on the stone, from the fragmentary left side, which has been rendered as text restored on the basis of a previous editor.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p> <!-- Currently the translation of Sherk, Translated Documents of Greece and Rome, Augustus to Hadrian -->
+                    Front: Gaius Minicius Italus, son of Gaius, of tribe Velina, quattuorvir for the administration of justice,
+                           prefect of the 5th cohort of Mounted Gauls, prefect of the 1st cohort of Mounted Roman Citizen Breucians,
+                           prefect of the 2nd cohort of Mounted Varcianians, tribune of the soldiers of the 6th Legion Victrix,
+                           prefect of the cavalry of Ala I Roman Citizens, decorated by the divine Vespasian with the Golden Crown,
+                           and the Parade Spear; procuraator of the province of the Hellespont, procurator of the province of Asia –
+                           which he governed by order of our Leader in place of the deceased proconsul – procurator of the provinces 
+                           of Lugdunensis and Aquitania and Lactora; prefect of the grain supply, prefect of Egypt, priest of the
+                           divine Claudius. (This statue was erected) by decree of the decurions.
+                    Left: Publius Tullius Max[---?] [---]amula, the quottuorviri for the administration of justice, on the third day
+                          before the Kalends of June consulted the senate (of Aquileia). Present at the writing (of this decree) were:
+                          [---] Proculus, Gaius Appuleius Celer, Aulus Iunius G[---], Sextus Cossutius Secundus. Whereas they spoke
+                          to the honour [of Gaius Minucius Italus], that whatever popularity or [power through the highest offices] of
+                          equestrian rank could come to the most splendid person, he turned all of it to the increase [and ornamentation]
+                          of his [native city], and [he believed that] in no other [official position] was he happier [than the one in which he]
+                          worked for the good of his city, what it pleased (the senators) to be done about this matter, concerning it they
+                          decreed as follows: Since Gaius Minic[ius Italus [----]] of his exceptional qualities an end [---] he enlarged and
+                          above and beyond the other matters [this was known to everyone], that our most sacred leader, Traianus A[ugustus, upon 
+                          his request, decreed] that the resident aliens usually included in our census [should perform] the civic burdens
+                          [along with us,] and (since it is known) that through him it came about that we receive a very abundant amount
+                          of kindness for our greatest imperator, it pleases the senate and seems in accordance with our republic that a statue
+                          of bronze with a [marble base be erected for him] and that our [decree] be inscribed on the base in order that
+                          it might be very well attested that there is no other way for us to repay such a great man [in return for his 
+                          services and benefactions than] for us to glorify him [publicly]. Decreed. In the consulship of Tiberius Iulius 
+                          [Candidus for the second time and Gaius Ant]ius Quadratus for the second time.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

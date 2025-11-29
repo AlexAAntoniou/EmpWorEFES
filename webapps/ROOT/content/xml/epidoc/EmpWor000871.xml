@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dedication to Diana Augusta.</title>
+                <title>Dedication to Nemesis Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -13,14 +13,14 @@
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
                 </respStmt>
-                <respStmt>
-                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
-                    <resp>Edited text</resp>
+                <respStmt> 
+                    <name xml:id="SPS" ref="https://orcid.org/0009-0003-1306-1347">Savinay Sood</name>
+                    <resp>Edited Text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000600</idno>
+                <idno type="filename">EmpWor000871</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
@@ -29,8 +29,8 @@
                         <country>Italy</country>
                         <region>Regio X</region>
                         <settlement>Aquileia</settlement>
-                        <repository>Aquileia, Museo Archeologico Nazionale, Galleria Lapidaria (area under renovation).</repository>  
-                        <idno>357</idno>
+                        <repository>Aquileia, Museo Archeologico Nazionale, Depositi Visitabili.</repository> <!-- CHECK SHELF! --> 
+                        <idno>R.C. 102</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -38,29 +38,29 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Tall rectangular stone slab, with stains and discoloration on the bottom half. Erasure of the second line (possibly as the result of reuse; the later carver may have kept the original first line, and inscribed lines 3–8.</p>
+                                <support><p>Short rectangular altar. The bottom left corner has been lost and reconstructed. The top has been damaged.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/typeins/lod/29.html">Altar</objectType>
                                     <dimensions>
-                                        <height unit="cm">93</height>
-                                        <width unit="cm">34</width>
-                                        <depth unit="cm">21</depth>
+                                        <height unit="cm">45</height>
+                                        <width unit="cm">30</width>
+                                        <depth unit="cm">23</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.broken"/> 
                             </supportDesc>
                             <layoutDesc>
-                                <layout><p>The text takes up the first two-thirds of the stone.</p>
+                                <layout><p>The text takes up the majority of the entabulature, and is centered on the stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Other than the second line that has been erased, the text is complete and fully legible; the letters are well-formed. The text in the first line might have have been written in a different hand, as the letter width and depth appears wider and deeper.</p>
-                                <locus from="line1" to="line8">Lines 1–8</locus>
+                            <handNote><p>The letters are clear, seriffed, evenly spaced and evenly sized.</p>
+                                <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm">30–45</height>
+                                    <height unit="mm"></height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -74,7 +74,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Aquileia, in the House of Andrian</provenance>
                         <provenance type="observed" subtype="studied">Antoniou studied and photographed the stone on 2025-08-06</provenance>
                     </history>
                 </msDesc>
@@ -103,7 +103,7 @@
         <revisionDesc status="draft">
             <listChange>
                 <change when="2025-06-30" who="#AA">Original data collection and editing</change>
-                <change when="2025-11-28" who="#AV">Edited text</change>
+                <change when="2025-11-14" who="#SPS">Edited Text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -112,26 +112,22 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#SPS">
                 <ab>
-                    <lb n="1"/><persName type="divine" key="dianaAugusta"><name>Dianae</name>
-                    <lb n="2"/><del rend="erasure"><gap reason="lost" quantity="1" unit="line"/></del>
-                    <lb n="3"/><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <g ref="interpunct">·</g> <expan><abbr>sacr</abbr><ex>um</ex></expan>
-                    <lb n="4"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <g ref="interpunct">·</g> <name>Claudius</name>
-                    <lb n="5"/><name>Severinus</name></persName>
-                    <lb n="6"/><num value="6">IIIIII</num>vir <g ref="interpunct">·</g> <expan><abbr>Aquil</abbr><ex>eiae</ex></expan>
-                    <lb n="7"/>voto <expan><abbr>suscept</abbr><ex>o</ex></expan>
-                    <lb n="8"/>remonente
-                    <lb n="9"/>dea <g ref="interpunct">·</g> solvi
+                    <lb n="1"/><persName type="divine" key="nemesisAugustus"><name>Nemesi</name>
+                    <lb n="2"/><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName>
+                    <lb n="3"/><persName type="attested"><name>Acutio</name></persName>
+                    <lb n="4"/><supplied reason="lost">r</supplied><unclear>ei</unclear> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>ublicae</ex></expan> <g ref="interpunct">·</g> <expan><abbr>ser</abbr><ex>vus</ex></expan>
+                    <lb n="5"/><supplied reason="lost" cert="low">off</supplied><unclear>i</unclear>cio
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR; comparison with photograph.</note></app>
+                    <app><note>Text from EDR; comparison with photographs</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>Sacred to Diana Augusta. Q. Claudius Severinus, sexvir of Aquileia, the vow having been undertaken, the goddess reminding (me), I have paid it.</p>
+                <p>To Nemesis Augusta, Acutio, slave of the republic, (dedicates this) for his duty.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -139,27 +135,22 @@
             <div type="bibliography">
                 <p>
                     <bibl>
-                        <ptr target="CIL"/> <citedRange>5.8216</citedRange>
+                        <ptr target="AE"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange>01601044</citedRange>
+                        <ptr target="EDCS"/> <citedRange>01300144</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDR"/> <citedRange>093885</citedRange>
+                        <ptr target="EDR"/> <citedRange>117138</citedRange>
                     </bibl>
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDH"/> <citedRange>033083</citedRange>
-                    </bibl>
-                </p>
-                <p>
-                    <bibl>
-                        <ptr target="Lupa"/> <citedRange>13571</citedRange>
+                        <ptr target="Lupa"/> <citedRange>17538</citedRange>
                     </bibl>
                 </p>
             </div>
