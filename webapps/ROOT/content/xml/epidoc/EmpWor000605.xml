@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000605</title>
+                <title>Dedication to Diana Augusta.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -13,10 +13,14 @@
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
                 </respStmt>
+                <respStmt>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
+                    <resp>Edited text</resp>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
-                <idno type="filename">EmpWor000605</idno>
+                <idno type="filename">EmpWor000602</idno>
                 <availability><licence target="http://creativecommons.org/licenses/by/4.0/">Licensed under a Creative Commons-Attribution 4.0 licence.</licence></availability>
             </publicationStmt>
             <sourceDesc>
@@ -25,8 +29,8 @@
                         <country>Italy</country>
                         <region>Regio X</region>
                         <settlement>Aquileia</settlement>
-                        <repository>Aquileia, Museo Archeologico Nazionale, Depositi Visitabili, Room 2.</repository>  
-                        <idno>387</idno>
+                        <repository>Aquileia, Museo Archeologico Nazionale. Magazzini</repository>  
+                        <idno></idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,29 +38,29 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
+                                <support><p>Rectangular altar, a portion of the upper part is missing, but does not obscure the text, and there are some words on bottom entabulature which are broken off. Edges are heavily abraded.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
-                                        <height unit="cm">17</height>
-                                        <width unit="cm">18</width>
-                                        <depth unit="cm">15</depth>
+                                        <height unit="cm">35</height>
+                                        <width unit="cm">34</width>
+                                        <depth unit="cm">47</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>The text is crowded into the whole of the available space on the stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
-                                <locus from="line1" to="line6">Lines 1–6</locus>
+                            <handNote><p>Except for the last line, the text is complete and legible, the letters seem to be all the same size.</p>
+                                <locus from="line1" to="line3">Lines 1–3</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm">7–12</height>
+                                    <height unit="mm">62</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -70,8 +74,8 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" subtype="discovered">Discovered in Aquileia, reused in the late-antique walls</provenance>
-                        <provenance type="observed" subtype="studied">Antoniou studied and photographed the stone on 2025-08-06</provenance>
+                        <provenance type="found"></provenance>
+                        <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-11-28" who="#AV">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,24 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="numen"><name>Numini</name></persName> pra<unclear>e</unclear> 
+                    <lb n="2" break="no"/>stantissimo <g ref="interpunct">·</g> et
+                    <lb n="3"/><persName type="divine"><name>Dianae</name> <g ref="interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName>
+                    <lb n="4"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="interpunct">·</g> <name>Appius</name> <g ref="interpunct">·</g> <name>Helpi
+                    <lb n="5" break="no"/>dianus</name></persName> <g ref="interpunct">·</g> periculo
+                    <lb n="6"/><expan><abbr>liberat</abbr><ex>us</ex></expan> pro <expan><abbr>salut</abbr><ex>e</ex></expan>
+                    <lb n="7"/><supplied reason="lost">su</supplied>a <g ref="interpunct">·</g> et <g ref="interpunct">·</g> suor<supplied reason="lost">um</supplied> <supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan><expan><abbr>s</abbr><ex>olvit</ex></expan><expan><abbr>l</abbr><ex>ibens</ex></expan><expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To the most present divine force, and Diana Augusta. Marcus Appius Helpidianus, having been freed from danger, fulfilled this vow willingly and deservedly for the safety of himself and his household.</p>
             </div>
             <div type="commentary">
                 <p></p> 

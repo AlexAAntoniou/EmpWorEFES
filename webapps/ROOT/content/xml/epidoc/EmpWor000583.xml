@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000853</title>
+                <title>Defaced dedication to the numen and maiestas of Philip I and Philip II (whilst Caesar).</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt> 
+                    <name xml:id="SPS" ref="https://orcid.org/0009-0003-1306-1347">Savinay Sood</name>
+                    <resp>Edited text and translation</resp> 
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Tall rectangular statue base, with a secondary inscription on the top face of the stone which has been cut off at the top, and therefore dates earlier than the inscription on the front face of the stone</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">68</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.erased"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>The text on the front face takes up the entire face. The first seven lines have been erased in antiquity, although not thoroughly. The bottom four lines are still extant.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>What remains of the handwriting on the front face is neat and serifed with consistent kerning. The "U" in line 1 has only been partially erased. The tails on the Qs are long. The handwriting on the top face is different. It is also neat and well-spaced, but slightly thicker than the writing on the front. Use of triangular interpuncts. </p>
                                 <locus from="line1" to="line11">Lines 1–11</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">40–80</height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-11-28" who="#SPS">Edited text and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,37 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#SPS">
+                <div type="textpart" subtype="side" n="front">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="ruler" key="PhilipII"><del rend="erasure"><supplied reason="lost"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name></supplied></del> <name><del rend="erasure"><supplied reason="lost">I</supplied></del>u<del rend="erasure"><supplied reason="lost">li<unclear>o</unclear></supplied></del></name>
+                    <lb n="2"/><del rend="erasure"><name><supplied reason="lost">Ph<unclear>i</unclear>l<unclear>i</unclear>p<unclear>po</unclear></supplied></name></del>
+                    <lb n="3"/><del rend="erasure"><name><supplied reason="lost">Caesari</supplied></name></del></persName>
+                    <lb n="4"/><del rend="erasure"><supplied reason="lost"><unclear>n</unclear>o<unclear>bilis</unclear>s<unclear>imo</unclear></supplied></del>
+                    <lb n="5"/><del rend="erasure"><supplied reason="lost"><unclear>fi</unclear>l<unclear>io</unclear> <expan><abbr>I<unclear>mp</unclear></abbr><ex>eratoris</ex></expan> <expan><abbr>C<unclear>ae</unclear>s</abbr><ex>aris</ex></expan></supplied></del>
+                    <lb n="6"/><persName type="ruler" key="PhilipI"><del rend="erasure"><name><supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan></supplied></name> <supplied reason="lost"><name>I<unclear>uli</unclear></name></supplied></del>
+                    <lb n="7"/><del rend="erasure"><supplied reason="lost"><unclear><name>Philippi</name> <name>Pii</name></unclear></supplied></del>
+                    <lb n="8"/>Felicis <expan><abbr>Aug</abbr><ex>usti</ex></expan></persName>
+                    <lb n="9"/>Aquileienses
+                    <lb n="10"/>devoti <expan><abbr>numin</abbr><ex>i</ex></expan>
+                    <lb n="11"/><expan><abbr>maiestatiq</abbr><ex>ue</ex></expan> eius
+                </ab>
+            </div>
+            </div>
+            <div type="textpart" subtype="side" n="top">
+                <ab>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="interpunct">·</g> <name>Safinius</name> <g ref="interpunct">·</g> <persName type="patronym"><name><expan><ex>L</ex><abbr>uci</abbr></expan></name> <g ref="interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName>
+                    <lb n="2"/><name>Sabellio</name></persName> <g ref="interpunct">·</g> pater
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
-            <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+            <div type="translation" xml:lang="en" resp="#SPS">
+                <p>FRONT: To Marcus Julius Philippus Caesar, the most noble, son of the Imperator Marcus Iulius Philippus Pius Felix. The (people of) Aquileia devoted (this) to his divine power and majesty. TOP: Lucius Safinius Sabellio, son of Lucius, father [...]</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -137,6 +161,11 @@
                 <p>
                     <bibl>
                         <ptr target="EDR"/> <citedRange>079513</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>093902</citedRange>
                     </bibl>
                 </p>
                 <p>
