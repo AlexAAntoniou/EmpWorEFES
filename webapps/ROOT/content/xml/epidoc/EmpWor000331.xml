@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -112,10 +112,10 @@
                     <lb n="1"/><persName type="attested"><name>Latiae</name> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>Au
                     <lb n="2" break="no"/>leiae</name> <name>A<hi rend="ligature">ur</hi>inae</name></persName>
                     <lb n="3"/><expan><abbr>sacerd</abbr><ex>oti</ex></expan> <persName type="divine"><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <orig>SE
-                    <lb n="4" break="no"/>v</orig><gap reason="lost" extent="unknown" unit="char"/><orig>E</orig>
-                    <lb n="5"/><orig>G</orig><gap reason="lost" extent="unknown" unit="char"/> 
-                    <lb n="6"/><orig>D</orig><gap reason="lost" extent="unknown" unit="char"/> 
-                    <lb n="7"/><orig>X</orig><gap reason="lost" extent="unknown" unit="char"/> 
+                    <lb n="4" break="no"/>v</orig><gap reason="lost" extent="unknown" unit="character"/><orig>E</orig>
+                    <lb n="5"/><orig>G</orig><gap reason="lost" extent="unknown" unit="character"/> 
+                    <lb n="6"/><orig>D</orig><gap reason="lost" extent="unknown" unit="character"/> 
+                    <lb n="7"/><orig>X</orig><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
             </div>
             <div type="apparatus">

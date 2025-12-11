@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -107,12 +107,12 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="char"/><orig>A</orig>
-                    <lb n="2"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="char"/><seg part="F">a</seg></name> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName></persName>
-                    <lb n="3"/><gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost">m</supplied>ater
-                    <lb n="4"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Metilius</name> <gap reason="lost" extent="unknown" unit="char"/> <name><supplied reason="lost">R</supplied>ufus</name></persName>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>A</orig>
+                    <lb n="2"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/><seg part="F">a</seg></name> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName></persName>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">m</supplied>ater
+                    <lb n="4"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Metilius</name> <gap reason="lost" extent="unknown" unit="character"/> <name><supplied reason="lost">R</supplied>ufus</name></persName>
                     <lb n="5"/>IIvir <expan><abbr>ter</abbr><ex>io</ex></expan> <expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>aerar</abbr><ex>ii</ex></expan>
-                    <lb n="6"/>salius <expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>iur</abbr><ex>e</ex></expan> <expan><abbr>dic</abbr><ex>undo</ex></expan> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="6"/>salius <expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>iur</abbr><ex>e</ex></expan> <expan><abbr>dic</abbr><ex>undo</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="7"/>flamen <persName type="divine"><name>Augusta<supplied reason="lost">lis</supplied></name></persName>
                 </ab>
             </div>

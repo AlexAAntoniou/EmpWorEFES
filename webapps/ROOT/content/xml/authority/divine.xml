@@ -214,6 +214,9 @@
                     <person xml:id="fortunaPrimigenia">
                         <persName xml:lang="la">Fortuna Primigenia</persName>
                     </person>
+                    <person xml:id="fortunaRedux">
+                        <persName xml:lang="la">Fortuna Redux</persName>
+                    </person>
                     <person xml:id="genius">
                         <persName xml:lang="la">Genius</persName>
                         <persName xml:lang="en">Genius</persName>
@@ -343,6 +346,9 @@
                     </person>
                     <person xml:id="venusCaelestis">
                         <persName xml:lang="en">Venus Calestis</persName>
+                    </person>
+                    <person xml:id="vetidina">
+                        <persName xml:lang="en">Vetidina</persName>
                     </person>
                     <person xml:id="vulcan">
                         <persName xml:lang="en">Vulcan</persName>

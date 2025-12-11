@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -114,7 +114,7 @@
                     <lb n="3"/>aedili praefecto <expan><abbr>qu<supplied reason="lost">inq</supplied></abbr><ex>uennali</ex></expan>
                     <lb n="4"/><expan><abbr>cur</abbr><ex>atori</ex></expan> via Claudiae
                     <lb n="5"/>flamini <persName type="divine" key="divusAugustus"><name>divi</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> ae<supplied reason="lost">dili</supplied>
-                    <lb n="6"/>iterum <expan><abbr>quinq</abbr><ex>uennali</ex></expan> <persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name>Statio</name></persName> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="6"/>iterum <expan><abbr>quinq</abbr><ex>uennali</ex></expan> <persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name>Statio</name></persName> <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">

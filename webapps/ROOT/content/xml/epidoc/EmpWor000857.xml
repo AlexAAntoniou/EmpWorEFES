@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -109,7 +109,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="attested"><gap reason="lost" extent="unknown" unit="char"/><name><seg part="F"><expan><abbr>t<unclear>i</unclear>lian</abbr><ex>o</ex></expan></seg></name></persName> <expan><abbr>eq</abbr><ex>uiti</ex></expan> <expan><abbr>R</abbr><ex>omano</ex></expan> <expan><abbr>eq</abbr><ex>uo</ex></expan> <expan><abbr><unclear>p</unclear></abbr><ex>ublico</ex></expan> <expan><abbr>I<hi rend="supraline">I</hi>I<hi rend="supraline">I</hi>vir</abbr><ex>o</ex></expan> <expan><abbr>a</abbr><ex>edilica</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> i<hi rend="ligature">te</hi>
+                    <lb n="1"/><persName type="attested"><gap reason="lost" extent="unknown" unit="character"/><name><seg part="F"><expan><abbr>t<unclear>i</unclear>lian</abbr><ex>o</ex></expan></seg></name></persName> <expan><abbr>eq</abbr><ex>uiti</ex></expan> <expan><abbr>R</abbr><ex>omano</ex></expan> <expan><abbr>eq</abbr><ex>uo</ex></expan> <expan><abbr><unclear>p</unclear></abbr><ex>ublico</ex></expan> <expan><abbr>I<hi rend="supraline">I</hi>I<hi rend="supraline">I</hi>vir</abbr><ex>o</ex></expan> <expan><abbr>a</abbr><ex>edilica</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> i<hi rend="ligature">te</hi>
                     <lb n="2" break="no"/>m <expan><abbr>I<hi rend="supraline">I</hi>I<hi rend="supraline">I</hi>vir</abbr><ex>o</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <expan><abbr><unclear><hi rend="supraline">m</hi></unclear></abbr><ex>unicipii</ex></expan> <expan><abbr><unclear>N</unclear></abbr><ex>ovariae</ex></expan> <expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divine" key="divusTraianus"><name><expan><abbr>d</abbr><ex>ivi</ex></expan></name> <name><expan><abbr>Traian</abbr><ex>i</ex></expan></name></persName>
                     <lb n="3"/><expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>ae<unclear>r</unclear></abbr><ex>arii</ex></expan> qui <expan><abbr><unclear>nun</unclear>q</abbr><ex>uam</ex></expan> rei <expan><abbr>p</abbr><ex>ublicae</ex></expan> nil debuit
                     <lb n="4"/><persName type="attested"><name>B<unclear>a</unclear>ebia</name> <name>A<unclear>t</unclear>eronia</name></persName> <expan><abbr>c</abbr><ex>oniugi</ex></expan> <expan><abbr><unclear>k</unclear></abbr><ex>arissimo</ex></expan>

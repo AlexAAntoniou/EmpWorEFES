@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000354</title>
+                <title>Dedication to the Numen and Maiestas of Constantius I</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Rectangular altar, now set into wall. Sides heavily abraded, and missing lower right corner.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text fills most of the stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is incredibly irregular, in terms of character spacing, shape and size. Uneven use of serifs. Triangular interpuncts or heart-shaped interpuncts. Text has red paint in letter incisions, unclear whether this is original or added later.</p>
                                 <locus from="line1" to="line7">Lines 1–7</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">47–58</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-12-09" who="#AA">Edited text and object description</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,24 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="ruler" key="constantiusI"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <g ref="#interpunct">·</g> Caesari
+                    <lb n="2"/><name>Gaio</name> <g ref="#interpunct">·</g> <name>Fabio</name>
+                    <lb n="3"/><name>Constantio</name> <g ref="#interpunct">·</g> <unclear>P</unclear><supplied reason="lost">io</supplied>
+                    <lb n="4"/>Felici <g ref="#interpunct">·</g> Augusto</persName> <supplied reason="lost">or</supplied>
+                    <lb n="5" break="no"/>do <placeName><name>Curium</name> <name>Sab<unclear>i</unclear><supplied reason="lost">no</supplied> 
+                    <lb n="6" break="no"/>rum</name></placeName>
+                    <lb n="7"/><expan><abbr>d</abbr><ex>evotus</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>m</abbr><ex>aiestati</ex><abbr>q</abbr><ex>ue</ex></expan> <expan><abbr><unclear>e</unclear></abbr><ex>ius</ex></expan> 
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR, edited with comparison to photograph.</note></app>
+                    <app loc="1"><note>EDR renders Imperatori in line line, but it is obviously in abbreviation Imp(eratori).</note></app>
+                    <app loc="4"><note>EDR renders August[o] but the final O is clearly evident on the stone.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To the Imperator Caesar Gaius Fabius Constantius Pius Felix Augustus, the town council of Cures Sabini devotes this to his divine force and majesty.</p>
             </div>
             <div type="commentary">
                 <p></p> 

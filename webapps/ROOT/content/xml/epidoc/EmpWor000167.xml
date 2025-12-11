@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -111,7 +111,7 @@
                 <ab>
                     <lb n="1"/><persName type="divinity" key="divusPertinax"><name>Divo</name> <name>Pio</name> <name><supplied reason="lost">P</supplied>ertinaci</name> <name><expan><abbr><supplied reason="lost">Au</supplied>g</abbr><ex>usto</ex></expan></name></persName> <supplied reason="lost">patri</supplied>
                     <lb n="2"/><expan><abbr>colleg</abbr><ex>ium</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan> <del rend="erasure"><expan><abbr><supplied reason="lost">tignu</supplied>ar</abbr><ex>iorum</ex></expan> <expan><abbr>O<supplied reason="lost">st</supplied></abbr><ex>iensium</ex></expan></del>
-                    <lb n="3"/>curam agentibus <persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Plotio</name> <name><seg part="I">Ca</seg><gap reason="lost" extent="unknown" unit="char"/></name> <name>Salinatore</name> <name>Ianuario</name></persName> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Faianio</name>
+                    <lb n="3"/>curam agentibus <persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Plotio</name> <name><seg part="I">Ca</seg><gap reason="lost" extent="unknown" unit="character"/></name> <name>Salinatore</name> <name>Ianuario</name></persName> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Faianio</name>
                     <lb n="4"/><name>Olympo</name></persName> <expan><abbr>mag</abbr><ex>istris</ex></expan> <expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennalibus</ex></expan> <expan><abbr>lust</abbr><ex>ri</ex></expan> <num value="8">X<supplied reason="lost">XVIII</supplied></num>   
                 </ab>
             </div>

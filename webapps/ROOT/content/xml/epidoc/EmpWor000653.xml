@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -29,7 +29,8 @@
                         <country>Italy</country>
                         <region>Regio X</region>
                         <settlement>Aquileia</settlement>
-                        <repository>Aquileia, Museo Archeologico Nazionale, Depositi Visitabili, Room 2: entry wall (directly above entrance), shelf 4 (from left), shelf 1 (from bottom).</repository>  
+                        <repository>Aquileia, Museo Archeologico Nazionale, Depositi Visitabili, Room 2: entry wall (directly above entrance), 
+                            shelf 4 (from left), shelf 1 (from bottom).</repository>  
                         <idno>1918</idno>
                     </msIdentifier>
                     <msContents>
@@ -57,7 +58,8 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>The handwriting is serifed and the letters are well formed. The size of the letters is consistent on each line, however varies between lines. The "U" in the name Artiscius in line 3 is small, and has clearly been inserted, potentially to add a forgotten letter to the line.</p>
+                            <handNote><p>The handwriting is serifed and the letters are well formed. The size of the letters is consistent on each line, however varies between 
+                                lines. The "U" in the name Artiscius in line 3 is small, and has clearly been inserted, potentially to add a forgotten letter to the line.</p>
                                 <locus from="line1" to="line5">Lines 1–5</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">20–30</height>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000355</title>
+                <title>Dedication to the Numen and Majesty of Maximian</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -70,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" subtype="discovered" when="1765">Discovered in 1765 in Fara in Sabina, Passo Corese hamleet, Arci locality, in the area of the forum</provenance>
+                        <provenance type="found" subtype="discovered" when="1765">Discovered in 1765 in Fara in Sabina, Passo Corese hamlet, Arci locality, in the area of the forum</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-12-09" who="#AA">Edited text and object description</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,21 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="ruler" key="maximian"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></supplied> <supplied reason="lost"><expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied> <supplied reason="lost"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name></supplied> <supplied reason="lost"><name><expan><abbr>Aur</abbr><ex>elio</ex></expan></name></supplied> <supplied reason="lost"><name><expan><abbr>Val</abbr><ex>erio</ex></expan></name></supplied>
+                    <lb n="2"/><name>Maxim<supplied reason="lost">iano</supplied></name> <supplied reason="lost">Pio</supplied>
+                    <lb n="3"/>Felici Invic<supplied reason="lost">to</supplied>
+                    <lb n="4"/><expan><abbr>Aug</abbr><ex>usto</ex></expan></persName>
+                    <lb n="5"/><placeName><name>Cures</name> <name>Sabini</name></placeName>
+                    <lb n="6"/><expan><abbr>d</abbr><ex>evoti</ex></expan> <persName type="divine" key="numen"><expan><abbr>n</abbr><ex>umini</ex></expan></persName> <expan><abbr>m</abbr><ex>aiestati</ex><abbr>q</abbr><ex>ue</ex></expan> <expan><abbr>e</abbr><ex>ius</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>[To Imperator Caesar Marcus Aurelius Valerius] Maximianus [Pius] Felix Invictus Augustus. The people of Cures Sabini devote this to his divine force and majesty.</p>
             </div>
             <div type="commentary">
                 <p></p> 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000352</title>
+                <title>Pro Salute Inscription for Hadrian</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,29 +34,29 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Marble plaque in seven fragments, with sections missing at the top edge. Text is contained within a simple carved entabulature. This inscription reuses an earlier inscription, a dedication to Domitian (CIL 9.4952).</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> 
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">25</height>
+                                        <width unit="cm">51</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>The text is unevenly centred across the stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
-                                <locus from="line1" to="line1">Line 1</locus>
+                            <handNote><p>The first four lines of the text are significantly different from the last two. The text in the first two lines is broad and clear, although the stone carver appears to have run out of room in line 4, and the final "G" is small.The final two lines are much thinner and uneven, and the text is crowded. Presence of irregular interpuncts throughout.</p>
+                                <locus from="line1" to="line6">Lines 1–6</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"></height>
+                                    <height unit="mm">20–35</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-12-09" who="#AA">Edited text and object description</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,24 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/>pr<supplied reason="previouseditor">o sa</supplied>lute <expan><abbr>imperat</abbr><ex>oris</ex></expan>
+                    <lb n="2"/><persName type="ruler" key="hadrianusAugustus"><name>Hadriani</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan>
+                    <lb n="3"/><persName type="divine" key="fortunaRedux"><name><expan><abbr>Fortun</abbr><ex>ae</ex></expan></name> <name><expan><abbr>Red</abbr><ex>uci</ex></expan></name></persName> decreto <expan><abbr>c</abbr><ex>entum</ex><abbr>v</abbr><ex>irum</ex></expan>
+                    <lb n="4"/><expan><abbr>pec</abbr><ex>unia</ex></expan> <expan><abbr>publ</abbr><ex>ica</ex></expan> ex <expan><abbr>arg</abbr><ex>enti</ex></expan> <expan><abbr>p</abbr><ex>ondo</ex></expan> <num value="10">X</num> <expan><abbr>cur</abbr><ex>am</ex></expan> <expan><abbr>ag</abbr><ex>entibus</ex></expan>
+                    <lb n="5"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name>Aburtennio</name> <name>Prisco</name></persName> <persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name>Arbutennio</name> <name>Restituto</name></persName>
+                    <lb n="6"/><expan><abbr>I<hi rend="supraline">II</hi>Ivir</abbr><ex>is</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>For the safety of the Imperator Hadrian Augustus, father of the fatherland, to Fortuna Redux. By decree of the council of 100, 
+                    with public money, from ten pounds of silver for those carrying out the administration. When Publius Aburtennius Priscus and 
+                    Publius Aburtennius Restitutus were quattuorviri.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

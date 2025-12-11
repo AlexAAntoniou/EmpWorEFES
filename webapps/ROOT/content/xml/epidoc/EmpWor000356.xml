@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000356</title>
+                <title>Dedication to Lucius Caesienus Firmus, flamen Augustalis.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Rectangular stone plaque, broken on all sides in re-use, and with a large hole in bottom left corner.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Six lines of text, relatively crowded, but with two or three empty lines at bottom. Broken, and therefore missing text, at top and right.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Handwriting is relatively uneven in terms of letter heights and shapes. Significant serifs on many letters, especially on "Q"s. The "Q" at the beginning of line 2 has two tails, and in line 4 a long tail that intrudes into line 5. A range of differently shaped interpuncts throughout.</p>
                                 <locus from="line1" to="line6">Lines 1–6</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">32–50</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-12-10" who="#AA">Edited text and object description</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,21 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Caesienus</name> <name>Firm<supplied reason="lost">us</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><expan><abbr>quaest</abbr><ex>or</ex></expan> <expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <expan><abbr>q<supplied reason="lost">quinq</supplied></abbr><ex>uennalis</ex></expan>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Caesienus</name> <name>Firm<supplied reason="lost">us</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4"/><persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name></persName> <expan><abbr>pron</abbr><ex>epos</ex></expan> <expan><abbr>quaest</abbr><ex>or</ex></expan> <expan><abbr>quinq</abbr><ex>uennalis</ex></expan>
+                    <lb n="5"/><expan><abbr>trib</abbr><ex>unus</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <num value="2">II</num> <expan><abbr>flam</abbr><ex>en</ex></expan> <persName type="divine" key="augustus"><name><expan><abbr>Aug</abbr><ex>ustalis</ex></expan></name></persName> q<supplied reason="lost" extent="unknown" unit="character"/>
+                    <lb n="6"/><supplied reason="lost">bal</supplied>neum <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>fec</abbr><ex>erunt</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Lucius Caesienus Firmus [---], quaestor, prefect in charge of administering justice, quinquennalis, [and] Lucius Caesienus Firmus [---], grandson of Lucius, quaestor, quinquennalis, military tribune twice, flamen Augustalis, q[---], they built baths with their own money.</p>
             </div>
             <div type="commentary">
                 <p></p> 

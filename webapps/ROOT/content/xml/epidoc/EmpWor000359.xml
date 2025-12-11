@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000359</title>
+                <title>Dedication to Marcus Baebius Suetrius Marcellus, flamen of the divine Vespasian</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Reconstituted fragmentary inscription of over a dozen individual parts, now complete. Text within simple carved border.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble (white)</material>
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm">2.6</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Eleven lines of Latin text, not very well-centered within carved border.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is relatively neat and well-defined. Text becomes crowded near the bottom right. Triangular interpuncts.</p>
                                 <locus from="line1" to="line11">Lines 1–11</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">33–53</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-12-10" who="#AA">Edited text and object description</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,29 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="#interpunct">·</g> <name>Baebio</name> <g ref="#interpunct">·</g> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></name></persName> <g ref="#interpunct">·</g> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <g ref="#interpunct">·</g> <expan><abbr>n</abbr><ex>epoti</ex></expan></persName> <g ref="#interpunct">·</g> <expan><abbr>Arn</abbr><ex>ensi</ex></expan> <g ref="#interpunct">·</g> <name>Suetrio</name>
+                    <lb n="2"/><name>Marcello</name></persName> <g ref="#interpunct">·</g> equo <g ref="#interpunct">·</g> pubblico <g ref="#interpunct">·</g>
+                    <lb n="3"/><expan><abbr>aed</abbr><ex>ili</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>q</abbr><ex>uaestori</ex></expan> <g ref="#interpunct">·</g> <expan><abbr><hi rend="supraline">IIII</hi><g ref="#interpunct">·</g>vir</abbr><ex>o</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>i</abbr><ex>ure</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>icundo</ex></expan> <g ref="#interpunct">·</g> <expan><abbr><hi rend="supraline">IIII</hi><g ref="#interpunct">·</g>vir</abbr><ex>o</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>quinq</abbr><ex>uennalis</ex></expan> <g ref="#interpunct">·</g> <num value="2"><hi rend="supraline">II</hi></num>
+                    <lb n="4"/>patrono <g ref="#interpunct">·</g> <expan><abbr>munic</abbr><ex>ipii</ex></expan> <g ref="#interpunct">·</g> flamini <g ref="#interpunct">·</g> <persName type="divine" key="divusVespasianus"><name>divi</name> <g ref="#interpunct">·</g>
+                    <lb n="5"/><name>Vespasiani</name></persName>
+                    <lb n="6"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="#interpunct">·</g> <name>Baebius</name> <g ref="#interpunct">·</g> <name>Suetrius</name> <g ref="#interpunct">·</g> <name>Marcellus</name></persName>
+                    <lb n="7"/>et <g ref="#interpunct">·</g> <persName type="attested"><name>Suetria</name> <g ref="#interpunct">·</g> <name>Rufa</name></persName> <g ref="#interpunct">·</g> patri <g ref="#interpunct">·</g> optumo <g ref="#interpunct">·</g>
+                    <lb n="8"/>huic<g ref="#interpunct">·</g> decuriones <g ref="#interpunct">·</g> funus <g ref="#interpunct">·</g> publicum <g ref="#interpunct">·</g>
+                    <lb n="9"/>statuam <g ref="#interpunct">·</g> equestrem <g ref="#interpunct">·</g> clipeum <g ref="#interpunct">·</g>
+                    <lb n="10"/>argenteum <g ref="#interpunct">·</g> locum <g ref="#interpunct">·</g> sepulturae <g ref="#interpunct">·</g>
+                    <lb n="11"/>decreverunt <g ref="#interpunct">·</g> et <g ref="#interpunct">·</g> urbani <g ref="#interpunct">·</g> statuam <g ref="#interpunct">·</g> <expan><abbr>pedestre</abbr><ex>m</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison to photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Marcus Baebius Suetrius Marcellus, son of Marcus, grandson of Quintus, of tribe Arnensis, Roman equestrian, aedile, quaestor, quattuorvir for the purposes of administering justice
+                   quinquennial quattuovir for the second time, patron of the municipium, flamen of the divine Vespasian. Marcus Baebius Suetrius Marcellus and Suetria Rufa, for the most excellent father.
+                   To this man, the decurions decreed a public funeral, an equestrian statue, a silver shield in the place of his tomb, and a pedestrian statue in the city.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -107,12 +107,12 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab><!-- Only basic encoding -->
-                    <lb n="1"/>pro salute <del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del>
+                    <lb n="1"/>pro salute <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
                     <lb n="2"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name><expan><abbr>Aur</abbr><ex>eli</ex></expan></name> <name>Commodi</name>
-                    <lb n="3"/><name>Antonini</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del>
+                    <lb n="3"/><name>Antonini</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
                     <lb n="4"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <expan><abbr>Aur</abbr><ex>elius</ex></expan> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>lib</abbr><ex>ertus</ex></expan>
                     <lb n="5"/><persName type="attested"><name>Armentarius</name></persName>
-                    <lb n="6"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del>
+                    <lb n="6"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
                     <lb n="7"/><expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
                 </ab> 
             </div>

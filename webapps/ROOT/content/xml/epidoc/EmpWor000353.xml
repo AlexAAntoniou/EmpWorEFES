@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000353</title>
+                <title>Dedication to the numen of Cornelia Salonina.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-12-09" who="#AA">Edited text and object description</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,24 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested" key="corneliaSalonina"><name><supplied reason="lost">C</supplied>orneliae</name> <name>Sa<supplied reason="lost">loninae</supplied></name></persName> <supplied reason="lost">sanctis</supplied>
+                    <lb n="2" break="no"/>sime <expan><abbr>Aug</abbr><ex>ustae</ex></expan> con<supplied reason="lost">iugi</supplied> <persName type="attested" key="Gallienus"><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <name><expan><abbr>P</abbr><ex>ubli</ex></expan></name></supplied>
+                    <lb n="3"/><supplied reason="lost"><name>Licini</name></supplied> <name><supplied reason="lost">G</supplied>alleni</name> <supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied></persName> <placeName><supplied reason="lost"><name>Curenses</name></supplied> <name><supplied reason="lost">Sa</supplied>
+                    <lb n="4" break="no"/>bini</name></placeName> devoti <persName type="divine" key="numen">nu<supplied reason="lost">mini</supplied></persName> <supplied reason="lost">eius</supplied>
+                    <lb n="5"/><expan><abbr>cur</abbr><ex>am</ex></expan> agente <persName type="attested"><name><seg part="I">N</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName> <supplied reason="lost">cura</supplied>
+                    <lb n="6" break="no"/>tori <expan><abbr>r</abbr><ex>ei</ex></expan> <expan><abbr>publ</abbr><ex>icae</ex></expan> <placeName><name><expan><abbr>S</abbr><ex>abinorum</ex></expan></name></placeName> dev<supplied reason="lost">oto</supplied> <supplied reason="lost"><persName type="divine" key="numen">numini</persName></supplied>
+                    <lb n="7"/>eius <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Cornelia Salonina, the most sanctified Augusta, wife of the Imperator Caesar Publius Licinius Gallienus Augustus. The people of Cures Sabini dedicate 
+                   this to her divine force, under the charge of N[---], curator of the republic of Sabini, devoted to her numen.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -115,7 +115,7 @@
                     <lb n="4"/><persName type="attested"><name><expan><abbr><supplied reason="undefined" evidence="previouseditor">M</supplied></abbr><ex>arcus</ex></expan></name> <name>Sextilius</name> <name>Cotus</name></persName>
                     <lb n="5"/><persName type="attested"><name><expan><abbr><supplied reason="undefined" evidence="previouseditor">L</supplied></abbr><ex>ucius</ex></expan></name> <name>Quincti<supplied reason="undefined" evidence="previouseditor">us</supplied></name> <name><supplied reason="undefined" evidence="previouseditor">Pot</supplied>hinus</name></persName>
                     <lb n="6"/><persName type="attested"><name><expan><abbr><supplied reason="undefined" evidence="previouseditor">L</supplied></abbr><ex>ucius</ex></expan></name> <name>No<supplied reason="lost">s</supplied>tiu<supplied reason="undefined" evidence="previouseditor">s</supplied></name> <name><supplied reason="undefined" evidence="previouseditor">Pr</supplied>imus</name></persName>
-                    <lb n="7"/><persName type="attested"><name><expan><abbr>N</abbr><ex>umerius</ex></expan></name> <name>Aniniu<supplied reason="undefined" evidence="previouseditor">s</supplied></name> <name><gap reason="lost" extent="unknown" unit="char"/><seg part="F">dio</seg></name></persName>
+                    <lb n="7"/><persName type="attested"><name><expan><abbr>N</abbr><ex>umerius</ex></expan></name> <name>Aniniu<supplied reason="undefined" evidence="previouseditor">s</supplied></name> <name><gap reason="lost" extent="unknown" unit="character"/><seg part="F">dio</seg></name></persName>
                     <lb n="8"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>A<supplied reason="undefined" evidence="previouseditor">mpi</supplied>us</name> <name>Ur<supplied reason="undefined" evidence="previouseditor">ba</supplied>nus</name></persName>
                     <lb n="9"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Tullius</name> <name>Menander</name></persName>
                     <lb n="10"/><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan>

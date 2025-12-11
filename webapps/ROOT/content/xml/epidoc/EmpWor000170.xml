@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -116,7 +116,7 @@
                         <lb n="6"/><supplied reason="lost">Rusti</supplied>celi <expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>ederunt</ex></expan>
                         <lb n="7"/><supplied reason="lost">et ob <expan><abbr>ded</abbr><ex>icationem</ex></expan></supplied> diviserunt
                         <lb n="8"/><supplied reason="lost">spor</supplied>tulas <expan><abbr>sing</abbr><ex>ulis</ex></expan> <!-- denarios --> <num value="2">II</num>
-                        <lb n="9"/><supplied reason="lost"><expan><abbr>ded</abbr><ex>icatae</ex></expan> <!-- imagines --> <gap reason="lost" extent="unknown" unit="char"/></supplied>
+                        <lb n="9"/><supplied reason="lost"><expan><abbr>ded</abbr><ex>icatae</ex></expan> <!-- imagines --> <gap reason="lost" extent="unknown" unit="character"/></supplied>
                     </ab>
                 </div>
                 <div type="textpart" subtype="column" n="b">

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000347</title>
+                <title>Attestation to Flamen Augustalis</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -98,7 +98,8 @@
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-12-08" who="#AA">Text editing</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,20 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"> <expan><abbr>Qui</abbr><ex>rina</ex></expan> <name><seg part="I">Sec</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="2"/><expan><abbr><supplied reason="lost">pr</supplied></abbr>aef<ex>ecto</ex></expan> iuri <expan><abbr>dic</abbr><ex>undo</ex></expan> <expan><abbr>qu<supplied reason="lost">a</supplied>est</abbr><ex>ori</ex></expan>
+                    <lb n="3"/><expan><abbr><supplied reason="lost">flami</supplied>n</abbr><ex>ali</ex></expan> <persName type="divine" key="augustus"><name><expan><abbr>Aug</abbr><ex>ustali</ex></expan></name></persName> curatori viae Cl<supplied reason="lost">audiae</supplied>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"> <persName type="patronym"><name><expan><abbr>T</abbr><ex>iti</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName> <name>Bassa</name></persName> u<supplied reason="lost">xor fecit</supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
+                    <app loc="1"><note>EDR notes that the name of the dedicatee might be Sec[undo], Sec[undioni] or Sec[uro].</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>[---] Sec[---] of the Quirina triba, prefect for administering justice, quaestor, flamen of Augustus, curator of the Claudian Road, [---] Bassa, daughter of Titus, his wife erected [this].</p>
             </div>
             <div type="commentary">
                 <p></p> 

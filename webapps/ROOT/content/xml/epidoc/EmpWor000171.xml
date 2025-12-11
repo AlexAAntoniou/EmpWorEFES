@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -109,14 +109,14 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="char"/> <unclear>A</unclear>ug<supplied reason="lost">ust</supplied><gap reason="lost" extent="unknown" unit="char"/>
-                    <lb n="2"/><gap reason="lost" extent="unknown" unit="char"/> <persName type="attested"><name><supplied reason="lost">V</supplied>aleriu<supplied reason="lost">s</supplied></name> <gap reason="lost" extent="unknown" unit="char"/>
-                    <lb n="3"/><name><supplied reason="lost">Qu</supplied>adratia<supplied reason="lost">nus</supplied></name> <gap reason="lost" extent="unknown" unit="char"/></persName>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>A</unclear>ug<supplied reason="lost">ust</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name><supplied reason="lost">V</supplied>aleriu<supplied reason="lost">s</supplied></name> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><name><supplied reason="lost">Qu</supplied>adratia<supplied reason="lost">nus</supplied></name> <gap reason="lost" extent="unknown" unit="character"/></persName>
                     <lb n="4"/><expan><abbr><supplied reason="lost">co</supplied>rp</abbr><ex>oris</ex></expan> <expan><abbr>traie<supplied reason="lost">ct</supplied></abbr><ex>us</ex></expan> <supplied reason="lost"><expan><abbr>Rustic</abbr><ex>eli</ex></expan></supplied>
-                    <lb n="5"/><expan><abbr><supplied reason="lost">im</supplied>ag</abbr><ex cert="low">inem</ex></expan> ex <expan><abbr>ar<unclear>g</unclear></abbr><ex>ento</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>ondo</ex></expan> <gap reason="lost" extent="unknown" unit="char"/> cum</supplied>
+                    <lb n="5"/><expan><abbr><supplied reason="lost">im</supplied>ag</abbr><ex cert="low">inem</ex></expan> ex <expan><abbr>ar<unclear>g</unclear></abbr><ex>ento</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>ondo</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> cum</supplied>
                     <lb n="6"/><supplied reason="lost">cli</supplied>peo et Atl<supplied reason="lost">ante</supplied>
                     <lb n="7"/><supplied reason="lost">aere</supplied>o <expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan> et ob <expan><abbr>de<supplied reason="lost">d</supplied></abbr><ex>icationem</ex></expan>
-                    <lb n="8"/><supplied reason="lost">di</supplied>visit <expan><abbr>virit</abbr><ex>im</ex></expan> <expan><abbr>sin<supplied reason="lost">g</supplied></abbr><ex>ulis</ex></expan> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="8"/><supplied reason="lost">di</supplied>visit <expan><abbr>virit</abbr><ex>im</ex></expan> <expan><abbr>sin<supplied reason="lost">g</supplied></abbr><ex>ulis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="9"/><expan><abbr><supplied reason="lost">de</supplied>d</abbr><ex>icata</ex></expan> <num value="8">VIII</num> <expan><abbr>Id</abbr><ex>us</ex></expan> <expan><abbr>Feb</abbr><ex>ruarias</ex></expan> <persName type="attested">Ma<supplied reason="lost">ximo</supplied></persName>
                     <lb n="10"/><supplied reason="lost">et</supplied> <persName type="attested"><name>Orfi<supplied reason="lost">to</supplied></name></persName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
                 </ab>

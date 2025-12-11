@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -110,7 +110,7 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <div type="textpart" subtype="column" n="a">
                     <ab>
-                        <lb n="1"/><gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost">ex tes</supplied>tamento <persName type="attested"><name>Otacili</name> <name>Galli</name></persName> patris Caesareum
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ex tes</supplied>tamento <persName type="attested"><name>Otacili</name> <name>Galli</name></persName> patris Caesareum
                         <lb n="2"/><supplied reason="lost" cert="low">vetustate</supplied> conlapsum <expan><abbr>p</abbr><ex>ecunia</ex></expan> <supplied reason="undefined" evidence="previouseditor"><expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>r</abbr><ex>estituit</ex></expan></supplied> cuius oper<supplied reason="undefined" evidence="previouseditor">i</supplied><unclear>s</unclear> dedicatione
                         <lb n="3"/><supplied reason="lost">dedit decurionibus</supplied> <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertios</ex></expan> <num value="30">XXX</num> Augusta<supplied reason="undefined" evidence="previouseditor">l</supplied>ibus <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertios</ex></expan> <num value="20">XX</num> vicanis <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertios</ex></expan> <num value="12">XII</num> ux<supplied reason="undefined" evidence="previouseditor">orib</supplied><unclear>u</unclear>s
                     </ab>

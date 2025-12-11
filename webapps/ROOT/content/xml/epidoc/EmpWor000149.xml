@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -110,7 +110,7 @@
                     <lb n="1"/><persName type="divinity" key="numenDomusAugusti"><name>numini</name> <name>domus</name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName>
                     <lb n="2"/><persName type="divinity" key="silvanus"><name>Silvani</name></persName> iuvenis sacrum
                     <lb n="3"/>sub cura <persName type="attested">Achillis</persName> <persName type="attested"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>lib</abbr><ex>erti</ex></expan>
-                    <lb n="4"/><gap reason="lost" extent="unknown" unit="char"/> atendente <persName type="attested"><name>Xantho</name></persName>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> atendente <persName type="attested"><name>Xantho</name></persName>
                 </ab> 
             </div>
             <div type="apparatus">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -112,9 +112,9 @@
                     <lb n="1"/><persName type="divine" key="di-manes"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <supplied reason="lost"><name><expan><abbr>M</abbr><ex>anibus</ex></expan></name></supplied></persName>
                     <lb n="2"/><persName type="attested"><name><expan><abbr>A</abbr><ex>uli</ex></expan></name> <name>Viciri</name> <persName type="patronym"><name><expan><abbr>A</abbr><ex>uli</ex></expan></name> <expan><abbr>f</abbr><ex>ili</ex></expan></persName> <expan><abbr>Arn</abbr><ex>ensi</ex></expan> <supplied reason="lost"><name>Proculi</name></supplied></persName> <supplied reason="lost"><expan><abbr>tr</abbr><ex>ibuni</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan></supplied>
                     <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="4">IIII</num> Scythi<supplied reason="lost">cae aedilis</supplied>
-                    <lb n="4"/>Etruriae <expan><abbr>fla<supplied reason="lost">m</supplied></abbr><ex>inis</ex></expan> <name><supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustalis</ex></expan></supplied></name> <gap reason="lost" extent="unknown" unit="char"/>
-                    <lb n="5"/><expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> funus publ<supplied reason="lost">icum</supplied> <gap reason="lost" extent="unknown" unit="char"/>
-                    <lb n="6"/>ob merita <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="4"/>Etruriae <expan><abbr>fla<supplied reason="lost">m</supplied></abbr><ex>inis</ex></expan> <name><supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustalis</ex></expan></supplied></name> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="5"/><expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> funus publ<supplied reason="lost">icum</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="6"/>ob merita <gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="7"/><!-- sertum -->
                 </ab>
             </div>

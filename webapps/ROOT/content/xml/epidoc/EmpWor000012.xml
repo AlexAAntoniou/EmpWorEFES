@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -113,7 +113,7 @@
                    <lb n="4"/>II<supplied reason="lost">vir</supplied> <expan><abbr>quinq</abbr><ex>uennalis</ex></expan> flamen
                    <lb n="5"/><persName type="divinity">divi Vespasiani</persName>
                    <lb n="6"/>vovit dedicav<supplied reason="lost">itq</supplied>ue
-                   <lb n="7"/>sua <expan><abbr>pec</abbr><ex>unia</ex></expan> 
+                   <lb n="7"/>sua <expan><abbr>pec</abbr><ex>unia</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

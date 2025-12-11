@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -109,7 +109,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="char"/><seg part="F">s</seg></name> <g ref="symbols.xml#ivy-leaf">❦</g> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <g ref="symbols.xml#ivy-leaf">❦</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <g ref="symbols.xml#ivy-leaf">❦</g> <expan><abbr>Clu</abbr><ex>stumina</ex></expan> <g ref="symbols.xml#ivy-leaf">❦</g> <name><supplied reason="undefined" evidence="previouseditor">Capito</supplied></name></persName>
+                    <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/><seg part="F">s</seg></name> <g ref="symbols.xml#ivy-leaf">❦</g> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <g ref="symbols.xml#ivy-leaf">❦</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <g ref="symbols.xml#ivy-leaf">❦</g> <expan><abbr>Clu</abbr><ex>stumina</ex></expan> <g ref="symbols.xml#ivy-leaf">❦</g> <name><supplied reason="undefined" evidence="previouseditor">Capito</supplied></name></persName>
                     <lb n="2"/><expan><abbr><unclear>f</unclear><supplied reason="lost">lam</supplied></abbr><ex>en</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="divusTitus"><name><supplied reason="lost">divi</supplied></name> <g ref="symbols.xml#interpunct">·</g> <name>Titi</name></persName> <g ref="symbols.xml#ivy-leaf">❦</g> <expan><abbr>patro<supplied reason="undefined" evidence="previouseditor">n</supplied></abbr><ex>us</ex></expan> <g ref="symbols.xml#ivy-leaf">❦</g> <supplied reason="undefined" evidence="previouseditor">munici<hi rend="ligature">pi</hi></supplied> <g ref="symbols.xml#interpunct">·</g>
                     <lb n="3"/><hi rend="supraline">IIII</hi><supplied reason="lost">vir</supplied> <supplied reason="lost">viaru</supplied>m cura<supplied reason="undefined" evidence="previouseditor">ndarum</supplied> <expan><abbr><supplied reason="undefined" evidence="previouseditor">trib</supplied></abbr><ex>unus</ex></expan>
                     <lb n="4"/><expan><abbr>mi<unclear>l</unclear></abbr><ex>itum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr><supplied reason="lost">le</supplied>g</abbr><ex>ionis</ex></expan> <num value="4"><hi rend="supraline">IIII</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Fl</abbr><ex>aviae</ex></expan> <g ref="symbols.xml#interpunct">·</g> Felicis <g ref="symbols.xml#interpunct">·</g> <supplied reason="undefined" evidence="previouseditor">quaestori</supplied> <g ref="symbols.xml#interpunct">·</g>

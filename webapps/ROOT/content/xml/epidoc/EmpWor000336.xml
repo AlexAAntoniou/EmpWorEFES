@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -109,12 +109,12 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="char"/> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Volu<supplied reason="lost">sius</supplied></name></persName>
-                    <lb n="2"/><gap reason="lost" extent="unknown" unit="char"/> <persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name>Mall<supplied reason="lost">ius</supplied></name></persName>
-                    <lb n="3"/><gap reason="lost" extent="unknown" unit="char"/> <persName type="attested"><name>Caius</name> <name>Pom<supplied reason="lost">ponius</supplied></name></persName>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Volu<supplied reason="lost">sius</supplied></name></persName>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name>Mall<supplied reason="lost">ius</supplied></name></persName>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name>Caius</name> <name>Pom<supplied reason="lost">ponius</supplied></name></persName>
                     <lb n="4"/><supplied reason="lost">orchest</supplied>ram straverunt podium et tribun<supplied reason="lost">al et</supplied>
-                    <lb n="5"/><supplied reason="lost">statuam</supplied> <persName type="divine" key="iustitiaAugusta"><name><supplied reason="lost">I</supplied>ustitiae</name> <name>Augustae</name></persName> decurionibu<supplied reason="lost">s</supplied> <gap reason="lost" extent="unknown" unit="char"/>
-                    <lb n="6"/><gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost">l</supplied>udos scaenicos quadriduo et <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="5"/><supplied reason="lost">statuam</supplied> <persName type="divine" key="iustitiaAugusta"><name><supplied reason="lost">I</supplied>ustitiae</name> <name>Augustae</name></persName> decurionibu<supplied reason="lost">s</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">l</supplied>udos scaenicos quadriduo et <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -112,12 +112,12 @@
                 <ab>
                     <lb n="1"/><persName type="divine" key="marsAugustus"><name>Ma<unclear>r</unclear>ti</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
                     <lb n="2"/>sacrum
-                    <lb n="3"/><persName type="attested"><name><expan><abbr>A</abbr><ex>ulus</ex></expan></name> <name>Do<unclear>mi</unclear><supplied reason="lost">ti</supplied><supplied reason="undefined" evidence="previouseditor">u</supplied><supplied reason="lost">s</supplied></name> <persName type="patronym"><name><gap reason="lost" atLeast="1" atMost="3" unit="char"/></name> <expan><abbr><unclear>f</unclear></abbr><ex>ilius</ex></expan></persName>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>A</abbr><ex>ulus</ex></expan></name> <name>Do<unclear>mi</unclear><supplied reason="lost">ti</supplied><supplied reason="undefined" evidence="previouseditor">u</supplied><supplied reason="lost">s</supplied></name> <persName type="patronym"><name><gap reason="lost" atLeast="1" atMost="3" unit="character"/></name> <expan><abbr><unclear>f</unclear></abbr><ex>ilius</ex></expan></persName>
                     <lb n="4"/><expan><abbr>Tro</abbr><ex>mentina</ex></expan> <name>Nepos</name></persName> <expan><abbr><unclear>e</unclear>voc</abbr><ex>atus</ex></expan>
                     <lb n="5"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> testamento
                     <lb n="6"/><unclear>pon</unclear>i iussit cura
-                    <lb n="7"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="char"/><gap reason="illegible" quantity="2" unit="char"/><seg part="F">nni</seg></name> <name>Pude<hi rend="ligature">nt</hi>is</name>
-                    <lb n="8"/><gap reason="lost" extent="unknown" unit="char"/> <name>Prisci</name></persName>
+                    <lb n="7"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><seg part="F">nni</seg></name> <name>Pude<hi rend="ligature">nt</hi>is</name>
+                    <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <name>Prisci</name></persName>
                 </ab>
             </div>
             <div type="apparatus">

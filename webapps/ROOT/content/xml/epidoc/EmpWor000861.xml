@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -110,7 +110,7 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
                     <lb n="1"/><persName type="attested"><name><unclear>M</unclear>ania</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName> <name>B<supplied reason="lost">e</supplied>tutia</name> <name><seg part="I">Pro</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName>
-                    <lb n="2"/>flaminica <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="divaLivia"><name><unclear>d</unclear>ivae</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <g ref="symbols.xml#ivy-leaf">❦</g> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="2"/>flaminica <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="divaLivia"><name><unclear>d</unclear>ivae</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <g ref="symbols.xml#ivy-leaf">❦</g> <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">

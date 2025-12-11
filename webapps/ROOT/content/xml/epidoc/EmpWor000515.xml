@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -115,7 +115,7 @@
                         <lb n="3"/><persName type="ruler"><del rend="erasure"><supplied reason="lost"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <name>Caesaris</name> <persName type="patronym"><name>Germanici</name> <expan><abbr>f</abbr><ex>ili</ex></expan></persName></supplied> <supplied reason="lost" cert="low"><expan><abbr>q</abbr><ex>uaestoris</ex></expan></supplied> <supplied reason="lost">et</supplied></del> <persName type="ruler"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <name>Caesaris</name></persName> <persName type="patronym"><name>Drusi</name> <expan><abbr>f</abbr><ex>ili</ex></expan></persName></persName>
                         <lb n="4"/><supplied reason="lost"><expan><abbr>coron</abbr><ex>am</ex></expan> <expan><abbr>querc</abbr><ex>eam</ex></expan></supplied> ex auri <expan><abbr>p</abbr><ex>ondo</ex></expan> <num value="10">X</num> et sellam auratam cum <expan><abbr>ornament</abbr><ex>is</ex></expan>
                         <lb n="5"/><supplied reason="lost">sua <expan><abbr>pecun</abbr><ex>ia</ex></expan> de</supplied>derunt dedicaveruntque <persName type="divine" key="iuppiter"><name>Iovi</name> <name><expan><abbr>O</abbr><ex>ptimo</ex></expan></name> <name><expan><abbr>M</abbr><ex>aximo</ex></expan></name></persName> <persName type="divine" key="iuno"><name>Iunoni</name> <name><expan><abbr>R</abbr><ex>eginae</ex></expan></name></persName> <expan><abbr>vot</abbr><ex>o</ex></expan> <expan><abbr>s</abbr><ex>oluto</ex></expan>
-                        <lb n="6"/><gap reason="lost" extent="unknown" unit="char"/><persName type="attested"><name>Priscus</name></persName> pater harispex <persName type="ruler"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <name>Caesaris</name> <name>Augusti</name></persName>
+                        <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"><name>Priscus</name></persName> pater harispex <persName type="ruler"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <name>Caesaris</name> <name>Augusti</name></persName>
                         <lb n="7"/><supplied reason="lost"><hi rend="supraline">IIII</hi>vir <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan></supplied> <expan><abbr><supplied reason="lost">prae</supplied>f</abbr><ex>ectus</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan> et Etruscus <expan><abbr>fil</abbr><ex>ius</ex></expan> <hi rend="supraline">IIII</hi>vir <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <expan><abbr>trib</abbr><ex>unus</ex></expan> <expan><abbr>milit</abbr><ex>um</ex></expan> et
                         <lb n="8"/><supplied reason="lost" cert="low">et plebei</supplied> <supplied reason="lost">crustu</supplied>lum et mulsum dederunt
                     </ab>

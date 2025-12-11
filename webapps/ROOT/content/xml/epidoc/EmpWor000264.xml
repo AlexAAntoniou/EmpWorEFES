@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -109,11 +109,11 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del>
-                    <lb n="2"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del>
+                    <lb n="1"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
+                    <lb n="2"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
                     <lb n="3"/><persName type="divine" key="tiberius"><name><expan><abbr><supplied reason="lost">Ti</supplied></abbr><ex>berio</ex></expan></name> <name><supplied reason="lost">C</supplied>aesari</name> <persName type="patronym"><name>divi</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <name>Augusto</name></persName> <persName type="divine" key="divaLivia"><name>divae</name> <name>Augus<supplied reason="lost">tae</supplied></name></persName>
                     <lb n="4"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name><supplied reason="lost">I</supplied>unius</name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>Gal</abbr><ex>eria</ex></expan> <name>Proculus</name></persName> <expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>equit</abbr><ex>um</ex></expan> <persName type="ruler"><name>divi</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>fab</abbr><ex>rum</ex></expan> sua <expan><abbr>pec</abbr><ex>unia</ex></expan> fec<supplied reason="lost">it</supplied>
-                    <lb n="5"/><persName type="attested"><name>Pompeia</name> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName> <name>Trebulla</name></persName> testamento suo ex <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertii</ex></expan> <num value="100000"><hi rend="supraline">C</hi></num> refici iussit <del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del>
+                    <lb n="5"/><persName type="attested"><name>Pompeia</name> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName> <name>Trebulla</name></persName> testamento suo ex <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertii</ex></expan> <num value="100000"><hi rend="supraline">C</hi></num> refici iussit <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
                 </ab>
             </div>
             <div type="apparatus">

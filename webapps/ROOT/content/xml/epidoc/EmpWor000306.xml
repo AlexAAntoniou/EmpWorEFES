@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -112,7 +112,7 @@
                     <lb n="1"/><supplied reason="lost" cert="low">aedem</supplied> <persName type="divine" key="iunoRegina"><name><supplied reason="lost">Iuno</supplied>nis</name> <g ref="symbols.xml#interpunct">·</g> <name>Reginae</name></persName>
                     <lb n="2"/><supplied reason="lost" cert="low">vetustate</supplied> <supplied reason="lost">llapsam</supplied> <persName type="attested"><name>Ga<supplied reason="lost">b</supplied>bia</name>
                     <lb n="3"/><supplied reason="lost" cert="low"><persName type="attested"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName></supplied> <supplied reason="lost"><name>Tertulla</name></supplied></persName> sacerdos <persName type="divine"><name>divae</name>
-                    <lb n="4"/><supplied reason="lost"><name>Augustae</name></supplied></persName> <supplied reason="lost">refici</supplied>unda<supplied reason="lost">m</supplied> <expan><abbr>cur</abbr><ex>avit</ex></expan> <gap reason="lost" extent="unknown" unit="char"/>tis
+                    <lb n="4"/><supplied reason="lost"><name>Augustae</name></supplied></persName> <supplied reason="lost">refici</supplied>unda<supplied reason="lost">m</supplied> <expan><abbr>cur</abbr><ex>avit</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>tis
                 </ab>
             </div>
             <div type="apparatus">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -109,7 +109,7 @@
                 <ab>
                     <lb n="1"/><supplied reason="lost">pro s</supplied>alute
                     <lb n="2"/><persName type="divine" key="domusdivinae"><name><supplied reason="lost" cert="low">domus</supplied></name> <name>Augustae</name></persName>
-                    <lb n="3"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="char"/><seg part="F">ius</seg></name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName></persName>
+                    <lb n="3"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ius</seg></name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName></persName>
                     <lb n="4"/><persName type="divine" key="herculesVictor"><name><expan><abbr>H</abbr><ex>erculi</ex></expan></name> <name><expan><abbr>V</abbr><ex>ictori</ex></expan></name></persName> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan>
                 </ab>
             </div>

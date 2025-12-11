@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -110,7 +110,7 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
                     <lb n="1"/><persName type="divine" key="geniusCaesari"><name><supplied reason="lost">Genio</supplied></name> <name>Caesaris</name> <persName type="patronym"><name>divi</name> <expan><abbr>f</abbr><ex>ili</ex></expan></persName> A<supplied reason="lost">ugusti</supplied></persName> <supplied reason="lost"><expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et</supplied>
-                    <lb n="2"/><persName type="divine" key="laresAugusti"><name><supplied reason="lost">Laribu</supplied>s</name> <name>Augustis</name></persName> <persName type="attested"><name><expan><abbr>Ti</abbr><ex>berius</ex></expan></name> <name>Bar<supplied reason="lost" cert="low">bius</supplied></name> <name><gap reason="illegible" quantity="9" unit="char"/></name></persName>
+                    <lb n="2"/><persName type="divine" key="laresAugusti"><name><supplied reason="lost">Laribu</supplied>s</name> <name>Augustis</name></persName> <persName type="attested"><name><expan><abbr>Ti</abbr><ex>berius</ex></expan></name> <name>Bar<supplied reason="lost" cert="low">bius</supplied></name> <name><gap reason="illegible" quantity="9" unit="character"/></name></persName>
                     <lb n="3"/><!-- palmae ornamenta, palmae duo, flos -->
                     <lb n="4"/><supplied reason="lost">aedem cum p</supplied>odio <unclear>c</unclear><supplied reason="lost">olumnas orna</supplied>menta quaeque in ea aed<supplied reason="lost">e sunt <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> fecit</supplied> <persName type="attested"><name><supplied reason="lost" cert="low"><expan><abbr>P</abbr><ex>ublio</ex></expan></supplied></name> <name><supplied reason="lost">Volu</supplied><unclear>m</unclear>nio</name> <name>Dione</name></persName> arc<unclear>h</unclear>itecto
                 </ab>

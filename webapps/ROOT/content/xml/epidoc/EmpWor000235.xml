@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -108,20 +108,20 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <div type="textpart" subtype="column" n="a">
                     <ab>
-                        <lb n="1"/><gap reason="lost" extent="unknown" unit="char"/>lius
-                        <lb n="2"/><gap reason="lost" extent="unknown" unit="char"/> <persName type="attested"><name>Accius</name> <gap reason="lost" extent="unknown" unit="char"/>us</persName>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>lius
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name>Accius</name> <gap reason="lost" extent="unknown" unit="character"/>us</persName>
                         <lb n="3"/><persName type="ruler"><name><supplied reason="lost">Ge</supplied>rmanicus</name> <name>Caesar</name></persName>
-                        <lb n="4"/><persName type="attested"><name>Cassius</name> <orig>VA</orig><gap reason="lost" extent="unknown" unit="char"/></persName>
+                        <lb n="4"/><persName type="attested"><name>Cassius</name> <orig>VA</orig><gap reason="lost" extent="unknown" unit="character"/></persName>
                         <lb n="5"/><persName type="attested"><name>Punicus</name> <name><expan><abbr>Lig</abbr><ex cert="low">ustis</ex></expan></name></persName> IIvir
                         <lb n="6"/><persName type="attested"><name>Manilei</name> <name><expan><abbr>Post</abbr><ex cert="low">umius</ex></expan></name></persName> <expan><abbr>a<supplied reason="omitted">e</supplied>d</abbr><ex>iles</ex></expan>
                         <lb n="7"/><persName type="attested"><name><expan><abbr>A</abbr><ex>ulus</ex></expan></name> <name><expan><abbr>Min</abbr><ex cert="low">uci</ex><abbr>us</abbr></expan></name></persName> <expan><abbr>quin</abbr><ex>quennalis</ex></expan>
                         <lb n="8"/><persName type="attested"><name>Marius</name></persName> <expan><abbr>aed</abbr><ex>ilis</ex></expan>
-                        <lb n="9"/><gap reason="illegible" quantity="1" unit="character"/> <persName type="attested"><name>Truttidi<supplied reason="lost">us</supplied></name> <gap reason="lost" extent="unknown" unit="char"/></persName>
-                        <lb n="10"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Caecilius</name> <gap reason="lost" extent="unknown" unit="char"/></persName>
-                        <lb n="11"/><persName type="attested"><gap reason="lost" extent="unknown" unit="char"/> <name><supplied reason="lost">I</supplied>nstacilius</name></persName> <expan><abbr>aed</abbr><ex>ilis</ex></expan>
-                        <lb n="12"/><persName type="attested"><gap reason="lost" extent="unknown" unit="char"/><name><seg part="F">orius</seg></name></persName> IIvir
-                        <lb n="13"/><persName type="attested"><gap reason="lost" extent="unknown" unit="char"/><name><seg part="F">ius</seg></name></persName> <expan><abbr>aed</abbr><ex>ilis</ex></expan>
-                        <lb n="14"/><persName type="attested"><name><gap reason="lost" atLeast="1" atMost="3" unit="character"/></name> <name><supplied reason="lost">Ci</supplied>ncius</name> <gap reason="lost" extent="unknown" unit="char"/></persName>
+                        <lb n="9"/><gap reason="illegible" quantity="1" unit="character"/> <persName type="attested"><name>Truttidi<supplied reason="lost">us</supplied></name> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                        <lb n="10"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Caecilius</name> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                        <lb n="11"/><persName type="attested"><gap reason="lost" extent="unknown" unit="character"/> <name><supplied reason="lost">I</supplied>nstacilius</name></persName> <expan><abbr>aed</abbr><ex>ilis</ex></expan>
+                        <lb n="12"/><persName type="attested"><gap reason="lost" extent="unknown" unit="character"/><name><seg part="F">orius</seg></name></persName> IIvir
+                        <lb n="13"/><persName type="attested"><gap reason="lost" extent="unknown" unit="character"/><name><seg part="F">ius</seg></name></persName> <expan><abbr>aed</abbr><ex>ilis</ex></expan>
+                        <lb n="14"/><persName type="attested"><name><gap reason="lost" atLeast="1" atMost="3" unit="character"/></name> <name><supplied reason="lost">Ci</supplied>ncius</name> <gap reason="lost" extent="unknown" unit="character"/></persName>
                     </ab>
                 </div>
                 <div type="textpart" subtype="column" n="b">
@@ -135,14 +135,14 @@
                         <lb n="7"/>ordine ex <expan><abbr>s</abbr><ex>enatus</ex></expan> <expan><abbr>c</abbr><ex>onsulto</ex></expan>
                         <lb n="8"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>Petronius</name> <name>Rufus</name></persName> <expan><abbr>praef</abbr><ex>ectus</ex></expan>
                         <lb n="9"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Dindius</name></persName> <persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeus</ex></expan></name> <name>Egnatius</name></persName> <expan><abbr>aed</abbr><ex>iles</ex></expan>
-                        <lb n="10"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name><seg part="I">Iuc</seg><gap reason="lost" extent="unknown" unit="char"/></name> <name>Rufus</name></persName> <persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Thorenas</name></persName> <expan><abbr>q</abbr><ex>uaestores</ex></expan>
-                        <lb n="11"/><persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeus</ex></expan></name> <name>Iuc<gap reason="lost" extent="unknown" unit="char"/>us</name></persName> flamen
+                        <lb n="10"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name><seg part="I">Iuc</seg><gap reason="lost" extent="unknown" unit="character"/></name> <name>Rufus</name></persName> <persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Thorenas</name></persName> <expan><abbr>q</abbr><ex>uaestores</ex></expan>
+                        <lb n="11"/><persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeus</ex></expan></name> <name>Iuc<gap reason="lost" extent="unknown" unit="character"/>us</name></persName> flamen
                         <lb n="12"/><persName type="divine" key="divusAugustus"><name><supplied reason="lost">divi</supplied></name> <name><supplied reason="lost">Au</supplied>gusti</name></persName>
                         <lb n="13"/>II<supplied reason="lost">vir</supplied>
-                        <lb n="14"/>cur<gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost" cert="low">cen</supplied>sura
+                        <lb n="14"/>cur<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">cen</supplied>sura
                         <lb n="15"/><persName type="attested"><name>Marcus</name> <name>Raecius</name> <name>Cordus</name></persName> <expan><abbr>q</abbr><ex>uaestor</ex></expan>
                         <lb n="16"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Petisius</name> <name>Potens</name></persName> <persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Salv<supplied reason="lost">i</supplied>u<supplied reason="lost">s</supplied></name></persName>
-                        <lb n="17"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Dindius</name></persName> <persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name>Livius</name> <name><seg part="I">R</seg><gap reason="lost" extent="unknown" unit="char"/></name></persName>
+                        <lb n="17"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Dindius</name></persName> <persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name>Livius</name> <name><seg part="I">R</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName>
                         <lb n="18"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Aiacius</name></persName> <persName type="attested"><name>Arrius</name> <name><abbr>C</abbr></name> <name><abbr>C</abbr></name> <name><abbr>F</abbr></name></persName>
                     </ab>
                 </div>

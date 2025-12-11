@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -109,8 +109,8 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="char"/><gap reason="illegible" quantity="1" unit="char"/><gap reason="lost" extent="unknown" unit="char"/>
-                    <lb n="2"/><gap reason="lost" extent="unknown" unit="char"/> <persName type="attested"><name><supplied reason="lost" cert="low">Pet</supplied><unclear>r</unclear>onio</name> <persName type="patronym"><name><expan><abbr>S<supplied reason="lost">ex</supplied></abbr><ex>ti</ex></expan></name> <expan><abbr><supplied reason="lost">f</supplied></abbr><ex>ilio</ex></expan></persName>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name><supplied reason="lost" cert="low">Pet</supplied><unclear>r</unclear>onio</name> <persName type="patronym"><name><expan><abbr>S<supplied reason="lost">ex</supplied></abbr><ex>ti</ex></expan></name> <expan><abbr><supplied reason="lost">f</supplied></abbr><ex>ilio</ex></expan></persName>
                     <lb n="3"/><expan><abbr>Fal</abbr><ex>erna</ex></expan> <g ref="symbols.xml#interpunct">·</g> <name>Musculo</name></persName> <g ref="symbols.xml#interpunct">·</g> ponti<supplied reason="lost">fici</supplied>
                     <lb n="4"/><expan><abbr>flam</abbr><ex>ini</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="divusAugustus"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>praef</abbr><ex>ecto</ex></expan>
                     <lb n="5"/><expan><abbr>fabr</abbr><ex>um</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>quaest</abbr><ex>ori</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan> <g ref="symbols.xml#interpunct">·</g> bis <g ref="symbols.xml#interpunct">·</g> <expan><abbr>tert</abbr><ex>ium</ex></expan>

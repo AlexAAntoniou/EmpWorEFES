@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -110,8 +110,8 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <div type="textpart" subtype="column" n="a">
                     <ab>
-                        <lb n="1"/><gap reason="lost" extent="unknown" unit="char"/>us
-                        <lb n="2"/><gap reason="lost" extent="unknown" unit="char"/><supplied reason="lost">c</supplied>orpori
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>us
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">c</supplied>orpori
                         <lb n="3"/><supplied reason="lost">scaph</supplied>ariorum
                         <lb n="4"/><supplied reason="lost">traiectus</supplied> Rusticeli ob
                         <lb n="5"/><supplied reason="lost">honorem</supplied> <expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennalitatis</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>
@@ -123,7 +123,7 @@
                         <lb n="2"/><persName type="ruler"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name> <name>Ca<supplied reason="lost">esaris</supplied></name> <supplied reason="lost"><name><expan><abbr>T</abbr><ex>iti</ex></expan></name> <name>Aeli</name></supplied>
                         <lb n="3"/><name>Hadria<supplied reason="lost">ni</supplied></name> <supplied reason="lost"><name>Antonini</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></supplied>
                         <lb n="4"/>Pii <supplied reason="lost"><expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> filio</supplied></persName>
-                        <lb n="5"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>Mar<supplied reason="lost">ius</supplied></name> <gap reason="lost" extent="unknown" unit="char"/></persName>
+                        <lb n="5"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>Mar<supplied reason="lost">ius</supplied></name> <gap reason="lost" extent="unknown" unit="character"/></persName>
                         <lb n="6"/>sevir A<supplied reason="lost">ugustalis</supplied>
                         <lb n="7"/>corpori s<supplied reason="lost">caphariorum</supplied>
                         <lb n="8"/>traiec<supplied reason="lost">tus <expan><abbr>Rust</abbr><ex>iceli</ex></expan> ob <expan><abbr>hon</abbr><ex>orem</ex></expan> <expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennalitatis</ex></expan></supplied>

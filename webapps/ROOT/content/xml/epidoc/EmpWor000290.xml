@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -109,10 +109,10 @@
                 <ab>
                     <lb n="1"/><persName type="divine"><name><supplied reason="lost">Fo</supplied><unclear>r</unclear>tunae</name> <g ref="symbols.xml#ivy-leaf">❦</g> <supplied reason="lost"><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></supplied></persName>
                     <lb n="2"/><expan><abbr>sacr</abbr><ex>um</ex></expan>
-                    <lb n="3"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="char"/><seg part="F">cia</seg></name> <name>Primi<unclear>g</unclear><supplied reason="lost">enia</supplied></name></persName>
-                    <lb n="4"/><gap reason="lost" extent="unknown" unit="char"/><orig><unclear>M</unclear>AMON</orig><gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="3"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/><seg part="F">cia</seg></name> <name>Primi<unclear>g</unclear><supplied reason="lost">enia</supplied></name></persName>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>M</unclear>AMON</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="5"/><supplied reason="lost">vic</supplied>o Augu<unclear>s</unclear><supplied reason="lost">tano</supplied>
-                    <lb n="6"/><gap reason="lost" extent="unknown" unit="char"/> a so<supplied reason="lost">lo</supplied> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> a so<supplied reason="lost">lo</supplied> <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">

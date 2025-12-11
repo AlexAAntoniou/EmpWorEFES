@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -108,8 +108,8 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
                     <lb n="1"/><persName type="divine" key="laresAugusti"><name><supplied reason="lost">Lar</supplied>ibus</name> <g ref="#ivy-leaf">❦</g> <name><expan><abbr>Aug</abbr><ex>ustis</ex></expan></name></persName> <expan><abbr><supplied reason="lost">s</supplied>acr</abbr><ex>um</ex></expan>
-                    <lb n="2"/><persName type="attested"><gap reason="lost" extent="unknown" unit="char"/> <g ref="#ivy-leaf">❦</g> <name>Primig<unclear>e</unclear><supplied reason="lost">nia</supplied></name></persName> mater
-                    <lb n="3"/><gap reason="lost" extent="unknown" unit="char"/> cum <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="2"/><persName type="attested"><gap reason="lost" extent="unknown" unit="character"/> <g ref="#ivy-leaf">❦</g> <name>Primig<unclear>e</unclear><supplied reason="lost">nia</supplied></name></persName> mater
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> cum <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">

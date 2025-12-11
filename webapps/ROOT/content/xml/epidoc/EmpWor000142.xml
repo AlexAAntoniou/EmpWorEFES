@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -111,10 +111,10 @@
                 <ab><!-- Only basic encoding -->
                     <lb n="1"/><supplied reason="lost">Taur</supplied>oboliu<supplied reason="lost">m factum</supplied>
                     <lb n="2"/><persName type="divinity"><name><expan><abbr><supplied reason="lost">M</supplied></abbr><ex>atri</ex></expan></name> <name><expan><abbr><supplied reason="lost">D</supplied></abbr><ex>eum</ex></expan></name> <name><expan><abbr>M</abbr><ex>agnae</ex></expan></name> <name><expan><abbr>I</abbr><ex>daeae</ex></expan></name></persName> pro salu<supplied reason="lost">te et</supplied>
-                    <lb n="3"/><expan><abbr><supplied reason="lost">r</supplied>edit</abbr><ex>u</ex></expan> et victo<supplied reason="lost">ria</supplied> <gap reason="lost" extent="unknown" unit="char"/>
-                    <lb n="4"/><persName type="attested"><del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del>
-                    <lb n="5"/>Pii <expan><abbr>Felic</abbr><ex>is</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan></persName> et  <persName type="attested"><del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del>
-                    <lb n="6"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del> <expan><abbr>Aug</abbr><ex>usti</ex></expan></persName> nostri to<supplied reason="lost">iusque</supplied>
+                    <lb n="3"/><expan><abbr><supplied reason="lost">r</supplied>edit</abbr><ex>u</ex></expan> et victo<supplied reason="lost">ria</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="4"/><persName type="attested"><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
+                    <lb n="5"/>Pii <expan><abbr>Felic</abbr><ex>is</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan></persName> et  <persName type="attested"><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
+                    <lb n="6"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del> <expan><abbr>Aug</abbr><ex>usti</ex></expan></persName> nostri to<supplied reason="lost">iusque</supplied>
                     <lb n="7"/>domus divinae si<supplied reason="undefined" evidence="previouseditor">natu</supplied>i <supplied reason="undefined" evidence="previouseditor">XV</supplied><supplied reason="lost">viris</supplied>
                     <lb n="8"/><expan><abbr>sac</abbr><ex>ris</ex></expan> <expan><abbr>fac</abbr><ex>iundis</ex></expan> equestri <supplied reason="undefined" evidence="previouseditor">ordin</supplied><supplied reason="lost">i</supplied> <gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="9"/>erecitui <expan><abbr>p</abbr><ex>opuli</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> <expan><abbr>matrib</abbr><ex>us</ex></expan> <supplied reason="undefined" evidence="previouseditor">mat</supplied><supplied reason="lost" cert="low">ronis</supplied> <gap reason="lost" extent="unknown" unit="character"/>

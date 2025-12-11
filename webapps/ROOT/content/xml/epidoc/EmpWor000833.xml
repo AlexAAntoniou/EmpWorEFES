@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -115,7 +115,7 @@
                     <lb n="4" break="no"/><supplied reason="lost">plum</supplied> <persName type="divine" key="Roma"><name>Aeternitati</name> <name>Romae</name></persName> <g key="interpunct">·</g> et <persName type="divine"><name><expan><abbr>Augu<supplied reason="lost">st</supplied></abbr><ex>orum</ex></expan></name></persName>
                     <lb n="5"/><supplied reason="lost">c</supplied>um <g type="interpunct">·</g> porticibus <g key="interpunct">·</g> et <g key="interpunct">·</g> orname<supplied reason="lost">n</supplied>
                     <lb n="6" break="no"/><supplied reason="lost">tis</supplied> <g type="interpunct">·</g> incohavit
-                    <lb n="7"/><persName type="attested"><name><gap reason="lost" atLeast="1" atMost="3" unit="char"/></name> <name><supplied reason="lost">Caeci</supplied>lius</name> <g key="interpunct">·</g> <name>Secundus</name> <g key="interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <g key="interpunct">·</g> <expan><abbr>dedic</abbr><ex>at</ex></expan>
+                    <lb n="7"/><persName type="attested"><name><gap reason="lost" atLeast="1" atMost="3" unit="character"/></name> <name><supplied reason="lost">Caeci</supplied>lius</name> <g key="interpunct">·</g> <name>Secundus</name> <g key="interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <g key="interpunct">·</g> <expan><abbr>dedic</abbr><ex>at</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

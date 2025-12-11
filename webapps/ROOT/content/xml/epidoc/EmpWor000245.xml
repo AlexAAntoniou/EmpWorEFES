@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -110,13 +110,13 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
                     <lb n="1"/><supplied reason="lost"><persName type="ruler"><name><expan><abbr>Imp</abbr><ex>eratore</ex></expan></name> <name><expan><abbr>Caes</abbr><ex>are</ex></expan></name> <name>Domitiano</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name> <num value="11">XI</num></persName></supplied>
-                    <lb n="2"/><persName type="attested"><name><expan><abbr><supplied reason="lost">T</supplied></abbr><ex>ito</ex></expan></name> <name>Aureli<supplied reason="lost">o</supplied></name> <name>Fulvo</name> <num value="2">I<supplied reason="lost">I</supplied></num></persName> <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="2"/><persName type="attested"><name><expan><abbr><supplied reason="lost">T</supplied></abbr><ex>ito</ex></expan></name> <name>Aureli<supplied reason="lost">o</supplied></name> <name>Fulvo</name> <num value="2">I<supplied reason="lost">I</supplied></num></persName> <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3"/><supplied reason="lost" cert="low">August</supplied>les qui pr<supplied reason="lost">o salute</supplied>
                     <lb n="4"/><supplied reason="lost" cert="low">et reditu</supplied> <persName type="ruler"><name><expan><abbr><supplied reason="lost">I</supplied><unclear>m</unclear>p</abbr><ex>eratoris</ex></expan></name> <persName type="patronym"><name>Domitian<supplied reason="lost">i</supplied></name> <supplied reason="lost">divi <expan><abbr>f</abbr><ex>ili</ex></expan></supplied></persName>
                     <lb n="5"/><supplied reason="lost"><name><expan><abbr>Caes</abbr><ex>aris</ex></expan></name> Augusti</supplied> <expan><abbr>Germ</abbr><ex>anici</ex></expan></persName> et <persName type="ruler"><name><supplied reason="lost">Domitiae</supplied></name> <name><expan><abbr><supplied reason="lost">Aug</supplied></abbr><ex>ustae</ex></expan></name></persName>
                     <lb n="6"/><persName type="ruler"><name><supplied reason="lost">Domitiani</supplied></name> <name><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>usti</ex></expan></name></persName> et <persName type="ruler">Iulia<supplied reason="lost">e</supplied> <name><supplied reason="lost">Augustae</supplied></name></persName>
-                    <lb n="7"/><supplied reason="lost">totiusque</supplied> <persName type="divine" key="domusdivinae"><name><supplied reason="lost">domus</supplied></name> <name>divinae</name></persName> <gap reason="lost" extent="unknown" unit="char"/>
-                    <lb n="8"/><gap reason="lost" extent="unknown" unit="char"/><gap reason="illegible" quantity="1" unit="char"/>i et <gap reason="lost" extent="unknown" unit="char"/>
+                    <lb n="7"/><supplied reason="lost">totiusque</supplied> <persName type="divine" key="domusdivinae"><name><supplied reason="lost">domus</supplied></name> <name>divinae</name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>i et <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -109,11 +109,11 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <div type="textpart" subtype="face" n="front-a">
                     <ab>
-                        <lb n="1"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del>
-                        <lb n="2"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/> <supplied reason="lost">in</supplied></del>
-                        <lb n="3" break="no"/>stituit <del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del> in
-                        <lb n="4" break="no"/>scripta <del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del> to
-                        <lb n="5"/>statuam <del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del> nt
+                        <lb n="1"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
+                        <lb n="2"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">in</supplied></del>
+                        <lb n="3" break="no"/>stituit <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del> in
+                        <lb n="4" break="no"/>scripta <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del> to
+                        <lb n="5"/>statuam <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del> nt
                         <lb n="6"/><expan><abbr>cur</abbr><ex>ante</ex></expan> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Titedio</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Fab</abbr><ex>ia</ex></expan> <name>Procu<supplied reason="lost">lin</supplied>o</name></persName>
                         <lb n="7"/>patre et <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Titedio</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Fab</abbr><ex>ia</ex></expan> <name>Proculo</name></persName>
                         <lb n="8"/>fratre <expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>

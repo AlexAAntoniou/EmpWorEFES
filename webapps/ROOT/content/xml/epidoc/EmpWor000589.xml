@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -117,7 +117,7 @@
                     <ab>
                         <lb n="1"/><persName type="divine"><name><expan><abbr>Merc</abbr><ex>urio</ex></expan></name> <g ref="interpunct">·</g> <name>Augus<supplied reason="lost">to</supplied></name></persName> <supplied reason="lost"><expan><abbr>sacr</abbr><ex>um</ex></expan></supplied>
                         <lb n="2"/><persName type="attested"><name>Orfito</name></persName> et <persName type="attested"><name>Pude<unclear>n</unclear><supplied reason="lost">te</supplied></name></persName> <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
-                        <lb n="3"/>publicano <persName type="attested"><name>Alfio</name> <name>Plocamo</name></persName> et <persName type="attested"><name><seg part="I"><unclear>A</unclear></seg><gap reason="lost" extent="unknown" unit="char"/></name></persName>
+                        <lb n="3"/>publicano <persName type="attested"><name>Alfio</name> <name>Plocamo</name></persName> et <persName type="attested"><name><seg part="I"><unclear>A</unclear></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName>
                     </ab>
                 </div>
                 <div type="textpart" subtype="column" n="a">
@@ -149,7 +149,7 @@
                         <lb n="9"/><persName type="attested"><name>Myrinus</name> <name><expan><abbr>Titior</abbr><ex>um</ex></expan></name> <supplied reason="omitted">servus</supplied></persName>
                         <lb n="10"/><persName type="attested"><name>Cornelius</name> <name>Secu<hi rend="ligature">nd</hi>io</name></persName>
                         <lb n="11"/><persName type="attested"><name>Vettidius</name> <name>Dionys<supplied reason="lost">ius</supplied></name></persName>
-                        <lb n="12"/><persName type="attested"><name>Valeriu<supplied reason="lost">s</supplied></name> <name><gap reason="lost" extent="unknown" unit="char"/></name></persName> 
+                        <lb n="12"/><persName type="attested"><name>Valeriu<supplied reason="lost">s</supplied></name> <name><gap reason="lost" extent="unknown" unit="character"/></name></persName> 
                     </ab>
                 </div>
             </div>

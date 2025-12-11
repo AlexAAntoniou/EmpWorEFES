@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="https://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
@@ -109,9 +109,9 @@
                 <ab> 
                     <lb n="1"/><persName type="attested"><name><expan><abbr>T</abbr><ex>ito</ex></expan></name> <name>Flavio</name> <persName type="patronym"><name><expan><abbr>T</abbr><ex>iti</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <name>Germano</name></persName>
                     <lb n="2"/>curatori triumphi felicissimi
-                    <lb n="3"/>Germanici secundi <del rend="erasure"><gap reason="lost" extent="unknown" unit="char"/></del>
-                    <lb n="4"/><del rend="erasure"><gap reason="lost" quantity="6" unit="char"/></del>
-                    <lb n="5"/><del rend="erasure"><gap reason="lost" quantity="3" unit="char"/> <supplied reason="lost" cert="low">ab eodem</supplied></del> exornato
+                    <lb n="3"/>Germanici secundi <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>
+                    <lb n="4"/><del rend="erasure"><gap reason="lost" quantity="6" unit="character"/></del>
+                    <lb n="5"/><del rend="erasure"><gap reason="lost" quantity="3" unit="character"/> <supplied reason="lost" cert="low">ab eodem</supplied></del> exornato
                     <lb n="6"/><expan><abbr>sacerdot</abbr><ex>io</ex></expan> splendidissimo <expan><abbr>pontif</abbr><ex>icatus</ex></expan> <expan><abbr>minor</abbr><ex>is</ex></expan>
                     <lb n="7"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> <num value="20"><hi rend="supraline">XX</hi></num> <expan><abbr>her</abbr><ex>editatium</ex></expan> <expan><abbr>proc</abbr><ex>uratori</ex></expan> patrimoni <expan><abbr>proc</abbr><ex>uratori</ex></expan> Ludi
                     <lb n="8"/>Magni <expan><abbr>proc</abbr><ex>uratori</ex></expan> Ludi Matutini <expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>reg</abbr><ex>ionum</ex></expan> <expan><abbr>Urbi</abbr><ex>s</ex></expan>
@@ -137,7 +137,7 @@
                 <p>To Titus Flavius Germanus, son of Titus, curator of the most happy triumph over Germany for the second time [erasure], and [for this?] he was furnished with a most splendid priesthood, the minor pontificate, procurator of the inheritance tax, procurator of inheritances, procurator of the Great Games, procurator of the Matutinus Games, procurator of the regions of the City, with the office of paving the two parts of the city assigned to his care, procurator of the inheritance tax for Umbria, Tuscia, Picenum and the region of Campania, procurator of the grain distribution in Lucania, Bruttium, Calabria and Apulia, curator of repairs of dwellings, of public works, and of sacred buildings, aedile, duovir, flamen of the divine Augustus, quinquennial duovir, patron of the colony. Cerdo a freedperson [dedicated this] to his incomparable patron, with Flavius Maximinus and Germanus and Refunis, his sons, honoured with a public horse. </p>
             </div>
             <div type="commentary">
-                <p>The same F. Flavius Germanus occurs in CIL 14.2955.</p> 
+                <p>The same F. Flavius Germanus can be found in CIL 14.2955.</p> 
             </div>
             <div type="bibliography">
                 <p>
