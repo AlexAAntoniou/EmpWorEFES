@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000363</title>
+                <title>Dedication to Victoria Augusta.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,26 +34,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Largely intact stone cippus, with contiguous but not reattached break at top left. Abrasion to entire stone, especially to right side.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE --> <!--cippus -->
+                                    <objectType ana="#object.stele" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Stele</objectType>
                                     <dimensions>
                                         <height unit="cm">70.5</height>
                                         <width unit="cm">41</width>
                                         <depth unit="cm">35.5</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.broken"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Seven lines of Latin text, not perfectly centred, in top four-fifths of stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is relatively clear, but not even throughout. Letters are not always straight. Use of clear, pointed serifs. Tall "T"s throughout, with a small "I" in line 1, the second "I" in Hostilius. Use of triangular interpuncts.</p>
                                 <locus from="line1" to="line7">Lines 1–7</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">47–85</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-12-10" who="#AA">Edited text and object description</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,22 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <g ref="#interpunct">·</g> <name>Hostilius</name> <g ref="#interpunct">·</g> <persName type="libertino"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name></persName> <g ref="#interpunct">·</g> <persName type="libertino"><name><expan><abbr>N</abbr><ex>umeri</ex></expan></name></persName> <g ref="#interpunct">·</g> <persName type="libertino"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name></persName>
+                    <lb n="2"/><expan><abbr>k</abbr><ex>ibertus</ex></expan> <g ref="#interpunct">·</g> <name>Eros</name></persName> <g ref="#interpunct">·</g>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>N</abbr><ex>umerius</ex></expan></name> <g ref="#interpunct">·</g> <name>Consius</name> <g ref="#interpunct">·</g> <persName type="libertino"><name><expan><abbr>N</abbr><ex>umeri</ex></expan></name></persName> <g ref="#interpunct">·</g> <expan><abbr>l</abbr><ex>ibertus</ex></expan> <g ref="#interpunct">·</g>
+                    <lb n="4"/><name>Phileros</name></persName>
+                    <lb n="5"/><supplied reason="lost">s</supplied>eviri <g ref="#interpunct">·</g> <persName type="divine" key="victoriaAugusta"><name>Victoriam</name>
+                    <lb n="6"/><name>Augustam</name></persName> <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr><unclear>s</unclear></abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan>
+                    <lb n="7"/><expan><abbr>p</abbr><ex>osuerunt</ex></expan> <g ref="#interpunct">·</g>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Caius Hostilius Eros, freedman of Caius, Numerius and Marcus (and) Numerius Consius Phileros, freedman of Numerius, seviri, placed Victoria Augusta, by means of his own money.</p>
             </div>
             <div type="commentary">
                 <p></p> 

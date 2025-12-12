@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000362</title>
+                <title>Lucius Scantius Modestus, magister of the Augustan Lares.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,8 +34,8 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE --> <!-- lapis calcare -->
+                                <support><p>Rectangular sandstone plague restored from three continguous fragments, with a small section missing from the upper right. Text within a carved border.</p>
+                                    <material ana="#material.stone.calcareous.sandstone" ref="https://www.eagle-network.eu/voc/material/lod/57.html">Calcareous Sandstone</material>
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm">61.5</height>
@@ -43,17 +43,17 @@
                                         <depth unit="cm">7.8</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Four lines of Latin text, roughly centred on the stone and filling the available space. The date of the inscription has been inscribed on the left margin of the stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Letters are clear, broad and serifed, with clear simple interpuncts. Tall "I" in line 1, tall "L" at the beginning of line 2, and tall "T"s in line 2 and 4. The date on the left margin on the stone has been inscribed in a different hand, and is far messier and less well-defined.</p>
                                 <locus from="line1" to="line4">Lines 1–4</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">50–70</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-12-10" who="#AA">Edited text and object description</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -108,17 +109,28 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab>
-                    <lb n="1"/>
-                </ab>
+                <div type="textpart" subtype="body">
+                    <ab>
+                        <lb n="1"/><persName type="divine" key="hercules"><name>Herculi</name></persName> <g ref="#interpunct">·</g> e<unclear>x</unclear> vo<unclear>t</unclear>o <g ref="#interpunct">·</g> aram <g ref="#interpunct">·</g>
+                        <lb n="2"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="#interpunct">·</g> <name>Scantius</name> <g ref="#interpunct">·</g> <persName type="libertino"><name><expan><abbr>L</abbr><ex>ucii</ex></expan></name> <expan><abbr>lib</abbr><ex>ertus</ex></expan></persName> <g ref="#interpunct">·</g> <name>Modestus</name></persName> <g ref="#interpunct">·</g> <hi rend="supraline">VI</hi>vir <g ref="#interpunct">·</g>
+                        <lb n="3"/><expan><abbr>Aug</abbr><ex>ustalis</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>mag</abbr><ex>ister</ex></expan> <g ref="#interpunct">·</g> <persName type="divine" key="laresAugusti"><name>Larum</name> <g ref="#interpunct">·</g> <name><expan><abbr>August</abbr><ex>orum</ex></expan></name></persName> <g ref="#interpunct">·</g> <expan><abbr>mag</abbr><ex>ister</ex></expan>
+                        <lb n="4"/><persName type="divine" key="ceres"><name>Cerialium</name></persName> <g ref="#interpunct">·</g> urbanorum <g ref="#interpunct">·</g> <expan><abbr>l</abbr><ex>ocus</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>atus</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="#interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="border">
+                    <ab>
+                        <lb n="1"/><num value="3">III</num> <expan><abbr>k</abbr><ex>a</ex><abbr>l</abbr><ex>endas</ex></expan> <expan><abbr>S<hi rend="supraline">ep</hi>t</abbr><ex>em</ex><abbr>b</abbr><ex>r</ex><abbr>i</abbr><ex>s</ex></expan>
+                    </ab>
+                </div>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
+                    <app><note>EDR seemingly misses the inscription on the border, although it is recorded in EDCS.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Hercules, an altar in fulfilment of a vow. Lucius Scantius Modestus, freedman of Lucius, sexvir Augustalis, magister of the Augustan Lares, magister of the urban Ceriales. This place was given by decree of the decurions.</p>
             </div>
             <div type="commentary">
                 <p></p> 
