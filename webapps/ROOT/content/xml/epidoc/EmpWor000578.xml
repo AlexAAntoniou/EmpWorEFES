@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000578</title>
+                <title>Dedication to [---]? Augustus.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -71,7 +71,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found"></provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed">The year and place of discovery are unknown.</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-01-20" who="#AV">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,21 +108,23 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="0"/><persName type="divine"><gap reason="lost" quantity="1" unit="line"/>
+                    <lb n="1"/><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> <expan><abbr>sacr</abbr><ex>um</ex></expan>
+                    <lb n="2"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/><seg part="F">s</seg></name> <name>Speratus</name></persName> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to [---] Augustus. [---]s Speratus fulfilled his vow.</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>Given the prevalence of dedications to "Augustan" gods in Aquileia, this is almost certainly to an "Augustan" god (although the identity of the god must remain unknown.</p> 
             </div>
             <div type="bibliography">
                 <p>

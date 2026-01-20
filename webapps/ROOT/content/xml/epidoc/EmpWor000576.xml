@@ -25,8 +25,8 @@
                         <country>Croatia</country>
                         <region>Dalmatia</region>
                         <settlement>Iader</settlement> <!-- WORSHIP AT BOTH IADER AND AQUILEIA! -->
-                        <repository></repository>  
-                        <idno></idno>
+                        <repository>Museo Archeologico (Zadar)</repository>  
+                        <idno>136</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,29 +34,29 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                <support><p>Bottom section of a heavily abraded and broken statue base, with remnants of carved base at bottom.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">78</height>
+                                        <width unit="cm">42</width>
+                                        <depth unit="cm">42</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Five lines of a fragmentary Latin inscription, text appears roughly centred on stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
-                                <locus from="line1" to="line1">Line 1</locus>
+                            <handNote><p>Letters are tidy and neat, with simple serifs. Tall "I" in line 2 in "diva". Use of interpuncts (shape unclear from photograph).</p>
+                                <locus from="line1" to="line5">Lines 1–5</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"></height>
+                                    <height unit="mm">24–37</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -70,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered" when="1947">Discovered in 1947.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,13 +92,14 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-01-13" who="#AA">Edition editing</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,19 +110,23 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"><name><supplied reason="lost">C</supplied>ossutiae</name></persName> <persName type="patronym"><name><expan><abbr>Sex</abbr><ex>ti</ex></expan></name></persName> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied>
+                    <lb n="2"/><expan><abbr><supplied reason="lost">fl</supplied>am</abbr><ex>inicae</ex></expan> <g ref="#interpunct">·</g> <persName type="divine" key="divaFaustina"><name>divae</name> <g ref="#interpunct">·</g> <name>Faustine</name></persName>
+                    <lb n="3"/><placeName><name>Aquileiae</name></placeName> <g ref="#interpunct">·</g> et <g ref="#interpunct">·</g> <placeName><name>Iadere</name></placeName>
+                    <lb n="4"/><placeName><name>Aquileienses</name></placeName>
+                    <lb n="5"/>publice
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDH</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>[---] to [C]ossutia, daughter of Sextus, flaminica of the divine Faustina in Aquileia and Iader, the people of Aquileneses, [erected this with] public [money].</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>Cossutia,  was a flaminica of the divine Faustina in both Aquileia and Iader. Mispelling of Faustin[a]e in line 2. Granino Cecere (2014) attests that this inscription was found in the forum of the ancient centre of Iader. Granino Cecere suggests that Cossutia's origins in Aqueila are attested by her gentilician, which is well attested in Aquileia (see CIL 5.1082, CIL 5.875) but also that there were close economic and commercial relationships between Aquileia and Iader in Dalmatia. It is ultimately unclear which of the two divae Faustinae this priesthood was dedicated to (or indeed whether the two priesthoods in Aquileia and Iader were to the same goddess).</p> 
             </div>
             <div type="bibliography">
                 <p>
@@ -147,6 +152,16 @@
                 <p>
                     <bibl>
                         <ptr target="Lupa"/> <citedRange>23227</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="GraninoCecere2014"/> <citedRange>no. 48</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="Bassignano1994-1995"/> <citedRange>no. 29</citedRange>
                     </bibl>
                 </p>
             </div>

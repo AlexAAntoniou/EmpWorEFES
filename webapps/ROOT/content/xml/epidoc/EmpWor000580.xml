@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000580</title>
+                <title>Dedication to the Numen of Gallienus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
+                    <resp>Edited text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-01-20" who="#AV">Edited text </change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,26 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+           <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="ruler" key="gallienus">Magno
+                    <lb n="2"/>et Invicto
+                    <lb n="3"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan>
+                    <lb n="4"/><name><del rend="erasure"><supplied reason="lost">Gallieno</supplied></del></name>
+                    <lb n="5"/><name>Germanico</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
+                    <lb n="6"/><persName type="attested"><name>Licinius</name>
+                    <lb n="7"/><name>Diocletianus</name></persName> <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>e</abbr><ex>gregius</ex></expan>
+                    <lb n="8"/><persName type="divine" key="numenAugustus"><name>numini</name></persName> eius
+                    <lb n="9"/>dicatissimus
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To the Great and Invincible Imperator Gallienus Germanicus Augustus. Licinius Diocletianus, illustrious man, most devoted to his divine power.</p>
             </div>
             <div type="commentary">
                 <p></p> 

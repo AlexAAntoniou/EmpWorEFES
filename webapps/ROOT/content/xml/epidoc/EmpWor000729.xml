@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000729</title>
+                <title>Dedication to Spes Augusta.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Rectangular altar, only the text of which has been set into the wall of the apse of the Church of San Giovanni. Erosion or reworking at top and bottom of text, although text itself appears complete..</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text is centred on the stone both vertically and horizontally.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is neat and straight, with regular spaces between letters and lines. Very simple serifs. Interpuncts throughout.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-01-20" who="#AA">Editing text and object.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,22 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="spesAugusta"><name><expan><abbr>S</abbr><ex>pei</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>A</abbr><ex>ugustae</ex></expan></name></persName> <g ref="interpunct">·</g> <expan><abbr>s</abbr><ex>acrum</ex></expan> <g ref="interpunct">·</g> pro <expan><abbr>sal</abbr><ex>ute</ex></expan>
+                    <lb n="2"/><persName type="attested"><name>Aquilini</name></persName>
+                    <lb n="3"/>vilici <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan>
+                    <lb n="4"/>et <persName type="attested"><name>Titi</name> <name>Iuli</name>
+                    <lb n="5"/><name>Aquilini</name></persName>
+                    <lb n="6"/><persName type="attested"><name>Iulia</name> <name>Stratonic<supplied reason="omitted">e</supplied></name></persName>
+                    <lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Spes Augusta. For the safety of Aquilinus, steward of the Augusti, and of Titus Julius Aquilinus. Julia Stratonice fulfilled her vow.</p>
             </div>
             <div type="commentary">
                 <p></p> 
