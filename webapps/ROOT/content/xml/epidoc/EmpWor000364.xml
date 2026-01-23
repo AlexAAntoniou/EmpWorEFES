@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000364</title>
+                <title>[Pro Salute(?)] for Antoninus Pius and Faustina</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-01-23" who="#AA">Editing text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,17 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="iovisFeretrius"><name><expan><abbr>D</abbr><ex>eo</ex></expan></name> <name>Iovi</name> <name><expan><abbr>Feret</abbr><ex>rio</ex></expan></name></persName> <supplied reason="lost">pro salute</supplied> <persName type="ruler" key="AntoninusPius"><expan><abbr><supplied reason="lost">Imp</supplied></abbr><ex>eratoris</ex></expan> <name><supplied reason="lost">Antonini</supplied></name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+                    <lb n="2"/>et <persName type="ruler" key="Faustina"><name>Faustina</name> <name><expan><abbr><supplied reason="lost">Aug</supplied></abbr><ex>ustae</ex></expan></name></persName> <supplied reason="lost">liberorumque eorum</supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To the God Jupiter Feretrius. [For the safety of the Imperator Antoninus Augustus] and Faustina [Augusta, and their children].</p>
             </div>
             <div type="commentary">
                 <p></p> 

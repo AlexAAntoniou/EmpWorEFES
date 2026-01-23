@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000366</title>
+                <title>Gaius Pasculanus Maximus, flamen of Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,8 +34,8 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE --> <!-- lapis calcarius -->
+                                <support><p>Rectangular statue base(?) in extremely good condition (except for small break at bottom left corner), with simple carved border.</p>
+                                    <material ana="#material.stone.calcareoussandsttone" ref="https://www.eagle-network.eu/voc/material/lod/57.html">Calcareous Sandstone</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html" cert="low">Statue Base(?)</objectType>
                                     <dimensions>
                                         <height unit="cm">132</height>
@@ -43,17 +43,17 @@
                                         <depth unit="cm">56</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Nineteen lines of Latin inscription that fills the stone, including a final line written outside the border at bottom.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Clear thin and well-formed letters, but letter widths and heights extremely different. "Maximo" in line 3 is larger than the rest. Elaborate serifs, and elaborate interpuncts. Distinctive "K" in line 14 with short diagonal bars. There are two overlapping sections in the final four lines of the inscription. After "karissimo" in line 14, is a large "P" of p(osuit) in the centre of the inscription. Around the "P" are lines 16–18. For the sake of simplicity, the p(osuit) is given its own line number (line 15).</p>
                                 <locus from="line1" to="line20">Lines 1–20</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">27–105</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-01-23" who="#AA">Editing text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,39 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <g ref="interpunct">·</g> <name>Pausculano</name>
+                    <lb n="2"/><persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <g ref="interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <g ref="interpunct">·</g> <expan><abbr>Quir</abbr><ex>ina</ex></expan> <g ref="interpunct">·</g>
+                    <lb n="3"/><name>Maximo</name></persName>
+                    <lb n="4"/>aedili
+                    <lb n="5"/><expan><abbr>quinq</abbr><ex>uennali</ex></expan> <g ref="interpunct">·</g> <expan><abbr>praef</abbr><ex>ecto</ex></expan>
+                    <lb n="6"/>iuris <g ref="interpunct">·</g> <expan><abbr>dic</abbr><ex>undi</ex></expan> <g ref="interpunct">·</g> quaestori
+                    <lb n="7"/><expan><abbr>alim</abbr><ex>entorum</ex></expan> <g ref="interpunct">·</g> flaminali <g ref="interpunct">·</g> <persName type="divine" key="augustus"><name><expan><abbr>Aug</abbr><ex>ustali</ex></expan></name></persName>
+                    <lb n="8"/>hic <g ref="interpunct">·</g> ob honorem <g ref="interpunct">·</g> <expan><abbr>quin</abbr><ex>quennalitatis</ex></expan>
+                    <lb n="9"/>spectaculum <g ref="interpunct">·</g> <expan><abbr>glad</abbr><ex>iatorium</ex></expan> <g ref="interpunct">·</g> triduo
+                    <lb n="10"/>dedit <g ref="interpunct">·</g> et noxeos <g ref="interpunct">·</g> quattor
+                    <lb n="11"/>item <g ref="interpunct">·</g> annonae <g ref="interpunct">·</g> <expan><abbr>curat</abbr><ex>ori</ex></expan>
+                    <lb n="12"/><expan><abbr>vix</abbr><ex>it</ex></expan> <g ref="interpunct">·</g> <expan><abbr>an</abbr><ex>nos</ex></expan> <g ref="interpunct">·</g> <num value="34">XXXIIII</num> <g ref="interpunct">·</g> dies <num value="4">IIII</num> <g ref="interpunct">·</g>
+                    <lb n="13"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <g ref="interpunct">·</g> <name>Pausculanus</name> <g ref="interpunct">·</g> <name>Rufus</name></persName>
+                    <lb n="14"/>filio <g ref="interpunct">·</g> karissimo
+                    <lb n="15"/><expan><abbr>p</abbr><ex>osuit</ex></expan>
+                    <lb n="16"/>hic monumentum emtori
+                    <lb n="17"/>non cedet sic ut liciat itum
+                    <lb n="18"/>aditum ambitum mihi posteris
+                    <lb n="19" break="no"/>que meis in agro <expan><abbr>p</abbr><ex>edes</ex></expan> <num value="70">LXX</num> in fronte <expan><abbr>p</abbr><ex>edes</ex></expan> <num value="12">XII</num>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Gaius Pausculanus Maximus, son of Gaius, of tribe Quirina, aedile, quinquennalis, prefect for administering justice, quaestor of the alimenta,
+                   flamen Augustalis, this man gave for the honour of [being elected to] quinquennial office, a spectacle of gladiators for three days, and [executed] four criminals,
+                   and the same for the honour of [being elected as] curator of grain. He lived for 34 years and 4 days. Gaius Pausculanus Rufus, his most loving son, erected this.
+                   This monument shall not pass to a buyer, but in such a way that it is permitted that right of passage, right of access, and right to the area around the tomb may be
+                   permitted to me and my descendants. In depth, 70 feet; on the front, 12 feet.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

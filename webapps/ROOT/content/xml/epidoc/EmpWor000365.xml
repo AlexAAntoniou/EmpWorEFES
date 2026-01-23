@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000365</title>
+                <title>Gaius Nerius Severus, flamen Augustalis.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -35,8 +35,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE --> <!-- lapis calcarius -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE --> <!-- Cinerarium -->
+                                    <material ana="#material.stone.calcareoussandsttone" ref="https://www.eagle-network.eu/voc/material/lod/57.html">Calcareous Sandstone</material>
+                                    <objectType ana="#object.cineraryurn" ref="https://www.eagle-network.eu/voc/objtyp/lod/78.html">Cinerary Urn</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-01-23" who="#AA">Editing text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,26 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><supplied reason="undefined" evidence="previouseditor"><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Nerio</name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Quir</abbr><ex>ina</ex></expan> <name>Se
+                    <lb n="2" break="no"/>vero</name></persName> <expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>r</abbr><ex>ei</ex></expan> <expan><abbr>p</abbr><ex>ublicae</ex></expan> <expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>al</abbr><ex>imentorum</ex></expan> <expan><abbr>fl</abbr><ex>amini</ex></expan>
+                    <lb n="3"/><persName type="divine" key="augustus"><name><expan><abbr>Aug</abbr><ex>ustali</ex></expan></name></persName> <expan><abbr>vi</abbr><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>N</abbr><ex>ovae</ex></expan> <expan><abbr>cur</abbr><ex>atori</ex></expan> <expan><abbr>pr</abbr><ex>aefecto</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan></supplied>
+                    <lb n="4"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Neriu<supplied reason="undefined" evidence="previouseditor">s</supplied></name> <name>Ius<supplied reason="undefined" evidence="previouseditor">tus</supplied></name></persName> <supplied reason="undefined" evidence="previouseditor">fratri</supplied>
+                    <lb n="5"/>dulcissimo et <persName type="attested"><name>Illyrica</name> <name>P<supplied reason="undefined" evidence="previouseditor">hi</supplied>
+                    <lb n="6" break="no"/>l<hi rend="ligature">um</hi>ene</name></persName> coni<hi rend="ligature">un</hi>x infelicissi
+                    <lb n="7" break="no"/><supplied reason="undefined" evidence="previouseditor">ma</supplied>
+                    <lb n="8"/><expan><abbr><supplied reason="undefined" evidence="previouseditor">p</supplied></abbr><ex>osuerunt</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Gaius Nerius Severus, son of Gaius, of tribe Quirina, aedile, quaestor for the res publica, quaestor of the alimenta, flamen Augustalis,
+                   curator of the New Claudian road, prefect for administering justice. Gaius Nerius Iustus, his most sweet brother, and Illyrica Philumene, his most
+                   unhappy wife, set this up.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
