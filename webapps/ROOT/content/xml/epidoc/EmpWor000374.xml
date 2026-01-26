@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000374</title>
+                <title>Pro salute inscription for Maximinus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Bottom section of a broken statue base, with significant damage to the face of the stone obscuring the left side of the inscription from lines 5–6.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm">15</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Seven lines of attested Latin text, only final four survive unevenly centred on surviving stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Letters are a little uneven in size, shape and vertical alignment (for instance the first "M" in line 4 is noticeably slanted to the left compared to its neighbour), with letter spacing uneven (especially in line 5, with significant gap between "U" and "S", and in 7 between "S" and "U"). Clear serifs. It is unclear if there is an interpunct in line 4 between the two surviving words, given the absence of interpuncts elsewhere.</p>
                                 <locus from="line1" to="line7">Lines 1–7</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">37–55</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-01-26" who="#AA">Editing text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,22 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><supplied reason="undefined" evidence="previouseditor">pro salute</supplied>
+                    <lb n="2"/><supplied reason="undefined" evidence="previouseditor"><persName type="ruler"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <name>Maximi</name> <expan><abbr>Aug</abbr><ex>usti</ex></expan></persName> et</supplied>
+                    <lb n="3"/><supplied reason="undefined" evidence="previouseditor"><persName type="ruler"><name>Maximi</name> <expan><abbr>Caes</abbr><ex>aris</ex></expan></persName></supplied>
+                    <lb n="4"/><supplied reason="undefined" evidence="previouseditor">taurob</supplied><unclear>o</unclear>lium mo
+                    <lb n="5" break="no"/>v<unclear>i</unclear><supplied reason="undefined" evidence="previouseditor">t</supplied> <persName type="attested"><name><supplied reason="undefined" evidence="previouseditor">Petr</supplied><unclear>o</unclear>nius</name> <name>Ma
+                    <lb n="6" break="no"/>r<supplied reason="undefined" evidence="previouseditor">cellu</supplied>s</name></persName> <expan><abbr>sacerd</abbr><ex>os</ex></expan>
+                    <lb n="7"/>de suo
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>For the safety of the Imperator Maximus Augustus and Maximus Caesar, the sacerdos Petronius Marcellus performed the taurobolium at his own expense.</p>
             </div>
             <div type="commentary">
                 <p></p> 

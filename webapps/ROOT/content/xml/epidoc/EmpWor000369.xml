@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000369</title>
+                <title>Flaminate to an unidentified divus.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Right side of a plaque, with simple carved border. Top and right edges original, broken at bottom.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.broken"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Eight lines of an incomplete Latin inscription, right side of text only.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Letters are thin but some irregularities, particularly in formation of letters in lines 1–2. Small "A" and "I" at end of line 1. All letters in line 2 lean irregularly to the right. Tall "I" in line 6. Simple triangular interpuncts.</p>
                                 <locus from="line1" to="line8">Lines 1–8</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">60–80</height>
@@ -71,7 +71,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found"></provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed">Discovered in Penne, on viale San Francesco, in the internal wall of the garden owned by Tranquilli.</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-01-25" who="#AA">Editing text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,23 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">honore quinq</supplied><unclear>u</unclear>ennalitatis
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">fun</supplied><unclear>c</unclear>tus <g ref="interpunct">·</g> est <g ref="interpunct">·</g>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Pinnen</supplied><unclear>s</unclear>ium <g ref="interpunct">·</g>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">flam</supplied><unclear>e</unclear>n <g ref="interpunct">·</g> <persName type="divine" key="divus"><name>Divi</name></persName>
+                    <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">sib</supplied><unclear>i</unclear> et
+                    <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> matri
+                    <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan>
+                    <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">qui vi</supplied><unclear>x</unclear>it
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>[---] [in honour of election to] the quinquennial magistracy, [---] he performed, [---] of Pinnensium [---] flamen of divus [---?], for [his] and [---] wife, [---] exercising judicial authority [---] [who] lived [for ? years] [---].</p>
             </div>
             <div type="commentary">
                 <p></p> 

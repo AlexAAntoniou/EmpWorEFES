@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000370</title>
+                <title>Statue base for Lucius Oranius Iustus, flamen Augustalis.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Large rectangular statue base. Intact and whole front face, damage to right side at back, obscuring the top right of line 1 of the side inscription, and if EDR is to be believed, missing section at the back (obscuring right edge of inscription). Front face has simple carved border.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm">39</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Latin inscription on front face consists of 14 lines of complete Latin inscription, roughly centred and filling entire stone. Latin inscription on right face consists of six lines of a Latin inscription, in top half of the stone, and not centred (indeed final few lines are aligned right).</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is clear and well defined, with regular heights and spaces between letters. Simple serifs, triangular interpuncts. Lines 1–2 and 6–7 on front face are larger than the rest.</p>
                                 <locus from="line1" to="line15">Lines 1–15</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">32–68</height>
@@ -68,7 +68,7 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3169412/rieti.html">Rieti</placeName>
                                 <geo>42.403067, 12.861183</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0184" evidence="consuls">Dated to 184 CE on the basis of the consular date.</origDate>
                         </origin>
                         <provenance type="found" subtype="discovered">Discovered in Rieti, via Roma</provenance>
                         <provenance type="observed"></provenance>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-01-25" who="#AA">Editing text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -108,17 +109,48 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab>
-                    <lb n="1"/>
-                </ab>
+                <div type="textpart" subtype="face" n="front">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <g ref="interpunct">·</g> <name>Oranio</name> <g ref="interpunct">·</g> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="interpunct">·</g> <expan><abbr>fil</abbr><ex>io</ex></expan></persName>
+                        <lb n="2"/><expan><abbr>Quir</abbr><ex>ina</ex></expan> <g ref="interpunct">·</g> <name>Iusto</name></persName> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>rimo</ex></expan> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>ilo</ex></expan>
+                        <lb n="3"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>castror</abbr><ex>um</ex></expan> <g ref="interpunct">·</g> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <g ref="interpunct">·</g> <num value="3"><hi rend="supraline">III</hi></num> <g ref="interpunct">·</g> <expan><abbr>Cyr</abbr><ex>enaicae</ex></expan>
+                        <lb n="4"/>Laurenti <g ref="interpunct">·</g> Lavinati <g ref="interpunct">·</g> <expan><abbr>sacer</abbr><ex>doti</ex></expan>
+                        <lb n="5"/>flamini <g ref="interpunct">·</g> <persName type="divine" key="augustus"><name>Augustali</name></persName>
+                        <lb n="6"/>plebs <g ref="interpunct">·</g> Reatina
+                        <lb n="7"/>patrono
+                        <lb n="8"/>quod is primus omnium
+                        <lb n="9"/><expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan> <g ref="interpunct">·</g> <num value="100000"><hi rend="supraline">C<g ref="interpunct">·</g>M</hi></num> <g ref="interpunct">·</g> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ummum</ex></expan> <g ref="interpunct">·</g> ad annonae com
+                        <lb n="10" break="no"/>parationem <g ref="interpunct">·</g> municipibus <g ref="interpunct">·</g> su
+                        <lb n="11" break="no"/>is <g ref="interpunct">·</g> dedit <g ref="interpunct">·</g> statuamque hono
+                        <lb n="12" break="no"/>re contentus <g ref="interpunct">·</g> sua pecunia
+                        <lb n="13"/>posuit
+                        <lb n="14"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>atus</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="face" n="right">
+                    <ab>
+                        <lb n="1"/><expan><abbr>dedic</abbr><ex>avit</ex></expan> <supplied reason="lost"><expan><abbr>Idib</abbr><ex>us</ex></expan></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <g ref="interpunct">·</g> <name>Eggio</name> <g ref="interpunct">·</g> <name>Marull<supplied reason="lost">o</supplied></name></persName> <persName type="attested"><supplied reason="lost"><name>Cnaeo</name></supplied>
+                        <lb n="3"/><name>Papirio</name> <g ref="interpunct">·</g> <name>Aeli<supplied reason="lost">iano</supplied></name></persName> <supplied reason="lost"><expan><abbr>co</abbr><ex>s</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+                        <lb n="4"/>et ob dedicatio<supplied reason="lost">nem uni</supplied>
+                        <lb n="5" break="no"/>versae plebei sin<supplied reason="lost">gulos dena</supplied>
+                        <lb n="6" break="no"/>rios <g ref="interpunct">·</g> ded<supplied reason="lost">it</supplied>
+                    </ab>
+                </div>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    [Front]: To Lucius Oranius Iustus, son of Lucius, of tribe Quirina, first spear, prefect of the camps of the 3rd Cyrenaica legion, sacerdos of Laurentes and Lavinates,
+                    flamen Augustalis, patron of the people of Reate, because he, first of all, gave 100,000 sesterces for the procurement of grain to his fellow townsmen, and
+                    content with the honour of the statue, set it up at his own expense. This place was granted by decree of the decurions.
+                    [Right side]: Dedicated on the [Ides of ---?], when Lucius Eggius Marullus and Gnaeus Papirius Aelianus were consuls, and on the occasion gave a single denarius to the 
+                    whole people.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
