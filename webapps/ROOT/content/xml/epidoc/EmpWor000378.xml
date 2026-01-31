@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000378</title>
+                <title>Sacerdos(?) of Victoria of Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-07-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-01-31" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,17 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/><seg part="F">sidieno</seg></name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Lem</abbr><ex>onia</ex></expan> <name>Tonnio</name> <name><seg part="I">Mode</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="2"/><supplied reason="lost">sacerdoti</supplied> <persName type="divine" key="victoriaAugusti"><name><expan><abbr><supplied reason="lost">Au</supplied>g</abbr><ex>usti</ex></expan></name> <name>Victoriae</name> <name>Caesaris</name></persName> vixit annos <num atLeast="11" atMost="14"><hi rend="supraline">XI</hi><gap reason="lost" extent="unknown" unit="character"/></num>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To [---]sidienus Tonnius Mode[---], son of Lucius, of tribe Lemonia, sacerdos of the Victory of Augustus Caesar, who lived for 11(?) years.</p>
             </div>
             <div type="commentary">
                 <p></p> 

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000377</title>
+                <title>Funerary monument to [Marcus] Agrius Proculus, flamen of the divine Nerva.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Text reconstructed from multiple contiguous fragments, with significant abrasion to front face around the major cracks in the stone, and breaks and abrasions to top left and top right of stone. Now walled up in modern Cathedrale.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.broken"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Ten lines of Latin text, which appears roughly centered on stone, with small vacat at bottom.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is neat and well formed, with serifs (and distinctive long tails on "Q"s throughout.</p>
                                 <locus from="line1" to="line10">Lines 1–10</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">43–67</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-01-28" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,19 +110,30 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan></supplied></name> <name><unclear>A</unclear><supplied reason="lost">g</supplied>rio</name> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr><unclear>f</unclear></abbr><ex>ilio</ex></expan></persName> <expan><abbr>V<unclear>o</unclear><supplied reason="lost">l</supplied></abbr><ex>tinia</ex></expan>
+                    <lb n="2"/><name>Pr<unclear>oc</unclear>ulo</name></persName> aedil<supplied reason="lost">i</supplied>
+                    <lb n="3"/><expan><abbr><hi rend="supraline">II</hi>vi<unclear>r</unclear></abbr><ex>o</ex></expan> quinquenn<supplied reason="lost">a</supplied>
+                    <lb n="4" break="no"/>li <expan><abbr>qu<supplied reason="lost">a</supplied>est</abbr><ex>ori</ex></expan> eodem ann<unclear>o</unclear>
+                    <lb n="5"/>flam<supplied reason="lost">i</supplied><unclear>n</unclear>i <persName type="divine" key="divusNerva"><name>Divi</name> <name>Ner<unclear>v</unclear>ae</name></persName> p<unclear>a</unclear>
+                    <lb n="6" break="no"/>trono mun<unclear>icipi</unclear> <persName type="attested"><name>Tullia</name>
+                    <lb n="7"/><persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName> <name>Me<supplied reason="lost">v</supplied><unclear>i</unclear>a</name> <name>P<unclear>r</unclear>isca</name></persName> mater o<supplied reason="lost">p</supplied>
+                    <lb n="8" break="no"/>timo p<supplied reason="lost">i</supplied><unclear>entissi</unclear>mo <expan><abbr><unclear>f</unclear></abbr><ex>ilio</ex></expan> do<unclear>m</unclear><supplied reason="lost">i</supplied>
+                    <lb n="9" break="no"/>no m<unclear>e</unclear><supplied reason="lost">o</supplied>
+                    <lb n="10"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text differs from EDR slightly in reading of a few unclear letters on lines 7 and 8, on the basis of comparison of EDR with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    To [Marcus] A[g]rius Proculus, son of Marcus, of tribe Voltinia, aedile, quinquennial duovir, quaestor, in the same year flamen of the divine Nerva [and] patron of the municipium. Tullia Me[v]ia Prisca, daughter of Marcus, his mother, [set this up] for her best (and) most dutiful son, my lord. This place was given by decree of the decurions.
+                </p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p></p> <!-- See CIL 9.6721. -->
             </div>
             <div type="bibliography">
                 <p>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000381</title>
+                <title>Dedication for the safety of the collegia of Nympha Augusta</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Rectangular plaque in two contiguous fragments, with a few missing sections in front face.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> 
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> 
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Six lines of Latin inscription. An attempt has been made to centre the text on the stone, but it is more crowded at right border than left.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text gets increasingly uneven in heights, formation and familiarity with carving. Many letters lean right compared to their neighbours. "garum" at the end of line 4 is smaller than the rest of the word. There is no discernible difference in carving style between "L", "I" and "T". An additional "L" in collegarum.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-07-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-01-31" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,22 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name><expan><abbr>Fl</abbr><ex>avius</ex></expan></name> <name>Optatus</name></persName>
+                    <lb n="2"/>pro salute
+                    <lb n="3"/>sua et <expan><abbr>suoru</abbr><ex>m</ex></expan>
+                    <lb n="4"/>et colllegarum
+                    <lb n="5"/><persName type="divine" key="nymphaAugusta"><name>Nymphis</name> <name><expan><abbr>Aug</abbr><ex>ustis</ex></expan></name></persName>
+                    <lb n="6"/>votum posuit
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
+                    <app loc="3"><note>EDR reads an "M" at the end of line 3, which is not visible from the photograph. I have chosen to render it here as an abbreviation suoru(m) but it is possible that this was written in subscript in the middle of the line, as in the form of the end of the word in the following line.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Titus Flavius Optatus, for the safety of himself, his family and the college of Nympha Augusta. He fulfilled this vow.</p>
             </div>
             <div type="commentary">
                 <p></p> 

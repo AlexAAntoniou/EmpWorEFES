@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000380</title>
+                <title>Dedication to Iustitia Augusta</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -71,7 +71,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found"></provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed">Discovered in Ancona, from Guasco Hill</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-07-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-01-31" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,19 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                    <lb n="1"/><persName type="divine" key="iustitiaAugusta"><name>Iust<supplied reason="lost">itiae</supplied></name> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><name>Augu<supplied reason="lost">stae</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>[---] to Iustitia [---] Augusta [---].</p>
             </div>
             <div type="commentary">
                 <p></p> 

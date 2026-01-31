@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000379</title>
+                <title>Dedication to Vertumnus Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-07-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-01-31" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,20 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="vertumnusAugustus"><name>Vertumno</name>
+                    <lb n="2"/><name>Augusto</name></persName> sacrum
+                    <lb n="3"/><persName type="attested"><name>Karus</name></persName> <expan><abbr>A<unclear>n</unclear><supplied reason="lost">conitan</supplied></abbr><ex>orum</ex></expan>
+                    <lb n="4"/><expan><abbr>disp</abbr><ex>ensator</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Vertumnus Augustus, Karus the treasurer of Ancona [---], he fulfilled a vow.</p>
             </div>
             <div type="commentary">
                 <p></p> 

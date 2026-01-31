@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000376</title>
+                <title>Funerary monument to Gaius Pomponius Vitalis, flamen of divus Vespasianus, erected by Gaius Pomponius Vitalis, flamen of divus Traianus.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,26 +34,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Complete funerary stele, embedded into modern wall, with distinctive triangular pediment at top of tall rectangular inscription.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm">112</height>
                                         <width unit="cm">55</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Seventeen lines of Latin inscription, roughly centered.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Photographs are of such poor quality, it is difficult to make out specifics of the text, but it appears to be neat and well-formed.</p>
                                 <locus from="line1" to="line17">Lines 1–17</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">35–60</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-01-28" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,38 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="diManes"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <name><expan><abbr>M</abbr><ex>anibus</ex></expan></name></persName> <expan><abbr>s</abbr><ex>acrum</ex></expan>
+                    <lb n="2"/><persName type="attested"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <name>Pomponi</name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>ilii</ex></expan></persName>
+                    <lb n="3"/><name>Vitalis</name></persName> flaminis
+                    <lb n="4"/><persName type="divine" key="divusVespasianus"><name>Divi</name> <name>Vespasiani</name></persName>
+                    <lb n="5"/><expan><abbr>aedili</abbr><ex>s</ex></expan> <placeName>Terventi</placeName>
+                    <lb n="6"/><persName type="attested"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <name>Pomponi</name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>ilii</ex></expan></persName>
+                    <lb n="7"/><name>Marcellini</name></persName> equo
+                    <lb n="8"/>publico patroni
+                    <lb n="9"/>municipi <placeName>Terventi</placeName> <expan><abbr>aedil</abbr><ex>is</ex></expan>
+                    <lb n="10"/><persName type="attested"><name><expan><abbr><unclear>C</unclear></abbr><ex>aius</ex></expan></name> <name>Pomponius</name> <persName type="patronym"><expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilii</ex></expan></persName> <name>Vitalis</name></persName>
+                    <lb n="11"/>curator viae Traianae
+                    <lb n="12"/>Pataesinae patronus
+                    <lb n="13"/>municipi et omnibus hono
+                    <lb n="14" break="no"/>ribus in municipio <placeName>Terventi</placeName>
+                    <lb n="15"/>functus flamen <persName type="divine" key="divusTraianus"><name>Divi</name> <name>Traiani</name></persName>
+                    <lb n="16"/>iudex <num value="400"><hi rend="supraline">CCCC</hi></num> <placeName>Romae</placeName> <expan><abbr>decur</abbr><ex>iarum</ex></expan> <num value="5"><hi rend="supraline">V</hi></num>
+                    <lb n="17"/>infelicissimus pater fecit
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    Sacred to the Shades of the Underworld. To Gaius Pomponius Vitalis, son of Gaius, flamen of the divine Vespasian, aedile of Terventum [and]
+                    to Gaius Pomponius Marcellinus, son of Gaius, public equestrian, patron of the municipium of Terventum, aedile.
+                    Gaius Pomponius Vitalis, son of Gaius, curator of the Via Traiana Pataesina, patron of the municipium and administrator of all honours
+                    in the municipium of Terventum, flamen of the divine Trajan, judge of the 400 at Rome, of the five decuriae,
+                    most unhappy father built (this).
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
