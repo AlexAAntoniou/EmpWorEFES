@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000164</title>
+                <title>Dedication to Gordian III in the Augusteum of the Castra Vigiles.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>White marble statue base</p>
+                                <support><p>Intact white marble statue base, with simple but clearly carved plinth at top and bottom.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><p>Other than the erasure, text fills the front face.</p>
+                                <layout><p>Thirteen lines of Latin inscription, obscured by erasure and large gap in text. Text otherwise fills the front face. Two lines of text on right face at very top of stone, with little margin between top and sides. Seven lines of text on left face, in top half of stone, text obeys no rules for formatting in terms of line justification. </p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Text is relatively regular, although some characters are slightly lopsided, and sides are more irregular. Serifs on all letters, and letters are quite rounded in shape. Tall "T" and small "O" in "invictissimo" in line 1 (small "O" likely to be because of a lack of room on line), small "O" in line 12 in "tribuno".</p>
+                            <handNote><p>Text is relatively regular, although some characters are slightly lopsided, and sides are more irregular. Serifs on all letters, and letters are quite rounded in shape. Tall "T" and small "O" in "invictissimo" in line 1 (small "O" likely to be because of a lack of room on line), small "O" in line 12 in "tribuno". Triangular interpuncts.</p>
                                 <locus from="line1" to="line13">Lines 1–13</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">23–80</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-06-06" who="#AA">Original data collection and editing</change>
+                <change when="2025-02-03" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -111,10 +112,10 @@
                 <div type="textpart" subtype="face" n="left">
                     <ab>
                         <lb n="1"/>agentibus
-                        <lb n="2"/><persName type="attested"><name>Aurelio</name> <name>Diza</name></persName> <!-- centurione -->
-                        <lb n="3"/><persName type="attested"><name>Atilio</name> <name>Vitale</name></persName> <!-- centurione -->
-                        <lb n="4"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Septimio</name> <name>Victorino</name></persName> <!-- centurione -->
-                        <lb n="5"/><persName type="attested"><name>Marcio</name> <name>Quinto</name></persName> <!-- centurione -->
+                        <lb n="2"/><persName type="attested"><name>Aurelio</name> <name>Diza</name></persName> <expan><abbr><am><g type="centuria" /></am></abbr><ex>centuria</ex></expan>
+                        <lb n="3"/><persName type="attested"><name>Atilio</name> <name>Vitale</name></persName> <expan><abbr><am><g type="centuria" /></am></abbr><ex>centuria</ex></expan>
+                        <lb n="4"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Septimio</name> <name>Victorino</name></persName> <expan><abbr><am><g type="centuria" /></am></abbr><ex>centuria</ex></expan>
+                        <lb n="5"/><persName type="attested"><name>Marcio</name> <name>Quinto</name></persName> <expan><abbr><am><g type="centuria" /></am></abbr><ex>centuria</ex></expan>
                         <lb n="6"/>corniculario <expan><abbr>trib</abbr><ex>uni</ex></expan>
                         <lb n="7"/><persName type="attested"><name>Cupentio</name> <name>Geminiano</name></persName>
                     </ab>
@@ -122,18 +123,18 @@
                 <div type="textpart" subtype="face" n="front">
                     <ab>
                         <lb n="1"/>domino <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ostro</ex></expan> invictissimo
-                        <lb n="2"/>et <g ref="symbols.xml#interpunct">·</g> super <g ref="symbols.xml#interpunct">·</g> omnes
-                        <lb n="3"/>fortissimo <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name>
-                        <lb n="4"/><name><expan><abbr>Caes</abbr><ex>ari</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Antonio</name>
+                        <lb n="2"/>et <g ref="interpunct">·</g> super <g ref="interpunct">·</g> omnes
+                        <lb n="3"/>fortissimo <g ref="interpunct">·</g> <persName type="attested"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name>
+                        <lb n="4"/><name><expan><abbr>Caes</abbr><ex>ari</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="interpunct">·</g> <name>Antonio</name>
                         <lb n="5"/><name>Gordiano</name>
-                        <lb n="6"/>Pio <g ref="symbols.xml#interpunct">·</g> Felici <g ref="symbols.xml#interpunct">·</g> Invicto <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Aug</abbr><ex>usto</ex></expan></persName>
-                        <lb n="7"/><expan><abbr>pontif</abbr><ex>ici</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>max</abbr><ex>imo</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pot</abbr><ex>estate</ex></expan>
-                        <lb n="8"/><num value="2">II</num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>atri</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>atriae</ex></expan> <g ref="symbols.xml#interpunct">·</g>
-                        <lb n="9"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>o <expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan>
-                        <lb n="10"/><expan><abbr>p</abbr><ex>erfectissimo</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>v</abbr><ex>iro</ex></expan> <g ref="symbols.xml#interpunct">·</g> curantibus <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>Aelio</name>
-                        <lb n="11"/><name>Spectato</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>sub<g ref="symbols.xml#interpunct">·</g>praef</abbr><ex>ecto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>v</abbr><ex>iro</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>e</abbr><ex>gregio</ex></expan>
-                        <lb n="12"/>et  <g ref="symbols.xml#interpunct">·</g><persName type="attested"><name>Aurelio</name> <g ref="symbols.xml#interpunct">·</g> <name>Masculo</name></persName> <g ref="symbols.xml#interpunct">·</g> tribuno
-                        <lb n="13"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="6">VI</num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>praep</abbr><ex>osito</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>vexillat</abbr><ex>ionis</ex></expan> <g ref="symbols.xml#interpunct">·</g>
+                        <lb n="6"/>Pio <g ref="interpunct">·</g> Felici <g ref="interpunct">·</g> Invicto <g ref="interpunct">·</g> <expan><abbr>Aug</abbr><ex>usto</ex></expan></persName>
+                        <lb n="7"/><expan><abbr>pontif</abbr><ex>ici</ex></expan> <g ref="interpunct">·</g> <expan><abbr>max</abbr><ex>imo</ex></expan> <g ref="interpunct">·</g> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <g ref="interpunct">·</g> <expan><abbr>pot</abbr><ex>estate</ex></expan>
+                        <lb n="8"/><num value="2">II</num> <g ref="interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="interpunct">·</g> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>atri</ex></expan> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>atriae</ex></expan> <g ref="interpunct">·</g>
+                        <lb n="9"/><del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del>o <expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan>
+                        <lb n="10"/><expan><abbr>p</abbr><ex>erfectissimo</ex></expan> <g ref="interpunct">·</g> <expan><abbr>v</abbr><ex>iro</ex></expan> <g ref="interpunct">·</g> curantibus <g ref="interpunct">·</g> <persName type="attested"><name>Aelio</name>
+                        <lb n="11"/><name>Spectato</name></persName> <g ref="interpunct">·</g> <expan><abbr>sub<g ref="interpunct">·</g>praef</abbr><ex>ecto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>v</abbr><ex>iro</ex></expan> <g ref="interpunct">·</g> <expan><abbr>e</abbr><ex>gregio</ex></expan>
+                        <lb n="12"/>et  <g ref="interpunct">·</g><persName type="attested"><name>Aurelio</name> <g ref="interpunct">·</g> <name>Masculo</name></persName> <g ref="interpunct">·</g> tribuno
+                        <lb n="13"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> <g ref="interpunct">·</g> <num value="6">VI</num> <g ref="interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>praep</abbr><ex>osito</ex></expan> <g ref="interpunct">·</g> <expan><abbr>vexillat</abbr><ex>ionis</ex></expan> <g ref="interpunct">·</g>
                     </ab>
                 </div>
                 <div type="textpart" subtype="face" n="right">

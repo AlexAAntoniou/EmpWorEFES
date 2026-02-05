@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000151</title>
+                <title>Dedication to Septimius Severus in courtyard of Augusteum of Castra Vigiles.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Tall marble statue base</p>
+                                <support><p>Tall and broad marble statue base, complete and well-preserved.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><p>Text fills majority of space on stone, with small gap at bottom.</p>
+                                <layout><p>16 lines of Latin text that fills majority of space on stone, with small gap at bottom. Text is centred well.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Text is relatively neat, but characters are extremely close together.</p>
+                            <handNote><p>Text is extremely neat and letter heights and shapes are entirely uniform, but characters are extremely close together. Small interpuncts used inconsistently. Tall "I" in "Imp" in line 5, "divi" and "pii" in lines 6–11. Traces of guidelines at top and bottom of each line, especially obvious in line 6.</p>
                                 <locus from="line1" to="line16">Lines 1–16</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">20–65</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-06-05" who="#AA">Original data collection and editing</change>
+                <change when="2025-02-03" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -110,30 +111,32 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
                     <lb n="1"/><persName type="ruler" key="septimius-severus"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name>Caesari</name>
-                    <lb n="2"/><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Septimio</name> <name>Severo</name>
-                    <lb n="3"/><name>Pio</name> <name>Pertinaci</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name>
-                    <lb n="4"/>Arabico Adiabenico Parthico Maximo
-                    <lb n="5"/>Felici</persName> pontifici <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="15">XV</num> <expan><abbr>imp</abbr><ex>eratori</ex></expan> <num value="12">XII</num>
-                    <lb n="6"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>suli</ex></expan> <num value="3">III</num> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <persName type="patronym" key="marcus-aurelius"><name>divi</name> <name>Marci</name> <name>Antonini</name> <name>Pii</name>
-                    <lb n="7"/>Germanici <expan><abbr>Sarmat</abbr><ex>ici</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <persName type="ruler" key="commodus"><name>divi</name> <name>Commodi</name>
-                    <lb n="8"/>fratri</persName> <persName type="ruler" key="antoninus-pius"><name>divi</name> <name>Antonini</name> <name>Pii</name> nepoti</persName>
-                    <lb n="9"/><persName type="ruler" key="hadrian"><name>divi</name> <name>Hadriani</name> pronepoti</persName> <persName type="ruler" key="trajan"><name>divi</name>
-                    <lb n="10"/><name>Traiani</name> <name>Parthici</name> abnepoti </persName>
-                    <lb n="11"/><persName type="ruler" key="nerva"><name>divi</name> <name>Nervae</name> adnepoti</persName>
+                    <lb n="2"/><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <g ref="interpunct">·</g> <name>Septimio</name> <g ref="interpunct">·</g> <name>Severo</name>
+                    <lb n="3"/><name>Pio</name> <g ref="interpunct">·</g> <name>Pertinaci</name> <g ref="interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name>
+                    <lb n="4"/>Arabico <g ref="interpunct">·</g> Adiabenico <g ref="interpunct">·</g> Parthico Maximo
+                    <lb n="5"/>Felici</persName> pontifici <g ref="interpunct">·</g> <expan><abbr>max</abbr><ex>imo</ex></expan> <g ref="interpunct">·</g> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <g ref="interpunct">·</g> <expan><abbr>pot</abbr><ex>estate</ex></expan> <g ref="interpunct">·</g> <num value="15">XV</num> <g ref="interpunct">·</g> <expan><abbr>imp</abbr><ex>eratori</ex></expan> <g ref="interpunct">·</g> <num value="12">XII</num>
+                    <lb n="6"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>suli</ex></expan> <g ref="interpunct">·</g> <num value="3">III</num> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>atri</ex></expan> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>atriae</ex></expan> <g ref="interpunct">·</g> <persName type="patronym" key="marcus-aurelius"><name>divi</name> <g ref="interpunct">·</g> <name>Marci</name> <g ref="interpunct">·</g> <name>Antonini</name> <g ref="interpunct">·</g> <name>Pii</name> <g ref="interpunct">·</g>
+                    <lb n="7"/>Germanici <g ref="interpunct">·</g> <expan><abbr>Sarmat</abbr><ex>ici</ex></expan> <g ref="interpunct">·</g> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <g ref="interpunct">·</g> <persName type="ruler" key="commodus"><name>divi</name> <g ref="interpunct">·</g> <name>Commodi</name>
+                    <lb n="8"/>fratri</persName> <g ref="interpunct">·</g> <persName type="ruler" key="antoninus-pius"><name>divi</name> <g ref="interpunct">·</g> <name>Antonini</name> <g ref="interpunct">·</g> <name>Pii</name> <g ref="interpunct">·</g> nepoti</persName>
+                    <lb n="9"/><persName type="ruler" key="hadrian"><name>divi</name> <g ref="interpunct">·</g> <name>Hadriani</name> <g ref="interpunct">·</g> pronepoti</persName> <g ref="interpunct">·</g> <persName type="ruler" key="trajan"><name>divi</name>
+                    <lb n="10"/><name>Traiani</name> <g ref="interpunct">·</g> <name>Parthici</name> <g ref="interpunct">·</g> abnepoti </persName>
+                    <lb n="11"/><persName type="ruler" key="nerva"><name>divi</name> <g ref="interpunct">·</g> <name>Nervae</name> <g ref="interpunct">·</g> adnepoti</persName> <g ref="interpunct">·</g>
                     <lb n="12"/>restitutori castrorum
                     <lb n="13"/>Ostiensium
-                    <lb n="14"/>sub <persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Laecanio</name> <name>Novatilliano</name></persName> <expan><abbr>subpr</abbr><ex>aefecto</ex></expan> et
-                    <lb n="15"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name><expan><abbr>Fl</abbr><ex>avio</ex></expan></name> <name>Raesiano</name></persName> <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="2">II</num> <expan><abbr>vig</abbr><ex>ilum</ex></expan>
-                    <lb n="16"/>praeposito vexillationis
+                    <lb n="14"/>sub <g ref="interpunct">·</g> <persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeo</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>M</abbr><ex>arcio</ex></expan></name> <g ref="interpunct">·</g> <name>Rustio</name> <g ref="interpunct">·</g> <name>Rufino</name></persName> <g ref="interpunct">·</g> <expan><abbr>pr</abbr><ex>aefecto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>e</abbr><ex>gregio</ex></expan> <g ref="interpunct">·</g> <expan><abbr>v</abbr><ex>iro</ex></expan>
+                    <lb n="15"/>cura<choice><corr>m argentibus</corr><sic>ntibus</sic></choice>
+                    <lb n="16"/>sub <g ref="interpunct">·</g> <persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Laecanio</name> <name>Novatilliano</name></persName> <expan><abbr>subpr</abbr><ex>aefecto</ex></expan> et
+                    <lb n="17"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>Fl</abbr><ex>avio</ex></expan></name> <g ref="interpunct">·</g> <name>Raesiano</name></persName> <g ref="interpunct">·</g> <expan><abbr>trib</abbr><ex>uno</ex></expan> <g ref="interpunct">·</g> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <g ref="interpunct">·</g> <num value="2">II</num> <g ref="interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan>
+                    <lb n="18"/>praeposito <g ref="interpunct">·</g> vexillationis
                 </ab> 
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EDR</note></app>
+                    <app><note>Text of EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>To Imperator Caesar Lucius Septimius Severus Pius Pertinacis Augustus, (Conqueror of) Arabia, Adiabene, Great Parthia, Felix, pontifex maximus, holder of tribunician power for the 15th time, imperator for the 12th time, consul for the 3rd time, father of the fatherland, son of the divine Marcus Antoninus Pius (Conqueror of) Germany, Sarmaticus, brother of the divine Commodus, grandson of the divine Antoninus Pius, great-grandson of the divine Hadrian, great-great grandson of the divine Trajan (Conqueror of Parthia), great-great-great grandson of the divine Nerva, restorer of the camps of Ostia, under the direction of Cnaeus Marcius Rustius Rufinus, prefect of the watchmen (and) most eminent man, (and) Caius Laecanius Novatillianus, subprefect, and Marcus Flavius Raesianus, tribune of the 2nd cohort of watchmen, commander of the detachment.</p>
+                <p>To Imperator Caesar Lucius Septimius Severus Pius Pertinacis Augustus, (Conqueror of) Arabia, Adiabene, Great Parthia, Felix, pontifex maximus, holder of tribunician power for the 15th time, imperator for the 12th time, consul for the 3rd time, father of the fatherland, son of the divine Marcus Antoninus Pius (Conqueror of) Germany, Sarmaticus, brother of the divine Commodus, grandson of the divine Antoninus Pius, great-grandson of the divine Hadrian, great-great grandson of the divine Trajan (Conqueror of Parthia), great-great-great grandson of the divine Nerva, restorer of the camps of Ostia, under the direction of Gnaeus Marcius Rustius Rufinus, prefect of the watchmen (and) most eminent man, (and) Gaius Laecanius Novatillianus, subprefect, and Marcus Flavius Raesianus, tribune of the 2nd cohort of watchmen, commander of the detachment.</p>
             </div>
             <div type="commentary">
                 <p></p> 

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000154</title>
+                <title>Statue base to Marcus Aurelius in courtyard of Augusteum of Castra Vigiles</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Rectangular statue base.</p>
+                                <support><p>Complete, squat, rectangular marble statue base.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><p>Text is roughly centred on stone and fills most of the available space.</p>
+                                <layout><p>Six lines of Latin text. Text is roughly centred on stone and fills most of the available space. with thin margins on left and right.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Text is relatively neat and well defined, with serifs, although occasionally letters are a little lopsided. Tall "I" in "Imp" in line 2, second "I" in "Pii" in line 3, and first "I" in "optimissimo" in line 6. Ligature of "ni" at the end of "Traiani" at the end of line 4 is possibly the result of running out of room in that line.</p>
+                            <handNote><p>Text is relatively neat and well defined, with serifs, although occasionally letters are a little lopsided. Tall "I" in "Imp" in line 2, second "I" in "Pii" in line 3, and second "I" in "piissimo" in line 6. Ligature of "ni" at the end of "Traiani" at the end of line 4 is possibly the result of running out of room in that line. Triangular shaped interpuncts.</p>
                                 <locus from="line1" to="line6">Lines 1–6</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">25–60</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-06-05" who="#AA">Original data collection and editing</change>
+                <change when="2025-02-05" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,12 +110,12 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="ruler" key="marcus-aurelius"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Aurelio</name> <name>Caesari</name></persName>
-                    <lb n="2"/><persName type="ruler" key="antoninus-pius"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Caesaris</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>T</abbr><ex>iti</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Aeli</name> <g ref="symbols.xml#interpunct">·</g> <name>Hadriani</name>
-                    <lb n="3"/><name>Antonini</name> <g ref="symbols.xml#interpunct">·</g> <name>Augusti</name> <g ref="symbols.xml#interpunct">·</g> Pii <g ref="symbols.xml#interpunct">·</g> filio</persName>
-                    <lb n="4"/><persName type="ruler" key="hadrian"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Hadriani</name> <g ref="symbols.xml#interpunct">·</g> nepoti</persName> <g ref="symbols.xml#interpunct">·</g> <persName type="ruler" key="trajan"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Traia<hi rend="ligature">ni</hi></name>
-                    <lb n="5"/>pronepoti</persName> <g ref="symbols.xml#interpunct">·</g> <persName type="ruler" key="nerva"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Nervae</name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>abnep</abbr><ex>oti</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>suli</ex></expan>
-                    <lb n="6"/>optimo <g ref="symbols.xml#interpunct">·</g> ac <g ref="symbols.xml#interpunct">·</g> piissimo
+                    <lb n="1"/><persName type="ruler" key="marcus-aurelius"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="interpunct">·</g> <name>Aurelio</name> <name>Caesari</name></persName>
+                    <lb n="2"/><persName type="ruler" key="antoninus-pius"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name> <g ref="interpunct">·</g> <name>Caesaris</name> <g ref="interpunct">·</g> <name><expan><abbr>T</abbr><ex>iti</ex></expan></name> <g ref="interpunct">·</g> <name>Aeli</name> <g ref="interpunct">·</g> <name>Hadriani</name>
+                    <lb n="3"/><name>Antonini</name> <g ref="interpunct">·</g> <name>Augusti</name> <g ref="interpunct">·</g> Pii <g ref="interpunct">·</g> filio</persName>
+                    <lb n="4"/><persName type="ruler" key="hadrian"><name>divi</name> <g ref="interpunct">·</g> <name>Hadriani</name> <g ref="interpunct">·</g> nepoti </persName> <g ref="interpunct">·</g> <persName type="ruler" key="trajan"><name>divi</name> <g ref="interpunct">·</g> <name>Traia<hi rend="ligature">ni</hi></name>
+                    <lb n="5"/>pronepoti </persName> <g ref="interpunct">·</g> <persName type="ruler" key="nerva"><name>divi</name> <g ref="interpunct">·</g> <name>Nervae</name> <g ref="interpunct">·</g> <expan><abbr>abnep</abbr><ex>oti</ex></expan></persName> <g ref="interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>suli</ex></expan>
+                    <lb n="6"/>optimo <g ref="interpunct">·</g> ac <g ref="interpunct">·</g> piissimo
                 </ab> 
             </div>
             <div type="apparatus">

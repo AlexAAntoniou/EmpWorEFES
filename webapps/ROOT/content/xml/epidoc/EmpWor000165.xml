@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000165</title>
+                <title>Dedication to Furia Sabina in courtyard of Augusteum in Castrum Vigiles.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Marble statue base.</p>
+                                <support><p>Marble statue base intact, but for broken top left corner. Front surface is extremely abraded and text obscured.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><p>Text fills stone.</p>
+                                <layout><p>14 lines of Latin text which fills stone, narrow margins.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Text is extremely hard to read in autopsy, due to surface damage and slight impression of text into stone. Text appears relatively uniform, with distinctive curved "G"s, and elaborate serifs.</p>
                                 <locus from="line1" to="line14">Lines 1–14</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">25–35</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-06-06" who="#AA">Original data collection and editing</change>
+                <change when="2025-02-03" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -127,7 +128,7 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EDR</note></app>
+                    <app><note>Text of EDR.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
