@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000152</title>
+                <title>Statue base to Septimius Severus and Caracalla in courtyard of Augusteum of Castra Vigiles</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Tall marble statue base, text intact but damage to the plinth at top.</p>
+                                <support><p>Tall marble statue base, text intact but significant damage to the plinth at top.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><p>Text fills almost all the available space on the stone</p>
+                                <layout><p>Text fills almost all the available space on the stone, and is roughly centred.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Text is well defined, but crowded.</p>
+                            <handNote><p>Text is well defined, but crowded. Clear and wide serifs. Interpuncts are shaped like inverted "T"s. The "design" and "III" in line 4 are written above the line, presumably after the inscription of the whole stone. Tall "I"s in "Pii" in line 5, 8 and 9.</p>
                                 <locus from="line1" to="line18">Lines 1–18</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">20–60</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-06-05" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-06" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,32 +110,32 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="ruler" key="caracalla"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name>Caesari</name>
-                    <lb n="2"/><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Aurelio</name> <name>Antonino</name>
-                    <lb n="3"/>Pio <expan><abbr>Aug</abbr><ex>usto</ex></expan> Felici</persName>
-                    <lb n="4"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> <num value="10">X</num> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <num value="2">II</num> <expan><abbr>design</abbr><ex>ato</ex></expan> <num value="3">III</num> <persName type="ruler" key="septimius-severus"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name> <name><expan><abbr>Caesar</abbr><ex>is</ex></expan></name>
-                    <lb n="5"/><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name>Septimi</name> <name>Severi</name> <name>Pii</name> <name>Pertinacis</name>
-                    <lb n="6"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> Arabici Adiabenici Parthici
-                    <lb n="7"/>Maximi</persName> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> filio <persName type="ruler" key="antoninus-pius"><name>divi</name> <name>Antonini</name>
-                    <lb n="8"/>Pii Germanici Sarmatici <expan><abbr><add place="overstrike"></add>ot</abbr><ex>i</ex></expan></persName>
-                    <lb n="9"/><persName type="ruler" key="antoninus-pius"><name>divi</name> <name>Antonini</name> <name>Pii</name> nepoti</persName>
-                    <lb n="10"/><persName type="ruler" key="hadrian"><name>divi</name> <name>Hadriani</name> abnepoti</persName>
-                    <lb n="11"/><persName type="ruler" key="trajan"><name>divi</name> <name>Traiani</name> Parthici</persName> et <persName type="ruler" key="nerva"><name>divi</name>
-                    <lb n="12"/><name>Nervae</name> adnepoti </persName> restitutori
-                    <lb n="13"/>castrorum Ostiensium
-                    <lb n="14"/>sub <persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeo</ex></expan></name> <name><expan><abbr>M</abbr><ex>arcio</ex></expan></name> <name>Rustio</name> <name>Rufino</name></persName> <expan><abbr>pr</abbr><ex>aefecto</ex></expan> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <expan><abbr>e</abbr><ex>mentissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan>
+                    <lb n="1"/><persName type="ruler" key="caracalla"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <g ref="interpunct">·</g> <name>Caesari</name>
+                    <lb n="2"/><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="interpunct">·</g> <name>Aurelio</name> <g ref="interpunct">·</g> <name>Antonino</name>
+                    <lb n="3"/>Pio <g ref="interpunct">·</g> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <g ref="interpunct">·</g> Felici</persName>
+                    <lb n="4"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <g ref="interpunct">·</g> <expan><abbr>potest</abbr><ex>ate</ex></expan> <g ref="interpunct">·</g> <num value="10">X</num> <g ref="interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="interpunct">·</g> <num value="2">II</num> <g ref="interpunct">·</g> <hi rend="superscript"><expan><abbr>design</abbr><ex>ato</ex></expan> <g ref="interpunct">·</g> <num value="3">III</num></hi> <persName type="ruler" key="septimius-severus"><name><expan><abbr>Imp</abbr><ex>eratoris</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>Caesar</abbr><ex>is</ex></expan></name> <g ref="interpunct">·</g>
+                    <lb n="5"/><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="interpunct">·</g> <name>Septimi</name> <g ref="interpunct">·</g> <name>Severi</name> <name>Pii</name> <name>Pertinacis</name>
+                    <lb n="6"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <g ref="interpunct">·</g> Arabici <g ref="interpunct">·</g> Adiabenici <g ref="interpunct">·</g> Parthici
+                    <lb n="7"/>Maximi</persName> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>atris</ex></expan> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>atriae</ex></expan> <g ref="interpunct">·</g> filio <g ref="interpunct">·</g> <persName type="ruler" key="antoninus-pius"><name>divi</name> <g ref="interpunct">·</g> <name>Antonini</name>
+                    <lb n="8"/>Pii <g ref="interpunct">·</g> Germanici <g ref="interpunct">·</g> Sarmatici <expan><abbr><add place="overstrike"></add>ot</abbr><ex>i</ex></expan></persName>
+                    <lb n="9"/><persName type="ruler" key="antoninus-pius"><name>divi</name> <g ref="interpunct">·</g> <name>Antonini</name> <g ref="interpunct">·</g> <name>Pii</name> nepoti </persName> <g ref="interpunct">·</g>
+                    <lb n="10"/><persName type="ruler" key="hadrian"><name>divi</name> <g ref="interpunct">·</g> <name>Hadriani</name> <g ref="interpunct">·</g> abnepoti</persName>
+                    <lb n="11"/><persName type="ruler" key="trajan"><name>divi</name> <g ref="interpunct">·</g> <name>Traiani</name> <g ref="interpunct">·</g> Parthici</persName> <g ref="interpunct">·</g> et <g ref="interpunct">·</g> <persName type="ruler" key="nerva"><name>divi</name> <g ref="interpunct">·</g>
+                    <lb n="12"/><name>Nervae</name> <g ref="interpunct">·</g> adnepoti </persName> restitutori
+                    <lb n="13"/>castrorum <g ref="interpunct">·</g> Ostiensium
+                    <lb n="14"/>sub <g ref="interpunct">·</g> <persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeo</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>M</abbr><ex>arcio</ex></expan></name> <g ref="interpunct">·</g> <name>Rustio</name> <g ref="interpunct">·</g> <name>Rufino</name></persName> <g ref="interpunct">·</g> <expan><abbr>pr</abbr><ex>aefecto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>e</abbr><ex>mentissimo</ex></expan> <g ref="interpunct">·</g> <expan><abbr>v</abbr><ex>iro</ex></expan> <g ref="interpunct">·</g>
                     <lb n="15"/>cura<add place="overstrike">n</add>tibus
-                    <lb n="16"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Laecanio</name> <name>Novatilliano</name></persName> <expan><abbr>subpr</abbr><ex>aefecto</ex></expan>
-                    <lb n="17"/>et <persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name><expan><abbr>Fl</abbr><ex>avio</ex></expan></name> <name>Raesiano</name></persName> <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="2">II</num> <expan><abbr>vig</abbr><ex>ilum</ex></expan> prae
-                    <lb n="18" break="no"/>posito vexillationis
+                    <lb n="16"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <g ref="interpunct">·</g> <name>Laecanio</name> <g ref="interpunct">·</g> <name>Novatilliano</name></persName> <g ref="interpunct">·</g> <expan><abbr>sub<g ref="interpunct">·</g>pr</abbr><ex>aefecto</ex></expan><g ref="interpunct">·</g>
+                    <lb n="17"/>et <g ref="interpunct">·</g> <persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>Fl</abbr><ex>avio</ex></expan></name> <g ref="interpunct">·</g> <name>Raesiano</name></persName> <g ref="interpunct">·</g> <expan><abbr>trib</abbr><ex>uno</ex></expan> <g ref="interpunct">·</g> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <g ref="interpunct">·</g> <num value="2">II</num> <g ref="interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="interpunct">·</g> prae
+                    <lb n="18" break="no"/>posito <g ref="interpunct">·</g> vexillationis
                 </ab> 
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EDR</note></app>
+                    <app><note>Text of EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
-            <div type="translation" xml:lang="en" resp="#AA"> <!-- Check text and translation with Laird -->
+            <div type="translation" xml:lang="en" resp="#AA">
                 <p>To Imperator Caesar Marcus Aurelius Antoninus Pius Augustus Felix, holder of tribuncian power for the 10th time, consul for the 2nd time, and (consul) designate for the 3rd time, son of Imperator Caesar Lucius Septimius Severus Pius Pertinacis Augustus, (Conqueror of) Arabia, Adiabene, Great Parthia, father of the fatherland, grandson of the divine Marcus Antoninus Pius (Conqueror of) Germany, Sarmaticus, grandson of the divine Marcus Antoninus Pius, great-grandson of the divine Hadrian, great-great grandson of the divine Trajan (Conqueror of Parthia), great-great-great grandson of the divine Nerva, restorer of the camps of Ostia, under the direction of Cnaeus Marcius Rustius Rufinus, prefect of the watchmen (and) most eminent man, (and) Caius Laecanius Novatillianus, subprefect, and Marcus Flavius Raesianus, tribune of the 2nd cohort of watchmen, commander of the detachment.</p>
             </div>
             <div type="commentary">

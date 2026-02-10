@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000125</title>
+                <title>Honorific for Publius Nonius Livius Anterotianus, flamen of the divine Hadrian.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Multiple fragments of the face of a statue base, with significant gaps throughout.</p>
+                                <support><p>Multiple contiguous fragments of the face of a statue base, with significant gaps throughout.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm">58</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Twelve lines of fragmentary Latin text, centred on stone, that fills majority of stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Letters are clear and well-defined, with consistent spacing between letters. Interpuncts are regular, except on occasion are placed slightly above the middle of a line, often in crowded lines, presumably to allow more text to fit onto the stone in each line. Tall "I" in "IMP" in line 5, second "I" in "DIVI" in line 7,</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight"/>
                             </handNote>
@@ -94,9 +94,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-06-03" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-06" who="#AA">Edited based on autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,23 +108,24 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name>Nonio</name> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName>
-                    <lb n="2"/><expan><abbr>Pal</abbr><ex>atina</ex></expan> <name>Livio</name>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <g ref="interpunct">·</g> <name>No<supplied reason="lost">nio</supplied></name> <supplied reason="lost"><persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName></supplied>
+                    <lb n="2"/><expan><abbr>Pal</abbr><ex>atina</ex></expan> <g ref="interpunct">·</g> <name><supplied reason="lost">L</supplied>ivio</name>
                     <lb n="3"/><name>Anterotiano</name></persName>
-                    <lb n="4"/>equo <expan><abbr>publ</abbr><ex>ico</ex></expan> exornato ab
-                    <lb n="5"/><persName type="ruler" key="marcus-aurelius"><name>Imperatore</name> <name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Aurelio</name> <name>Antonino</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
-                    <lb n="6"/>flamini <persName type="divinity" key="divusHadrianus"><name>divi</name> <name>Hadriani</name></persName>
-                    <lb n="7"/>salio <expan><abbr>Laurent</abbr><ex>ium</ex></expan> <expan><abbr>Lavinatiu</abbr><ex>m</ex></expan>
-                    <lb n="8"/>aedili <expan><abbr>pr</abbr><ex>aetori</ex></expan> <expan><abbr>sacr</abbr><ex>is</ex></expan> <persName type="divinity" key="vulcan"><name><expan><abbr>Volk</abbr><ex>ani</ex></expan></name></persName> <expan><abbr>faci<supplied reason="lost">u</supplied></abbr><ex>ndis</ex></expan>
-                    <lb n="9"/><persName type="attested"><name>Livia</name>
-                    <lb n="10"/><name>Marcellina</name></persName>
-                    <lb n="11"/>nepoti dulcissimo
-                    <lb n="12"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>p</abbr><ex>ublice</ex></expan>
+                    <lb n="4"/>equo <g ref="interpunct">·</g> <expan><abbr>publ</abbr><ex>ico</ex></expan> <supplied reason="lost">e</supplied>xornato <g ref="interpunct">·</g> a<unclear>b</unclear>
+                    <lb n="5"/><persName type="ruler" key="marcus-aurelius"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <g ref="interpunct">·</g> <name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="interpunct">·</g> <name>Aure<unclear>l</unclear><supplied reason="lost">io</supplied></name> <name>Antonino</name> <g ref="interpunct">·</g> <name><expan><abbr>A<supplied reason="lost">ug</supplied></abbr><ex>usto</ex></expan></name></persName>
+                    <lb n="6"/><expan><abbr>dec</abbr><ex>reto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>dec</abbr><ex>urionum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>de<unclear>cu</unclear>r</abbr><ex>ioni</ex></expan> <g ref="interpunct">·</g> adlect<unclear>o</unclear>
+                    <lb n="7"/>flamini <g ref="interpunct">·</g> <persName type="divinity" key="divusHadrianus"><name>divi</name> <g ref="interpunct">·</g> <name>Hadrian<supplied reason="lost">i</supplied></name></persName>
+                    <lb n="8"/>s<supplied reason="lost">alio</supplied> <expan><abbr><supplied reason="lost">La</supplied>urent</abbr><ex>ium</ex></expan> <g ref="interpunct">·</g> <expan><abbr>Lavinati<supplied reason="lost">u</supplied></abbr><ex>m</ex></expan>
+                    <lb n="9"/><supplied reason="lost">aedili</supplied> <expan><abbr><unclear>p</unclear>r</abbr><ex>aetori</ex></expan> <g ref="interpunct">·</g> <expan><abbr>sacr</abbr><ex>is</ex></expan> <g ref="interpunct">·</g> <persName type="divinity" key="vulcan"><name><expan><abbr>Vo<unclear>lk</unclear></abbr><ex>ani</ex></expan></name></persName> <supplied reason="lost"><expan><abbr>faci</abbr><ex>ndis</ex></expan></supplied>
+                    <lb n="10"/><persName type="attested"><name>Livia</name>
+                    <lb n="11"/><name>Marcellina</name></persName>
+                    <lb n="12"/>nepoti <g ref="interpunct">·</g> dulcissimo
+                    <lb n="13"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>atus</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>ublice</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EDR</note></app>
+                    <app><note>Text based on autopsy</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
@@ -132,7 +134,7 @@
             <div type="commentary">
                 <p>Publius Nonius Livius Anterotianus, our flamen of the divine Hadrian, is also honoured in <ref target="EmpWor000126.xml">EmpWor00126</ref>.</p>
             </div>
-            <div type="bibliography">
+            <div type="bibliography"> <!-- DAVENPORT HISTORY OF EQUEST 228–231 -->
                 <p>
                     <bibl>
                         <ptr target="CIL"/> <citedRange>14.390</citedRange>

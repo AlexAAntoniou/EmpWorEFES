@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000132</title>
+                <title>Dedication of a statue to Salus, for Caesar Augustus.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Wide and flat rectangular white marble statue-base, complete but with cracks and cuts to the front face.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Two lines of Latin text, in top third of the stone. Lines are off-centre.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Text is clearly defined and tall, with consistent spacing between letters. Tall "I" in "saluti". Irregularly shaped interpuncts.</p>
                                 <locus from="line1" to="line2">Lines 1–2</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">40–75</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-03" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-05" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-06" who="#AA">Edited based on autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -108,18 +109,18 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab><!-- Only basic encoding -->
-                    <lb n="1"/><persName type="divine" key="salus"><name>Saluti</name></persName> <persName type="attested"><name>Caesaris</name> <name><expan><abbr>August</abbr><ex>i</ex></expan></name></persName>
-                    <lb n="2"/><persName type="attested"><name>Glabrio</name></persName> patronus coloniae <expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+                <ab>
+                    <lb n="1"/><persName type="divine" key="salus"><name>Saluti</name></persName> <g ref="interpunct">·</g> <persName type="attested"><name>Caesaris</name> <g ref="interpunct">·</g> <name><expan><abbr>August</abbr><ex>i</ex></expan></name></persName>
+                    <lb n="2"/><persName type="attested"><name>Glabrio</name></persName> patronus coloniae <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ono</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>edit</ex></expan> <g ref="interpunct">·</g> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>c</abbr><ex>uravit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EDR</note></app>
+                    <app><note>Text of EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To Salus, for Caesar Augustus. Glabrio, the patron of the colony, donated [this] and arranged for its construction.</p>
             </div>
             <div type="commentary">
                 <p></p> 

@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000590</title>
+                <title>Dedication to Mercurius Augustus.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
+                    <resp>Edited text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Irregularly shaped fragment of plaque. Original edge on left, but broken on right and bottom.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">10</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Six lines of fragmentary Latin inscription, right edge missing. Appears roughly centered.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is relatively uneven, although uncertain and shakily carved throughout. Lines are uneven, and letter heights differ. Triangular interpuncts. Clear and broad serifs.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -68,7 +72,7 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3182943/aquileia.html">Aquileia</placeName>
                                 <geo>45.769631, 13.370946</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate when="0244" evidence="consuls">Dated to 244 CE on the basis of the consular year.</origDate>
                         </origin>
                         <provenance type="found" subtype="discovered">Discovered in Aqueila, in Monastero region, in Ritter vineyard</provenance>
                         <provenance type="observed"></provenance>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-01-20" who="#AV">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,21 +112,26 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="mercuriusAugustus"> <name>Mercurio</name> <g ref="interpunct">·</g> <name><expan><abbr>A<supplied reason="lost">ug</supplied></abbr><ex>usto</ex></expan></name></persName> <supplied reason="lost"><expan><abbr>sacr</abbr><ex>um</ex></expan></supplied>
+                    <lb n="2"/><persName type="attested"><name>Valerius</name> <g ref="interpunct">·</g> <name>Valens</name></persName> <expan><abbr>sig</abbr><ex>nifer</ex></expan> <g ref="interpunct">·</g> <supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="13">XIII</num> <expan><abbr>Gem</abbr><ex>inae</ex></expan></supplied> 
+                    <lb n="3"/>et <g ref="interpunct">·</g> <persName type="attested"><name>Domitius</name> <g ref="interpunct">·</g> <name>Zosimus</name></persName> <g ref="interpunct">·</g> act<unclear>o</unclear><supplied reason="lost">r</supplied> <supplied reason="lost"><abbr>summar</abbr></supplied>
+                    <lb n="4"/>in <expan><abbr>rat</abbr><ex>ionibus</ex></expan> <persName type="attested"><name>Domiti</name> <name>Terentian<unclear>i</unclear></name></persName> <supplied reason="lost" cert="low">visu</supplied>
+                    <lb n="5"/>moniti renovaverunt <g ref="interpunct">·</g> <expan><abbr>t</abbr><supplied reason="lost" cert="low"><abbr>empl</abbr><ex>um</ex></supplied></expan>
+                    <lb n="6"/><persName type="attested"><name>Peregrino</name></persName> et <persName type="attested"><name>Aem<choice><corr>i</corr><sic>e</sic></choice><unclear>l</unclear>iano</name></persName> <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; compared with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Mercury Augustus. Valerius Valens, standard-bearer [of the legion 13 Gemina], and Domitius Zosimus, financial agent(?) for the accounts of Domitius Terentianus, having been warned, restored [the temple?], when Peregrinus and Aemilianus were consuls.</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>The same Valerius Valens and Domitius Zosimus are mentioned in AE 1991.778.</p> 
             </div>
             <div type="bibliography">
                 <p>

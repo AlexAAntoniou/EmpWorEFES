@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000591</title>
+                <title>Dedication to Mercurius Augustus.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt> 
+                    <name xml:id="SPS" ref="https://orcid.org/0009-0003-1306-1347">Savinay Sood</name>
+                    <resp>Edited Text and translation</resp> 
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>The stone is incredibly fragmentary, both the beginning and ends of lines have been damaged and obscured. It appears to be a statue base, with a protruding lip at its bottom.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">59</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>The text takes up the left side of the support, however given that the support is fragmentary, it is hard to judge the overall layout. Line 5 is on the lip of the statue base.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The handwriting is neat and serifed, with even kerning. The tails on the Rs are long.</p>
                                 <locus from="line1" to="line4">Lines 1–4</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">30–35</height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-03" who="#SPS">Edited and translated text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,23 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#SPS">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="mercuriusAugustus"><name><expan><abbr>Merc</abbr><ex>urio</ex></expan></name>
+                    <lb n="2"/><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> <g ref="interpunct">·</g>
+                    <lb n="3"/><expan><abbr><unclear>s</unclear>acr</abbr><ex>um</ex></expan>
+                    <lb n="4"/><expan><abbr>mag</abbr><ex>istris</ex></expan>
+                    <lb n="5"/><persName type="attested"><name><gap reason="lost" quantity="3" unit="character"/><seg part="F">dieno</seg></name></persName> et <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from photograph, compared with EDR and EDCS.</note></app>
+                    <app loc="5"><note>As EDR notes, it is difficult to read the final two letters on the stone, but an "ET" is the most probable.</note></app>
                 </listApp>
             </div>
-            <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+            <div type="translation" xml:lang="en" resp="#SPS">
+                <p>Sacred to Mercury Augustus, to(?) the teachers [---]dienus and [---].</p>
             </div>
             <div type="commentary">
                 <p></p> 

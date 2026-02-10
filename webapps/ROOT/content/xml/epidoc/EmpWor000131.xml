@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000131</title>
+                <title>Funerary epitaph to Egnatia Aescennia Procula, flaminica of the divine Faustina.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><p>Text within tabula ansata</p>
+                                <layout><p>Text fills tabula ansata, roughly centred.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Text is neat and well-defined, with relatively even spaces between letters.</p>
+                            <handNote><p>Text is neat and well-defined, with relatively even spaces between letters. Clear serifs. Irregularly shaped interpuncts.</p>
                                 <locus from="line1" to="line9">Lines 1–9</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">24–30</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-03" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-05" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-06" who="#AA">Edited based on autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,13 +110,13 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="divine" key="di-manes"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <!-- palma --> <name><expan><abbr>M</abbr><ex>anibus</ex></expan></name></persName>
-                    <lb n="2"/><persName type="attested"><name>Egnatia</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <name>Aesc
-                    <lb n="3" break="no"/>ennia</name> <g ref="symbols.xml#interpunct">·</g> <name>Procula</name></persName> <g ref="symbols.xml#interpunct">·</g> flami
-                    <lb n="4" break="no"/>nica <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="divaFaustina"><name>divae</name> <g ref="symbols.xml#interpunct">·</g> <name>Faustinae</name></persName>
-                    <lb n="5"/>hic <g ref="symbols.xml#interpunct">·</g> sita <g ref="symbols.xml#interpunct">·</g> est <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Modius</name> <g ref="symbols.xml#interpunct">·</g>
-                    <lb n="6"/><persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <name>Successianus</name></persName> <g ref="symbols.xml#interpunct">·</g> honori
-                    <lb n="7" break="no"/>bus <g ref="symbols.xml#interpunct">·</g> functus <g ref="symbols.xml#interpunct">·</g> coniugi <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="1"/><persName type="divine" key="di-manes"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <g ref="palm"/> <name><expan><abbr>M</abbr><ex>anibus</ex></expan></name></persName>
+                    <lb n="2"/><persName type="attested"><name>Egnatia</name> <g ref="interpunct">·</g> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <g ref="interpunct">·</g> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName> <g ref="interpunct">·</g> <name>Aesc
+                    <lb n="3" break="no"/>ennia</name> <g ref="interpunct">·</g> <name>Procula</name></persName> <g ref="interpunct">·</g> flami
+                    <lb n="4" break="no"/>nica <g ref="interpunct">·</g> <persName type="divine" key="divaFaustina"><name>divae</name> <g ref="interpunct">·</g> <name>Faustinae</name></persName>
+                    <lb n="5"/>hic <g ref="interpunct">·</g> sita <g ref="interpunct">·</g> est <g ref="interpunct">·</g> <persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="interpunct">·</g> <name>Modius</name> <g ref="interpunct">·</g>
+                    <lb n="6"/><persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <g ref="interpunct">·</g> <name>Successianus</name></persName> <g ref="interpunct">·</g> honori
+                    <lb n="7" break="no"/>bus <g ref="interpunct">·</g> functus <g ref="interpunct">·</g> coniugi <g ref="interpunct">·</g>
                     <lb n="8"/>pudicissimae
                     <lb n="9"/>fecit
                 </ab>

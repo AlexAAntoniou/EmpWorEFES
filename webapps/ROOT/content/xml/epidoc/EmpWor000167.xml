@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000167</title>
+                <title>Dedicatory Inscription for Temple of Divine Pertinax.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Contiguous fragments (placed together by Zevi 1971)</p> <!-- Add Zevi to bibliography -->
+                                <support><p>Two contiguous fragments building inscription, broken in centre and on both left and right. Large, obvious, erasure in line 2 on right fragment.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.buildingdedication" ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Building Inscription</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/>
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Three lines of Latin inscription, obscured by erasure in right of line two and break in centre.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Text is clear and well defined, with even spacing between letters. Letter sizes of "DIVO" in line 1 are a little uneven. Lines 1 and 2 are much larger than the third. Triangular interpuncts.</p>
                                 <locus from="line1" to="line4">Lines 1–4</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">30–115</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-06" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-05" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-06" who="#AA">Edited based on autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,22 +110,21 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="divinity" key="divusPertinax"><name>Divo</name> <name>Pio</name> <name><supplied reason="lost">P</supplied>ertinaci</name> <name><expan><abbr><supplied reason="lost">Au</supplied>g</abbr><ex>usto</ex></expan></name></persName> <supplied reason="lost">patri</supplied>
-                    <lb n="2"/><expan><abbr>colleg</abbr><ex>ium</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan> <del rend="erasure"><expan><abbr><supplied reason="lost">tignu</supplied>ar</abbr><ex>iorum</ex></expan> <expan><abbr>O<supplied reason="lost">st</supplied></abbr><ex>iensium</ex></expan></del>
-                    <lb n="3"/>curam agentibus <persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Plotio</name> <name><seg part="I">Ca</seg><gap reason="lost" extent="unknown" unit="character"/></name> <name>Salinatore</name> <name>Ianuario</name></persName> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Faianio</name>
-                    <lb n="4"/><name>Olympo</name></persName> <expan><abbr>mag</abbr><ex>istris</ex></expan> <expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennalibus</ex></expan> <expan><abbr>lust</abbr><ex>ri</ex></expan> <num value="8">X<supplied reason="lost">XVIII</supplied></num>   
+                    <lb n="1"/><g ref="interpunct">·</g> <persName type="divinity" key="divusPertinax"><name>Divo</name> <g ref="interpunct">·</g> <name>Pio</name> <name><supplied reason="lost">P</supplied>ertinaci</name> <g ref="interpunct">·</g> <name><expan><abbr>A<supplied reason="lost">ug</supplied></abbr><ex>usto</ex></expan></name></persName> <supplied reason="lost">patri</supplied>
+                    <lb n="2"/><expan><abbr>colleg</abbr><ex>ium</ex></expan> <g ref="interpunct">·</g> <expan><abbr>fa<supplied reason="lost">b</supplied>r</abbr><ex>um</ex></expan> <del rend="erasure"><expan><abbr><supplied reason="lost">tignu</supplied>ar</abbr><ex>iorum</ex></expan> <expan><abbr>O<supplied reason="lost">st</supplied></abbr><ex>iensium</ex></expan></del>
+                    <lb n="3"/>curam <g ref="interpunct">·</g> agentibus <g ref="interpunct">·</g> <persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <g ref="interpunct">·</g> <name>Plotio</name> <g ref="interpunct">·</g> <name><seg part="I">Ca</seg><gap reason="lost" extent="unknown" unit="character"/></name> <name><supplied reason="lost">S</supplied>alinatore</name> <g ref="interpunct">·</g> <name>Ianuario</name></persName> <g ref="interpunct">·</g> <persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <g ref="interpunct">·</g> <name>Faianio</name> <g ref="interpunct">·</g> <name>Olympo</name></persName> <g ref="interpunct">·</g> <expan><abbr>mag</abbr><ex>istris</ex></expan> <g ref="interpunct">·</g> <expan><abbr>q</abbr><ex>uin</ex><g ref="interpunct">·</g><abbr>q</abbr><ex>uennalibus</ex></expan> <g ref="interpunct">·</g> <expan><abbr>lust</abbr><ex>ri</ex></expan> <g ref="interpunct">·</g> <num value="28">X<supplied reason="lost">XVIII</supplied></num>   
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EDR</note></app>
+                    <app><note>Text from autopsy.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>To the divine Pius Pertinax Augustus, [father] of the college of carpenters [of Ostia], the responsibility [for the work] was under the care of Gaius Plotius Ca[---] Salinator Ianuarius, and Lucius Faianius Olympus, quinquennial magistrates for the 18th lustrum. </p>
+                <p>To the divine Pius Pertinax Augustus, [father] of the college of carpenters [of Ostia], the responsibility [for the work] was under the care of Gaius Plotius Ca[---] Salinator Ianuarius, and Lucius Faianius Olympus, quinquennial superintendents for the 28th lustrum. </p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>Two contiguous fragments, first placed together by Zevi 1971.</p> <!-- Add Zevi to bibliography -->
             </div>
             <div type="bibliography">
                 <p>

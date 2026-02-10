@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Statue base to Marcus Aurelius in courtyard of Augusteum of Castra Vigiles</title>
+                <title>Statue base to Marcus Aurelius in Augusteum of Castra Vigiles</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -99,7 +99,7 @@
         <revisionDesc status="draft">
             <listChange>
                 <change when="2025-06-05" who="#AA">Original data collection and editing</change>
-                <change when="2025-02-05" who="#AA">Edited text and object</change>
+                <change when="2026-02-06" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>

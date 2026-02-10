@@ -24,7 +24,7 @@
                     <msIdentifier>
                         <country>Italy</country>
                         <region>Regio I</region>
-                        <settlement>Ostia/Portuus; beside the theatre, near the entrance to the Piazzale delle Corporazioni. </settlement>
+                        <settlement>Ostia/Portuus; beside the theatre, near the entrance to the Piazzale delle Corporazioni.</settlement>
                         <repository></repository> 
                         <idno></idno>
                     </msIdentifier>
@@ -94,10 +94,11 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="edited">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-06-05" who="#AA">Original data collection and editing</change>
                 <change when="2025-08-19" who="#AA">Edited based on autopsy</change>
+                <change when="2026-02-06" who="#AA">Edited based on autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -111,13 +112,13 @@
                     <lb n="1"/><persName type="divinity" key="numenDomusAugusti"><name>numini</name>
                     <lb n="2"/><name>domus</name>
                     <lb n="3"/><name>Augusti</name></persName>
-                    <lb n="4"/><persName type="attested"><name>Victor</name></persName> · et
+                    <lb n="4"/><persName type="attested"><name>Victor</name></persName> <g ref="interpunct">·</g> et
                     <lb n="5"/><persName type="attested"><name>Hedistus</name></persName>
                     <lb n="6"/><expan><abbr>vern</abbr><ex>ae</ex></expan> <expan><abbr>disp</abbr><ex>ensatores</ex></expan>
                     <lb n="7"/>cum
                     <lb n="8"/><persName type="attested"><name>Traiano</name>
-                    <lb n="9"/><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> · <expan><abbr>lib</abbr><ex>erto</ex></expan>
-                    <lb n="10"/><expan><abbr>a</abbr><ex>nni</ex></expan> · <num value="10">X</num> · <expan><abbr>m</abbr><ex>agistr</ex>o</expan>
+                    <lb n="9"/><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <g ref="interpunct">·</g> <expan><abbr>lib</abbr><ex>erto</ex></expan>
+                    <lb n="10"/><expan><abbr>a</abbr><ex>nni</ex></expan> · <num value="10">X</num> <g ref="interpunct">·</g> <expan><abbr>m</abbr><ex>agistr</ex>o</expan>
                 </ab> 
             </div>
             <div type="apparatus">

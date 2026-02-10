@@ -119,10 +119,10 @@
                     <lb n="4"/>aediculam et statuas has hostiam dedicationi victimae natali <expan><abbr>Aug</abbr><ex>usti</ex></expan> <num value="8">VIII</num> <expan><abbr>k</abbr><ex>alendas</ex></expan> <expan><abbr>Octobr</abbr><ex>es</ex></expan> <num value="2">duae</num> quae <expan><abbr>p</abbr><ex>er</ex><abbr>p</abbr><ex>etuo</ex></expan>
                     <lb n="5"/>immolari adsuetae sunt ad aram quae <persName type="divine" key="numenAugusti"><name>Numini</name> <name>Augusto</name></persName> <expan><abbr>dedic</abbr><ex>ata</ex></expan> est <num value="9">VIIII</num> et <num value="8">VIII</num> <expan><abbr>k</abbr><ex>alendas</ex></expan> <expan><abbr>Octobr</abbr><ex>es</ex></expan>
                     <lb n="6"/>inmolerentur item natali <persName type="divine" key="tiberius"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <name>Caesaris</name></persName> perpetuae acturi decuriones
-                    <lb n="7"/>et populus cenarent quam inpensam <persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name>Caecellio</name> <name>Labeone</name></persName>
+                    <lb n="7"/>et populus cenarent quam inpensam <persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name>Cascellio</name> <name>Labeone</name></persName>
                     <lb n="8"/>in perpetuo pollicenti ut gratiae agerentur munificentiae eius eoque
                     <lb n="9"/>natali ut quotannis vitulus inmolaretur
-                    <lb n="10"/>ut ut natalibus <persName type="divine" key="augustus"><name>Augusti</name></persName> <persName type="divine" key="tiberius"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name></persName> <name>Caesarum</name> prius quam ad vescendum
+                    <lb n="10"/>et ut natalibus <persName type="divine" key="augustus"><name>Augusti</name></persName> <persName type="divine" key="tiberius"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name></persName> <name>Caesarum</name> prius quam ad vescendum
                     <lb n="11"/>decuriones irent thure et vino <persName type="divine" key="genius">Genii</persName> eorum ad epulandum ara
                     <lb n="12"/><persName type="divine" key="numenAugusti"><name>Numinis</name> <name>Augusti</name></persName> invitarentur
                     <lb n="13"/>ara <persName type="divine" key="numenAugusti"><name>Numini</name> <name>Augusto</name></persName> pecunia nostra faciendam curavimus ludos
@@ -130,7 +130,7 @@
                     <lb n="15"/>natali <persName type="divine" key="livia">Augustae</persName> mulsum et crustlum mulieribus vicanis ad
                     <lb n="16"/><persName type="divine" key="bonaDea"><name>Bonam</name> <name>Deam</name></persName> pecunia nostra dedimus
                     <lb n="17"/>item dedicatione statuarum <persName type="divine"><name>Caesarum</name></persName> et <persName type="divine" key="livia"><name>Augustae</name></persName> mulsum et crustla
-                    <lb n="18"/>pecunia nosstra <expan><abbr>decurionib</abbr><ex>us</ex></expan> et populo dedimus perpetuoque eius die
+                    <lb n="18"/>pecunia nostra <expan><abbr>decurionib</abbr><ex>us</ex></expan> et populo dedimus perpetuoque eius die
                     <lb n="19"/>dedicationis daturonos testati sumus quem diem quo frequentior quod
                     <lb n="20"/>annis sit servabimus <num value="6">VI</num> idus Martias qua die
                     <lb n="21"/><persName type="ruler" key="Tiberius"><name><expan><abbr>Ti</abbr><ex>berius</ex></expan></name> <name>Caesar</name></persName> <expan><abbr>pontif</abbr><ex>ex</ex></expan> maximus felicissime est creatus

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000156</title>
+                <title>Statue base to Lucius Verus in the Augusteum of the Castra Vigiles</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Marble statue base.</p>
+                                <support><p>Complete rectangular marble statue base.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><p>Text is concentrated in top half of the stone. Text is crammed into the right hand side</p>
+                                <layout><p>Text in top half of the stone. Very fine margin between text and end of stone at right side.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Characters are rekatively neat, but occasionally lopsided. All letters have serifs. Long "I" in "Imp" in line 1, first "I" in Traiani in line 3, and "vig" in line 6.</p>
+                            <handNote><p>Characters are relatively neat, but occasionally lopsided. All letters have serifs. Long "I" in "Imp" in line 1, first "I" in Traiani in line 3, and "vig" in line 6. Irregular use of comma-shaped interpuncts.</p>
                                 <locus from="line1" to="line7">Lines 1–7</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">28–67</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-06-05" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-06" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,13 +110,13 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="ruler" key="lucius-verus"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name>Caesari</name>
-                    <lb n="2"/><persName type="ruler" key="antoninus-pius"><name>divi</name> <name>Antonini</name> filio</persName> <persName type="ruler" key="hadrian"><name>divi</name> <name>Ha
-                    <lb n="3" break="no"/>driani</name> <expan><abbr>nep</abbr><ex>oti</ex></expan></persName> <persName type="ruler" key="trajan"><name>divi</name> <name>Traiani</name> <name>Par
-                    <lb n="4" break="no"/>thici</name> <expan><abbr>pronep</abbr><ex>oti</ex></expan></persName> <persName type="ruler" key="nerva"><name>divi</name> <name>Nervae</name> <expan><abbr>ab<hi rend="supraline">n</hi></abbr><ex>epoti</ex></expan></persName> 
-                    <lb n="5"/><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name>Aurelio</name> <name>Vero</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="2">II</num>
-                    <lb n="6"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <num value="2">II</num>
-                    <lb n="7"/>cohortes <num value="7">VII</num> <expan><abbr>vig</abbr><ex>ilum</ex></expan>
+                    <lb n="1"/><persName type="ruler" key="lucius-verus"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <g ref="interpunct">·</g> <name>Caesari</name>
+                    <lb n="2"/><persName type="ruler" key="antoninus-pius"><name>divi</name> <g ref="interpunct">·</g> <name>Antonini</name> filio </persName> <g ref="interpunct">·</g> <persName type="ruler" key="hadrian"><name>divi</name> <g ref="interpunct">·</g> <name>Ha
+                    <lb n="3" break="no"/>driani</name> <g ref="interpunct">·</g> <expan><abbr>nep</abbr><ex>oti</ex></expan></persName> <g ref="interpunct">·</g> <persName type="ruler" key="trajan"><name>divi</name> <g ref="interpunct">·</g> <name>Traiani</name> <g ref="interpunct">·</g> <name>Par
+                    <lb n="4" break="no"/>thici</name> <g ref="interpunct">·</g> <expan><abbr>pronep</abbr><ex>oti</ex></expan></persName> <g ref="interpunct">·</g> <persName type="ruler" key="nerva"><name>divi</name> <g ref="interpunct">·</g> <name>Nervae</name> <g ref="interpunct">·</g> <expan><abbr>ab<hi rend="supraline">n</hi></abbr><ex>epoti</ex></expan></persName> 
+                    <lb n="5"/><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="interpunct">·</g> <name>Aurelio</name> <g ref="interpunct">·</g> <name>Vero</name><g ref="interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> <g ref="interpunct">·</g> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <g ref="interpunct">·</g> <expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="2"><hi rend="supraline">II</hi></num>
+                    <lb n="6"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="interpunct">·</g> <num value="2">II</num>
+                    <lb n="7"/>cohortes <g ref="interpunct">·</g> <num value="7"><hi rend="supraline">VII</hi></num> <g ref="interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan>
                 </ab> 
             </div>
             <div type="apparatus">

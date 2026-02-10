@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000162</title>
+                <title>Statue base to Julia Domna in courtyard of Augusteum of Castra Vigiles.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>White marble statue base.</p>
+                                <support><p>Tall rectangular complete white statue base.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Nine lines of Latin text roughly centred on stone. First four lines are much larger than the rest, with small vacat between this text and final five smaller lines. Vacat at bottom.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Text is clean and well-defined. "I" in "Augusti" in line 3 is above the "T", presumably to fit into the line.</p>
+                            <handNote><p>Text is clean and well-defined, with clear and well-defined serifs. Tall "I" in "Iuliae" in line 1. "I" in "Augusti" in line 3 is above the "T", presumably to fit into the line. Small interpuncts. Traces of guidelines at top and bottom of lines throughout.</p>
                                 <locus from="line1" to="line9">Lines 1–9</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">20–83</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-06" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-05" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-06" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -111,13 +112,13 @@
                 <ab>
                     <lb n="1"/><persName type="attested"><name>Iuliae</name>
                     <lb n="2"/><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name>
-                    <lb n="3"/>matri <g ref="symbols.xml#interpunct">·</g> August<add place="above">i</add>
-                    <lb n="4"/>et <g ref="symbols.xml#interpunct">·</g> kastrorum</persName>
-                    <lb n="5"/>sub <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeo</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>M</abbr><ex>arcio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Rustio</name> <g ref="symbols.xml#interpunct">·</g> <name>Rufino</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pr</abbr><ex>aefecto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>e</abbr><ex>minentissimo</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan>
+                    <lb n="3"/>matri <g ref="interpunct">·</g> August<add place="above">i</add>
+                    <lb n="4"/>et <g ref="interpunct">·</g> kastrorum</persName>
+                    <lb n="5"/>sub <g ref="interpunct">·</g> <persName type="attested"><name><expan><abbr>Cn</abbr><ex>aeo</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>M</abbr><ex>arcio</ex></expan></name> <g ref="interpunct">·</g> <name>Rustio</name> <g ref="interpunct">·</g> <name>Rufino</name></persName> <g ref="interpunct">·</g> <expan><abbr>pr</abbr><ex>aefecto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>e</abbr><ex>minentissimo</ex></expan> <g ref="interpunct">·</g> <expan><abbr>v</abbr><ex>iro</ex></expan>
                     <lb n="6"/>curantibus
-                    <lb n="7"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Laecanio</name> <g ref="symbols.xml#interpunct">·</g> <name>Novatilliano</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>subpr</abbr><ex>aefecto</ex></expan> <g ref="symbols.xml#interpunct">·</g> et
-                    <lb n="8"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Fl</abbr><ex>avio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Raesiano</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>trib</abbr><ex>uno</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="2">II</num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan>
-                    <lb n="9"/>praeposito <g ref="symbols.xml#interpunct">·</g> vexillationis <g ref="symbols.xml#interpunct">·</g>       
+                    <lb n="7"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <g ref="interpunct">·</g> <name>Laecanio</name> <g ref="interpunct">·</g> <name>Novatilliano</name></persName> <g ref="interpunct">·</g> <expan><abbr>subpr</abbr><ex>aefecto</ex></expan> <g ref="interpunct">·</g> et
+                    <lb n="8"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>Fl</abbr><ex>avio</ex></expan></name> <g ref="interpunct">·</g> <name>Raesiano</name></persName> <g ref="interpunct">·</g> <expan><abbr>trib</abbr><ex>uno</ex></expan> <g ref="interpunct">·</g> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <g ref="interpunct">·</g> <num value="2">II</num> <g ref="interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan>
+                    <lb n="9"/>praeposito <g ref="interpunct">·</g> vexillationis <g ref="interpunct">·</g>       
                 </ab>
             </div>
             <div type="apparatus">

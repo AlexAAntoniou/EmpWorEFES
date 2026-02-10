@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000157</title>
+                <title>Statue base to Septimius Severus in Augusteum of Castra Vigiles</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><p>Text fills the stone, with erasure in line 7.</p>
+                                <layout><p>Text fills the stone, with erasure in line 7, roughly centred.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Text is relatively neat, but the gaps between letters differ line-to-line. Letters have serifs. Long "I" in "Imp" in line 1, and "Imp" in line 5, and by virtue of the ligature of the "ni" in vexillationis in line "8".</p>
+                            <handNote><p>Text is relatively neat, but the gaps between letters differ line-to-line. Letters have serifs. Tall "I" in "Imp" in line 1, and "Imp" in line 5, and by virtue of the ligature of the "ni" in vexillationis in line "8". Small interpuncts.</p>
                                 <locus from="line1" to="line8">Lines 1–8</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">25–60</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-06-05" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-06" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,14 +110,14 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="ruler" key="septimius-severus"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Septimio</name> <name>Se
+                    <lb n="1"/><persName type="ruler" key="septimius-severus"><name><expan><abbr>Imp</abbr><ex>eratori</ex></expan></name> <name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <g ref="interpunct">·</g> <name>Septimio</name> <name>Se
                     <lb n="2" break="no"/>vero</name> <name>Pertinaci</name>
-                    <lb n="3"/><name>Caesari</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
-                    <lb n="4"/><expan><abbr>pont</abbr><ex>ifici</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>max</abbr><ex>imo</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pot</abbr><ex>estate</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="3"><hi rend="supraline">III</hi></num> <g ref="symbols.xml#interpunct">·</g>
-                    <lb n="5"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="5"><hi rend="supraline">V</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="2"><hi rend="supraline">II</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>pro<g ref="symbols.xml#interpunct">·</g>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>atri</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>atriae</ex></expan> <g ref="symbols.xml#interpunct">·</g>
-                    <lb n="6"/>cohortes <g ref="symbols.xml#interpunct">·</g> <num value="7"><hi rend="supraline">VII</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="symbols.xml#interpunct">·</g>
-                    <lb n="7"/><del rend="erasure"><supplied reason="lost"><persName type="attested"><name>Fulvio</name> <name>Plautiano</name></persName></supplied></del> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name>Cassio</name>
-                    <lb n="8"/><name>Ligure</name></persName> <g ref="symbols.xml#interpunct">·</g> tribuno <g ref="symbols.xml#interpunct">·</g> praeposito <g ref="symbols.xml#interpunct">·</g> vexillatio<hi rend="ligature">ni</hi>s
+                    <lb n="3"/><name>Caesari</name> <g ref="interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> <g ref="interpunct">·</g>
+                    <lb n="4"/><expan><abbr>pont</abbr><ex>ifici</ex></expan> <g ref="interpunct">·</g> <expan><abbr>max</abbr><ex>imo</ex></expan> <g ref="interpunct">·</g> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <g ref="interpunct">·</g> <expan><abbr>pot</abbr><ex>estate</ex></expan> <g ref="interpunct">·</g> <num value="3"><hi rend="supraline">III</hi></num> <g ref="interpunct">·</g>
+                    <lb n="5"/><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <g ref="interpunct">·</g> <num value="5"><hi rend="supraline">V</hi></num> <g ref="interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="interpunct">·</g> <num value="2"><hi rend="supraline">II</hi></num> <g ref="interpunct">·</g> <expan><abbr>pro<g ref="interpunct">·</g>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>atri</ex></expan> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>atriae</ex></expan> <g ref="interpunct">·</g>
+                    <lb n="6"/>cohortes <g ref="interpunct">·</g> <num value="7"><hi rend="supraline">VII</hi></num> <g ref="interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="interpunct">·</g>
+                    <lb n="7"/><del rend="erasure"><supplied reason="lost"><persName type="attested"><name>Fulvio</name> <name>Plautiano</name></persName></supplied></del> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>vig</abbr><ex>ilum</ex></expan> <g ref="interpunct">·</g> <persName type="attested"><name>Cassio</name> <g ref="interpunct">·</g>
+                    <lb n="8"/><name>Ligure</name></persName> <g ref="interpunct">·</g> tribuno <g ref="interpunct">·</g> praeposito <g ref="interpunct">·</g> vexillatio<hi rend="ligature">ni</hi>s
                 </ab> 
             </div>
             <div type="apparatus">

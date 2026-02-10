@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Honorific Plaque to M. Holconius Rufus</title>
+                <title>Honorific Plaque to M. Holconius Rufus, sacerdos Augusti.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -99,7 +99,7 @@
         <revisionDesc status="edited">
             <listChange>
                 <change when="2025-06-09" who="#AA">Original data collection and editing</change>
-                <change when="2025-08-15" who="#AA">Edited based on autopsy</change>
+                <change when="2026-02-06" who="#AA">Edited based on autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -110,9 +110,9 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Holconio</name> <g ref="symbols.xml#interpunct">·</g> <name>Rufo</name></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>uum</ex><g ref="symbols.xml#interpunct">·</g><abbr>v</abbr><ex>iro</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>i</abbr><ex>ure</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>icundo</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="4">IIII</num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>quinq</abbr><ex>uennali</ex></expan>
-                    <lb n="2"/><expan><abbr>trib</abbr><ex>uno</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>mil</abbr><ex>itum</ex></expan> <g ref="symbols.xml#interpunct">·</g> a populo <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="Augustus">Augusti</persName> <g ref="symbols.xml#interpunct">·</g> sacerdoti
-                    <lb n="3"/>ex <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="interpunct">·</g> <name>Holconio</name> <g ref="interpunct">·</g> <name>Rufo</name></persName> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>uum</ex><g ref="interpunct">·</g><abbr>v</abbr><ex>iro</ex></expan> <g ref="interpunct">·</g> <expan><abbr>i</abbr><ex>ure</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>icundo</ex></expan> <g ref="interpunct">·</g> <num value="4">IIII</num> <g ref="interpunct">·</g> <expan><abbr>quinq</abbr><ex>uennali</ex></expan>
+                    <lb n="2"/><expan><abbr>trib</abbr><ex>uno</ex></expan> <g ref="interpunct">·</g> <expan><abbr>mil</abbr><ex>itum</ex></expan> <g ref="interpunct">·</g> a populo <g ref="interpunct">·</g> <persName type="divine" key="Augustus">Augusti</persName> <g ref="interpunct">·</g> sacerdoti
+                    <lb n="3"/>ex <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">

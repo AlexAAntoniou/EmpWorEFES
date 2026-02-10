@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000197</title>
+                <title>Honorific for M. Holconius Celer, sacerdos Augusti.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,9 +34,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Complete rectangular marble plaque. Stone of inner inscribed area is more yellowed than border.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType> <!-- Default value -->
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm">22</height>
                                         <width unit="cm">69.5</width>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Three lines of Latin text, within carved border. Text is roughly centered, although aligned further to the left than right.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Letters are clear and well-defined, with clear serifs. Letters are close together, and the "V" slapes to the right in lines 2 and 3. Long tails on "Q"s, tall "T"s in line 3. Neat triangular interpuncts.</p>
                                 <locus from="line1" to="line3">Lines 1–3</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">38–63</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-06-09" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-06" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,18 +110,18 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Holconio</name> <name>Celeri</name></persName>
-                    <lb n="2"/><expan><abbr>d</abbr><ex>uum</ex><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <expan><abbr>quinq</abbr><ex>uennali</ex></expan> designato
-                    <lb n="3"/><persName type="divine" key="Augustus"><name>Augusti</name></persName> sacerdoti
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="interpunct">·</g> <name>Holconio</name> <g ref="interpunct">·</g> <name>Celeri</name></persName>
+                    <lb n="2"/><expan><abbr>d</abbr><ex>uum</ex><g ref="interpunct">·</g><abbr>v</abbr><ex>iro</ex></expan> <g ref="interpunct">·</g> <expan><abbr>i</abbr><ex>ure</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>icundo</ex></expan> <g ref="interpunct">·</g> <expan><abbr>quinq</abbr><ex>uennali</ex></expan> <g ref="interpunct">·</g> designato
+                    <lb n="3"/><persName type="divine" key="Augustus"><name>Augusti</name></persName> <g ref="interpunct">·</g> sacerdoti
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- compare with photograph -->
+                    <app><note>Text from autopsy</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!--  -->
+                <p>To Marcus Holconius Celer, designated quinquennial duumvir with judicial authority, sacerdos of Augustus.</p>
             </div>
             <div type="commentary">
                 <p></p> 

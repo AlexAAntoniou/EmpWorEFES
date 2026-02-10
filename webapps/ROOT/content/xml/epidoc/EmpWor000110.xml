@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000110</title>
+                <title>Honorific for P. Aufidius Fortis, flamen of Roma and Augustus and flamen of the divine Titus.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,9 +34,9 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Multiple contiguous fragments of a thin marble plaque.</p>
+                                <support><p>Multiple contiguous fragments of a thin, long, rectangular marble plaque. Missing long strip on bottom left.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType> <!-- Default value -->
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/259.html">Inscribed Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm">219</height>
                                         <width unit="cm">132</width>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Eight lines of Latin text, clustered in top half of the stone, centred on stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote><p>Text is exceptionally finely carved and neat. Defined serifs. Long tail on "Qs" in lines 1 and 3. First "I" in "divi" is tall. Triangular interpuncts.</p>
                                 <locus from="line1" to="line8">Lines 1–8</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">55–85</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-02" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-05" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-06" who="#AA">Edited based on autopsy</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,19 +110,19 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <name>Aufidio</name> <persName type="patronym"><expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <expan><abbr>Quir</abbr><ex>ina</ex></expan>
-                    <lb n="2"/><name>Forti</name></persName> <persName type="patronym"><name>Aufidi</name> <name>Fortis</name>
-                    <lb n="3"/><expan><abbr>p</abbr><ex>atroni</ex></expan> <expan><abbr>c</abbr><ex>oloniae</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <expan><abbr>IIvir</abbr><ex>o</ex></expan> <expan><abbr><hi rend="supraline">q</hi></abbr><ex>uaestori</ex></expan> <expan><abbr>aedil</abbr><ex>i</ex></expan>
-                    <lb n="4"/><expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divinity" key="roma"><name>Romae</name></persName> et <persName type="divinity" key="augustus"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
-                    <lb n="5"/><expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divinity" key="divusTitus"><name>divi</name> <name>Titi</name></persName>
-                    <lb n="6"/><persName type="attested"><name>Faustianus</name></persName> <persName type="attested"><name>Epictetus</name></persName>
-                    <lb n="7"/><persName type="attested"><name>Euphrosynus</name></persName> <persName type="attested"><name>Ianuarius</name></persName>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ublio</ex></expan></name> <g ref="interpunct">·</g> <name>Aufidio</name> <g ref="interpunct">·</g> <persName type="patronym"><expan><abbr>P</abbr><ex>ubli</ex></expan> <g ref="interpunct">·</g> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <g ref="interpunct">·</g> <expan><abbr>Quir</abbr><ex>ina</ex></expan>
+                    <lb n="2"/><name>Forti</name></persName> <supplied reason="lost"><g ref="interpunct">·</g></supplied> <persName type="patronym"><name>Aufidi</name> <g ref="interpunct">·</g> <name>Fortis</name>
+                    <lb n="3"/><expan><abbr>p</abbr><ex>atroni</ex></expan> <g ref="interpunct">·</g> <expan><abbr>c</abbr><ex>oloniae</ex></expan> <g ref="interpunct">·</g> <expan><abbr>fil</abbr><ex>io</ex></expan></persName> <g ref="interpunct">·</g> <expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan> <g ref="interpunct">·</g> <expan><abbr><hi rend="supraline">q</hi></abbr><ex>uaestori</ex></expan> <g ref="interpunct">·</g> <expan><abbr>aedil</abbr><ex>i</ex></expan>
+                    <lb n="4"/><expan><abbr>flam</abbr><ex>ini</ex></expan> <g ref="interpunct">·</g> <persName type="divinity" key="roma"><name>Romae</name></persName> <g ref="interpunct">·</g> et <g ref="interpunct">·</g> <persName type="divinity" key="augustus"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+                    <lb n="5"/><expan><abbr>flam</abbr><ex>ini</ex></expan> <g ref="interpunct">·</g> <persName type="divinity" key="divusTitus"><name>divi</name> <g ref="interpunct">·</g> <name>Titi</name></persName>
+                    <lb n="6"/><persName type="attested"><name>Faustianus</name></persName> <g ref="interpunct">·</g> <persName type="attested"><name>Epictetus</name></persName>
+                    <lb n="7"/><persName type="attested"><name>Euphrosynus</name></persName> <g ref="interpunct">·</g> <persName type="attested"><name>Ianuarius</name></persName>
                     <lb n="8"/>liberti
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text of EAGLE</note></app>
+                    <app><note>Text of EDR; comparison to photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
