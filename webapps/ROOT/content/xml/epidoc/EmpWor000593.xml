@@ -129,7 +129,7 @@
                 <p>Sacred to Minerva Augusta. Marcus Valerius Venustus and Mulcedatia Tais, to their clanspeople, the Artorian washer-folk, gave (this?) altar as a gift.</p>
             </div>
             <div type="commentary">
-                <p>José Pena (2020) considers the gentiles Artoriani lotores to probably be fullones.</p>  <!-- ADD TO BIBLIOGRAPHY -->
+                <p>José Pena (2020) considers the gentiles Artoriani lotores to probably be fullones.</p>
             </div>
             <div type="bibliography">
                 <p>
@@ -155,6 +155,11 @@
                 <p>
                     <bibl>
                         <ptr target="Lupa"/> <citedRange>14084</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="JoséPena2020"/> 
                     </bibl>
                 </p>
             </div>

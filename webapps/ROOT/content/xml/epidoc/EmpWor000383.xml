@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000383</title>
+                <title>Statue base dedicated by Vibia Marcella, flamina Augusta.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Complete and well-formed rectangular statue base, with statue extant above.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Fourteen lines of Latin inscription, centred on whole and taking up the majority of available space on the stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is well-formed and clear. Consistent gaps between letters, lines are straight. Simple serifs. Inconsistent use of triangular interpuncts.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-17" who="#AA">Text editing and object description</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,29 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <g ref="interpunct">·</g> <name>Praesentio</name> <g ref="interpunct">·</g> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name></persName> <g ref="interpunct">·</g> <expan><abbr>fil</abbr><ex>io</ex></expan>
+                    <lb n="2"/><expan><abbr>Lem</abbr><ex>onia</ex></expan> <g ref="interpunct">·</g> <name>Paeto</name> <g ref="interpunct">·</g>
+                    <lb n="3"/><name>Lattio</name> <name>Severo</name></persName> <g ref="interpunct">·</g>
+                    <lb n="4"/>praefecto <g ref="interpunct">·</g> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <g ref="interpunct">·</g> <num value="1"><hi rend="supraline">I</hi></num> <g ref="interpunct">·</g> <expan><abbr>Afr</abbr><ex>orum</ex></expan> <g ref="interpunct">·</g>
+                    <lb n="5"/><expan><abbr>c</abbr><ex>ivium</ex></expan> <g ref="interpunct">·</g> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <g ref="interpunct">·</g> <expan><abbr>eq</abbr><ex>uitatae</ex></expan> <g ref="interpunct">·</g> iudici <g ref="interpunct">·</g> selecto ex <g ref="interpunct">·</g>
+                    <lb n="6"/><g ref="interpunct">·</g> <num value="5"><hi rend="supraline">V</hi></num> <g ref="interpunct">·</g> <expan><abbr>de</abbr><ex>uriis</ex></expan> <g ref="interpunct">·</g> <expan><abbr>pr</abbr><ex>aetori</ex></expan> <g ref="interpunct">·</g> <placeName>Auximi</placeName> <g ref="interpunct">·</g> <expan><abbr>pat</abbr><ex>rono</ex></expan> <g ref="interpunct">·</g> <expan><abbr>col</abbr><ex>oniae</ex></expan> <g ref="interpunct">·</g>
+                    <lb n="7"/>aedili <g ref="interpunct">·</g> <expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan> <g ref="interpunct">·</g> <placeName>Anconae</placeName>
+                    <lb n="8"/><persName type="attested"><name>Vibia</name> <g ref="interpunct">·</g> <persName type="attested"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="interpunct">·</g> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName> <g ref="interpunct">·</g> <name>Marcella</name></persName> <g ref="interpunct">·</g>
+                    <lb n="9"/>flamina <g ref="interpunct">·</g> <persName type="divine" key="augusta"><name><expan><abbr>August</abbr><ex>a</ex></expan></name></persName> <g ref="interpunct">·</g>
+                    <lb n="10"/>marito <g ref="interpunct">·</g> omnibus <g ref="interpunct">·</g> exem
+                    <lb n="11" break="no"/>plis <g ref="interpunct">·</g> de <g ref="interpunct">·</g> se<g ref="interpunct">·</g> bene <g ref="interpunct">·</g> merito
+                    <lb n="12"/>et <g ref="interpunct">·</g> in <g ref="interpunct">·</g> <expan><abbr>dedic</abbr><ex>atione</ex></expan> <g ref="interpunct">·</g> statuae
+                    <lb n="13"/>cenam <expan><abbr>colon</abbr><ex>is</ex></expan> <g ref="interpunct">·</g> et <g ref="interpunct">·</g> <expan><abbr>epul</abbr><ex>um</ex></expan> <expan><abbr>pop</abbr><ex>ulo</ex></expan> <g ref="interpunct">·</g> <expan><abbr>ded</abbr><ex>it</ex></expan>
+                    <lb n="14"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>atus</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Lucius Praesentius Paetus Lattius Severus, son of Lucius, of tribe Lemonia, prefect of the 1st cavalry cohort Afrorum of Roman citizens, selected judge out of the fifth decurion, praetor of Auximum, patron of the colony, aedile, duovir at Ancona. Vibia Marcella, daughter of Lucius, flamen Augusta, to her husband in all respects, well deserving of her, and in the dedication of (this) statue, gave a dinner to the colony and a meal to the people. This place was given by decree of the decurions.</p>
             </div>
             <div type="commentary">
                 <p></p> 

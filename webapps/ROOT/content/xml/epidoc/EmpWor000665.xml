@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000665</title>
+                <title>Dedication to Asclepius Augustus.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="JSG" ref="https://orcid.org/0009-0007-5552-1849">Jonah Secmezsoy Gault</name>
+                    <resp>Editing text and description of object</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -26,7 +30,7 @@
                         <region>Regio X</region>
                         <settlement>Aquileia</settlement>
                         <repository>Aquileia, Museo Archeologico Nazionale, Depositi Visitabili, Room 2: entry wall, shelf 1 (from left), shelf 4 (from bottom).</repository>  
-                        <idno></idno>
+                        <idno>2189</idno>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="la">Latin</textLang>
@@ -34,29 +38,29 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Rectangular altar with entablature at the top and bottom, broken into two pieces at middle and reassembled. There is a large amount of wearing which takes up the majority of the column in a semi circle affecting the left side of all lines.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">54</height>
+                                        <width unit="cm">25</width>
+                                        <depth unit="cm">19</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Seven lines of fragmentary Latin text. It appears that the text is centred, takes up the majority of the column, however the damage makes entire left side unreadable.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
-                                <locus from="line1" to="line1">Line 1</locus>
+                            <handNote><p>The majority of the text is unclear given damage. From what can be seen, the handwriting appears to be consistent throughout: broad, wide, and well-formed.</p>
+                                <locus from="line1" to="line7">Lines 1–7</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"></height>
+                                    <height unit="mm">25–35</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -70,7 +74,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Aquileia, in fondo Moschettini(?)</provenance>
                         <provenance type="observed" subtype="studied">Antoniou studied and photographed the stone on 2025-08-06</provenance>
                     </history>
                 </msDesc>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-10" who="JSG">edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,24 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#JSG">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="asclepiusAugustus"><name><supplied reason="lost">A</supplied><unclear>e</unclear>sclapio</name></persName>
+                    <lb n="2"/><name><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>usto</ex></expan></name>
+                    <lb n="3"/><supplied reason="lost">sac<unclear>r</unclear></supplied>um
+                    <lb n="4"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/><seg part="F">nia</seg></name>
+                    <lb n="5"/><name><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><seg part="M"><unclear>i</unclear><gap reason="illegible" quantity="1" unit="character"/></seg></name>
+                    <lb n="6"/><name><gap reason="lost" extent="unknown" unit="character"/><seg part="F"></seg><unclear>a</unclear>ria</name></persName>
+                    <lb n="7"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olverunt</ex></expan></supplied> <expan><abbr>l</abbr><ex>ibens</ex></expan> <g ref="interpunct">·</g> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Asclepius Augustus. [---]nia [---]it[-] [---]aria, [fulfilled the vow] willingly and deservedly.</p>
             </div>
             <div type="commentary">
                 <p></p> 

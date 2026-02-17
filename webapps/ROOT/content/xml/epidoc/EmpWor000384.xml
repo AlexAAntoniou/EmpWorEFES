@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000384</title>
+                <title>Sacrifice to Fides Augusta.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,26 +34,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Fragment of a rectangular stone block; top edge is original, but broken on sides and bottom.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.block" ref="https://www.eagle-network.eu/voc/objtyp/lod/189.html">Block</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Four incomplete lines of Latin, filling fragment except for small vacat at top.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is clear and well-defined, with even spaces between letters, and defined serifs (especially long tail on first "R" in line 1). Tall "T"s in line 4.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-17" who="#AA">Text editing and object description</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,19 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="unknown"/><seg part="F"><supplied reason="undefined" evidence="previouseditor">i</supplied>us</seg></name></persName> <g ref="interpunct">·</g>  <expan><abbr>tr</abbr><ex>ibunus</ex></expan> <g ref="interpunct">·</g>  <expan><abbr>mil</abbr><ex>itum</ex></expan> <g ref="interpunct">·</g> bis <g ref="interpunct">·</g> <expan><abbr>praef</abbr><ex>ectus</ex></expan> <g ref="interpunct">·</g> <expan><abbr>fabr</abbr><ex>um</ex></expan> <g ref="interpunct">·</g> praetor
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">rei <expan><abbr>p</abbr><ex>ublicae</ex></expan> reliquit</supplied> <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan> <num value="50000"><hi rend="supraline">L</hi><hi rend="reversed">CCC</hi></num> et <g ref="interpunct">·</g> fundum <g ref="interpunct">·</g> Hermedianum
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">et praedia duo</supplied> <unclear>H</unclear>erenniana <g ref="interpunct">·</g> ex <g ref="interpunct">·</g> quo <g ref="interpunct">·</g> redi<unclear>tu</unclear> quot
+                    <lb n="4"/><supplied reason="lost">annis</supplied> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">d</supplied><unclear>a</unclear>retur <g ref="interpunct">·</g> hostiaque <g ref="interpunct">·</g> <persName type="divine" key="fidesAugusta"><name>Fidi</name> <g ref="interpunct">·</g> <name>Augu<unclear>st</unclear>ae</name></persName> inmol<supplied reason="lost">aretur</supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>[---]ius(?), military tribune twice, prefect of engineers, praetor [---], [left to the state] 50,000 sesterces and the estate Hermedianus, [---] [and two estates?] Herenniana, from which income annually, [---] should be given and a sacrifice sought be offered to Fides Augusta.</p>
             </div>
             <div type="commentary">
                 <p></p> 

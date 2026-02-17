@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000594</title>
+                <title>Dedication to Minerva Augusta</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
+                    <resp>Edited text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -43,7 +47,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-10" who="#AV">Edited text </change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,22 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="minervaAugusta"><name>Minervae</name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName>
+                    <lb n="2"/>sacrum
+                    <lb n="3"/><persName type ="attested"><name><supplied reason="lost">Ven</supplied>eteia</name> <persName type="libertino"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name></persName> <expan><abbr>l</abbr><ex>iberta</ex></expan>
+                    <lb n="4"/><name><supplied reason="lost">Ma</supplied>xima</name></persName>
+                    <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Minerva Augusta. Veneteia Maxima, freedwoman of Quintus [---]</p>
             </div>
             <div type="commentary">
                 <p></p> 

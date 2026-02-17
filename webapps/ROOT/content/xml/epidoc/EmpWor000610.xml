@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000610</title>
+                <title>Dedication to Silvanus Augustus.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt> 
+                    <name xml:id="SPS" ref="https://orcid.org/0009-0003-1306-1347">Savinay Sood</name>
+                    <resp>Edited Text and translation</resp> 
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -43,7 +47,7 @@
                                         <depth unit="cm">13</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-10" who="#SPS">Edited text and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,24 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#SPS">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="silvanusAugustus"><name><supplied reason="undefined" evidence="previouseditor">Si</supplied>l<supplied reason="undefined" evidence="previouseditor">vano</supplied></name>
+                    <lb n="2"/><name><expan><abbr><supplied reason="undefined" evidence="previouseditor">Aug</supplied></abbr><ex>usto</ex></expan></name></persName> <expan><abbr><supplied reason="undefined" evidence="previouseditor">sac</supplied></abbr><ex>rum</ex></expan>
+                    <lb n="3"/><supplied reason="undefined" evidence="previouseditor">i</supplied>n memor<supplied reason="undefined" evidence="previouseditor">iam</supplied>
+                    <lb n="4"/><persName type="attested"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <name>Rufi</name> <name>Anthi</name></persName>
+                    <lb n="5"/>I<hi rend="supraline">IIII</hi>Iviri
+                    <lb n="6"/><persName type="attested"><name>Thallus</name></persName> <expan><abbr>li<supplied reason="undefined" evidence="previouseditor">b</supplied></abbr><ex>ertus</ex></expan>
+                    <lb n="7"/><expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
-            <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+            <div type="translation" xml:lang="en" resp="#SPS">
+                <p>Sacred to Silvanus Augustus, in memory of Gaius Rufus Anthus sexvir, the freedman Thallus gave this gift.</p>
             </div>
             <div type="commentary">
                 <p></p> 

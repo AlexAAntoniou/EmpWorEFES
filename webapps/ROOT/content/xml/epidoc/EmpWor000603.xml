@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000603</title>
+                <title>Dedication to Diana Augusta</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                     <name xml:id="JSG" ref="https://orcid.org/0009-0007-5552-1849">Jonah Secmezsoy Gault</name>
+                     <resp>Editing text and description of object</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>This a fragment of an altar, with very little of the text remaining. It appears to be the top left, with entablature on the top and left but nothing on the right or bottom.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">22</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragment"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>The layout of the text begins close to the top right corner, suggesting that the text may have taken up the entirety of the slab. As it is, the text takes up most of the available space of this fragment.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The text of this is not complete due to the fragmentary nature of this object, however the available lines are legible. In addition, the handwriting appears to be deep and well formed, however the letters are slightly slanted and uneven in height and shape. Rough serifs.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-10" who="JSG"> edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,20 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#JSG">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="dianaAugusta"><name><unclear>Dia</unclear><supplied reason="lost">nae</supplied></name>
+                    <lb n="2"/><name><expan><abbr>A<supplied reason="lost">ug</supplied></abbr><ex>ustae</ex></expan></name></persName>
+                    <lb n="3"/>sa<unclear>c</unclear><supplied reason="lost">rum</supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>[Sacred?] to Diana Augusta [---]</p>
             </div>
             <div type="commentary">
                 <p></p> 
