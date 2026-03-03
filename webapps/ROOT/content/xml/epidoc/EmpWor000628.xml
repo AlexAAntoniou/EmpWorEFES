@@ -122,7 +122,7 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from photograph</note></app>
+                    <app><note>Text based on autopsy, comparison with EDR</note></app>
                     <app loc="1"><note>EDR reads on line 3: "POTI" but the stone clearly shows "POIT"</note></app>
                 </listApp>
             </div>

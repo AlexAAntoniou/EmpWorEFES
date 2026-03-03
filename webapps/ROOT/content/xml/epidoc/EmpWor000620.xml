@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000620</title>
+                <title>Dedication to Silvanus Augustus.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626"> Ana Luisa Vasques </name>
+                    <resp>Edited text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Tall rectangular stone statue based, complete and well-preserved, with carved entabulature in the middle.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -43,18 +47,18 @@
                                         <depth unit="cm">22</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Eleven lines of Latin inscription that take up the whole entabulature. Vacat of one line after line 8, and vacat of several lines after line 10. Small vacat after final line. Text is roughly centred.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
-                                <locus from="line1" to="line10">Lines 1–10</locus>
+                            <handNote><p>The text is complete and legible, the letters are well formed, with simple serifs. The letters at the top of the text are bigger and slowly they grow smaller, except for the last line, where the letters are bigger. Use of interpuncts.</p>
+                                <locus from="line1" to="line10">Lines 1–11</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">15–25</height>
                                 </dimensions>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-24" who="#AV">Edited text </change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,29 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="silvanusAugustus"><name>Silvano</name>
+                    <lb n="2"/><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
+                    <lb n="3"/>in <g ref="interpunct">·</g> <expan><abbr>honor</abbr><ex>em</ex></expan>
+                    <lb n="4"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="interpunct">·</g> <name>Trosi</name>
+                    <lb n="5"/><name>Daphni</name></persName>
+                    <lb n="6"/><num value="6">I<hi rend="supraline">IIII</hi>I</num><g ref="interpunct">·</g>viri 
+                    <lb n="7"/>et <g ref="interpunct">·</g> <persName type="attested"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="interpunct">·</g> <name>Trosi</name>
+                    <lb n="8"/><name>Cissi</name></persName> <g ref="interpunct">·</g> <expan><abbr>lib</abbr><ex>erti</ex></expan>
+                    <lb n="9"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g ref="interpunct">·</g> <name>Trosius</name>
+                    <lb n="10"/><name>Modestus</name></persName>
+                    <lb n="11"/><expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
+                    <app><note>EDR records ten lines, but the stone clearly has eleven lines of text.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Silvanus Augustus. In honour of Marcus Trosius Daphnis, sexvir, and Marcus Trosius Cissus, freedman. Marcus Trosius Modestus, gave (this) gift.</p>
             </div>
             <div type="commentary">
                 <p></p> 

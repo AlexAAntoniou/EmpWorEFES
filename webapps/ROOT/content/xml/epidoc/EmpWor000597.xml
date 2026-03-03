@@ -114,16 +114,16 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
                 <ab>
-                    <lb n="1"/><persName type="divine" key="neptuneAugustus"><name><supplied reason="lost">Nept</supplied>uno</name> <name><abbr>Aug</abbr><ex>usto</ex></name></persName> 
+                    <lb n="1"/><persName type="divine" key="neptuneAugustus"><name><supplied reason="lost">Nept</supplied>uno</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> 
                     <lb n="2"/>sacrum 
-                    <lb n="3"/><persName type="attested"><name><abbr>L</abbr><ex>ucius</ex></name> <name>Titius</name> <name>Felix</name></persName>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>Titius</name> <name>Felix</name></persName>
                     <lb n="4"/>I<hi rend="supraline">IIII</hi>Ivir
                     <lb n="5"/>dedit
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR; comparison with photograph.</note></app>
+                    <app><note>Text based on autopsy, comparison with EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">

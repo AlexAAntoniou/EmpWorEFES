@@ -116,14 +116,14 @@
                 <ab>
                     <lb n="1"/><persName type="divine" key="belenusAugustus"><name>Belino</name>
                     <lb n="2"/><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
-                    <lb n="3"/><persName type="attested"><name><abbr>Sex</abbr><ex>tus</ex></name> <name>Mutilius</name>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>Sex</abbr><ex>tus</ex></expan></name> <name>Mutilius</name>
                     <lb n="4"/><name><expan><abbr>Abascant</abbr><ex>us</ex></expan></name></persName>
-                    <lb n="5"/><abbr>v</abbr><ex>otum</ex> <abbr>s</abbr><ex>olvit</ex>
+                    <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR; comparison with photograph</note></app>
+                    <app><note>Text based on autopsy, comparison with EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">

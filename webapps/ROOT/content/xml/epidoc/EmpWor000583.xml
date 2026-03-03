@@ -121,7 +121,7 @@
                     <lb n="4"/><del rend="erasure"><supplied reason="lost"><unclear>n</unclear>o<unclear>bilis</unclear>s<unclear>imo</unclear></supplied></del>
                     <lb n="5"/><del rend="erasure"><supplied reason="lost"><unclear>fi</unclear>l<unclear>io</unclear> <expan><abbr>I<unclear>mp</unclear></abbr><ex>eratoris</ex></expan> <expan><abbr>C<unclear>ae</unclear>s</abbr><ex>aris</ex></expan></supplied></del>
                     <lb n="6"/><persName type="ruler" key="PhilipI"><del rend="erasure"><name><supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan></supplied></name> <supplied reason="lost"><name>I<unclear>uli</unclear></name></supplied></del>
-                    <lb n="7"/><del rend="erasure"><supplied reason="lost"><unclear><name>Philippi</name> <name>Pii</name></unclear></supplied></del>
+                    <lb n="7"/><del rend="erasure"><supplied reason="lost"><name>Philppi</name> <name>Pii</name></supplied></del>
                     <lb n="8"/>Felicis <expan><abbr>Aug</abbr><ex>usti</ex></expan></persName>
                     <lb n="9"/>Aquileienses
                     <lb n="10"/>devoti <expan><abbr>numin</abbr><ex>i</ex></expan>
@@ -138,11 +138,13 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR; comparison with photograph.</note></app>
+                    <app><note>Text based on autopsy, comparison with EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#SPS">
-                <p>FRONT: To Marcus Julius Philippus Caesar, the most noble, son of the Imperator Marcus Iulius Philippus Pius Felix. The (people of) Aquileia devoted (this) to his divine power and majesty. TOP: Lucius Safinius Sabellio, son of Lucius, father [...]</p>
+                <p>FRONT: To Marcus Julius Philippus Caesar, the most noble, son of the Imperator Marcus Iulius Philippus Pius Felix. The (people of) Aquileia devoted (this) to his divine power and majesty. 
+                   TOP: Lucius Safinius Sabellio, son of Lucius, father [...]
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

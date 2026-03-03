@@ -29,8 +29,7 @@
                         <country>Italy</country>
                         <region>Regio X</region>
                         <settlement>Aquileia</settlement>
-                        <repository>Aquileia, Museo Archeologico Nazionale, Depositi Visitabili, Room 2: entry wall (directly above entrance), 
-                            shelf 4 (from left), shelf 1 (from bottom).</repository>  
+                        <repository>Aquileia, Museo Archeologico Nazionale, Depositi Visitabili, Room 2: entry wall (directly above entrance), shelf 4 (from left), shelf 1 (from bottom).</repository>  
                         <idno>1918</idno>
                     </msIdentifier>
                     <msContents>
@@ -125,7 +124,7 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR; comparison with photograph.</note></app>
+                    <app><note>Text based on autopsy, comparison with EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#SPS">

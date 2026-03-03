@@ -116,13 +116,13 @@
                 <ab>
                     <lb n="1"/><persName type="divine" key="asclepius"><name>Aescula<hi rend="ligature">pi</hi>o</name></persName>
                     <lb n="2"/>et <g ref="interpunct">·</g> <persName type="divine" key="hygeiaAugusta"><name>Hygiae</name>
-                    <lb n="3"/><name><abbr>Aug</abbr><ex>ustae</ex></name></persName>
+                    <lb n="3"/><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName>
                     <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>odia
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from photograph.</note></app>
+                    <app><note>Text based on autopsy, comparison with EDR</note></app>
                     <app loc="1"><note>EDR considers the abbreviation in line 3 to be Aug(ustis), rather than – what I consider more likely – Aug(ustae)</note></app>
                 </listApp>
             </div>

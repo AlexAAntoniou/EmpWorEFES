@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000612</title>
+                <title>Dedication to Silvanus Augustus.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                     <name xml:id="JSG" ref="https://orcid.org/0009-0007-5552-1849">Jonah Secmezsoy Gault</name>
+                     <resp>Editing text and description of object</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Tall rectangular altar, hollowed out entableture in centre with an inner rectangle hollowed to contain the inscription, some general damage on all sides of stone and a crack through the middle between lines eight and nine.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">34</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>The text is in the middle of the column, and takes up the majority of the hollowed out space it is carved in. There is a large vacat between lines eight and nine.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The lettering is entirely legible, broad, well spaced, and consistent. The size of the letters shrink by line until line eight, then after the vacat, line nine is the same size as line one.</p>
                                 <locus from="line1" to="line11">Lines 1–11</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">50–65</height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-24" who="JSG"> edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,28 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+           <div type="edition" xml:space="preserve" xml:lang="la" resp="#JSG">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="silvanusAugustus"><name>Silvano</name></persName>
+                    <lb n="2"/><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name> <g ref="interpunct">·</g> <expan><abbr>sacr</abbr><ex>um</ex></expan>
+                    <lb n="3"/>in <g ref="interpunct">·</g> <expan><abbr>honor</abbr><ex>em</ex></expan>
+                    <lb n="4"/><persName type="attested"><name><expan><abbr>L</abbr><ex>uci</ex></expan> <g ref="interpunct">·</g> Stati <g ref="interpunct">·</g> Onesimi</name></persName>
+                    <lb n="5"/>I<hi rend="supraline">IIII</hi>I<expan><abbr>vir</abbr><ex>i</ex></expan> <g ref="interpunct">·</g> et
+                    <lb n="6"/>in <expan><abbr>memor</abbr><ex>iam</ex></expan> <g ref="interpunct">·</g> <persName><name><expan><abbr>C</abbr><ex>ai</ex></expan> <g ref="interpunct">·</g> <expan><abbr>Stat</abbr><ex>i</ex></expan>
+                    <lb n="7"/>Primigeni</name></persName> <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+                    <lb n="8"/><persName type="attested"><name><expan><abbr>L</abbr><ex>uci</ex></expan> <g ref="interpunct">·</g> Stati <g ref="interpunct">·</g> Hermetis</name></persName>
+                    <lb n="9"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan> <g ref="interpunct">·</g> Statius</name></persName>
+                    <lb n="10"/><persName type="attested"><name>Encolpus</name></persName>
+                    <lb n="11"/>I<hi rend="supraline">IIII</hi>Ivir
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Silvanus Augustus. In honour of Lucius Statius Onesimus, sexvir, and in the memory of Gaius Statius Primigenius, Augustalis, by decree of the decurions [and?] to Lucius Statius Hermes. Lucius Statius Encolpus, sexvir, [set this up].</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -141,7 +156,7 @@
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="093894"/> <citedRange>093894</citedRange>
+                        <ptr target="EDR"/> <citedRange>093894</citedRange>
                     </bibl>
                 </p>
                 <p>

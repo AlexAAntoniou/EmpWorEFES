@@ -29,7 +29,7 @@
                         <country>Italy</country>
                         <region>Regio X</region>
                         <settlement>Aquileia</settlement>
-                        <repository>Aquileia, Museo Archeologico Nazionale, Galleries (GL11a)</repository>  
+                        <repository>Aquileia, Museo Archeologico Nazionale, Galleria Lapidaria (area under renovation).</repository>  <!-- EDR records as Galleries (GL11a) -->
                         <idno>1956</idno>
                     </msIdentifier>
                     <msContents>
@@ -75,7 +75,7 @@
                             <origDate/>
                         </origin>
                         <provenance type="found" subtype="discovered">Discovered in Aquileia, in the Monastero locality, reused in the church.</provenance>
-                        <provenance type="observed"></provenance>
+                        <provenance type="observed" subtype="studied">Antoniou studied and photographed the stone on 2025-08-06</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -124,7 +124,7 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR; comparison with photograph.</note></app>
+                    <app><note>Text based on autopsy, comparison with EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#SPS">

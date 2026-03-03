@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000615</title>
+                <title>Dedication to Silvanus Augustus.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt> 
+                    <name xml:id="SPS" ref="https://orcid.org/0009-0003-1306-1347">Savinay Sood</name>
+                    <resp>Edited Text and translation</resp> 
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>The majority of the altar is intact, however it has sustained some damage on its surface and vertices. This obscures the first letters of the fourth and fifth lines.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">28</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Twelve lines of Latin text. The text takes up the entirety of the face of the stone. The majority of the text is centred, however the "et" on line 7 is on the far right of an otherwise blank line and the name Alypus on line 11 is aligned to the left of the stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The handwriting is neat and serifed, and the kerning is fairly even. The size of the letters varies between lines. The text on the first four and bottom two lines are larger than the lines in the middle of the stone. The A and U of Augustalis on lines 5 and 10 are in ligature.</p>
                                 <locus from="line1" to="line12">Lines 1–12</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">20–45</height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-02-24" who="#SPS">Edited text and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,29 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#SPS">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="silvanusAugustus"><name><expan><abbr>S</abbr><ex>ilvano</ex></expan></name> <name><expan><abbr>A</abbr><ex>ugusto</ex></expan></name></persName> <expan><abbr>s</abbr><ex>acrum</ex></expan>
+                    <lb n="2"/>in <expan><abbr>honor</abbr><ex>em</ex></expan>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name>Valeri</name>
+                    <lb n="4"/><name><expan><abbr><unclear>N</unclear>ym<hi rend="ligature">ph</hi>odot</abbr><ex>i</ex></expan></name></persName>
+                    <lb n="5"/><expan><abbr><unclear>V</unclear>Ivir</abbr><ex>i</ex></expan> <unclear>e</unclear>t <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <g ref="interpunct">·</g> <expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>ustalis</ex></expan> 
+                    <lb n="6"/>et <persName type="attested"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <name>Stati</name> <name><expan><abbr>Primig</abbr><ex>eni</ex></expan></name></persName>
+                    <lb n="7"/>et
+                    <lb n="8"/>in <expan><abbr>memoria</abbr><ex>m</ex></expan>
+                    <lb n="9"/><persName type="attested"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <g ref="interpunct">·</g> <name>Stati</name> <expan><abbr>Heuret</abbr><ex>i</ex></expan></persName>
+                    <lb n="10"/><expan><abbr><hi rend="supraline">VI</hi><g ref="interpunct">·</g>vir</abbr><ex>i</ex></expan> <g ref="interpunct">·</g> et <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <g ref="interpunct">·</g> <expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>ustalis</ex></expan>
+                    <lb n="11"/><persName type="attested"><name>Alypus</name></persName>
+                    <lb n="12"/><expan><abbr>lib</abbr><ex>ertus</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
-            <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+            <div type="translation" xml:lang="en" resp="#SPS">
+                <p>Sacred to Silvanus Augustus. In honour of Lucius Valerius Nymphodotus, sexvir and, by the decree of the decurions, Augustalis, and Gaius Statius Primigenius, and in memory of Gaius Status Heuretus, sexvir and, by the decree of the decurions, Augustalis. the freedman Alypus [set this up].</p>
             </div>
             <div type="commentary">
                 <p></p> 

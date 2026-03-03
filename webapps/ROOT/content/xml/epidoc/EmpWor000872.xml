@@ -29,7 +29,7 @@
                         <country>Italy</country>
                         <region>Regio X</region>
                         <settlement>Aquileia</settlement>
-                        <repository>Aquileia, Museo Archeologico Nazionale</repository> <!-- OUTSIDE AREA UNDER RENOVATION CHECK SHELF! --> 
+                        <repository>Aquileia, Museo Archeologico Nazionale, Galleria Lapidaria (area under renovation).</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -123,7 +123,7 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR; comparison to photograph</note></app>
+                    <app><note>Text based on autopsy, comparison with EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#SPS">
