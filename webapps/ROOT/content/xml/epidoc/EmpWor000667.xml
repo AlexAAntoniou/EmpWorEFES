@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000667</title>
+                <title>Dedication to Aesculapius and Hygieia Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
+                    <resp>Edited text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Tall rectangular altar, complete but with some surface scratches/cracking.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">20</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Nine lines of Latin text, roughly central (although with small margins on left and right).</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The letters are well-formed, with the letter heights getting smaller further down the inscription. Line 6 is slightly obscured by a crack in the stone.</p>
                                 <locus from="line1" to="line9">Lines 1–9</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">20–25</height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-03-10" who="#AV">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,26 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="aesculapius"><name><expan><abbr>Aesculap</abbr><ex>io</ex></expan></name></persName>
+                    <lb n="2"/>et <persName type="divine" key="hygieiaAugusta"><name>Hygiae</name></persName>
+                    <lb n="3"/><name><expan><abbr>Aug</abbr><ex>ustis</ex></expan></name> <expan><abbr>sacr</abbr><ex>um</ex></expan>
+                    <lb n="4"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Statius</name>
+                    <lb n="5"/><name>Moschus</name></persName> 
+                    <lb n="6"/><num value="6">I<hi rend="supraline">IIII</hi>I</num>vir <placeName key="Aquileia"><name><expan><abbr>Aqu<hi rend="ligature">il</hi></abbr><ex>eiae</ex></expan></name></placeName>
+                    <lb n="7"/><expan><abbr>dec</abbr><ex>urio</ex></expan> <expan><abbr>coll</abbr><ex>egi</ex></expan>
+                    <lb n="8"/><expan><abbr>fabr</abbr><ex>um</ex></expan>
+                    <lb n="9"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph</note></app> 
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Aesculapius and Hygieia Augustus. Gaius Statius Moschus, sexvir of Aquileia, decurion of the college of craftsmen fulfilled his vow gladly and deservedly.</p>
             </div>
             <div type="commentary">
                 <p></p> 

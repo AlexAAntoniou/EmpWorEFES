@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000732</title>
+                <title>Dedication to Spes Augusta</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
+                    <resp>Edited text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,8 +38,8 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
+                                <support><p>Stone altar, regularised into a rectangle and now walled up. Significant abrasions to top third of inscription, and bottom eighth.</p>
+                                    <material ana="#material.stone.limestone" ref="https://www.eagle-network.eu/voc/material/lod/66.html">Limestone</material> 
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
                                         <height unit="cm">82</height>
@@ -43,17 +47,17 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Latin inscription in bad condition at top and bottom. The text appears to fill most of the frame.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Handwriting is neat and clear, with simple serifs.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-03-24" who="#AV">Edited text </change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,27 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="spesAugusta"><name><unclear>Spe</unclear>i</name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName>
+                    <lb n="2"/><persName type="attested"><name><gap reason="lost" atLeast="1" atMost="3" unit="character"/></name> <name>Auconius</name>
+                    <lb n="3"/><name>Optatus</name></persName> <expan><abbr>eq</abbr><ex>uo</ex></expan> <expan><abbr>p</abbr><ex>ublico</ex></expan>
+                    <lb n="4"/><expan><abbr>dec</abbr><ex>urio</ex></expan> et <num value="2"><hi rend="supraline">II</hi></num>vir <placeName type="attested"><name><expan><abbr>Cl</abbr><ex>audiae</ex></expan></name> <name><expan><abbr>Ag</abbr><ex>uonti</ex></expan></name></placeName>
+                    <lb n="5"/>pro salute
+                    <lb n="6"/><persName type="attested"><name><expan><abbr>T</abbr><ex>iti</ex></expan></name> <name>Auconi</name> <name>Optati</name></persName>
+                    <lb n="7"/>fili sui <expan><abbr>equit</abbr><ex>i</ex></expan> <expan><abbr>Rom</abbr><ex>ani</ex></expan>
+                    <lb n="8"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text adapted from EDR, with comparison with photograph</note></app>
+                    <app loc="1"><note>Line 1 appears – on the basis of photographs on Lupa – to now be entirely lost, but we have recorded here the version provided in EDR</note></app>
+                    <app loc="8"><note>While EDR provides [v(otum) s(olvit)] l(ibens) m(erito), the photograph suggests that all four letters of the abbreviation are visible on the stone.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Spes Augusta. [-] Auconius Optatius, [holder of] the public horse, a decurion and duovir of Claudia Aguntum, for the safety of his son, Titus Auconius Optatus, a Roman knight, gladly and deservedly fulfilled this vow.</p>
             </div>
             <div type="commentary">
                 <p></p> 

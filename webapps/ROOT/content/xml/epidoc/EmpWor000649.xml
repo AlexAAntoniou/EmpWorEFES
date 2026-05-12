@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000649</title>
+                <title>Dedication to Belenus Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
+                    <resp>Edited text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -43,7 +47,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -98,7 +102,8 @@
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-03-10" who="#AV">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,31 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="belenusAugustus"><name><expan><abbr>Belen</abbr><ex>o</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> <g ref="interpunct">·</g>
+                    <lb n="2"/>in <expan><abbr>memor</abbr><ex>iam</ex></expan>
+                    <lb n="3"/><expan><abbr>Iulior</abbr><ex>um</ex></expan>
+                    <lb n="4"/><persName type="attested"><name><expan><abbr>Marcell</abbr><ex>i</ex></expan></name></persName> <g ref="interpunct">·</g> et
+                    <lb n="5"/><persName type="attested"><name>Marcellae</name></persName> <g ref="interpunct">·</g> et
+                    <lb n="6"/>in <g ref="interpunct">·</g> honorem
+                    <lb n="7"/>Iuliarum
+                    <lb n="8"/><persName type="attested"><name>Charites</name></persName> <g ref="interpunct">·</g> et
+                    <lb n="9"/><persName type="attested"><name>Marcellae</name></persName> <g ref="interpunct">·</g> <expan><abbr>filiar</abbr><ex>um</ex></expan>
+                    <lb n="10"/>et <persName type="attested"><name><expan><abbr>Licin</abbr><ex>i</ex></expan></name> <name><expan><abbr>Macron</abbr><ex>is</ex></expan></name></persName>
+                    <lb n="11"/><expan><abbr>iunior</abbr><ex>is</ex></expan> nepotis
+                    <lb n="12"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> <g ref="interpunct">·</g> <name>Agathopus</name></persName>
+                    <lb n="13"/><num value="6">I<hi rend="supraline">IIII</hi>I</num>vir <placeName><expan><abbr>Aquil</abbr><ex>eiae</ex></expan></placeName>
+                    <lb n="14"/><g ref="interpunct">·</g> <expan><abbr>l</abbr><ex>ocus</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>atus</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <g ref="interpunct">·</g>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Belenus Augustus. In memory of the Iulii, Marcellus and Marcella, and in honour of the Iulii, Charites and Marcella, their daughters, and Licinius Macro the Younger, their grandson. Gaius Iulius Agathopus, sevir of Aquileia [set this up]. This place was granted by decree of the decurions.</p>
             </div>
             <div type="commentary">
                 <p></p> 

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000643</title>
+                <title>Dedication to Apollo Belenus Augustus.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -13,6 +13,10 @@
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
                 </respStmt>
+                <respStmt>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
+                    <resp>Edited text</resp>
+                 </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>EmpWor</authority>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-03-03" who="#AV">Edited text </change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,31 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="apolloBelenusAugustus"><name>Apollini</name>
+                    <lb n="2"/><name>Beleno</name> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
+                    <lb n="3"/>in honorem
+                    <lb n="4"/><persName type="attested"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <name>Petti</name> <name><expan><abbr>C</abbr><ex>ai</ex></expan></name></persName> <expan><abbr>f</abbr><ex>ili</ex></expan> <persName type="attested"><name><expan><abbr>Pal</abbr><ex>atina</ex></expan></name>
+                    <lb n="5"/><name>Philtati</name></persName> <expan><abbr>eq</abbr><ex>uo</ex></expan> <expan><abbr>p</abbr><ex>ublico</ex></expan> 
+                    <lb n="6"/><expan><abbr>praef</abbr><ex>ecti</ex></expan> <expan><abbr>aed</abbr><ex>ilicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan>
+                    <lb n="7"/><expan><abbr>praef</abbr><ex>ecti</ex></expan> et patroni
+                    <lb n="8"/>collegiorum
+                    <lb n="9"/><expan><abbr>fabr</abbr><ex>um</ex></expan> et <expan><abbr>cent</abbr><ex>onariorum</ex></expan>
+                    <lb n="10"/><persName type="attested"><name>Diocles</name></persName> <expan><abbr>lib</abbr><ex>ertus</ex></expan> 
+                    <lb n="11"/>donum dedit
+                    <lb n="12"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Apollo Belenus Augustus. In honor of Gaius Pettus Philtatus, son of Gaius, of tribe Palatina, with the public horse, prefect with aedilician power, prefect and patron of the college of carpenters and textile dealers. 
+                    Diocles a freedman gave this gift. This location was given by decree of the decurions.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

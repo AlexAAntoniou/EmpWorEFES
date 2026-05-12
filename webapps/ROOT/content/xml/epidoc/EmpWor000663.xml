@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000663</title>
+                <title>Dedication to Belenus Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                     <name xml:id="JSG" ref="https://orcid.org/0009-0007-5552-1849">Jonah Secmezsoy Gault</name>
+                     <resp>Editing text and description of object</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>This is the fragment of a the top of wide altar, including the first few lines of text. Entablature at the top of the altar. As this is a fragment there is damage on all sides of stone, including at the bottom which has obscured some of the text.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">16</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>From what can be seen of the stone, the text takes up the majority of the space, however almost all of line four is missing and large parts of three are also.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Besides the damaged parts of the stone, the majority of available text is legible. The handwriting is broad, well spaced, however is shaky at points. The size of the lettering remains largely consistent through the inscription.</p>
                                 <locus from="line1" to="line4">Lines 1–4</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">20</height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-03-24" who="JSG"> edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,22 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#JSG">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="belenusAugustus"><name>Beleno</name> <g ref="interpunct">·</g> defen
+                    <lb n="2" break="no"/>sori <g ref="interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName> <g ref="interpunct">·</g> <expan><abbr>sacr</abbr><ex>um</ex></expan>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>Pl<unclear>ot</unclear></abbr><ex>ius</ex></expan></name> <persName type="patronym"><name><expan><abbr><unclear>T</unclear></abbr><ex>iti</ex></expan></name></persName> <supplied reason="lost"><expan><abbr>fil</abbr><ex>ius</ex></expan></supplied> <g ref="interpunct">·</g> <name>Felix</name></persName>
+                    <lb n="4"/><supplied reason="lost">et</supplied> <persName type="attested"><name><expan><abbr>Pl<supplied reason="lost" cert="low">ot</supplied></abbr><ex>ia</ex></expan></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Belenus Augustus the defender. Titus Plotius Felix, son of Titus, and Pl[otia?] [set this up?] [---].</p>
             </div>
             <div type="commentary">
                 <p></p> 
