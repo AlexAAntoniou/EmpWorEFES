@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000586</title>
+                <title>Compitum to Lares Augusti(?)</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt> 
+                    <name xml:id="SPS" ref="https://orcid.org/0009-0003-1306-1347">Savinay Sood</name>
+                    <resp>Edited Text and translation</resp> 
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,26 +38,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Fragment b is a rectangular architrave, broken on all sides.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.architrave" ref="https://www.eagle-network.eu/voc/objtyp/lod/119.html">Architrave</objectType>
                                     <dimensions>
                                         <height unit="cm">25</height>
                                         <width unit="cm">35</width>
                                         <depth unit="cm">21</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>The one surviving line of fragment b, takes up the majority of the space under the carved border.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The letters are extremely neat and clear, with clear serifs.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">50</height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-01-20" who="#SPS">Edited text and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,18 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#SPS">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/>compitum <g ref="interpunct">·</g> <expan><abbr>restitut</abbr><ex>um</ex></expan> <g ref="interpunct">·</g> ex <g ref="interpunct">·</g> pe<supplied reason="lost">cunia</supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; with comparison to photograph of fragment b.</note></app>
                 </listApp>
             </div>
-            <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+            <div type="translation" xml:lang="en" resp="#SPS">
+                <p>The shrine was restored with money from [...]</p>
             </div>
             <div type="commentary">
                 <p></p> 

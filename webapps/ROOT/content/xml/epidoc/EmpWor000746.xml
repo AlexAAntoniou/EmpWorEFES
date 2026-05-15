@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000746</title>
+                <title>Dedication to Nemesis Augusta</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt> 
+                    <name xml:id="SPS" ref="https://orcid.org/0009-0003-1306-1347">Savinay Sood</name>
+                    <resp>Edited Text and translation</resp> 
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>The support has endured significant weathering, however the centre of the stone seems to have remained relatively intact. The vertices are worn down, and there is some surface damage to the stone.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
@@ -43,17 +47,17 @@
                                         <depth unit="cm">47.5</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>The text seems centred on the stone, and the lines seem to be evently spaced.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The handwriting is neat and serifed. Though the weathering makes some of the letters difficult to read and difficult to identify any interpuncts. The tail of the Q on line 5 is long.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-05-06" who="#SPS">Edited text and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,25 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+           <div type="edition" xml:space="preserve" xml:lang="la" resp="#SPS">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="nemesisAugusta"><name>Nemesi</name>
+                    <lb n="2"/><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <expan><abbr>sac</abbr><ex>rum</ex></expan>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>G</abbr><ex>aius</ex></expan></name> <name>Lecan 
+                    <lb n="4" break="no"/>ius</name> <name>Vita
+                    <lb n="5" break="no"/>lis</name></persName> qui et
+                    <lb n="6"/><name>Serpulli
+                    <lb n="7" break="no"/>us</name> libe<supplied reason="lost">ns</supplied>
+                    <lb n="8"/>posu<supplied reason="lost">it</supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text mostly from EDR. I disagree, however, with EDR on line 4, where they have recorded a C, I have recorded a G which is clearly visible on the stone.</note></app>
                 </listApp>
             </div>
-            <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+            <div type="translation" xml:lang="en" resp="#SPS">
+                <p>Sacred to Nemesis Augusta, Gaius Lecanius Vitalis, who is also known as Serpullius, gave [this] freely.</p>
             </div>
             <div type="commentary">
                 <p></p> 
