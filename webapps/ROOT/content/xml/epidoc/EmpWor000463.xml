@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000463</title>
+                <title>Devotion to the Numen and Maiestas of Constantine I</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
-                        <repository></repository>  
+                        <region>Regio VII</region>
+                        <settlement>Ferentium</settlement>
+                        <repository>Viterbo, Polo Monumentale Colle del Duomo</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,29 +34,29 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                <support><p>Remains of a statue base, substantially reworked into elaborate Corinthian column. Only upper left portion of original statue base remains, with substantial wear at bottom of surviving text.</p>
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">54</height>
+                                        <width unit="cm">62</width>
+                                        <depth unit="cm">61.8</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Impossible to say much about alignment of original text on statue base, although appears to take up majority of epigraphic space.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
-                                <locus from="line1" to="line1">Line 1</locus>
+                            <handNote><p>Text is uneven, in terms of height, width and spacing of letters. Blocky construction of letters. "T" in line 6 is extremely slight, likely a later addition to the stone after the rest of the word has been carved.</p>
+                                <locus from="line1" to="line8">Lines 1–8</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"></height>
+                                    <height unit="mm">35–40</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -64,13 +64,13 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/413132">Ferentium</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/9072716/ferento.html">Ferento</placeName>
+                                <geo>42.4886766719, 12.1312852549</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Viterbo, under the floor of the Archdiocesan archive.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,13 +92,14 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-05-20" who="#AA">Added text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,23 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="ruler" key="constantineI"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Ca<supplied reason="lost">es</supplied></abbr><ex>ari</ex></expan> <name><supplied reason="lost">Fl</supplied>
+                    <lb n="2" break="no"/>avio</name> <name>Co<supplied reason="lost">nstan</supplied>
+                    <lb n="3" break="no"/>tino</name> Pio <expan><abbr><supplied reason="lost">Fel</supplied></abbr><ex>ici</ex></expan> <supplied reason="lost">In</supplied>
+                    <lb n="4" break="no"/>victo <expan><abbr>M<supplied reason="lost">ax</supplied></abbr><ex>imo</ex></expan> <expan><abbr><supplied reason="lost">Aug</supplied></abbr><ex>usto</ex></expan></persName>
+                    <lb n="5"/><placeName>Ferent<supplied reason="lost">ienses</supplied></placeName>
+                    <lb n="6"/><expan><abbr>devot</abbr><ex>i</ex></expan> <persName type="divine" key="numen">nu<supplied reason="lost">mini</supplied></persName>
+                    <lb n="7"/><supplied reason="lost">et</supplied> <unclear>m</unclear>aie<supplied reason="lost">stati</supplied>
+                    <lb n="8"/>e<unclear>i</unclear><supplied reason="lost">us</supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Imperator Caesar Flavius Constantinus Pius Felix Invictus Maximus Augustus, [the community of] Ferentium, devotes [this] to his numen and majesty.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -131,7 +139,22 @@
                 </p>
                 <p>
                     <bibl>
-                        <ptr target="EDCS"/> <citedRange></citedRange> <!-- DEFAULT VALUE -->
+                        <ptr target="EDR"/> <citedRange>072248</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDCS"/> <citedRange>21000360</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDH"/> <citedRange>020795</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="LSA"/> <citedRange>1627</citedRange>
                     </bibl>
                 </p>
             </div>

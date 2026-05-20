@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000416</title>
+                <title>Dedication to Hercules Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                     <name xml:id="JSG" ref="https://orcid.org/0009-0007-5552-1849">Jonah Secmezsoy Gault</name>
+                     <resp>Editing text and description of object</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +38,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Long and narrow statue base with carved entablature on all sides, a lot of unused space around the entablature. There is slight wearing to the support which makes legibility difficult for some lines.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -43,17 +47,17 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>The text is in the middle of the entablature and is centered within the space. It takes up the entirety of the space within the entablature.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The handwriting is broad and consistent, however the size and spacing changes, with the top lines larger and well spaced, shrinking until the last line. The last lines are also difficult to make out due to the small size and close spacing, as well as some wearing.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-05-14" who="JSG">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,27 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#JSG">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="herculesAugustus"><name>Herculi</name>
+                    <lb n="2"/><name><expan><abbr>Aug</abbr><ex>usto</ex></expan></name></persName>
+                    <lb n="3"/>consorti
+                    <lb n="4"/><persName type="ruler" key="Aurelianus"><expan><abbr>d</abbr><ex>omini</ex></expan> <g ref="interpunct">·</g> <expan><abbr>n</abbr><ex>ostri</ex></expan>
+                    <lb n="5"/><name>Aureliani</name>
+                    <lb n="6"/>Invicti <g ref="interpunct">·</g> <expan><abbr>Augus</abbr><ex>ti</ex></expan></persName>
+                    <lb n="7"/>res <g ref="interpunct">·</g> <expan><abbr>pub</abbr><ex>lica</ex></expan> <placeName><expan><abbr>Pis</abbr><ex>aurensium</ex></expan></placeName>
+                    <lb n="8"/><expan><abbr>cura</abbr><ex>m</ex></expan> <g ref="interpunct">·</g> ag<unclear>ente</unclear>
+                    <lb n="9"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan> <g ref="interpunct">·</g> Iulio <g ref="interpunct">·</g> Prisciano</name></persName> <g ref="interpunct">·</g> <hi rend="supraline"><expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>e</abbr><ex>gregio</ex></expan></hi>
+                    <lb n="10"/><expan><abbr>duc</abbr><ex>enario</ex></expan> <expan><abbr>cur</abbr><ex>atore</ex></expan> <expan><abbr>r</abbr><ex>erum</ex></expan> <expan><abbr>p</abbr><ex>ublicarum</ex></expan> <placeName><expan><abbr>Pis</abbr><ex>aurensiu</ex></expan></placeName> et <placeName><expan><abbr>Fan</abbr><ex>estrium</ex></expan></placeName> <expan><abbr>p</abbr><ex>raeposito</ex></expan> <expan><abbr>m</abbr><ex>uris</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Hercules Augustus, companion of our master, Aurelius Invictus Augustus. The community of Pisaurum [dedicated this] under the supervision of Gaius Iulius Priscianus, illustrious man, ducenarius, curator of the communities of Pisaurum and Fanum, and officer in charge of walls.</p>
             </div>
             <div type="commentary">
                 <p></p> 

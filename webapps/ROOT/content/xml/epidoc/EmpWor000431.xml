@@ -23,9 +23,9 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italy</country>
-                        <region>Regio </region> <!-- DEFAULT VALUE -->
-                        <settlement></settlement> <!-- DEFAULT VALUE -->
-                        <repository></repository>  
+                        <region>Regio VI</region>
+                        <settlement>Pitinum Mergens</settlement>
+                        <repository>Pesaro, Museo Oliveriano</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -36,14 +36,14 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
-                                        <depth unit="cm"></depth>
+                                        <height unit="cm">142</height>
+                                        <width unit="cm">74</width>
+                                        <depth unit="cm">23</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -64,13 +64,13 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/413261">Pitinum Mergens</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/3183522/acqualagna.html">Acqualagna</placeName>
+                                <geo>43.613769, 12.6510415</geo>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Acqualagna, on the via Flaminia, in the Galleria del Furlo, "on the side facing the city".</provenance> 
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -92,13 +92,14 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.sacred" ref="https://www.eagle-network.eu/voc/typeins/lod/79.html">Sacred</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-05-16" who="#AA">Additional of metadata and text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,48 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="victoria"><name>Victoriae</name></persName> sacrum
+                    <lb n="2"/>pro salutem <persName type="ruler"><expan><abbr><unclear>I</unclear>mp</abbr><ex>eratori</ex></expan>
+                    <lb n="3"/><del rend="erasure"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Iulio</name> <name>Philippo</name> F</del>elici 
+                    <lb n="4"/><expan><abbr>Aug</abbr><ex>usto</ex></expan></persName> <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="3">III</num>
+                    <lb n="5"/><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et <persName type="ruler"><del rend="erasure"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Iulio</name> <name>Phili</name></del>ppo</persName>
+                    <lb n="6"/>nobilissimo <expan><abbr>Caes</abbr><ex>ari</ex></expan> <del rend="erasure">pr<supplied reason="lost">i</supplied>nci</del> pi
+                    <lb n="7"/>iuventutis <persName type="ruler"><del rend="erasure"><name><expan><abbr>M</abbr><ex>arciae</ex></expan></name> <name>O<unclear>t</unclear>aciliae</name></del> <name>Se
+                    <lb n="8" break="no"/><del rend="erasure"><expan><abbr>ver</abbr><ex>a</ex><abbr>e</abbr></expan></del></name> <expan><abbr>Aug</abbr><ex>ustae</ex></expan></persName> matri castrorum
+                    <lb n="9"/>maiestatique eorum
+                    <lb n="10"/><persName type="attested"><name>Aurel<supplied reason="lost">i</supplied>us</name> <name>Munatianus</name></persName> evo
+                    <lb n="11" break="no"/>catus <unclear>e</unclear>x cohorte <num value="6">VI</num> <expan><abbr>pr</abbr><ex>a</ex><abbr>eto
+                    <lb n="12" break="no"/>ria</abbr></expan> <del rend="erasure"><expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>v</abbr><ex>indice</ex></expan> <persName type="ruler"><name>Philippi</name></persName></del> ana agens et
+                    <lb n="13"/>latrunculum cum militi
+                    <lb n="14" break="no"/>bus <expan><abbr>n</abbr><ex>umero</ex></expan> <num value="20">XX</num> classis <surplus>p</surplus> <expan><abbr>pr</abbr><ex>aetoriae</ex></expan> <surplus>r</surplus> <placeName>Rav<unclear>e</unclear>n
+                    <lb n="15" break="no"/>natis</placeName> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>v</abbr><ex>indicis</ex></expan> Filipporum devot<supplied reason="lost">us <persName type="divine" key="numen"><name>numini</name></persName></supplied>
+                    <lb n="16"/>maiestatique eorum
+                    <lb n="17"/><supplied reason="lost">d</supplied><unclear>e</unclear>dicatam <placeName><expan><abbr>Pr</abbr><ex>a</ex><abbr>esent<unclear>e</unclear></abbr></expan></placeName> <supplied reason="lost">et</supplied> <placeName><supplied reason="lost">Al</supplied>
+                    <lb n="18" break="no"/><supplied reason="lost">bi</supplied>no</placeName> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>sulibus</ex></expan> <num value="6">VI</num> idus <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="19"/><persName type="attested"><name><expan><abbr><supplied reason="lost">Aur</supplied></abbr><ex>elius</ex></expan></name> <name><supplied reason="lost">P</supplied>r<unclear>i</unclear>vatus</name></persName> optio <persName type="attested"><name><expan><abbr>Aur</abbr><ex>elius</ex></expan></name> <name>Do<unclear>l</unclear><supplied reason="lost" cert="low">ens</supplied></name> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                    <lb n="20"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">i</supplied><seg part="F"><unclear>t</unclear>anus</seg></name></persName> <persName type="attested"><name><expan><abbr>Iulen</abbr><ex>ius</ex></expan></name> <name>Marc<unclear>el</unclear><supplied reason="lost" cert="low">inus</supplied></name> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                    <lb n="21"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><unclear>n</unclear>us</seg></name></persName> <expan><abbr>tes</abbr><ex>erarius</ex></expan> <persName type="attested"><name>Vibius</name> <name>Pau<supplied reason="lost" cert="low">linus</supplied></name> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                    <lb n="22"/><persName type="attested"><gap reason="lost" extent="unknown" unit="character"/> <name><supplied reason="lost" cert="low">Plan</supplied><unclear>ta</unclear></name></persName> <expan><abbr>sig</abbr><ex>nifer</ex></expan> <abbr>p</abbr> <persName type="attested"><name><expan><abbr>Asin</abbr><ex>ius</ex></expan></name> <name>A<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="23"/><persName type="attested"><gap reason="lost" extent="unknown" unit="character"/><name><seg part="F">tes</seg></name></persName> <persName type="attested"><name><expan><abbr>Iuli</abbr><ex>us</ex></expan></name> <name><seg part="I">I<unclear>m</unclear></seg><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="24"/><persName type="attested"><gap reason="lost" extent="unknown" unit="character"/> <name>Clemen<supplied reason="lost" cert="low">s</supplied></name> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                    <lb n="25"/><persName type="attested"><gap reason="lost" extent="unknown" unit="character"/> <name><expan><abbr>Aure<unclear>l</unclear></abbr><ex>ius</ex></expan></name> <name><seg part="I">Ta</seg><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="26"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr><unclear>a</unclear>rm</abbr><ex>orum</ex></expan> <persName type="attested"><name>Co<supplied reason="lost" cert="low">rnelius</supplied></name> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                    <lb n="27"/><persName type="attested"><gap reason="lost" extent="unknown" unit="character"/> <name><expan><abbr><supplied reason="lost">A</supplied>ur</abbr><ex>elius</ex></expan></name> <name><seg part="I">B</seg><unclear>a</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="28"/><gap reason="lost" extent="unknown" unit="character"/> v<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    Sacred to Victoria, for the safety of Imperator [[[Marcus Iulius Philippius F]]]elix Augustus, pontifex maximus, with tribunician power for the 3rd time, consul and father of the fatherland
+                    and of [[[Marcus Iulius Phili]]]ppus the most noble Caesar, [[[prince]], pius, youth, [[[and Marcia Otacilia]] Se[[[vera Augusta]]] mother of the camps and their majesty.
+                    Aurel[i]us Munatianus, evocatus from the 6th cohort of [[[pious]]] praetorians, [[[protector of Philippus]]] <!-- CHECK AND FINISH -->
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -132,6 +165,11 @@
                 <p>
                     <bibl>
                         <ptr target="ILS"/> <citedRange>509</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>106989</citedRange>
                     </bibl>
                 </p>
                 <p>
