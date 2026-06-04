@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000852</title>
+                <title>Worshipper of the Divine House(?)</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
+                    <resp>Edited text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -43,7 +47,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-05-20" who="#AV">Added text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,21 +112,32 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><gap reason="lost" atLeast="1" atMost="3"/> <name>Licinio</name>
+                    <lb n="2"/><persName type="patronym"><gap reason="lost" atLeast="1" atMost="3"/> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Pal</abbr><ex>atina</ex></expan>
+                    <lb n="3"/><name><gap reason="lost" extent="unknown" unit="character"/><seg part="F">ciano</seg></name></persName>
+                    <lb n="4"/><supplied reason="lost">e</supplied><expan><abbr>q</abbr><ex>uiti</ex></expan> <expan><abbr>R</abbr><ex>omano</ex></expan> <expan><abbr>eq</abbr><ex>uo</ex></expan> <expan><abbr>p</abbr><ex>ublico</ex></expan>
+                    <lb n="5"/><supplied reason="lost">qui</supplied> <expan><abbr>largit</abbr><ex>us</ex></expan> est
+                    <lb n="6"/><supplied reason="lost">A</supplied><expan><abbr>ug</abbr><ex>ustalibus</ex></expan> <expan><abbr>c</abbr><ex cert="low">ultores</ex></expan> <persName type="divine" key="domusDivinae"><expan><abbr>d</abbr><ex cert="low">omus</ex></expan> <expan><abbr>d</abbr><ex cert="low">ivinae</ex></expan></persName> <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertios</ex></expan> <hi rend="supraline"><num value="100">C</num></hi>
+                    <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>IPOS item <gap reason="lost" extent="unknown" unit="character"/> 
+                    <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <gap reason="illegible" quantity="1" unit="character"/> eorum <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertios</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Aug</abbr><ex>ustales</ex></expan> <expan><abbr>c</abbr><ex cert="low">ultores</ex></expan> <persName type="divine" key="domusDivinae"><expan><abbr>d</abbr><ex cert="low">omus</ex></expan> <expan><abbr>d</abbr><ex cert="low">ivinae</ex></expan></persName> 
+                    <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>ENTINIENDREN<gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; with restoration of Fishwick 1991, 612</note></app>
+                    <app loc="6"><note>EDR provides no restoration of c(---) d(---) d(---) in line 6.</note></app>
+                    <app loc="9"><note>EDR provides no restoration of c(---) d(---) d(---) in line 9.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To [-] Licinius [---]cianus, son of [?], of tribe Palatina, Roman knight, (bearer of) a public horse, who distributed to the Augustales (and) worshippers of the divine house, 500 sesterces [---] and likewise [?] sesterces to them, [---] the Augustales (and) worshippers of the divine house, [---?]</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p><!-- DO I AGREE WITH FISHWICK'S RESTORATION? --></p> 
             </div>
             <div type="bibliography">
                 <p>

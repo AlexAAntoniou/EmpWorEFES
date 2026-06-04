@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000522</title>
+                <title>Lucius Betutius Furianus, flamen of the divine Nerva</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -70,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Rimini, on via Garibaldi, the port of S. Andrea.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-04" who="#AA">Edition of text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,25 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Betutio</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName>
+                    <lb n="2"/><expan><abbr>Pal</abbr><ex>atina</ex></expan> <name>Furiano</name></persName>
+                    <lb n="3"/><expan><abbr>p</abbr><ex>rimo</ex></expan> <expan><abbr>p</abbr><ex>ilo</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="1"><hi rend="supraline">I</hi></num> <expan><abbr>Ital</abbr><ex>icae</ex></expan> <hi rend="supraline">II</hi>viro
+                    <lb n="4"/><expan><abbr>quinq</abbr><ex>uennali</ex></expan> <expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <expan><abbr><hi rend="supraline">III</hi>vir</abbr><ex>o</ex></expan>
+                    <lb n="5"/>aedili <expan><abbr>cur</abbr><ex>uli</ex></expan> <expan><abbr>pontif</abbr><ex>ici</ex></expan>
+                    <lb n="6"/>flamini <persName type="divine" key="divusNerva"><name>divi</name> <name>Nervae</name></persName>
+                    <lb n="7"/>patrono <expan><abbr>colon</abbr><ex>iae</ex></expan>
+                    <lb n="8"/><expan><abbr>colleg</abbr><ex>ium</ex></expan> <expan><abbr>centonarior</abbr><ex>um</ex></expan>
+                    <lb n="9"/>amantissimo patriae
+                    <lb n="10"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Lucius Betutius Furianus, son of Lucius, of tribe Palatina, first spear of the 1st Italic legion, duovir quinquennalis, duovir for the administration of justice, tresvir, curule aedile, pontifex, flamen of the divine Nerva, patron of the colony, most loving father of the college of textile dealers. This place was given by decree of the decurions.</p>
             </div>
             <div type="commentary">
                 <p></p> 

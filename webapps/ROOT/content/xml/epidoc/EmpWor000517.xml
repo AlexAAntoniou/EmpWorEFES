@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000517</title>
+                <title>Dedication to the Numen and Majesty of Septimius Severus and Caracalla</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Three fragments, left (column a) are contiguous, the right (column b) not-contiguous with the left. Bottom border is original, all other sides broken.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> 
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragments"/> 
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Five surviving lines of Latin inscription, in two upper columns and a lower footer. Incomplete at top, right, left and middle.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is clear and well-formed, with distinctive serifs. Broad "y"-shaped interpuncts throughout.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -68,7 +68,7 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3175423/isola-farnese.html">Isola Farnese</placeName>
                                 <geo>42.021338, 12.390519</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate atLeast="0202" atMost="0210">Dated to between 202 and 210 CE on the basis of titulature.</origDate>
                         </origin>
                         <provenance type="found" subtype="discovered">Discovered in Isola Farnese, on the plateau of the city.</provenance>
                         <provenance type="observed"></provenance>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-07-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-05-22" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -108,17 +109,38 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab>
-                    <lb n="1"/>
-                </ab>
+                <div type="textpart" subtype="column" n="a">
+                    <ab>
+                        <lb n="1"/><persName type="ruler" key="septimiusSeverus"><expan><abbr><supplied reason="lost">Imp</supplied></abbr><ex>eratori</ex></expan> <expan><abbr><supplied reason="lost">Caes</supplied></abbr><ex>ari</ex></expan> <name><expan><abbr><supplied reason="lost">L</supplied></abbr><ex>ucio</ex></expan></name> <name><supplied reason="lost">Septimi</supplied>o</name> <g ref="interpunct">·</g> <name>Sev<unclear>e</unclear><supplied reason="lost">ro</supplied></name>
+                        <lb n="2"/><supplied reason="lost">Per</supplied><unclear>t</unclear>inaci <expan><abbr><supplied reason="lost">Aug</supplied></abbr><ex>usto</ex></expan> <supplied reason="lost">Ar</supplied>abico <g ref="interpunct">·</g> <expan><abbr>Ad<supplied reason="lost">iab</supplied></abbr><ex>enico</ex></expan>
+                        <lb n="3"/><supplied reason="lost">Par</supplied>thico <g ref="interpunct">·</g> ma<supplied reason="lost">ximo po</supplied>ntifici <g ref="interpunct">·</g> <expan><abbr>m<unclear>a</unclear><supplied reason="lost">x</supplied></abbr><ex>imo</ex></expan> 
+                        <lb n="4"/><expan><abbr><supplied reason="lost">tribu</supplied>nic</abbr><ex>ia</ex></expan> <g ref="interpunct">·</g> <expan><abbr>pote<unclear>s</unclear><supplied reason="lost">t</supplied></abbr><ex>ate</ex></expan> <num value="10"><supplied reason="lost">X</supplied></num> <expan><abbr><supplied reason="lost">imp</supplied></abbr><ex>erator</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="interpunct">·</g> <num value="3"><hi rend="supraline">III</hi></num> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>atri</ex></expan> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>atriae</ex></expan></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="b">
+                    <ab>
+                        <lb n="1"/><persName type="ruler" key="caracalla"><expan><abbr><supplied reason="lost">Imp</supplied></abbr><ex>eratori</ex></expan> <expan><abbr><supplied reason="lost">Caes</supplied></abbr><ex>ari</ex></expan> <name><expan><abbr><supplied reason="lost">M</supplied></abbr><ex>arco</ex></expan></name> <name>Aureli<supplied reason="lost">o</supplied></name>
+                        <lb n="2"/><name><supplied reason="lost">Antonino</supplied></name> <expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>usto</ex></expan> Pio
+                        <lb n="3"/>Fel<supplied reason="lost">ici</supplied> <expan><abbr><supplied reason="lost">pont</supplied></abbr><ex>ifici</ex></expan> <expan><abbr>m<supplied reason="lost">ax</supplied></abbr><ex>imo</ex></expan>
+                        <lb n="4"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr><supplied reason="lost">pot</supplied></abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="footer">
+                    <ab>
+                        <lb n="1"/><supplied reason="lost">plebs</supplied> <placeName><supplied reason="lost">Vei</supplied><unclear>e</unclear>ntiu<supplied reason="lost">m</supplied></placeName> <supplied reason="lost">dev</supplied>ota <g ref="interpunct">·</g> <persName type="divine">num<supplied reason="lost">ini</supplied></persName> maiestati<supplied reason="lost">que eorum</supplied>
+                    </ab>
+                </div>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph of column a and footer</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>[Column A] To [Imperator Caesar Lucius Septimius] Severus Pertinax [Augustus] Arabicus Adibenicus Parthicus Maximus, pontifex maximus, with tribunician power [for the 10th time], consul for the third time, father of the fatherland.
+                   [Column B] To [Imperator Caesar Marcus] Aurelius [Antoninus] Augustus Pius Felix [pontifex] maximus, with tribunician power for the [?] time [---]
+                   [Footer] The people of Veii devoted [this] to their numen and majesty.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

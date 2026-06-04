@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000525</title>
+                <title>Sacerdos of diva Augusta and diva Matidia</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -92,13 +92,14 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-04" who="#AA">Edition of text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,23 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name>Lepidiae</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName>
+                    <lb n="2"/><name>Proculae</name></persName>
+                    <lb n="3"/>sacerdoti <persName type="divine" key="divaAugusta"><name>divae</name>
+                    <lb n="4"/><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> et
+                    <lb n="5"/><persName type="divine" key="divaMatidia"><name>divae</name> <name>Ma<supplied reason="omitted">t</supplied>idiae</name>
+                    <lb n="6"/><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <expan><abbr>d</abbr><ex>ecreto</ex></expan>  <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <expan><abbr>p</abbr><ex>ublice</ex></expan>
+                    <lb n="7"/>pecunia ab ea
+                    <lb n="8"/>remissa
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDCS</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Lepidia Procula, daughter of Lucius, sacerdos of the divine Augusta and the divine Ma[t]idia Augusta, [this was erected] by public decree of the decurions, the sum having been waived by her.</p>
             </div>
             <div type="commentary">
                 <p></p> 

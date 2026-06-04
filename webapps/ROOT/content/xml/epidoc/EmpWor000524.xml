@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000524</title>
+                <title>Sacerdos of the divine Plotina</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-06-04" who="#AA">Edition of text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,19 +110,26 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name>Cantiae</name>
+                    <lb n="2"/><persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>Saturninae</name></persName>
+                    <lb n="3"/>matri <expan><abbr>colon</abbr><ex>iae</ex></expan>
+                    <lb n="4"/>flaminicae
+                    <lb n="5"/><expan><abbr>sacerd</abbr><ex>oti</ex></expan> <persName type="divine" key="divaPlotina"><name>divae</name> <name><expan><abbr>Plot<hi rend="ligature">ti</hi>n</abbr><ex>ae</ex></expan></name></persName>
+                    <lb n="6"/>hic et <placeName><name>Foro</name> <name>Sempronii</name></placeName>
+                    <lb n="7"/><expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+                    <lb n="8"/>publice
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app> 
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Cantia Saturnina, daughter of Lucius, mother of the colony, flaminica, sacerdos of the divine Plotina both here and in Forum Sempronii, by public decree of the decurions (this was erected).</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>As mentioned in the inscription itself, Cantia Saturnina performed the priesthood of diva Plotina both here (at Ariminum) and at Forum Sempronii.</p> 
             </div>
             <div type="bibliography">
                 <p>

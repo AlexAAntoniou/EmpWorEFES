@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000519</title>
+                <title>Attestation of Germanus, builder of Caesareum</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -35,11 +35,11 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
+                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
                                     <dimensions>
-                                        <height unit="cm"></height>
-                                        <width unit="cm"></width>
+                                        <height unit="cm">45</height>
+                                        <width unit="cm">45</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
@@ -92,13 +92,14 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term> 
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-07-26" who="#AA">Original data collection and editing</change> 
+                <change when="2025-07-26" who="#AA">Original data collection and editing</change>
+                <change when="2026-06-04" who="#AA">Edition of text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,20 +110,20 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="attested">Germanus</persName> <persName type="libertinatio"><expan><abbr>Aug</abbr><ex>usti</ex></expan></persName>
+                    <lb n="1"/><persName type="attested"><name>Germanus</name></persName> <persName type="libertinatio"><expan><abbr>Aug</abbr><ex>usti</ex></expan></persName>
                     <lb n="2"/><expan><abbr>lib</abbr><ex>ertus</ex></expan> <expan><abbr>proc</abbr><ex>urator</ex></expan>
-                    <lb n="3"/>Caesareum <expan><abbr>fec</abbr><ex>i</ex><abbr>t</abbr></expan>
-                    <lb n="4"/>et omni cultu
-                    <lb n="5"/>exornavit
+                    <lb n="3"/>Caesareum fec<hi rend="ligature">it</hi>
+                    <lb n="4"/>et omni cul
+                    <lb n="5" break="no"/>tu exornavi<unclear>t</unclear>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDCS</note></app> 
+                    <app><note>Text from EDR</note></app> 
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Germanus, freedman of Augustus and procurator, built the Caesareum and adorned it with every embellishment.</p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -136,6 +137,11 @@
                 <p>
                     <bibl>
                         <ptr target="EDCS"/> <citedRange>21000193</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>072019</citedRange>
                     </bibl>
                 </p>
             </div>

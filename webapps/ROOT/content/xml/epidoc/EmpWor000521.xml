@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000521</title>
+                <title>Dedication to the Lares Augusti</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-07-26" who="#AA">Original data collection and editing</change> 
+                <change when="2026-06-04" who="#AA">Edition of text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -111,7 +112,7 @@
                 <ab>
                     <lb n="1"/><persName type="divine" key="laresAugusti"><name><supplied reason="lost">Lar</supplied>ibus</name> <name>Augustiis</name></persName> sacrum
                     <lb n="2"/><persName type="attested"><name><gap reason="illegible" quantity="4" unit="character"/><seg part="F">cius</seg></name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>Ste</abbr><ex>llatina</ex></expan> <name>Quadratus</name></persName>
-                    <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name>A<gap reason="illegible" quantity="4" unit="character"/>rius</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>Ste</abbr><ex>llatina</ex></expan> <name>Clemens</name></persName>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name><seg part="I">A</seg><gap reason="illegible" quantity="4" unit="character"/><seg part="F">rius</seg></name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>Ste</abbr><ex>llatina</ex></expan> <name>Clemens</name></persName>
                     <lb n="4"/><expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>f</abbr><ex>aciundum</ex></expan> curaverunt idemque dedicaverunt
                     <lb n="5"/>et ob dedicationem vicanis epulum dederunt
                 </ab>
@@ -122,7 +123,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to the Augustan Lares. [---]cius Quadratus, son of Gaius, of the tribe Stellatina [and] Lucius A[----]rius Clemens, son of Lucius, of the tribe Stellatina, arranged for this to be made at their own expense, and they themselves dedicated it, and on the occasion of the dedication gave a feast for the inhabitants of the settlement.</p>
             </div>
             <div type="commentary">
                 <p></p> 

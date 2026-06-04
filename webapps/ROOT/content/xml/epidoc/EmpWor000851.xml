@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000851</title>
+                <title>Worshipper of the Divine House(?)</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
+                    <resp>Edited text</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -43,7 +47,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-05-20" who="#AV">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,21 +112,27 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AV">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><placeName>Vercellensis</placeName> flaminis <placeName><expan><abbr>Me
+                    <lb n="2" break="no"/>diola</abbr><ex>ni</ex></expan></placeName> <persName type="attested"><name><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name>Atilius</name> <name>Eutyches</name></persName>
+                    <lb n="3"/><num value="6">VI</num>vir <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> <expan><abbr>c</abbr><ex cert="low">ultores</ex></expan> <persName type="divine" key="domusDivinae"><name><expan><abbr>d</abbr><ex cert="low">omus</ex></expan></name> <name><expan><abbr>d</abbr><ex cert="low">ivinae</ex></expan></name></persName> <expan><abbr>orna</abbr><supplied reason="lost"><abbr>m</abbr><ex>entis</ex></supplied></expan> <expan><abbr><supplied reason="lost">e</supplied>c</abbr><ex>urionalibus</ex></expan>
+                    <lb n="4"/>uxori kariss<supplied reason="lost">i</supplied>mae quae <expan><abbr>vix</abbr><ex>it</ex></expan>
+                    <lb n="5"/>cum eo annis <num value="15">XV</num> sine
+                    <lb n="6"/>ulla <expan><abbr>quererel</abbr><ex>l</ex></expan>a
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; with restoration of Fishwick 1991, 612</note></app>
+                    <app loc="3"><note>EDR restores c(reatus) d(ecreto) d(ecurionum) in line 3.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Quintus Atilius Eutyches of Vercellae, flamen at Mediolanum, sexvir Augustalis, member of the worshippers of the divine house, ornamented with decurionial insignia, [set this up] for his dearest wife, who lived with him for 15 years without any complaint.</p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p><!-- DO I AGREE WITH FISHWICK'S RESTORATION? --></p> 
             </div>
             <div type="bibliography">
                 <p>
