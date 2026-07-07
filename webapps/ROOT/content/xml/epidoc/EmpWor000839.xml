@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000839</title>
+                <title>Devotion to the numen and maiestas of Severus Alexander.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm">22</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-06-25" who="#AA">Added text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,22 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="ruler" key="alexanderSeverus"><supplied reason="lost">Imp</supplied>eratori Caesari
+                    <lb n="2"/><persName type="ruler"><supplied reason="lost">divi</supplied> <name>Severi</name> Pii <expan><abbr>nepot</abbr><ex>i</ex></expan></persName> <persName type="ruler"><name>divi</name>
+                    <lb n="3"/><name><supplied reason="lost">Anto</supplied>nini</name> <name><expan><abbr>Magn</abbr><ex>i</ex></expan></name> Pii <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Aurelio</name>
+                    <lb n="4"/><name><supplied reason="lost">Sever</supplied>o</name> <del rend="erasure"><name>Alexandro</name> Pio Felice <expan><abbr>Aug</abbr><ex>usto</ex></expan></del></persName>
+                    <lb n="5"/><expan><abbr><supplied reason="lost">ponti</supplied>f</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>tribun</abbr><ex>icia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="2">II</num> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan>
+                    <lb n="6"/><placeName><supplied reason="lost">Come</supplied>nses</placeName> devoti <persName type="divine" key="numen"><name>numini</name></persName> <expan><abbr>maiestatiq</abbr><ex>ue</ex></expan> eius
+                    <lb n="7"/><expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Imperator Caesar, grandson of the divine Severus Pius, son of the divine Antoninus Magnus Pius, Marcus Aurelius Severus [[Alexander Pius Felix Augustus]], pontifex maximus, with tribunician power for the 2nd time, consul, father of the fatherland. The [people] of Como devotes [this] to his numen and majesty, by decree of the decurions.</p>
             </div>
             <div type="commentary">
                 <p></p> 

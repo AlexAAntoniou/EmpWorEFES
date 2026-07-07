@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000845</title>
+                <title>Worshipper of the Divine Household</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm">17.5</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-06-25" who="#AA">Added text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,28 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="hercules"><name><expan><abbr>Herc</abbr><ex>uli</ex></expan></name></persName> <expan><abbr>sac</abbr><ex>rum</ex></expan>
+                    <lb n="2"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name>Mascarpius</name>
+                    <lb n="3"/><name>Symphorio</name></persName>
+                    <lb n="4"/>VIvir <expan><abbr>sen</abbr><ex>ior</ex></expan>
+                    <lb n="5"/>et <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> <expan><abbr>c</abbr><ex>ultor</ex></expan> <persName type="divine" key="domusDivinae"><name><expan><abbr>d</abbr><ex>omus</ex></expan></name> <name><expan><abbr>d</abbr><ex>ivinae</ex></expan></name></persName>
+                    <lb n="6"/><expan><abbr>ornam</abbr><ex>entis</ex></expan> <expan><abbr>dec</abbr><ex>urionalibus</ex></expan>
+                    <lb n="7"/>ab <expan><abbr>ord</abbr><ex>ine</ex></expan> <expan><abbr>sple<hi rend="ligature">nd</hi>id</abbr><ex>issimo</ex></expan>
+                    <lb n="8"/><placeName><name><expan><abbr>M</abbr><ex>ediolanensi</ex></expan></name></placeName> <expan><abbr>honor</abbr><ex>atus</ex></expan>
+                    <lb n="9"/>cum <persName type="patronym"><name>Mascarpio</name>
+                    <lb n="10"/><name>Festo</name> filio</persName>
+                    <lb n="11"/><expan><abbr>eq</abbr><ex>uite</ex></expan> <expan><abbr>R</abbr><ex>omano</ex></expan> <expan><abbr>eq</abbr><ex>uo</ex></expan> <expan><abbr>p</abbr><ex>ublico</ex></expan>
+                    <lb n="12"/><expan><abbr>VIvir</abbr><ex>o</ex></expan> <expan><abbr>iun</abbr><ex>iore</ex></expan> <expan><abbr>dec</abbr><ex>urione</ex></expan>
+                    <lb n="13"/><expan><abbr>vot</abbr><ex>um</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacerd to Hercules. Marcus Mascarpius Symphorio, senior sexvir and Augustalis, worshipper of the divine household, honoured with the decurional ornaments by the most splendid order [of decurions] of Mediolanum, with Mascarpius Festus, his son, Roman eques [furnished] with the public horse, junior sexvir, decurion, he fulfilled this vow.</p>
             </div>
             <div type="commentary">
                 <p></p> 

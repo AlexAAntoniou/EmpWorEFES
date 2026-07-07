@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000857</title>
+                <title>Flamen divus Traianus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -96,7 +96,7 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-07-01" who="#AA">Original data collection and editing</change>
             </listChange>
@@ -110,7 +110,7 @@
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
                     <lb n="1"/><persName type="attested"><gap reason="lost" extent="unknown" unit="character"/><name><seg part="F"><expan><abbr>t<unclear>i</unclear>lian</abbr><ex>o</ex></expan></seg></name></persName> <expan><abbr>eq</abbr><ex>uiti</ex></expan> <expan><abbr>R</abbr><ex>omano</ex></expan> <expan><abbr>eq</abbr><ex>uo</ex></expan> <expan><abbr><unclear>p</unclear></abbr><ex>ublico</ex></expan> <expan><abbr>I<hi rend="supraline">I</hi>I<hi rend="supraline">I</hi>vir</abbr><ex>o</ex></expan> <expan><abbr>a</abbr><ex>edilica</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> i<hi rend="ligature">te</hi>
-                    <lb n="2" break="no"/>m <expan><abbr>I<hi rend="supraline">I</hi>I<hi rend="supraline">I</hi>vir</abbr><ex>o</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <expan><abbr><unclear><hi rend="supraline">m</hi></unclear></abbr><ex>unicipii</ex></expan> <expan><abbr><unclear>N</unclear></abbr><ex>ovariae</ex></expan> <expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divine" key="divusTraianus"><name><expan><abbr>d</abbr><ex>ivi</ex></expan></name> <name><expan><abbr>Traian</abbr><ex>i</ex></expan></name></persName>
+                    <lb n="2" break="no"/>m <expan><abbr>I<hi rend="supraline">I</hi>I<hi rend="supraline">I</hi>vir</abbr><ex>o</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <expan><abbr><hi rend="supraline"><unclear>m</unclear></hi></abbr><ex>unicipii</ex></expan> <expan><abbr><unclear>N</unclear></abbr><ex>ovariae</ex></expan> <expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divine" key="divusTraianus"><name><expan><abbr>d</abbr><ex>ivi</ex></expan></name> <name><expan><abbr>Traian</abbr><ex>i</ex></expan></name></persName>
                     <lb n="3"/><expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>ae<unclear>r</unclear></abbr><ex>arii</ex></expan> qui <expan><abbr><unclear>nun</unclear>q</abbr><ex>uam</ex></expan> rei <expan><abbr>p</abbr><ex>ublicae</ex></expan> nil debuit
                     <lb n="4"/><persName type="attested"><name>B<unclear>a</unclear>ebia</name> <name>A<unclear>t</unclear>eronia</name></persName> <expan><abbr>c</abbr><ex>oniugi</ex></expan> <expan><abbr><unclear>k</unclear></abbr><ex>arissimo</ex></expan>
                     <lb n="5"/><expan><abbr>v</abbr><ex>iva</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>

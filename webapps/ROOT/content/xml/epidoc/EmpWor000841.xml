@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000841</title>
+                <title>Devotion to the numen and majesty of Volusianus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm">22</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-06-25" who="#AA">Added text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,25 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="ruler"><expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>eratori</ex></expan> Caesari
+                    <lb n="2"/><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Vibio</name> <name>Afinio</name>
+                    <lb n="3"/><name>Gallo</name>
+                    <lb n="4"/><name>Veldumniano</name>
+                    <lb n="5"/><name>Volusiano</name>
+                    <lb n="6"/>Pio Felici <expan><abbr>Au<supplied reason="lost">g</supplied></abbr><ex>usto</ex></expan></persName>
+                    <lb n="7"/><expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <num value="2">II</num> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr><supplied reason="lost">p</supplied></abbr><ex>atriae</ex></expan>
+                    <lb n="8"/><placeName>Comenses</placeName>
+                    <lb n="9"/><expan><abbr>devotiss</abbr><ex>imi</ex></expan> <persName type="divine" key="numen">numi<supplied reason="lost">ni</supplied></persName>
+                    <lb n="10"/>maiestatique ei<supplied reason="lost">us</supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Imperator Caesar Gaius Vibius Afinius Gallus Veldumnianus Volusianus Pius Felix Augustus, with tribunician power for the 2nd time, consul, father of the fatherland. The [people of] Comenses are most devoted to his numen and majesty.</p>
             </div>
             <div type="commentary">
                 <p></p> 

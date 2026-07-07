@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000</title>
+                <title>Flamen divus Vespasianus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -36,7 +36,7 @@
                             <supportDesc>
                                 <support><p>Rectangular plaque, with rough sides.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><p>Inscription within a simple carved frame.</p>
+                                <layout><p>Five lines of Latin text within a simple carved frame, roughly centred.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Letters are neat and well-spaced. Tall "I" in line 2.</p>
+                            <handNote><p>Letters are neat and well-spaced. Tall "I"s in lines 2 (first "I" in Pupinia) and 3 (first "I" in "divi").</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -96,7 +96,7 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-07-01" who="#AA">Original data collection and editing</change>
             </listChange>
@@ -109,8 +109,8 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name>Minicio</name> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName>
-                    <lb n="2"/><expan><abbr>Pup<hi rend="ligature">in</hi></abbr><ex>ia</ex></expan> <name>Anniano</name></persName>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>M</abbr><ex>arco</ex></expan></name> <g ref="interpunct">·</g> <name>Minicio</name> <g ref="interpunct">·</g> <persName type="patronym"><name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <g ref="interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName>
+                    <lb n="2"/><expan><abbr>Pupi<hi rend="ligature">ni</hi></abbr><ex>a</ex></expan> <name>Anniano</name></persName>
                     <lb n="3"/>flamini <persName type="divine" key="divusVespasianus"><name>divi</name> <name>Vespasiani</name></persName>
                     <lb n="4"/>seviro turmae <num value="5"><hi rend="supraline">V</hi></num> <expan><abbr>equit</abbr><ex>um</ex></expan>
                     <lb n="5"/><expan><abbr>Romanor</abbr><ex>um</ex></expan> Xvir <expan><abbr>stlit</abbr><ex>ibus</ex></expan> <expan><abbr>iud</abbr><ex>icandis</ex></expan>
@@ -118,7 +118,7 @@
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app>
+                    <app><note>Text from EDR; with comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">

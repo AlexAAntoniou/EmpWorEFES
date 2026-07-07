@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000838</title>
+                <title>Flamen of divus Titus Augustus Vespasianus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,26 +34,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Bottom section of a building inscription, in two contiguous fragments, with breaks on all sides except the bottom.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble (di Musso)</material>
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.buildingdedication" ref="https://www.eagle-network.eu/voc/typeins/lod/86.html">Building Inscription</objectType>
                                     <dimensions>
                                         <height unit="cm">58</height>
                                         <width unit="cm">287</width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/> 
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Three surviving lines of Latin inscription, which fills entirety of surviving stone. First surviving line is larger than the rest. Extant triangular interpuncts.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is clear and well-formed. Simple serifs.</p>
                                 <locus from="line1" to="line3">Lines 1–3</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">160–65</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-07-01" who="#AA">Addition of text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,21 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan></supplied></name> <name><unclear>M</unclear>inicius</name> <g ref="interpunct">·</g> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan> <g ref="interpunct">·</g> </persName> <expan><abbr>Ouf</abbr><ex>entina</ex></expan> <g ref="interpunct">·</g> <name>Exoratus</name></persName>
+                    <lb n="2"/><expan><abbr><supplied reason="lost">fla</supplied><unclear>m</unclear></abbr><ex>en</ex></expan> <persName type="divine"><name>divi</name> <name>Titi</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> <name>Vespasiani</name></persName> consensu <expan><abbr>decurion</abbr><ex>um</ex></expan> <expan><abbr>tr</abbr><ex>ibunus</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> IIIIvir <expan><abbr>a</abbr><ex>edilicia</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan> IIvir <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan>
+                    <lb n="3"/><supplied reason="lost">a <expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied> <unclear>b</unclear>is et <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>pontif</abbr><ex>ex</ex></expan> sibi et <persName type="attested"><name>Germiniae</name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>Priscae</name></persName> uxori et <persName type="attested"><name>Miniciae</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>Bisiae</name></persName> <expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph</note></app> 
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Lucius Minicius Exoratus, son of Lucius, of tribe Oufentina, flamen of divus Titus Augustus Vespasianus by consent of the decurions, military tribune
+                   quattuorvir with aedilician power, duovir for administering justice, prefect of engineers from a praetor twice, and consular, pontifex, for himself,
+                   and his wife, Geminia Prisca, daughter of Gaius, and Minicia Bisia, daughter of Lucius, he made [this] whilst living.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

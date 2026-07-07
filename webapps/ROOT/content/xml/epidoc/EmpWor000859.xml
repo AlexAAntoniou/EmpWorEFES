@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000859</title>
+                <title>Worshippers of the divine household(?)</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                     <name xml:id="JSG" ref="https://orcid.org/0009-0007-5552-1849">Jonah Secmezsoy Gault</name>
+                     <resp>Editing text and description of object</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,26 +38,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Front face of an sarcophagus: the front face is extremely worn.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.sarcophagus" ref="https://www.eagle-network.eu/voc/objtyp/lod/214.html">Sarcophagus</objectType> 
                                     <dimensions>
                                         <height unit="cm">61</height>
                                         <width unit="cm">194</width>
                                         <depth unit="cm">20</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Six lines of a Latin inscription, within a tabula ansata. The abbreviation D(is) M(anibus) is rendered here as line 1, but is rather broken into the wings of the tabula ansata on either side.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text appears to be neat and well-formed. The "D" of d(is) in the left side of the tabula ansata, appears to be rendered in reverse, with the upwards stroke on the left rather than right.</p>
                                 <locus from="line1" to="line6">Lines 1–6</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">55–120</height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-06-24" who="JSG">Edited text and object description</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,23 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#JSG">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="diManes"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <name><expan><abbr>M</abbr><ex>anibus</ex></expan></name></persName>
+                    <lb n="2"/><persName type="attested"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <name>Ateroni</name> <persName type="libertino"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>lib</abbr><ex>erti</ex></expan></persName> <name>Chresti</name></persName>
+                    <lb n="3"/><expan><abbr><num value="6">VI</num>vir</abbr><ex>i</ex></expan> et Augustalis <expan><abbr>s</abbr><ex>oci</ex></expan> <expan><abbr>c</abbr><ex>ultoris</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan>
+                    <lb n="4"/><persName type="attested"><name>Voltur<hi rend="ligature">ni</hi>a</name> <persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>ilia</ex></expan></persName> <name>Apathe</name></persName> <expan><abbr>coniug</abbr><ex>i</ex></expan>
+                    <lb n="5"/>eximiae caritatis et adfectio
+                    <lb n="6" break="no"/><unclear>nis</unclear> in matrimonio insig<hi rend="ligature">ni</hi>s
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; although cf. their restoration of line 3 as s(enatus) c(onsulto) d(ono) d(ato), which they suggest is more probable than the restoration provided here.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To the Shades of the Underworld. For Publius Ateronus Chrestus, freedman of Publius, sexvir and Augustalis, friend of the worshippers of the divine household. Volturnia Apathe, daughter of Publius, [set this up] for her husband, for his exceptional love and affection and being outstanding in marriage.</p>
             </div>
             <div type="commentary">
                 <p></p> 

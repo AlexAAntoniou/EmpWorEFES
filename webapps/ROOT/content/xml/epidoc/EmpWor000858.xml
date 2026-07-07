@@ -5,13 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000858</title>
+                <title>Worshippers of the divine house</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
                 <respStmt>
                     <name xml:id="AA" ref="http://orcid.org/0000-0001-7077-0703">Alex A. Antoniou</name>
                     <resp>Original data collection and editing</resp>
+                </respStmt>
+                <respStmt>
+                     <name xml:id="JSG" ref="https://orcid.org/0009-0007-5552-1849">Jonah Secmezsoy Gault</name>
+                     <resp>Editing text and description of object</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -34,26 +38,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Rectangular funerary altar, with simple entabulature. The stone is exceptionally worn, making identification of characters difficult, particularly on the right side.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.altar" ref="https://www.eagle-network.eu/voc/objtyp/lod/29.html">Altar</objectType>
                                     <dimensions>
                                         <height unit="cm">97</height>
                                         <width unit="cm">76</width>
                                         <depth unit="cm">59</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>The text is centred on the stone, taking up most of the assigned space.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>The handwriting is mostly legible, however there are areas on the right hand side which have been worn away. From what can be seen the handwriting appears to be broad and well spaced, however the size of the handwriting changes, becoming smaller the further down the inscription you go. Some of the sizing of the letter also appears to be inconsistent.</p>
                                 <locus from="line1" to="line7">Lines 1–7</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">21–55</height>
@@ -96,9 +100,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-06-24" who="JSG">Edited text and object description</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +112,26 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#JSG">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><expan><abbr>v</abbr><ex>ivus</ex></expan> <g ref="interpunct">·</g> sib<unclear>i</unclear> <expan><abbr>inc</abbr><ex>ola</ex></expan> <expan><abbr><unclear>f</unclear></abbr><ex>ecit</ex></expan>
+                    <lb n="2"/><persName type="divine" key="dimanes"><name>Dis</name> <g ref="interpunct">·</g> <name>Manibus</name></persName>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="interpunct">·</g> <name>Valerius</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name></persName> <expan><abbr><unclear>f</unclear></abbr><ex>ilius</ex></expan>
+                    <lb n="4"/><name>Primus</name></persName> <num value="6"><unclear>VI</unclear></num>vir <hi rend="ligature">in</hi><unclear>ter</unclear>
+                    <lb n="5"/>cultore<unclear>s</unclear> <persName type="divine" key="domusDivina"><name><hi rend="ligature">do</hi>mus</name> <name>di
+                    <lb n="6" break="no"/>vinae</name></persName> <persName type="attested"><name>V<unclear>ale</unclear><hi rend="ligature">nt</hi>ia<unclear>e</unclear></name></persName> <supplied reason="lost">ma</supplied>t<unclear>ri</unclear>
+                    <lb n="7"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Valerio</name> <name>Optato</name></persName> <unclear>f</unclear>ratri
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with grainy photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>While still alive, he made (this monument) for himself, resident. To the shades of the underworld, Lucius Valerius Primus, son of Lucius, sexvir amongst
+                   the worshippers of the divine household, to Valentia his mother and Lucius Valerius Optatus, his brother.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

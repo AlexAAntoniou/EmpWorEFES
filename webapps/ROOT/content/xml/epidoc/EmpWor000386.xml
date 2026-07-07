@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000386</title>
+                <title>Flamen Augusti</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-06-24" who="#AA">Addition of text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,23 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name>Allio</name> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Vel</abbr><ex>ina</ex></expan>
+                    <lb n="2"/><name>Rufo</name></persName>
+                    <lb n="3"/><expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan> <expan><abbr>quinq</abbr><ex>uennali</ex></expan> <expan><abbr>ite<supplied reason="lost">r</supplied></abbr><ex>um</ex></expan>
+                    <lb n="4"/>flamini <persName type="divine" key="augustus"><name>August<supplied reason="lost">i</supplied></name></persName>
+                    <lb n="5"/>tribuno milit<supplied reason="lost">um</supplied>
+                    <lb n="6"/>praefecto fabr<supplied reason="lost">um</supplied>
+                    <lb n="7"/>praefecto <expan><abbr>c<supplied reason="lost">oh</supplied></abbr><ex>ortis</ex></expan>
+                    <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Quintus Allius Rufus, son of Quintus, of the Velina tribe, quinquennial duovir for the second time, flamen Augustus, military tribune, prefect of engineers, prefect of the c[ohort] [---].</p>
             </div>
             <div type="commentary">
                 <p></p> 

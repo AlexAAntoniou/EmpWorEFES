@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000842</title>
+                <title>Flamen of divus Augustus, divus Vespasianus and divus Traianus.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/> 
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -92,13 +92,14 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-06-25" who="#AA">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,22 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                    <lb n="1"/><supplied reason="lost">flamini</supplied> <persName type="divine" key="divusAugustus"><name><supplied reason="lost">di</supplied>vi</name> <name>August<supplied reason="lost">i</supplied></name></persName>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><persName type="divine" key="divusVespasianus"><name><supplied reason="lost">divi</supplied></name> <name>Vespasian<supplied reason="lost">i</supplied></name></persName>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><persName type="divine" key="divusTraianus"><name><supplied reason="lost">di</supplied>vi</name> <name>Traiani</name></persName>
+                    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>quaest</abbr><ex>ori</ex></expan> <expan><abbr>IIv<supplied reason="lost">ir</supplied></abbr><ex>o</ex></expan>
+                    <lb n="5"/>iterum IIvir<supplied reason="lost">o</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="6"/>plebs urb<supplied reason="lost">ana</supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDCS</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>For [---] [flamen of di]vus Augustus, [---] [divus] Vespasianus, [---] divus Traianus, [---] quaestor, duovir, duovir again, [---] the urban plebs [---?].</p>
             </div>
             <div type="commentary">
                 <p></p> 

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000385</title>
+                <title>Genius of Trajan and Worshippers of the Images of Caesar</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Rectangular plaque, broken at bottom right, with one reconstructed fragment contiguous, but bottom right broken and missing. Text within a simple carved border</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm">6.5</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text is separated into two columns, with a header in larger font, and remains of a footer seemingly separated from end of the second column. Glyphs carved throughout. Patera at top left, club(?) in middle, simpulum at top right, culullus at bottom left.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is clear and well-formed, with simple serifs. Use of simple interpuncts throughout.</p>
                                 <locus from="line1" to="line13">Lines 1–13</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">30–60</height>
@@ -92,13 +92,14 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.decree" ref="https://www.eagle-network.eu/voc/typeins/lod/384.html">Decree</term>
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-06-07" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -108,17 +109,59 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab>
-                    <lb n="1"/>
-                </ab>
+                <div type="textpart" subtype="header">
+                    <ab>
+                        <lb n="1"/>ob <g ref="interpunct">·</g> merita <g ref="interpunct">·</g>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="a">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name>Claudiae</name> <g ref="interpunct">·</g> <name>Hedones</name></persName> <g ref="interpunct">·</g> et <g ref="interpunct">·</g> memori
+                        <lb n="2" break="no"/>am <g ref="interpunct">·</g> <persName type="attested"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <g ref="interpunct">·</g> <name>Claudi</name> <g ref="interpunct">·</g> <name>Himeri</name></persName> <g ref="interpunct">·</g> fili <g ref="interpunct">·</g> eius <g ref="interpunct">·</g>
+                        <lb n="3"/>cultores <g ref="interpunct">·</g> <persName type="divine" key="hercules"><name>Herculis</name></persName> <g ref="interpunct">·</g> universi <g ref="interpunct">·</g> iu
+                        <lb n="4" break="no"/>rati <g ref="interpunct">·</g> per <g ref="interpunct">·</g> <persName type="divine" key="jupiterOptimusMaximus"><name><expan><abbr>I</abbr><ex>ovem</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>O</abbr><ex>ptimum</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>M</abbr><ex>aximum</ex></expan></name></persName> <g ref="interpunct">·</g> <persName type="geniusTrajan"><name>geniumque</name> <g ref="interpunct">·</g> <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <g ref="interpunct">·</g>
+                        <lb n="5"/>Caesaris <g ref="interpunct">·</g> <name>Nervae</name> <g ref="interpunct">·</g> <name>Traiani</name> <g ref="interpunct">·</g> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <g ref="interpunct">·</g>
+                        <lb n="6"/><expan><abbr>Ger</abbr><ex>manici</ex></expan></persName> <g ref="interpunct">·</g> ita <g ref="interpunct">·</g> censuerunt
+                        <lb n="7"/>placere <g ref="interpunct">·</g> sibi <g ref="interpunct">·</g> posterisque <g ref="interpunct">·</g> suis
+                        <lb n="8"/>uti <g ref="interpunct">·</g> quodannis <g ref="interpunct">·</g> in <g ref="interpunct">·</g> perpetuum
+                        <lb n="9"/><num value="6">VI</num> <g ref="interpunct">·</g> idus <g ref="interpunct">·</g> <expan><abbr>Febr</abbr><ex>uarias</ex></expan> <g ref="interpunct">·</g> natale <g ref="interpunct">·</g> <persName type="attested"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <g ref="interpunct">·</g> <name>Clau
+                        <lb n="10" break="no"/>di</name> <g ref="interpunct">·</g> <name>Himeri</name></persName> <g ref="interpunct">·</g> colerent <g ref="interpunct">·</g> vesce
+                        <lb n="11" break="no"/>renturque <g ref="interpunct">·</g> in <g ref="interpunct">·</g> templo <g ref="interpunct">·</g> <persName type="divine" key="hercules"><name>Her <g ref="interpunct">·</g>
+                        <lb n="12" break="no"/>culis</name></persName> <g ref="interpunct">·</g> quod <g ref="interpunct">·</g> si <g ref="interpunct">·</g> ita <g ref="interpunct">·</g> non <g ref="interpunct">·</g>
+                    </ab>   
+                </div>
+                <div type="textpart" subtype="column" n="b">
+                    <ab>
+                        <lb n="1"/>fecissent <g ref="interpunct">·</g> tunc <g ref="interpunct">·</g> eo <g ref="interpunct">·</g> an
+                        <lb n="2" break="no"/>no <g ref="interpunct">·</g> quo <g ref="interpunct">·</g> cessatum <g ref="interpunct">·</g> fuisset <g ref="interpunct">·</g>
+                        <lb n="3"/>hi <g ref="interpunct">·</g> cultores <g ref="interpunct">·</g> <persName type="divine" key="hercules"><name>Herculis</name></persName> <g ref="interpunct">·</g> qui <g ref="interpunct">·</g>
+                        <lb n="4"/>in <g ref="interpunct">·</g> titulo <g ref="interpunct">·</g> marmoreo <g ref="interpunct">·</g> scri
+                        <lb n="5" break="no"/>pti <g ref="interpunct">·</g> sunt <g ref="interpunct">·</g> posterisque <g ref="interpunct">·</g> eorum <g ref="interpunct">·</g>
+                        <lb n="6"/>inferrent <g ref="interpunct">·</g> cultoribus <g ref="interpunct">·</g>
+                        <lb n="7"/>imaginum <g ref="interpunct">·</g> <persName type="divine" key="Caesar"><name>Caesaris</name></persName> <g ref="interpunct">·</g> <expan><abbr>n</abbr><ex>ostri</ex></expan> <g ref="interpunct">·</g> qui
+                        <lb n="8"/>sunt <g ref="interpunct">·</g> in <g ref="interpunct">·</g> vico <g ref="interpunct">·</g> <abbr>Strament</abbr> <g ref="interpunct">·</g>
+                        <lb n="9"/>annuos <g ref="interpunct">·</g> <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertios</ex></expan> <g ref="interpunct">·</g> <num value="200">CC</num> <g ref="interpunct">·</g> <expan><abbr>n</abbr><ex>ummos</ex></expan> <g ref="interpunct">·</g>
+                        <lb n="10"/>item
+                    </ab>
+                </div>
+                <div type="textpart" subtype="footer">
+                    <ab>
+                        <lb n="1"/><orig>MAT</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    </ab>
+                </div>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>On account of the merits of Claudia Hedone and the memory of Tiberius Claudius Himerus, her son. The worshippers of Hercules, altogether, having sworn by Jupiter the Best and Greatest
+                   and by the genius of Imperator Caesar Nerva Trajan Augustus Germanicus, decreed as follows:
+                   they resolved, for themselves and for their descendants, that every year in perpetuity on the sixth day before the Ides of Feburary, they should celebrate the birthday of Tiberius Claudius Himerus
+                   and hold a banquet in the temple of Hercules; however, if they should not do so, then in whatever year this obligation has been neglected, these worshippers of Hercules whose [names] have been written
+                   on the marble inscription and their descendants, should pay to the worshipeprs of the images of our Caesar, who are in vicus Strament(---), annually, 200 sesterces. MAT(?) (---).
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
