@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000526</title>
+                <title>C. Memmius Marianus, flamen of divus Claudius</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/> 
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-07-24" who="#AA">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,29 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Memmio</name>
+                    <lb n="2"/><persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>An</abbr><ex>iensi</ex></expan>
+                    <lb n="3"/><name>Mariano</name></persName>
+                    <lb n="4"/><expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divine"><name>divi</name> <name><expan><abbr>Claud</abbr><ex>i</ex></expan></name></persName>
+                    <lb n="5"/><expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan> <expan><abbr><hi rend="supraline">III</hi>vir</abbr><ex>o</ex></expan>
+                    <lb n="6"/>curatori aedium
+                    <lb n="7"/><expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>alim</abbr><ex>entorum</ex></expan> ad ar<supplied reason="lost">k</supplied><hi rend="ligature">am</hi>
+                    <lb n="8"/>vican<hi rend="ligature">ni</hi> <expan><abbr>vic</abbr><ex>i</ex></expan> <expan><abbr>Velab</abbr><ex>rensis</ex></expan>
+                    <lb n="9"/><expan><abbr>patron</abbr><ex>o</ex></expan> ob <expan><abbr>mer<supplied reason="lost">it</supplied></abbr><ex>a</ex></expan> eius
+                    <lb n="10"/>cuius <expan><abbr>dedicat</abbr><ex>ione</ex></expan> <expan><abbr>singul</abbr><ex>is</ex></expan>
+                    <lb n="11"/><expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertios</ex></expan> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ummos</ex></expan> <num value="8"><hi rend="supraline">VIII</hi></num> <expan><abbr>ded</abbr><ex>it</ex></expan>
+                    <lb n="12"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>   
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Gaius Memmius Marianus, son of Gaius, of tribe Aniensus, flamen of the divine Claudius, duovir, triumvir, curator of temple, quaestor of the food fund, the residents of the Velabrum district to their patron, on account of his merits.
+                   At the dedication of this monument, he gave eight sesterces to each individual. This place was given by decree the decurions.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
