@@ -109,16 +109,29 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Matrinio</name> <name>Aurelio</name>
+                    <lb n="2"/><persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Lem</abbr><ex>onia</ex></expan> <name>Antonino</name></persName> <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>p</abbr><ex>erfectissimo</ex></expan>    
+                    <lb n="3"/>coronato <placeName><name><expan><abbr>Tusc</abbr><ex>iae</ex></expan></name></placeName> et <placeName><name><expan><abbr>Umb</abbr><ex>iae</ex></expan></name></placeName>
+                    <lb n="4"/><expan><abbr>pont</abbr><ex>ifici</ex></expan> <persName type="divine"><name>gentis</name> <name>Flaviae</name></persName>
+                    <lb n="5"/>abundantissimi mu<supplied reason="undefined" evidence="previouseditor">neris sed</supplied>d et
+                    <lb n="6"/>praecip<supplied reason="undefined" evidence="previouseditor">ua</supplied>e l<supplied reason="undefined" evidence="previouseditor">ae</supplied>titi<supplied reason="undefined" evidence="previouseditor">ae</supplied> <supplied reason="undefined" evidence="previouseditor">theatr</supplied>alis editori
+                    <lb n="7"/>aedili <supplied reason="undefined" evidence="previouseditor">quae</supplied>stori duumviro
+                    <lb n="8"/>iterm <expan><abbr><supplied reason="undefined" evidence="previouseditor">q</supplied></abbr><ex>uin</ex><abbr><supplied reason="undefined" evidence="previouseditor">q</supplied></abbr><ex>uennali</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> huius splend<supplied reason="undefined" evidence="previouseditor">idissima</supplied>e
+                    <lb n="9"/>coloniae curatori <expan><abbr>r</abbr><ex>ei</ex></expan> <expan><abbr>p</abbr><ex>ublicae</ex></expan> ei<supplied reason="undefined" evidence="previouseditor">usdem</supplied>
+                    <lb n="10"/><expan><abbr>colon</abbr><ex>iae</ex></expan> et primo princi<supplied reason="undefined" evidence="previouseditor">pa</supplied>li <supplied reason="undefined" evidence="previouseditor">ob meritum</supplied>
+                    <lb n="11"/><supplied reason="lost">b</supplied>en<supplied reason="undefined" evidence="previouseditor">evolentiae</supplied> eius erga <supplied reason="undefined" evidence="previouseditor">se</supplied>
+                    <lb n="12"/><supplied reason="lost">ple</supplied>bs o<supplied reason="undefined" evidence="previouseditor">mnis</supplied> urbana <placeName><name>Flaviae</name>
+                    <lb n="13"/><name>Constantis</name></placeName> patrono
+                    <lb n="14"/>dignissimo
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app> 
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Caius Matrinius Aurelius Antoninus, son of Caius, of tribe Lemonia, most perfect man, crowned [priest?] of Tuscia and Umbria, pontiff of the Flavian clan, editor of most abundant spectacles and also of preeminent theatrical delights, aedile, quaestor, twice quinquennial duumvir for administering justice of this most splendid colony, curator of the republic of this same colony and first notable, on account of his meritorious benevolence towards them, the whole urban people of Flavia Constans [dedicated this] to their most dignified patron.</p>
             </div>
             <div type="commentary">
                 <p></p> 

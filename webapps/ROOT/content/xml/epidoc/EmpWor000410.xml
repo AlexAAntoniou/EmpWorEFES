@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000410</title>
+                <title>Rescript of Hispellum</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,26 +34,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Long rectangular stone plaque, reconstituted from three contigous fragments.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm">160</height>
                                         <width unit="cm">56</width>
                                         <depth unit="cm">5.4</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text takes up the majority of the stone, with thin margins. Text is roughly centred on the stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is relatively neat (although larger text in the first ten lines is a little more uneven). Simple serifs.</p>
                                 <locus from="line1" to="line59">Lines 1–59</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">10–35</height>
@@ -92,13 +92,14 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.fasti.leges.acta" ref="https://www.eagle-network.eu/voc/typeins/lod/1.html">Fasti, leges, acta</term>
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-08" who="#AA">Addition of object and text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,78 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><expan><abbr>e</abbr><ex>xemplum</ex></expan> <expan><abbr>s</abbr><ex>acri</ex></expan> <expan><abbr>r</abbr><ex>escripti</ex></expan>
+                    <lb n="2"/><persName type="ruler"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <g ref="interpunct">·</g> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <g ref="interpunct">·</g> <name><expan><abbr>Fl</abbr><ex>avius</ex></expan></name> <g ref="interpunct">·</g> <name>Constantinus</name>
+                    <lb n="3"/><expan><abbr>Max</abbr><ex>imus</ex></expan> <expan><abbr>Germ</abbr><ex>anicus</ex></expan> <expan><abbr>Sarm</abbr><ex>aticus</ex></expan> <expan><abbr>Got</abbr><ex>hicus</ex></expan> victor
+                    <lb n="4"/><expan><abbr>triump</abbr><ex>hator</ex></expan> <g ref="interpunct">·</g> <expan><abbr>Aug</abbr><ex>ustus</ex></expan></persName> <g ref="interpunct">·</g> et <g ref="interpunct">·</g> <persName type="ruler"><name><expan><abbr>Fl</abbr><ex>avius</ex></expan></name> <g ref="interpunct">·</g> <name>Constantinus</name></persName>
+                    <lb n="5"/>et <g ref="interpunct">·</g> <persName type="ruler"><name><expan><abbr>Fl</abbr><ex>avius</ex></expan></name> <g ref="interpunct">·</g> <name><expan><abbr>Iul</abbr><ex>ius</ex></expan></name> <g ref="interpunct">·</g> <name>Constantinus</name></persName> <g ref="interpunct">·</g> et <g ref="interpunct">·</g> <persName type="ruler"><name><expan><abbr>Fl</abbr><ex>avius</ex></expan></name>
+                    <lb n="6"/><name>Constans</name></persName>
+                    <lb n="7"/>omnia quidem quae humani gene
+                    <lb n="8" break="no"/>ris <expan><abbr>societate</abbr><ex>m</ex></expan> tuentur pervigilium cu
+                    <lb n="9" break="no"/>rae cogitatione conplectimur sed pro
+                    <lb n="10" break="no"/>visionum nostrarum opus maximus
+                    <lb n="11"/>est ut universae urbes quas in luminibus provin
+                    <lb n="12" break="no"/>ciarum hac regionum omnium species et forma dis
+                    <lb n="13" break="no"/>tinguitur non modo <expan><abbr>dignitate</abbr><ex>m</ex></expan> pristinam teneant
+                    <lb n="14"/>sed etiam ad meliorem statum beneficentiae nos
+                    <lb n="15" break="no"/>trae munere probeantur cum igitur ita vos <placeName><name>Tusci
+                    <lb n="16" break="no"/>ae</name></placeName> adsereretis esse coniunctos ut inistituto
+                    <lb n="17"/>consuetudinis priscae per singulas annorum vi
+                    <lb n="18" break="no"/>ces a vobis <supplied reason="lost">a</supplied>dque praedictis sacerdotes creentur
+                    <lb n="19"/>qui aput <placeName><name>Vulsinios</name></placeName> <placeName><name>Tusciae</name></placeName> <expan><abbr>civitate</abbr><ex>m</ex></expan> ludos
+                    <lb n="20"/>schenicos et gladiatorum munus exhibeant
+                    <lb n="21"/>sed propter ardua monitum et difficultates iti
+                    <lb n="22" break="no"/>nerum <expan><abbr>saltuosa</abbr><ex>s</ex></expan> inpendio posceretis ut indulto
+                    <lb n="23"/>remedio sacerdoti vestro ob editiones cele
+                    <lb n="24" break="no"/>brandas <placeName><name>Vulsinios</name></placeName> pergere necesse non esset
+                    <lb n="25"/>scilicet ut civitati cui nunc <placeName><name>Hispellum</name></placeName> nomen
+                    <lb n="26"/>est quamque Flaminiae viae confinem adque con
+                    <lb n="27" break="no"/>tinuam esse memoratis de nostro cognomine
+                    <lb n="28"/>nomen daremus in qua templum <persName type="divine"><name>Flaviae</name> <name>gentis</name></persName>
+                    <lb n="29"/>opere magnifico nimirum pro amplitudinem
+                    <lb n="30"/>nuncupationis <expan><abbr>exsurgere</abbr><ex>t</ex></expan> ibidemque his
+                    <lb n="31"/>sacerdos quem anniversaria vice <placeName><name>Umbria</name></placeName> de 
+                    <lb n="32" break="no"/>disset spectaculum tam scenicorum ludorum 
+                    <lb n="33"/>quam gladiatorii muneris <expan><abbr>exhibere</abbr><ex>t</ex></expan> manente 
+                    <lb n="34"/>per <placeName><name><expan><abbr>Tuscia</abbr><ex>m</ex></expan></name></placeName> ea consuetudine ut indidem cre  
+                    <lb n="35" break="no"/>atus sacerdos aput <placeName><name>Vulsinios</name></placeName> ut solebat
+                    <lb n="36"/>editionum antedictarum spectacula <expan><abbr>fre
+                    <lb n="37" break="no"/>quentare</abbr><ex>t</ex></expan> precationi hac desiderio vestro
+                    <lb n="38"/>facilis accessit noster adsensus nam civi
+                    <lb n="39" break="no"/>tati <placeName><name>Hispello</name></placeName> aeternum vocabulum <expan><abbr>nomenq</abbr><ex>ue</ex></expan>
+                    <lb n="40"/>venerandum de nostra nuncupatione conces
+                    <lb n="41" break="no"/>simus scilicet ut in posterum praedicta urbs
+                    <lb n="42"/><placeName><name>Flavia</name> <name>Constans</name></placeName> vocetur in cuius gremio
+                    <lb n="43"/>aedem quoque Flaviae hoc est nostrae gen
+                    <lb n="44" break="no"/>tis ut desideratis magnifico opere pereici
+                    <lb n="45"/>volumus ea observatione perscripta ne ae
+                    <lb n="46" break="no"/>dis nostro nomine dedicata cuiusquam con
+                    <lb n="47" break="no"/>tagiose superstitionis fraudibus polluatur
+                    <lb n="48"/>consequenter etiam editionum in prae
+                    <lb n="49" break="no"/>dicta civitate exhibendorum vobis
+                    <lb n="50"/>licentiam dedimus scilicet ut sicuti
+                    <lb n="51"/>dictum est per vices temporis sollem
+                    <lb n="52" break="no"/>nitas editionum <placeName><name>Vulsinios</name></placeName> quoque non de
+                    <lb n="53" break="no"/>serat ubi <expan><abbr>creati</abbr><ex>s</ex></expan> e <placeName><name>Tusica</name></placeName> sacerdotibus memo
+                    <lb n="54" break="no"/>rata celebritas exhibenda est ita quippe nec
+                    <lb n="55"/>veteribus institutis plurimum videbitur
+                    <lb n="56"/>derogatum et vos qui ob praedictas causas
+                    <lb n="57"/>nobis supplices extitistis ea quae inpen
+                    <lb n="58" break="no"/>dio postulastis impetrata esse gaude
+                    <lb n="59" break="no"/>bitis
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    Copy of the Sacred Rescript. Imperator Caesar Flavius Constantinus Maximus Germanicus Sarmaticus Gothicus Augustus, the victor, the triumphant, and Flavius Constantinus, and Flavius Iulius Constantinus and Flavius Contans. In our reckoning, we embrace all things which preserve the fellowship of mankind with unceasing care; but it is the greatest concern for our foresight that all cities, whose the appearance and form are distinguished among the ornaments of the provinces and of all the regions, should not only retain their former dignity, but should be advanced to a better status through the gift of our beneficence. 
+Therefore, since you have asserted that you were joined to Tuscia in such a way that, by the arrangement of a former custom, each year in alternating turns priests are chosen by you and the aforementioned [Tuscians], priests who exhibit theatrical shows and games of gladiators at Volsinii, a city in Tuscia, but on account of the arduousness of the mountains and the difficulties of the wooded routes, you have urgently begged that through the grant of a remedy it not be necessary for your priest to travel to Volsinii for the sake of celebration of games; specifically [you request] that we grant to your city – which now has the name of Hispellum and which you report borders and is connected to the Flaminian road – a name taken from our family name, and in which a temple of the Flavian clan be built in an excessively grand fashion in accord with the greatness of its appellation; and that in the same place, this priest whom Umbria has provided in alternate years should offer a spectacle of both theatrical shows and gladiatorial games, while the same custom remains in Tuscia, that the priest created in that place should frequent the aforementioned spectacles at Volsinii, as was customary. 
+Our assent has been willingly added to your request and your desire. For we have conceded to the city of Hispellum the eternal designation and venerable name of our appellation, specifically that in future the aforementioned city be called Flavia Constans, in whose embrace we wish to be erected in grand fashion a temple also of the Flavian clan, this is of our clan, but that this restriction is noted, that the temple dedicated to our name not be polluted with the deceits of any contagious superstition. Consequently, we also give you permission to exhibit games in the aforementioned city, specifically as – as has been said – in successive periods, the celebration of games also may not be forsaken at Volsinii when priests from Tuscia have been appointed, the aforementioned celebration must be held. In this way, not much will seem diminished from the institutions already in place, and you, who came to us as suppliants on account of the aforementioned causes, will take pleasure in those things you have obtained, which you so urgently demanded.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
