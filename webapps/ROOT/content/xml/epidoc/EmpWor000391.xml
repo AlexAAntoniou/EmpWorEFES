@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000391</title>
+                <title>Flamen of divus Iulius, divus Augustus and divus Claudius.</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>The majority of a stone plaque, broken at top left corner and at bottom. Only obscuring the right hand side of the final two lines</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Ten lines of Latin inscription, roughly centred (although lines 3 and 5 are perhaps aligned a little more to the left).</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is clear and well-incised. Simple serifs, but long tails on "Q"s. Interpuncts present, but photograph grainy.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -70,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" subtype="discovered">Discovered in Fermo, during the cleaning works of the Grandi Cisterne.</provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Fermo, during the cleaning works of the Grand Cistern.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-13" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,18 +110,31 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><gap reason="lost" atLeast="1" atMost="3" unit="character"/></name> <name>Nonio</name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Vel</abbr><ex>ina</ex></expan>
+                    <lb n="2"/><name>Flacco</name></persName> flamini <persName type="divine" key="divusAugustus"><name>divi</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> et <persName type="divine" key="divusIulius"><name>divi</name>
+                    <lb n="3"/><name>Iuli</name></persName> et <persName type="divine" key="divusClaudius"><name>divi</name> <name>Claudi</name></persName> <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> bis
+                    <lb n="4"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="5">V</num> <placeName><name>Macedonicae</name></placeName> et <expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="7"><hi rend="supraline">VII</hi></num>
+                    <lb n="5"/>Claudiae Piae Fidelis <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>equit</abbr><ex>um</ex></expan> alae
+                    <lb n="6"/><num value="1">I</num> <placeName><name><expan><abbr>Pannonior</abbr><ex>um</ex></expan></name></placeName> <expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan> <expan><abbr>quinq</abbr><ex>uennali</ex></expan> <num value="3"><hi rend="supraline">III</hi></num> <expan><abbr>praef</abbr><ex>ecto</ex></expan>
+                    <lb n="7"/><persName type="attested"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <name>Vespasiani</name></persName> patrono coloniae 
+                    <lb n="8"/>testamento fieri iussit
+                    <lb n="9"/>arbitratu <persName type="attested"><name>Nonia<unclear>e</unclear></name> <name>H<unclear>e</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="10"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan></supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with (and corrected by) grainy photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>[-] Nonius Flaccus, son of Gaius, of tribe Velina, flamen of the divine Augustus, and the divine Iulius, and the divine Claudius, military tribune 
+                    twice of the 5th Macedonian legion and the 7th legion Claudia Pious and Happy, prefect of engineers of Ala I of Pannonia, quinquennial duovir 
+                    for the third time, prefect of Imperator Augustus Vespasian, patron of the colony.
+                   He ordered this to be made in accordance with his will, at the discretion of Nonia He[---?]. This place was given [by decree of the decurions].
+                </p>
             </div>
-            <div type="commentary">
+            <div type="commentary"><!-- Can we work out a date based on which emperors he is flamen of and that he served under Vespasian? -->
                 <p></p> 
             </div>
             <div type="bibliography">

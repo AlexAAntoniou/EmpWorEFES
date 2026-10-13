@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000283</title>
+                <title>Temple of Roma and Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -121,7 +121,7 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>The town council of Ulubrae decreed that the temple to Roma and Augustus, as a result of long having been in decay, be restored from its foundations out of its own public funds. Gaius Serius Augurinus and Gaius Trebius Sergianus being consuls.</p>
+                <p>The town council of Ulubrae decreed that the temple to Roma and Augustus, as a result of it long having been in decay, be restored from its foundations out of its own public funds. Gaius Serius Augurinus and Gaius Trebius Sergianus being consuls.</p>
             </div>
             <div type="commentary">
                 <p>This is the only evidence we have for an aedes of Roma and Augustus in Ulubrae, and its restoration in 132 CE might suggest that it was originally built in the Julio-Claudian period, although we should be hesitant about securely dating buildings based on assertions as to the extent of a building's decay. This text is remarkable for the fact that Ulubrae, a modest municipium, chose to spend public funds restoring the temple.</p> 

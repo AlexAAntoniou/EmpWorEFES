@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000389</title>
+                <title>Dedication of Augusteum</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Irregularly broken plaque, of which the majority of text survives (except for broken edges, where enough survives of each letter for full reconstruction). Traces of carved and defined border at top.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text in upper portion of the stone, with large vacat at bottom.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Letters are clear and relatively well-defined, although letter heights and alignment differ on occasion. Use of large "T"s throughout. Ligature in line 1, perhaps to allow for text to fit into remaining space.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -70,7 +70,7 @@
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" subtype="discovered">Discovered in Fermo, during the cleaning works of the Grandi Cisterne.</provenance>
+                        <provenance type="found" subtype="discovered">Discovered in Fermo, during the cleaning works of the Grand Cistern.</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-13" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,21 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <g ref="interpunct">·</g> <name>Terentio</name> <g ref="interpunct">·</g> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan> <g ref="interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></name></persName> <g ref="interpunct">·</g> <expan><abbr><hi rend="ligature">Ve</hi>l</abbr><ex>ina</ex></expan>
+                    <lb n="2"/><name>Senecioni</name> <g ref="interpunct">·</g> <name>Fanniano</name></persName>
+                    <lb n="3"/><expan><abbr><hi rend="supraline">II</hi><g ref="interpunct">·</g>vir</abbr><ex>o</ex></expan> <g ref="interpunct">·</g> <expan><abbr>quinq</abbr><ex>uennali</ex></expan> <g ref="interpunct">·</g> pontifici
+                    <lb n="4"/>Augusteo <g ref="interpunct">·</g> dedicato <g ref="interpunct">·</g> et <g ref="interpunct">·</g>
+                    <lb n="5"/>epulo <g ref="interpunct">·</g> dato <g ref="interpunct">·</g> coloni
+                    <lb n="6"/>et <g ref="interpunct">·</g> incolae
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Quintus Terentius Senecio Fannianus, son of Gaius, of tribe Velina, quinquennial duovir, pontifex, having dedicated an Augusteum and having given an epulum. [This was dedicated by] the colonists and the inhabitants.</p>
             </div>
             <div type="commentary">
                 <p></p> 

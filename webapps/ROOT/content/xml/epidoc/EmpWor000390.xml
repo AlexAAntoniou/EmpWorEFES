@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000390</title>
+                <title>Extremely fragmentary: a potential attestation of a priest of divus Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Small fragment of a plaque, broken on left and right sides and bottom. Top edge original, with traces of carved border around text.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Too fragmentary to discern anything about layout of the text.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Letters are clear and well-formed. Use of serifs, and a single comma-shaped interpunct.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -92,13 +92,14 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html" cert="low">Funerary?</term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-13" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,19 +110,22 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><supplied reason="lost" cert="low">memor</supplied>iae <g ref="interpunct">·</g> <persName type="attested"><name><expan><abbr><unclear>C</unclear></abbr><ex cert="low">ai</ex></expan></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">lini e</supplied>quo <supplied reason="lost">publico</supplied>
+                    <lb n="3"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">us</supplied></name> <persName type="patronym"><name><expan><abbr><supplied reason="lost">C</supplied></abbr><ex>ai</ex></expan></name> <expan><abbr><supplied reason="lost">f</supplied></abbr><ex>ilius</ex></expan></persName> <expan><abbr>Vel</abbr><ex>ina</ex></expan> <name><unclear>F</unclear><supplied reason="lost">i</supplied><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="4"/><supplied reason="lost">flamen <persName type="divine" key="divusAugustus" cert="low"><name>divi</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName></supplied> <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p></p>
             </div>
-            <div type="commentary">
-                <p></p> 
+            <div type="commentary"> <!-- Why is this restoration here?!?! -->
+                <p>To the memory(?) of Gaius(?) [---], [---lini], bearer of a public horse, [---] [---us] F[i---?], [son of Gaius] of tribe Velina, [flamen of the divine Augustus] [---].</p> 
             </div>
             <div type="bibliography">
                 <p>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000411</title>
+                <title>Pontifex of Flavian Clan</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Rectangular statue base, with carved recess for text and carved fluting at top and bottom. Top has significantly eroded, and much of the bottom face of the stone has eroded (although text was once clear).</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm">75</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Fourteen lines of Latin text, fills the majority of the space for the text.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Letters are tell, narrow, but relatively uniform.</p>
                                 <locus from="line1" to="line14">Lines 1–14</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">20–60</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-10" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -131,7 +132,14 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>To Caius Matrinius Aurelius Antoninus, son of Caius, of tribe Lemonia, most perfect man, crowned [priest?] of Tuscia and Umbria, pontiff of the Flavian clan, editor of most abundant spectacles and also of preeminent theatrical delights, aedile, quaestor, twice quinquennial duumvir for administering justice of this most splendid colony, curator of the republic of this same colony and first notable, on account of his meritorious benevolence towards them, the whole urban people of Flavia Constans [dedicated this] to their most dignified patron.</p>
+                <p>
+                    To Gaius Matrinius Aurelius Antoninus, son of Gaius, of tribe Lemonia, most perfect man, 
+                    crowned [priest?] of Tuscia and Umbria, pontiff of the Flavian clan, editor of most abundant 
+                    spectacles and also of preeminent theatrical delights, aedile, quaestor, twice quinquennial 
+                    duumvir for administering justice of this most splendid colony, curator of the republic of 
+                    this same colony and first notable, on account of his meritorious benevolence towards them, 
+                    the whole urban people of Flavia Constans [dedicated this] to their most dignified patron.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

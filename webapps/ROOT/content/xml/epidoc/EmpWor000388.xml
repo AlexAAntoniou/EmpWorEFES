@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000388</title>
+                <title>Dedication to Fides Augusta</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -25,7 +25,7 @@
                         <country>Italy</country>
                         <region>Regio V</region>
                         <settlement>Falerio Picenus</settlement>
-                        <repository>Falerone, Museo archeologico civico</repository>  
+                        <repository>Falerone, Museo Archeologico Civico</repository>  
                         <idno></idno>
                     </msIdentifier>
                     <msContents>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Upper portion of a stone plaque, reconstructed from three contiguous pieces, but missing lower section. Latin text within simple carved border.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm">3</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Nine lines of surviving Latin inscription, roughly centred on stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Letters are well formed and extremely regular. Relatively elaborate serifs on all letters. Various forms of interpuncts used throughout. Small final "E" in Serviliae on line 6.</p>
                                 <locus from="line1" to="line9">Lines 1–9</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">25–65</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2025-10-13" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,24 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="fidesAugusta"><name>Fidei</name> <g ref="interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName>
+                    <lb n="2"/><expan><abbr>sac</abbr><ex>rum</ex></expan>
+                    <lb n="3"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <g ref="interpunct">·</g> <name>Servilius</name> <g ref="interpunct">·</g> <name>Aper</name></persName>
+                    <lb n="4"/><hi rend="supraline">VIII</hi><g ref="interpunct">·</g>vir <g ref="interpunct">·</g> <expan><abbr>Aug</abbr><ex>ugustalis</ex></expan> <g ref="interpunct">·</g> pro ho
+                    <lb n="5" break="no"/>nore <g ref="interpunct">·</g> <expan><abbr>d</abbr><ex>e</ex></expan> <g ref="interpunct">·</g> <expan><abbr>s</abbr><ex>ua</ex></expan> <g ref="interpunct">·</g> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <g ref="interpunct">·</g> <expan><abbr>fec</abbr><ex>it</ex></expan> <g ref="interpunct">·</g>
+                    <lb n="6"/><expan><abbr>indulgent</abbr><ex>ia</ex></expan> <persName type="attested"><name>Serviliae</name>
+                    <lb n="7"/><name>Bassillae</name></persName> <g ref="interpunct">·</g> patronae <g ref="interpunct">·</g> et <g ref="interpunct">·</g>
+                    <lb n="8"/><persName type="attested"><name>Clodiae</name> <g ref="interpunct">·</g> <name>Quarti</name> <g ref="interpunct">·</g> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <g ref="interpunct">·</g> <persName type="attested"><name>Pris
+                    <lb n="9" break="no"/>cae</name> <g ref="interpunct">·</g> filiae eius</persName> <g ref="interpunct">·</g>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>Sacred to Fides Augusta. Gaius Servilius Aper, octovir Augustalis, on account of the honour of his position, built this with his own money, with the permission of his patroness Servilia Bassilla and her daughter, Clodia Prisca, daughter of Quartus.</p>
             </div>
             <div type="commentary">
                 <p></p> 
