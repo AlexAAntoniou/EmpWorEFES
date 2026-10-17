@@ -14,7 +14,7 @@
                     <resp>Original data collection and editing</resp>
                 </respStmt>
                 <respStmt>
-                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626"> Ana Luisa Vasques </name>
+                    <name xml:id="AV" ref="https://orcid.org/0009-0005-7633-4626">Ana Luisa Vasques</name>
                     <resp>Edited text</resp>
                 </respStmt>
             </titleStmt>
@@ -103,7 +103,7 @@
         <revisionDesc status="draft">
             <listChange>
                 <change when="2025-06-30" who="#AA">Original data collection and editing</change>
-                <change when="2026-05-15" who="#AV">Original data collection and editing</change>
+                <change when="2026-05-15" who="#AV">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000397</title>
+                <title>Sacerdos Augusta</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Marble plaque reconstituted from three contiguous, and one non-contigous fragments. Significant gaps at right and bottom.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Latin text of 16 lines. Text appears relatively well-centered on stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is relatively neat and well-formed, although letter heights and alignment within line vary. Tall "I"s in lines 4, 5, 7, and 10. Simple dot-shaped interpuncts used.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-10-16" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,35 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name>Numi<unclear>s</unclear><supplied reason="lost">iae</supplied></name>
+                    <lb n="2"/><name>Secunda<supplied reason="lost">e</supplied></name>
+                    <lb n="3"/><name>Sabina<supplied reason="lost">e</supplied></name></persName>
+                    <lb n="4"/><persName type="attested"><name>Claudi</name> <g ref="interpunct">·</g> <name>Libe<unclear>r</unclear><supplied reason="lost" cert="low">alis</supplied></name></persName>
+                    <lb n="5"/>sacerdoti <g ref="interpunct">·</g> <persName type="divine" key="augusta"><name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <g ref="interpunct">·</g> <unclear>m</unclear><supplied reason="lost" cert="low">atri</supplied>
+                    <lb n="6"/>municipii <g ref="interpunct">·</g> et <g ref="interpunct">·</g> colo<unclear>n</unclear><supplied reason="lost">iae</supplied>
+                    <lb n="7"/><placeName><name>Interamnitiu<supplied reason="lost">m</supplied></name>
+                    <lb n="8"/><name>Praetuttianor<supplied reason="lost">um</supplied></name></placeName>
+                    <lb n="9"/>ob <g ref="interpunct">·</g> munificenti<unclear>a</unclear><supplied reason="lost">m</supplied>
+                    <lb n="10"/>huic <g ref="interpunct">·</g> primae <g ref="interpunct">·</g> omni<supplied reason="lost">um</supplied>
+                    <lb n="11"/>pleps <g ref="interpunct">·</g> <placeName><name>Praetuttia<unclear>n</unclear><supplied reason="lost">a</supplied></name></placeName>
+                    <lb n="12"/>muli<unclear>e</unclear>rum <g ref="interpunct">·</g> aere <g ref="interpunct">·</g> col<unclear>l</unclear><supplied reason="lost">ato</supplied>
+                    <lb n="13"/>statu<supplied reason="lost">am</supplied> <unclear>p</unclear>osuit <g ref="interpunct">·</g> <unclear>o</unclear><supplied reason="lost">b cuius</supplied>
+                    <lb n="14"/>dedic<unclear>a</unclear><supplied reason="lost">tionem</supplied> s<unclear>in</unclear><supplied reason="lost">gul</supplied><unclear>i</unclear>s
+                    <lb n="15"/><expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertios</ex></expan> <g ref="interpunct">·</g> <num value="4">IIII</num> <g ref="interpunct">·</g> n<supplied reason="lost">ummos d</supplied>edit
+                    <lb n="16"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <g ref="interpunct">·</g> <expan><abbr><supplied reason="lost">d</supplied></abbr><ex>atus</ex></expan> <expan><abbr><supplied reason="lost">d</supplied></abbr><ex>ecurionum</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; compariso with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    To Numisia Secunda Sabina, [wife of] Claudius Liber, sacerdos of the Augusta, m[other?] of the municipium and colonia of Interamna Praetuttiorum,
+                    on account of her munificence. To this woman, the first of all, the Pratuttian populace of women set up [this] statue with collected money; on 
+                    the dedication of which, she gave to each citizen four sesterces. This place [was given by] decree [of the decurions].
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

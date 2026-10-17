@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000396</title>
+                <title>Sacerdos of the Augustae</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Rectangular plaque with text within simple carved border. Surface is extremely badly abraded.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text is roughly centred on the stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Surface damage makes letters difficult to discern in detail, but letters appear well-formed and with simple serifs.s</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-10-16" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,25 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="0"/><gap reason="lost" atLeast="1" unit="line"/>
+                    <lb n="1"/><persName type="attested"><name>Attiae</name> <persName type="patronym"><name><expan><abbr><unclear>P</unclear></abbr><ex>ubli</ex></expan></name> <expan><abbr>fi<unclear>l</unclear></abbr><ex>iae</ex></expan></persName>
+                    <lb n="2"/>Maximae</persName>
+                    <lb n="3"/>sacerdoti
+                    <lb n="4"/><persName type="divine" key="Augustae"><name><expan><abbr>Augusta<unclear>r</unclear></abbr><ex>um</ex></expan></name></persName>
+                    <lb n="5"/><persName type="attested"><name><expan><abbr>Ti</abbr><ex>berius</ex></expan></name> <name><expan><abbr>Claud</abbr><ex>ius</ex></expan></name> <name>Vitalis</name></persName>
+                    <lb n="6"/>uxori <supplied reason="lost" evidence="previouseditor">optimae</supplied>
+                    <lb n="7"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr><supplied reason="lost" evidence="previouseditor">d</supplied></abbr><ex>ecurionum</ex></expan> <expan><abbr><supplied reason="lost">d</supplied></abbr><ex>ecreto</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    [---] To Attia Maxima, daughter of Publius, sacerdos of the Augustae. Tiberius Claudius Vitalis [dedicated this] to his best wife. This place was given by decree of the decurions.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

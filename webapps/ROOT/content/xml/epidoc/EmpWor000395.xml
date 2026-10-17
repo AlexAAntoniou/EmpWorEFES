@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000395</title>
+                <title>Priest of all the divi (divorum omnium)</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-10-16" who="#AA">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,18 +110,30 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name>Volcacio</name> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName>
+                    <lb n="2"/><expan><abbr>Vel</abbr><ex>ina</ex></expan> <name>Primo</name></persName>
+                    <lb n="3"/><expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan> <num value="2"><hi rend="supraline">II</hi></num> <expan><abbr>quinq</abbr><ex>uennali</ex></expan>
+                    <lb n="4"/><expan><abbr>flam</abbr><ex>ini</ex></expan> <persName type="divine" key="omnesdivi"><name><expan><abbr>divor</abbr><ex>um</ex></expan></name> <name><expan><abbr>omn</abbr><ex>ium</ex></expan></name></persName>
+                    <lb n="5"/><expan><abbr>p</abbr><ex>atrono</ex></expan> <expan><abbr>c</abbr><ex>oloniae</ex></expan> ex testamento
+                    <lb n="6"/>eius posita
+                    <lb n="7"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name>Licinio</name> <name>Crispino</name></persName>
+                    <lb n="8"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name>Herennio</name> <name>Maximo</name></persName>
+                    <lb n="9"/><expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>is</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    To Lucius Volcacius Primus, son of Quintus, of tribe Velina, quinquennial duovir twice, flamen of all the divi,
+                    patron of the colony. This was set up in accordance with his will, when Quintus Licinius Crispinus and Gaius 
+                    Herennius Maximus who duovirs.
+                </p>
             </div>
-            <div type="commentary">
+            <div type="commentary"> <!-- Same name as 394 but holds an extra duovirate, and not all of the military posts? -->
                 <p></p> 
             </div>
             <div type="bibliography">

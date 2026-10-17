@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000392</title>
+                <title>Priest of all the divi (divorum omnium)</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-10-16" who="#AA">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,33 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>T</abbr><ex>ito</ex></expan></name> <name>Appalio</name> <persName type="patronym"><name><expan><abbr>T</abbr><ex>ito</ex></expan></name> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <expan><abbr>Vel</abbr><ex>ina</ex></expan>
+                    <lb n="2"/><name>Alfino</name> <name>Secundo</name></persName>
+                    <lb n="3"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> <persName type="ruler"><name><expan><abbr>August</abbr><ex>i</ex></expan></name></persName> <num value="20"><hi rend="supraline">XX</hi></num> <expan><abbr>hered</abbr><ex>itatium</ex></expan>
+                    <lb n="4"/><expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>Alpi</abbr><ex>um</ex></expan> <expan><abbr>Atrectianar</abbr><ex>um</ex></expan>
+                    <lb n="5"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>vehicul</abbr><ex>orum</ex></expan> sub <expan><abbr>praef</abbr><ex>ecto</ex></expan>
+                    <lb n="6"/><expan><abbr>class</abbr><ex>is</ex></expan> <expan><abbr>praet</abbr><ex>oriae</ex></expan> <placeName><name><expan><abbr>Ravenn</abbr><ex>atis</ex></expan></name></placeName> <expan><abbr>pr</abbr><ex>aefecto</ex></expan>
+                    <lb n="7"/>alae <num value="1"><hi rend="supraline">I</hi></num> <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>Thrac</abbr><ex>um</ex></expan> <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan>
+                    <lb n="8"/><num value="1"><hi rend="supraline">I</hi></num> Aeeiae <expan><abbr>Britton</abbr><ex>um</ex></expan> <expan><abbr>praef</abbr><ex>ecto</ex></expan>
+                    <lb n="9"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="4"><hi rend="supraline">IIII</hi></num> <expan><abbr>Gallor</abbr><ex>um</ex></expan> <expan><abbr>patron</abbr><ex>o</ex></expan>
+                    <lb n="10"/><expan><abbr>colon</abbr><ex>iae</ex></expan> flamini <persName type="divine" key="omnesdivi"><name><expan><abbr>divor</abbr><ex>um</ex></expan></name>
+                    <lb n="11"/><name>omnium</name></persName> <expan><abbr>augur</abbr><ex>i</ex></expan>
+                    <lb n="12"/><expan><abbr><hi rend="supraline">II</hi>vir</abbr><ex>o</ex></expan> <expan><abbr>quinq</abbr><ex>uennali</ex></expan> bis
+                    <lb n="13"/>ob merita eius
+                    <lb n="14"/><expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>To Titus Appalius Alfinus Secundus, son of Titus, of tribe Velina, procurator of the Augustan 5% tax on inheritances, procurator of the Alpes Atrectionae
+                    prefect of vehicles, under-prefect of the praetorian fleet at Ravenna, prefect of Ala I Augusta Thracum, tribune of the 1st cohort Aelia Brittonum,
+                    prefect of the 4th cohort Gallorum, patron of the colony, flamen of all the divi, augur, duovir, quinquennalis twice, [this was erected] on account of 
+                    his merits, by decree of the decurions.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

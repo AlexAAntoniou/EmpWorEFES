@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000357</title>
+                <title>Dedication to the numen of Gordian III</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Rectangular statue base, reused into later altar-piece. Three surviving lines of Latin text, broken at top, and with bottom portion of text carved out.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble (white)</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -43,17 +43,17 @@
                                         <depth unit="cm">24</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Three surviving lines of Latin in in top part is seemingly centred.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Letters are slightly uneven, with different letter heights. Interpuncts appear to be circular.</p>
                                 <locus from="line1" to="line11">Lines 1–11</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">35–40</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-10-16" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,28 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="ruler"><supplied reason="lost"><name>Furiae</name> <name>Sabinae</name></supplied>
+                    <lb n="2"/><supplied reason="lost"><name>Tranquillinae</name></supplied>
+                    <lb n="3"/><supplied reason="lost" cert="low">sanctissimae</supplied>
+                    <lb n="4"/><supplied reason="lost">Augustae <expan><abbr>con</abbr><ex>iugi</ex></expan></supplied></persName>
+                    <lb n="5"/><persName type="ruler" key="gordianIII"><expan><abbr>d</abbr><ex>omini</ex></expan> <g ref="interpunct">·</g> <expan><abbr>n</abbr><ex>ostri</ex></expan> <g ref="interpunct">·</g> <name><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name>Antoni</name>
+                    <lb n="6"/><name>Gordiani</name>
+                    <lb n="7"/>Pii <expan><abbr>Fel</abbr><ex>icis</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan></persName>
+                    <lb n="8"/><supplied reason="lost"><placeName><name>Foronovani</name></placeName></supplied>
+                    <lb n="9"/><unclear>d</unclear><supplied reason="lost">evoti</supplied> <persName type="divine"><name><supplied reason="lost">numin</supplied><unclear>i</unclear></name></persName>
+                    <lb n="10"/><unclear>m</unclear><supplied reason="lost">aiestatiqu</supplied>e
+                    <lb n="11"/><supplied reason="lost">eorum</supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with grainy photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    [To Furia Sabina Tranquillina Augusta, most sanctified(?), wife of our master Marcus Antonius Gordianus Pius Felix Augustus, [Foronovanus] d[evoted] this to their [numen] and [m]ajesty.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

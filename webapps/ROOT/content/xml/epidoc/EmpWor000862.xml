@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000862</title>
+                <title>Cultores of the domus divinae</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm">12</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-10-16" who="#AA">Addition of text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,27 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name>Tullio</name> <persName type="libertino"><name><expan><abbr>Marc</abbr><ex>i</ex></expan></name></persName>
+                    <lb n="2"/><expan><abbr>lib</abbr><ex>erto</ex></expan> <name>Achilleo</name></persName>
+                    <lb n="3"/>decurioni
+                    <lb n="4"/>ornamentario
+                    <lb n="5"/>cultori <persName type="divine" key="domusDivina"><name><expan><abbr>d</abbr><ex>omus</ex></expan></name> <name><expan><abbr>d</abbr><ex>ivinae</ex></expan></name></persName>
+                    <lb n="6"/><expan><abbr>q</abbr><ex>uin</ex><abbr>q</abbr><ex>uennali</ex></expan> <expan><abbr><unclear>p</unclear><supplied reason="lost">e</supplied><unclear>r</unclear></abbr><ex cert="low">petuo</ex></expan>
+                    <lb n="7"/><expan><abbr>c</abbr><ex cert="low">ollegii</ex></expan> <expan><abbr>f</abbr><ex cert="low">abrum</ex></expan> <expan><abbr>c</abbr><ex cert="low">entonariorumque</ex></expan> <expan><abbr>it</abbr><ex cert="low">em</ex></expan> curatore <expan><abbr>muner</abbr><ex>is</ex></expan>
+                    <lb n="8"/><persName type="attested"><name>Tulliani</name></persName>
+                    <lb n="9"/><persName type="attested"><name>Aelius</name> <name><supplied reason="lost">A</supplied>scelpiades</name></persName>
+                    <lb n="10"/>amic<supplied reason="lost">o</supplied> <expan><abbr>kariss</abbr><ex>imo</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    To Tullius Achilles, freedman of Marcus, having been adorned as an honorary decurion, worshipper of the divine house, quinquennalis [in perpetuity?], of the college(?) of artisans(?) and textile tradesmen(?) and also(?) curator of the Tullian spectacle. Aelius Asclepiades [dedicated this] to his dearest friend. 
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000441</title>
+                <title>Dedicatiion to Diana Augusta</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -24,7 +24,7 @@
                     <msIdentifier>
                         <country>Italy</country>
                         <region>Regio VII</region>
-                        <settlement>Sepernates</settlement>
+                        <settlement>Seperna</settlement>
                         <repository>Musei Vaticani, Galleria Lapidaria, 45, 26</repository>  
                         <idno>6837</idno>
                     </msIdentifier>
@@ -96,7 +96,7 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-07-26" who="#AA">Original data collection and editing</change> 
             </listChange>
