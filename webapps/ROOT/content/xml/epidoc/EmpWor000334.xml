@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000334</title>
+                <title>Flamen of Divus Vespasianus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -125,7 +125,10 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p> <!-- NEEDS TRANSLATION -->
+                <p>
+                    To Gaius Mettius Rufinus, son of Marcus, quattuorvir quinquennalis, flamen of the divine Vespasian, prefect of engineers, curator of public money for Volcei.
+                    Gaius Mettius Aper, son of Gaius, for his greatest father.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

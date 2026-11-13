@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000340</title>
+                <title>Dedication to the Genius(?) of Severus Alexander</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -123,7 +123,9 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                   To the genius(?) of our master, Imperator Caesar [Marcus] Aurelius Severus Alexander Pius Felix Augustus. The senate and people [of Alba? dedicate this].
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

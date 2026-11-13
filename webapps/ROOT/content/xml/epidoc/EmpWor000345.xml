@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000345</title>
+                <title>Flamen of divus Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -130,7 +130,11 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    Sacred to the shades of the underworld. Quintus Statius Syrus, son of Quintus, of tribe Quirina, aedile, quaestor of the grain supply
+                    quaestor of the municipium of Peltuinum, prefect of the purposes of dispensing justice in the municipium of Peltuinum, the overseer of
+                    the Claudian way, flamen of divus Augustus. Publius Statius Severus, son of Quinus, erected [this] for his most pious father.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

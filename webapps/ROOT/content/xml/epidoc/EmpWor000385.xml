@@ -46,7 +46,7 @@
                                 <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><p>Text is separated into two columns, with a header in larger font, and remains of a footer seemingly separated from end of the second column. Glyphs carved throughout. Patera at top left, club(?) in middle, simpulum at top right, culullus at bottom left.</p>
+                                <layout><p>Text is separated into two columns, with a header in larger font, and remains of a footer seemingly separated from end of the second column. Glyphs carved throughout. Patera at top left, Hercules' club in middle, simpulum at top right, culullus at bottom left.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
@@ -157,10 +157,10 @@
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
                 <p>On account of the merits of Claudia Hedone and the memory of Tiberius Claudius Himerus, her son. The worshippers of Hercules, altogether, having sworn by Jupiter the Best and Greatest
-                   and by the genius of Imperator Caesar Nerva Trajan Augustus Germanicus, decreed as follows:
-                   they resolved, for themselves and for their descendants, that every year in perpetuity on the sixth day before the Ides of Feburary, they should celebrate the birthday of Tiberius Claudius Himerus
-                   and hold a banquet in the temple of Hercules; however, if they should not do so, then in whatever year this obligation has been neglected, these worshippers of Hercules whose [names] have been written
-                   on the marble inscription and their descendants, should pay to the worshipeprs of the images of our Caesar, who are in vicus Strament(---), annually, 200 sesterces. MAT(?) (---).
+                   and by the genius of Imperator Caesar Nerva Trajan Augustus Germanicus, decreed as follows: they resolved, for themselves and for their descendants, that every year in perpetuity on the 
+                   sixth day before the Ides of Feburary, they should celebrate the birthday of Tiberius Claudius Himerus and hold a banquet in the temple of Hercules; however, if they should not do so, 
+                   then in whatever year this obligation has been neglected, these worshippers of Hercules whose [names] have been written on the marble inscription and their descendants, should pay to the 
+                   worshippers of the images of our Caesar, who are in vicus Strament[---], annually, 200 sesterces. MAT(?) [---].
                 </p>
             </div>
             <div type="commentary">

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000333</title>
+                <title>Restoration of the Caesareum</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -129,10 +129,14 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    Column A: [---] [from of the] will of his father, Otacilius Gallus, he restored from his own funds the Caesareum, it having collapsed [through age?]. 
+                    On the occasion of the dedication of this building, [he gave to each of the decurions] 30 sesterces, to [each] of the Augustales 20 sesterces, to [each] of the villagers 12 sesterces, and to [each] of the wives:
+                    Column B: of the decurions, 16 sesteres, of the Augustales, 8 sesterces, of the villages, 4 sesterces.
+                </p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>The unnamed restorer of the Caesareum of Volcei, son of Otacilius Gallus, is very likely to be Otacilius Rufus, honoured in <ref target="EmpWor000335.xml">EmpWor000335</ref>.</p> 
             </div>
             <div type="bibliography">
                 <p>

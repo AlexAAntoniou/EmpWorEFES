@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000422</title>
+                <title>Flamen Augustalis</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -64,9 +64,9 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/413306">Sarsina</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/6536758/sarsina.html">Sarsina</placeName>
+                                <geo>43.9194, 12.142155</geo> 
                             </origPlace>
                             <origDate/>
                         </origin>
@@ -92,13 +92,14 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html" cert="low">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-10-19" who="#AA">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,23 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/>us</name> <persName type="patronym"><name><expan><abbr>C</abbr><ex>ai</ex></expan></name> <expan><abbr>fi<supplied reason="lost">l</supplied></abbr><ex>ius</ex></expan></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/><name><gap reason="lost" extent="unknown" unit="character"/>llus</name></persName> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">fla</supplied>
+                    <lb n="3"/><supplied reason="lost">m</supplied>en <persName type="divine" key="augustalis"><name><expan><abbr>Augu<supplied reason="lost">st</supplied></abbr><ex>alis</ex></expan></name></persName>
+                    <lb n="4"/><expan><abbr>q</abbr><ex>auestor</ex></expan> <expan><abbr>pontif</abbr><ex>ex</ex></expan> C<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="5"/>IIvir <expan><abbr>it</abbr><ex>erum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>R <persName><name>Nepot<supplied reason="lost">ianus</supplied></name>
+                    <lb n="6"/><name>Rufa</name></persName> <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDCS</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    [---]us [---]llus, son of Gaius, [flam]en Augu[ustalis], quaestor, pontifex, C[---], duovir twice, [---]R. Nepot[ianus] Rufus [---] [dedicated this?].
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

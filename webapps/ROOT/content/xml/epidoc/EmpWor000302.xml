@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000302</title>
+                <title>Sacerdos to Julia Mamaea(?)</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -113,7 +113,7 @@
                         <lb n="1"/><persName type="attested"><name>Arreniae</name>
                         <lb n="2"/><name>Felicissimae</name></persName>
                         <lb n="3"/>sacerdoti
-                        <lb n="4"/><persName type="divinity" key="juliaMamaea" cert="low"><del rend="erasure"><name>Mameae</name></del></persName>
+                        <lb n="4"/><persName type="divinity" key="juliaMamaea" cert="low"><del rend="erasure" cert="low"> <name>Mameae</name></del></persName>
                         <lb n="5"/><del rend="erasure" cert="low">matris</del> <expan><abbr>Aug</abbr><ex>usti</ex></expan>
                         <lb n="6"/><persName type="attested"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <name>Arreni</name> <name>Men
                         <lb n="7" break="no"/>andri</name></persName> <expan><abbr>fil</abbr><ex>iae</ex></expan> <expan><abbr>coll</abbr><ex>egium</ex></expan>
@@ -131,13 +131,20 @@
             <div type="apparatus">
                 <listApp>
                     <app><note>Text from EDR</note></app>
+                    <app loc="4–5"><note>There are two options for the restoration of the 
+                    dedicatee of Arrenia's priesthood in the erasure: [[[Mamaeae | matris]]] Aug(usti) or [[[Iuliae | Mamaeae]]] Aug(ustae)</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>To Arrenia Felicissima, sacerdos of [Mamaea?], [mother?] of the Augusti, daughter of Lucius Arrenius Menander. The college of youths (set this up) on account of her merits. This place was given by decree of the decurions.</p>
+                <p>
+                    Front: To Arrenia Felicissima, sacerdos of [Mamaea?], [mother?] of the Augusti, daughter of Lucius Arrenius Menander. 
+                    The college of youths (set this up) on account of her merits. This place was given by decree of the decurions.
+                    Left side: This was dedicated on the Kalends of June.
+                </p>
             </div>
             <div type="commentary">
-                <p>Arrenia's father (Lucius Arrenius Menander) and mother (Bruttia L.f. Nereis) are elsewhere attested in Herdoniae. There are two options for the restoration of the dedicatee of Arrenia's priesthood: [[[Mamaeae | matris]]] Aug(usti) or [[[Iuliae | Mamaeae]]] Aug(ustae).</p> 
+                <p>Arrenia's father (Lucius Arrenius Menander) and mother (Bruttia L.f. Nereis) are elsewhere attested in Herdoniae. There are two options for the restoration of the 
+                    dedicatee of Arrenia's priesthood: [[[Mamaeae | matris]]] Aug(usti) or [[[Iuliae | Mamaeae]]] Aug(ustae).</p>
             </div>
             <div type="bibliography">
                 <p>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000338</title>
+                <title>Flamen of divus Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -127,7 +127,11 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    To Gaius Flavius Celer, son of Gaius, of tribe Tromentina, Roman equestrian, patron of the colony, [member of the] Laurentes and Lavinates, flamen of the divine Augustus
+                    curator of the republic of the colony of Bovianum, curator of the republic of Saepinum, and likewise of the Cluviae of the Carricini. At the request of the people, the most 
+                    distinguished order decreed [this]. 
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

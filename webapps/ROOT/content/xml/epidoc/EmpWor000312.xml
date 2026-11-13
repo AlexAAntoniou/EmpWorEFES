@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000312</title>
+                <title>Dedication to the Numen of Constantine I</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -127,7 +127,12 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>[Imperator Caesar Valerius Costantinus Maximus Pius Felix Invictus Augustus, pontifex maximus, Sarmaticus maximus], Germanicus maximus, [Gothicus maximus, holder of tribunician power for the 14th time], imperator for the 14th(?) time, [consul for the 4th time, father of the fatherland], proconsul [---], [---] in his name [---], [---] in Venusia [---], curated by [Nonius Verus, the most distinguished man] [---], [devoted to his] divine force and majesty, [the town council and people] of Venusia.</p>
+                <p>[Imperator Caesar Valerius Costantinus Maximus Pius Felix Invictus Augustus, chief pontiff, Sarmaticus Maximus], 
+                    Germanicus Maximus, [Gothicus Maximus, holder of tribunician power for the 14th time], imperator for the 14th(?) time, 
+                    [consul for the 4th time, father of the fatherland], proconsul [---], [---] in his name [---], [---] in Venusia [---], 
+                    curated by [Nonius Verus, the most distinguished man] [---], [devoted to his] divine force and majesty, [the town council 
+                    and people] of Venusia.
+                </p>
             </div>
             <div type="commentary"> <!-- Silvestrini, M., 'Venosa. Una nuova epigrafe di Costantino e il recente recupero di un "corrector Apuliae et Calabriae". ', Scienze dell’antichità. Storia. archeologia, antropologia 6, Rome 1992-1993, pp. 120-130  -->
                 <p></p> 

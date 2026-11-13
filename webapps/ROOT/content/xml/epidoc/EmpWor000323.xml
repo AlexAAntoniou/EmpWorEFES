@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000316</title>
+                <title>Flamen of one of the Antonines, potentially Commodus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -113,7 +113,7 @@
                     <lb n="2"/><expan><abbr>Ma<supplied reason="lost">ec</supplied></abbr><ex>ia</ex></expan> <name><supplied reason="lost">Bas</supplied>so</name></persName>
                     <lb n="3"/><expan><abbr><hi rend="supraline">II</hi><g ref="symbols.xml#ivy-leaf">❦</g>vir</abbr><ex>o</ex></expan> <expan><abbr><unclear>q</unclear><supplied reason="lost">quin</supplied><unclear>q</unclear></abbr><ex>uennali</ex></expan> patro
                     <lb n="4" break="no"/>no <g ref="symbols.xml#ivy-leaf">❦</g> co<supplied reason="lost">loni</supplied><unclear>a</unclear>e <g ref="symbols.xml#ivy-leaf">❦</g> <expan><abbr>flam</abbr><ex>ini</ex></expan>
-                    <lb n="5"/><persName type="divine"><name><expan><abbr><unclear>I</unclear>m<unclear>p</unclear></abbr><ex>eratoris</ex></expan></name> <name><supplied reason="lost">Antoni</supplied>ni</name> <g ref="symbols.xml#ivy-leaf">❦</g> <name>Caesa
+                    <lb n="5"/><persName type="divine" key="Commodus(?)"><name><expan><abbr><unclear>I</unclear>m<unclear>p</unclear></abbr><ex>eratoris</ex></expan></name> <name><supplied reason="lost">Antoni</supplied>ni</name> <g ref="symbols.xml#ivy-leaf">❦</g> <name>Caesa
                     <lb n="6" break="no"/><supplied reason="lost">ris</supplied></name> <name><expan><abbr><supplied reason="lost">Aug</supplied></abbr><ex>usti</ex></expan></name></persName> <supplied reason="lost">dec</supplied>uriones
                     <lb n="7"/><supplied reason="lost">pecunia s</supplied>ua
                 </ab>
@@ -124,7 +124,9 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>To Lucius Digitius Bassus, son of [Lucius?], of the tribe Maecia, duovir quinquennalis, patron of the colony, flamen of Imperator Antoninus Caesar Augustus, the decuriones (built this) with their own money.</p>
+                <p>To Lucius Digitius Bassus, son of [Lucius?], of the tribe Maecia, duovir quinquennalis, patron of the colony, 
+                    flamen of Imperator Antoninus Caesar Augustus, the decuriones (built this) with their own money.
+                </p>
             </div>
             <div type="commentary">
                 <p>Priesthood to one of the Antonines, potentially Commodus?</p> 

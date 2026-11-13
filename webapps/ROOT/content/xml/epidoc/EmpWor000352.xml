@@ -110,7 +110,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>pr<supplied reason="previouseditor">o sa</supplied>lute <expan><abbr>imperat</abbr><ex>oris</ex></expan>
+                    <lb n="1"/>pr<supplied reason="undefined" evidence="previouseditor">o sa</supplied>lute <expan><abbr>imperat</abbr><ex>oris</ex></expan>
                     <lb n="2"/><persName type="ruler" key="hadrianusAugustus"><name>Hadriani</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>p</abbr><ex>atris</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan>
                     <lb n="3"/><persName type="divine" key="fortunaRedux"><name><expan><abbr>Fortun</abbr><ex>ae</ex></expan></name> <name><expan><abbr>Red</abbr><ex>uci</ex></expan></name></persName> decreto <expan><abbr>c</abbr><ex>entum</ex><abbr>v</abbr><ex>irum</ex></expan>
                     <lb n="4"/><expan><abbr>pec</abbr><ex>unia</ex></expan> <expan><abbr>publ</abbr><ex>ica</ex></expan> ex <expan><abbr>arg</abbr><ex>enti</ex></expan> <expan><abbr>p</abbr><ex>ondo</ex></expan> <num value="10">X</num> <expan><abbr>cur</abbr><ex>am</ex></expan> <expan><abbr>ag</abbr><ex>entibus</ex></expan>

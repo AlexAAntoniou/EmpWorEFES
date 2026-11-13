@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000310</title>
+                <title>Flamen of Tiberius</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -125,7 +125,8 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>To Caius Egnatius Maro, son of Caius, of the Horatian tribe, flamen of Tiberius Caesar Augustus, pontifex, quinquennial duovir three times, prefect of engineers. To Egnatia Marulla, daughter of Caius.</p>
+                <p>To Caius Egnatius Maro, son of Caius, of the Horatian tribe, flamen of Tiberius Caesar Augustus, pontiff, 
+                    quinquennial duovir three times, prefect of engineers. To Egnatia Marulla, daughter of Caius.</p>
             </div>
             <div type="commentary">
                 <p></p> 

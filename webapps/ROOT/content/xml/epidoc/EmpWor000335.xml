@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000335</title>
+                <title>Flamen of divus Hadrianus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -113,11 +113,11 @@
                     <lb n="2"/><expan><abbr><hi rend="supraline">IIII</hi>vir</abbr><ex>o</ex></expan> <supplied reason="lost"><expan><abbr>i</abbr><ex>ure</ex></expan></supplied> <expan><abbr>d</abbr><ex>icundo</ex></expan> <num value="2"><hi rend="supraline">II</hi></num> <expan><abbr><hi rend="supraline">q</hi></abbr><ex>uin</ex><abbr><hi rend="supraline">q</hi></abbr><ex>uennali</ex></expan> <expan><abbr>flam</abbr><ex>ini</ex></expan> perpetuo
                     <lb n="3"/><persName type="divine" key="divusHadrianus"><name>divi</name> <name>Hadriani</name></persName> ab eodem equo <expan><abbr>publ</abbr><ex>ico</ex></expan>
                     <lb n="4"/>honorato curatori kalendari <expan><abbr>r</abbr><ex>ei</ex></expan> <expan><abbr>p</abbr><ex>ublicae</ex></expan>
-                    <lb n="5"/>Aeclanensium electo a <persName type="ruler"><name>Divo</name> <name>Pio</name></persName>
+                    <lb n="5"/>Aeclanensium electo a <persName type="ruler" key="AntoninusPius"><name>Divo</name> <name>Pio</name></persName>
                     <lb n="6"/>patrono municipi
                     <lb n="7"/>ob eximiam munificentiam eius ordo <expan><abbr>dec</abbr><ex>urionum</ex></expan>
                     <lb n="8"/>pecunia publica ponendum <expan><abbr>cens</abbr><ex>uit</ex></expan> cuius
-                    <lb n="9"/>dedicatione <expan><abbr>dec</abbr><ex>urionibus</ex></expan> <!-- denarios --> <num value="3">III</num> <expan><abbr>aug</abbr><ex>ustalibus</ex></expan> <!-- denarios --> <num value="2">II</num> <expan><abbr>pop</abbr><ex>ulo</ex></expan> <!-- denarium --> <num value="1">I</num> dedit
+                    <lb n="9"/>dedicatione <expan><abbr>dec</abbr><ex>urionibus</ex></expan> <expan><abbr><hi rend="intraline"><am>X</am></hi></abbr><ex>denarios</ex></expan> <num value="3">III</num> <expan><abbr>aug</abbr><ex>ustalibus</ex></expan> <expan><abbr><hi rend="intraline"><am>X</am></hi></abbr><ex>denarios</ex></expan> <num value="2">II</num> <expan><abbr>pop</abbr><ex>ulo</ex></expan> <expan><abbr><hi rend="intraline"><am>X</am></hi></abbr><ex>denarios</ex></expan> <num value="1">I</num> dedit
                 </ab>
             </div>
             <div type="apparatus">
@@ -126,10 +126,15 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    To Publius Otacilius Rufus, son of Lucius, of the tribe Palatina, father, twice quattuovir for dispensing [justice], quinquennalis, flamen in perpetuity 
+                    of the divine Hadrian, honoured by the same man with the public horse, curator of accounts of the republic of Aeclanum, having been appointed by the Divine Pius
+                    patron of the municipality. On the occasion of his exceptional generosity, the order of decurions decreed that [this] be erected, with public money. 
+                    On the occasion of its dedication, he gave 3 denarii to [each] of the decurions, 2 denarii to [each] of the Augustales, and 1 denarii to [each] of the people.
+                </p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>This Publius Otacilius Rufus, is likely the unnamed restorer of the Caesareum of Volcei, son of Otacilius Gallus, attested in <ref target="EmpWor000333.xml">EmpWor000333</ref>.</p> 
             </div>
             <div type="bibliography">
                 <p>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000309</title>
+                <title>Dedication to Apollo (and?) the divine Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -120,7 +120,8 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>To Apollo [and?] the Divine Augustus [---]. Quintus Lutatius Catulus, son of Quintus, of the Claudian tribe. Quintus Lutatius Catulus, son of Publius, of the Claudian tribe.</p>
+                <p>To Apollo [and?] the Divine Augustus [---]. Quintus Lutatius Catulus, son of Quintus, of the 
+                    Claudian tribe. Quintus Lutatius Catulus, son of Publius, of the Claudian tribe.</p>
             </div>
             <div type="commentary">
                 <p></p> 

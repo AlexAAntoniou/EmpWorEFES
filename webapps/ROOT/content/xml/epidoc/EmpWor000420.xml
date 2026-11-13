@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000420</title>
+                <title>Flamen Traianali</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,26 +34,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Small rectangular plaque, reconstituted from at least five contiguous fragments.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Ten lines of Latin text, roughly centred on the stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Letters are clear and relatively well-defined, with simple serifs, use of triangular interpuncts, and 'love-heart' shaped hederae in the final line. Tall "L" at end of line 7.</p>
                                 <locus from="line1" to="line1">Line 1</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm"></height>
@@ -64,9 +64,9 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/413306">Sarsina</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/6536758/sarsina.html">Sarsina</placeName>
+                                <geo>43.9194, 12.142155</geo> 
                             </origPlace>
                             <origDate/>
                         </origin>
@@ -92,13 +92,14 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html">Funerary</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.honorific" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">Honorific</term>
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-10-19" who="#AA">Edited text and object</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,28 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>Sex</abbr><ex>to</ex></expan></name> <g type="interpunct">·</g> <name>Tettio</name>
+                    <lb n="2"/><persName type="patronym"><name><expan><abbr>Sex</abbr><ex>ti</ex></expan></name> <g type="interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <g type="interpunct">·</g> <expan><abbr>Pup</abbr><ex>inia</ex></expan> <g type="interpunct">·</g>
+                    <lb n="3"/><name>Montano</name>
+                    <lb n="4"/><name>Caesio</name> <g type="interpunct">·</g> <name>Sabino</name></persName>
+                    <lb n="5"/>equo <g type="interpunct">·</g> publico
+                    <lb n="6"/><expan><abbr>aed</abbr><ex>ili</ex></expan> <g type="interpunct">·</g> pontifici
+                    <lb n="7"/>flamini <g type="interpunct">·</g> <persName type="divine" key="trajan"><name><expan><abbr>Traianal</abbr><ex>i</ex></expan></name></persName>
+                    <lb n="8"/>patrono <g type="interpunct">·</g> <expan><abbr>mun</abbr><ex>icipii</ex></expan>
+                    <lb n="9"/>plebs <g type="interpunct">·</g> <expan><abbr>urban</abbr><ex>a</ex></expan>
+                    <lb n="10"/><expan><abbr>h</abbr><ex>onore</ex></expan> <g ref="symbols.xml#ivy-leaf">❦</g> <expan><abbr>r</abbr><ex>ecepto</ex></expan> <g ref="symbols.xml#ivy-leaf">❦</g> <expan><abbr>i</abbr><ex>mpensam</ex></expan> <g ref="symbols.xml#ivy-leaf">❦</g> <expan><abbr>r</abbr><ex>emisit</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDCS; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    To Sextus Tettius Montanus Caesius Sabinus, son of Sextus, of tribe Pupinia, [holder of] the public horse, aedile, pontifex, flamen of Trajan,
+                    patron of the municipium, the urban plebs [dedicated this]. [Sextus], having accepted the honour, remitted the expense.  
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

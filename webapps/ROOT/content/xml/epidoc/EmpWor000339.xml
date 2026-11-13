@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000339</title>
+                <title>Flamen of the divine Trajan</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -126,7 +126,11 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    To Publius Septimius Paterculus, son of Publius, of tribe Tromentina, prefect of the 1st Pannonian cohort in Britannia, prefect of the [2nd] cohort of Spaniards in Cappadocia,
+                    flamen of the divine Trajan, patron of the municipium, quattuorvir for the purposes of dispensing justice, quinquennial quattuorvir, quaestor for the second time. [This was]
+                    decreed by the decurions.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

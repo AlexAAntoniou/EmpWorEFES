@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000318</title>
+                <title>Minister of the Augustan Lares</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -124,7 +124,8 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>Sacred to Silvanus the god. Quintus Vibiedius Philargyrus, minister of the Augustan Lares and the Mercurial Augustales, made (this) covered table and stone altar, in fulfillment of a vow, at his own expense by the instruction of the god. </p>
+                <p>Sacred to Silvanus the god. Quintus Vibiedius Philargyrus, minister of the Augustan Lares and the Mercurial Augustales, 
+                    made (this) covered table and stone altar, in fulfillment of a vow, at his own expense by the instruction of the god. </p>
             </div>
             <div type="commentary">
                 <p></p> 

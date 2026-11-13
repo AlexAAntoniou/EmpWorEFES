@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000307</title>
+                <title>Sacerdos of the divine Augusta</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -125,10 +125,14 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>To Coelia Tertulla, daughter of Marcus, sacerdos of diva Augusta, Gabbia Tertulla, daughter of Marcus, her grandmother, set (this up). To her, before all others in the municipality, at the age of seven, by decree of the decurions, the priesthood was granted.</p>
+                <p>To Coelia Tertulla, daughter of Marcus, sacerdos of diva Augusta, Gabbia Tertulla, daughter of Marcus, 
+                    her grandmother, set (this up). To her, before all others in the municipality, at the age of seven, 
+                    by decree of the decurions, the priesthood was granted.
+                </p>
             </div>
             <div type="commentary">
-               <p>As Granino Cecere (2014) argues, it is probable that it is this Gabbia is named in <ref target="EmpWor000306.xml">EmpWor000306.</ref>. This Coelia Tertulla is mentioned in two other inscriptions (CIL 9.735, AE 1997.357) in which she is now a woman (rather than a child).</p>  
+               <p>As Granino Cecere (2014) argues, it is probable that it is this Gabbia is named in <ref target="EmpWor000306.xml">EmpWor000306.</ref>. 
+                   This Coelia Tertulla is mentioned in two other inscriptions (CIL 9.735, AE 1997.357) in which she is now a woman (rather than a child).</p>  
             </div>
             <div type="bibliography">
                 <p>

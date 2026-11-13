@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000342</title>
+                <title>Dedication to the Augustan Lares(?)</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -109,7 +109,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="divine" key="laresAugusti" cert="low"><name><supplied reason="lost" cert="low">Laribu</supplied>s</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr></expan><ex>ustis</ex></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1"/><persName type="divine" key="laresAugusti" cert="low"><name><supplied reason="lost" cert="low">Laribu</supplied>s</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>ustis</ex></expan></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="2"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/><seg part="F"><unclear>a</unclear>bius</seg></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>

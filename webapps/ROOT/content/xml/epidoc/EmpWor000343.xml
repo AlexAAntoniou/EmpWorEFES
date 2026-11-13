@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000343</title>
+                <title>Votive offering to Tiberius</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -121,7 +121,9 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    To Tiberius Caesar Augustus, son of the divine Augustus. Gaius Narbonus Flaccus, [the consul], [dedicates this] in fulfillment of a vow.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

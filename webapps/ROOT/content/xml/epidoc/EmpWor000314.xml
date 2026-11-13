@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000314</title>
+                <title>Dedication to the Augustan [Lares]</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -125,7 +125,8 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>Sacred to the Augustan [Lares]. Quintus Rasticanus Varus, Caius Pontidius Amerm=imnus, Aulus Allienus Primus and Marcus Vibius Achoristus, the first quinquennial Augustales, built this with their own money.</p>
+                <p>Sacred to the Augustan [Lares]. Quintus Rasticanus Varus, Gaius Pontidius Amerimnus, Aulus Allienus Primus and 
+                    Marcus Vibius Achoristus, the first quinquennial Augustales, built this with their own money.</p>
             </div>
             <div type="commentary">
                 <p></p> 

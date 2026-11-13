@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000315</title>
+                <title>Sacerdos of Iulia Augusta in Volcei and Atina</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -128,7 +128,11 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>To Caius Utianus Rufus Latinianus, son of Caius, of the Pomptina tribe, again quattuorvir for administering justice. Insteia Polla, daughter of Marcus, sacerdos of Iulia Augusta in Volcei and Atina, to her greatest and most tender husband, who having taken her into his home as a ward at the age of 7, for 55 years, with the greatest honour, had her as his wife. The decurions of Volcei decreed that this man be buried at public expense and honoured with an equestrian statue. To Latinia Posilla, the daughter of Marcus, the sister of Latinianus.</p>
+                <p>To Caius Utianus Rufus Latinianus, son of Caius, of the Pomptina tribe, again quattuorvir for administering justice. Insteia Polla, 
+                    daughter of Marcus, sacerdos of Iulia Augusta in Volcei and Atina, to her greatest and most tender husband, who having taken her 
+                    into his home as a ward at the age of 7, for 55 years, with the greatest honour, had her as his wife. The decurions of Volcei decreed 
+                    that this man be buried at public expense and honoured with an equestrian statue. To Latinia Posilla, the daughter of Marcus, the 
+                    sister of Latinianus.</p>
             </div>
             <div type="commentary">
                 <p>Insteia Polla performed priesthoods to Livia (Iulia Augusta), at both Atina and Volcei.</p> 

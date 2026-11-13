@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000346</title>
+                <title>Flamen of divus Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -123,7 +123,10 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    Sacred to the shades of the underworld. To Quintus Statius Verecundus, son of Publius, of tribe Quirina, aedile, quinquennial prefect, curator of the Claudian way, flamen of 
+                    the divine Augustus, quinquennial aedile again, to Quintus Statius [...]
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

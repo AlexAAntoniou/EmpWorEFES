@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000423</title>
+                <title>Sacerdos of Diva Marcia</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.incomplete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -64,13 +64,13 @@
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="ancient"></placeName> <!-- DEFAULT VALUE -->
-                                <placeName type="modern"></placeName> <!-- DEFAULT VALUE -->
-                                <geo></geo> <!-- DEFAULT VALUE -->
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/413306">Sarsina</placeName>
+                                <placeName type="modern" ref="https://www.geonames.org/6536758/sarsina.html">Sarsina</placeName>
+                                <geo>43.9194, 12.142155</geo> 
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"></provenance>
+                        <provenance type="found" subtype="discovered">Sarsina, in the Cathedral</provenance>
                         <provenance type="observed"></provenance>
                     </history>
                 </msDesc>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-10-19" who="#AA">Edited text</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -108,9 +109,40 @@
     <text>
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
-                <ab>
-                    <lb n="1"/>
-                </ab>
+                <div type="textpart" subtype="side" n="front">
+                    <ab>
+                        <lb n="1"/><persName type="divine" key="diManes"><name><expan><abbr>D</abbr><ex>is</ex></expan></name> <name><expan><abbr>M</abbr><ex>anibus</ex></expan></name></persName>
+                        <lb n="2"/><persName type="attested"><name>Cetr<supplied reason="lost" evidence="previouseditor">a</supplied>niae</name>
+                        <lb n="3"/><persName type="patronym"><name><expan><abbr>P</abbr><ex>ubli</ex></expan></name> <expan><abbr>f</abbr><ex>iliae</ex></expan></persName> <name>Severinae</name></persName>
+                        <lb n="4"/>sacerdoti
+                        <lb n="5"/><persName type="divine" key="divaMarcia"><name>divae</name> <name><expan><abbr>Marcian</abbr><ex>ae</ex></expan></name></persName>
+                        <lb n="6"/><persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name>Baebius</name> <name>Gemelli
+                        <lb n="7" break="no"/>nus</name></persName> <expan><abbr>August</abbr><ex>alis</ex></expan>  <!-- Is there a vacat in this line? -->
+                        <lb n="8"/>coniugi <expan><abbr>sanctiss</abbr><ex>imae</ex></expan>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="side" n="right">
+                    <ab>
+                        <lb n="1"/>caput ex testamento
+                        <lb n="2"/><persName type="attested"><name>Cetraniae</name> <name>Severin<hi rend="ligature">ae</hi></name></persName>
+                        <lb n="3"/><expan><abbr>collegi</abbr><ex>i</ex><abbr>s</abbr></expan> dendropho
+                        <lb n="4" break="no"/>rorum fabrum cento
+                        <lb n="5" break="no"/>nariorum <expan><abbr>munic</abbr><ex>ipi</ex></expan> <placeName><expan><abbr>Sassi</abbr><ex>natis</ex></expan></placeName>
+                        <lb n="6"/><expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan> sena milia <expan><abbr><hi rend="supraline">n</hi></abbr><ex>ummum</ex></expan> dari
+                        <lb n="7"/>volo <expan><abbr>fideiq</abbr><ex>ue</ex></expan> vestrae col
+                        <lb n="8" break="no"/>legiali committo uti
+                        <lb n="9"/>ex reditu <expan><abbr><hi rend="intraline"><am>HS</am></hi></abbr><ex>sestertium</ex></expan> <expan><abbr>quatern</abbr><ex>orum</ex></expan> <expan><abbr><hi rend="supraline">m</hi></abbr><ex>ilium</ex></expan>
+                        <lb n="10"/>FINISH!
+                        <lb n="11"/>
+                        <lb n="12"/>
+                        <lb n="13"/>
+                        <lb n="14"/>
+                        <lb n="15"/>
+                        <lb n="16"/>
+                        <lb n="17"/>
+                        <lb n="18"/>
+                    </ab>
+                </div>
             </div>
             <div type="apparatus">
                 <listApp>
@@ -118,7 +150,10 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    FRONT: To the spirits of the underworld, for Cetrania Severina, daughter of Publius, sacerdos of diva Marcia. Titus Baebius Gemellinus, Augustalis [dedicated this] for his most sanctified wife.
+                    RIGHT:
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

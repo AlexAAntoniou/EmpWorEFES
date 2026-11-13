@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000308</title>
+                <title>Flamen of the divine Titus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -123,7 +123,10 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>[---]s Capito, son of Quintus, of Clustumina tribe, flamen of the divine Titus, patron of the municipium, quattuorvir for the administration of roads, military tribune of the 4th legion Flavia Felicis, quaestor, ordered the construction of the amphitheatre in his will.</p>
+                <p>[---]s Capito, son of Quintus, of Clustumina tribe, flamen of the divine Titus, patron of the municipium, 
+                    quattuorvir for the administration of roads, military tribune of the 4th legion Flavia Felicis, quaestor, 
+                    ordered the construction of the amphitheatre in his will.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

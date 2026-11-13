@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000306</title>
+                <title>Sacerdos of the divine Augusta</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -121,7 +121,9 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>[the temple?] of Iuno Regina, [---] collapsed [from age?], Gabbia [Tertulla?] [daughter of Marcus?], sacerdos of the divine Augusta, oversaw its restoration [---].</p>
+                <p>[the temple?] of Iuno Regina, [---] collapsed [from age?], Gabbia [Tertulla?] [daughter of Marcus?], 
+                    sacerdos of the divine Augusta, oversaw its restoration [---].
+                </p>
             </div>
             <div type="commentary">
                 <p>As Granino Cecere (2014) argues, it is probable that Gabbia is the grandmother of Coelia Tertulla, both of whom are named in <ref target="EmpWor000307.xml">EmpWor000307.</ref></p> 

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000336</title>
+                <title>Dedication of a statue(?) of Iustitia Augusta</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -123,7 +123,10 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    [---] Lucius Volusius, [---] Titus Mallius, [---] Gaius Pomponius, paved the ochestra, podium and tribunal, [and] [dedicated?] [a statue] of Iustita Augusta,
+                    for the decurions [---], [funded?] scaenic games for four days and [---].
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

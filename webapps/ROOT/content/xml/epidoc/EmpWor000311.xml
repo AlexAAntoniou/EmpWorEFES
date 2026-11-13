@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000311</title>
+                <title>Dedication to the [numen] of Constantine I</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -125,7 +125,9 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p>To Imperator Caesar Flavius Valerius Costantinus Pius Felix Aeternus Invictus Augustus, pontifex maximus, with tribunician power, consul twice, father of the fatherland, proconsul. Vibonius Caecilianus, the most perfect man, corrector of Apulia [and Calabria, devoted to his divine force and majesty].</p>
+                <p>To Imperator Caesar Flavius Valerius Costantinus Pius Felix Aeternus Invictus Augustus, chief pontiff, 
+                    with tribunician power, consul twice, father of the fatherland, proconsul. Vibonius Caecilianus, the most 
+                    perfect man, corrector of Apulia [and Calabria, devoted to his divine force and majesty].</p>
             </div>
             <div type="commentary">
                 <p></p> 
