@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-07-27" who="#AA">Original data collection and editing</change> 
+                <change when="2025-07-27" who="#AA">Original data collection and editing</change>
+                <change when="2026-11-19" who="#AA">Added commentary and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -121,10 +122,12 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    [Lucius] Ti]tin[ius Glaucus Lucretianus] [---] [patron] of the c[olony?] [---] [---]ac[---] [---] [flamen] of Augustus [---].
+                </p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>This might be the same Lucius Titinius Glaucus Lucretianus as in <ref target="EmpWor000476">EmpWor000476</ref> and <ref target="EmpWor000477">EmpWor000477</ref> both from Luna (It. VII), in <ref target="EmpWor000475">EmpWor000475</ref> that is probably also from Luna (It. VII), and in CIL 11.1332 and CIL 11.1349a (both from Luna, It. VII).</p> 
             </div>
             <div type="bibliography">
                 <p>

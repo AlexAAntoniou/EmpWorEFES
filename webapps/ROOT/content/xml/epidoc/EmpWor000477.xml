@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000477</title>
+                <title>Flamen of Roma and Flamen of Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Long rectangular marble statue base, with carefully carved frame for text. Visible presence of incised guidelines throughout. Right side is broken.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
@@ -46,14 +46,14 @@
                                 <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Text is divided between three upper columns, and a footer (that ends under column b and appears to go no further to the right, where the stone is broken).</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is relatively neat and even, although the letters are significantly crowded on the stone, leading to a rather blocky shape to the incised letters. Use of triangular interpuncts. Serifs are prominent. In line 1 of the footer, the first "L" is much taller than the rest of the line; this is repeated in the "L" of his filiation, as well as the "F" of "f(ilius)" in the same line</p>
                                 <locus from="line1" to="line6">Lines 1–6</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">12–35</height>
@@ -68,7 +68,7 @@
                                 <placeName type="modern" ref="https://www.geonames.org/6697611/luni-mare.html">Luni Mare</placeName>
                                 <geo>44.064253, 10.016856</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate/> <!-- EDR dates to 63, using Cooley I think its 62! -->
                         </origin>
                         <provenance type="found" subtype="discovered">Discovered at Luni, near the theatre (near a well).</provenance>
                         <provenance type="observed"></provenance>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-07-29" who="#AA">Original data collection and editing</change>
+                <change when="2026-11-19" who="#AA">Addition of text and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -107,21 +108,55 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA"> <!-- compare with photograph -->
-                <ab>
-                    <lb n="1"/>
-                </ab>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
+                <div type="textpart" subtype="column" n="a">
+                    <ab>
+                        <lb n="1"/><persName type="ruler" key="Poppaea"><name>Poppaeaae</name> <name><expan><abbr>Aug</abbr><ex>ustae</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="ruler" key="nero"><name>Neronia</name>
+                        <lb n="2"/><name>Caesaris</name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Germ</abbr><ex>anici</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <supplied reason="omitted">uxori</supplied>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="b">
+                    <ab>
+                        <lb n="1"/><persName type="ruler" key="nero"><name>Neroni</name> <g ref="symbols.xml#interpunct">·</g> <name>Claudio</name> <persName type="patronym" key="claudius"><name>divi</name>
+                        <lb n="2"/><name>Claudii</name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym" key="germanicus"><name>Germanici</name>
+                        <lb n="3"/><name>Caesaris</name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>epoti</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym" key="tiberius"><name><expan><abbr>Ti</abbr><ex>beri</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Caesaris</name>
+                        <lb n="4"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <g ref="symbols.xml#interpunct">·</g> pro <g ref="symbols.xml#interpunct">·</g> <expan><abbr><hi rend="supraline">n</hi></abbr><ex>epoti</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym" key="augustus"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>ab<hi rend="supraline">n</hi></abbr><ex>epoti</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g>
+                        <lb n="5"/>Caesari <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <g ref="symbols.xml#interpunct">·</g> Germanico <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>ontifici</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>m</abbr><ex>aximo</ex></expan> <g ref="symbols.xml#interpunct">·</g>
+                        <lb n="6"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>potest</abbr><ex>ate</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="9"><hi rend="supraline">VIIII</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>imp</abbr><ex>eratori</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="9"><hi rend="supraline">VIIII</hi></num> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="4"><hi rend="supraline">IIII</hi></num></persName>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="c">
+                    <ab>
+                        <lb n="1"/><persName type="divine" key="divaClaudia"><name><unclear>D</unclear><supplied reason="lost" cert="low">ivae</supplied></name> <name><supplied reason="lost" cert="low">Claudiae</supplied></name></persName>
+                        <lb n="2"/><persName type="patronym"><name>N<supplied reason="lost" cert="low">eronis</supplied></name> <name><supplied reason="lost" cert="low">Augusti</supplied></name> <supplied reason="lost" cert="low">filiae</supplied></persName>
+                        <lb n="3"/>v<supplied reason="lost" cert="low">irgini</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="4"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="column" n="footer">
+                    <ab>
+                        <lb n="1"/><persName type="attested"><name><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Titinius</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Gal</abbr><ex>eria</ex></expan> <g ref="symbols.xml#interpunct">·</g> <name>Glaucus</name> <g ref="symbols.xml#interpunct">·</g> <name>Lucretianus</name></persName> <g ref="symbols.xml#interpunct">·</g> duovir <g ref="symbols.xml#interpunct">·</g> IIII <g ref="symbols.xml#interpunct">·</g> <expan><abbr>quinq</abbr><ex>uennalis</ex></expan> <g ref="symbols.xml#interpunct">·</g> primus <g ref="symbols.xml#interpunct">·</g> creatus <g ref="symbols.xml#interpunct">·</g> bene
+                        <lb n="2" break="no"/>ficio <g ref="symbols.xml#interpunct">·</g> <persName type="ruler" key="claudius"><name>divi</name> <g ref="symbols.xml#interpunct">·</g> <name>Claudii</name></persName> <g ref="symbols.xml#interpunct">·</g> praefectus <g ref="symbols.xml#interpunct">·</g> <persName type="ruler" key="nero"><name>Neronis</name> <g ref="symbols.xml#interpunct">·</g> <name>Claudi</name> <g ref="symbols.xml#interpunct">·</g> <name>Caesaris</name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Aug</abbr><ex>usti</ex></expan></persName> patronus <g ref="symbols.xml#interpunct">·</g> coloniae <g ref="symbols.xml#interpunct">·</g> sevir
+                        <lb n="3"/>equitum <g ref="symbols.xml#interpunct">·</g> Romanorum <g ref="symbols.xml#interpunct">·</g> curio <g ref="symbols.xml#interpunct">·</g> sacrorum <g ref="symbols.xml#interpunct">·</g> faciundorum <g ref="symbols.xml#interpunct">·</g> <expan><abbr>fl</abbr><ex>amen</ex></expan> <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="roma"><name>Romae</name></persName> <g ref="symbols.xml#interpunct">·</g> flamen <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="augustus"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> v beneficio <persName key="ruler"><name>Caesaris</name></persName> <g ref="symbols.xml#interpunct">·</g>
+                        <lb n="4"/>creatus <expan><abbr>trib</abbr><ex>unus</ex></expan> <g ref="symbols.xml#interpunct">·</g> militum <g ref="symbols.xml#interpunct">·</g> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="22"><hi rend="supraline">XXII</hi></num> <g ref="symbols.xml#interpunct">·</g> Primigeniae <g ref="symbols.xml#interpunct">·</g> praefectus <g ref="symbols.xml#interpunct">·</g> insularum <g ref="symbols.xml#interpunct">·</g> <placeName><name>Baliarum</name></placeName>
+                    </ab>
+                </div>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; with comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    Column A: To Poppaea Augusta, [wife of] Nero Caesar Augustus Germanicus
+                    Column B: To Nero Claudius Caesar Augustus Germanicus, son of the divine Claudius, grandson of Germanicus Caesar, great-grandson of Tiberius Caesar Augustus, great-great-grandson of the divine Augustus, pontifex maximus, bearer of tribunician power for the 9th time, imperator for the 9th time, consul for the 4th.
+                    Columm C: [To the Divine Claudia?], [daughter of Nero Augustus?], [virgin?] [---]
+                    Footer: Lucius Titinius Glaucus Lucretianus, son of Lucius, of the tribe Galeria, duovir for the 4th time, appointed quinquennalis first by the favour of the Deified Claudius, prefect of Nero Claudius Caesar Augustus, patron of the colony, sevir of the Roman equites, curio for performing sacred rites, flamen of Roma [and] flamen of Augustus, appointed by the favour of Caesar, military tribune of the 22nd Legion Primigenia, prefect of the Balaeric Islands.
+                </p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>This is the same Lucius Titinius Glaucus Lucretianus as in <ref target="EmpWor000476">EmpWor000476</ref> from Luna (It. VII), <ref target="EmpWor000475">EmpWor000475</ref> that is probably also from Luna (It. VII), and in CIL 11.1332 and CIL 11,1349a (both from Luna, It. VII). He may also be attested in <ref target="EmpWor000451">EmpWor000451</ref> from Cosa (It. VII).</p> 
             </div>
             <div type="bibliography">
                 <p>

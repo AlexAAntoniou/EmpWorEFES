@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000795</title>
+                <title>[Flamen] of Roma and Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,26 +34,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                <support><p>Irregularly shaped fragment of a plaque, broken top, left, and bottom.</p>
+                                    <material ana="#material.stone.limestone" ref="https://www.eagle-network.eu/voc/material/lod/66.html">White Limestone</material>
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
                                     <dimensions>
                                         <height unit="cm">90</height>
                                         <width unit="cm">110.5</width>
                                         <depth unit="cm">28</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragment"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Six surviving lines of Latin. Impossible to be certain, but given the gaps along the right edge, it is possible that the text was centred on the stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Letters are deely and sharply incised, and text is exceptionally neat, although to the naked eye the gap between surviving lines 5 and 6 appears to widen as the text moves to the right of the stone. All letters bare clear serifs, with long tail on "Q" in surviving line 2. Small triangular interpuncts.</p>
                                 <locus from="line1" to="line6">Lines 1–6</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">77–90</height>
@@ -92,13 +92,14 @@
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html" cert="low">Funerary(?)</term> <!-- DEFAULT VALUE -->
+                    <term ana="#function.funerary" ref="http://www.eagle-network.eu/voc/typeins/lod/92.html" cert="low">Funerary(?)</term>
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-11-19" who="#AA">Addition of object, text, and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,23 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="undefined" evidence="previouseditor">R</supplied> <num value="2">II</num>
+                    <lb n="2"/><supplied reason="lost">IIIIvir <expan><abbr>iur</abbr><ex>e</ex></expan></supplied> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>dic</abbr><ex>undo</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>q</abbr><ex>uinquennalis</ex></expan>
+                    <lb n="3"/><supplied reason="lost"><expan><abbr>flam</abbr><ex>en</ex></expan></supplied> <persName type="divine" key="roma"><name><expan><abbr><supplied reason="lost">R</supplied>om</abbr><ex>ae</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="augustus"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+                    <lb n="4"/><supplied reason="lost">curator</supplied> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>con</abbr><ex>ventus</ex></expan> <g ref="symbols.xml#interpunct">·</g> civium <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Rom</abbr><ex>anorum</ex></expan>
+                    <lb n="5"/><supplied reason="lost"><expan><abbr>tr</abbr><ex>ibunus</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan></supplied> <placeName><name><supplied reason="lost">Bri</supplied>tannia</name></placeName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>ann</abbr><ex>orum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="7"><hi rend="supraline">VII</hi></num>
+                    <lb n="6"/><supplied reason="lost"><expan><abbr>praef</abbr><ex>ectus</ex></expan></supplied> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>equit</abbr><ex>um</ex></expan> <g ref="symbols.xml#interpunct">·</g> <placeName><name><expan><abbr>Cyren</abbr><ex>is</ex></expan></name></placeName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>ann</abbr><ex>orum</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="6"><hi rend="supraline">VI</hi></num>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; comparison with photograph</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    [---]R II, [quattuorvir] for the purposes of administering [justice], quinquennalis, [flamen] of Roma and Augustus, [curator] of the association of Roman citizens, military tribune in Britain for 7 years, prefect of cavalry in Cyrene for 6 years [---]. 
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

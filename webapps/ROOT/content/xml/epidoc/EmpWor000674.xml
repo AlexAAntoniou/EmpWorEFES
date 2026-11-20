@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000674</title>
+                <title>Flamen of the divine Augustus and of Roma</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -35,7 +35,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p></p>
-                                    <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
+                                    <material ana="#material.stone.limestone" ref="https://www.eagle-network.eu/voc/material/lod/66.html">Pinkish limestone</material>
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
                                         <height unit="cm">88</height>
@@ -43,7 +43,7 @@
                                         <depth unit="cm">60</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-11-19" who="#AA">Addition of text and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,27 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name>Caicilio</name>
+                    <lb n="2"/><name>Cisiaco</name> <name>Septicio</name>
+                    <lb n="3"/><name>Picai</name> <name>Caiciliano</name></persName>
+                    <lb n="4"/><expan><abbr>procur</abbr><ex>atori</ex></expan> <expan><abbr>Augustor</abbr><ex>um</ex></expan> et
+                    <lb n="5"/>pro <expan><abbr>leg</abbr><ex>ato</ex></expan> provinciai
+                    <lb n="6"/><placeName><name>Raitiai</name></placeName> et <placeName><name><expan><abbr>Vindelic</abbr><ex>iae</ex></expan></name></placeName>
+                    <lb n="7"/>et <placeName><name>Vallis</name> <name><expan><abbr>Poenin</abbr><ex>ae</ex></expan></name></placeName> auguri
+                    <lb n="8"/>flamini <persName type="divine" key="divusAugustus"><name>divi</name> <name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> et <persName type="divine" key="roma">Romai</persName>
+                    <lb n="9"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Ligurius</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>Vol</abbr><ex>tinia</ex></expan> <name>Asper</name></persName>
+                    <lb n="10"/><expan><abbr><am><g type="centuria"/></am></abbr><ex>centurio</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <num value="1">I</num> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr>ingenuor</abbr><ex>um</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    To Quintus Caicilius Cisiacus Septicius Pica Caicilianus, procurator of the Augusti and legate for the provinces of Raetia, Vindelicia and Vallis Poenina, augur, flamen of the divine Augustus and of Roma. Gaius Ligurius Asper, son of Lucius, of the tribe Voltinia, centurion of the 1st cohort of freeborn Roman citizens [set this up].
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

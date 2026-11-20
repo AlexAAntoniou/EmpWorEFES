@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000797</title>
+                <title>Flamen of Roma and Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -36,14 +36,14 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> 
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.fragmentary"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -98,7 +98,8 @@
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-11-19" who="#AA">Addition of text and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,20 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>T</abbr><ex>itus</ex></expan></name> <name>Sornius</name> <persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied></persName> <name>Dex<supplied reason="lost">t</supplied>er</name></persName> IIIIvir <expan><abbr>aed</abbr><ex>ilicia</ex></expan> <expan><abbr><supplied reason="lost">p</supplied>o<supplied reason="lost">t</supplied></abbr><ex>estate</ex></expan>
+                    <lb n="2"/>augur <expan><abbr>flam</abbr><ex>en</ex></expan> <persName type="divine" key="roma"><name>Romae</name></persName> <supplied reason="lost">e</supplied>t <persName type="divine" key="augustus"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName> <expan><abbr>pra<supplied reason="lost">ef</supplied></abbr><ex>ectus</ex></expan> <supplied reason="lost"><expan><abbr>fabr</abbr><ex>um</ex></expan></supplied>
+                    <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    Titus Sornius Dexter, [son] of Lucius, quattuorvir with aedilician power, augur, flamen of Roma and Augustus, prefect [of engineers] [---]
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
@@ -132,6 +137,11 @@
                 <p>
                     <bibl>
                         <ptr target="EDCS"/> <citedRange>04202472</citedRange>
+                    </bibl>
+                </p>
+                <p>
+                    <bibl>
+                        <ptr target="EDR"/> <citedRange>199022</citedRange>
                     </bibl>
                 </p>
             </div>

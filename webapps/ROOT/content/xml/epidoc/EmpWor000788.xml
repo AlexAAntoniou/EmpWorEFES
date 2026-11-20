@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000788</title>
+                <title>Flamen of Roma and Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,26 +34,26 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Almost complete rectangular statue-base, with abrasions to the edges and minor abrasions to the front face. Text within carved entabulature.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType>
+                                    <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html">Statue Base</objectType>
                                     <dimensions>
                                         <height unit="cm">89.5</height>
                                         <width unit="cm">59</width>
                                         <depth unit="cm">29.9</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Fifteen lines of Latin inscription, roughly centered on the stone.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p></p>
+                            <handNote><p>Text is very neat and well-formed, although the occasional letter is slanted to the right slighly. Letter heights uniform across each line. Clear serifs on all letters, with long tails on the "Q"s in line 6 and line 13. Small, circular interpuncts.</p>
                                 <locus from="line1" to="line15">Lines 1–15</locus>
                                 <dimensions type="letterHeight">
                                     <height unit="mm">23–44</height>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-11-19" who="#AA">Addition of text, object, and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,19 +110,35 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aio</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <name>Valerio</name> <g ref="symbols.xml#interpunct">·</g> <persName type="patronym"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>f</abbr><ex>ilio</ex></expan></persName> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>Pap</abbr><ex>iria</ex></expan>
+                    <lb n="2"/><name>Mariano</name></persName>
+                    <lb n="3"/>honores <g ref="symbols.xml#interpunct">·</g> omnes
+                    <lb n="4"/>adepto <g ref="symbols.xml#interpunct">·</g> <placeName><name><expan><abbr>Trident</abbr><ex>i</ex></expan></name></placeName> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="5"/>flamini <g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="roma"><name><expan><abbr>Rom</abbr><ex>ae</ex></expan></name></persName> <g ref="symbols.xml#interpunct">·</g> et <g ref="symbols.xml#interpunct">·</g> <persName type="attested"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+                    <lb n="6"/><expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>quinq</abbr><ex>uennali</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>augur</abbr><ex>i</ex></expan>
+                    <lb n="7"/>adlecto <g ref="symbols.xml#interpunct">·</g> <expan><abbr>annon</abbr><ex>ae</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <g ref="symbols.xml#interpunct">·</g> <num value="3"><hi rend="supraline">III</hi></num>
+                    <lb n="8"/><expan><abbr>Italic</abbr><ex>ae</ex></expan> <g ref="symbols.xml#interpunct">·</g> sodali <g ref="symbols.xml#interpunct">·</g> <expan><abbr>sacror</abbr><ex>um</ex></expan>
+                    <lb n="9"/><expan><abbr>Tusculanor</abbr><ex>um</ex></expan> <g ref="symbols.xml#interpunct">·</g> iudici
+                    <lb n="10"/>selecto <g ref="symbols.xml#interpunct">·</g> <expan><abbr>decur</abbr><ex>iali</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>trib</abbr><ex>unicio</ex></expan>
+                    <lb n="11"/>decurioni <g ref="symbols.xml#interpunct">·</g> <placeName><name>Brixiae</name></placeName>
+                    <lb n="12"/>curatori <g ref="symbols.xml#interpunct">·</g> rei <g ref="symbols.xml#interpunct">·</g> <expan><abbr>p</abbr><ex>ublicae</ex></expan> <g ref="symbols.xml#interpunct">·</g> <placeName><name><expan><abbr>Mant</abbr><ex>uanorum</ex></expan></name></placeName>
+                    <lb n="13"/>equo <g ref="symbols.xml#interpunct">·</g> <expan><abbr>publ</abbr><ex>ico</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>praef</abbr><ex>ecto</ex></expan> <g ref="symbols.xml#interpunct">·</g> <expan><abbr>fabr</abbr><ex>um</ex></expan>
+                    <lb n="14"/>patrono <g ref="symbols.xml#interpunct">·</g> <expan><abbr>colon</abbr><ex>iae</ex></expan>
+                    <lb n="15"/>publice
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR; with comparison to photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    To Gaius Valerius Marianus, son of Gaius, of tribe Papiria, having obtained all the honours at Tridentum, flamen of Roma and Augustus, quinquennial prefect, augur, appointed to the grain supply of the Third Italic Legion, member of the priesthood for the sacred rites at Tusculum, selected judge of the tribunician decury, decurion at Brixia, curator of the public affairs of the Mantuans, honoured with a public horse, prefect of engineers, patron of the colony. [This was] erected at public expense.
+                </p>
             </div>
             <div type="commentary">
-                <p></p> 
+                <p>This is the same Gaius Valerius Marianus in AE 1990.422</p> 
             </div>
             <div type="bibliography">
                 <p>

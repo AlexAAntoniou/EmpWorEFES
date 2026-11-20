@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000798</title>
+                <title>Flamen of Roma and Augustus</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -43,7 +43,7 @@
                                         <depth unit="cm">22</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-06-30" who="#AA">Original data collection and editing</change> <!-- DEFAULT VALUE -->
+                <change when="2025-06-30" who="#AA">Original data collection and editing</change>
+                <change when="2026-11-19" who="#AA">Addition of text and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,16 +110,27 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName type="divine" key="isis"><name>Isidi</name></persName> <expan><abbr>don</abbr><ex>um</ex></expan>
+                    <lb n="2"/><persName type="attested"><name><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name>Papirius</name>
+                    <lb n="3"/><persName type="patronym"><name><expan><abbr>L</abbr><ex>uci</ex></expan></name> <expan><abbr>f</abbr><ex>ilius</ex></expan></persName> <expan><abbr>Pob</abbr><ex>lilia</ex></expan>
+                    <lb n="4"/><name>Macer</name>
+                    <lb n="5"/><name>Calven<hi rend="ligature">ti</hi>anus</name></persName>
+                    <lb n="6"/><hi rend="supraline">IIII</hi>vir <expan><abbr>aed</abbr><ex>ilicia</ex></expan> <expan><abbr>p</abbr><ex>otestate</ex></expan>
+                    <lb n="7"/><expan><abbr>q</abbr><ex>uaestor</ex></expan> aerari
+                    <lb n="8"/><expan><abbr>flam</abbr><ex>en</ex></expan> <persName type="divine" key="roma"><name><expan><abbr>Rom</abbr><ex>ae</ex></expan></name></persName>
+                    <lb n="9"/>et <persName type="divine" key="augustus"><name><expan><abbr>Aug</abbr><ex>usti</ex></expan></name></persName>
+                    <lb n="10"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- DEFAULT VALUE -->
+                    <app><note>Text from EDR</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    A gift to Isis. Gaius Papirius Macer Calventianus, son of Lucius, of tribe Poblilia, quattuorvir with aedilician power, quaestor of the treasury, flamen of Roma and Augustus. This place was given by decree of the decurions.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
