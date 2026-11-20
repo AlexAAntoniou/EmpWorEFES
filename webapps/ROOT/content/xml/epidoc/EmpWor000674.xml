@@ -68,7 +68,7 @@
                                 <placeName type="modern" ref="https://www.geonames.org/3174020/marano-di-valpolicella.html">Marano di Valpolicella</placeName>
                                 <geo>45.5669146473, 10.9199075946</geo>
                             </origPlace>
-                            <origDate/>
+                            <origDate/> <!-- procuratores of Augusti Caesars among the Vindelicans and Raetians and in the Vallis Poenina, dated after the subjugation of these Alpine regions: Laffi 1977: 376–7). -->
                         </origin>
                         <provenance type="found" subtype="discovered">Discovered in Cariano, S. Pietro, hamlet of S. Floriano, in a re-use context. Found then in Ponton in the Nichesola collection.</provenance>
                         <provenance type="observed"></provenance>
