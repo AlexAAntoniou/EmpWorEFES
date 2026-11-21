@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000514</title>
+                <title>Dedication to Stata Augusta Mater</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -36,14 +36,14 @@
                             <supportDesc>
                                 <support><p></p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble</material> <!-- DEFAULT VALUE -->
-                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html">Plaque</objectType> <!-- DEFAULT VALUE -->
+                                    <objectType ana="#object.plaque" ref="https://www.eagle-network.eu/voc/objtyp/lod/250.html" cert="low">Plaque(?)</objectType>
                                     <dimensions>
                                         <height unit="cm"></height>
                                         <width unit="cm"></width>
                                         <depth unit="cm"></depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#condition.complete"/> <!-- DEFAULT VALUE -->
+                                <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
@@ -98,7 +98,8 @@
         </profileDesc>
         <revisionDesc status="unrevised">
             <listChange>
-                <change when="2025-07-25" who="#AA">Original data collection and editing</change> 
+                <change when="2025-07-25" who="#AA">Original data collection and editing</change>
+                <change when="2026-11-20" who="#AA">Added translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,7 +110,7 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="divine"><name>Statae</name> <name>Augustae</name> <!-- key to add -->
+                    <lb n="1"/><persName type="divine" key="stataAugustaMater"><name>Statae</name> <name>Augustae</name>
                     <lb n="2"/><name>Matri</name></persName> sacrum
                     <lb n="3"/><persName type="attested"><name>Opicernia</name> <persName type="patronym"><name><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <expan><abbr>l</abbr><ex>iberta</ex></expan></persName>
                     <lb n="4"/><name>Acris</name></persName> posuit    
@@ -121,7 +122,9 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    Sacred to Stata Augusta Mater. Opicernia Acris, freedwoman of Quintus, set this up.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

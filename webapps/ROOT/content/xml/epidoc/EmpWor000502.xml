@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000502</title>
+                <title>Dedication to Isis Augusta</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
                 <change when="2025-07-25" who="#AA">Original data collection and editing</change> 
+                <change when="2026-11-20" who="#AA">Added translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -123,7 +124,9 @@
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                    In honour of Isis Augusta, sacred to Apollo, Critonia Chrotis, freedwoman of Gnaeus, gave this gift on account of her service.
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 

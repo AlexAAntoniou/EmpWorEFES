@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EmpWor000516</title>
+                <title>Dedication to Iustitia Augusta</title>
                 <editor ref="#AA">Alex A. Antoniou</editor>
                 <principal ref="#AA"></principal>
                 <funder>Royal Society of Edinburgh Small Research Grant</funder>
@@ -34,7 +34,7 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p></p>
+                                <support><p>Circular, columnar statue-base(?), broken or abraded at top but otherwise in good condition.</p>
                                     <material ana="#material.stone.marble" ref="https://www.eagle-network.eu/voc/material/lod/48.html">Marble (Lunense)</material> 
                                     <objectType ana="#object.statuebase" ref="https://www.eagle-network.eu/voc/objtyp/lod/57.html" cert="low">Statue Base(?)</objectType>
                                     <dimensions>
@@ -46,17 +46,17 @@
                                 <condition ana="#condition.complete"/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
+                                <layout><p>Two lines of Latin inscription, at top of surviving part of column.</p>
                                     <rs ana="#execution.chiselled" ref="http://www.eagle-network.eu/voc/writing/lod/1">chiselled</rs>
                                     <damage/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>20</p>
+                            <handNote><p>Letters are well-formed, but thin and clear serifs. First "I" in line 1 is tall, as is the "T" of "Augustae"</p>
                                 <locus from="line1" to="line2">Lines 1–2</locus>
                                 <dimensions type="letterHeight">
-                                    <height unit="mm"></height>
+                                    <height unit="mm">20</height>
                                 </dimensions>
                             </handNote>
                         </handDesc>
@@ -96,9 +96,10 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <revisionDesc status="unrevised">
+        <revisionDesc status="draft">
             <listChange>
-                <change when="2025-07-26" who="#AA">Original data collection and editing</change> 
+                <change when="2025-07-26" who="#AA">Original data collection and editing</change>
+                <change when="2026-11-20" who="#AA">Added translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -109,17 +110,19 @@
         <body>
             <div type="edition" xml:space="preserve" xml:lang="la" resp="#AA">
                 <ab>
-                    <lb n="1"/><persName type="divine" key="iustitiaAugusta"><name>Iustitiae</name> <name>Augustae</name></persName>
-                    <lb n="2"/>sacrum
+                    <lb n="1"/><g ref="symbols.xml#interpunct">·</g> <persName type="divine" key="iustitiaAugusta"><name>Iustitiae</name> <g ref="symbols.xml#interpunct">·</g> <name>Augustae</name></persName> <g ref="symbols.xml#interpunct">·</g>
+                    <lb n="2"/>sacrum <g ref="symbols.xml#interpunct">·</g>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Text from EDR</note></app> <!-- Comparison to photograph -->
+                    <app><note>Text from EDR; comparison with photograph.</note></app>
                 </listApp>
             </div>
             <div type="translation" xml:lang="en" resp="#AA">
-                <p></p>
+                <p>
+                  Sacred to Iustitia Augusta.  
+                </p>
             </div>
             <div type="commentary">
                 <p></p> 
